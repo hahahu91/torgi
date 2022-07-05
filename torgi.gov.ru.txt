@@ -1,3 +1,6 @@
+Нежилые помещения только продажа
+земельный участок можно аренда
+
 User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0
 
 https://torgi.gov.ru/new/api/public/lotcards/search?subjRF=12&withFacets=true&size=5&sort=updateDate,desc
@@ -20,3 +23,8 @@ https://torgi.gov.ru/new/public/lots/lot/21000004300000000002_1/(lotInfo:info)
  https://torgi.gov.ru/new/api/public/lotcards/search?subjRF=91,58,21,77,12&lotStatus=APPLICATIONS_SUBMISSION&catCode=11&withFacets=true&size=5&sort=updateDate,desc
  
  https://torgi.gov.ru/new/api/public/lotcards/search?subjRF=91,58,21,77,12&lotStatus=APPLICATIONS_SUBMISSION&catCode=11&withFacets=true&page=1&size=5&sort=updateDate,desc
+ https://torgi.gov.ru/new/api/public/lotcards/search?subjRF=91,58,21,77,12&lotStatus=APPLICATIONS_SUBMISSION&catCode=11&withFacets=true&page=2&size=5&sort=updateDate,desc
+ 
+ 
+ "biddType": {
+            "code": "67FAS",

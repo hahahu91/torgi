@@ -7,6 +7,7 @@ import json
 import pandas as pd
 from pandas import json_normalize
 from datetime import datetime
+import re
 
 MIN_AREA = 10
 BIDD_TYPE = {
@@ -56,8 +57,8 @@ def transform_into_flatter_structure(amount_files):
                 total_area = i['characteristics'][0]['characteristicValue']
                 # if total_area < MIN_AREA:
                 #     continue
-                if " доли " in i['lotName'] or " доля " in i['lotName'] or " гараж" in i['lotName']:
-                    continue
+                # if " доли " in i['lotName'] or " доля " in i['lotName'] or " гараж" in i['lotName']:
+                #     continue
 
                 price = i['priceMin']
                 # if MIN_PRICE > price or price > MAX_PRICE:
@@ -68,20 +69,43 @@ def transform_into_flatter_structure(amount_files):
                 except:
                     bidd_type = i['biddType']['code']
 
-                object = {
-                    "id":i['id'],
-                    "Имущество": bidd_type,
-                    "Форма проведения": i['biddForm']['code'],
-                    "Название": i['lotName'],
-                    "Цена": price,
-                    "Окончания подачи заявок":  datetime.strptime(i['biddEndTime'], "%Y-%m-%dT%H:%M:%S.000+00:00").strftime("%d/%m/%y %H:%M"),
-                    "Общая площадь": total_area
-                }
 
+                characteristics = {}
                 for characteristic in i['characteristics']:
                     if "characteristicValue" in characteristic:
-                        if characteristic['characteristicValue'] not in ["не состоит", "Отсутствуют", "не является предметом залога", "Обременения отсутствуют", "не установлено", "нет", "не имеется", "не обременено"]:
-                            object[characteristic['name']] = characteristic['characteristicValue']
+                        characteristics[characteristic['name']] = characteristic['characteristicValue']
+                    else:
+                        characteristics[characteristic['name']] = None
+
+                #удаляем из названия кадастровый номер и сохраняем его в отдельном столбце
+                kad_pattern = re.compile(r',?\s*(:?кад\. №|кадастровый номер|кадастровый №):?\s*([\d+:\d+]+)', flags=re.IGNORECASE)
+                match = kad_pattern.search(i['lotName'])
+                if match:
+                    characteristics['Кадастровый номер'] = match[2]
+                    i['lotName'] = kad_pattern.sub('', i['lotName'])
+                else:
+                    if not characteristics['Кадастровый номер']:
+                        if characteristics[ 'Кадастровый номер объекта недвижимости (здания, сооружения), в пределах которого расположено помещение']:
+                            characteristics['Кадастровый номер'] = characteristics['Кадастровый номер объекта недвижимости (здания, сооружения), в пределах которого расположено помещение']
+
+                #удаляем адрес и сохраняем в отдельном
+                address_pattern = re.compile(r'(:?(:?расположен\w+|находящееся) по адресу|местоположение):?\s*(?P<address>.+)$', flags=re.IGNORECASE)
+                address = address_pattern.search(i['lotName'])
+                i['lotName'] = address_pattern.sub('', i['lotName'])
+
+                object = {
+                    "id": i['id'],
+                    "Регион": i['subjectRFCode'],
+                    "Общая площадь": total_area,
+                    "Название": i['lotName'],
+                    "Цена": price,
+                   # "Адрес": address[0],
+                    "Окончания подачи заявок": datetime.strptime(i['biddEndTime'], "%Y-%m-%dT%H:%M:%S.000+00:00").strftime("%d/%m/%y %H:%M"),
+                    "Кадастровый номер": characteristics['Кадастровый номер'],
+                    "Кадастровая стоимость": characteristics['Кадастровая стоимость '],
+                    "Форма проведения": i['biddForm']['code'],
+                    "Имущество": bidd_type
+                }
                 data["content"].append(object)
 
     with open(f"torgi/result_full.json", "w", encoding='utf8') as file:

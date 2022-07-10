@@ -1,0 +1,881 @@
+{
+    "content": [
+        {
+            "id": "21000005000000002265_1",
+            "lotStatus": "APPLICATIONS_SUBMISSION",
+            "biddType": {
+                "code": "178FZ",
+                "name": "Продажа (приватизация) государственного и муниципального имущества"
+            },
+            "biddForm": {
+                "code": "PP",
+                "name": "Публичное предложение"
+            },
+            "lotName": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: г. Москва, ул. Марии Ульяновой, д. 3, корп. 3 площадью 223,7 кв. м (Цокольный этаж № 0), кадастровый номер: 77:06:0001006:3729 посредством публичного предложения",
+            "lotDescription": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: г. Москва, ул. Марии Ульяновой, д. 3, корп. 3 площадью 223,7 кв. м (Цокольный этаж № 0), кадастровый номер: 77:06:0001006:3729 посредством публичного предложения",
+            "priceMin": 9469000.0,
+            "biddEndTime": "2022-08-01T12:00:00.000+00:00",
+            "lotImages": [
+                "62b59a8f18e2e37fdc32c6cf",
+                "62b59a901c53e20ba76d0f05",
+                "62b59a90c7d464240974f22e",
+                "62b59a9218e2e37fdc32c6f1",
+                "62b59a92c7d464240974f232",
+                "62b59a9318e2e37fdc32c6f8",
+                "62b59a9418e2e37fdc32c714",
+                "62b59a96c7d464240974f24e",
+                "62b59a9718e2e37fdc32c733",
+                "62b59a981c53e20ba76d0f0d",
+                "62b59a99c2b91d60c20b8263",
+                "62b59a9b18e2e37fdc32c750"
+            ],
+            "characteristics": [
+                {
+                    "characteristicValue": "Свободное",
+                    "name": "Назначение нежилого помещения",
+                    "code": "typeNolivingQuarters",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": 223.7,
+                    "name": "Общая площадь",
+                    "code": "totalAreaRealty",
+                    "unit": {
+                        "code": "081",
+                        "name": "Квадратный метр общей площади",
+                        "symbol": "м^2 общ. пл"
+                    },
+                    "type": "Decimal"
+                },
+                {
+                    "characteristicValue": "77:06:0001006:3729",
+                    "name": "Кадастровый номер",
+                    "code": "cadastralNumberRealty",
+                    "type": "Text(20)"
+                }
+            ],
+            "currencyCode": "643",
+            "etpCode": "ETP_EETP",
+            "subjectRFCode": "77",
+            "category": {
+                "code": "11",
+                "name": "Нежилые помещения"
+            },
+            "createDate": "2022-06-24T11:06:04.260+00:00",
+            "timeZoneName": "МСК",
+            "timezoneOffset": "180",
+            "hasAppeals": false,
+            "isStopped": false
+        },
+        {
+            "id": "21000005000000002276_1",
+            "lotStatus": "APPLICATIONS_SUBMISSION",
+            "biddType": {
+                "code": "178FZ",
+                "name": "Продажа (приватизация) государственного и муниципального имущества"
+            },
+            "biddForm": {
+                "code": "PP",
+                "name": "Публичное предложение"
+            },
+            "lotName": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: г. Москва, ул. Сторожевая, д. 31 площадью 212,9 кв. м (Подвал № 0), кадастровый номер: 77:04:0001001:9081 посредством публичного предложения",
+            "lotDescription": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: г. Москва, ул. Сторожевая, д. 31 площадью 212,9 кв. м (Подвал № 0), кадастровый номер: 77:04:0001001:9081 посредством публичного предложения",
+            "priceMin": 8173000.0,
+            "biddEndTime": "2022-08-01T12:00:00.000+00:00",
+            "lotImages": [
+                "62b5a6141c53e20ba76d15bf",
+                "62b5a614c2b91d60c20b8a8e",
+                "62b5a6141c53e20ba76d15c3",
+                "62b5a61418e2e37fdc32cfb9",
+                "62b5a614c7d464240974f952",
+                "62b5a614c2b91d60c20b8a92",
+                "62b5a614c7d464240974f956",
+                "62b5a6151c53e20ba76d15c7",
+                "62b5a615c2b91d60c20b8a96",
+                "62b5a6151c53e20ba76d15cb",
+                "62b5a61518e2e37fdc32cfc1",
+                "62b5a615c2b91d60c20b8a9a",
+                "62b5a61518e2e37fdc32cfc5",
+                "62b5a61518e2e37fdc32cfc9",
+                "62b5a6151c53e20ba76d15cf",
+                "62b5a615c2b91d60c20b8a9e",
+                "62b5a616c2b91d60c20b8aa2",
+                "62b5a619c7d464240974f982",
+                "62b5a61918e2e37fdc32cfd2",
+                "62b5a619c2b91d60c20b8aaa",
+                "62b5a619c7d464240974f986",
+                "62b5a619c7d464240974f98a"
+            ],
+            "characteristics": [
+                {
+                    "characteristicValue": "Свободное",
+                    "name": "Назначение нежилого помещения",
+                    "code": "typeNolivingQuarters",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": 212.9,
+                    "name": "Общая площадь",
+                    "code": "totalAreaRealty",
+                    "unit": {
+                        "code": "081",
+                        "name": "Квадратный метр общей площади",
+                        "symbol": "м^2 общ. пл"
+                    },
+                    "type": "Decimal"
+                },
+                {
+                    "characteristicValue": "77:04:0001001:9081",
+                    "name": "Кадастровый номер",
+                    "code": "cadastralNumberRealty",
+                    "type": "Text(20)"
+                }
+            ],
+            "currencyCode": "643",
+            "etpCode": "ETP_EETP",
+            "subjectRFCode": "77",
+            "category": {
+                "code": "11",
+                "name": "Нежилые помещения"
+            },
+            "createDate": "2022-06-24T11:55:07.023+00:00",
+            "timeZoneName": "МСК",
+            "timezoneOffset": "180",
+            "hasAppeals": false,
+            "isStopped": false
+        },
+        {
+            "id": "21000005000000002310_1",
+            "lotStatus": "APPLICATIONS_SUBMISSION",
+            "biddType": {
+                "code": "178FZ",
+                "name": "Продажа (приватизация) государственного и муниципального имущества"
+            },
+            "biddForm": {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            "lotName": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: город Москва, Тихорецкий бульвар, дом 14, корпус 2, этаж № 1, площадь 114,70 кв.м, кадастровый номер: 77:04:0004014:1955",
+            "lotDescription": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: город Москва, Тихорецкий бульвар, дом 14, корпус 2, этаж № 1, площадь 114,70 кв.м, кадастровый номер: 77:04:0004014:1955",
+            "priceMin": 11991000,
+            "biddEndTime": "2022-07-28T12:00:00.000+00:00",
+            "lotImages": [
+                "62ba9b84f21976122b3f2966",
+                "62ba9b8400345955bcf2a415",
+                "62ba9b84f4ccf3192ec056eb",
+                "62ba9b85f21976122b3f296c",
+                "62ba9b8572c22c414e353cb6",
+                "62ba9b8572c22c414e353cba",
+                "62ba9b85f21976122b3f2970",
+                "62ba9b85f21976122b3f2974",
+                "62ba9b85f21976122b3f2978",
+                "62ba9b85f21976122b3f297c",
+                "62ba9b85f21976122b3f2980",
+                "62ba9b86f4ccf3192ec056ef",
+                "62ba9b86f4ccf3192ec056f3",
+                "62ba9b8672c22c414e353cbe",
+                "62ba9b8600345955bcf2a419",
+                "62ba9b86f4ccf3192ec056f7",
+                "62ba9b8600345955bcf2a41d",
+                "62ba9b8672c22c414e353cca",
+                "62ba9b86f4ccf3192ec056fb",
+                "62ba9b8700345955bcf2a421",
+                "62ba9b87f4ccf3192ec056ff",
+                "62ba9b87f4ccf3192ec05703",
+                "62ba9b8700345955bcf2a425",
+                "62ba9b87f21976122b3f2984"
+            ],
+            "characteristics": [
+                {
+                    "characteristicValue": "Свободное",
+                    "name": "Назначение нежилого помещения",
+                    "code": "typeNolivingQuarters",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": 114.7,
+                    "name": "Общая площадь",
+                    "code": "totalAreaRealty",
+                    "unit": {
+                        "code": "081",
+                        "name": "Квадратный метр общей площади",
+                        "symbol": "м^2 общ. пл"
+                    },
+                    "type": "Decimal"
+                },
+                {
+                    "characteristicValue": "77:04:0004014:1955",
+                    "name": "Кадастровый номер",
+                    "code": "cadastralNumberRealty",
+                    "type": "Text(20)"
+                }
+            ],
+            "currencyCode": "643",
+            "etpCode": "ETP_EETP",
+            "subjectRFCode": "77",
+            "category": {
+                "code": "11",
+                "name": "Нежилые помещения"
+            },
+            "createDate": "2022-06-28T06:11:21.402+00:00",
+            "timeZoneName": "МСК",
+            "timezoneOffset": "180",
+            "hasAppeals": false,
+            "isStopped": false
+        },
+        {
+            "id": "21000005000000002330_1",
+            "lotStatus": "APPLICATIONS_SUBMISSION",
+            "biddType": {
+                "code": "178FZ",
+                "name": "Продажа (приватизация) государственного и муниципального имущества"
+            },
+            "biddForm": {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            "lotName": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: г. Москва, ул. Кравченко, д. 4, корп. 3 площадью 423,9 кв. м (Подвал № 0), кадастровый номер: 77:04:0001006:4684",
+            "lotDescription": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: г. Москва, ул. Кравченко, д. 4, корп. 3 площадью 423,9 кв. м (Подвал № 0), кадастровый номер: 77:04:0001006:4684",
+            "priceMin": 16461000,
+            "biddEndTime": "2022-08-02T12:00:00.000+00:00",
+            "lotImages": [
+                "62bb05e4f21976122b3f6bd1",
+                "62bb05e572c22c414e357e79",
+                "62bb05e600345955bcf2e89a",
+                "62bb05e6f21976122b3f6bde",
+                "62bb05e7f4ccf3192ec09a23",
+                "62bb05e872c22c414e357e98",
+                "62bb05eaf4ccf3192ec09a41",
+                "62bb05eb00345955bcf2e8b8",
+                "62bb05edf4ccf3192ec09a5e",
+                "62bb05eff21976122b3f6bf9",
+                "62bb05f0f4ccf3192ec09a7c",
+                "62bb05f2f21976122b3f6c18"
+            ],
+            "characteristics": [
+                {
+                    "characteristicValue": "Свободное",
+                    "name": "Назначение нежилого помещения",
+                    "code": "typeNolivingQuarters",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": 423.9,
+                    "name": "Общая площадь",
+                    "code": "totalAreaRealty",
+                    "unit": {
+                        "code": "081",
+                        "name": "Квадратный метр общей площади",
+                        "symbol": "м^2 общ. пл"
+                    },
+                    "type": "Decimal"
+                },
+                {
+                    "characteristicValue": "77:04:0001006:4684",
+                    "name": "Кадастровый номер",
+                    "code": "cadastralNumberRealty",
+                    "type": "Text(20)"
+                }
+            ],
+            "currencyCode": "643",
+            "etpCode": "ETP_EETP",
+            "subjectRFCode": "77",
+            "category": {
+                "code": "11",
+                "name": "Нежилые помещения"
+            },
+            "createDate": "2022-06-28T13:45:23.525+00:00",
+            "timeZoneName": "МСК",
+            "timezoneOffset": "180",
+            "hasAppeals": false,
+            "isStopped": false
+        },
+        {
+            "id": "21000005000000002302_1",
+            "lotStatus": "APPLICATIONS_SUBMISSION",
+            "biddType": {
+                "code": "178FZ",
+                "name": "Продажа (приватизация) государственного и муниципального имущества"
+            },
+            "biddForm": {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            "lotName": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: г. Москва, бульв. Гоголевский, д. 23 площадью 170,4 кв. м (Подвал № 0), кадастровый номер: 77:01:0001048:2229",
+            "lotDescription": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: г. Москва, бульв. Гоголевский, д. 23 площадью 170,4 кв. м (Подвал № 0), кадастровый номер: 77:01:0001048:2229",
+            "priceMin": 14798000,
+            "biddEndTime": "2022-08-02T12:00:00.000+00:00",
+            "lotImages": [
+                "62baba13f4ccf3192ec06d34",
+                "62baba1300345955bcf2b9a0",
+                "62baba1400345955bcf2b9b3",
+                "62baba15f4ccf3192ec06d47",
+                "62baba16f4ccf3192ec06d5d",
+                "62baba17f21976122b3f3ced",
+                "62baba1700345955bcf2b9b7",
+                "62baba1800345955bcf2b9c5",
+                "62baba19f21976122b3f3cf9",
+                "62baba19f21976122b3f3d0a",
+                "62baba1a00345955bcf2b9d1",
+                "62baba1b72c22c414e3551dd",
+                "62baba1b00345955bcf2b9de",
+                "62baba1c72c22c414e3551ea",
+                "62baba1cf4ccf3192ec06d6b",
+                "62baba1df4ccf3192ec06d78",
+                "62baba1e00345955bcf2b9ea"
+            ],
+            "characteristics": [
+                {
+                    "characteristicValue": "Свободное",
+                    "name": "Назначение нежилого помещения",
+                    "code": "typeNolivingQuarters",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": 170.4,
+                    "name": "Общая площадь",
+                    "code": "totalAreaRealty",
+                    "unit": {
+                        "code": "081",
+                        "name": "Квадратный метр общей площади",
+                        "symbol": "м^2 общ. пл"
+                    },
+                    "type": "Decimal"
+                },
+                {
+                    "characteristicValue": "77:01:0001048:2229",
+                    "name": "Кадастровый номер",
+                    "code": "cadastralNumberRealty",
+                    "type": "Text(20)"
+                }
+            ],
+            "currencyCode": "643",
+            "etpCode": "ETP_EETP",
+            "subjectRFCode": "77",
+            "category": {
+                "code": "11",
+                "name": "Нежилые помещения"
+            },
+            "createDate": "2022-06-28T08:21:51.448+00:00",
+            "timeZoneName": "МСК",
+            "timezoneOffset": "180",
+            "hasAppeals": false,
+            "isStopped": false
+        },
+        {
+            "id": "21000005000000002319_1",
+            "lotStatus": "APPLICATIONS_SUBMISSION",
+            "biddType": {
+                "code": "178FZ",
+                "name": "Продажа (приватизация) государственного и муниципального имущества"
+            },
+            "biddForm": {
+                "code": "EA",
+                "name": "Электронный аукцион"
+            },
+            "lotName": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: г. Москва, пр. Рижский, д. 7 площадью 463,2 кв. м (Этаж № 1, Этаж № 2), кадастровый номер: 77:02:0023019:2046",
+            "lotDescription": "Продажа имущества, находящегося в собственности города Москвы, нежилое помещение по адресу: г. Москва, пр. Рижский, д. 7 площадью 463,2 кв. м (Этаж № 1, Этаж № 2), кадастровый номер: 77:02:0023019:2046",
+            "priceMin": 48203000,
+            "biddEndTime": "2022-08-02T12:00:00.000+00:00",
+            "lotImages": [
+                "62bad1a6f21976122b3f4d09",
+                "62bad1a6f21976122b3f4d0e",
+                "62bad1a6f21976122b3f4d13",
+                "62bad1a600345955bcf2c952",
+                "62bad1a672c22c414e3560de",
+                "62bad1a772c22c414e3560e4",
+                "62bad1a772c22c414e3560e8",
+                "62bad1a7f21976122b3f4d17",
+                "62bad1a700345955bcf2c957",
+                "62bad1a7f21976122b3f4d1c",
+                "62bad1a8f21976122b3f4d21",
+                "62bad1a872c22c414e3560ed",
+                "62bad1a800345955bcf2c95c",
+                "62bad1a8f4ccf3192ec07cdd",
+                "62bad1a972c22c414e3560f1",
+                "62bad1a900345955bcf2c960",
+                "62bad1a972c22c414e3560f5",
+                "62bad1a9f21976122b3f4d26",
+                "62bad1a9f4ccf3192ec07ce3",
+                "62bad1aa72c22c414e3560fa",
+                "62bad1aaf4ccf3192ec07ce8",
+                "62bad1aaf4ccf3192ec07cec",
+                "62bad1aaf4ccf3192ec07cf1",
+                "62bad1ab00345955bcf2c965",
+                "62bad1abf21976122b3f4d2b",
+                "62bad1ab00345955bcf2c96a",
+                "62bad1abf4ccf3192ec07cf5",
+                "62bad1ab72c22c414e3560ff",
+                "62bad1acf4ccf3192ec07cfa",
+                "62bad1acf4ccf3192ec07d00",
+                "62bad1acf21976122b3f4d30",
+                "62bad1ac72c22c414e356104",
+                "62bad1adf4ccf3192ec07d05",
+                "62bad1ad00345955bcf2c96f",
+                "62bad1adf21976122b3f4d35",
+                "62bad1ad00345955bcf2c974",
+                "62bad1ae72c22c414e356109"
+            ],
+            "characteristics": [
+                {
+                    "characteristicValue": "Свободное",
+                    "name": "Назначение нежилого помещения",
+                    "code": "typeNolivingQuarters",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": 463.2,
+                    "name": "Общая площадь",
+                    "code": "totalAreaRealty",
+                    "unit": {
+                        "code": "081",
+                        "name": "Квадратный метр общей площади",
+                        "symbol": "м^2 общ. пл"
+                    },
+                    "type": "Decimal"
+                },
+                {
+                    "characteristicValue": "77:02:0023019:2046",
+                    "name": "Кадастровый номер",
+                    "code": "cadastralNumberRealty",
+                    "type": "Text(20)"
+                }
+            ],
+            "currencyCode": "643",
+            "etpCode": "ETP_EETP",
+            "subjectRFCode": "77",
+            "category": {
+                "code": "11",
+                "name": "Нежилые помещения"
+            },
+            "createDate": "2022-06-28T10:02:24.473+00:00",
+            "timeZoneName": "МСК",
+            "timezoneOffset": "180",
+            "hasAppeals": false,
+            "isStopped": false
+        },
+        {
+            "id": "22000036140000000021_1",
+            "lotStatus": "APPLICATIONS_SUBMISSION",
+            "biddType": {
+                "code": "178FZ",
+                "name": "Продажа (приватизация) государственного и муниципального имущества"
+            },
+            "biddForm": {
+                "code": "PP",
+                "name": "Публичное предложение"
+            },
+            "lotName": "Нежилое помещение (машиноместо)",
+            "lotDescription": "Нежилое помещение площадью 16,50 кв. м, кадастровый номер 77:07:0013004:24179 (реестровый номер федерального имущества П13770045264) по адресу: г. Москва, просп. Мичуринский, д. 7.Отчет об оценке от 16 декабря 2021 г. № К21-15/03-1-1а доступен по ссылке на Федресурсе: https://fedresurs.ru/sfactmessage/99B9575BA4AF48CAA97EBBD244658F94",
+            "priceMin": 2492000.0,
+            "biddEndTime": "2022-07-25T14:00:00.000+00:00",
+            "lotImages": [
+                "62b5c09f1c53e20ba76d2241",
+                "62b5c09fc7d46424097506ad",
+                "62b5c09f1c53e20ba76d2243",
+                "62b5c0a018e2e37fdc32dbb4",
+                "62b5c0a018e2e37fdc32dbbf",
+                "62b5c0a018e2e37fdc32dba7",
+                "62b5c0a018e2e37fdc32dbaf"
+            ],
+            "characteristics": [
+                {
+                    "characteristicValue": 16.5,
+                    "name": "Общая площадь",
+                    "code": "totalAreaRealty",
+                    "unit": {
+                        "code": "081",
+                        "name": "Квадратный метр общей площади",
+                        "symbol": "м^2 общ. пл"
+                    },
+                    "type": "Decimal"
+                },
+                {
+                    "characteristicValue": "Отсутствуют",
+                    "name": "Общие сведения об ограничениях и обременениях ",
+                    "code": "restrictionsEncumbrances",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": "Отсутствуют",
+                    "name": "Вид ограничений и обременений",
+                    "code": "typeRestrictionsEncumbrances",
+                    "type": "Text(100)"
+                },
+                {
+                    "characteristicValue": 1475540.22,
+                    "name": "Кадастровая стоимость ",
+                    "code": "cadastralValue",
+                    "type": "Money"
+                },
+                {
+                    "characteristicValue": "Нежилое помещение",
+                    "name": "Назначение нежилого помещения",
+                    "code": "typeNolivingQuarters",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": "77:07:0013004:1023",
+                    "name": "Кадастровый номер объекта недвижимости (здания, сооружения), в пределах которого расположено помещение",
+                    "code": "cadastralNumberObjectRealty",
+                    "type": "Text(20)"
+                },
+                {
+                    "characteristicValue": "Подвал № 0",
+                    "name": "Расположение в пределах объекта недвижимости (этажа, части этажа, нескольких этажей)",
+                    "code": "locationObjectRealty",
+                    "type": "Text(100)"
+                },
+                {
+                    "characteristicValue": "77:07:0013004:24179",
+                    "name": "Кадастровый номер",
+                    "code": "cadastralNumberRealty",
+                    "type": "Text(20)"
+                },
+                {
+                    "name": "Год ввода в эксплуатацию",
+                    "code": "yearCommissioning",
+                    "type": "Text(20)"
+                }
+            ],
+            "currencyCode": "643",
+            "etpCode": "ETP_RAD",
+            "subjectRFCode": "77",
+            "category": {
+                "code": "11",
+                "name": "Нежилые помещения"
+            },
+            "createDate": "2022-06-24T13:50:31.611+00:00",
+            "timeZoneName": "МСК",
+            "timezoneOffset": "180",
+            "hasAppeals": false,
+            "isStopped": false
+        },
+        {
+            "id": "22000036140000000019_1",
+            "lotStatus": "APPLICATIONS_SUBMISSION",
+            "biddType": {
+                "code": "178FZ",
+                "name": "Продажа (приватизация) государственного и муниципального имущества"
+            },
+            "biddForm": {
+                "code": "PP",
+                "name": "Публичное предложение"
+            },
+            "lotName": "Нежилое помещение",
+            "lotDescription": "Нежилое помещение площадью 451,50 кв. м, кадастровый номер 77:05:0001012:7454 (реестровый номер федерального имущества П13770007903) по адресу: г. Москва, проезд Рощинский 4-й, д. 7/17.Отчет об оценке от 15 марта 2022 г.  № 01-ОПри/2022-3 доступен по ссылке на Федресурсе: https://fedresurs.ru/sfactmessage/CB3DECC48670431B88E5F50C4C92F350",
+            "priceMin": 76886400,
+            "biddEndTime": "2022-07-25T14:00:00.000+00:00",
+            "lotImages": [
+                "62b5c71ac2b91d60c20b9acf",
+                "62b5c7271c53e20ba76d24d0",
+                "62b5c7271c53e20ba76d24d2",
+                "62b5c727c7d4642409750842",
+                "62b5c727c7d464240975083e",
+                "62b5c72718e2e37fdc32ded7",
+                "62b5c727c2b91d60c20b9ad3",
+                "62b5c72718e2e37fdc32dedf",
+                "62b5c72718e2e37fdc32dede",
+                "62b5c7271c53e20ba76d24d6"
+            ],
+            "characteristics": [
+                {
+                    "characteristicValue": 451.5,
+                    "name": "Общая площадь",
+                    "code": "totalAreaRealty",
+                    "unit": {
+                        "code": "081",
+                        "name": "Квадратный метр общей площади",
+                        "symbol": "м^2 общ. пл"
+                    },
+                    "type": "Decimal"
+                },
+                {
+                    "characteristicValue": "Отсутствуют",
+                    "name": "Общие сведения об ограничениях и обременениях ",
+                    "code": "restrictionsEncumbrances",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": "Отсутствуют",
+                    "name": "Вид ограничений и обременений",
+                    "code": "typeRestrictionsEncumbrances",
+                    "type": "Text(100)"
+                },
+                {
+                    "characteristicValue": 38161786.85,
+                    "name": "Кадастровая стоимость ",
+                    "code": "cadastralValue",
+                    "type": "Money"
+                },
+                {
+                    "characteristicValue": "Нежилое помещение",
+                    "name": "Назначение нежилого помещения",
+                    "code": "typeNolivingQuarters",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": "77:05:0001012:1066",
+                    "name": "Кадастровый номер объекта недвижимости (здания, сооружения), в пределах которого расположено помещение",
+                    "code": "cadastralNumberObjectRealty",
+                    "type": "Text(20)"
+                },
+                {
+                    "characteristicValue": "Этаж № 1",
+                    "name": "Расположение в пределах объекта недвижимости (этажа, части этажа, нескольких этажей)",
+                    "code": "locationObjectRealty",
+                    "type": "Text(100)"
+                },
+                {
+                    "characteristicValue": "77:05:0001012:7454",
+                    "name": "Кадастровый номер",
+                    "code": "cadastralNumberRealty",
+                    "type": "Text(20)"
+                },
+                {
+                    "name": "Год ввода в эксплуатацию",
+                    "code": "yearCommissioning",
+                    "type": "Text(20)"
+                }
+            ],
+            "currencyCode": "643",
+            "etpCode": "ETP_RAD",
+            "subjectRFCode": "77",
+            "category": {
+                "code": "11",
+                "name": "Нежилые помещения"
+            },
+            "createDate": "2022-06-24T14:19:30.286+00:00",
+            "timeZoneName": "МСК",
+            "timezoneOffset": "180",
+            "hasAppeals": false,
+            "isStopped": false
+        },
+        {
+            "id": "22000036140000000023_1",
+            "lotStatus": "APPLICATIONS_SUBMISSION",
+            "biddType": {
+                "code": "178FZ",
+                "name": "Продажа (приватизация) государственного и муниципального имущества"
+            },
+            "biddForm": {
+                "code": "PP",
+                "name": "Публичное предложение"
+            },
+            "lotName": "Нежилое помещение (машиноместо)",
+            "lotDescription": "Нежилое помещение площадью 15,90 кв. м, кадастровый номер 77:07:0010002:3067 (реестровый номер федерального имущества П13770048316) по адресу: г. Москва, р-н Раменки, просп. Университетский, д. 16, пом. I 58.Отчет об оценке от 16 декабря 2021 г. № К21-15/03-1-3а доступен по ссылке на Федресурсе:https://fedresurs.ru/sfactmessage/F7AFFD3F409C48689ED9D601B5FF7A34",
+            "priceMin": 3604000.0,
+            "biddEndTime": "2022-07-25T14:00:00.000+00:00",
+            "lotImages": [
+                "62b5b527c2b91d60c20b9471",
+                "62b5b52ec2b91d60c20b9475",
+                "62b5b52e18e2e37fdc32d8b4",
+                "62b5b52ec2b91d60c20b9479",
+                "62b5b52f1c53e20ba76d1e8a",
+                "62b5b52fc2b91d60c20b9484"
+            ],
+            "characteristics": [
+                {
+                    "characteristicValue": 15.9,
+                    "name": "Общая площадь",
+                    "code": "totalAreaRealty",
+                    "unit": {
+                        "code": "081",
+                        "name": "Квадратный метр общей площади",
+                        "symbol": "м^2 общ. пл"
+                    },
+                    "type": "Decimal"
+                },
+                {
+                    "characteristicValue": "Отсутствуют",
+                    "name": "Общие сведения об ограничениях и обременениях ",
+                    "code": "restrictionsEncumbrances",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": "Отсутствуют",
+                    "name": "Вид ограничений и обременений",
+                    "code": "typeRestrictionsEncumbrances",
+                    "type": "Text(100)"
+                },
+                {
+                    "characteristicValue": 1425242.61,
+                    "name": "Кадастровая стоимость ",
+                    "code": "cadastralValue",
+                    "type": "Money"
+                },
+                {
+                    "characteristicValue": "Нежилое помещение",
+                    "name": "Назначение нежилого помещения",
+                    "code": "typeNolivingQuarters",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": "77:07:0010002:1075",
+                    "name": "Кадастровый номер объекта недвижимости (здания, сооружения), в пределах которого расположено помещение",
+                    "code": "cadastralNumberObjectRealty",
+                    "type": "Text(20)"
+                },
+                {
+                    "characteristicValue": "Подвал № 2",
+                    "name": "Расположение в пределах объекта недвижимости (этажа, части этажа, нескольких этажей)",
+                    "code": "locationObjectRealty",
+                    "type": "Text(100)"
+                },
+                {
+                    "characteristicValue": "77:07:0010002:3067",
+                    "name": "Кадастровый номер",
+                    "code": "cadastralNumberRealty",
+                    "type": "Text(20)"
+                },
+                {
+                    "name": "Год ввода в эксплуатацию",
+                    "code": "yearCommissioning",
+                    "type": "Text(20)"
+                }
+            ],
+            "currencyCode": "643",
+            "etpCode": "ETP_RAD",
+            "subjectRFCode": "77",
+            "category": {
+                "code": "11",
+                "name": "Нежилые помещения"
+            },
+            "createDate": "2022-06-24T13:17:50.397+00:00",
+            "timeZoneName": "МСК",
+            "timezoneOffset": "180",
+            "hasAppeals": false,
+            "isStopped": false
+        },
+        {
+            "id": "22000036140000000020_1",
+            "lotStatus": "APPLICATIONS_SUBMISSION",
+            "biddType": {
+                "code": "178FZ",
+                "name": "Продажа (приватизация) государственного и муниципального имущества"
+            },
+            "biddForm": {
+                "code": "PP",
+                "name": "Публичное предложение"
+            },
+            "lotName": "Нежилое помещение",
+            "lotDescription": "Нежилое помещение площадью 521,50 кв. м, кадастровый номер 77:03:0003005:6360 (реестровый номер федерального имущества П13690001168) по адресу: г. Москва, пер. Песочный, д. 3.",
+            "priceMin": 26408400,
+            "biddEndTime": "2022-07-25T14:00:00.000+00:00",
+            "lotImages": [
+                "62b5c2b1c2b91d60c20b9996",
+                "62b5c2b11c53e20ba76d23a0",
+                "62b5c2b118e2e37fdc32dcc1",
+                "62b5c2b1c2b91d60c20b9990",
+                "62b5c2b1c2b91d60c20b9992",
+                "62b5c2b118e2e37fdc32dcc0",
+                "62b5c2b1c7d4642409750755",
+                "62b5c2b11c53e20ba76d23a8",
+                "62b5c2b11c53e20ba76d23a6"
+            ],
+            "characteristics": [
+                {
+                    "characteristicValue": 521.5,
+                    "name": "Общая площадь",
+                    "code": "totalAreaRealty",
+                    "unit": {
+                        "code": "081",
+                        "name": "Квадратный метр общей площади",
+                        "symbol": "м^2 общ. пл"
+                    },
+                    "type": "Decimal"
+                },
+                {
+                    "characteristicValue": "Отсутствуют",
+                    "name": "Общие сведения об ограничениях и обременениях ",
+                    "code": "restrictionsEncumbrances",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": "Отсутствуют",
+                    "name": "Вид ограничений и обременений",
+                    "code": "typeRestrictionsEncumbrances",
+                    "type": "Text(100)"
+                },
+                {
+                    "characteristicValue": 51227570.8,
+                    "name": "Кадастровая стоимость ",
+                    "code": "cadastralValue",
+                    "type": "Money"
+                },
+                {
+                    "characteristicValue": "Нежилое помещение",
+                    "name": "Назначение нежилого помещения",
+                    "code": "typeNolivingQuarters",
+                    "type": "Text(500)"
+                },
+                {
+                    "characteristicValue": "77:03:0003005:1028",
+                    "name": "Кадастровый номер объекта недвижимости (здания, сооружения), в пределах которого расположено помещение",
+                    "code": "cadastralNumberObjectRealty",
+                    "type": "Text(20)"
+                },
+                {
+                    "characteristicValue": "Подвал № 0",
+                    "name": "Расположение в пределах объекта недвижимости (этажа, части этажа, нескольких этажей)",
+                    "code": "locationObjectRealty",
+                    "type": "Text(100)"
+                },
+                {
+                    "characteristicValue": "77:03:0003005:6360",
+                    "name": "Кадастровый номер",
+                    "code": "cadastralNumberRealty",
+                    "type": "Text(20)"
+                },
+                {
+                    "name": "Год ввода в эксплуатацию",
+                    "code": "yearCommissioning",
+                    "type": "Text(20)"
+                }
+            ],
+            "currencyCode": "643",
+            "etpCode": "ETP_RAD",
+            "subjectRFCode": "77",
+            "category": {
+                "code": "11",
+                "name": "Нежилые помещения"
+            },
+            "createDate": "2022-06-24T14:02:36.697+00:00",
+            "timeZoneName": "МСК",
+            "timezoneOffset": "180",
+            "hasAppeals": false,
+            "isStopped": false
+        }
+    ],
+    "pageable": {
+        "sort": {
+            "empty": true,
+            "sorted": false,
+            "unsorted": true
+        },
+        "offset": 210,
+        "pageNumber": 21,
+        "pageSize": 10,
+        "paged": true,
+        "unpaged": false
+    },
+    "categoryFacet": [
+        {
+            "_id": "11",
+            "count": 252
+        }
+    ],
+    "last": false,
+    "totalPages": 26,
+    "totalElements": 252,
+    "size": 10,
+    "number": 21,
+    "sort": {
+        "empty": true,
+        "sorted": false,
+        "unsorted": true
+    },
+    "first": false,
+    "numberOfElements": 10,
+    "empty": false
+}

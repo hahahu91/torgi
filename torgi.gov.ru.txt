@@ -14,7 +14,7 @@ https://torgi.gov.ru/new/api/public/lotcards/search?subjRF=12&lotStatus=APPLICAT
 
 
 
-https://torgi.gov.ru/new/public/lots/lot/21000004300000000002_1/(lotInfo:info)
+https://torgi.gov.ru/new/public/lots/lot/22000019850000000011_1/(lotInfo:info)
 
 
  id: "21000004300000000002_1", 

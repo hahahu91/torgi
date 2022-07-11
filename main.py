@@ -12,6 +12,13 @@ import re
 from win32com import client
 from os import path
 
+
+import numpy as np
+from sklearn.linear_model import LinearRegression
+import matplotlib.pyplot as plt
+
+# import geopandas as gpd #узнать количество населения в этой местности
+
 MIN_AREA = 10
 BIDD_TYPE = {
     "229FZ":"Должников",
@@ -20,14 +27,14 @@ BIDD_TYPE = {
 }
 MAX_PRICE = 10000000
 MIN_PRICE = 500000
-MIN_PRICE_ROOM_M2 = 5000
+MIN_PRICE_ROOM_M2 = 1000
 
 # Suppress only the single warning from urllib3 needed.
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 def get_data_json(subjRF,biddType):
     try:
-        url = f"https://torgi.gov.ru/new/api/public/lotcards/search?subjRF={subjRF}&biddType={biddType}&lotStatus=APPLICATIONS_SUBMISSION&catCode=11&withFacets=true&size=10"
+        url = f"https://torgi.gov.ru/new/api/public/lotcards/search?subjRF={subjRF}&biddType={biddType}&lotStatus=APPLICATIONS_SUBMISSION&catCode=11&withFacets=true&size=25&sort=updateDate,desc"
         headers = {
             "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
             "Accept": "application/json, text/plain, */*",
@@ -36,6 +43,9 @@ def get_data_json(subjRF,biddType):
         while True:
             count += 1
             result = requests.get(url, headers=headers, verify=False).json();
+            if not result:
+                print("not get url")
+                return
             time.sleep(5)
             print(count, "/", result['totalPages'])
             with open(f"torgi/result/result_{count}.json", "w", encoding='utf8') as file:
@@ -43,9 +53,9 @@ def get_data_json(subjRF,biddType):
             if (result["last"]):
                 return count
             else:
-                time.sleep(random(3,10))
+                time.sleep(random.randint(5,20))
                 pageN = result["number"]+1
-                url = f"https://torgi.gov.ru/new/api/public/lotcards/search?subjRF={subjRF}&biddType={biddType}&lotStatus=APPLICATIONS_SUBMISSION&catCode=11&withFacets=true&page={pageN}&size=10"
+                url = f"https://torgi.gov.ru/new/api/public/lotcards/search?subjRF={subjRF}&biddType={biddType}&lotStatus=APPLICATIONS_SUBMISSION&catCode=11&withFacets=true&page={pageN}&size=25&sort=updateDate,desc"
 
     except Exception as _ex:
         print(_ex)
@@ -76,16 +86,18 @@ def transform_into_flatter_structure(amount_files):
                     characteristics[characteristic['name']] = characteristic[
                         'characteristicValue'] if "characteristicValue" in characteristic else None
 
-                total_area = characteristics.get('Общая площадь')
-                #удаляем инфу про площадь общ. пл.
-                area_pattern = re.compile(r'(,\s+)?(:?(общ(\w+)\s+)?площад\w+|общ\. ?пл\.).{1,20}(\((\w+\s+)+\w+\)\s*)?кв(\.|адратных)\s*м(:?\b|етров\b)', flags=re.IGNORECASE)
-                if not total_area:
-                    total_area = area_pattern.search(i['lotName'])
-                i['lotName'] = area_pattern.sub('', i['lotName'])
+                #удаляем инфу про площадь
+                area_pattern = re.compile(r'(,\s+)?(:?(общ(\w+)\s+)?площад\w+|общ\. ?пл\.)\D{1,20}(?P<area>[\d,.\s]+\d+)\s*(\(([^\d\W]+\s+)+[^\d\W]+\)\s*)?кв(\.|адратных)\s*м(:?\b|етров\b)', flags=re.IGNORECASE)
+                match = area_pattern.search(i['lotName'])
+                if match:
+                    total_area = float(match['area'].replace(',','.'))
+                    i['lotName'] = area_pattern.sub('', i['lotName'])
+                else:
+                    total_area = characteristics.get('Общая площадь')
 
-                # if total_area < MIN_AREA:
-                #     continue
-                bad_words = re.compile(r'(:? дол[ия]\b|\bгараж|машино-?место|\bподвал|\bподпол|\bчерда\w+)', flags=re.IGNORECASE)
+                if total_area < MIN_AREA:
+                    continue
+                bad_words = re.compile(r'(:? дол[ия]\b|\bгараж|машино-?место|(?<!этажа и )\bподвал|\bподпол|\bчерда\w+|картофелехранилище)', flags=re.IGNORECASE)
                 if bad_words.search(i['lotName']):
                     continue
 
@@ -93,7 +105,7 @@ def transform_into_flatter_structure(amount_files):
                 # if MIN_PRICE > price or price > MAX_PRICE:
                 #     continue
 
-                price_m2 = float(price) / float(total_area)
+                price_m2 = price / total_area
                 # if MIN_PRICE_ROOM_M2 > price_m2:
                 #     continue
 
@@ -104,11 +116,11 @@ def transform_into_flatter_structure(amount_files):
                     cadastral = characteristics.get('Кадастровый номер')  or  characteristics.get(
                         'Кадастровый номер объекта недвижимости (здания, сооружения), в пределах которого расположено помещение') or None
                 #удаляем лишнюю инфу про тип аукциона
-                excess_pattern = re.compile(r',?\s*(посредством публичного предложения|без объявления цены|\([,\.\s]*\))\.?', flags=re.IGNORECASE)
+                excess_pattern = re.compile(r',?\s*(:?посредством публичного предложения|без объявления цены|\([,\.\s]*\))\.?', flags=re.IGNORECASE)
                 i['lotName'] = excess_pattern.sub('', i['lotName'])
 
                 #удаляем адрес и сохраняем в отдельном
-                address_pattern = re.compile(r'(:?(,\s+)?(:?расположен\w+|находящееся)? по адресу|местоположение):?\s*(?P<address>.+)$', flags=re.IGNORECASE)
+                address_pattern = re.compile(r'(:?(,\s+)?(:?расположен\w+|находящееся)? по адресу|местоположение|адрес\w*):?\s*(?P<address>.+)$', flags=re.IGNORECASE)
                 match = address_pattern.search(i['lotName'])
                 if match:
                     address = match["address"]
@@ -133,7 +145,7 @@ def transform_into_flatter_structure(amount_files):
                     "Общая площадь": total_area,
                     "id": f"""=HYPERLINK("https://torgi.gov.ru/new/public/lots/lot/{i['id']}/(lotInfo:info)", "{i['id']}")""",
                     "Название": i['lotName'],
-                    "Цена за кв.м": price/total_area,
+                    "Цена за кв.м": price_m2,
                     "Цена": price,
                     "Адрес": address,
                     "Окончания подачи заявок": datetime.strptime(i['biddEndTime'], "%Y-%m-%dT%H:%M:%S.000+00:00").strftime("%d %m %y %H:%M"),
@@ -151,10 +163,8 @@ def install_setting_of_columns(writer):
     worksheet = writer.sheets['Sheet1']
     worksheet.autofilter('A1:B100')
     currency_format = workbook.add_format({'num_format': '# ### ##0 ₽'})
-    format_area = workbook.add_format({'num_format': '# ##0,0\ \м2'})
-    format_name = workbook.add_format()
-    format_name.set_font_color('blue')
-    format_name.set_underline()
+    format_area = workbook.add_format({'num_format': '# ##0.0 м2'})
+    format_name = workbook.add_format({'font_color': 'blue', 'underline': True})
 
    # (max_row, max_col) = df.shape
     #max_row = worksheet.get_highest_row()
@@ -164,7 +174,7 @@ def install_setting_of_columns(writer):
     worksheet.set_column('C:C', 9, format_area)
 
     # name
-    worksheet.set_column('D:D', 20, format_name)
+    worksheet.set_column('D:D', 22, format_name)
     worksheet.set_column('E:E', 40)
     worksheet.set_column('H:H', 40)
     worksheet.set_column('I:I', 12)
@@ -191,27 +201,70 @@ def save_opening_output_file(file_path):
     book.Close()
 
 def primary_processing(path_file):
-    with open("torgi/result_full.json", encoding='utf8') as f:
+    with open(path_file, encoding='utf8') as f:
         json_data = json.load(f)
         df = json_normalize(json_data['content'])
-
+        #mat
         #что бы можно было оставлять открым файл оутпут
         save_opening_output_file('torgi/output.xlsx')
 
         with pd.ExcelWriter('torgi/output.xlsx',  engine='xlsxwriter', mode="w") as writer:
-
             df.to_excel(writer,  encoding='utf-8')
             install_setting_of_columns(writer)
+
+
+def visualize_data(path_file):
+    with open(path_file, encoding='utf8') as f:
+        json_data = json.load(f)
+        df = json_normalize(json_data['content'])
+
+        df_debtors = df[df['Имущество'].isin(["Должников"])]
+        df_municipal = df[df['Имущество'].isin(["Муниципальное"])]
+        x1 = df_debtors['Общая площадь'].to_numpy()
+        x2 = df_municipal['Общая площадь'].to_numpy()
+        # x = df['Общая площадь'].to_numpy()
+        y1 = pd.to_numeric(df_debtors['Цена']).to_numpy()
+        y2 = pd.to_numeric(df_municipal['Цена']).to_numpy()
+        # plt.plot(df['Общая площадь'], pd.to_numeric(df['Цена']))
+        [row1, column1] = df_debtors.shape
+        [row2, column2] = df_municipal.shape
+        # print(x1)
+        # print(y1)
+
+        x1 = x1.reshape(row1, 1)
+        y1 = y1.reshape(row1, 1)
+        x2 = x2.reshape(row2, 1)
+        y2 = y2.reshape(row2, 1)
+        regr_debt = LinearRegression()
+        regr_debt.fit(x1, y1)
+        regr_muni = LinearRegression()
+        regr_muni.fit(x2, y2)
+        #
+        # # plot it as in the example at http://scikit-learn.org/
+        plt.subplot(2, 1, 1)
+        plt.scatter(x1, y1, color='black')
+        plt.plot(x1, regr_debt.predict(x1), color='blue', linewidth=3)
+        # plt.xticks(())
+        # plt.yticks(())
+        plt.subplot(2, 1, 2)
+        plt.scatter(x2, y2, color='black')
+        plt.plot(x2, regr_muni.predict(x2), color='blue', linewidth=3)
+        # plt.xticks(())
+        # plt.yticks(())
+        plt.show()
 
 def main():
     #subjRF = (12:'Mariy El', 77:'Moscow', 21:'Chuvashiya', 58:'Penza', 91:'Krum')
     # biddType="229FZ":"Должников","1041PP":"обращенного в собственноcть государства","178FZ":"государсвенного и муниципального имущества"
 
-    #amaount_files = get_data_json(subjRF="12,21,16,58,91,77", biddType="229FZ,1041PP,178FZ")
-   # print(amaount_files)
-    transform_into_flatter_structure(26)
+   #  amaount_files = get_data_json(subjRF="12,21,16,58,91", biddType="229FZ,1041PP,178FZ")
+   # # print(amaount_files)
+   #  if not amaount_files:
+   #      print("Not files")
+   #      return
+    transform_into_flatter_structure(2)
     primary_processing("torgi/result_full.json")
-
+    visualize_data("torgi/result_full.json")
 
 if __name__ == "__main__":
     main()

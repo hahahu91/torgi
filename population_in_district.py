@@ -41,7 +41,8 @@ def get_residents(feature):
 
 #nodes = [705151256, 705151327, 705151181, 2761064854, 705151457, 705151256]
 #nodes = [327582255, 1408477589, 2760900470, 1797449441, 1797449443, 1408477620, 2760900473, 1408477625, 1408477633, 1408477623, 1408477631, 1408477627, 1408477637, 1797449456, 1797449454, 1797449453, 1797449451, 1408477621, 1408477606, 1408477607, 1408477592, 1408477591, 1797449438, 327582280, 327582267, 1797449435, 1797449437, 1797449433, 1797449431, 705151055, 327582255]
-nodes = []
+nodes = set()
+shops = {}
 count_residents = 0
 # for el in [2761064827, 2761064767]:
 #     if nodes.__contains__(el):
@@ -60,20 +61,48 @@ for feature in osmiter.iter_from_osm("RU-ME.pbf", file_format="pbf"):
    #  if "building" in feature["tag"] and feature.get("tag").get("addr:street") == "Красноармейская улица" and feature.get("tag").get("addr:housenumber") == "111":
    #  if feature["id"] in nodes:
    #      print(feature)
-    if obj_in_districk(56.644992, 47.855960, feature.get("lat"), feature.get("lon")) and feature["tag"] == {}:
-        nodes.append(feature["id"])
+    if obj_in_districk(56.644992, 47.855960, feature.get("lat"), feature.get("lon")):# and feature["tag"] == {}:
+        nodes.add(feature["id"])
     if feature["type"]  == "way" and "building" in feature["tag"]:
         if feature.get("nd"):
             for id in feature["nd"]:
                 if id in nodes:
-                     residents = get_residents(feature["tag"])
-                     count_residents += residents
-                     print(feature, residents)
-                     break
+                    if "shop" in feature["tag"]:
+                        amount = 1 if not shops.get(feature["tag"]["shop"]) else shops.get(feature["tag"]["shop"]) + 1
+                        shops.update({  feature["tag"]["shop"]  : amount  })
+                        print("\tShop", feature)
+                        shop_count += 1
+                    elif feature["tag"]["building"] == "commercial" or feature["tag"]["building"] == "service" or feature["tag"]["building"] == "kindergarten":
+                        amount = 1 if not shops.get(feature["tag"]["building"]) else shops.get(feature["tag"]["building"]) + 1
+                        shops.update({feature["tag"]["building"]: amount})
+                        print("\tBuilding", feature)
+                        shop_count += 1
+                    else:
+                        residents = get_residents(feature["tag"])
+                        count_residents += residents
+                        print(feature, residents)
+                    break
+    if obj_in_districk(56.644992, 47.855960, feature.get("lat"), feature.get("lon")):
+        if "amenity" in feature["tag"]:
+            amount = 1 if not shops.get(feature["tag"]["amenity"]) else shops.get(feature["tag"]["amenity"]) + 1
+            shops.update({feature["tag"]["amenity"]: amount})
+            print("Amenity\t", feature)
+        elif "leisure" in feature["tag"]:
+            amount = 1 if not shops.get(feature["tag"]["leisure"]) else shops.get(feature["tag"]["leisure"]) + 1
+            shops.update({feature["tag"]["leisure"]: amount})
+            print("Leisure\t", feature)
+        elif "shop" in feature["tag"]:
+            amount = 1 if not shops.get(feature["tag"]["shop"]) else shops.get(feature["tag"]["shop"]) + 1
+            shops.update({feature["tag"]["shop"]: amount})
+            print("Shop\t", feature)
+            shop_count += 1
+        elif "bus" in feature["tag"] or "trolleybus" in feature["tag"]:
+            amount = 1 if not shops.get("bus_stop") else shops.get("bus_stop") + 1
+            shops.update({"bus_stop": amount})
+            print("Bus_stop\t", feature)
+            shop_count += 1
+        elif feature["tag"] != {} and "natural" not in feature["tag"]:
+            print("other\t", feature)
 
-    # if feature["type"] == "node" and "shop" in feature["tag"] and feature["id"] in nodes:
-    #     shop_count += 1
-    #     # if shop_count == 1:
-    #     #    break
-
-print(f"{count_residents} residents live in the area of this building")
+print(f"{count_residents} residents live in the area of this building and {shop_count} shops")
+print(shops)

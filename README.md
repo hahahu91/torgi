@@ -1,259 +1,97 @@
-# osmiter
+<img align="right" src="https://uber.github.io/img/h3Logo-color.svg" alt="H3 Logo" width="200">
 
-A simple library for parsing OSM data.
-Supports simple OSM XML files as well as OSM GZ, OSM BZ2 and OSM PBF.
+# **h3-py**: Uber's H3 Hexagonal Hierarchical Geospatial Indexing System in Python
 
-Please be aware that osmiter uses Google's [protobuf](https://pypi.org/project/protobuf/) library,
-written in pure Python, which isn't particularly fast.
+<!-- TODO: have a nice 3d image of hexagons up front -->
+
+[![PyPI version](https://badge.fury.io/py/h3.svg)](https://badge.fury.io/py/h3)
+[![PyPI downloads](https://img.shields.io/pypi/dm/h3.svg)](https://pypistats.org/packages/h3)
+[![conda](https://img.shields.io/conda/vn/conda-forge/h3-py.svg)](https://anaconda.org/conda-forge/h3-py)
+[![version](https://img.shields.io/badge/h3-v3.7.1-blue.svg)](https://github.com/uber/h3/releases/tag/v3.7.1)
+[![version](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/uber/h3-py/blob/master/LICENSE)
+
+[![Tests](https://github.com/uber/h3-py/workflows/tests/badge.svg)](https://github.com/uber/h3-py/actions)
+[![codecov](https://codecov.io/gh/uber/h3-py/branch/master/graph/badge.svg)](https://codecov.io/gh/uber/h3-py)
+
+Python bindings for the [H3 core library](https://h3geo.org/).
+
+- Documentation: [uber.github.io/h3-py](https://uber.github.io/h3-py)
+- GitHub repo: [github.com/uber/h3-py](https://github.com/uber/h3-py)
 
 
-## Example Usage
+## Installation
+
+From [PyPI](https://pypi.org/project/h3/):
+
+```console
+pip install h3
+```
+
+From [conda](https://github.com/conda-forge/h3-py-feedstock):
+
+```console
+conda config --add channels conda-forge
+conda install h3-py
+```
+
+
+## Usage
 
 ```python
-import osmiter
-
-shop_count = 0
-
-for feature in osmiter.iter_from_osm("some_osm_file.osm"):
-    if feature["type"] == "node" and "shop" in feature["tag"]:
-        shop_count += 1
-
-print(f"this osm file containes {shop_count} shop nodes")
-```
-
-## What is osmiter generating?
-
-For each feature (node/way/relation) it yields a dict containing element attributes
-(like `id`, `lat` or `timestamp`) and 2 additional items: key `"type"` holding `"node"/"way"/"relation"`
-and key `"tag"` holding a dict with feature tags (this dict may be empty).
-
-Additionally nodes will contain keys `"lat"` and `"lon"` with node coordinates,
-ways will contain key `"nd"` with a list of all node_ids references by this way,
-and relations contain a key `"member"` with a list of dicts of each member's attributes.
-
-Almost all attributes are returned as strings with the exception for:
-- `id`, `ref`, `version`, `changeset`, `uid` and `changeset_count` → int
-- `lat`, `lon` → float
-- `open` and `visible` → bool
-- `timestamp` → [aware](https://docs.python.org/3/library/datetime.html#aware-and-naive-objects) [datetime.datetime](https://docs.python.org/3/library/datetime.html#datetime-objects) item.
-
-
-#### Data validation
-osmiter preforms almost no data validation, so it is possible to recieve ways with no nodes,
-relations with no members, empty tag values, invalid coordinates, references to non-existing items,
-or duplicate ids※.
-
-However, several data assumptions are made:
-1. Each feature has an `id` attribute.  
-   (※) For OSM PBF files, if an object is missing an id `-1` will be assigned, per the osmformat.proto definition.
-   This can result in multiple objects with an id equal to `-1`.
-2. Each node has to have both `lat` and `lon` defined.
-3. Every attribute defined in the table on attribute type conversion has to be convertible to its type.  
-   So, `id == 0x1453`, `changeset_count == AAAAAA`, `ref == 12.433` or `lat == 1.23E+10` will cause an exception;  
-   `timestamp` value has to be either ISO8601-compliant or epoch time represented by an integer.
-4. Boolean atributes are only considered truthy if they're set to `true` (case-insensitive).
-   Values `1`, `on`, `yes`, `ＴＲＵＥ` will all evaluate to False.
-
-#### Minimum requirements for each element
-
-Bare-minimum node:
-```
-{
-    "id": int,
-    "type": "node",
-    "lat": float,
-    "lon": float,
-    "tag": Dict[str, str], # May be empty
-}
-```
-
-Bare-minimum way:
-```
-{
-    "id": int,
-    "type": "way",
-    "tag": Dict[str, str], # May be empty
-    "nd": List[int],
-}
-```
-
-Bare-minimum relation:
-```
-{
-    "id": int,
-    "type": "relation",
-    "tag": Dict[str, str], # May be empty
-    "member": List[ dict ]
-}
+>>> import h3
+>>> lat, lng = 37.769377, -122.388903
+>>> resolution = 9
+>>> h3.geo_to_h3(lat, lng, resolution)
+'89283082e73ffff'
 ```
 
 
-#### Example elements
+## APIs
 
-See the corresponding [OSM XML examples](https://wiki.openstreetmap.org/wiki/OSM_XML).
+[api_comparison]: https://uber.github.io/h3-py/api_comparison
+[api_reference]: https://uber.github.io/h3-py/api_reference
 
+We provide [multiple APIs][api_comparison] in `h3-py`.
+
+- All APIs have the same set of functions;
+  see the [API reference][api_reference].
+- The APIs differ only in their input/output formats;
+  see the [API comparison page][api_comparison].
+
+
+## Example gallery
+
+Browse [a collection of example notebooks](https://github.com/uber/h3-py-notebooks),
+and if you have examples or visualizations of your own, please feel free
+to contribute!
+
+[walkthrough]: https://nbviewer.jupyter.org/github/uber/h3-py-notebooks/blob/master/notebooks/usage.ipynb
+
+We also have an introductory [walkthrough of the API][walkthrough].
+
+
+## Versioning
+
+<!-- todo: this should just be the h3.versions() docstring, yeah? -->
+
+`h3-py` wraps the [H3 core library](https://github.com/uber/h3),
+which is written in C.
+The C and Python projects each employ
+[semantic versioning](https://semver.org/),
+where versions take the form `X.Y.Z`.
+
+The `h3-py` version string is guaranteed to match the C library string
+in both *major* and *minor* numbers (`X.Y`), but may differ on the
+*patch* (`Z`) number.
+This convention provides users with information on breaking changes and
+feature additions, while providing downstream bindings (like this one!)
+with the versioning freedom to fix bugs.
+
+Use `h3.versions()` to see the version numbers for both
+`h3-py` and the C library. For example,
+
+```python
+>>> import h3
+>>> h3.versions()
+{'c': '3.6.3', 'python': '3.6.1'}
 ```
-{
-    "type": "node",
-    "tag": {}
-    "id": 298887269,
-    "lat": 54.0901746,
-    "lon": 12.2482632,
-    "user": "SvenHRO",
-    "uid": 46882,
-    "visible": True,
-    "version": 1,
-    "changeset": 676636,
-    "timestamp": datetime.datetime(2008, 9, 21, 21, 37, 45, tzinfo=datetime.timezone.utc)
-}
-```
-
-```
-{
-    "type": "node",
-    "tag": {"name": "Neu Broderstorf", "traffic_sign": "city_limit"},
-    "id": 1831881213,
-    "version": 1,
-    "changeset": 12370172,
-    "lat": 54.0900666,
-    "lon": 12.2539381,
-    "user": "lafkor",
-    "uid": 75625,
-    "visible": True,
-    "timestamp": datetime.datetime(2012, 7, 20, 9, 43, 19, tzinfo=datetime.timezone.utc),
-}
-```
-
-```
-{
-    "type": "way",
-    "tag": {"highway": "unclassified", "name": "Pastower Straße"},
-    "id": 26659127,
-    "user": "Masch",
-    "uid": 55988,
-    "visible": True,
-    "version": 5,
-    "changeset": 4142606,
-    "timestamp": datetime.datetime(2010, 3, 16, 11, 47, 8, tzinfo=datetime.timezone.utc),
-    "nd": [292403538, 298884289, 261728686]
-}
-```
-
-```
-{
-    "type": "relation",
-    "tag": {
-        "name": "Küstenbus Linie 123",
-        "network": "VVW",
-        "operator": "Regionalverkehr Küste",
-        "ref": "123",
-        "route": "bus",
-        "type": "route"
-    },
-    "id": 56688,
-    "user": "kmvar",
-    "uid": 56190,
-    "visible": True,
-    "version": 28,
-    "changeset": 6947637,
-    "timestamp": datetime.datetime(2011, 1, 12, 14, 23, 49, tzinfo=datetime.timezone.utc),
-    "member": [
-        {"type": "node", "ref": 294942404, "role": ""},
-        {"type": "node", "ref": 364933006, "role": ""},
-        {"type": "way", "ref": 4579143, "role": ""},
-        {"type": "node", "ref": 249673494, "role": ""},
-    ]
-}
-```
-
-## Reference
-
----
-
-### osmiter.iter_from_osm
-```
-iter_from_osm(  
-    source: Union[str, bytes, os.PathLike, int, IO[bytes]],  
-    file_format: Union[str, NoneType] = None,  
-    filter_attrs: Union[Iterable[str], NoneType] = None) -> Iterator[dict]
-```
-
-Yields all items from provided source file.
-
-If source is a str/bytes/os.PathLike (path) the format will be guess based on file extension.
-Otherwise, if source is an int (file descriptior) or a file-like object,
-the `file_format` argument must be provided.
-
-File-like sources have to be opened in binary mode.
-Format has to be one of "xml", "gz", "bz2", "pbf".
-
-osmiter spends most of its time parsing element attributes.
-If only specific attributes are going to be used, pass an Iterable (most prefereably a set)
-with wanted attributes to filter_attrs.
-
-No matter what attributes you define in filter_attrs, some attributes are always parsed:
-- "id", "lat" and "lon": for nodes
-- "id": for ways and relations
-- "type", "ref" and "role": for members
-
-`filter_attrs` is ignored for pbf files.
-
----
-
-### osmiter.iter_from_xml_buffer
-```
-iter_from_xml_buffer(
-    buff: IO[bytes],
-    filter_attrs: Union[Iterable[str], NoneType] = None) -> Iterator[dict]
-```
-
-Yields all items inside a given OSM XML buffer.
-`filter_attrs` is explained in osmiter.iter_from_osm documentation.
-
----
-
-### osmiter.iter_from_pbf_buffer
-```
-iter_from_pbf_buffer(buff: IO[bytes]) -> Iterator[dict]
-```
-
-Yields all items inside a given OSM PBF buffer.
-
----
-
-### osmiter.parser_xml.iter_from_xml_buffer
-Same as `osmiter.iter_from_xml_buffer`.
-
----
-### osmiter.parser_xml.OSMError
-An exception (inheriting from `RuntimeException`) used to represent issues with XML data.
-
----
-
-### osmiter.iter_from_pbf_buffer
-```
-iter_from_pbf_buffer(buff: BinaryIO) -> Iterator[dict]
-```
-
-Yields all items inside a given OSM PBF file.
-
----
-
-### osmiter.parser_pbf.iter_from_pbf_buffer
-Same as `osmiter.iter_from_pbf_buffer`.
-
----
-
-### osmiter.parser_pbf.ParserPbf
-Internal object used to parse PBF files. Don't use.
-
----
-
-### osmiter.parser_pbf.PBFError
-An Exception (inheriting from `RuntimeException`) used to represent issues with OSM PBF files.
-
----
-
-## License
-
-**osmiter** is provided under the MIT license, included in the `license.md` file.

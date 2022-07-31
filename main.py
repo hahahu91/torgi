@@ -82,7 +82,7 @@ def extract_cadastral_num(obj):
 
     return cad
 def get_coord_from_cadnum(cadnum):
-    area = Area(cadnum)
+    area = Area(cadnum, center_only=True)
     # аргументы
     #   code='' - кадастровый номер участка
     #   area_type=1 - тип площади
@@ -295,14 +295,14 @@ def main():
     #lotStatus=SUCCEED сбор завершенных данных; status = "APPLICATIONS_SUBMISSION прием заявок
 
     #status = "APPLICATIONS_SUBMISSION"
-    status = "SUCCEED"
+    status = "APPLICATIONS_SUBMISSION"
     folder = "torgi/result" if status != "SUCCEED" else "torgi/archive"
     amount_files = None
-   # amount_files = get_data_json(bidd_type="229FZ,1041PP,178FZ", subj_rf="",  lot_status=status, folder=folder)
-   # # print(amaount_files)
-   #  if not amaount_files:
-   #      print("Not files")
-   #      return
+    amount_files = get_data_json(bidd_type="229FZ,1041PP,178FZ", subj_rf="12,21,16,58,91",  lot_status=status, folder=folder)
+   # print(amount_files)
+    if not amount_files:
+        print("Not files")
+        return
     if not amount_files:
         amount_files = 43
     path = transform_into_flatter_structure(amount_files, folder=folder)

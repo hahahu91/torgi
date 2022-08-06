@@ -4,38 +4,42 @@
 #from matplotlib import pyplot as plt
 
 import osmiter
-
+import os
+import re
 #'lat': 56.6216708, 'lon': 47.8798082
 def obj_in_districk(lat, lon, lat_obj, lon_obg):
     if not lat_obj or not lon_obg:
         return False
-    if lat_obj >= lat-0.0025 and lat_obj <= lat+0.0025 and lon_obg >= lon-0.005 and lon_obg <= lon+0.005:
+    if lat_obj >= float(lat)-0.0025 and lat_obj <= float(lat)+0.0025 and lon_obg >= float(lon)-0.005 and lon_obg <= float(lon)+0.005:
         return True
     return False
 
 def get_residents(feature):
-    if feature.get("building"):
-        if feature["building"] == "garage":
-            return 1
-        elif feature["building"] == "service":
-            return 1
-        elif feature["building"] == "construction":
-            return 0
-        elif feature["building"] == "kindergarten":
-            return 10
-    if feature.get("building:levels"):
-        if feature["building:levels"] == "1":
-            return 3
-        elif int(feature["building:levels"]) < 3: #Малоэтажное строение
-            return int(feature["building:levels"]) * 5 * 3
-        else:
-            return int(feature["building:levels"]) * 10 * 3
-    #не содержит записи о количестве этажей в здании
-    if feature.get("building"):
-        if feature["building"] in ["apartments", "residential"]:
-            return 30*3
-        if feature["building"] in ['house','yes']:
-            return 3
+    try:
+        if feature.get("building"):
+            if feature["building"] == "garage":
+                return 1
+            elif feature["building"] == "service":
+                return 1
+            elif feature["building"] == "construction":
+                return 0
+            elif feature["building"] == "kindergarten":
+                return 10
+        if feature.get("building:levels"):
+            if int(re.match(r"\d+", feature["building:levels"]).group(0)) == 1:
+                return 3
+            elif int(re.match(r"\d+", feature["building:levels"]).group(0)) < 3: #Малоэтажное строение
+                return int(feature["building:levels"]) * 5 * 3
+            else:
+                return int(re.match(r"\d+", feature["building:levels"]).group(0)) * 10 * 3
+        #не содержит записи о количестве этажей в здании
+        if feature.get("building"):
+            if feature["building"] in ["apartments", "residential"]:
+                return 30*3
+            if feature["building"] in ['house','yes']:
+                return 3
+    except Exception as _ex:
+        print(_ex, "in", feature)
     return 0
 
 def count_commercial_assessment(feature_tags, entity):
@@ -60,13 +64,18 @@ def count_commercial_assessment(feature_tags, entity):
         entity.update({"residents": amount})
 
 def get_commercial_assessment(lat, lon, region):
-    if int(region) == 12:
-        file_osm = "RU-ME.pbf"
-
+    from regions_abbr import regions_abbr
+    file_osm = regions_abbr.get(int(region))["abbr"]
+    if not file_osm:
+        print(f"not region {region} abbr")
+        return None
+    if not os.path.exists(f"../konturs/{file_osm}.pbf"):
+        print(f"not file_osm {region} region {file_osm}.pbf")
+        return None
     nodes = set()
     entity = {}
 
-    for feature in osmiter.iter_from_osm(file_osm, file_format="pbf"):
+    for feature in osmiter.iter_from_osm(f"../konturs/{file_osm}.pbf", file_format="pbf"):
         if obj_in_districk(lat, lon, feature.get("lat"), feature.get("lon")):
             nodes.add(feature["id"])
         if feature["type"]  == "way" and "building" in feature["tag"]:
@@ -80,4 +89,4 @@ def get_commercial_assessment(lat, lon, region):
                 count_commercial_assessment(feature["tag"], entity)
     return entity
 
-print(get_commercial_assessment(56.644718, 47.855835, 12))
+#print(get_commercial_assessment(56.644718, 47.855835, 12))

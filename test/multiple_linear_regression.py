@@ -10,8 +10,8 @@ bh_data = load_boston()
 with warnings.catch_warnings():
 # You should probably not use this dataset.
     warnings.filterwarnings("ignore")
-    load_boston(return_X_y=True)
-print(X.shape)
+    #load_boston(return_X_y=True)
+#print(X.shape)
 
 print(bh_data.keys())
 

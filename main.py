@@ -3,7 +3,6 @@ import requests
 from bs4 import BeautifulSoup
 import time
 import random
-from urllib3.exceptions import InsecureRequestWarning
 import json
 import pandas as pd
 from pandas import json_normalize
@@ -12,15 +11,19 @@ import re
 from win32com import client
 from os import path
 from rosreestr2coord import Area
-
-
-
+from population_in_district import get_commercial_assessment
+from get_coord import get_location
 
 import numpy as np
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
+import os
 
-# import geopandas as gpd #узнать количество населения в этой местности
+
+# Suppress only the single warning from urllib3 needed.
+from urllib3.exceptions import InsecureRequestWarning
+requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
+
 
 MIN_AREA = 10
 BIDD_TYPE = {
@@ -56,7 +59,8 @@ def get_data_json(bidd_type, subj_rf="", lot_status="APPLICATIONS_SUBMISSION", f
             if not result:
                 print("not get url")
                 return
-            print(count, "/", result['totalPages'])
+
+            print("get page ", count, "/", result['totalPages'])
             with open(f"{folder}/result_{count}.json", "w", encoding='utf8') as file:
                     json.dump(result, file, ensure_ascii=False, indent=4)
             if (result["last"]):
@@ -70,8 +74,7 @@ def get_data_json(bidd_type, subj_rf="", lot_status="APPLICATIONS_SUBMISSION", f
 def extract_cadastral_num(obj):
     cad_pattern = re.compile( #кадастровый (условный) номер
         #r'(,\s+)?(:?кад\. №|кадастро\w+ н\w+|кадастровый №|с кадастровым номером|\(|кадастровый( (или )?условный)? номер объекта):?\s*(?P<cad>([\d:]{14,19}[,;]?\s*)+)',
-        r'(,\s+)?(:?(с )?(кад\.|кадастро\w+|кн|к\/н|к\.н\.)( ?\((или )?условный\))? ?(:?№|н\w+|ном\.|н\.)( об\w*\.?|помещ\w+)?|\():?\s*(?P<cad>(\d{2}\s*:\s*\d{2}\s*:\s*\d{4,8}\s*:\s*\d{1,5}[,;]?\s*)+)',
-        flags=re.IGNORECASE)
+        r'(,\s+)?(:?(с )?(кад\.|кадастро\w+|кн|к\/н|к\.н\.|cad)( ?\((или )?условный\))? ?(:?№|н\w+|ном\.|н\.)( об\w*\.?| помещ\w+)?|\():?\s*(?P<cad>(\d{2}\s*:\s*\d{2}\s*:\s*\d{4,8}\s*:\s*\d{1,5}[,;]?\s*)+)', flags=re.IGNORECASE)
     match = cad_pattern.search(obj['lotDescription']) or cad_pattern.search(obj['lotName'])
     cad = None
     # if not match:
@@ -82,33 +85,31 @@ def extract_cadastral_num(obj):
 
     return cad
 def get_coord_from_cadnum(cadnum):
-    area = Area(cadnum, center_only=True)
-    # аргументы
-    #   code='' - кадастровый номер участка
-    #   area_type=1 - тип площади
-    #   epsilon=5 - точность аппроксимации
-    #   media_path='' - путь для временных файлов
-    #   with_log=True - логирование
-    #   coord_out='EPSG:4326' - или EPSG:3857 (будет удалена в последующих версиях)
-    #   center_only=False - экспорт координат центров участка
-    #   with_proxy=False - запросы через прокси
-    #   use_cache=True - использовать кэширование запросов
-    # area.to_geojson()
-    # area.to_geojson_poly()
-    # area.get_coord()  # [[[area1_xy], [hole1_xy], [hole2_xy]], [[area2_xyl]]]
-    # area.get_attrs()
-    return area.to_geojson()
+    if not cadnum:
+        return None
+    try:
+        area = Area(cadnum, center_only=True)
+        if not area:
+            return None
+        return area.to_geojson()
+    except Exception as _ex:
+        print(_ex)
+        return None
+    #return area.to_geojson()
 
 def transform_into_flatter_structure(amount_files, folder):
     data = {}
     data["content"] = []
-
-    for i in range(1, amount_files + 1):
-
-        with open(f"{folder}/result_{i}.json", encoding='utf8') as f:
+    print(os.listdir(f"{folder}/"))
+    for j in range(1, amount_files + 1):
+        if j == 2:
+            break
+        with open(f"{folder}/result_{j}.json", encoding='utf8') as f:
             json_data = json.load(f)
+            count = 0
             for i in json_data['content']:
-
+                count += 1
+                print(f"processing object {count}/{len(json_data['content'])} in file {j}/{amount_files}")
                 characteristics = {}
                 for characteristic in i['characteristics']:
                     characteristics[characteristic['name']] = characteristic[
@@ -152,25 +153,35 @@ def transform_into_flatter_structure(amount_files, folder):
                 i['lotDescription'] = excess_pattern.sub('', i['lotDescription'])
 
                 #удаляем адрес и сохраняем в отдельном
-                address_pattern = re.compile(r'(:?(,\s+)?(:?расположен\w+|находящееся)? по адресу|местоположение|адрес\w*(\s+\((:?местонахождение|местоположение)\))?):?\s*(?P<address>.+)$', flags=re.IGNORECASE)
-                match = address_pattern.search(i['lotDescription']) or address_pattern.search(i['lotName'])
-                if match:
-                    address = match["address"]
-                else:
-                    address_pattern = re.compile(r'(?P<address>(:?г\.|город|по ул\.|по улице).+)$',
-                        flags=re.IGNORECASE)
-                    match = address_pattern.search(i['lotDescription'])
-                    address = match["address"] if match else None
-
+                address = get_address(i['lotDescription']) or get_address(i['lotName'])
                 if address:
-                    selo_pattern = re.compile(r',\s*\b(с\.|п\.|пос\.|село|поселок|д\.\s*[а-я]+|деревня)\s+.+[,\.$]]',
-                                              flags=re.IGNORECASE)
-                    match = selo_pattern.search(address)
-                    if match:
-                        # continue
-                        print(match[0])
+                    i['lotDescription'] = re.sub(address, '', i['lotDescription'])
+                if address or cadastral:
+                    info_object = get_info_object(i['id'], address, cadastral)
+                lat, lon = None, None
+                if info_object:
+                    if type(info_object) == list:
 
-                i['lotDescription'] = address_pattern.sub('', i['lotDescription'])
+                        address = info_object[0]["value"]
+                        lat = info_object[0]["data"]["geo_lat"]
+                        lon = info_object[0]["data"]["geo_lon"]
+                    elif info_object["result"]:
+                        address = info_object["result"]
+                        lat = info_object["geo_lat"]
+                        lon = info_object["geo_lon"]
+                commercial_assessment = 0
+                if lat and lon and i.get('subjectRFCode'):
+                    try:
+                        commercial_assessment = get_commercial_assessment(lat, lon, i['subjectRFCode'])
+                    except Exception as _ex:
+                        print(_ex, "\r\n", lat, lon, i['subjectRFCode'])
+                residents = 0
+                shops = 0
+                if commercial_assessment:
+                    residents = commercial_assessment.get("residents")
+                    for category  in commercial_assessment:
+                        if category != "residents":
+                            shops += commercial_assessment.get(category)
 
                 object = {
                     "Регион": i['subjectRFCode'],
@@ -184,13 +195,51 @@ def transform_into_flatter_structure(amount_files, folder):
                     "Кадастровый номер": cadastral, #characteristics['Кадастровый номер'],
                     "Кадастровая стоимость": characteristics.get('Кадастровая стоимость '),
                     "Форма проведения": i['biddForm']['code'],
-                    "Имущество": bidd_type
+                    "Имущество": bidd_type,
+                    "Координаты": f'{lat}, {lon}',
+                    "Жителей в округе": residents,
+                    "Коммерческих объектов": shops
                 }
                 data["content"].append(object)
 
     with open(f"{folder}/result_full.json", "w", encoding='utf8') as file:
         json.dump(data, file, ensure_ascii=False, indent=4)
     return f"{folder}/result_full.json"
+def get_info_object(id, address, cadastral):
+    if os.path.exists(f"/tmp/{id}.json"):
+        #info_object
+        with open(f"tmp/{id}.json", "r", encoding='utf8') as file:
+            return file
+    else:
+        info_object = get_location(address, cadastral)
+        if info_object:
+            with open(f"tmp/{id}.json", "w", encoding='utf8') as file:
+                json.dump(info_object, file, ensure_ascii=False, indent=4)
+            return info_object
+    return None
+def get_address(str):
+    street_val = r"\s*\b(ул|проспек\w+|наб|улиц\w+|пр)\b\.?"
+    addr_val = r"\s*\b(г|д|р\.п|дер|пос|г\.о|городской округ|населенный пункт|линия|деревня|город|шоссе|пгт|просп|обл|респ|п|Респ\w+|республика|Республика\W+\w+|край|округ|область|район|р\Wо?н|стр|с|ш|МО|ст\Wца|Федерация)\b\.?"
+    addr_val_dig = r"\s*\b(пом|корпус|корп|кладовая|кв|д|дом|помещение)\b\.?"
+
+    end_val = r"(,|(?<![дгрс])\.|$|площад\w+|») *"
+    reg_exp = r'(?P<address>(:?помещение по|Нежилое помещение по|:|\.|,|в)(:?' \
+              r'(' \
+              r'\s*\b(Россия|РФ)\b\.?|' \
+              r'{addr_val}[^,:]+|' \
+              r'[^,:]+({addr_val}|{street_val}))' \
+              r'{end_val}|' \
+              r'{addr_val_dig}( *№)? *[\di]+([\\/ \d\w]{{,3}})\s*{end_val}|' \
+              r'{street_val}[^,:]+(,\s*\d+[\\/ \d\w]{{,3}}\b\s*)?{end_val}' \
+              r'){{2,}})' \
+        .format(addr_val=addr_val, addr_val_dig=addr_val_dig, end_val=end_val, street_val=street_val)
+
+    address_pattern = re.compile(reg_exp, flags=re.IGNORECASE)
+    match = address_pattern.search(str)  # or address_pattern.search(i['lotName'])
+    if match:
+       return match["address"]
+    return ""
+    # i['lotDescription'] = address_pattern.sub('', i['lotDescription'])
 def install_setting_of_columns(writer):
     workbook = writer.book
     worksheet = writer.sheets['Sheet1']
@@ -238,10 +287,12 @@ def primary_processing(path_file):
         json_data = json.load(f)
         df = json_normalize(json_data['content'])
         #mat
-
-        out_file="torgi/output.xlsx" if not path_file.find("archive") else "torgi/output_archive.xlsx"
-        #что бы можно было оставлять открым файл оутпут
-        save_opening_output_file(out_file)
+        out_file="torgi/output.xlsx" if path_file.find("archive") == -1 else "torgi/output_archive.xlsx"
+        try:
+            #что бы можно было оставлять открым файл оутпут
+            save_opening_output_file(out_file)
+        except Exception as _ex:
+            print(_ex)
 
         with pd.ExcelWriter(out_file,  engine='xlsxwriter', mode="w") as writer:
             df.to_excel(writer,  encoding='utf-8')
@@ -295,19 +346,16 @@ def main():
     #lotStatus=SUCCEED сбор завершенных данных; status = "APPLICATIONS_SUBMISSION прием заявок
 
     #status = "APPLICATIONS_SUBMISSION"
-    status = "APPLICATIONS_SUBMISSION"
+    status = "SUCCEED"
     folder = "torgi/result" if status != "SUCCEED" else "torgi/archive"
     amount_files = None
-    amount_files = get_data_json(bidd_type="229FZ,1041PP,178FZ", subj_rf="12,21,16,58,91",  lot_status=status, folder=folder)
+    #amount_files = get_data_json(bidd_type="229FZ,1041PP,178FZ", subj_rf="12,21,16,58,91",  lot_status=status, folder=folder)
    # print(amount_files)
-    if not amount_files:
-        print("Not files")
-        return
     if not amount_files:
         amount_files = 43
     path = transform_into_flatter_structure(amount_files, folder=folder)
     primary_processing(path)
-    visualize_data(path)
+    #visualize_data(path)
 
 if __name__ == "__main__":
     main()

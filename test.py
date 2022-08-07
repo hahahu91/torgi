@@ -3,6 +3,66 @@
 # import h3pandas
 import re
 import json
+import numpy as np
+import pandas as pd
+import os
+from get_coord import get_location, get_info_object
+
+from win32com import client
+#data = pd.read_excel('torgi/output.xlsx', engine='openpyxl', index_col=0, sheet_name='Sheet1') #ensure_ascii=False,
+from openpyxl import load_workbook
+
+
+def save_opening_output_file(file_path):
+    if os.path.exists(file_path):
+        excelApp = client.Dispatch('Excel.Application')
+        book = excelApp.Workbooks.open(os.path.abspath(file_path))
+        excelApp.DisplayAlerts = False
+        book.Save()
+        book.Close()
+#
+# if os.path.exists(f'tmp/21000005000000003050_1.json'):
+#     #info_object
+#     print("info")
+# else:
+#     print("not info")
+#
+#
+wb = load_workbook('torgi/output.xlsx')
+ws = wb['Sheet1']
+count = 0
+for row in ws.rows:
+    count += 1
+    coord = row[13].value
+    address = row[7].value
+    cadastr = row[9].value
+    id = re.sub(r'^.+"([^"]+)"\)$', r'\1',row[3].value)
+    #print(id, address, coord)
+    if row[13].value == 'None, None' or row[13].value == None:
+
+        info_object = get_info_object(id, address, cadastr)
+        lat, lon = None, None
+        if info_object:
+            lat = info_object['lat']
+            lon = info_object['lon']
+            address = info_object['address']
+            #print
+            ws[f'N{count}'] = f'{lat}, {lon}'
+            ws[f'H{count}'] = f'{address}'
+
+            print(address, lat, lon)
+save_opening_output_file('torgi/output.xlsx')
+wb.save('torgi/output.xlsx')
+#print(type(ws))
+# data = pd.DataFrame(ws.values)
+#
+# wb.save('torgi/output2.xlsx')
+# with pd.ExcelWriter('torgi/output3.xlsx', engine='xlsxwriter', mode="w") as writer:
+#     data.to_excel(writer, encoding='utf-8')
+    #install_setting_of_columns(writer)
+
+# for ob in data:
+#     print(ob)
 # from postal.expand import expand_address
 # expand_address('Quatre vingt douze Ave des Champs-Élysées')
 
@@ -16,52 +76,3 @@ import json
 # dfh3 = df.h3.geo_to_h3(10)
 # print(dfh3.head())
 
-def get_address(str):
-    street_val = r"\s*\b(ул|проспек\w+|наб|улиц\w+|пр)\b\.?"
-    addr_val = r"\s*\b(г|д|р\.п|дер|пос|г\.о|городской округ|населенный пункт|линия|деревня|город|шоссе|пгт|просп|обл|респ|п|Респ\w+|республика|Республика\W+\w+|край|округ|область|район|р\Wо?н|стр|с|ш|МО|ст\Wца|Федерация)\b\.?"
-    addr_val_dig = r"\s*\b(пом|корпус|корп|кладовая|кв|д|дом|помещение)\b\.?"
-
-    end_val = r"(,|(?<![дгрс])\.|$|площад\w+|») *"
-    reg_exp = r'(?P<address>(:?помещение по|Нежилое помещение по|:|\.|,|в)(:?' \
-              r'(' \
-              r'\s*\b(Россия|РФ)\b\.?|' \
-              r'{addr_val}[^,:]+|' \
-              r'[^,:]+({addr_val}|{street_val}))' \
-              r'{end_val}|' \
-              r'{addr_val_dig}( *№)? *[\di]+([\\/ \d\w]{{,3}})\s*{end_val}|' \
-              r'{street_val}[^,:]+(,\s*\d+[\\/ \d\w]{{,3}}\b\s*)?{end_val}' \
-              r'){{2,}})' \
-        .format(addr_val=addr_val, addr_val_dig=addr_val_dig, end_val=end_val, street_val=street_val)
-
-    address_pattern = re.compile(reg_exp, flags=re.IGNORECASE)
-    match = address_pattern.search(str)  # or address_pattern.search(i['lotName'])
-    if match:
-       return match["address"]
-    return ""
-    # i['lotDescription'] = address_pattern.sub('', i['lotDescription'])
-def test():
-    count = 0
-    for j in range(1, 3):
-
-        with open(f"torgi/archive/result_{j}.json", encoding='utf8') as f:
-            json_data = json.load(f)
-
-            for i in json_data['content']:
-
-                print("1", i['lotDescription'])
-                address = get_address(i['lotDescription'])
-                if address:
-                    print("2 good", address)
-                else:
-                    address = get_address(i['lotName'])
-                    print("3", i['lotName'])
-                    if address:
-                        print("4 good", address)
-                    if not address:
-                        count += 1
-                        print("5 bad", i['lotDescription'])
-                i['lotDescription'] = re.sub(address, '', i['lotDescription'])
-                print(i['lotDescription'])
-
-    print(count)
-test()

@@ -4,10 +4,10 @@ import json
 def get_address(str):
     street_val = r"\s*\b(ул|проспек\w+|бульв|проезд|бульвар|аллея|пер|наб|шоссе|линия|просп|пр\Wкт|переулок|улиц\w+|пр)\b\.?"
     addr_val = r"\s*\b(г|д|р\.п|дер|пос|г\.о|сельское поселение|городской округ|населенный пункт|деревня|город|пгт|обл|респ|п|Респ\w+|республика|Республика\W+\w+|край|округ|область|район|р\Wо?н|с|ш|МО|ст\Wца|Федерация)\b\.?"
-    addr_val_dig = r"\s*\b(пом|корпус|корп|кладовая|кв|д|к|дом|помещение|стр|строение)\b\.?"
+    addr_val_dig = r"\s*\b(пом|корпус|корп|зд|литера|кладовая|кв|д|к|дом|помещение|стр|строение)\b\.?"
 
-    end_val = r"(,|(?<![дгрс])\.|$|площад\w+|общей|»|\(|;) *"
-    reg_exp = r'(:?по|:|\.|,|в)(?P<address>(:?' \
+    end_val = r"(,|(?<![дгрс])\.|$|площад\w+|общей|»|\(|;|с земельным) *"
+    reg_exp = r'(:?по\b|:|\.|,|в\b)(?P<address>(:?' \
               r'(' \
               r'\s*\b(Россия|РФ)\b\.?|' \
               r'{addr_val}[^,:]+?|' \
@@ -22,7 +22,7 @@ def get_address(str):
     address_pattern = re.compile(reg_exp, flags=re.IGNORECASE)
     match = address_pattern.search(str)  # or address_pattern.search(i['lotName'])
     if match:
-        address = re.sub(r'\s*((,|\.|площад\w+|»|\(|общей) *)+$', '', match["address"])
+        address = re.sub(r'\s*((,|\.|площад\w+|»|\(|общей|с земельным) *)+$', '', match["address"])
         return address
     return ""
     # i['lotDescription'] = address_pattern.sub('', i['lotDescription'])

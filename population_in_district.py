@@ -6,6 +6,7 @@
 import osmiter
 import os
 import re
+import json
 #'lat': 56.6216708, 'lon': 47.8798082
 def obj_in_districk(lat, lon, lat_obj, lon_obg):
     if not lat_obj or not lon_obg:
@@ -63,7 +64,7 @@ def count_commercial_assessment(feature_tags, entity):
         amount = residents if not entity.get("residents") else entity.get("residents") + residents
         entity.update({"residents": amount})
 
-def get_commercial_assessment(lat, lon, region):
+def count_objects_in_district(lat, lon, region):
     from regions_abbr import regions_abbr
     file_osm = regions_abbr.get(int(region))["abbr"]
     if not file_osm:
@@ -87,6 +88,40 @@ def get_commercial_assessment(lat, lon, region):
         elif obj_in_districk(lat, lon, feature.get("lat"), feature.get("lon")):
             if feature["tag"] != {}:
                 count_commercial_assessment(feature["tag"], entity)
+
     return entity
+
+def get_commercial_assessment(lat, lon, region):
+    if os.path.exists(f'objs_in_district/{lat}_{lon}.json'):
+        # info_object
+        print("get entity from file")
+        with open(f'objs_in_district/{lat}_{lon}.json', encoding='utf8') as f:
+            entity = json.load(f)
+            print("entity", entity)
+    else:
+        print("not file in coords")
+        entity = count_objects_in_district(lat, lon, region)
+        if entity:
+            if not os.path.exists('objs_in_district'):
+                os.makedirs('objs_in_district')
+            with open(f'objs_in_district/{lat}_{lon}.json', "w", encoding='utf8') as file:
+                json.dump(entity, file, ensure_ascii=False, indent=4)
+    entity_count = 0
+    residents = 0
+    if entity:
+        residents = entity.get("residents")
+        for category  in entity:
+            if category != "residents":
+                entity_count += entity.get(category)
+
+
+    return {
+        'residents': residents,
+        'entity': entity_count,
+    }
+
+
+    #if entity != {}:
+        #objs_in_district
 
 #print(get_commercial_assessment(56.644718, 47.855835, 12))

@@ -56,15 +56,10 @@ def get_info_object(id, address = "", cadastral = ""):
                 json.dump(info_object, file, ensure_ascii=False, indent=4)
     lat, lon = None, None
     if info_object:
-        if type(info_object) == list:
+        address = info_object[0]['value']
+        lat = info_object[0]['data']['geo_lat']
+        lon = info_object[0]['data']['geo_lon']
 
-            address = info_object[0]['value']
-            lat = info_object[0]['data']['geo_lat']
-            lon = info_object[0]['data']['geo_lon']
-        elif info_object['result']:
-            address = info_object['result']
-            lat = info_object['geo_lat']
-            lon = info_object['geo_lon']
     return {
         'lat': lat,
         'lon': lon,

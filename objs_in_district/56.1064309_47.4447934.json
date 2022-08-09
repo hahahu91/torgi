@@ -1,0 +1,50 @@
+{
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "library",
+                "contact:email": "d-anatri@mubiblioteka.ru",
+                "contact:facebook": "https://www.facebook.com/groups/715114355319404/",
+                "contact:phone": "+7 8352 773506",
+                "contact:vk": "https://vk.com/biblioteka_nchk",
+                "contact:website": "https://mubiblioteka.ru/",
+                "name": "Библиотека им. В. Давыдова-Анатри"
+            }
+        ]
+    },
+    "residents": 4188,
+    "bus_stop": {
+        "count": 1,
+        "detail": [
+            {
+                "highway": "bus_stop",
+                "name": "Южная улица",
+                "name:cv": "Кӑнтӑр урамӗ",
+                "public_transport": "platform",
+                "share_taxi": "yes"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "18",
+                "building": "school",
+                "addr:street": "Первомайская улица",
+                "addr:housenumber": "55"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "29",
+                "addr:street": "улица 10-й Пятилетки",
+                "building": "kindergarten"
+            }
+        ]
+    }
+}

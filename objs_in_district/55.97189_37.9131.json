@@ -1,0 +1,339 @@
+{
+    "residents": 3744,
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "taxi": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "taxi"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 8,
+        "detail": [
+            {
+                "bin": "yes",
+                "name": "Дом быта",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Клуб 1 Мая",
+                "bench": "no",
+                "highway": "bus_stop",
+                "shelter": "no",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Почта",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "name": "Почта",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Почта",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Почта",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Дом быта",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Клуб 1 Мая",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "bathroom": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "bathroom"
+            }
+        ]
+    },
+    "jewelry": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "jewelry"
+            }
+        ]
+    },
+    "clothes;shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "clothes;shoes"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "furnishing": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "furnishing"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Медикс",
+                "amenity": "doctors"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "shelter": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "shelter",
+                "shelter_type": "public_transport"
+            },
+            {
+                "amenity": "shelter",
+                "shelter_type": "public_transport"
+            },
+            {
+                "amenity": "shelter",
+                "shelter_type": "public_transport"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "contact:website": "http://magnit-info.ru/"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ивантеевка",
+                "addr:housenumber": "11А",
+                "addr:street": "улица Дзержинского",
+                "amenity": "bank",
+                "atm": "yes",
+                "bic": "VTBRRUMM",
+                "brand": "ВТБ",
+                "brand:en": "VTB Bank",
+                "brand:wikidata": "Q767946",
+                "brand:wikipedia": "ru:Банк Москвы",
+                "contact:email": "info@vtb.ru",
+                "contact:facebook": "https://www.facebook.com/vtbrussia",
+                "contact:instagram": "https://www.instagram.com/bankvtb",
+                "contact:ok": "https://ok.ru/vtb",
+                "contact:phone": "+7 800 1002424",
+                "contact:twitter": "https://twitter.com/VTB",
+                "contact:vk": "https://vk.com/vtb",
+                "contact:website": "https://www.vtb.ru",
+                "contact:youtube": "https://www.youtube.com/user/vtbgroup",
+                "name": "ВТБ",
+                "name:en": "VTB",
+                "name:ru": "ВТБ",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-17:00",
+                "operator": "Банк ВТБ (публичное акционерное общество)",
+                "operator:wikidata": "Q1549389",
+                "operator:wikipedia": "ru:Банк ВТБ"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "addr:street": "улица Дзержинского",
+                "addr:housenumber": "4"
+            }
+        ]
+    },
+    "theatre": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "theatre",
+                "name": "Музыкально-драматический театр г. Ивантеевка",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "phone": "+7 496 5364621",
+                "ref:mkrf_theaters": "5376",
+                "website": "http://teatr-ivanteevka.ru/"
+            },
+            {
+                "name": "КДЦ \"Первомайский\"",
+                "amenity": "theatre",
+                "building": "yes",
+                "description": "Культурно-досуговый центр",
+                "building:levels": "2",
+                "addr:housenumber": "1А"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "kindergarten",
+                "building": "yes",
+                "roof:shape": "hipped",
+                "building:levels": "2",
+                "addr:housenumber": "13А"
+            },
+            {
+                "building": "kindergarten",
+                "addr:city": "Ивантеевка",
+                "addr:street": "Первомайская улица",
+                "addr:postcode": "141280",
+                "building:levels": "2",
+                "addr:housenumber": "28",
+                "building:architecture": "constructivism"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Церковь Иконы Божией Матери Смоленская",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "religion": "christian",
+                "start_date": "1803..1808",
+                "denomination": "russian_orthodox",
+                "ref:temples.ru": "2703",
+                "building:levels": "4"
+            },
+            {
+                "name": "Часовня",
+                "amenity": "place_of_worship",
+                "building": "chapel",
+                "religion": "christian",
+                "start_date": "1993",
+                "denomination": "russian_orthodox",
+                "ref:temples.ru": "2705"
+            }
+        ]
+    },
+    "service": {
+        "count": 2,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "sauna",
+                "building": "yes",
+                "addr:city": "Ивантеевка",
+                "addr:street": "Первомайская улица",
+                "addr:housenumber": "22"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская одежда и обувь",
+                "shop": "clothes",
+                "building": "yes"
+            }
+        ]
+    },
+    "public_building": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "public_building",
+                "building": "yes",
+                "addr:street": "Фабричная улица",
+                "building:levels": "2",
+                "addr:housenumber": "1 к40"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:city": "Ивантеевка",
+                "addr:street": "улица Дзержинского",
+                "addr:housenumber": "11А"
+            },
+            {
+                "building": "commercial"
+            }
+        ]
+    }
+}

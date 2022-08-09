@@ -1,0 +1,429 @@
+{
+    "residents": 4011,
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "BP Беляево",
+                "amenity": "fuel",
+                "operator": "BP",
+                "fuel:diesel": "yes",
+                "fuel:octane_92": "yes",
+                "fuel:octane_95": "yes",
+                "fuel:octane_98": "yes"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Улица Бутлерова, 9",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "name": "Деревлёво",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Улица Бутлерова",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Улица Бутлерова",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "cafe"
+            },
+            {
+                "name": "Wild Bean Cafe",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "restaurant",
+                "contact:facebook": "https://www.facebook.com/chaihona1.ru",
+                "contact:instagram": "https://www.instagram.com/chaihona1/",
+                "contact:phone": "+7 495 3341685",
+                "contact:vk": "https://vk.com/chaihona1ru",
+                "contact:website": "http://chaihona1.ru",
+                "cuisine": "uzbek",
+                "email": "feedback@chaihona1.ru",
+                "name": "Чайхона №1",
+                "name:en": "Chaihona #1",
+                "opening_hours": "Mo,Tu,We,Th,Su 12:00-02:00; Fr-Sa 12:00-05:00",
+                "operator": "Рестораны Тимура Ланского"
+            }
+        ]
+    },
+    "parking": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "access": "private",
+                "amenity": "parking"
+            },
+            {
+                "access": "customers",
+                "amenity": "parking",
+                "parking": "surface"
+            },
+            {
+                "fee": "yes",
+                "amenity": "parking"
+            },
+            {
+                "fee": "yes",
+                "amenity": "parking",
+                "parking": "multi-storey",
+                "building": "garages",
+                "addr:street": "улица Бутлерова",
+                "description": "Народный гараж",
+                "building:levels": "5",
+                "addr:housenumber": "15А"
+            }
+        ]
+    },
+    "bicycle_rental": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_rental",
+                "capacity": "15",
+                "capacity:electric": "0",
+                "contact:email": "info@velobike.ru",
+                "contact:phone": "+7 495 9664669",
+                "contact:website": "https://velobike.ru/",
+                "fee": "yes",
+                "network": "Велобайк",
+                "opening_hours": "24/7",
+                "operator": "АО «СитиБайк»",
+                "payment:cash": "no",
+                "payment:mastercard": "yes",
+                "payment:troika": "no",
+                "payment:visa": "yes",
+                "ref": "336",
+                "seasonal": "yes"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket",
+                "brand": "Пятёрочка",
+                "name:en": "Pyatyorochka",
+                "name:ru": "Пятёрочка",
+                "alt_name": "Пятерочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:website": "https://5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka"
+            },
+            {
+                "shop": "supermarket"
+            },
+            {
+                "name": "Дикси",
+                "shop": "supermarket",
+                "brand": "Дикси",
+                "name:en": "Dixy",
+                "name:ru": "Дикси",
+                "contact:phone": "+7 800 3330201",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "contact:website": "http://dixy.ru"
+            },
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "brand": "Магнит",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "operator": "АО \"Тандер\"",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:website": "http://magnit-info.ru"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "ice_cream": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "ice_cream"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "branch": "Московский банк",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://www.instagram.com/sberbank/",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 10:00-19:00",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "9038/01257",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "tyres": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "tyres"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "bench": {
+        "count": 7,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "shelter": "yes",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "shelter": "yes",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "shelter": "yes",
+                "backrest": "yes",
+                "material": "wood"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Почтовое отделение",
+                "amenity": "post_office",
+                "operator": "ФГУП «Почта России»",
+                "contact:website": "http://www.russianpost.ru",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 495 5395454",
+                "contact:website": "http://parking.mos.ru/",
+                "opening_hours": "24/7",
+                "operator": "ГКУ «Администратор Московского парковочного пространства»",
+                "payment:cash": "no",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "ref": "4179",
+                "ref:mos_parking": "859915403",
+                "vending": "parking_tickets",
+                "zone:parking": "4057"
+            }
+        ]
+    },
+    "massage": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "info@tairai.ru",
+                "contact:facebook": "https://www.facebook.com/tairai.ru/",
+                "contact:instagram": "https://www.instagram.com/tairai.ru/",
+                "contact:phone": "+7 495 2254242;+7 800 2001422",
+                "contact:vk": "https://vk.com/tairai_ru",
+                "name": "Тайрай",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "ИП Сидоров Т. С.",
+                "shop": "massage"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "toilets",
+                "fee": "no"
+            },
+            {
+                "fee": "no",
+                "access": "public",
+                "amenity": "toilets",
+                "building": "yes",
+                "addr:street": "Профсоюзная улица",
+                "addr:housenumber": "88Б"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "addr:street": "улица Бутлерова",
+                "addr:housenumber": "24А"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "17",
+                "addr:street": "улица Бутлерова",
+                "building": "commercial",
+                "building:levels": "21"
+            }
+        ]
+    },
+    "university": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "university",
+                "building": "industrial",
+                "addr:street": "улица Бутлерова",
+                "addr:housenumber": "17А"
+            }
+        ]
+    },
+    "copyshop": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Издательство Наука",
+                "shop": "copyshop",
+                "office": "company",
+                "building": "office",
+                "addr:street": "Профсоюзная улица",
+                "addr:housenumber": "90"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Храм в честь иконы Божией Матери «Умягчение злых сердец»",
+                "amenity": "place_of_worship",
+                "building": "temple",
+                "religion": "christian",
+                "denomination": "russian_orthodox"
+            }
+        ]
+    }
+}

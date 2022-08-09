@@ -1,0 +1,378 @@
+{
+    "residents": 9192,
+    "supermarket": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Фермерские продукты",
+                "shop": "supermarket"
+            },
+            {
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyatyorochka",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "09:00-23:00",
+                "operator": "X5 Retail Group",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket",
+                "brand": "Пятёрочка",
+                "name:en": "Pyatyorochka",
+                "name:ru": "Пятёрочка",
+                "alt_name": "Пятерочка",
+                "operator": "X5 Retail Group",
+                "opening_hours": "09:00-23:00",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:website": "https://5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka"
+            },
+            {
+                "alt_name": "Пятерочка",
+                "alt_name:ru": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "email": "vopros@5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterchka",
+                "name:ru": "Пятёрочка",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "branch": "Московский банк",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://www.instagram.com/sberbank/",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 08:30-19:30; Sa 09:00-17:00",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "9038/01092",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "115407",
+                "name": "Отделение связи №115407",
+                "amenity": "post_office",
+                "operator": "Почта России",
+                "addr:postcode": "115407",
+                "contact:phone": "+7 499 6161255",
+                "opening_hours": "Mo-Fr 08:00-13:00,14:00-20:00; Sa 09:00-13:00,14:00-18:00; Su off",
+                "contact:website": "http://www.russianpost.ru"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience",
+                "name:ru": "Продукты"
+            },
+            {
+                "name": "ВкусВилл",
+                "shop": "convenience",
+                "brand": "ВкусВилл",
+                "name:ru": "ВкусВилл",
+                "contact:vk": "https://vk.com/izbenka",
+                "contact:email": "info@izbenka.msk.ru",
+                "contact:phone": "+7 495 6638602",
+                "contact:website": "http://vkusvill.ru",
+                "contact:facebook": "https://www.facebook.com/izbenka",
+                "contact:telegram": "https://telegram.me/vkusvillbot",
+                "contact:instagram": "https://www.instagram.com/izbenka_vkusvill"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "clinic",
+                "contact:phone": "+7 495 9835959",
+                "contact:website": "http://prezident-med.ru/",
+                "name": "Президент",
+                "opening_hours": "09:00-21:00"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "dentist",
+                "contact:phone": "+7 499 6188810",
+                "contact:website": "http://impladent.ru",
+                "name": "Импладент",
+                "opening_hours": "09:00-21:00"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Затонная улица",
+                "bench": "no",
+                "source": "bing; yandex panorams",
+                "highway": "bus_stop",
+                "shelter": "no",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Затонная улица",
+                "bench": "yes",
+                "source": "bing;yandex panorams",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Якорная улица (посадка)",
+                "bench": "yes",
+                "source": "bing; yandex panorams",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Якорная улица (высадка)",
+                "bench": "no",
+                "source": "bing; yandex panorams",
+                "highway": "bus_stop",
+                "shelter": "no",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Якорная улица, дом №9",
+                "bench": "no",
+                "source": "bing; yandex panorams",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Якорная улица, дом №9",
+                "bench": "yes",
+                "source": "bing; yandex panorams",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "atm": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "ПАО \"Сбербанк\"",
+                "drive_through": "no"
+            },
+            {
+                "amenity": "atm",
+                "operator": "ПАО \"Сбербанк\"",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "car_parts",
+                "addr:street": "Якорная улица",
+                "opening_hours": "09:00-21:00",
+                "addr:housenumber": "7 к1"
+            }
+        ]
+    },
+    "dance": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Школа брейк данса Инспайр",
+                "email": "info@inspire2.ru",
+                "leisure": "dance",
+                "website": "http://inspire2.ru",
+                "operator": "ГБУК ДК \"Нагатино\"",
+                "addr:city": "Москва",
+                "addr:street": "Судостроительная улица",
+                "dance:style": "break_dance;брейк_данс",
+                "official_name": "Школа брейк данса \"ИНСПАЙР\"",
+                "opening_hours": "Tu,Th 20:00+; Sa 19:00+",
+                "addr:housenumber": "31"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Княжна",
+                "shop": "beauty"
+            },
+            {
+                "name": "Эстель",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "clothes",
+                "second_hand": "only"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Суши Фиш",
+                "amenity": "fast_food",
+                "cuisine": "sushi"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "31 к1",
+                "addr:street": "Судостроительная улица",
+                "amenity": "arts_centre",
+                "name": "ДК Нагатино",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "phone": "+7 499 6166066",
+                "website": "http://nagati.ru/"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bar",
+                "name": "Хмель и солод"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "school",
+                "addr:street": "Судостроительная улица",
+                "addr:postcode": "127238",
+                "building:levels": "5",
+                "addr:housenumber": "31 к2"
+            },
+            {
+                "name": "Кадетская школа №1770",
+                "amenity": "school",
+                "building": "school",
+                "addr:street": "Судостроительная улица",
+                "addr:housenumber": "43 к2"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:street": "Судостроительная улица",
+                "addr:postcode": "115487",
+                "addr:housenumber": "29"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский сад №2272",
+                "amenity": "kindergarten",
+                "building": "kindergarten",
+                "addr:street": "Нагатинская набережная",
+                "addr:housenumber": "58 к3"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "addr:street": "Якорная улица",
+                "addr:postcode": "127238",
+                "building:levels": "1",
+                "addr:housenumber": "10 к2 с2"
+            }
+        ]
+    }
+}

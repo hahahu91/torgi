@@ -1,0 +1,870 @@
+{
+    "residents": 6264,
+    "bus_stop": {
+        "count": 10,
+        "detail": [
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Универсам",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "operator": "Мосгортранс",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "МФЦ «Лосиноостровский»",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "operator": "Мосгортранс",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "ref": "1819",
+                "name": "МФЦ «Лосиноостровский»",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "operator": "Мосгортранс",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Рынок «Северный»",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Рынок «Северный»",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Староватутинский проезд",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Староватутинский проезд",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "МФЦ «Лосиноостровский»",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "МФЦ «Лосиноостровский»",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Универсам",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "contact:phone": "+7 800 2005888",
+                "contact:twitter": "https://twitter.com/ruspostofficial",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Отделение связи №129281",
+                "opening_hours": "Mo-Fr 08:00-13:00,14:00-20:00; Sa 09:00-13:00,14:00-18:00; Su off",
+                "operator": "ФГУП «Почта России»",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России",
+                "ref": "129281"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 5,
+        "detail": [
+            {
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "24/7",
+                "shop": "supermarket"
+            },
+            {
+                "brand": "Дикси",
+                "brand:en": "Dixy",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "contact:phone": "+7 800 3330201",
+                "contact:vk": "https://vk.com/dixyclub",
+                "contact:website": "https://dixy.ru",
+                "contact:youtube": "https://www.youtube.com/channel/UCfFxD9xhL67LxHvsDOp_rvg",
+                "name": "Дикси",
+                "name:en": "Dixy",
+                "name:ru": "Дикси",
+                "opening_hours": "09:00-23:00",
+                "shop": "supermarket"
+            },
+            {
+                "addr:postcode": "129346",
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:email": "info@magnit.ru",
+                "contact:phone": "+7 800 2009002",
+                "contact:twitter": "https://twitter.com/magnit_info",
+                "contact:website": "http://magnit-info.ru",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "operator": "АО \"Тандер\"",
+                "shop": "supermarket"
+            },
+            {
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/club19098821",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "shop": "supermarket"
+            },
+            {
+                "addr:city": "Бабушкинский район",
+                "addr:housenumber": "39 к3",
+                "addr:street": "улица Лётчика Бабушкина",
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "На изумрудной",
+                "amenity": "cafe",
+                "opening_hours": "12:00-24:00"
+            },
+            {
+                "amenity": "cafe",
+                "cuisine": "sushi",
+                "name": "СушиStore",
+                "opening_hours": "Mo-Su 10:00-23:00",
+                "phone": "+7 495 2300000",
+                "website": "http://www.sushistore.ru"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "hairdresser",
+                "opening_hours": "Mo-Fr 09:00-21:00; Sa-Su 09:00-17:00"
+            },
+            {
+                "name": "Эль Шарм",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Новая",
+                "shop": "hairdresser",
+                "opening_hours": "09:00-20:00"
+            }
+        ]
+    },
+    "hifi": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Радио",
+                "shop": "hifi",
+                "opening_hours": "Mo-Fr 10:00-20:00; Su 11:00-19:00; Sa 10:00-19:00"
+            }
+        ]
+    },
+    "bank": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "bank",
+                "bic": "SABRRUMM",
+                "branch": "Московский банк",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "en:Sberbank of Russia",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://www.instagram.com/sberbank/",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "floor": "1",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 08:30-19:30; Sa 09:00-16:30",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "9038/0822",
+                "wheelchair": "yes"
+            },
+            {
+                "name": "Авангард офис №8825",
+                "amenity": "bank",
+                "operator": "ОАО АКБ \"Авангард\""
+            },
+            {
+                "name": "Первый инвестиционный",
+                "branch": "Бабушкинское отделение",
+                "amenity": "bank",
+                "opening_hours": "Mo-Th 09:30-16:30; Fr 09:30-15:30; 13:30-14:30 off; Sa-Su off"
+            }
+        ]
+    },
+    "erotic": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Он и она",
+                "shop": "erotic",
+                "opening_hours": "10:00-22:00"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Азбука строительства",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "pub": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Старая карта",
+                "amenity": "pub"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Шаурма",
+                "amenity": "fast_food"
+            },
+            {
+                "name": "Чикен Китчен",
+                "amenity": "fast_food",
+                "cuisine": "chicken",
+                "opening_hours": "10:00-23:00"
+            },
+            {
+                "name": "Кулинария",
+                "amenity": "fast_food",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa-Su 09:00-18:00"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Хороший",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience",
+                "inscription": "Продукты",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "fabric": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Текстиль для дома",
+                "shop": "fabric",
+                "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-19:00; 14:00-14:30 off"
+            },
+            {
+                "name": "Лювир",
+                "shop": "fabric",
+                "opening_hours": "10:00-20:00"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Сердечко",
+                "opening_hours": "08:00-22:00"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "pharmacy",
+                "brand": "Горздрав",
+                "contact:email": "info@gor-zdrav.ru",
+                "contact:facebook": "https://www.facebook.com/AptekaGorzdrav",
+                "contact:instagram": "https://www.instagram.com/gorzdrav",
+                "contact:ok": "https://ok.ru/group/57486617870381",
+                "contact:phone": "+7 499 6536277",
+                "contact:vk": "https://vk.com/gorzdrav",
+                "contact:website": "https://gorzdrav.org",
+                "healthcare": "pharmacy",
+                "name": "Горздрав",
+                "name:en": "Gorzdrav",
+                "name:ru": "Горздрав",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            },
+            {
+                "addr:postcode": "129346",
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "РОС Аптека",
+                "opening_hours": "Mo-Su 09:00-22:00"
+            }
+        ]
+    },
+    "optician": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "optician"
+            },
+            {
+                "shop": "optician"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "private",
+                "amenity": "toilets"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "butcher"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "doctors",
+                "healthcare": "doctor",
+                "name": "Реал Хэлс",
+                "opening_hours": "Mo-Sa 09:00-19:00; Su off"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Царская Цирюльня",
+                "shop": "beauty"
+            },
+            {
+                "name": "Преображение",
+                "shop": "beauty",
+                "beauty": "cosmetics",
+                "description": "Центр косметологии «Преображение»",
+                "opening_hours": "10:00-21:00"
+            },
+            {
+                "name": "Белиссимо",
+                "shop": "beauty",
+                "description": "Салон красоты",
+                "opening_hours": "09:00-21:00"
+            },
+            {
+                "name": "Мечты",
+                "shop": "beauty",
+                "beauty": "nails"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "dentist",
+                "healthcare": "dentist",
+                "name": "ЯноДент+",
+                "opening_hours": "09:00-21:00"
+            },
+            {
+                "amenity": "dentist",
+                "contact:phone": "+7 495 4722429;+7 495 4725138",
+                "contact:website": "http://www.eurostom.ru",
+                "healthcare": "dentist",
+                "name": "Евростом 1",
+                "opening_hours": "Mo-Fr 09:00-21:00; Sa-Su 10:00-18:00"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Modus",
+                "shop": "clothes",
+                "female": "designated"
+            },
+            {
+                "shop": "clothes"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "clinic",
+                "healthcare": "clinic"
+            }
+        ]
+    },
+    "orthopedic": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ортопедический салон",
+                "shop": "orthopedic",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa-Su 11:00-18:00"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Зебра",
+                "leisure": "sports_centre",
+                "contact:phone": "+7 495 5405900",
+                "opening_hours": "24/7",
+                "contact:website": "http://www.fitnes.ru/content/ru/club-2011-10-05-13-59-36.html"
+            }
+        ]
+    },
+    "tobacco": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Табак",
+                "shop": "tobacco"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Электро Магазин",
+                "shop": "hardware",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa-Su off; 13:00-13:30 off"
+            }
+        ]
+    },
+    "ticket": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "10518",
+                "name": "Проездные билеты",
+                "shop": "ticket",
+                "name:en": "Public transport tickets",
+                "name:ru": "Проездные билеты",
+                "building": "kiosk",
+                "operator": "ГУП «Мосгортранс»",
+                "opening_hours": "07:00-20:00; 11:15-11:45 off; 17:00-17:30 off",
+                "building:levels": "1",
+                "contact:website": "http://www.mosgortrans.ru",
+                "tickets:public_transport": "yes"
+            }
+        ]
+    },
+    "ice_cream": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "ice_cream"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "newsagent",
+                "building": "kiosk",
+                "inscription": "Печать",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "second_hand": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Комисионный магазин",
+                "shop": "second_hand"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Магнит Косметик",
+                "brand:en": "Magnit Cosmetics",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:email": "info@magnit.ru",
+                "contact:phone": "+7 800 2009002",
+                "contact:website": "https://magnitcosmetic.ru/",
+                "name": "Магнит Косметик",
+                "name:en": "Magnit Cosmetics",
+                "name:ru": "Магнит Косметик",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "АО \"Тандер\"",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магазин разливного пива",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "travel_agency": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "travel_agency",
+                "opening_hours": "Mo-Fr 11:00-20:00; Sa 11:00-15:00"
+            }
+        ]
+    },
+    "childcare": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Детский развлекательный центр",
+                "amenity": "childcare"
+            },
+            {
+                "amenity": "childcare",
+                "contact:email": "msk.babushkinskaja@baby-club.ru",
+                "contact:facebook": "https://www.facebook.com/babyclub.babushkinskaya",
+                "contact:instagram": "https://www.instagram.com/babyclub.babushkinskaya/",
+                "contact:phone": "+7 800 1002024;+7 977 7277399",
+                "contact:vk": "https://vk.com/babyclub.babushkinskaya",
+                "contact:website": "https://baby-club.ru/",
+                "contact:youtube": "https://www.youtube.com/channel/UCNES2uSaHN5Q9mRD5l5XgSQ",
+                "name": "Бэби-клуб",
+                "opening_hours": "Mo-Sa 9:30-20:00",
+                "operator": "Бэби-клуб"
+            }
+        ]
+    },
+    "public_service": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Многофункциональный центр предоставления государственных и муниципальных услуг района Лосиноостровский",
+                "brand": "Мои документы",
+                "office": "government",
+                "amenity": "public_service",
+                "alt_name": "МФЦ Лосиноостровский",
+                "addr:city": "Москва",
+                "government": "public_service",
+                "short_name": "МФЦ",
+                "addr:street": "Изумрудная улица",
+                "addr:housenumber": "18/14"
+            }
+        ]
+    },
+    "atm": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:email": "sberbank@sberbank.ru",
+                "contact:facebook": "https://www.facebook.com/bankdruzey",
+                "contact:instagram": "https://instagram.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "currency:RUB": "yes",
+                "operator": "Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России"
+            },
+            {
+                "amenity": "atm",
+                "operator": "Tinkoff"
+            }
+        ]
+    },
+    "bicycle": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "30 с1",
+                "addr:street": "улица Лётчика Бабушкина",
+                "level": "-1",
+                "name": "VeloMajor",
+                "shop": "bicycle"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 800 7753553",
+                "contact:website": "http://omnicdek.com/",
+                "name": "ОмниСДЭК",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "ref": "7057",
+                "vending": "parcel_pickup"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "Изумрудная улица",
+                "building:levels": "2",
+                "addr:housenumber": "11 к1"
+            }
+        ]
+    },
+    "fire_station": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "ПЧ-23",
+                "name": "Пожарная часть №23",
+                "amenity": "fire_station",
+                "building": "yes",
+                "operator": "RU-MOW",
+                "roof:angle": "30",
+                "roof:shape": "hipped",
+                "addr:street": "Осташковская улица",
+                "building:levels": "2",
+                "addr:housenumber": "3"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сувлачная",
+                "amenity": "bar",
+                "building": "yes",
+                "addr:street": "улица Лётчика Бабушкина",
+                "building:levels": "1",
+                "addr:housenumber": "36А"
+            }
+        ]
+    },
+    "farm": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "30 с1",
+                "addr:postcode": "129281",
+                "addr:street": "улица Лётчика Бабушкина",
+                "amenity": "marketplace",
+                "building": "yes",
+                "building:levels": "3",
+                "contact:phone": "+7 495 6441295",
+                "name": "Фермерский рынок \"Ветерок\"",
+                "note": "Только переименовал, контакты и режим работы от старого.",
+                "opening_hours": "08:00-20:00",
+                "shop": "farm"
+            }
+        ]
+    },
+    "courthouse": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "39А",
+                "addr:postcode": "129281",
+                "addr:street": "улица Лётчика Бабушкина",
+                "amenity": "courthouse",
+                "building": "yes",
+                "email": "info@01.msksud.ru",
+                "name": "Бабушкинский районный суд города Москвы",
+                "opening_hours": "Mo-Th 09:00-13:00,13:45-18:00; Fr 09:00-13:00,13:45-16:45",
+                "phone": "+7 495 4710488",
+                "website": "https://mos-gorsud.ru/rs/babushkinskij"
+            }
+        ]
+    }
+}

@@ -1,0 +1,86 @@
+{
+    "residents": 1324,
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Продовольственный мир",
+                "shop": "convenience"
+            },
+            {
+                "name": "Смак",
+                "shop": "convenience",
+                "opening_hours": "Mo-Su 08:00-22:00"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Запруды",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "share_taxi": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Запруды",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "share_taxi": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Запруды",
+                "highway": "bus_stop",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "6",
+                "addr:street": "Малинское шоссе",
+                "brand": "Дикси",
+                "brand:en": "Dixy",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "name": "Дикси",
+                "name:en": "Diksi",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Отделение Лицензионно-Разрешительной работы",
+                "phone": "+7 496 6167540",
+                "amenity": "police",
+                "building": "yes",
+                "addr:city": "Коломна",
+                "short_name": "ЛРО",
+                "addr:street": "Большая Запрудная улица",
+                "addr:country": "RU",
+                "opening_hours": "Mo-Th 09:00-13:00,14:00-18:00;We off",
+                "addr:housenumber": "10А"
+            }
+        ]
+    }
+}

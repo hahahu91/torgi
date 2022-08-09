@@ -1,0 +1,341 @@
+{
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Горячий хлеб",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Дом культуры \"Луч\"",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            },
+            {
+                "name": "Дом культуры \"Луч\"",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket",
+                "brand": "Пятёрочка",
+                "name:en": "Pyatyorochka",
+                "name:ru": "Пятёрочка",
+                "alt_name": "Пятерочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:website": "https://5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka"
+            },
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket",
+                "brand": "Пятёрочка",
+                "name:en": "Pyatyorochka",
+                "name:ru": "Пятёрочка",
+                "alt_name": "Пятерочка",
+                "building": "yes",
+                "addr:street": "Парковая улица",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:website": "https://5ka.ru",
+                "addr:housenumber": "14А",
+                "contact:facebook": "https://www.facebook.com/pyaterochka"
+            }
+        ]
+    },
+    "residents": 6939,
+    "kindergarten": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Детский сад №18 \"Ладушка\"",
+                "amenity": "kindergarten"
+            },
+            {
+                "addr:housenumber": "8",
+                "building": "kindergarten"
+            },
+            {
+                "name": "Детский сад №4 \"Малыш\"",
+                "amenity": "kindergarten",
+                "building": "yes"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "butcher"
+            },
+            {
+                "name": "Лыткаринский МПЗ",
+                "shop": "butcher"
+            },
+            {
+                "shop": "butcher"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "florist"
+            },
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Тренажёрный зал",
+                "sport": "swimming",
+                "leisure": "sports_centre"
+            }
+        ]
+    },
+    "photo": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "photo"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "travel_agency": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Coral Travel",
+                "shop": "travel_agency"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 4,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience",
+                "building": "yes",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "parking": {
+        "count": 8,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "access": "private",
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "veterinary": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "veterinary"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Медицинский центр \"Авангард\"",
+                "amenity": "doctors",
+                "website": "http://www.medartis.ru"
+            }
+        ]
+    },
+    "toys": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Банди Игрушка",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "phone": "88007019123",
+                "shop": "toys",
+                "website": "http://banditoy.ru"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Радуга",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "dentist",
+                "healthcare": "dentist"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "dispensing": "yes",
+                "healthcare": "pharmacy"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "bakery"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дом культуры \"Центр молодежи\"",
+                "amenity": "arts_centre",
+                "building": "yes",
+                "old_name": "Дом культуры \"Луч\"",
+                "addr:city": "Лыткарино",
+                "addr:street": "Парковая улица",
+                "addr:housenumber": "16"
+            }
+        ]
+    },
+    "mall": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "yes",
+                "building:levels": "2",
+                "name": "Торговый центр \"Импульс\"",
+                "shop": "mall",
+                "source": "Bing"
+            },
+            {
+                "addr:housenumber": "2Б",
+                "addr:street": "улица Ленина",
+                "building": "yes",
+                "building:levels": "2",
+                "name": "Торговый центр \"Ассортида\"",
+                "shop": "mall"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "clinic",
+                "building": "yes",
+                "building:levels": "2",
+                "healthcare": "clinic",
+                "health_facility:type": "clinic",
+                "health_specialty:gynaecology": "main",
+                "medical_system:western": "yes",
+                "name": "Женская консультация",
+                "provided_for:female": "yes",
+                "roof:shape": "hipped",
+                "source": "Bing"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Школа №2",
+                "amenity": "school",
+                "building": "yes",
+                "roof:shape": "hipped",
+                "addr:street": "Пионерская улица",
+                "addr:housenumber": "6"
+            }
+        ]
+    }
+}

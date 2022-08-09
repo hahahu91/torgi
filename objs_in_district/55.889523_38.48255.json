@@ -1,0 +1,114 @@
+{
+    "residents": 2423,
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Алладин",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дикси",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "bench": "yes",
+                "source": "drive-by gps",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "п. Ильича (Полигон)",
+                "bench": "yes",
+                "source": "drive-by gps",
+                "covered": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Поворот на Бабёнки",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Поворот на Бабёнки",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Школа №5",
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Детский сад № 9",
+                "amenity": "kindergarten"
+            },
+            {
+                "name": "Ясли №102",
+                "amenity": "kindergarten"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "alt_name": "Ногинск 2",
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:phone": "+7 496 5151908",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Ногинск 142402",
+                "opening_hours": "Tu-Fr 09:00-18:00; Sa 09:00-17:00",
+                "operator": "АО «Почта России»",
+                "ref": "142402"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Школа № 5 имени М. Сураева",
+                "amenity": "school",
+                "building": "yes",
+                "addr:city": "Ногинск",
+                "addr:street": "улица Кирова",
+                "building:levels": "3",
+                "addr:housenumber": "3"
+            },
+            {
+                "name": "школа-интернат №2",
+                "building": "school",
+                "addr:city": "Ногинск",
+                "addr:street": "улица Чапаева",
+                "building:levels": "3"
+            }
+        ]
+    }
+}

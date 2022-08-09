@@ -1,0 +1,442 @@
+{
+    "residents": 471,
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "ДК им. К.Маркса",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "name": "Торговый дом \"Русь\"",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "ДК им. К.Маркса",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Торговый дом \"Русь\"",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "СБ РФ",
+                "amenity": "bank"
+            },
+            {
+                "atm": "no",
+                "name": "Возрождение",
+                "amenity": "bank",
+                "operator": "ОАО Банк \"Возрождение\"",
+                "addr:street": "улица Карла Маркса",
+                "addr:housename": "Доп офис №1",
+                "addr:housenumber": "22"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Электросталь",
+                "addr:housenumber": "25",
+                "addr:street": "улица Карла Маркса",
+                "amenity": "dentist",
+                "healthcare": "dentist",
+                "healthcare:speciality": "dentist;orthodontics",
+                "name": "3D-стоматология",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "phone": "+7 49657 53800",
+                "website": "http://3d-stomatologia.ru"
+            },
+            {
+                "amenity": "dentist",
+                "healthcare": "dentist"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Ремонт обуви",
+                "shop": "doityourself",
+                "opening_hours": "Mo-Fr 9:00-18:00,13:00-14:00; Sa 9:00-14:00"
+            },
+            {
+                "shop": "doityourself"
+            },
+            {
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Электросталь 144001",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-19:00",
+                "operator": "АО «Почта России»",
+                "ref": "144001"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Толстый медведь",
+                "amenity": "bar"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "addr:city": "Электросталь",
+                "addr:housenumber": "25",
+                "addr:street": "улица Карла Маркса",
+                "air_conditioning": "yes",
+                "name": "Дюна",
+                "name:ru": "Салон \"Дюна\"",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "phone": "+74965756355",
+                "shop": "hairdresser",
+                "website": "http://duna-salon.ru"
+            }
+        ]
+    },
+    "telephone": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "АТС 5",
+                "amenity": "telephone"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Диагональ",
+                "sport": "chess",
+                "leisure": "sports_centre",
+                "addr:street": "Октябрьская улица",
+                "addr:housenumber": "21"
+            }
+        ]
+    },
+    "florist": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "florist",
+                "opening_hours": "Mo-Sa 7:00-20:00; Su 8:00-20:00"
+            },
+            {
+                "shop": "florist"
+            },
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Атак",
+                "shop": "supermarket",
+                "brand": "Атак",
+                "website": "http://www.ataksupermarket.ru",
+                "operator": "ООО \"Атак\"",
+                "contact:phone": "+7 496 5755807"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "clothes"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пресса",
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Красное белое",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Всё для дома",
+                "opening_hours": "Mo-Sa 9:00-20:00; Su 10:00-20:00",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "4 лапы",
+                "shop": "pet"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:housenumber": "34",
+                "addr:street": "Советская улица",
+                "amenity": "pharmacy",
+                "brand": "Горздрав",
+                "contact:email": "info@gor-zdrav.ru",
+                "contact:facebook": "https://www.facebook.com/AptekaGorzdrav",
+                "contact:instagram": "https://www.instagram.com/gorzdrav",
+                "contact:ok": "https://ok.ru/group/57486617870381",
+                "contact:vk": "https://vk.com/gorzdrav",
+                "contact:website": "https://gorzdrav.org",
+                "name": "Горздрав",
+                "name:ru": "Горздрав",
+                "opening_hours": "Mo-Fr 08:00-21:00; Sa-Su 09:00-20:00"
+            },
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Феола",
+                "amenity": "pharmacy",
+                "dispensing": "yes",
+                "healthcare": "pharmacy"
+            }
+        ]
+    },
+    "yes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Белорусский магазин",
+                "shop": "yes"
+            }
+        ]
+    },
+    "photo": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "photo",
+                "opening_hours": "Mo-Fr 10:00-18:00"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "kiosk",
+                "shop_1": "bakery"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "\"Алфавит\"",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "cuisine": "russian",
+                "name": "Восточный экспресс"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "name": "Макдональдс",
+                "name:en": "McDonalds"
+            }
+        ]
+    },
+    "atm": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "Тинькофф"
+            },
+            {
+                "amenity": "atm",
+                "operator": "Газпромбанк"
+            }
+        ]
+    },
+    "theatre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Электросталь",
+                "addr:housenumber": "9",
+                "addr:street": "улица Карла Маркса",
+                "amenity": "theatre",
+                "building": "yes",
+                "name": "ДК им. К. Маркса"
+            }
+        ]
+    },
+    "school": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Атон",
+                "amenity": "school",
+                "building": "yes",
+                "addr:street": "улица Карла Маркса",
+                "official_name": "Негосударственная общеобразовательная средняя школа «Атон»",
+                "addr:housenumber": "32"
+            },
+            {
+                "addr:housenumber": "23",
+                "addr:street": "Октябрьская улица",
+                "building": "school"
+            },
+            {
+                "addr:housenumber": "34",
+                "addr:street": "Октябрьская улица",
+                "building": "school",
+                "name": "Лицей № 8"
+            }
+        ]
+    },
+    "mall": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Центральный",
+                "shop": "mall",
+                "name:ja": "ツェントラーリヌイ",
+                "building": "yes",
+                "addr:street": "улица Карла Маркса",
+                "addr:housenumber": "30А"
+            },
+            {
+                "addr:housenumber": "26",
+                "addr:street": "улица Карла Маркса",
+                "building": "yes",
+                "name": "Русь",
+                "shop": "mall"
+            },
+            {
+                "name": "Восточный",
+                "shop": "mall",
+                "building": "yes",
+                "addr:street": "улица Карла Маркса",
+                "addr:housenumber": "22"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский сад № 15 Колокольчик",
+                "building": "kindergarten",
+                "addr:street": "улица Мичурина",
+                "addr:housenumber": "1"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Наркодиспансер",
+                "amenity": "hospital",
+                "building": "yes",
+                "addr:street": "улица Загонова",
+                "addr:housenumber": "5"
+            }
+        ]
+    }
+}

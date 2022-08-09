@@ -1,0 +1,130 @@
+{
+    "residents": 39,
+    "bus_stop": {
+        "count": 7,
+        "detail": [
+            {
+                "highway": "bus_stop",
+                "name": "ТЭЦ-3",
+                "public_transport": "platform",
+                "share_taxi": "yes",
+                "trolleybus": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "ТЭЦ-3",
+                "public_transport": "platform",
+                "share_taxi": "yes",
+                "trolleybus": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Химпром",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Химпром",
+                "public_transport": "platform"
+            },
+            {
+                "name": "ТЭЦ-3",
+                "public_transport": "stop_position",
+                "share_taxi": "yes",
+                "trolleybus": "yes"
+            },
+            {
+                "name": "ТЭЦ-3",
+                "public_transport": "stop_position",
+                "share_taxi": "yes",
+                "trolleybus": "yes"
+            },
+            {
+                "name": "Химпром",
+                "public_transport": "stop_position",
+                "trolleybus": "yes"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Быстрица",
+                "opening_hours": "09:00-17:30",
+                "phone": "+7 8352 446641"
+            }
+        ]
+    },
+    "atm": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "Альфа-Банк"
+            },
+            {
+                "amenity": "atm",
+                "brand": "Ак Барс Банк",
+                "contact:email": "kanc@akbars.ru",
+                "contact:facebook": "https://www.facebook.com/akbarsbank",
+                "contact:instagram": "https://www.instagram.com/akbars_bank/",
+                "contact:ok": "https://ok.ru/akbarsbank",
+                "contact:phone": "+7 800 2005303",
+                "contact:twitter": "https://twitter.com/akbars_ru",
+                "contact:vk": "https://vk.com/akbars_ru",
+                "contact:website": "https://akbars.ru/",
+                "opening_hours": "Mo-Su 07:00-19:00",
+                "operator": "Ак Барс Банк",
+                "telegram": "https://t.me/akbars_ru"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "429952",
+                "name": "Новочебоксарск 429952",
+                "amenity": "post_office",
+                "operator": "Почта России",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:phone": "+7 8352 738022",
+                "opening_hours": "Mo-Fr 07:30-13:00,14:00-16:30",
+                "contact:website": "https://www.pochta.ru",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "fast_food": "cafeteria"
+            }
+        ]
+    },
+    "lighting": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:vk": "https://vk.com/club120960245",
+                "name": "Светорай",
+                "phone": "+7 927 8441443",
+                "shop": "lighting"
+            }
+        ]
+    }
+}

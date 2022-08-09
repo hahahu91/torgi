@@ -1,0 +1,528 @@
+{
+    "residents": 12051,
+    "bus_stop": {
+        "count": 12,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Улица Лётчика Бабушкина — Московский финансово-правовой институт",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Улица Лётчика Бабушкина — Московский финансово-правовой институт",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Улица Коминтерна",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Улица Коминтерна",
+                "bench": "no",
+                "highway": "bus_stop",
+                "shelter": "no",
+                "public_transport": "platform"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Улица Рудневой",
+                "operator": "Мосгортранс",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "Магазин «Океан»",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Магазин «Океан»",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Улица Лётчика Бабушкина",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "fixme": "Тут 2 таблички автобусной остановки - магазин Океан и ул. Лётчика Бабушкина. Нужно разобраться какая правильная",
+                "highway": "bus_stop",
+                "name": "Улица Лётчика Бабушкина",
+                "public_transport": "platform",
+                "route_ref": "93"
+            },
+            {
+                "bus": "yes",
+                "ref": "6175",
+                "name": "Улица Коминтерна",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Улица Коминтерна",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Улица Рудневой",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ОВД на ст. Лосиноостровская",
+                "amenity": "police"
+            }
+        ]
+    },
+    "tobacco": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "tobacco"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Столички",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Снадобица"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Eapteka.ru"
+            }
+        ]
+    },
+    "parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Брадо-Обувь",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "fabric": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:street": "улица Лётчика Бабушкина",
+                "name": "DrapeShop",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "opening_hours:covid19": "open",
+                "payment:cash": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "phone": "+7 (495) 796-84-70",
+                "shop": "fabric",
+                "website": "https://drapeshop.ru"
+            }
+        ]
+    },
+    "cinema": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Вымпел",
+                "amenity": "cinema"
+            }
+        ]
+    },
+    "theatre": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "theatre",
+                "contact:email": "etnoteatr@yandex.ru",
+                "contact:website": "http://etnoteatr.ru/",
+                "name": "Московский государственный историко-этнографический театр",
+                "phone": "+7 499 1841711",
+                "ref:mkrf_theaters": "14444",
+                "short_name": "МГИЭТ",
+                "wikidata": "Q4304079",
+                "wikipedia": "ru:Московский государственный историко-этнографический театр"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Красное&Белое",
+                "brand:en": "Red&White",
+                "brand:wikidata": "Q24933790",
+                "brand:wikipedia": "ru:Красное & Белое",
+                "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+                "contact:instagram": "https://www.instagram.com/krasnoebeloe",
+                "contact:ok": "https://ok.ru/krasnoebeloe",
+                "contact:telegram": "+7 922 7033000",
+                "contact:viber": "+7 922 7033000",
+                "contact:vk": "https://vk.com/krasnoebeloe",
+                "contact:website": "https://krasnoeibeloe.ru",
+                "contact:whatsapp": "+7 922 7033000",
+                "name": "Красное&Белое",
+                "name:en": "Red&White",
+                "name:ru": "Красное&Белое",
+                "shop": "alcohol"
+            },
+            {
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "dentist",
+                "healthcare": "dentist",
+                "health_facility:type": "clinic",
+                "medical_system:western": "yes",
+                "health_specialty:dentistry": "yes"
+            },
+            {
+                "amenity": "dentist",
+                "healthcare": "dentist"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Брюки",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "weapons": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "weapons"
+            }
+        ]
+    },
+    "power_tools": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "220 вольт",
+                "brand:en": "220 Volt",
+                "brand:ru": "220 вольт",
+                "brand:wikidata": "Q18635304",
+                "brand:wikipedia": "ru:220 Вольт (компания)",
+                "contact:email": "msk01@220-volt.ru",
+                "contact:facebook": "https://www.facebook.com/likevolt",
+                "contact:instagram": "https://www.instagram.com/220volt.ru/",
+                "contact:ok": "https://ok.ru/likevolt",
+                "contact:phone": "+7 499 6422013;+7 800 3339220",
+                "contact:twitter": "https://twitter.com/likevolt",
+                "contact:vk": "http://vk.com/likevolt",
+                "contact:website": "https://www.220-volt.ru/",
+                "contact:youtube": "https://www.youtube.com/channel/UCnLPlH6bk0KDSSUVB8iseOg",
+                "int_name": "220 Volt",
+                "name": "220 вольт",
+                "name:en": "220 Volt",
+                "name:ru": "220 вольт",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "operator": "Торговый дом Северо-западный",
+                "shop": "power_tools"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "hardware"
+            },
+            {
+                "email": "info@masterweld.ru",
+                "name": "Всё для дома",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-17:00",
+                "phone": "+7 499 4711572",
+                "shop": "hardware",
+                "website": "http://masterweld.ru"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Спортивно-досуговый центр \"Брек\"",
+                "leisure": "sports_centre"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детали машин ГАЗ",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пресса",
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "library"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Дикси",
+                "brand:en": "Dixy",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "contact:phone": "+7 800 3330201",
+                "contact:website": "http://dixy.ru",
+                "name": "Дикси",
+                "name:en": "Dixy",
+                "name:ru": "Дикси",
+                "shop": "supermarket"
+            },
+            {
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/club19098821",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "addr:housenumber": "4",
+                "addr:postcode": "129344",
+                "addr:street": "улица Коминтерна",
+                "amenity": "community_centre",
+                "community_centre:for": "child",
+                "name": "Детский Дом Творчества",
+                "name:de": "Kinderhaus der Kreativität",
+                "name:en": "Children's House of Creativity",
+                "name:ru": "Детский Дом Творчества",
+                "phone": "+7 499 4712239"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "13",
+                "addr:street": "Анадырский проезд",
+                "amenity": "bank",
+                "bic": "SABRRUMM",
+                "branch": "Московский банк",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "en:Sberbank of Russia",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://www.instagram.com/sberbank/",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 08:30-19:30; Sa 08:30-16:30",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "9038/0814",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "shop": "convenience"
+            },
+            {
+                "brand": "ВкусВилл",
+                "contact:email": "info@izbenka.msk.ru",
+                "contact:facebook": "https://www.facebook.com/vkusvill.ru",
+                "contact:instagram": "https://www.instagram.com/izbenka_vkusvill",
+                "contact:phone": "+7 495 6638602",
+                "contact:telegram": "https://telegram.me/vkusvillbot",
+                "contact:vk": "https://vk.com/vkusvill_ru",
+                "contact:website": "https://vkusvill.ru",
+                "name": "ВкусВилл",
+                "name:ru": "ВкусВилл",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Белла",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "phone": "+7 499 1841225",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "fitness_station": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "fitness_station",
+                "sport": "fitness"
+            }
+        ]
+    },
+    "charging_station": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "private",
+                "amenity": "charging_station",
+                "authentication:membership_card": "yes",
+                "fee": "no",
+                "name": "МГТС",
+                "operator": "ПАО МГТС",
+                "socket:chademo": "yes",
+                "socket:chademo:output": "50 kW",
+                "socket:type2": "yes",
+                "socket:type2_combo": "yes",
+                "socket:type2_combo:output": "50 kW",
+                "website": "https://mgts.ru/home/chargestation/"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "addr:street": "улица Коминтерна",
+                "building:levels": "5",
+                "addr:housenumber": "4 к1"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "улица Лётчика Бабушкина",
+                "building:levels": "2",
+                "addr:housenumber": "8А"
+            }
+        ]
+    }
+}

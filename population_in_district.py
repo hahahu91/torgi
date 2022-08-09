@@ -11,7 +11,7 @@ import json
 def obj_in_districk(lat, lon, lat_obj, lon_obg):
     if not lat_obj or not lon_obg:
         return False
-    if lat_obj >= float(lat)-0.0025 and lat_obj <= float(lat)+0.0025 and lon_obg >= float(lon)-0.005 and lon_obg <= float(lon)+0.005:
+    if float(lat_obj) >= float(lat)-0.0025 and float(lat_obj) <= float(lat)+0.0025 and float(lon_obg) >= float(lon)-0.005 and float(lon_obg) <= float(lon)+0.005:
         return True
     return False
 
@@ -43,22 +43,23 @@ def get_residents(feature):
         print(_ex, "in", feature)
     return 0
 
+def count_tag(feature_tags, entity, tag):
+    amount = entity.get(tag).get("count") + 1 if entity.get(tag) else 1
+    list = entity.get(tag).get("detail") if entity.get(tag) else []
+    list.append(feature_tags)
+    entity.update({tag: {"count": amount, "detail": list}})
+
 def count_commercial_assessment(feature_tags, entity):
     if "shop" in feature_tags:
-        amount = 1 if not entity.get(feature_tags["shop"]) else entity.get(feature_tags["shop"]) + 1
-        entity.update({feature_tags["shop"]: amount})
+        count_tag(feature_tags, entity, feature_tags["shop"])
     elif feature_tags.get("building") and feature_tags["building"] in ["commercial", "service", "kindergarten", "school"]:
-        amount = 1 if not entity.get(feature_tags["building"]) else entity.get(feature_tags["building"]) + 1
-        entity.update({feature_tags["building"]: amount})
+        count_tag(feature_tags, entity, feature_tags["building"])
     elif feature_tags.get("amenity"):
-        amount = 1 if not entity.get(feature_tags["amenity"]) else entity.get(feature_tags["amenity"]) + 1
-        entity.update({feature_tags["amenity"]: amount})
+        count_tag(feature_tags, entity, feature_tags["amenity"])
     elif "leisure" in feature_tags:
-        amount = 1 if not entity.get(feature_tags["leisure"]) else entity.get(feature_tags["leisure"]) + 1
-        entity.update({feature_tags["leisure"]: amount})
+        count_tag(feature_tags, entity, feature_tags["leisure"])
     elif "bus" in feature_tags or "trolleybus" in feature_tags or "highway" in feature_tags and feature_tags["highway"] == "bus_stop":
-        amount = 1 if not entity.get("bus_stop") else entity.get("bus_stop") + 1
-        entity.update({"bus_stop": amount})
+        count_tag(feature_tags, entity, "bus_stop")
     elif "natural" not in feature_tags:
         residents = get_residents(feature_tags)
         amount = residents if not entity.get("residents") else entity.get("residents") + residents
@@ -112,7 +113,7 @@ def get_commercial_assessment(lat, lon, region):
         residents = entity.get("residents")
         for category  in entity:
             if category != "residents":
-                entity_count += entity.get(category)
+                entity_count += entity[category].get("count")
 
 
     return {

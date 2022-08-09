@@ -1,0 +1,116 @@
+{
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "ул. Космонавтов",
+                "highway": "bus_stop"
+            },
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "ул. Космонавтов",
+                "public_transport": "stop_position",
+                "shelter": "yes"
+            },
+            {
+                "name": "ул. Космонавтов",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            },
+            {
+                "name": "ул. Космонавтов",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "ПАО \"Сбербанк\""
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "operator": "А5"
+            },
+            {
+                "amenity": "pharmacy",
+                "drive_through": "no"
+            },
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Дикси",
+                "shop": "supermarket",
+                "addr:city": "Дмитров",
+                "addr:street": "улица Космонавтов",
+                "addr:housenumber": "44"
+            },
+            {
+                "name": "Магазин Космос",
+                "shop": "supermarket"
+            },
+            {
+                "addr:city": "Дмитров",
+                "addr:housenumber": "1",
+                "addr:street": "улица Бирлово Поле",
+                "brand": "Лента",
+                "brand:en": "Lenta",
+                "brand:wikidata": "Q4258608",
+                "brand:wikipedia": "ru:Лента (сеть магазинов)",
+                "building": "yes",
+                "contact:email": "claim@karusel.ru",
+                "contact:facebook": "https://www.facebook.com/karuselshop/",
+                "contact:ok": "https://ok.ru/group/55070381703182",
+                "contact:phone": "+74956426830",
+                "contact:vk": "https://vk.com/karusel_shop",
+                "contact:website": "https://karusel.ru/",
+                "name": "Лента",
+                "name:en": "Lenta",
+                "opening_hours": "24/7",
+                "operator": "Торговый дом \"Перекресток\"",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сбербанк России",
+                "amenity": "bank"
+            }
+        ]
+    },
+    "residents": 4686,
+    "marketplace": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Дмитров",
+                "addr:housenumber": "40",
+                "addr:street": "улица Космонавтов",
+                "amenity": "marketplace",
+                "building": "yes",
+                "name": "Рынок"
+            }
+        ]
+    }
+}

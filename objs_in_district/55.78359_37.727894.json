@@ -1,0 +1,771 @@
+{
+    "residents": 7386,
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:country": "RU",
+                "alt_name": "Перекрёсток",
+                "brand": "Перекресток",
+                "contact:facebook": "https://www.facebook.com/perekrestok",
+                "contact:instagram": "http://instagram.com/perekrestok",
+                "contact:ok": "https://ok.ru/perekrestok.shop",
+                "contact:phone": "+7 495 5809376;+7 495 6628888",
+                "contact:twitter": "https://twitter.com/perekrestok",
+                "contact:vk": "https://vk.com/perekrestok_shop",
+                "contact:website": "https://www.perekrestok.ru",
+                "name": "Перекресток",
+                "name:en": "Perekryostok",
+                "name:ru": "Перекресток",
+                "opening_hours": "24/7",
+                "operator": "Торговый дом \"ПЕРЕКРЕСТОК\"",
+                "operator:wikidata": "Q1684639",
+                "operator:wikipedia": "ru:Перекрёсток (сеть магазинов)",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Дикси",
+                "shop": "supermarket",
+                "brand": "Дикси",
+                "level": "1",
+                "name:en": "Dixy",
+                "name:ru": "Дикси",
+                "addr:city": "Москва",
+                "addr:street": "улица Ибрагимова",
+                "contact:phone": "+7 800 3330201",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "contact:website": "http://dixy.ru",
+                "addr:housenumber": "32/7"
+            }
+        ]
+    },
+    "atm": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "АО «Банк Русский Стандарт»",
+                "website": "https://www.rsb.ru/"
+            },
+            {
+                "ref": "600112",
+                "amenity": "atm",
+                "operator": "ПАО \"Сбербанк\""
+            },
+            {
+                "amenity": "atm",
+                "operator": "ПАО \"Московский кредитный банк\""
+            },
+            {
+                "amenity": "atm",
+                "operator": "Альфа-Банк"
+            },
+            {
+                "amenity": "atm",
+                "operator": "ПАО \"Сбербанк\"",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Метро «Семёновская»",
+                "alt_name": "Станция метро «Семёновская»",
+                "public_transport": "stop_position"
+            },
+            {
+                "name": "Ткацкая улица",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "alt_name": "Станция метро «Семёновская»",
+                "bench": "yes",
+                "bin": "yes",
+                "highway": "bus_stop",
+                "name": "Метро «Семёновская»",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "name": "Столичные Аптеки",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-20:00; Su 10:00-18:00",
+                "operator": "ГУП \"Столичные аптеки\"",
+                "phone": "+7 499 3691563",
+                "ref": "4/108",
+                "website": "http://www.citypharm.ru"
+            },
+            {
+                "amenity": "pharmacy",
+                "brand": "Горздрав",
+                "contact:email": "info@gor-zdrav.ru",
+                "contact:facebook": "https://www.facebook.com/AptekaGorzdrav",
+                "contact:instagram": "https://www.instagram.com/gorzdrav",
+                "contact:ok": "https://ok.ru/group/57486617870381",
+                "contact:phone": "+7 499 6536277",
+                "contact:vk": "https://vk.com/gorzdrav",
+                "contact:website": "https://gorzdrav.org",
+                "dispensing": "yes",
+                "name": "Горздрав",
+                "name:en": "Gorzdrav",
+                "name:ru": "Горздрав",
+                "opening_hours": "09:00-21:00"
+            },
+            {
+                "amenity": "pharmacy",
+                "brand": "Горздрав",
+                "contact:email": "info@gor-zdrav.ru",
+                "contact:facebook": "https://www.facebook.com/AptekaGorzdrav",
+                "contact:instagram": "https://www.instagram.com/gorzdrav",
+                "contact:ok": "https://ok.ru/group/57486617870381",
+                "contact:phone": "+7 499 6536277",
+                "contact:vk": "https://vk.com/gorzdrav",
+                "contact:website": "https://gorzdrav.org",
+                "name": "Горздрав",
+                "name:en": "Gorzdrav",
+                "name:ru": "Горздрав",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Здоров.ру",
+                "opening_hours": "Mo-Su 07:00-23:00"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:facebook": "http://facebook.com/aptekivita",
+                "contact:instagram": "https://www.instagram.com/vita_express/",
+                "contact:phone": "+7 800 7550003",
+                "contact:vk": "https://vk.com/aptekivita",
+                "contact:website": "https://vitaexpress.ru/",
+                "name": "Вита Центральная",
+                "opening_hours": "Mo-Su 08:00-22:00"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "105318",
+                "name": "Отделение связи №105318",
+                "amenity": "post_office",
+                "operator": "Почта России",
+                "contact:phone": "+7 499 3693222",
+                "official_name": "Городское отделение почтовой связи Москва 318",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-18:00; Su 09:00-14:00",
+                "contact:website": "http://www.russianpost.ru"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "school",
+                "name": "Центр психолого-педагогической реабилитации и коррекции \"Восточный\"",
+                "phone": "+7 495 3697313"
+            },
+            {
+                "name": "Школа № 1947",
+                "amenity": "school",
+                "building": "yes",
+                "addr:street": "Щербаковская улица",
+                "building:levels": "4",
+                "addr:housenumber": "36А"
+            }
+        ]
+    },
+    "playground": {
+        "count": 5,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground",
+                "opening_hours": "24/7"
+            },
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "brand:wikidata": "Q1377835",
+                "brand:wikipedia": "ru:Альфа-банк",
+                "contact:phone": "+7 495 7888878",
+                "contact:website": "https://alfabank.ru",
+                "name": "Альфа-Банк",
+                "name:en": "Alfa-Bank",
+                "name:ru": "Альфа-Банк",
+                "opening_hours": "Mo-Fr 09:00-21:00; Sa 10:00-19:00; Su off",
+                "operator": "АО \"Альфа-Банк\"",
+                "operator:wikidata": "Q1377835",
+                "operator:wikipedia": "ru:Альфа-банк",
+                "ref": "0623"
+            },
+            {
+                "amenity": "bank",
+                "contact:email": "info@zenit.ru",
+                "contact:phone": "+7 800 5006677",
+                "contact:website": "https://www.zenit.ru/",
+                "name": "Зенит",
+                "opening_hours": "Mo-Fr 09:30-18:30",
+                "operator": "Банк Зенит"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Бетховен",
+                "shop": "pet",
+                "operator": "ООО \"Пет Ритейл\"",
+                "opening_hours": "09:00-21:00"
+            }
+        ]
+    },
+    "stationery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Комус",
+                "shop": "stationery",
+                "opening_hours": "Mo-Fr 09:00-21:00; Su 10:00-20:00"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "МясновЪ",
+                "shop": "butcher",
+                "opening_hours": "Mo-Su 08:00-23:00"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Отдохни",
+                "shop": "alcohol",
+                "opening_hours": "Mo-Su 08:00-23:00"
+            }
+        ]
+    },
+    "dry_cleaning": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Лора",
+                "opening_hours": "Mo-Su 08:00-20:00",
+                "phone": "+7 495 3668839",
+                "shop": "dry_cleaning",
+                "website": "http://www.lora-clean.ru/"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "fixme": "тут трансформатор .уточнить номер строения",
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Эконом",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "phone": "+7 495 5396407",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "milk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "milk",
+                "brand": "Избёнка",
+                "website": "http://izbenka.msk.ru",
+                "operator": "ООО \"Проект Избёнка\"",
+                "opening_hours": "09:00-21:00"
+            }
+        ]
+    },
+    "outdoor": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:postcode": "105318",
+                "name": "Крутой берег",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "phone": "+7 499 3692519",
+                "shop": "outdoor",
+                "website": "http://www.krutoi-bereg.ru"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Кофе Хауз",
+                "amenity": "cafe",
+                "cuisine": "coffee_shop",
+                "smoking": "outside",
+                "addr:city": "Москва",
+                "addr:street": "Щербаковская улица",
+                "addr:postcode": "105318",
+                "opening_hours": "24/7",
+                "diet:vegetarian": "yes",
+                "internet_access": "wlan",
+                "addr:housenumber": "3"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "3",
+                "addr:street": "Щербаковская улица",
+                "amenity": "cafe",
+                "brand": "Шоколадница",
+                "brand:en": "Chocolate",
+                "brand:wikidata": "Q30891188",
+                "brand:wikipedia": "ru:Шоколадница (сеть кофеен)",
+                "contact:facebook": "https://www.facebook.com/shoko.ru",
+                "contact:instagram": "https://www.instagram.com/shoko.ru",
+                "contact:ok": "https://ok.ru/shokoru",
+                "contact:twitter": "https://twitter.com/wwwShokoRu",
+                "contact:vk": "https://vk.com/shokoru",
+                "contact:website": "http://shoko.ru",
+                "cuisine": "coffee_shop",
+                "diet:vegetarian": "no",
+                "name": "Шоколадница",
+                "name:en": "Shokoladnitsa",
+                "name:ru": "Шоколадница",
+                "opening_hours": "Mo-Fr 08:00-23:00; Sa-Su 09:00-23:00",
+                "outdoor_seating": "no",
+                "phone": "+7 925 3657514",
+                "takeaway": "yes",
+                "website": "https://www.shoko.ru"
+            },
+            {
+                "addr:street": "Щербаковская улица",
+                "amenity": "cafe",
+                "cuisine": "coffee_shop",
+                "name": "Правда кофе",
+                "outdoor_seating": "no"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "5",
+                "addr:street": "Щербаковская улица",
+                "amenity": "cafe",
+                "brand": "Шоколадница",
+                "brand:en": "Chocolate",
+                "brand:wikidata": "Q30891188",
+                "brand:wikipedia": "ru:Шоколадница (сеть кофеен)",
+                "contact:facebook": "https://www.facebook.com/shoko.ru",
+                "contact:instagram": "https://www.instagram.com/shoko.ru",
+                "contact:ok": "https://ok.ru/shokoru",
+                "contact:twitter": "https://twitter.com/wwwShokoRu",
+                "contact:vk": "https://vk.com/shokoru",
+                "contact:website": "http://shoko.ru",
+                "cuisine": "coffee_shop",
+                "diet:vegetarian": "no",
+                "name": "Шоколадница",
+                "name:en": "Shokoladnitsa",
+                "name:ru": "Шоколадница",
+                "opening_hours": "Mo-Fr 08:00-23:00; Sa-Su 09:00-23:00",
+                "outdoor_seating": "no",
+                "phone": "+7 925 3657514",
+                "takeaway": "yes",
+                "website": "https://www.shoko.ru"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 495 5395454",
+                "contact:website": "http://parking.mos.ru/",
+                "opening_hours": "24/7",
+                "operator": "ГКУ «Администратор Московского парковочного пространства»",
+                "payment:cash": "no",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "ref": "3257",
+                "ref:mos_parking": "5005049",
+                "source": "dit.mos.ru",
+                "vending": "parking_tickets",
+                "zone:parking": "4027"
+            },
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 495 5395454",
+                "contact:website": "http://parking.mos.ru/",
+                "opening_hours": "24/7",
+                "operator": "ГКУ «Администратор Московского парковочного пространства»",
+                "payment:cash": "no",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "ref": "4014",
+                "ref:mos_parking": "859915237",
+                "vending": "parking_tickets",
+                "zone:parking": "4027"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "МегаФон",
+                "brand:wikidata": "Q1720713",
+                "brand:wikipedia": "ru:Мегафон (компания)",
+                "contact:facebook": "https://www.facebook.com/MegaFon.ru",
+                "contact:habrahabr": "https://habrahabr.ru/company/megafon",
+                "contact:ok": "https://ok.ru/megafon",
+                "contact:phone": "+7 800 5500500",
+                "contact:twitter": "https://twitter.com/megafonru",
+                "contact:vk": "https://vk.com/megafon",
+                "contact:website": "https://megafon.ru",
+                "contact:youtube": "https://www.youtube.com/user/MegaFonTV",
+                "name": "МегаФон",
+                "name:en": "MegaFon",
+                "name:ru": "МегаФон",
+                "office": "telecommunication",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "shop": "mobile_phone"
+            },
+            {
+                "brand": "МТС",
+                "brand:wikidata": "Q1368919",
+                "brand:wikipedia": "ru:МТС (компания)",
+                "contact:facebook": "https://www.facebook.com/mts",
+                "contact:ok": "https://ok.ru/mts",
+                "contact:phone": "+7 800 2500890",
+                "contact:twitter": "https://twitter.com/ru_mts",
+                "contact:vk": "https://vk.com/mts",
+                "contact:website": "https://shop.mts.ru",
+                "name": "МТС",
+                "name:en": "MTS",
+                "name:ru": "МТС",
+                "office": "telecommunication",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "shop": "mobile_phone"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "L'обувь",
+                "opening_hours": "Mo-Fr 09:00-21:00",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 2,
+        "detail": [
+            {
+                "alt_name": "Летуаль",
+                "brand": "Л'Этуаль",
+                "brand:wikidata": "Q18400706",
+                "brand:wikipedia": "ru:Л'Этуаль",
+                "contact:facebook": "https://www.facebook.com/letoile.ru",
+                "contact:instagram": "https://www.instagram.com/letoile_official",
+                "contact:livejournal": "http://letoile-ru.livejournal.com",
+                "contact:ok": "https://ok.ru/letoileru",
+                "contact:twitter": "https://twitter.com/letoile_ru",
+                "contact:vk": "https://vk.com/letoile_official",
+                "contact:website": "https://www.letoile.ru",
+                "name": "Л'Этуаль",
+                "name:ru": "Л'Этуаль",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "shop": "cosmetics"
+            },
+            {
+                "name": "Подружка",
+                "shop": "cosmetics",
+                "brand": "Подружка",
+                "name:ru": "Подружка",
+                "operator": "ООО «ТАБЕР ТРЕЙД»",
+                "contact:vk": "https://vk.com/podrygkashop",
+                "contact:email": "secretary@taber.ru",
+                "contact:phone": "+7 800 7074747",
+                "contact:website": "https://www.podrygka.ru",
+                "contact:facebook": "https://www.facebook.com/podrygkashop",
+                "contact:instagram": "https://www.instagram.com/podrygkashop"
+            }
+        ]
+    },
+    "jewelry": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Адамас",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "jewelry"
+            },
+            {
+                "name": "Бронницкий ювелир",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "jewelry"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "У Палыча",
+                "contact:email": "com@palich.ru",
+                "contact:phone": "+7 800 3330163",
+                "contact:website": "http://www.palich.ru",
+                "name": "У Палыча",
+                "name:ru": "У Палыча",
+                "opening_hours": "Mo-Fr 08:00-21:00,09:00-18:00; Sa,Su 09:00-21:00",
+                "shop": "convenience"
+            },
+            {
+                "brand": "ВкусВилл",
+                "contact:email": "info@izbenka.msk.ru",
+                "contact:facebook": "https://www.facebook.com/izbenka",
+                "contact:instagram": "https://www.instagram.com/izbenka_vkusvill",
+                "contact:phone": "+7 495 6638602",
+                "contact:telegram": "https://telegram.me/vkusvillbot",
+                "contact:vk": "https://vk.com/izbenka",
+                "contact:website": "http://vkusvill.ru",
+                "name": "ВкусВилл",
+                "name:ru": "ВкусВилл",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "bookmaker": {
+        "count": 2,
+        "detail": [
+            {
+                "contact:email": "info@ligastavok.ru",
+                "contact:phone": "+7 800 5554455",
+                "contact:website": "https://www.ligastavok.ru/",
+                "name": "Лига Ставок",
+                "opening_hours": "24/7",
+                "operator": "Первая международная букмекерская компания",
+                "shop": "bookmaker"
+            },
+            {
+                "contact:phone": "+7 800 5054343",
+                "contact:website": "https://betboom.ru",
+                "name": "BetBoom",
+                "name:en": "BetBoom",
+                "opening_hours": "24/7",
+                "shop": "bookmaker"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling",
+                "recycling:plastic_bottles": "only"
+            }
+        ]
+    },
+    "pub": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Шварц Кайзер",
+                "amenity": "pub"
+            }
+        ]
+    },
+    "bench": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "fitness_station": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "fitness_station"
+            }
+        ]
+    },
+    "pitch": {
+        "count": 1,
+        "detail": [
+            {
+                "sport": "table_tennis",
+                "leisure": "pitch"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bar",
+                "level": "-1",
+                "official_name": "Конь&Як",
+                "opening_hours": "mo-su 20:00-04:00",
+                "outdoor_seating": "no",
+                "website": "https://www.instagram.com/koniyak24/"
+            }
+        ]
+    },
+    "baby_goods": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "7А",
+                "addr:street": "Щербаковская улица",
+                "clothes": "children",
+                "contact:email": "pr@detoc.ru",
+                "contact:facebook": "https://www.facebook.com/dochkisynochki/",
+                "contact:instagram": "https://www.instagram.com/dochkisinochki/",
+                "contact:phone": "+7 495 4616704",
+                "contact:vk": "https://vk.com/dochkisinochki",
+                "contact:website": "https://www.dochkisinochki.ru/",
+                "name": "Дочки-сыночки",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "Волга",
+                "shop": "baby_goods"
+            }
+        ]
+    },
+    "bureau_de_change": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "5",
+                "addr:street": "Щербаковская улица",
+                "amenity": "bureau_de_change"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "5",
+                "addr:street": "Щербаковская улица",
+                "clothes": "denim",
+                "inscription": "Джинсы",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:street": "Щербаковская улица",
+                "building:levels": "12",
+                "addr:housenumber": "3"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский сад №1517",
+                "amenity": "kindergarten",
+                "building": "kindergarten",
+                "addr:street": "Щербаковская улица",
+                "building:levels": "3",
+                "addr:housenumber": "22"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "6",
+                "addr:street": "улица Ибрагимова",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "denomination": "orthodox",
+                "name": "Храм Великомученика Димитрия Солунского",
+                "phone": "+7 495 3653161",
+                "religion": "christian",
+                "start_date": "1911",
+                "website": "http://hram-dimitria.ru/",
+                "wikidata": "Q3896961",
+                "wikipedia": "ru:Храм Димитрия Солунского на Благуше"
+            }
+        ]
+    }
+}

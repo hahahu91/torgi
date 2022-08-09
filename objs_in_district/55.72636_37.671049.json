@@ -1,0 +1,566 @@
+{
+    "residents": 8451,
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Улица Мельникова",
+                "bench": "yes",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "trolleybus": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Улица Мельникова",
+                "bench": "yes",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "trolleybus": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "1-я Дубровская улица",
+                "bench": "yes",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "trolleybus": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "1-я Дубровская улица",
+                "bench": "yes",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "trolleybus": "yes",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Ангро",
+                "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-20:00",
+                "phone": "+7 495 6744996"
+            }
+        ]
+    },
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "1А",
+                "addr:postcode": "109044",
+                "addr:street": "1-я Дубровская улица",
+                "amenity": "bank",
+                "branch": "Московский банк",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "en:Sberbank of Russia",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://www.instagram.com/sberbank/",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 08:30-19:30; Sa 10:00-14:00",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "9038/0161",
+                "wheelchair": "yes"
+            },
+            {
+                "amenity": "bank"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "note": "МИнБ (Шинный завод)",
+                "amenity": "atm",
+                "operator": "ПАО «МИнБанк»"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сомик",
+                "shop": "pet",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            }
+        ]
+    },
+    "veterinary": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "veterinary"
+            }
+        ]
+    },
+    "bench": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Микромаркет",
+                "shop": "convenience",
+                "name:en": "Micromarket",
+                "website": "http://www.micmarket.ru",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Южный двор",
+                "shop": "chemist"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "shoes"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "А-медик",
+                "amenity": "doctors"
+            }
+        ]
+    },
+    "taxi": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "taxi"
+            }
+        ]
+    },
+    "parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "tailor": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Золотая шпулька",
+                "shop": "tailor"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Библиотека №16",
+                "amenity": "library",
+                "addr:city": "Москва",
+                "addr:street": "Волгоградский проспект",
+                "description": "Отдел \"Культурный центр милосердия и толерантности имени Ф.П. Гааза\"",
+                "addr:housenumber": "16"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "3 к3",
+                "addr:street": "улица Мельникова",
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/club19098821",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "shop": "supermarket"
+            },
+            {
+                "shop": "supermarket",
+                "inscription": "Продукты",
+                "opening_hours": "24/7",
+                "inscription:en": "Groceries"
+            },
+            {
+                "brand": "Магнолия",
+                "contact:email": "magnolia@tcfoods.ru",
+                "contact:website": "http://www.mgnl.ru",
+                "name": "Магнолия",
+                "name:ru": "Магнолия",
+                "opening_hours": "24/7",
+                "shop": "supermarket",
+                "website": "http://www.mgnl.ru/"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "car_wash"
+            },
+            {
+                "amenity": "car_wash",
+                "self_service": "only"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "БМВ-СТО",
+                "name:en": "BMW-STO",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "phone": "+7 495 2553377",
+                "shop": "car_repair",
+                "website": "https://bmw-sto.ru/"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Марани",
+                "amenity": "cafe",
+                "cuisine": "georgian",
+                "opening_hours": "Mo-Su 12:00-23:00"
+            },
+            {
+                "amenity": "cafe",
+                "cuisine": "coffee_shop",
+                "name": "Так сказала моя мама"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Permanent",
+                "shop": "beauty",
+                "website": "http://permanentmakeup1.ru",
+                "opening_hours": "Mo-Su 10:00-22:00"
+            },
+            {
+                "name": "Время красоты",
+                "opening_hours": "Tu-Su 09:00-21:00; Mo 09:00-20:00",
+                "phone": "+7 495 7291343",
+                "shop": "beauty"
+            },
+            {
+                "contact:vk": "https://vk.com/alyarua_kurkino_dubrovka",
+                "name": "А-ля Руа",
+                "shop": "beauty",
+                "website": "https://a-lyarua.ru/"
+            }
+        ]
+    },
+    "fitness_station": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "fitness_station"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "cuisine": "kebab",
+                "inscription": "Донер кебаб",
+                "opening_hours": "24/7",
+                "inscription:en": "Doner kebab"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "water_filter": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 800 5552800-401",
+                "name": "Аквафор",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "shop": "water_filter",
+                "website": "https://www.aquaphor.ru/"
+            }
+        ]
+    },
+    "outpost": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Wildberries",
+                "brand:wikidata": "Q24933714",
+                "brand:wikipedia": "ru:Wildberries",
+                "name": "Wildberries",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "outpost"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "drink:beer": "yes",
+                "name": "Два топора",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "shop": "alcohol",
+                "website": "https://www.dvatopora.com/"
+            }
+        ]
+    },
+    "massage": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "info@tairai.ru",
+                "contact:facebook": "https://www.facebook.com/tairai.ru/",
+                "contact:instagram": "https://www.instagram.com/tairai.ru/",
+                "contact:phone": "+7 495 2254242",
+                "contact:vk": "https://vk.com/tairai_ru",
+                "name": "Тайрай",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "ИП Милевская А.М.",
+                "shop": "massage"
+            }
+        ]
+    },
+    "baby_goods": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "7",
+                "addr:postcode": "109044",
+                "addr:street": "улица Симоновский Вал",
+                "name": "Фламинго",
+                "opening_hours": "ежедневно с 9:00 до 21:00",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "phone": "+7 495 669-31-11",
+                "shop": "baby_goods",
+                "website": "https://www.воздушныешары.рф/"
+            }
+        ]
+    },
+    "school": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Школа №467",
+                "amenity": "school",
+                "building": "school",
+                "addr:city": "Москва",
+                "addr:street": "2-я Дубровская улица",
+                "addr:postcode": "121357",
+                "addr:housenumber": "3"
+            },
+            {
+                "source": "ggk",
+                "building": "school",
+                "addr:street": "улица Крутицкий Вал",
+                "building:levels": "4",
+                "addr:housenumber": "5"
+            },
+            {
+                "amenity": "school",
+                "building": "yes",
+                "addr:street": "улица Мельникова",
+                "addr:housenumber": "4 с2"
+            },
+            {
+                "name": "Интернат №4",
+                "amenity": "school",
+                "building": "school",
+                "addr:street": "улица Мельникова",
+                "addr:housenumber": "4 с1"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "address:comment": "3 этаж, округ ЮВАО, район Южнопортовый",
+                "addr:housenumber": "22",
+                "addr:street": "улица Мельникова",
+                "amenity": "clinic",
+                "building": "yes",
+                "contact:facebook": "https://www.facebook.com/mosdermsk",
+                "contact:instagram": "https://www.instagram.com/mosdermsk/",
+                "contact:vk": "https://vk.com/mosdermsk",
+                "contact:youtube": "https://www.youtube.com/channel/UCDF7gw-rWMhFHVggROZohGw",
+                "healthcare": "clinic",
+                "name": "ГБУЗ МНПЦДК ДЗМ филиал Пролетарский на улице Мельникова",
+                "old_name": "Кожно-венерологический диспансер № 12",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-16:00",
+                "phone": "74995585828;74956743620;74992647887",
+                "website": "https://www.mosderm.ru/"
+            }
+        ]
+    },
+    "service": {
+        "count": 2,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "location": "indoor",
+                "substation": "minor_distribution",
+                "addr:street": "1-я Дубровская улица",
+                "building:levels": "1",
+                "addr:housenumber": "2А с2"
+            },
+            {
+                "building": "service",
+                "addr:street": "улица Мельникова",
+                "building:levels": "1",
+                "addr:housenumber": "18А с2"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "sports_centre",
+                "building": "yes",
+                "addr:street": "улица Мельникова",
+                "building:levels": "3",
+                "addr:housenumber": "7 с2"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Храм Мефодия и Кирилла на Дубровке",
+                "image": "https://yadi.sk/i/TAHtCX4u3a8PAS",
+                "amenity": "place_of_worship",
+                "website": "http://mk-hram.ru/",
+                "building": "yes",
+                "religion": "christian",
+                "addr:street": "улица Мельникова",
+                "denomination": "russian_orthodox",
+                "building:levels": "2",
+                "addr:housenumber": "9 к1"
+            }
+        ]
+    }
+}

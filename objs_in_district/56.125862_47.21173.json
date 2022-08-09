@@ -1,0 +1,308 @@
+{
+    "residents": 1758,
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Факел",
+                "opening_hours": "Mo-Sa 09:00-19:00",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 11,
+        "detail": [
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "covered": "yes",
+                "highway": "bus_stop",
+                "name": "Гражданская улица",
+                "name:cv": "Элтешлӗх урамӗ",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "wheelchair": "no"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Гражданская улица",
+                "name:cv": "Элтешлӗх урамӗ",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "wheelchair": "limited"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Мебельная фабрика",
+                "name:cv": "Сӗтел-пукан хапрӑкӗ",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Мебельная фабрика",
+                "name:cv": "Сӗтел-пукан хапрӑкӗ",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Техникум связи",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Улица Чкалова",
+                "name:cv": "Чкалов урамӗ",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Улица Чкалова",
+                "name:cv": "Чкалов урамӗ",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "Гражданская улица",
+                "public_transport": "stop_position",
+                "share_taxi": "yes",
+                "trolleybus": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "Гражданская улица",
+                "public_transport": "stop_position",
+                "share_taxi": "yes",
+                "trolleybus": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "Мебельная фабрика",
+                "public_transport": "stop_position",
+                "share_taxi": "yes",
+                "trolleybus": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "Мебельная фабрика",
+                "public_transport": "stop_position",
+                "share_taxi": "yes",
+                "trolleybus": "yes"
+            }
+        ]
+    },
+    "drinking_water": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "drinking_water",
+                "drinking_water": "untreated"
+            },
+            {
+                "amenity": "drinking_water",
+                "drinking_water": "untreated"
+            },
+            {
+                "amenity": "drinking_water"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Позитив",
+                "official_name": "Строительная база \"Позитив\"",
+                "phone": "+7-8352-226-700",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Диваны и кресла",
+                "opening_hours": "Mo-Su 10:00-19:00",
+                "shop": "furniture",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Натали",
+                "opening_hours": "08:00-20:00",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "contact:phone": "+7 8352 346717; +7 8352 346729",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Чебоксары 428005",
+                "opening_hours": "Mo-Sa 07:00-20:00",
+                "operator": "АО «Почта России»",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России",
+                "ref": "428005",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "veterinary": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Малыш",
+                "amenity": "veterinary",
+                "name:en": "Malysh"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "car_repair",
+                "phone": "+7 906 3895737",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "games": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Малышок",
+                "shop": "games"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "МТС",
+                "shop": "mobile_phone"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Слобода",
+                "shop": "convenience",
+                "opening_hours": "Mo-Su 07:00-21:30"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash",
+                "description": "8 мест самообслуживание",
+                "name": "Osma"
+            }
+        ]
+    },
+    "tobacco": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Darkside Shop",
+                "shop": "tobacco"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Moon magic"
+            },
+            {
+                "name": "Лама",
+                "amenity": "cafe",
+                "building": "yes",
+                "addr:street": "Гражданская улица",
+                "opening_hours": "Mo-Sa 09:00-20:00",
+                "building:levels": "1",
+                "addr:housenumber": "40А"
+            }
+        ]
+    },
+    "tyres": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 835 2346505",
+                "contact:website": "https://tyreplus.ru/",
+                "name": "Tyreplus",
+                "opening_hours": "Mo,We-Su 08:00-19:00;Tu 09:00-19:00",
+                "operator": "Никитин Алексей Васильевич",
+                "shop": "tyres"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Первая городская больница",
+                "amenity": "hospital",
+                "building": "hospital",
+                "addr:street": "Гражданская улица",
+                "official_name": "Первая Чебоксарская городская больница им. П.Н.Осипова",
+                "building:levels": "2",
+                "addr:housenumber": "40"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "улица Лермонтова",
+                "addr:housenumber": "39"
+            }
+        ]
+    },
+    "department_store": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "retail",
+                "building:levels": "2",
+                "name": "Торговый дом \"Будайка\"",
+                "shop": "department_store"
+            }
+        ]
+    }
+}

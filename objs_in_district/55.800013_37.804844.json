@@ -1,0 +1,428 @@
+{
+    "residents": 10941,
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Родник 95",
+                "shop": "supermarket"
+            },
+            {
+                "brand": "Дикси",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "contact:phone": "+7 800 3330201",
+                "contact:website": "http://dixy.ru",
+                "name": "Дикси",
+                "name:en": "Dixy",
+                "name:ru": "Дикси",
+                "opening_hours": "24/7",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "ВкусВилл",
+                "shop": "convenience",
+                "brand": "ВкусВилл",
+                "name:en": "VkusVill",
+                "name:ru": "ВкусВилл",
+                "contact:vk": "https://vk.com/izbenka",
+                "contact:email": "info@izbenka.msk.ru",
+                "contact:phone": "+7 495 6638602",
+                "contact:website": "http://vkusvill.ru",
+                "contact:facebook": "https://www.facebook.com/izbenka",
+                "contact:telegram": "https://telegram.me/vkusvillbot",
+                "contact:instagram": "https://www.instagram.com/izbenka_vkusvill"
+            },
+            {
+                "name": "Мясновъ",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Травматологический пункт при поликлинике №175",
+                "amenity": "doctors",
+                "healthcare": "doctor",
+                "short_name": "Травмпункт",
+                "contact:phone": "+7 495 4659153",
+                "opening_hours": "24/7",
+                "health_facility:type": "first_aid",
+                "medical_system:western": "yes",
+                "health_specialty:traumatology": "yes"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "branch": "Московский банк",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://www.instagram.com/sberbank/",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-17:00",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "9038/0406",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Салон красоты",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "hospital",
+                "name": "Европейский Медико-Хирургический Центр",
+                "opening_hours": "24/7",
+                "phone": "+7 495 2329782",
+                "website": "http://www.emhc.ru"
+            }
+        ]
+    },
+    "university": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "university",
+                "name": "Институт гуманитарного образования и информационных технологий",
+                "website": "http://www.igumo.ru",
+                "wikidata": "Q4201489"
+            }
+        ]
+    },
+    "public_service": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Многофункциональный центр предоставления государственных и муниципальных услуг района Измайлово",
+                "brand": "Мои документы",
+                "office": "government",
+                "source": "PGU",
+                "amenity": "public_service",
+                "name:ru": "Многофункциональный центр предоставления государственных и муниципальных услуг района Измайлово",
+                "alt_name": "МФЦ Измайлово",
+                "government": "public_service",
+                "short_name": "МФЦ",
+                "contact:phone": "+7 499 9400275",
+                "official_name": "Многофункциональный центр района Измайлово г. Москвы",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-15:45"
+            }
+        ]
+    },
+    "optician": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "optician"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "fountain": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fountain"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash",
+                "phone": "+7 495 9652318",
+                "website": "http://www.avtomoyka.su"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "ПАО \"Сбербанк\"",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "bench": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Верхняя Первомайская улица",
+                "public_transport": "stop_position"
+            },
+            {
+                "name": "Верхняя Первомайская улица",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 495 5395454",
+                "contact:website": "http://parking.mos.ru/",
+                "opening_hours": "24/7",
+                "operator": "ГКУ «Администратор Московского парковочного пространства»",
+                "payment:cash": "no",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "ref": "4005",
+                "ref:mos_parking": "859915228",
+                "vending": "parking_tickets",
+                "zone:parking": "4042"
+            },
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 495 5395454",
+                "contact:website": "http://parking.mos.ru/",
+                "opening_hours": "24/7",
+                "operator": "ГКУ «Администратор Московского парковочного пространства»",
+                "payment:cash": "no",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "ref": "4003",
+                "ref:mos_parking": "859915226",
+                "vending": "parking_tickets",
+                "zone:parking": "4043"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "brand": "Горздрав",
+                "contact:email": "info@gor-zdrav.ru",
+                "contact:facebook": "https://www.facebook.com/AptekaGorzdrav",
+                "contact:instagram": "https://www.instagram.com/gorzdrav",
+                "contact:ok": "https://ok.ru/group/57486617870381",
+                "contact:vk": "https://vk.com/gorzdrav",
+                "contact:website": "https://gorzdrav.org",
+                "name": "Горздрав",
+                "name:ru": "Горздрав"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Отдохни",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Кофе с собой",
+                "takeaway": "yes"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "photo": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "photo"
+            }
+        ]
+    },
+    "outpost": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Wildberries",
+                "shop": "outpost"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Поликлиника №175 Филиал №2",
+                "amenity": "clinic",
+                "building": "hospital",
+                "old_name": "Поликлиника №86",
+                "addr:city": "Москва",
+                "healthcare": "clinic",
+                "addr:street": "Сиреневый бульвар",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-18:00; Su 09:00-16:00",
+                "building:levels": "4",
+                "addr:housenumber": "30",
+                "building:material": "concrete",
+                "health_facility:type": "clinic"
+            },
+            {
+                "name": "Поликлиника №5 ФСБ РФ",
+                "amenity": "clinic",
+                "building": "hospital",
+                "healthcare": "clinic",
+                "addr:street": "10-я Парковая улица",
+                "building:levels": "3",
+                "addr:housenumber": "15А",
+                "health_facility:type": "clinic"
+            }
+        ]
+    },
+    "service": {
+        "count": 2,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "building:levels": "1"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "mortuary": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Морг",
+                "amenity": "mortuary",
+                "building": "yes",
+                "addr:street": "11-я Парковая улица",
+                "building:levels": "2",
+                "addr:housenumber": "32 с15"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "Верхняя Первомайская улица",
+                "building:levels": "2",
+                "addr:housenumber": "57А"
+            },
+            {
+                "name": "Детский сад №793",
+                "amenity": "kindergarten",
+                "building": "kindergarten",
+                "addr:street": "10-я Парковая улица",
+                "building:levels": "2",
+                "addr:housenumber": "18А"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "school",
+                "addr:city": "Москва",
+                "addr:street": "9-я Парковая улица",
+                "addr:postcode": "105264",
+                "building:levels": "2",
+                "addr:housenumber": "54А"
+            },
+            {
+                "name": "Коррекционная спецшкола №442",
+                "amenity": "school",
+                "building": "school",
+                "addr:city": "Москва",
+                "addr:street": "Сиреневый бульвар",
+                "building:levels": "3",
+                "addr:housenumber": "30А"
+            }
+        ]
+    }
+}

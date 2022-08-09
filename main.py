@@ -126,7 +126,7 @@ def transform_into_flatter_structure(folder="torgi/result"):
 
                 if total_area < MIN_AREA:
                     continue
-                bad_words = re.compile(r'(:? дол[ия]\b|\bгараж|машино-?место|(?<!этажа и )\bподвал|\bподпол|\bчерда\w+|картофелехранилище|долевая)', flags=re.IGNORECASE)
+                bad_words = re.compile(r'(:? дол[ия]\b|\bгараж|машино-?место|свинарник|(?<!этажа и )\bподвал|\bподпол|\bчерда\w+|картофелехранилище|долевая)', flags=re.IGNORECASE)
                 if bad_words.search(i['lotDescription']) or bad_words.search(i['lotName']):
                     continue
 
@@ -177,7 +177,7 @@ def transform_into_flatter_structure(folder="torgi/result"):
                 #     for category  in commercial_assessment:
                 #         if category != "residents":
                 #             shops += commercial_assessment.get(category)
-
+                coord = f'''=HYPERLINK("https://yandex.ru/maps/?&text={lat}, {lon}", "{lat}, {lon}")''' if lat and lon and lat != "None" and lon != "None" else ""
                 object = {
                     "Регион": i['subjectRFCode'],
                     "Общая площадь": total_area,
@@ -188,12 +188,13 @@ def transform_into_flatter_structure(folder="torgi/result"):
                     "Адрес": address,
                     "Окончания подачи заявок": datetime.strptime(i['biddEndTime'], "%Y-%m-%dT%H:%M:%S.000+00:00").strftime("%d %m %y %H:%M"),
                     "Кадастровый номер": cadastral, #characteristics['Кадастровый номер'],
-                    "Кадастровая стоимость": characteristics.get('Кадастровая стоимость '),
+                    "Cтоимость чел/кв.м": "",
                     "Форма проведения": i['biddForm']['code'],
-                    "Имущество": bidd_type,
-                    "Координаты": f'{lat}, {lon}',
-                    #"Жителей в округе": residents,
-                    #"Коммерческих объектов": shops
+                    "Имущество": re.sub(r"^(.).+$", r"\1", bidd_type),
+                    "Координаты": coord,
+                    "Жителей в округе": "",
+                    "Коммерческих объектов": "",
+                    "Описание коммерческих объектов": ""
                 }
                 data["content"].append(object)
 
@@ -208,7 +209,7 @@ def install_setting_of_columns(writer):
     worksheet.autofilter('A1:B100')
     currency_format = workbook.add_format({'num_format': '# ### ##0 ₽'})
     format_area = workbook.add_format({'num_format': '# ##0.0 м2'})
-    format_name = workbook.add_format({'font_color': 'blue', 'underline': True})
+    format_hyper = workbook.add_format({'font_color': 'blue', 'underline': True})
 
    # (max_row, max_col) = df.shape
     #max_row = worksheet.get_highest_row()
@@ -218,7 +219,9 @@ def install_setting_of_columns(writer):
     worksheet.set_column('C:C', 9, format_area)
 
     # name
-    worksheet.set_column('D:D', 22, format_name)
+    worksheet.set_column('D:D', 22, format_hyper)
+    worksheet.set_column('N:N', 22, format_hyper)
+    worksheet.set_column('Q:Q', 22, format_hyper)
     worksheet.set_column('E:E', 40)
     worksheet.set_column('H:H', 40)
     worksheet.set_column('I:I', 12)
@@ -308,10 +311,10 @@ def main():
     #lotStatus=SUCCEED сбор завершенных данных; status = "APPLICATIONS_SUBMISSION прием заявок
 
     #status = "APPLICATIONS_SUBMISSION"
-    status = "APPLICATIONS_SUBMISSION"
-    folder = "torgi/result" if status != "SUCCEED" else "torgi/archive"
+    status = "SUCCEED"
+    folder = "torgi/result" if status != "SUCCEED" else "torgi/archive" #12,21,16,58,91,77,50
 
-    #amount_files = get_data_json(bidd_type="229FZ,1041PP,178FZ", subj_rf="12,21,16,58,91,77,50",  lot_status=status, folder=folder)
+    amount_files = get_data_json(bidd_type="229FZ,1041PP,178FZ", subj_rf="",  lot_status=status, folder=folder)
    # # print(amount_files)
     path = transform_into_flatter_structure(folder=folder)
     primary_processing(path)

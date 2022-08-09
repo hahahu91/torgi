@@ -1,0 +1,170 @@
+{
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Магнит",
+                "shop": "supermarket"
+            },
+            {
+                "shop": "supermarket",
+                "building": "retail"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 5,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience",
+                "building": "retail"
+            },
+            {
+                "name": "999 мелочей",
+                "shop": "convenience",
+                "building": "yes"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "toys": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "toys"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "Мебельный комбинат",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "Мебельный комбинат",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "name": "Общежитие",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Общежитие",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "residents": 2718,
+    "parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "service": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "ТП 356",
+                "power": "substation",
+                "building": "service"
+            },
+            {
+                "name": "ТП 336",
+                "power": "substation",
+                "building": "service"
+            },
+            {
+                "name": "ТП 337",
+                "power": "substation",
+                "building": "service"
+            },
+            {
+                "name": "ТП 338",
+                "power": "substation",
+                "building": "service"
+            }
+        ]
+    },
+    "art_school": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "art_school",
+                "building": "yes",
+                "education": "centre",
+                "education_profile": "art",
+                "name": "Школа искусств"
+            }
+        ]
+    },
+    "music_school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Музыкальная школа",
+                "amenity": "music_school",
+                "building": "yes",
+                "education": "facultative_school",
+                "education_form:parttime": "yes",
+                "education_level:primary": "yes",
+                "education_profile:music": "yes",
+                "education_system:ru_standard": "yes"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "clothes",
+                "building": "retail",
+                "addr:street": "Советская улица",
+                "addr:housenumber": "43А"
+            }
+        ]
+    }
+}

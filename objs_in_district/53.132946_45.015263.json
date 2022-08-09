@@ -1,0 +1,125 @@
+{
+    "residents": 4911,
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Sundogs",
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Календула",
+                "note": "ИП: Календула",
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Фармация №184",
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Сказка",
+                "note": "ИП: ПродСервис",
+                "shop": "convenience"
+            },
+            {
+                "name": "Приятель",
+                "note": "ИП: Кузнецова, Апельсин",
+                "shop": "convenience"
+            },
+            {
+                "name": "Гастрономчик Плюс",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "shoe_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ремонт обуви",
+                "shop": "shoe_repair"
+            }
+        ]
+    },
+    "stationery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Рукодельница",
+                "note": "ИП: Иноземцева",
+                "shop": "stationery"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Засечное 440514",
+                "opening_hours": "Mo-Tu,Th-Sa 10:00-13:00,14:00-18:00",
+                "operator": "АО «Почта России»",
+                "ref": "440514"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Пенза",
+                "addr:housenumber": "46Ж",
+                "addr:street": "улица Пушанина",
+                "building": "yes",
+                "name": "Шиномонтаж",
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Пенза",
+                "addr:housenumber": "4",
+                "addr:street": "Экспериментальная улица",
+                "amenity": "dentist",
+                "building": "yes",
+                "building:levels": "1",
+                "healthcare": "dentist",
+                "name": "Дэнс-Форте"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "power": "transformer",
+                "building": "service"
+            }
+        ]
+    }
+}

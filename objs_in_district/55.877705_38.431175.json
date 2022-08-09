@@ -1,0 +1,144 @@
+{
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bank",
+                "branch": "Среднерусский банк",
+                "name": "Сбербанк",
+                "opening_hours": "Mo-Fr 09:00-13:00,14:00-19:00; Sa 09:00-13:00,14:00-17:00",
+                "operator": "ОАО \"Сбербанк России\"",
+                "phone": "+7 49651 52363",
+                "ref": "2557/061",
+                "website": "https://www.sberbank.ru/"
+            },
+            {
+                "atm": "yes",
+                "name": "Сбербанк",
+                "source": "BING",
+                "amenity": "bank",
+                "building": "yes",
+                "addr:street": "улица Декабристов",
+                "building:levels": "2",
+                "addr:housenumber": "79Б"
+            }
+        ]
+    },
+    "residents": 3129,
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "У пушки",
+                "bench": "yes",
+                "source": "drive-by gps",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bench": "yes",
+                "source": "gps",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bench": "yes",
+                "source": "drive-by gps",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "convenience",
+                "source": "gps"
+            },
+            {
+                "shop": "convenience",
+                "source": "gps"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Школа № 18",
+                "amenity": "school"
+            },
+            {
+                "name": "средняя школа №18",
+                "building": "school",
+                "addr:street": "Новая улица",
+                "building:levels": "2",
+                "addr:housenumber": "1"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Детский дом",
+                "amenity": "kindergarten",
+                "social_facility": "group_home",
+                "social_facility:for": "orphan"
+            },
+            {
+                "name": "Детский сад №45",
+                "amenity": "kindergarten"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "pet"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ногинск",
+                "addr:housenumber": "108",
+                "addr:street": "улица Декабристов",
+                "name": "Высшая лига",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "phone": "+7 800 4501001",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "contact:email": "FeedBack@burgerking.ru",
+                "contact:phone": "+7 495 5445000",
+                "contact:vk": "https://vk.com/burgerking",
+                "contact:website": "https://burgerking.ru/",
+                "name": "Бургер кинг",
+                "opening_hours": "07:00-24:00",
+                "operator": "БУРГЕР РУС"
+            }
+        ]
+    }
+}

@@ -1,0 +1,465 @@
+{
+    "residents": 8418,
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Пулковская улица",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Пулковская улица",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "brand": "36,6",
+                "brand:wikidata": "Q226889",
+                "brand:wikipedia": "ru:36,6 (аптечная сеть)",
+                "contact:facebook": "https://www.facebook.com/apteka366",
+                "contact:instagram": "https://www.instagram.com/apteka366",
+                "contact:ok": "https://ok.ru/group/57486618853421",
+                "contact:vk": "https://vk.com/apteka36i6",
+                "contact:website": "https://apteka366.ru",
+                "healthcare": "pharmacy",
+                "name": "36,6",
+                "name:ru": "36,6"
+            },
+            {
+                "amenity": "pharmacy",
+                "brand": "Самсон Фарма",
+                "contact:facebook": "https://www.facebook.com/samsonpharma/",
+                "contact:instagram": "https://instagram.com/samsonpharma/",
+                "contact:phone": "+7 499 6490245",
+                "contact:twitter": "https://twitter.com/samsonfarma",
+                "contact:vk": "https://vk.com/samson_f",
+                "contact:website": "https://samson-pharma.ru",
+                "contact:youtube": "https://www.youtube.com/channel/UCPXq0ZxVRP8cth9_6Ht8j-w",
+                "healthcare": "pharmacy",
+                "name": "Самсон Фарма",
+                "name:ru": "Самсон Фарма",
+                "opening_hours": "Mo-Fr 09:00-22:00; Sa-Su 09:00-21:00",
+                "operator:wikidata": "Q19911073",
+                "operator:wikipedia": "ru:Самсон-Фарма"
+            },
+            {
+                "name": "Планета здоровья",
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 5,
+        "detail": [
+            {
+                "shop": "convenience",
+                "opening_hours": "08:00-23:00"
+            },
+            {
+                "brand": "ВкусВилл",
+                "brand:wikidata": "Q57271676",
+                "brand:wikipedia": "ru:Вкусвилл",
+                "contact:email": "info@izbenka.msk.ru",
+                "contact:facebook": "https://www.facebook.com/vkusvill.ru",
+                "contact:instagram": "https://www.instagram.com/izbenka_vkusvill",
+                "contact:phone": "+7 495 6638602",
+                "contact:telegram": "https://telegram.me/vkusvillbot",
+                "contact:vk": "https://vk.com/vkusvill_ru",
+                "contact:website": "https://vkusvill.ru",
+                "name": "ВкусВилл",
+                "name:ru": "ВкусВилл",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience",
+                "opening_hours": "08:00-24:00"
+            },
+            {
+                "shop": "convenience",
+                "wheelchair": "no",
+                "opening_hours": "24/7"
+            },
+            {
+                "brand": "МясновЪ",
+                "contact:email": "info@coolclever.ru",
+                "contact:facebook": "https://www.facebook.com/myasnov.russia",
+                "contact:instagram": "https://www.instagram.com/myasnov.russia",
+                "contact:phone": "+7 495 4249515",
+                "contact:vk": "https://vk.com/myasnov.russia",
+                "contact:website": "https://www.myasnov.ru",
+                "name": "МясновЪ",
+                "name:ru": "МясновЪ",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "library",
+                "name": "Детская библиотека № 45"
+            }
+        ]
+    },
+    "playground": {
+        "count": 4,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "townhall": {
+        "count": 2,
+        "detail": [
+            {
+                "note": "ДЭЗ/ЖЭК/...",
+                "amenity": "townhall"
+            },
+            {
+                "note": "ДЭЗ/ЖЭК/ЕИРЦ/...",
+                "amenity": "townhall"
+            }
+        ]
+    },
+    "erotic": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Для взрослых",
+                "shop": "erotic"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:street": "Ленинградское шоссе (дублёр)",
+                "amenity": "bank",
+                "atm": "yes",
+                "brand": "Райффайзен",
+                "brand:en": "Raiffeisenbank",
+                "brand:ru": "Райффайзен",
+                "brand:wikidata": "Q4389244",
+                "brand:wikipedia": "en:Raiffeisenbank (Russia)",
+                "contact:phone": "+7 495 7219100",
+                "contact:website": "http://www.raiffeisen.ru",
+                "drive_through": "no",
+                "name": "Райффайзен",
+                "name:en": "Raiffeisenbank",
+                "name:ru": "Райффайзен",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-17:00"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "ЦветОК",
+                "shop": "florist"
+            },
+            {
+                "contact:website": "https://lacybird.ru/",
+                "name": "Lacy Bird",
+                "shop": "florist"
+            }
+        ]
+    },
+    "fabric": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:website": "https://www.ecotkani.su/",
+                "name": "Экоткани",
+                "shop": "fabric"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "WineStyle",
+                "shop": "alcohol",
+                "contact:phone": "+7 499 7034856",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "contact:website": "http://winestyle.ru"
+            },
+            {
+                "brand": "Отдохни",
+                "contact:email": "somelie@coolclever.ru",
+                "contact:facebook": "https://www.facebook.com/somelie.community",
+                "contact:instagram": "https://www.instagram.com/somelie__community",
+                "contact:phone": "+7 495 4249515",
+                "contact:vk": "https://vk.com/somelie.community",
+                "contact:website": "https://www.somelie.ru",
+                "drink:beer": "bottled",
+                "drink:cognac": "bottled",
+                "drink:soft_drink": "bottled",
+                "drink:sparkling_wine": "bottled",
+                "drink:vodka": "bottled",
+                "drink:whisky": "bottled",
+                "drink:wine": "bottled",
+                "name": "Отдохни",
+                "name:ru": "Отдохни",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "toys": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "toys"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Billa",
+                "shop": "supermarket",
+                "opening_hours": "Mo-Su 07:00-24:00"
+            },
+            {
+                "brand": "Азбука Вкуса",
+                "brand:en": "Azbuka Vkusa",
+                "brand:wikidata": "Q4058209",
+                "brand:wikipedia": "en:Azbuka Vkusa",
+                "contact:website": "https://av.ru/shops/leningradskoe-shosse-d-68",
+                "name": "Азбука Вкуса",
+                "name:en": "Azbuka Vkusa",
+                "opening_hours": "24/7",
+                "operator": "ООО «Городской супермаркет»",
+                "ref:av": "359079",
+                "shop": "supermarket"
+            },
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:email": "info@magnit.ru",
+                "contact:phone": "+7 800 2009002",
+                "contact:twitter": "https://twitter.com/magnit_info",
+                "contact:website": "http://magnit-info.ru",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "operator": "АО \"Тандер\"",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "sports": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ультраспорт",
+                "name:en": "UltraSport",
+                "name:ru": "Ультраспорт",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "phone": "+7 495 5877575",
+                "shop": "sports",
+                "website": "https://ultrasport.ru",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Садко",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "pitch": {
+        "count": 2,
+        "detail": [
+            {
+                "sport": "table_tennis",
+                "access": "yes",
+                "leisure": "pitch"
+            },
+            {
+                "leisure": "pitch"
+            }
+        ]
+    },
+    "bookmaker": {
+        "count": 2,
+        "detail": [
+            {
+                "contact:phone": "+7 800 5054343",
+                "contact:website": "https://betboom.ru",
+                "name": "BetBoom",
+                "name:en": "BetBoom",
+                "shop": "bookmaker"
+            },
+            {
+                "brand": "Фонбет",
+                "brand:en": "Fonbet",
+                "brand:ru": "Фонбет",
+                "brand:wikidata": "Q49137910",
+                "brand:wikipedia": "ru:Фонбет",
+                "name": "Фонбет",
+                "name:en": "Fonbet",
+                "name:ru": "Фонбет",
+                "shop": "bookmaker"
+            }
+        ]
+    },
+    "party": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 495 5439191-294",
+                "contact:website": "http://zatey.ru",
+                "name": "Весёлая затея",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "shop": "party"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "КрасотОК",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:website": "https://vodnycentr.ru/",
+                "name": "Интерьер-центр \"Водный\"",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "hookah_lounge": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "hookah_lounge",
+                "name": "Мята Lounge"
+            }
+        ]
+    },
+    "power_tools": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "mega-lensh@220-volt.ru",
+                "contact:facebook": "https://www.facebook.com/likevolt",
+                "contact:instagram": "https://www.instagram.com/220volt.ru/",
+                "contact:ok": "https://ok.ru/likevolt",
+                "contact:phone": "+7 499 3506513;+7 800 3339220",
+                "contact:twitter": "https://twitter.com/likevolt",
+                "contact:vk": "https://vk.com/likevolt",
+                "contact:website": "https://www.220-volt.ru/",
+                "contact:youtube": "https://www.youtube.com/channel/UCnLPlH6bk0KDSSUVB8iseOg",
+                "name": "220 Вольт",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "Торговый дом Северо-западный",
+                "shop": "power_tools"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Школа №1315",
+                "amenity": "school",
+                "building": "yes",
+                "addr:street": "Конаковский проезд",
+                "addr:country": "RU",
+                "addr:housenumber": "5"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский сад №787",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:street": "Конаковский проезд",
+                "addr:country": "RU",
+                "addr:postcode": "125565",
+                "addr:housenumber": "11"
+            }
+        ]
+    },
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "47А",
+                "addr:street": "Ленинградское шоссе",
+                "amenity": "fuel",
+                "brand": "Shell",
+                "brand:wikidata": "Q154950",
+                "brand:wikipedia": "en:Royal Dutch Shell",
+                "building": "roof",
+                "layer": "1",
+                "name": "Shell",
+                "operator": "Shell"
+            }
+        ]
+    }
+}

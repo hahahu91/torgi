@@ -1,0 +1,666 @@
+{
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "residents": 12633,
+    "outdoor": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "4",
+                "addr:street": "улица Сайкина",
+                "name": "Спорт-Марафон",
+                "opening_hours": "Mo-Su 10:00-00:00",
+                "shop": "outdoor",
+                "website": "https://sport-marafon.ru/"
+            },
+            {
+                "name": "Рыболов-Охотник",
+                "shop": "outdoor"
+            },
+            {
+                "name": "Guru",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "phone": "+7 925 3494746",
+                "shop": "outdoor",
+                "website": "https://guru-pro.su/"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Боцман",
+                "amenity": "restaurant",
+                "cuisine": "fish_and_chips;german;regional",
+                "description": "пивной ресторан",
+                "contact:phone": "+7 495 7102755"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:housenumber": "15",
+                "addr:street": "улица Трофимова",
+                "amenity": "kindergarten",
+                "old_name": "Детский сад №1743"
+            },
+            {
+                "addr:housenumber": "11",
+                "addr:street": "улица Трофимова",
+                "amenity": "kindergarten",
+                "old_name": "Детский сад №1264"
+            },
+            {
+                "name": "Детский развивающий центр Катюша",
+                "amenity": "kindergarten",
+                "addr:city": "Москва",
+                "addr:street": "улица Сайкина",
+                "addr:housenumber": "19"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 10,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Кинотеатр \"Свобода\"",
+                "bench": "yes",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Кинотеатр \"Свобода\"",
+                "bench": "yes",
+                "fixme": "Навеса может не быть",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Улица Трофимова, 16",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "old_name": "Магазин \"Весна\"",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Улица Трофимова, 16",
+                "bench": "yes",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "old_name": "Магазин \"Весна\"",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Проспект Андропова",
+                "fixme": "Навеса может не быть",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Проспект Андропова",
+                "bench": "yes",
+                "fixme": "Навеса может не быть",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "2-й Кожуховский проезд, 9",
+                "bench": "no",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "no",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "5-я Кожуховская улица",
+                "bench": "yes",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "trolleybus": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "5-я Кожуховская улица",
+                "bench": "yes",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "trolleybus": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "6-я Кожуховская улица",
+                "bench": "yes",
+                "source": "bing; yandex panorams",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "veterinary": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Ветеринарная клиника. Ветеринарная аптека.",
+                "amenity": "veterinary"
+            },
+            {
+                "name": "Биовет",
+                "amenity": "veterinary"
+            },
+            {
+                "addr:housenumber": "6 с2",
+                "addr:street": "6-я Кожуховская улица",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Любимый носик"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket",
+                "brand": "Пятёрочка",
+                "name:en": "Pyatyorochka",
+                "name:ru": "Пятёрочка",
+                "alt_name": "Пятерочка",
+                "contact:phone": "+7 800 5555505",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:website": "https://5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka"
+            },
+            {
+                "name": "Магнит",
+                "shop": "supermarket"
+            },
+            {
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/club19098821",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:ru": "Пятёрочка",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Магнит",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 6,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Магнит",
+                "shop": "convenience",
+                "brand": "Магнит",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "operator": "АО \"Тандер\"",
+                "contact:email": "info@magnit.ru",
+                "contact:phone": "+7 800 2009002",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:twitter": "https://twitter.com/magnit_info",
+                "contact:website": "http://magnit-info.ru"
+            },
+            {
+                "name": "Весна",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "power_tools": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "msk13@220-volt.ru",
+                "contact:facebook": "https://www.facebook.com/likevolt",
+                "contact:instagram": "https://www.instagram.com/220volt.ru/",
+                "contact:ok": "https://ok.ru/likevolt",
+                "contact:phone": "+7 495 6404978;+7 800 3339220",
+                "contact:twitter": "https://twitter.com/likevolt",
+                "contact:vk": "http://vk.com/likevolt",
+                "contact:website": "https://www.220-volt.ru/",
+                "contact:youtube": "https://www.youtube.com/channel/UCnLPlH6bk0KDSSUVB8iseOg",
+                "int_name": "220 Volt",
+                "name": "220 вольт",
+                "name:ru": "220 вольт",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "operator": "Торговый дом Северо-западный",
+                "shop": "power_tools"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 2,
+        "detail": [
+            {
+                "ref": "115193",
+                "name": "Москва 115193",
+                "brand": "Почта России",
+                "amenity": "post_office",
+                "operator": "ФГУП «Почта России»",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:phone": "+7 800 2005888",
+                "opening_hours": "Mo-Fr 08:00-13:00,14:00-20:00; Sa 09:00-13:00,14:00-18:00; Su off",
+                "contact:twitter": "https://twitter.com/ruspostofficial",
+                "contact:website": "https://www.pochta.ru",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России"
+            },
+            {
+                "ref": "115432",
+                "name": "Отделение связи №115432",
+                "amenity": "post_office",
+                "operator": "Почта России",
+                "contact:phone": "+7 495 6793515",
+                "opening_hours": "Mo-Fr 08:00-13:00,14:00-20:00; Sa 09:00-13:00,14:00-18:00; Su off",
+                "contact:website": "http://www.russianpost.ru"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 4,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Бородач",
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Хозтовары",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Бочка",
+                "shop": "alcohol",
+                "website": "http://bochkashop.ru"
+            },
+            {
+                "brand": "Красное&Белое",
+                "brand:wikidata": "Q24933790",
+                "brand:wikipedia": "ru:Красное & Белое",
+                "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+                "contact:instagram": "https://www.instagram.com/krasnoebeloe",
+                "contact:ok": "https://ok.ru/krasnoebeloe",
+                "contact:telegram": "+7 922 7033000",
+                "contact:viber": "+7 922 7033000",
+                "contact:vk": "https://vk.com/krasnoebeloe",
+                "contact:website": "https://krasnoeibeloe.ru",
+                "contact:whatsapp": "+7 922 7033000",
+                "name": "Красное&Белое",
+                "name:ru": "Красное&Белое",
+                "shop": "alcohol"
+            },
+            {
+                "name": "Пивкофф",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "library": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "library"
+            },
+            {
+                "amenity": "library",
+                "name": "Библиотека № 121"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Dентал Мир",
+                "amenity": "dentist"
+            },
+            {
+                "amenity": "dentist",
+                "addr:city": "Москва",
+                "addr:street": "улица Сайкина",
+                "addr:housenumber": "19"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Мармелад",
+                "shop": "beauty"
+            },
+            {
+                "name": "Даниэлла",
+                "shop": "beauty"
+            },
+            {
+                "name": "Royale Beaute",
+                "shop": "beauty",
+                "addr:city": "Москва",
+                "addr:street": "улица Сайкина",
+                "addr:housenumber": "19"
+            },
+            {
+                "shop": "beauty"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "contact:phone": "+7 495 2493300;+7 499 7500250",
+                "name": "Добрая аптека",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "Аптека 24/7"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:phone": "+7 495 1081725",
+                "contact:website": "http://dialog.ru/",
+                "name": "Диалог",
+                "opening_hours": "Mo-Fr 09:00-22:00;Sa-Su 10:00-22:00"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 495 5395454",
+                "contact:website": "http://parking.mos.ru/",
+                "opening_hours": "24/7",
+                "operator": "ГКУ «Администратор Московского парковочного пространства»",
+                "payment:cash": "no",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "ref": "2326",
+                "ref:mos_parking": "282752257",
+                "source": "dit.mos.ru",
+                "vending": "parking_tickets",
+                "zone:parking": "4019"
+            }
+        ]
+    },
+    "kitchen": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "17",
+                "addr:street": "улица Сайкина",
+                "name": "Сплав",
+                "name:en": "Splav",
+                "shop": "kitchen"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fuel",
+                "fuel:diesel": "yes",
+                "fuel:octane_92": "yes",
+                "fuel:octane_95": "yes",
+                "name": "Эверон"
+            }
+        ]
+    },
+    "courthouse": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "courthouse",
+                "name": "судебный участок №267"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "clothes": "military",
+                "name": "Военторг",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Jumbo Cafe"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "police",
+                "name": "Участковый пункт полиции"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "doctors",
+                "healthcare": "doctor",
+                "name": "Молокораздаточный пункт",
+                "website": "https://гормедтехника.рф/%d0%bc%d0%be%d0%bb%d0%be%d1%87%d0%bd%d0%be-%d1%80%d0%b0%d0%b7%d0%b4%d0%b0%d1%82%d0%be%d1%87%d0%bd%d1%8b%d0%b5-%d0%bf%d1%83%d0%bd%d0%ba%d1%82%d1%8b/"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "tobacco": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "ves-tabak@yandex.ru",
+                "contact:phone": "+7 916 1854978",
+                "contact:website": "https://ves-tabak.ru/",
+                "name": "Весь ТабакЪ",
+                "opening_hours": "Mo-Fr 09:00-21:30;Sa-Su 09:00-21:00",
+                "operator": "Весь ТабакЪ",
+                "shop": "tobacco"
+            }
+        ]
+    },
+    "school": {
+        "count": 4,
+        "detail": [
+            {
+                "building": "school",
+                "addr:street": "6-я Кожуховская улица",
+                "building:levels": "4",
+                "addr:housenumber": "8"
+            },
+            {
+                "building": "school",
+                "addr:street": "5-я Кожуховская улица",
+                "building:levels": "4",
+                "addr:housenumber": "15"
+            },
+            {
+                "addr:housenumber": "15А",
+                "addr:street": "улица Трофимова",
+                "amenity": "school",
+                "building": "school",
+                "building:levels": "5",
+                "name": "ГБОУ Дворец творчества детей и молодежи им. А.П.Гайдара",
+                "old_name": "ЦДТ \"Южнопортовый\""
+            },
+            {
+                "addr:housenumber": "13А",
+                "addr:street": "улица Трофимова",
+                "amenity": "school",
+                "building": "school",
+                "building:levels": "4",
+                "old_name": "Школа №506"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Храм Александра Невского",
+                "source": "Адресный реестр Москвы, data.mos.ru",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "religion": "christian",
+                "wikidata": "Q2041744",
+                "wikipedia": "ru:Церковь Александра Невского в Кожухове",
+                "addr:street": "улица Трофимова",
+                "denomination": "orthodox",
+                "addr:housenumber": "14"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "source": "Адресный реестр Москвы, data.mos.ru",
+                "building": "commercial",
+                "addr:street": "улица Трофимова",
+                "addr:housenumber": "14 с1"
+            }
+        ]
+    },
+    "service": {
+        "count": 2,
+        "detail": [
+            {
+                "ref": "24818",
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:street": "5-я Кожуховская улица",
+                "building:levels": "1",
+                "addr:housenumber": "8 с2"
+            },
+            {
+                "ref": "3368",
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:street": "2-й Кожуховский проезд",
+                "building:levels": "1",
+                "addr:housenumber": "9 с2"
+            }
+        ]
+    }
+}

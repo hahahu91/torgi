@@ -1,0 +1,869 @@
+{
+    "residents": 12708,
+    "pet": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Планета ZOO",
+                "shop": "pet",
+                "level": "-1",
+                "addr:street": "Новопесчаная улица",
+                "addr:postcode": "125252",
+                "contact:phone": "+7 499 7406563",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "addr:housenumber": "14",
+                "contact:instagram": "https://www.instagram.com/planetazoo_msk/"
+            },
+            {
+                "name": "Аква Лого",
+                "shop": "pet",
+                "website": "https://www.aqualogo.ru/"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "14",
+                "addr:postcode": "125252",
+                "addr:street": "Новопесчаная улица",
+                "contact:email": "ShopAGA.M07@amag.ru",
+                "contact:phone": "+7 499 1980195",
+                "contact:website": "https://www.amag.ru/",
+                "name": "Автомаг",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "operator": "Автохимия-Инвест",
+                "shop": "car_parts"
+            },
+            {
+                "addr:housenumber": "16",
+                "addr:street": "Новопесчаная улица",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:phone": "+7 499 1577252",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Москва 125252",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-18:00",
+                "operator": "АО «Почта России»",
+                "ref": "125252"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "name": "Райффайзенбанк",
+                "operator": "ЗАО \"Райффайзенбанк\"",
+                "website": "https://www.raiffeisen.ru/"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Детский сад №1071",
+                "amenity": "kindergarten"
+            },
+            {
+                "building": "kindergarten",
+                "addr:street": "Песчаный переулок",
+                "addr:postcode": "125252",
+                "building:levels": "2",
+                "addr:housenumber": "1А"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 9,
+        "detail": [
+            {
+                "highway": "bus_stop",
+                "name": "2-я Песчаная улица",
+                "public_transport": "platform"
+            },
+            {
+                "name": "2-я Песчаная улица",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "3-я Песчаная улица",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "description": "по требованию",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Песчаная площадь",
+                "public_transport": "stop_position"
+            },
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Песчаная площадь",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "3-я Песчаная улица",
+                "description": "по требованию",
+                "public_transport": "stop_position"
+            },
+            {
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Песчаная площадь",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "name": "улица Сальвадора Альенде",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "addr:housenumber": "21 к1",
+                "addr:street": "Новопесчаная улица",
+                "amenity": "pharmacy",
+                "brand": "Горздрав",
+                "contact:email": "info@gor-zdrav.ru",
+                "contact:facebook": "https://www.facebook.com/AptekaGorzdrav",
+                "contact:instagram": "https://www.instagram.com/gorzdrav",
+                "contact:ok": "https://ok.ru/group/57486617870381",
+                "contact:vk": "https://vk.com/gorzdrav",
+                "contact:website": "https://gorzdrav.org",
+                "name": "Горздрав",
+                "name:ru": "Горздрав"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:email": "apt0256@fsapt.ru",
+                "contact:facebook": "https://www.facebook.com/groups/aptekizvezda",
+                "contact:phone": "+7 499 1570970",
+                "contact:vk": "https://vk.com/aptekizvezda",
+                "contact:website": "https://www.asna.ru/",
+                "name": "АСНА - Северная Звезда",
+                "opening_hours": "24/7",
+                "operator": "Фармастар"
+            },
+            {
+                "amenity": "pharmacy",
+                "brand": "Ригла",
+                "brand:wikidata": "Q4394431",
+                "brand:wikipedia": "ru:Ригла",
+                "contact:email": "msk@rigla.ru",
+                "contact:facebook": "https://www.facebook.com/rigla.ru",
+                "contact:instagram": "https://www.instagram.com/rigla.ru",
+                "contact:ok": "https://ok.ru/rigla.ru",
+                "contact:phone": "+7 800 7770303",
+                "contact:vk": "https://vk.com/rigla_ru",
+                "contact:website": "http://www.rigla.ru",
+                "healthcare": "pharmacy",
+                "name": "Ригла",
+                "name:ru": "Ригла",
+                "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-22:00"
+            },
+            {
+                "amenity": "pharmacy",
+                "brand": "36,6",
+                "brand:wikidata": "Q226889",
+                "brand:wikipedia": "ru:36,6 (аптечная сеть)",
+                "contact:facebook": "https://www.facebook.com/apteka366",
+                "contact:instagram": "https://www.instagram.com/apteka366",
+                "contact:ok": "https://ok.ru/group/57486618853421",
+                "contact:phone": "+7 495 7976336",
+                "contact:vk": "https://vk.com/apteka36i6",
+                "contact:website": "https://apteka366.ru",
+                "healthcare": "pharmacy",
+                "name": "36,6",
+                "name:ru": "36,6"
+            }
+        ]
+    },
+    "tailor": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "tailor"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская стоматологическая поликлиника №29",
+                "amenity": "dentist",
+                "healthcare": "dentist",
+                "provided_for:child": "yes",
+                "provided_for:infant": "yes",
+                "health_facility:type": "clinic",
+                "provided_for:toddler": "yes",
+                "medical_system:western": "yes",
+                "provided_for:adolescent": "yes",
+                "health_specialty:dentistry": "yes"
+            }
+        ]
+    },
+    "art": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:website": "https://vk.com/na_peschanoy",
+                "name": "Галерея на Песчаной",
+                "shop": "art"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 16,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Хлебникофф",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Брюки",
+                "shop": "clothes",
+                "phone": "+7 499 1987009",
+                "operator": "ИП Захарченко А.А.",
+                "addr:street": "Новопесчаная улица",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "addr:housenumber": "14"
+            },
+            {
+                "name": "Палитра",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Магнолия",
+                "shop": "convenience",
+                "brand": "Магнолия",
+                "name:ru": "Магнолия",
+                "contact:email": "magnolia@tcfoods.ru",
+                "opening_hours": "24/7",
+                "contact:website": "http://www.mgnl.ru"
+            },
+            {
+                "name": "Зеленая лавка",
+                "shop": "convenience",
+                "addr:street": "Новопесчаная улица",
+                "addr:housenumber": "18"
+            },
+            {
+                "brand": "Дикси",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "contact:phone": "+7 800 3330201",
+                "contact:vk": "https://vk.com/dixyclub",
+                "contact:website": "https://dixy.ru",
+                "contact:youtube": "https://www.youtube.com/channel/UCfFxD9xhL67LxHvsDOp_rvg",
+                "name": "Дикси",
+                "name:ru": "Дикси",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "operator": "АО «Дикси Юг»",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience",
+                "addr:street": "Новопесчаная улица",
+                "inscription": "Продукты 24",
+                "opening_hours": "24/7",
+                "addr:housenumber": "14"
+            },
+            {
+                "name": "ВкусВилл",
+                "shop": "convenience",
+                "brand": "ВкусВилл",
+                "name:ru": "ВкусВилл",
+                "contact:vk": "https://vk.com/izbenka",
+                "contact:email": "info@izbenka.msk.ru",
+                "contact:phone": "+7 495 6638602",
+                "contact:website": "http://vkusvill.ru",
+                "contact:facebook": "https://www.facebook.com/izbenka",
+                "contact:telegram": "https://telegram.me/vkusvillbot",
+                "contact:instagram": "https://www.instagram.com/izbenka_vkusvill"
+            },
+            {
+                "name": "Spar",
+                "shop": "convenience",
+                "addr:city": "район Сокол",
+                "addr:street": "Новопесчаная улица",
+                "addr:postcode": "125252",
+                "addr:housenumber": "20/10к2"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "restaurant",
+                "contact:website": "http://velieti.ru/",
+                "cuisine": "georgian",
+                "name": "Колхи",
+                "opening_hours": "Mo-Su 11:00-23:00"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "У Гио",
+                "amenity": "cafe",
+                "cuisine": "georgian"
+            },
+            {
+                "addr:housenumber": "1",
+                "addr:street": "улица Сальвадора Альенде",
+                "amenity": "cafe",
+                "cuisine": "burger;oriental;grill;bagel;chicken;kebab;barbecue",
+                "name": "Сокол"
+            },
+            {
+                "amenity": "cafe",
+                "contact:instagram": "https://www.instagram.com/moscow_coffekatana/",
+                "name": "Катана",
+                "opening_hours": "10:00-22:00"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "doctors",
+                "healthcare": "doctor",
+                "health_facility:type": "office"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Красное&Белое",
+                "brand:wikidata": "Q24933790",
+                "brand:wikipedia": "ru:Красное & Белое",
+                "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+                "contact:instagram": "https://www.instagram.com/krasnoebeloe",
+                "contact:ok": "https://ok.ru/krasnoebeloe",
+                "contact:telegram": "+7 922 7033000",
+                "contact:viber": "+7 922 7033000",
+                "contact:vk": "https://vk.com/krasnoebeloe",
+                "contact:website": "https://krasnoeibeloe.ru",
+                "contact:whatsapp": "+7 922 7033000",
+                "name": "Красное&Белое",
+                "name:ru": "Красное&Белое",
+                "shop": "alcohol"
+            },
+            {
+                "shop": "alcohol",
+                "inscription": "Разливные напитки",
+                "opening_hours": "Mo-Su 10:00-23:00"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Центропечать",
+                "shop": "newsagent"
+            },
+            {
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "sewing": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Бисер, Бусинка & Страз",
+                "shop": "sewing",
+                "contact:phone": "+7 499 1980112",
+                "opening_hours": "Mo-Su 10:00-19:00",
+                "contact:website": "http://www.biser-businka-strass-18.com/"
+            },
+            {
+                "name": "Океан бусин",
+                "shop": "sewing",
+                "level": "-1",
+                "phone": "+7 499 1980112",
+                "website": "http://www.biser-businka-strass-18.com/",
+                "opening_hours": "Mo-Su 10:00-19:00"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Магнолия",
+                "contact:email": "magnolia@tcfoods.ru",
+                "contact:website": "http://www.mgnl.ru",
+                "name": "Магнолия",
+                "name:ru": "Магнолия",
+                "opening_hours": "24/7",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "pet_grooming": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Рэкс",
+                "shop": "pet_grooming",
+                "operator": "www.salon-rex.ru",
+                "addr:city": "Москва",
+                "addr:street": "3-я Песчаная улица",
+                "addr:postcode": "125252",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "contact:website": "http://www.salon-rex.ru",
+                "addr:housenumber": "3",
+                "payment:telephone_cards": "+79164455701"
+            }
+        ]
+    },
+    "fitness_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Палестра",
+                "leisure": "fitness_centre"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Ева",
+                "shop": "beauty",
+                "name:ru": "Ева"
+            },
+            {
+                "name": "Cabare",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "bench": {
+        "count": 16,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мясницкий ряд",
+                "shop": "butcher",
+                "brand": "Мясницкий ряд",
+                "name:ru": "Мясницкий ряд",
+                "contact:vk": "https://vk.com/kolbasamr",
+                "contact:email": "info2@kolbasa.ru",
+                "contact:phone": "+7 495 9811719",
+                "opening_hours": "Mo-Fr 07:30-22:00; Sa-Su 07:30-21:00",
+                "contact:website": "http://www.kolbasa.ru",
+                "contact:facebook": "https://www.facebook.com/kolbasaMR"
+            }
+        ]
+    },
+    "farm": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дары Армении",
+                "shop": "farm",
+                "start_date": "2015-04-18"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "e-cigarette": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:vk": "https://vk.com/clubvapecon",
+                "name": "Vape constellation",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "shop": "e-cigarette",
+                "website": "http://vapeconstellation.com/"
+            }
+        ]
+    },
+    "ice_rink": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "ice_rink"
+            }
+        ]
+    },
+    "childcare": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "childcare",
+                "name": "Маленькие творческие мастерские",
+                "phone": "+7 499 1579949;+7 925 7110623",
+                "website": "https://www.maltvormast.ru/"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "community_centre",
+                "name": "Гармония на Песчаной",
+                "opening_hours": "Mo-Sa 10:00-19:00",
+                "phone": "+7 499 1577166",
+                "website": "http://garmos.ru/"
+            }
+        ]
+    },
+    "copyshop": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "5/1",
+                "addr:postcode": "125252",
+                "addr:street": "3-я Песчаная улица",
+                "contact:phone": "+7 499 1576270",
+                "contact:website": "http://www.kopy-c.ru",
+                "name": "Kwikkopy",
+                "opening_hours": "10:00-19:00",
+                "shop": "copyshop"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "opening_hours": "24/7",
+                "operator": "Райффайзенбанк"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "addr:street": "2-я Песчаная улица",
+                "building:levels": "4",
+                "addr:housenumber": "4А"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "14",
+                "addr:street": "Чапаевский переулок",
+                "building": "commercial",
+                "building:levels": "5",
+                "name": "Сокол Плейс",
+                "name:en": "Sokol Place",
+                "name:ru": "Сокол Плейс",
+                "phone": "+7 925 3961031",
+                "website": "http://sokol-pleys.bcmsk.ru/"
+            }
+        ]
+    },
+    "service": {
+        "count": 8,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "location": "indoor",
+                "substation": "minor_distribution",
+                "addr:street": "Новопесчаная улица",
+                "building:levels": "1",
+                "addr:housenumber": "21 к2 с2"
+            },
+            {
+                "ref": "12472",
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:street": "Песчаный переулок",
+                "building:levels": "1",
+                "addr:housenumber": "18 с2",
+                "building:material": "brick"
+            },
+            {
+                "building": "service",
+                "addr:street": "Песчаный переулок",
+                "building:levels": "1",
+                "addr:housenumber": "18 с5",
+                "building:material": "brick"
+            },
+            {
+                "building": "service",
+                "addr:street": "2-я Песчаная улица",
+                "building:levels": "1",
+                "addr:housenumber": "2 к4 с2"
+            },
+            {
+                "building": "service",
+                "location": "indoor",
+                "man_made": "heat_exchange_station",
+                "pipeline": "substation",
+                "addr:city": "Москва",
+                "substance": "heat",
+                "substation": "distribution",
+                "addr:street": "2-я Песчаная улица",
+                "description": "Тепловой пункт МОЭК",
+                "addr:postcode": "125252",
+                "building:levels": "1",
+                "addr:housenumber": "6 с3"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "location": "indoor",
+                "addr:city": "район Сокол",
+                "substation": "minor_distribution",
+                "addr:street": "2-я Песчаная улица",
+                "addr:postcode": "125252",
+                "building:levels": "1",
+                "addr:housenumber": "6 к3 с2"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation",
+                "ref": "28707",
+                "substation": "minor_distribution"
+            },
+            {
+                "addr:housenumber": "3 с2",
+                "addr:street": "2-я Песчаная улица",
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation",
+                "ref": "28707",
+                "substation": "minor_distribution"
+            }
+        ]
+    }
+}

@@ -1,0 +1,574 @@
+{
+    "residents": 3096,
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Площадь Ленина",
+                "public_transport": "stop_position"
+            },
+            {
+                "name": "Улица Чехова",
+                "bench": "no",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Улица Чехова",
+                "bench": "no",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "name": "Площадь Революции",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Площадь Ленина",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Корстон",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Матрёнa",
+                "amenity": "cafe",
+                "cuisine": "regional"
+            },
+            {
+                "amenity": "cafe"
+            },
+            {
+                "name": "Bellissima",
+                "amenity": "cafe",
+                "cuisine": "italian",
+                "opening_hours": "Mo-Su 11:00-23:00; Fr,Sa 11:00-24:00"
+            },
+            {
+                "amenity": "cafe",
+                "cuisine": "local;coffee_shop",
+                "name": "Овсянка",
+                "opening_hours": "Mo-Fr 10:00-22:00; Sa-Su 11:00-22:00",
+                "phone": "+7 925 9239644",
+                "website": "http://grig-group.ru/restaurants/gorodskoe-kafe-ovsyanka/"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "М.Видео",
+                "contact:email": "24@mvideo.ru",
+                "contact:facebook": "https://www.facebook.com/mvideo.ru",
+                "contact:instagram": "https://www.instagram.com/mvideo_ru/",
+                "contact:ok": "https://ok.ru/mvideo",
+                "contact:phone": "+7 495 7777775",
+                "contact:twitter": "https://twitter.com/mvideo",
+                "contact:vk": "https://vk.com/mvideo",
+                "contact:website": "https://mvideo.ru/",
+                "name": "М.Видео",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "МВМ",
+                "ref": "62",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "EVOO",
+                "amenity": "restaurant",
+                "cuisine": "italian"
+            }
+        ]
+    },
+    "parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Автомаг на Коломенской",
+                "shop": "car_parts"
+            },
+            {
+                "name": "Гарант-С",
+                "name:ru": "Гарант-С",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Янтарь",
+                "shop": "furniture"
+            },
+            {
+                "contact:email": "welcome@askona.ru",
+                "contact:phone": "+7 495 1398175",
+                "contact:website": "https://www.askona.ru/",
+                "name": "Askona",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "Торговый Дом «Аскона»",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_box",
+                "operator": "Почта России"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пресса",
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "atm": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "Сбербанк"
+            },
+            {
+                "amenity": "atm",
+                "operator": "ВТБ"
+            },
+            {
+                "amenity": "atm",
+                "operator": "ВТБ"
+            },
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "Промсвязьбанк"
+            }
+        ]
+    },
+    "sports": {
+        "count": 1,
+        "detail": [
+            {
+                "email": "e-commerce@sportmaster.ru",
+                "name": "Спортмастер",
+                "name:en": "Sportmaster",
+                "name:ru": "Спортмастер",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "ООО «Спортмастер»",
+                "phone": "+7 800 7777771;+7 496 7764027",
+                "shop": "sports",
+                "website": "https://www.sportmaster.ru/store/5209/"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "brand": "Макдоналдс",
+                "brand:en": "McDonald's",
+                "brand:ru": "Макдоналдс",
+                "brand:wikidata": "Q38076",
+                "brand:wikipedia": "en:McDonald’s",
+                "contact:email": "info@ru.mcd.com",
+                "contact:facebook": "https://www.facebook.com/mcdonaldsrussia",
+                "contact:instagram": "https://www.instagram.com/mcdonalds_rus/",
+                "contact:phone": "+7 496 7391601",
+                "contact:vk": "https://vk.com/mcdonaldsrussia",
+                "contact:website": "https://mcdonalds.ru",
+                "contact:youtube": "https://www.youtube.com/user/McDonaldsRussia",
+                "cuisine": "burger",
+                "diet:vegetarian": "no",
+                "name": "Макдоналдс",
+                "name:en": "McDonald's",
+                "name:ru": "Макдоналдс",
+                "opening_hours": "24/7",
+                "takeaway": "yes"
+            },
+            {
+                "amenity": "fast_food",
+                "cuisine": "pizza",
+                "name": "Pizza Express 24",
+                "opening_hours": "24/7",
+                "website": "http://www.pizzaexpress24.com"
+            },
+            {
+                "name": "Прожарка",
+                "amenity": "fast_food",
+                "name:ru": "Прожарка"
+            },
+            {
+                "amenity": "fast_food",
+                "contact:email": "FeedBack@burgerking.ru",
+                "contact:phone": "+7 495 5445000",
+                "contact:vk": "https://vk.com/burgerking",
+                "contact:website": "https://burgerking.ru/",
+                "name": "Бургер кинг",
+                "opening_hours": "10:00-22:00",
+                "operator": "БУРГЕР РУС"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Красное&Белое",
+                "shop": "alcohol",
+                "brand": "Красное&Белое",
+                "name:en": "Krasnoye&Beloye",
+                "name:ru": "Красное&Белое",
+                "contact:phone": "+7 922 7033000",
+                "contact:website": "http://www.krasnoeibeloe.ru",
+                "contact:facebook": "https://www.facebook.com/krasnoe.beloe"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Сток «Винтаж»",
+                "shop": "clothes",
+                "name:ru": "Сток «Винтаж»"
+            },
+            {
+                "name": "Wildberris",
+                "shop": "clothes",
+                "name:ru": "Wildberries интернет магазин"
+            },
+            {
+                "clothes": "workwear",
+                "contact:email": "serpukhov@vostok.ru",
+                "contact:phone": "+7 496 7761096",
+                "name": "Восток-Сервис",
+                "opening_hours": "Mo-Fr 09:00-19:00;Sa 10:00-15:00",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "travel_agency": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Турагенство «Гелиос»",
+                "shop": "travel_agency",
+                "name:ru": "Турагенство «Гелиос»"
+            },
+            {
+                "name": "Караван",
+                "shop": "travel_agency"
+            }
+        ]
+    },
+    "bus_station": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Автовокзал \"Площадь Революции\"",
+                "amenity": "bus_station",
+                "name:ru": "Автовокзал"
+            }
+        ]
+    },
+    "funeral_directors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ритуал",
+                "shop": "funeral_directors",
+                "name:ru": "Ритуал"
+            }
+        ]
+    },
+    "dry_cleaning": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Химчистка",
+                "shop": "dry_cleaning",
+                "name:ru": "Химчистка"
+            }
+        ]
+    },
+    "clock": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "clock",
+                "tourism": "artwork",
+                "historic": "memorial",
+                "description": "Часы \"Серпухов\""
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "name:en": "Magnit"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Баден",
+                "shop": "shoes",
+                "name:en": "BADEN",
+                "addr:street": "улица Ворошилова",
+                "addr:housenumber": "70"
+            },
+            {
+                "addr:city": "Серпухов",
+                "address:comment": "1 этаж",
+                "addr:housenumber": "1",
+                "addr:street": "Борисовское шоссе",
+                "contact:email": "os-respect@mail.ru",
+                "contact:facebook": "https://www.facebook.com/RESPECTSHOES/",
+                "contact:instagram": "https://www.instagram.com/respectshoes/",
+                "contact:vk": "https://vk.com/respectshoess",
+                "name": "Respect",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "Респект-Онлайн",
+                "phone": "+7 496 7391628",
+                "shop": "shoes",
+                "website": "https://respect-shoes.ru"
+            },
+            {
+                "contact:email": "club@ralf.ru",
+                "contact:phone": "+7 496 7391624",
+                "contact:website": "https://ralf.ru/",
+                "name": "Ralf Ringer",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "70",
+                "addr:street": "улица Ворошилова",
+                "name": "Тропикана-СПА",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "phone": "+7 4967 128028",
+                "shop": "beauty",
+                "website": "http://www.tropicanaspa.ru"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "outdoor": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пиротехника",
+                "shop": "outdoor"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Совкомбанк",
+                "amenity": "bank",
+                "opening_hours": "Mo-Su 10:00-15:00, 15:30-17:00"
+            }
+        ]
+    },
+    "pet": {
+        "count": 2,
+        "detail": [
+            {
+                "contact:email": "welcome@4lapy.ru",
+                "contact:phone": "+7 800 7700022;1175",
+                "contact:website": "https://4lapy.ru/",
+                "name": "Четыре Лапы",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "Альянс-М",
+                "shop": "pet"
+            },
+            {
+                "name": "Аквариумные рыбки",
+                "shop": "pet"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "yrru.rocketdata@gmail.com",
+                "contact:phone": "+7 926 6935062",
+                "contact:website": "https://www.yves-rocher.ru/",
+                "name": "Ив Роше",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "ТВЕРДОХЛЕБОВ ДЕНИС ВЛАДИМИРОВИЧ",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "toilets",
+                "opening_hours": "Mo-Su 09:00-20:00"
+            }
+        ]
+    },
+    "toys": {
+        "count": 1,
+        "detail": [
+            {
+                "clothes": "children",
+                "contact:email": "shop@detmir.ru",
+                "contact:facebook": "https://www.facebook.com/detmir/",
+                "contact:phone": "+7 800 2500000",
+                "contact:vk": "https://vk.com/detmir",
+                "contact:website": "https://www.detmir.ru/",
+                "name": "Детский мир",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "ДЕТСКИЙ мир",
+                "shop": "toys"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "operator": "КОРСТОН"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Цветочная фея",
+                "shop": "florist"
+            }
+        ]
+    },
+    "public_building": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "public_building",
+                "building": "yes",
+                "addr:street": "улица Ворошилова",
+                "building:levels": "1",
+                "addr:housenumber": "38"
+            },
+            {
+                "name": "Мосэнергосбыт",
+                "amenity": "public_building",
+                "building": "yes",
+                "addr:street": "улица Ворошилова",
+                "addr:housenumber": "40"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Серпухов",
+                "addr:housenumber": "10",
+                "addr:postcode": "142200",
+                "addr:street": "улица Революции",
+                "alt_name": "Отель \"Марк\"",
+                "building": "commercial",
+                "email": "info@hotel-mark.ru",
+                "fax": "+7 4967 352383",
+                "int_name": "Hotel Mark",
+                "name": "Марк",
+                "phone": "+7 4967 352792",
+                "tourism": "hotel",
+                "website": "http://www.hotel-mark.ru/"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Серпухов",
+                "addr:housenumber": "1",
+                "addr:postcode": "142200",
+                "addr:street": "Борисовское шоссе",
+                "building": "retail",
+                "int_name": "Korston Serpukhov",
+                "name": "Корстон-Серпухов",
+                "shop": "mall",
+                "website": "http://www.korston.ru/serpukhov/"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дворец молодежи",
+                "amenity": "community_centre",
+                "building": "yes"
+            }
+        ]
+    }
+}

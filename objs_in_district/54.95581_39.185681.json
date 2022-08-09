@@ -1,0 +1,20 @@
+{
+    "residents": 891,
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "building:levels": "2"
+            }
+        ]
+    }
+}

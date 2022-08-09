@@ -1,0 +1,384 @@
+{
+    "residents": 3051,
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Купавинская фабрика",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            },
+            {
+                "name": "Книжный магазин",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            },
+            {
+                "name": "Купавинская фабрика",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            },
+            {
+                "name": "Книжный магазин",
+                "highway": "bus_stop",
+                "shelter": "no"
+            },
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "driving_school": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "driving_school"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Магнит у дома",
+                "shop": "supermarket",
+                "building": "yes",
+                "wheelchair": "yes",
+                "addr:street": "Большая Московская улица",
+                "building:levels": "1",
+                "addr:housenumber": "61"
+            },
+            {
+                "building": "yes",
+                "name": "Пятёрочка",
+                "shop": "supermarket",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "parking": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Вега",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Аптечный пункт",
+                "amenity": "pharmacy",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Будь здоров!",
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hardware"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Природная косметика Востока",
+                "shop": "cosmetics"
+            },
+            {
+                "name": "Faberlic",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            },
+            {
+                "amenity": "bicycle_parking"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "operator": "Пятёрочка"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "florist",
+                "building": "kiosk"
+            },
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:email": "sberbank@sberbank.ru",
+                "contact:facebook": "https://www.facebook.com/bankdruzey",
+                "contact:instagram": "https://instagram.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "currency:RUB": "yes",
+                "opening_hours": "24/7",
+                "operator": "Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "МТС",
+                "brand:wikidata": "Q1368919",
+                "brand:wikipedia": "ru:МТС (компания)",
+                "contact:facebook": "https://www.facebook.com/mts",
+                "contact:ok": "https://ok.ru/mts",
+                "contact:phone": "+7 800 2500890",
+                "contact:twitter": "https://twitter.com/ru_mts",
+                "contact:vk": "https://vk.com/mts",
+                "contact:website": "https://shop.mts.ru",
+                "name": "МТС",
+                "name:en": "MTS",
+                "name:ru": "МТС",
+                "office": "telecommunication",
+                "shop": "mobile_phone"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Груминг",
+                "shop": "pet"
+            }
+        ]
+    },
+    "fitness_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Body Sculptor",
+                "leisure": "fitness_centre",
+                "website": "http://bodysculptor.club"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "clothes"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "shoes"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ногинский мясокомбинат",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "fountain": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fountain"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "copyshop": {
+        "count": 2,
+        "detail": [
+            {
+                "contact:phone": "+7 909 9484804",
+                "name": "Шмель-Арт",
+                "shop": "copyshop"
+            },
+            {
+                "name": "Типография",
+                "shop": "copyshop",
+                "building": "yes"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "РемБо",
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "payment_terminal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "payment_terminal",
+                "name": "Qiwi"
+            }
+        ]
+    },
+    "outpost": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "PickPoint",
+                "shop": "outpost"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "atm": "yes",
+                "name": "Сбербанк",
+                "amenity": "bank",
+                "building": "yes",
+                "wheelchair": "yes",
+                "building:levels": "2"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "place_of_worship",
+                "building": "church",
+                "building:levels": "2",
+                "denomination": "russian_orthodox",
+                "name": "Церковь Троицы Живоначальной",
+                "ref:temples.ru": "2235",
+                "religion": "christian",
+                "start_date": "1751"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дом культуры \"Купавна\"",
+                "amenity": "arts_centre",
+                "building": "yes"
+            }
+        ]
+    },
+    "mall": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Торговый мир",
+                "shop": "mall",
+                "building": "yes",
+                "addr:city": "Старая Купавна",
+                "addr:street": "Большая Московская улица",
+                "addr:country": "RU"
+            },
+            {
+                "name": "Торговый центр \"Московский\"",
+                "shop": "mall",
+                "building": "yes"
+            }
+        ]
+    }
+}

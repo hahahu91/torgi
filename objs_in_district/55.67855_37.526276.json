@@ -1,0 +1,829 @@
+{
+    "bus_stop": {
+        "count": 9,
+        "detail": [
+            {
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Улица Марии Ульяновой",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Улица Марии Ульяновой, д. 10",
+                "network": "«Московский транспорт»",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "departures_board": "yes",
+                "highway": "bus_stop",
+                "lit": "yes",
+                "name": "Ленинский проспект",
+                "network": "«Московский транспорт»",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bin": "yes",
+                "lit": "yes",
+                "name": "Улица Марии Ульяновой",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "departures_board": "yes",
+                "highway": "bus_stop",
+                "name": "Улица Марии Ульяновой, д. 10",
+                "network": "«Московский транспорт»",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "Улица Марии Ульяновой",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Ленинский проспект",
+                "network": "«Московский транспорт»",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Улица Марии Ульяновой, д. 10",
+                "network": "«Московский транспорт»",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Улица Марии Ульяновой, д. 10",
+                "network": "«Московский транспорт»",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Столичные Аптеки",
+                "amenity": "pharmacy",
+                "website": "http://www.citypharm.ru",
+                "operator": "ГУП \"Столичные аптеки\""
+            },
+            {
+                "name": "Маяк",
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "residents": 5970,
+    "school": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Школа № 7, филиал № 1",
+                "amenity": "school"
+            },
+            {
+                "name": "Школа №119",
+                "amenity": "school"
+            },
+            {
+                "building": "school",
+                "addr:street": "улица Кравченко",
+                "building:levels": "3",
+                "addr:housenumber": "6"
+            },
+            {
+                "building": "school",
+                "addr:street": "улица Марии Ульяновой",
+                "building:levels": "5",
+                "addr:housenumber": "5А"
+            },
+            {
+                "building": "school",
+                "addr:street": "Ленинский проспект",
+                "building:levels": "2",
+                "addr:housenumber": "86Б"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магнолия",
+                "shop": "supermarket",
+                "website": "http://mgnl.ru/",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "farm": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ВкусМилк",
+                "shop": "farm",
+                "brand": "Избёнка",
+                "opening_hours": "09:00-21:00"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "D.АЛИ",
+                "shop": "beauty",
+                "was:amenity": "bank"
+            },
+            {
+                "name": "Tatlers",
+                "shop": "beauty"
+            },
+            {
+                "addr:housenumber": "91",
+                "addr:street": "Ленинский проспект (дублёр)",
+                "name": "МОНЕ",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "phone": "+7 499 7025965",
+                "shop": "beauty",
+                "website": "http://www.salonmone.ru"
+            },
+            {
+                "name": "Аксель",
+                "shop": "beauty",
+                "internet_access": "wlan"
+            },
+            {
+                "name": "Студия \"А\"",
+                "shop": "beauty",
+                "level": "1",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 6,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            },
+            {
+                "name": "Магнит",
+                "shop": "convenience",
+                "opening_hours": "Mo-Su 10:00-22:00"
+            },
+            {
+                "name": "ВкусВилл",
+                "shop": "convenience",
+                "opening_hours": "Mo-Su 09:00-22:00"
+            },
+            {
+                "brand": "АВ Daily",
+                "contact:email": "welcome@azbukavkusa.ru",
+                "contact:facebook": "https://www.facebook.com/AzbukaVkusa",
+                "contact:instagram": "https://instagram.com/azbukavkusa",
+                "contact:phone": "+7 495 5043478;+7 800 7003487",
+                "contact:twitter": "https://twitter.com/azbukavkusa",
+                "contact:vk": "https://vk.com/azbukavkusa",
+                "contact:website": "https://av.ru/shops/leninskom-prospekt-d-91",
+                "contact:youtube": "https://www.youtube.com/user/azbukav",
+                "name": "АВ Daily",
+                "name:ru": "АВ Daily",
+                "opening_hours": "24/7",
+                "operator": "ООО «Городской супермаркет»",
+                "operator:wikidata": "Q4058209",
+                "operator:wikipedia": "ru:Азбука вкуса",
+                "ref:av": "208185",
+                "shop": "convenience"
+            },
+            {
+                "opening_hours": "08:00-00:00",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "bicycle_rental": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_rental",
+                "capacity": "12",
+                "capacity:electric": "0",
+                "contact:email": "info@velobike.ru",
+                "contact:phone": "+7 495 9664669",
+                "contact:website": "https://velobike.ru/",
+                "fee": "yes",
+                "network": "Велобайк",
+                "opening_hours": "24/7",
+                "operator": "АО «СитиБайк»",
+                "payment:cash": "no",
+                "payment:mastercard": "yes",
+                "payment:troika": "no",
+                "payment:visa": "yes",
+                "ref": "314",
+                "seasonal": "yes"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "ХрюкоМу",
+                "shop": "butcher"
+            },
+            {
+                "name": "Мясницкий ряд",
+                "shop": "butcher"
+            },
+            {
+                "name": "Дом мяса",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "greengrocer"
+            },
+            {
+                "shop": "greengrocer",
+                "description": "Овощи"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Алекса",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Мари М",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Цирюльникъ",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "gift": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "gift"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "tiles": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ПЛИТКАru.ru",
+                "shop": "tiles",
+                "contact:phone": "+7 499 1381652",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa 11:00-17:00",
+                "contact:website": "http://www.plitkaru.ru"
+            }
+        ]
+    },
+    "police": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Участковый пункт полиции № 6",
+                "amenity": "police"
+            },
+            {
+                "addr:housenumber": "91",
+                "addr:street": "Ленинский проспект",
+                "amenity": "police",
+                "name": "Участковый пункт Полиции №5 (ОВД Ломоносовского р-на)",
+                "phone": "+7 499 1325765",
+                "website": "https://uzao.petrovka38.ru/"
+            }
+        ]
+    },
+    "bench": {
+        "count": 26,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "no"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "no"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "no"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "no"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "no"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            }
+        ]
+    },
+    "books": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Московский книжник",
+                "shop": "books"
+            },
+            {
+                "name": "Дом книги",
+                "shop": "books",
+                "operator": "ГУП ОЦ \"Московский Дом книги\""
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Библиотека №179",
+                "amenity": "library"
+            }
+        ]
+    },
+    "kitchen": {
+        "count": 1,
+        "detail": [
+            {
+                "email": "leninskiy@kuhni-premier.ru",
+                "name": "Премьер Кухни",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "phone": "+7 499 4017930",
+                "shop": "kitchen",
+                "website": "http://kuhni-premier.ru/kontakty/#salon_na_leninskom_prospekte"
+            }
+        ]
+    },
+    "fitness_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ФОЦ",
+                "leisure": "fitness_centre"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Cheap Mobile",
+                "shop": "mobile_phone"
+            }
+        ]
+    },
+    "curtain": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Свет и Тень",
+                "shop": "curtain"
+            }
+        ]
+    },
+    "doors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Profildoors",
+                "shop": "doors"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Милабель",
+                "shop": "clothes",
+                "clothes": "underwear"
+            }
+        ]
+    },
+    "bureau_de_change": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bureau_de_change",
+                "contact:website": "http://faraone24.ru/",
+                "name": "Фараон24",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "optician": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "optician"
+            }
+        ]
+    },
+    "massage": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Живая вода",
+                "shop": "massage"
+            }
+        ]
+    },
+    "copyshop": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ситибланк",
+                "shop": "copyshop"
+            }
+        ]
+    },
+    "outpost": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Wildberries",
+                "brand:wikidata": "Q24933714",
+                "brand:wikipedia": "ru:Wildberries",
+                "contact:email": "sales@wildberries.ru",
+                "contact:facebook": "https://www.facebook.com/wbbot",
+                "contact:instagram": "https://www.instagram.com/wildberriesru",
+                "contact:ok": "https://ok.ru/wildberries",
+                "contact:skype": "Wildberries_ru",
+                "contact:telegram": "wbshop_bot",
+                "contact:twitter": "https://twitter.com/wildberries_ru",
+                "contact:viber": "wildberries",
+                "contact:vk": "https://vk.com/wbbot",
+                "contact:website": "https://www.wildberries.ru",
+                "contact:whatsapp": "+7 926 5373137",
+                "contact:youtube": "https://www.youtube.com/user/Wildberriesshop",
+                "name": "Wildberries",
+                "name:en": "Wildberries",
+                "shop": "outpost"
+            }
+        ]
+    },
+    "language_school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Translate",
+                "amenity": "language_school",
+                "education": "courses",
+                "education_form:parttime": "yes",
+                "education_profile:languages": "yes"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "У Палыча",
+                "shop": "bakery",
+                "wheelchair": "no",
+                "opening_hours": "09:00-21:00"
+            },
+            {
+                "name": "Каравай",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "power_tools": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "mega-lenin@220-volt.ru",
+                "contact:facebook": "https://www.facebook.com/likevolt",
+                "contact:instagram": "https://www.instagram.com/220volt.ru/",
+                "contact:ok": "https://ok.ru/likevolt",
+                "contact:phone": "+7 499 3509033;+7 800 3339220",
+                "contact:twitter": "https://twitter.com/likevolt",
+                "contact:vk": "https://vk.com/likevolt",
+                "contact:website": "https://www.220-volt.ru/",
+                "contact:youtube": "https://www.youtube.com/channel/UCnLPlH6bk0KDSSUVB8iseOg",
+                "name": "220 Вольт",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "operator": "Торговый дом Северо-западный",
+                "shop": "power_tools"
+            }
+        ]
+    },
+    "bookmaker": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Фонбет",
+                "shop": "bookmaker"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:website": "https://pharaohspa.ru/",
+                "leisure": "sauna",
+                "name": "Аквазона Фараон"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Райская трапеза"
+            }
+        ]
+    },
+    "telephone": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "telephone"
+            }
+        ]
+    },
+    "ice_cream": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "ice_cream",
+                "building": "kiosk",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "childcare": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "childcare",
+                "contact:email": "msk.universitet@baby-club.ru",
+                "contact:facebook": "https://www.facebook.com/babyclub.msk.universitet",
+                "contact:instagram": "https://www.instagram.com/babyclub.universitet/",
+                "contact:phone": "+7 800 1002024;+7 926 3425050",
+                "contact:vk": "https://vk.com/babyclubru",
+                "contact:website": "https://baby-club.ru/",
+                "name": "Бэби-клуб",
+                "opening_hours": "Mo-Fr 10:00-20:00;Sa 10:00-17:00",
+                "operator": "Бэби-клуб"
+            }
+        ]
+    },
+    "bicycle": {
+        "count": 1,
+        "detail": [
+            {
+                "description": "13 подъезд",
+                "name": "Chain Master",
+                "shop": "bicycle"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская поликлиника №10",
+                "amenity": "clinic",
+                "alt_name": "Детская городская поликлиника №10",
+                "building": "yes",
+                "healthcare": "clinic",
+                "addr:street": "улица Марии Ульяновой",
+                "building:levels": "3",
+                "addr:housenumber": "13",
+                "health_facility:type": "clinic"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "88",
+                "addr:street": "Ленинский проспект",
+                "building": "commercial",
+                "building:levels": "3",
+                "level": "3"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:city": "Москва",
+                "addr:street": "Ленинский проспект",
+                "building:levels": "2",
+                "addr:housenumber": "88А"
+            },
+            {
+                "building": "kindergarten",
+                "addr:street": "Ленинский проспект",
+                "building:levels": "2",
+                "addr:housenumber": "86А"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "level": "1",
+                "access": "public",
+                "amenity": "toilets",
+                "building": "yes",
+                "addr:street": "Ленинский проспект",
+                "building:levels": "1",
+                "addr:housenumber": "88 с2"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Надежда",
+                "leisure": "sports_centre",
+                "building": "yes",
+                "addr:street": "улица Крупской",
+                "addr:housenumber": "1 к1"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пресса",
+                "shop": "newsagent",
+                "building": "kiosk"
+            }
+        ]
+    }
+}

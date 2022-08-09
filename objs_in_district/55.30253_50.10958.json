@@ -1,0 +1,153 @@
+{
+    "residents": 906,
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Теремок",
+                "shop": "convenience"
+            },
+            {
+                "name": "Спектр",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "doityourself"
+            },
+            {
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Бережная аптека",
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Казанские аптеки",
+                "amenity": "pharmacy",
+                "opening_hours": "Mo-Su 08:00-20:00"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "contact:phone": "+7 800 2005303",
+                "contact:website": "https://akbars.ru/",
+                "name": "АК Барс",
+                "opening_hours": "Mo-Fr 08:30-16:30"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дом культуры",
+                "amenity": "community_centre"
+            }
+        ]
+    },
+    "courthouse": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Мировой суд",
+                "amenity": "courthouse"
+            },
+            {
+                "name": "Районный суд",
+                "amenity": "courthouse"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "mobile_phone"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "police"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:phone": "+7 800 2005303",
+                "contact:website": "https://akbars.ru/",
+                "name": "Ак Барс Банк",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "department_store": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Асылбика",
+                "shop": "department_store",
+                "building": "retail",
+                "building:levels": "2"
+            },
+            {
+                "name": "Дулкын",
+                "shop": "department_store",
+                "building": "retail",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "addr:street": "улица Гоголя",
+                "addr:housenumber": "24"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:city": "Алексеевское",
+                "addr:street": "улица Павелкина",
+                "addr:housenumber": "30"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Церковь Воскресения Христова",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "religion": "christian",
+                "denomination": "orthodox"
+            }
+        ]
+    }
+}

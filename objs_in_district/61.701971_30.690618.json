@@ -1,0 +1,806 @@
+{
+    "residents": 3784,
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 4,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Морошка",
+                "shop": "convenience",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Светлана",
+                "name:ru": "Светлана",
+                "owner": "ООО Светлана",
+                "shop": "convenience"
+            },
+            {
+                "name": "Нево-маркет",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "library",
+                "name": "Центральная детская библиотека",
+                "opening_hours:signed": "no"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 2,
+        "detail": [
+            {
+                "ref": "186790",
+                "name": "Сортавала 186790",
+                "phone": "+7 81430 47962",
+                "amenity": "post_office",
+                "website": "https://www.pochta.ru/",
+                "operator": "Почта России",
+                "addr:city": "Сортавала",
+                "addr:street": "Карельская улица",
+                "addr:country": "RU",
+                "addr:postcode": "186790",
+                "addr:housenumber": "19"
+            },
+            {
+                "amenity": "post_office",
+                "building": "yes",
+                "addr:city": "Сортавала",
+                "addr:street": "Карельская улица",
+                "addr:postcode": "186790",
+                "building:levels": "3",
+                "addr:housenumber": "19",
+                "building:cladding": "brick"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 10,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "diet:vegetarian": "no",
+                "name": "Ламберг",
+                "opening_hours": "Su-Th 08:00-21:00; Fr,Sa 08:00-23:00",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Топаз",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Каспий",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Блинная",
+                "amenity": "cafe"
+            },
+            {
+                "name": "(ремонт)",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Крона",
+                "amenity": "cafe",
+                "name:en": "Krona",
+                "addr:street": "улица Кирова",
+                "addr:postcode": "186790",
+                "opening_hours": "Mo-Su 09:00-01:00",
+                "addr:housenumber": "6"
+            },
+            {
+                "name": "Калитка",
+                "email": "asyda@mail.ru",
+                "amenity": "cafe",
+                "name:en": "kalitka",
+                "operator": "ООО АСИДА",
+                "opening_hours": "24/7",
+                "internet_access": "wlan"
+            },
+            {
+                "name": "Уют",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Ranta",
+                "phone": "+7 911 4334300",
+                "amenity": "cafe",
+                "website": "https://vk.com/ranta_cafe",
+                "opening_hours": "10:00-22:00",
+                "internet_access": "wlan",
+                "internet_access:fee": "no"
+            },
+            {
+                "name": "Столовая",
+                "amenity": "cafe",
+                "cuisine": "russian;local",
+                "name:en": "Stolovaya"
+            }
+        ]
+    },
+    "taxi": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "taxi"
+            }
+        ]
+    },
+    "marina": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "marina",
+                "name": "Причал",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:country": "RU",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "website": "https://russianpost.ru/"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Сортавала",
+                "addr:housenumber": "8",
+                "addr:postcode": "186790",
+                "addr:street": "улица Кирова",
+                "name": "Магнит у дома",
+                "payment:cards": "yes",
+                "payment:cash": "yes",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Магнит",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "restaurant",
+                "internet_access": "wlan",
+                "name": "Кафе Релакс",
+                "name:en": "Сafe Relax",
+                "name:fi": "Сafe Relax",
+                "opening_hours": "Mo-Th 10:00-21:00; Fr-Sa 10:00-23:00; Su 10:00-21:00"
+            }
+        ]
+    },
+    "gift": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Дары Карелии",
+                "shop": "gift"
+            },
+            {
+                "shop": "gift"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Утёнок",
+                "shop": "clothes"
+            },
+            {
+                "shop": "clothes"
+            },
+            {
+                "name": "Клеопатра",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "optician": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "optician"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мебель",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "bank": {
+        "count": 3,
+        "detail": [
+            {
+                "atm": "no",
+                "name": "Росгосстрахбанк",
+                "amenity": "bank"
+            },
+            {
+                "amenity": "bank",
+                "branch": "Северо-Западный банк",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://instagram.com/sberbank",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 09:00-17:30; Sa 09:00-13:30",
+                "operator": "ПАО Сбербанк",
+                "ref": "8628/01215",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Расчётно-кассовый центр Банка России",
+                "amenity": "bank",
+                "building": "yes",
+                "addr:street": "улица Вяйнемяйнена",
+                "building:levels": "2",
+                "addr:housenumber": "4",
+                "building:cladding": "brick"
+            }
+        ]
+    },
+    "college": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сортавальский колледж. Корпус №3",
+                "amenity": "college"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Здоровые люди",
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Сердце Карелии",
+                "amenity": "pharmacy",
+                "website": "http://serdcekarelii.ru/",
+                "addr:city": "Сортавала",
+                "addr:street": "Карельская улица",
+                "addr:postcode": "186790",
+                "drive_through": "no",
+                "addr:housenumber": "11"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Невис",
+                "name:en": "Nevis",
+                "name:ru": "Невис"
+            },
+            {
+                "amenity": "pharmacy",
+                "building": "yes",
+                "addr:city": "Сортавала",
+                "addr:street": "Карельская улица",
+                "addr:postcode": "186790",
+                "building:levels": "1",
+                "addr:housenumber": "24"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "shoes"
+            },
+            {
+                "name": "Корона",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "bar": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Старый город",
+                "amenity": "bar"
+            },
+            {
+                "name": "Дионис кафе- бар",
+                "amenity": "bar",
+                "building": "yes",
+                "addr:city": "Сортавала",
+                "addr:street": "Комсомольская улица",
+                "addr:postcode": "186790",
+                "building:levels": "1",
+                "addr:housenumber": "2"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Алкомаркет",
+                "shop": "alcohol"
+            },
+            {
+                "name": "Петровский",
+                "opening_hours": "10:00-22:00",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "tableware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Посудная лавка",
+                "shop": "tableware"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Связной",
+                "shop": "mobile_phone"
+            },
+            {
+                "name": "Евросеть",
+                "shop": "mobile_phone"
+            },
+            {
+                "name": "Хорошая связь",
+                "shop": "mobile_phone",
+                "addr:city": "Сортавала",
+                "addr:street": "Карельская улица",
+                "addr:postcode": "186790",
+                "opening_hours": "10:00-20:00",
+                "addr:housenumber": "11"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "florist"
+            },
+            {
+                "addr:city": "Сортавала",
+                "addr:housenumber": "2",
+                "addr:street": "улица Кирова",
+                "shop": "florist"
+            }
+        ]
+    },
+    "jewelry": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Алмаз-Холдинг",
+                "shop": "jewelry"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Великолукский мясокомбинат",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Сортавала",
+                "addr:housenumber": "11",
+                "addr:postcode": "186790",
+                "addr:street": "Карельская улица",
+                "name": "Улыбка Радуги",
+                "opening_hours": "10:00-20:00",
+                "payment:cards": "yes",
+                "payment:cash": "yes",
+                "shop": "chemist"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский сад №5 «Малышок»",
+                "amenity": "kindergarten"
+            }
+        ]
+    },
+    "school": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Спортивная школа №3",
+                "amenity": "school"
+            },
+            {
+                "name": "Центр развития творчества детей и юношества",
+                "amenity": "school",
+                "building": "yes",
+                "addr:street": "улица Горького",
+                "building:levels": "2",
+                "addr:housenumber": "3",
+                "building:cladding": "brick"
+            },
+            {
+                "name": "Детский дом",
+                "amenity": "school",
+                "building": "yes",
+                "addr:street": "улица Гагарина",
+                "building:levels": "3",
+                "social_facility": "group_home",
+                "addr:housenumber": "10",
+                "building:cladding": "brick",
+                "social_facility:for": "orphan"
+            }
+        ]
+    },
+    "bus_station": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bus_station",
+                "name": "Сортавала",
+                "public_transport": "station"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "police"
+            }
+        ]
+    },
+    "ferry_terminal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "ferry_terminal",
+                "name": "Пристань",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "capacity": "12",
+                "bicycle_parking": "stands"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "wall_loops",
+                "covered": "no"
+            }
+        ]
+    },
+    "atm": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Сбербанк",
+                "amenity": "atm"
+            },
+            {
+                "amenity": "atm"
+            },
+            {
+                "amenity": "atm"
+            },
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "24/7",
+                "operator": "Промсвязьбанк"
+            },
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "24/7",
+                "operator": "Промсвязьбанк"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Хлебные лавка",
+                "shop": "bakery",
+                "name:ru": "Хлебные лавка"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Электро клуб",
+                "shop": "electronics",
+                "name:ru": "Электро клуб"
+            },
+            {
+                "addr:city": "Сортавала",
+                "addr:housenumber": "11",
+                "addr:postcode": "186790",
+                "addr:street": "Карельская улица",
+                "name": "Бывшее здание Банка Финляндии (1915);Юлмарт",
+                "opening_hours": "10:00-20:00",
+                "payment:cards": "yes",
+                "payment:cash": "yes",
+                "shop": "electronics",
+                "tourism": "attraction",
+                "website": "https://www.ulmart.ru/"
+            }
+        ]
+    },
+    "cinema": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cinema"
+            }
+        ]
+    },
+    "sports": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Спортивный мир",
+                "shop": "sports"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Первый компьютерный магазин",
+                "shop": "computer",
+                "phone": "+7 81430 47464",
+                "second_hand": "yes",
+                "opening_hours": "Mo-Fr 09:00-18:00; Sa 11:00-16:00"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "public_transport": "platform",
+                "shelter": "no"
+            }
+        ]
+    },
+    "fitness_station": {
+        "count": 3,
+        "detail": [
+            {
+                "leisure": "fitness_station",
+                "internet_access": "wlan"
+            },
+            {
+                "leisure": "fitness_station",
+                "internet_access": "wlan"
+            },
+            {
+                "leisure": "fitness_station"
+            }
+        ]
+    },
+    "seafood": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Акуловка",
+                "name:en": "Akulovka",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "phone": "+7 921 2224063",
+                "shop": "seafood",
+                "website": "https://www.akulovka.com/"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "fee": "yes",
+                "amenity": "toilets"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "yes",
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Центр досуга",
+                "amenity": "arts_centre",
+                "building": "yes",
+                "addr:street": "Комсомольская улица",
+                "addr:housenumber": "5"
+            },
+            {
+                "name": "Молодежный центр Сердоболь",
+                "amenity": "arts_centre",
+                "building": "yes",
+                "addr:city": "Сортавала",
+                "addr:street": "2-я Пристанская улица",
+                "addr:postcode": "186790",
+                "building:levels": "2",
+                "addr:housenumber": "4"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 3,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:city": "Сортавала",
+                "addr:street": "улица Кирова",
+                "addr:postcode": "186790",
+                "addr:housenumber": "1"
+            },
+            {
+                "building": "commercial",
+                "addr:street": "улица Ленина",
+                "addr:housenumber": "1А"
+            },
+            {
+                "building": "commercial",
+                "name": "Дом Берга",
+                "source": "survey"
+            }
+        ]
+    },
+    "townhall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Администрация Сортавальского района",
+                "amenity": "townhall",
+                "building": "yes",
+                "addr:street": "площадь Кирова",
+                "building:levels": "4",
+                "addr:housenumber": "11",
+                "building:cladding": "brick"
+            }
+        ]
+    },
+    "baby_goods": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский дворик.",
+                "shop": "baby_goods",
+                "building": "yes"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Торговый центр №1",
+                "shop": "mall",
+                "building": "yes",
+                "addr:city": "Сортавала",
+                "addr:street": "Карельская улица",
+                "addr:postcode": "186790",
+                "building:levels": "3",
+                "addr:housenumber": "11А",
+                "building:cladding": "brick"
+            }
+        ]
+    },
+    "public_building": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "12",
+                "addr:street": "улица Ленина",
+                "amenity": "public_building",
+                "building": "yes",
+                "building:cladding": "wood",
+                "building:levels": "1",
+                "roof:shape": "hipped"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "6А",
+                "addr:street": "улица Кирова",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "denomination": "russian_orthodox",
+                "name": "Церковь Иоанна Богослова",
+                "ref:temples.ru": "12451",
+                "religion": "christian"
+            }
+        ]
+    }
+}

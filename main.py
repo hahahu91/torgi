@@ -306,13 +306,14 @@ def visualize_data(path_file):
         plt.show()
 
 def main():
-    #subjRF = (12:'Mariy El', 50:'MoscowOblast', 77:'Moscow', 21:'Chuvashiya', 58:'Penza', 91:'Krum') subj_rf="12,21,16,58,91,77,50"
+    #subjRF = (12:'Mariy El', 50:'MoscowOblast',92:'Sevastopol', 77:'Moscow', 21:'Chuvashiya', 58:'Penza', 91:'Krum') subj_rf="12,21,16,58,91,77,50"
+
     # biddType="229FZ":"Должников","1041PP":"обращенного в собственноcть государства","178FZ":"государсвенного и муниципального имущества"
     #lotStatus=SUCCEED сбор завершенных данных; status = "APPLICATIONS_SUBMISSION прием заявок
 
     #status = "APPLICATIONS_SUBMISSION"
     status = "SUCCEED"
-    folder = "torgi/result" if status != "SUCCEED" else "torgi/archive" #12,21,16,58,91,77,50
+    folder = "torgi/result" if status != "SUCCEED" else "torgi/archive" #12,21,16,58,91,77,50, 92
 
     amount_files = get_data_json(bidd_type="229FZ,1041PP,178FZ", subj_rf="",  lot_status=status, folder=folder)
    # # print(amount_files)

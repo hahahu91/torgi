@@ -1,0 +1,153 @@
+{
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Художественная школа",
+                "highway": "bus_stop",
+                "trolleybus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Художественная школа",
+                "highway": "bus_stop",
+                "trolleybus": "yes",
+                "wheelchair": "limited",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Дом Пионеров",
+                "highway": "bus_stop",
+                "trolleybus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Дом Пионеров",
+                "highway": "bus_stop",
+                "trolleybus": "yes",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "ТД Раздолье",
+                "shop": "supermarket",
+                "wheelchair": "no"
+            },
+            {
+                "name": "ТЦ Спаркс-А",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Мария-Ра",
+                "shop": "supermarket",
+                "operator": "ООО \"Розница-1\"",
+                "wheelchair": "no",
+                "contact:phone": "+7 3852 542271",
+                "opening_hours": "08:00-22:00",
+                "contact:website": "http://www.maria-ra.ru"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мария-Ра",
+                "shop": "convenience",
+                "operator": "ООО \"Розница-1\"",
+                "contact:phone": "+7 3852 542284",
+                "opening_hours": "24/7",
+                "contact:website": "http://www.maria-ra.ru"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Новэкс",
+                "shop": "chemist",
+                "operator": "ООО \"Новэкс\"",
+                "wheelchair": "no",
+                "contact:phone": "+7 3852 542283",
+                "contact:website": "http://www.novex-trade.ru/stores/store/29/"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "branch": "Сибирский банк",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://instagram.com/sberbank",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 385 2542664",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-17:00",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "postal_code": "656019",
+                "ref": "8644/0152",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "residents": 1683,
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Кадетский корпус",
+                "amenity": "school",
+                "building": "yes",
+                "addr:city": "Барнаул",
+                "addr:region": "Алтайский край",
+                "addr:street": "улица Юрина",
+                "addr:country": "RU",
+                "addr:housenumber": "278"
+            },
+            {
+                "amenity": "school",
+                "building": "yes",
+                "addr:city": "Барнаул",
+                "addr:region": "Алтайский край",
+                "addr:street": "улица Юрина",
+                "addr:country": "RU",
+                "addr:housenumber": "277"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "service"
+            }
+        ]
+    }
+}

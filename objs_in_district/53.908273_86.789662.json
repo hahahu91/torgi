@@ -1,0 +1,72 @@
+{
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "atm": "no",
+                "name": "Сбербанк РФ",
+                "amenity": "bank"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "монетка",
+                "shop": "supermarket"
+            },
+            {
+                "name": "ярче",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "residents": 1755,
+    "commercial": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:street": "улица Кучина",
+                "addr:housenumber": "1А"
+            },
+            {
+                "building": "commercial"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Прокопьевск",
+                "addr:housenumber": "11",
+                "addr:postcode": "653007",
+                "addr:street": "Волжская улица",
+                "building": "school",
+                "building:levels": "3",
+                "contact:phone": "+7 3846 618053",
+                "email": "scool_71@mail.ru",
+                "name": "МБОУ «Средняя общеобразовательная школа №71 имени В.А. Мелера»",
+                "website": "http://prkschool71.ucoz.net/"
+            }
+        ]
+    }
+}

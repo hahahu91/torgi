@@ -1,0 +1,725 @@
+{
+    "residents": 5513,
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "branch": "Северо-Западный банк",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "en:Sberbank of Russia",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://instagram.com/sberbank",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru/",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 08:30-18:30; Sa 08:30-16:30",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "8629/01810",
+                "wheelchair": "yes"
+            },
+            {
+                "name": "VIVA Деньги",
+                "amenity": "bank",
+                "website": "https://www.vivadengi.ru/",
+                "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Принцесса",
+                "amenity": "cafe",
+                "opening_hours": "Mo-Su 11:00-22:00"
+            },
+            {
+                "name": "Ильмень",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Тартуга",
+                "amenity": "cafe",
+                "opening_hours": "Mo-Th 12:00-23:00; Fr 12:00-24:00; Sa 00:00-02:00,12:00-24:00; Su 00:00-02:00,12:00-23:00"
+            },
+            {
+                "name": "Блинная",
+                "amenity": "cafe"
+            },
+            {
+                "name": "На Профсоюзной",
+                "amenity": "cafe",
+                "opening_hours": "08:00-19:00"
+            },
+            {
+                "name": "Кафе-столовая",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Граф Муравьев",
+                "amenity": "restaurant"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bench": "no",
+                "bin": "no",
+                "highway": "bus_stop",
+                "shelter": "no"
+            },
+            {
+                "highway": "bus_stop",
+                "shelter": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "shelter": "yes"
+            },
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 11,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Бутик",
+                "shop": "convenience"
+            },
+            {
+                "name": "Эконом",
+                "shop": "convenience",
+                "opening_hours": "10:00-21:00"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Галактика",
+                "shop": "convenience",
+                "opening_hours": "08:00-22:00"
+            },
+            {
+                "name": "Полюс+",
+                "shop": "convenience",
+                "opening_hours": "08:00-21:00"
+            },
+            {
+                "name": "Продуктовый ларёк",
+                "shop": "convenience",
+                "name:en": "Food mini market"
+            },
+            {
+                "name": "Восход",
+                "shop": "convenience"
+            },
+            {
+                "addr:housenumber": "30",
+                "addr:postcode": "175204",
+                "addr:street": "Гостинодворская улица",
+                "building": "yes",
+                "building:levels": "2",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "1000 мелочей",
+                "shop": "hardware"
+            },
+            {
+                "name": "Декор",
+                "shop": "hardware",
+                "opening_hours": "08:00-20:00"
+            },
+            {
+                "building": "yes",
+                "name": "Гидроснаб",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Панацея-2",
+                "opening_hours": "08:00-20:00"
+            },
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Калина Фарм",
+                "opening_hours": "08:00-21:00",
+                "phone": "+7 81652 57788",
+                "website": "http://www.kalinafarm.ru/"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Невис",
+                "opening_hours": "09:00-21:00"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "ЛенОблФарм",
+                "opening_hours": "09:00-21:00"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Экономная",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-20:00"
+            }
+        ]
+    },
+    "variety_store": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Нужная вещь",
+                "shop": "variety_store",
+                "opening_hours": "09:00-19:00"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "175204",
+                "name": "Старая Русса 175204",
+                "amenity": "post_office",
+                "website": "https://russianpost.ru/",
+                "operator": "Почта России",
+                "official_name": "Отделение почтовой связи \"Старая Русса 175204\"",
+                "opening_hours": "Mo-Fr 08:00-14:00,15:00-20:00; Sa 09:00-14:00,15:00-18:00"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мицар",
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Улыбка радуги",
+                "shop": "cosmetics",
+                "opening_hours": "09:00-20:00"
+            },
+            {
+                "brand": "Магнит Косметик",
+                "brand:en": "Magnit Cosmetics",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит Косметик",
+                "name:en": "Magnit Cosmetics",
+                "opening_hours": "09:00-20:30",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "stationery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Акварель",
+                "shop": "stationery"
+            }
+        ]
+    },
+    "telephone": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "telephone"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "doctors",
+                "healthcare": "doctor"
+            },
+            {
+                "amenity": "doctors",
+                "healthcare": "doctor",
+                "name": "Инфекционное отделение"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 9,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "opening_hours": "08:30-22:00",
+                "shop": "supermarket"
+            },
+            {
+                "addr:housenumber": "33",
+                "addr:street": "улица Некрасова",
+                "building": "yes",
+                "name": "Дикси",
+                "shop": "supermarket",
+                "website": "https://dixy.ru/"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 4,
+        "detail": [
+            {
+                "building": "kiosk",
+                "shop": "bakery"
+            },
+            {
+                "name": "Мельница",
+                "shop": "bakery"
+            },
+            {
+                "building": "kiosk",
+                "shop": "bakery"
+            },
+            {
+                "name": "Лакомка",
+                "shop": "bakery",
+                "building": "yes"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "toys": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Детский мир",
+                "shop": "toys",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00"
+            },
+            {
+                "name": "Чудо-детки",
+                "shop": "toys",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa,Su 10:00-19:00"
+            }
+        ]
+    },
+    "funeral_directors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "МУП \"Уют\"",
+                "shop": "funeral_directors",
+                "opening_hours": "Mo-Fr 08:00-18:00; Sa,Su 09:00-18:00"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "МяскомЪ",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Кристина",
+                "shop": "hairdresser",
+                "opening_hours": "Mo-Fr 09:00-18:00; Sa,Su 09:00-15:00"
+            },
+            {
+                "name": "Марина",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Le Rua",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "bench": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            }
+        ]
+    },
+    "outdoor": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Рыболов",
+                "shop": "outdoor"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пиццерия",
+                "amenity": "fast_food",
+                "cuisine": "pizza"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "НаДень-Ка",
+                "shop": "clothes",
+                "opening_hours": "Mo-Fr 09:00-13:00,14:00-18:00; Sa,Su 10:00-13:00,14:00-16:00"
+            },
+            {
+                "shop": "clothes",
+                "opening_hours": "Mo-Fr 10:00-18:00; Sa 10:00-16:00"
+            },
+            {
+                "name": "Ценопад",
+                "shop": "clothes"
+            },
+            {
+                "name": "Алиса",
+                "shop": "clothes",
+                "opening_hours": "09:00-19:00"
+            },
+            {
+                "name": "Вояж",
+                "shop": "clothes",
+                "opening_hours": "Mo-Fr 10:00-14:00,15:00-19:00; Sa,Su 09:00-17:00"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kiosk",
+                "name": "Роспечать",
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "houseware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Идеальный дом",
+                "shop": "houseware"
+            }
+        ]
+    },
+    "vehicle_ramp": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "private",
+                "amenity": "vehicle_ramp"
+            }
+        ]
+    },
+    "taxi": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Первая городская служба такси",
+                "phone": "+7 81652 55000",
+                "amenity": "taxi"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "kiosk",
+                "shop": "greengrocer"
+            },
+            {
+                "name": "Мини рынок",
+                "shop": "greengrocer"
+            }
+        ]
+    },
+    "jewelry": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Талисман",
+                "shop": "jewelry",
+                "opening_hours": "10:00-19:00"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Любимый дом",
+                "shop": "furniture",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00; Su 10:00-17:00"
+            }
+        ]
+    },
+    "gift": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Бумеранг",
+                "shop": "gift"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Связной",
+                "brand:en": "Svyaznoy",
+                "brand:wikidata": "Q65371",
+                "brand:wikipedia": "en:Svyaznoy",
+                "name": "Связной",
+                "name:en": "Svyaznoy",
+                "shop": "mobile_phone"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "rack"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мир",
+                "shop": "electronics",
+                "website": "http://expertnov.ru/",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-19:00; Su 10:00-18:00"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "Сбербанк",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "clinic",
+                "building": "yes",
+                "healthcare": "clinic",
+                "name": "Родильный дом"
+            },
+            {
+                "addr:housenumber": "7",
+                "addr:street": "Профсоюзная улица",
+                "amenity": "clinic",
+                "building": "yes",
+                "building:levels": "5",
+                "healthcare": "clinic",
+                "name": "Поликлиника",
+                "phone": "+7 81652 32650"
+            }
+        ]
+    },
+    "mortuary": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Морг",
+                "amenity": "mortuary",
+                "building": "yes"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "Профсоюзная улица",
+                "building:parts": "yes",
+                "building:levels": "2",
+                "addr:housenumber": "8"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "22",
+                "addr:street": "Александровская улица",
+                "amenity": "community_centre",
+                "building": "yes",
+                "contact:vk": "centre_rusich",
+                "name": "Центр культуры \"Русич\"",
+                "phone": "+7 81652 52831",
+                "website": "https://culturusich.ru/"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Кулинария",
+                "shop": "kiosk",
+                "building": "yes"
+            }
+        ]
+    }
+}

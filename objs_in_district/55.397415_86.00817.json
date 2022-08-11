@@ -1,0 +1,99 @@
+{
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Холди, сеть продовольственных дискаунтеров",
+                "shop": "supermarket",
+                "operator": "Почтовое отделение связи №33",
+                "addr:city": "Кемерово",
+                "addr:street": "Аллейная улица",
+                "addr:postcode": "650033",
+                "opening_hours": "08:00-21:00",
+                "addr:housenumber": "5"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сбербанк России",
+                "amenity": "atm"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "bakery"
+            },
+            {
+                "shop": "bakery"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сеть супермаркетов цифровой техники и бытовой электроники",
+                "name:en": "DNS Supermarket chain of digital appliances and consumer electronics",
+                "name:ru": "ДНС Сеть супермаркетов цифровой техники и бытовой электроники",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "computer",
+                "website": "http://kemerovo.dns-shop.ru/"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "Orlov.t@dns-shop.ru",
+                "contact:phone": "+7 800 7707999",
+                "contact:website": "http://dns-shop.ru/",
+                "name": "DNS",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "ДНС Ритейл",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "residents": 138,
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский сад №162",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:street": "Инициативная улица",
+                "addr:housenumber": "18Б"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский дом",
+                "amenity": "school",
+                "building": "yes",
+                "addr:street": "Инициативная улица",
+                "social_facility": "group_home",
+                "addr:housenumber": "14А",
+                "social_facility:for": "orphan"
+            }
+        ]
+    }
+}

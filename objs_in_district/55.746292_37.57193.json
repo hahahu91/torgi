@@ -1,0 +1,581 @@
+{
+    "residents": 6054,
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Киевский вокзал",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "no",
+                "operator": "Мосгортранс",
+                "route_ref": "205;818",
+                "trolleybus": "yes",
+                "public_transport": "platform",
+                "route_ref:trolleybus": "7;39"
+            },
+            {
+                "name": "Киевский вокзал",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "operator": "Мосгортранс",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Киевский вокзал",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Киевский вокзал",
+                "public_transport": "stop_position"
+            },
+            {
+                "bin": "yes",
+                "name": "Киевский вокзал",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name:ru": "Киевский вокзал",
+                "shelter": "yes",
+                "description": "157; 840",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:phone": "+7 800 2005888",
+                "contact:twitter": "https://twitter.com/ruspostofficial",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Москва 121059",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-18:00",
+                "operator": "АО «Почта России»",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России",
+                "ref": "121059"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Немецкая стоматология",
+                "amenity": "dentist",
+                "healthcare": "dentist",
+                "health_facility:type": "clinic",
+                "medical_system:western": "yes",
+                "health_specialty:dentistry": "yes"
+            },
+            {
+                "name": "Демостом",
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Му-Му",
+                "brand": "Му-Му",
+                "amenity": "fast_food",
+                "cuisine": "regional",
+                "name:ru": "Му-Му",
+                "alt_name": "Му-му",
+                "delivery": "yes",
+                "contact:ok": "https://ok.ru/cafemumu/",
+                "contact:vk": "https://vk.com/cafemumu",
+                "contact:email": "fastland@cafemumu.ru",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "brand:wikidata": "Q6907053",
+                "brand:wikipedia": "ru:Му-му (сеть ресторанов)",
+                "contact:twitter": "https://twitter.com/cafemumu",
+                "contact:website": "https://www.cafemumu.ru/",
+                "diet:vegetarian": "yes",
+                "internet_access": "wlan",
+                "contact:facebook": "https://www.facebook.com/cafemumu",
+                "contact:instagram": "https://www.instagram.com/cafemumu/",
+                "internet_access:fee": "no"
+            },
+            {
+                "name": "Jerry Wings",
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bank",
+                "name": "Московский индустриальный банк",
+                "opening_hours": "Mo-Th 09:00-13:00,13:45-17:00; Fr 09:00-13:00,13:45-16:00",
+                "operator": "ОАО \"МИнБ\"",
+                "website": "https://www.minbank.ru/"
+            },
+            {
+                "name": "Юнистрим",
+                "amenity": "bank",
+                "name:en": "Unistream"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Гудман",
+                "amenity": "restaurant",
+                "cuisine": "steak_house",
+                "name:en": "Goodman",
+                "contact:phone": "+7 495 7759888",
+                "opening_hours": "Mo-Su 12:00-24:00",
+                "contact:website": "http://goodman.ru"
+            },
+            {
+                "name": "Чентрале",
+                "amenity": "restaurant",
+                "cuisine": "italian",
+                "name:en": "Centrale",
+                "operator": "Ресторанный синдикат",
+                "contact:phone": "+7 499 6432053",
+                "opening_hours": "Mo-Th 10:00-22:00; Fr-Su 10:00-23:00",
+                "contact:website": "http://centrale-pizza.ru"
+            },
+            {
+                "name": "Ривьера",
+                "amenity": "restaurant",
+                "cuisine": "french",
+                "name:en": "Riviere",
+                "contact:phone": "+7 499 2430077",
+                "contact:website": "http://riviererestoran.ru",
+                "contact:facebook": "restaurantriviere"
+            },
+            {
+                "name": "Mammina",
+                "amenity": "restaurant",
+                "name:ru": "Mammina"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:phone": "+7 903 7592230",
+                "contact:vk": "https://vk.com/varenichnaya_1",
+                "contact:website": "http://www.varenichnaya.ru",
+                "cuisine": "russian",
+                "level": "2",
+                "name": "Вареничная №1",
+                "name:en": "Varenichnaya #1",
+                "opening_hours": "Mo-Th 10:00-22:00; Fr-Sa 10:00-23:00; Su 10:00-22:00",
+                "phone": "+7 909 6773454"
+            },
+            {
+                "air_conditioning": "yes",
+                "amenity": "restaurant",
+                "bar": "yes",
+                "brand": "Гамбринус Сеть ресторанов",
+                "capacity": "80",
+                "cuisine": "german;burger;italian;seafood;steak_house",
+                "internet_access": "wlan",
+                "name": "Гамбринус",
+                "opening_hours": "Mo-Fr 11:00-24:00; Sa-Su 12:00-24:00",
+                "outdoor_seating": "yes",
+                "phone": "+7 499 3808777",
+                "takeaway": "yes",
+                "website": "http://www.gambrinusbar.ru/"
+            }
+        ]
+    },
+    "kitchen": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Giulia Novars",
+                "shop": "kitchen"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "SONO Motion",
+                "shop": "beauty"
+            },
+            {
+                "name": "Галерея №1",
+                "shop": "beauty"
+            },
+            {
+                "shop": "beauty",
+                "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-20:00"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "1",
+                "addr:postcode": "121248",
+                "addr:street": "набережная Тараса Шевченко",
+                "beauty": "nails",
+                "contact:facebook": "https://www.facebook.com/lady.nailbar/",
+                "contact:instagram": "instagram.com/myfairlady_salon",
+                "contact:phone": "+7 929 5170788;+7 929 5170816",
+                "contact:website": "http://myfairlady.ru/",
+                "level": "0",
+                "name": "Моя прекрасная леди",
+                "name:en": "My Fair Lady",
+                "name:ru": "Моя прекрасная леди",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "shop": "beauty"
+            },
+            {
+                "contact:instagram": "https://instagram.com/okaywakeup",
+                "contact:phone": "+7 499 3723724",
+                "internet_access": "wlan",
+                "name": "Okay,wake up!",
+                "name:en": "Okay,wake up!",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "atm": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "Московский индустриальный банк"
+            },
+            {
+                "amenity": "atm",
+                "operator": "Интерпромбанк"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "brand": "Кофе Хауз",
+                "brand:wikidata": "Q4236456",
+                "brand:wikipedia": "ru:Кофе Хауз",
+                "contact:email": "info@coffeehouse.ru",
+                "contact:facebook": "https://www.facebook.com/coffeehouse.ru",
+                "contact:instagram": "https://instagram.com/coffeehouse",
+                "contact:pinterest": "https://pinterest.com/coffeehouseru/",
+                "contact:twitter": "https://twitter.com/ru_coffeehouse",
+                "contact:vk": "https://vk.com/ru_coffeehouse",
+                "contact:website": "http://www.coffeehouse.ru",
+                "contact:youtube": "https://www.youtube.com/user/CoffeeHouseMan",
+                "cuisine": "coffee_shop",
+                "diet:vegetarian": "yes",
+                "internet_access": "wlan",
+                "internet_access:fee": "no",
+                "name": "Кофе Хауз",
+                "name:ru": "Кофе Хауз",
+                "opening_hours": "Mo-Fr 10:00-22:00; Sa,Su 10:00-23:00"
+            },
+            {
+                "name": "PrimestarCoffee",
+                "amenity": "cafe"
+            },
+            {
+                "amenity": "cafe",
+                "cuisine": "european",
+                "delivery": "no",
+                "level": "4",
+                "name": "Marketplace",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "takeaway": "yes"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "bureau_de_change": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bureau_de_change"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Прима",
+                "shop": "clothes"
+            },
+            {
+                "brand": "UNIQLO",
+                "brand:wikidata": "Q26070",
+                "brand:wikipedia": "en:Uniqlo",
+                "contact:facebook": "https://www.facebook.com/uniqlo.ru/",
+                "contact:website": "http://www.uniqlo.com",
+                "name": "Uniqlo",
+                "opening_hours": "Su-Th 10:00-22:00; Fr-Sa 10:00-23:00",
+                "shop": "clothes"
+            },
+            {
+                "clothes": "sports",
+                "contact:phone": "+7 495 2291941;+7 495 2291942",
+                "contact:website": "https://www.ru.puma.com/",
+                "name": "Puma",
+                "opening_hours": "Fr-Sa 10:00-23:00;Mo-Th,Su 10:00-22:00",
+                "operator": "ПУМА-РУС",
+                "shop": "clothes"
+            },
+            {
+                "clothes": "underwear",
+                "contact:facebook": "https://www.facebook.com/EtamRussia",
+                "contact:phone": "+7 495 1033070",
+                "contact:vk": "https://vk.com/etam_russia",
+                "contact:website": "https://www.etam.ru/",
+                "name": "Etam",
+                "opening_hours": "Mo,We-Th,Su 10:00-22:00;Tu,Fr-Sa 10:00-23:00",
+                "operator": "Этам Рус",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "furniture"
+            }
+        ]
+    },
+    "bookmaker": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "info@ligastavok.ru",
+                "contact:phone": "+7 800 5554455",
+                "contact:website": "https://www.ligastavok.ru/",
+                "name": "Лига Ставок",
+                "opening_hours": "24/7",
+                "operator": "Первая международная букмекерская компания",
+                "shop": "bookmaker"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "contact:email": "service@hlebnasushny.ru",
+                "contact:facebook": "https://www.facebook.com/hlebnasushny.ru/",
+                "contact:website": "https://hlebnasushny.ru/",
+                "name": "Хлеб Насущный",
+                "name:ru": "Хлеб Насущный",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 495 5395454",
+                "contact:website": "http://parking.mos.ru/",
+                "opening_hours": "24/7",
+                "operator": "ГКУ «Администратор Московского парковочного пространства»",
+                "payment:cash": "no",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "ref": "2310",
+                "ref:mos_parking": "282084480",
+                "source": "dit.mos.ru",
+                "vending": "parking_tickets",
+                "zone:parking": "0311"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 10,
+        "detail": [
+            {
+                "name": "ALBA",
+                "shop": "shoes"
+            },
+            {
+                "name": "Furla",
+                "shop": "shoes"
+            },
+            {
+                "name": "ALDO",
+                "shop": "shoes"
+            },
+            {
+                "name": "Baldinini",
+                "shop": "shoes"
+            },
+            {
+                "name": "Geox",
+                "shop": "shoes"
+            },
+            {
+                "name": "Fabi",
+                "shop": "shoes"
+            },
+            {
+                "name": "Carlo Pazolini",
+                "shop": "shoes"
+            },
+            {
+                "name": "Chester",
+                "shop": "shoes"
+            },
+            {
+                "name": "Mascotte",
+                "shop": "shoes"
+            },
+            {
+                "contact:email": "info@ecco-ros.ru",
+                "contact:facebook": "https://www.facebook.com/eccoru",
+                "contact:instagram": "https://instagram.com/ecco_ru",
+                "contact:ok": "https://ok.ru/eccoru",
+                "contact:phone": "+7 495 6412525;+7 495 9335662;+7 800 4442525",
+                "contact:vk": "https://vk.com/eccoru",
+                "contact:website": "https://www.ecco-shoes.ru/",
+                "name": "Ecco",
+                "opening_hours": "Fr-Sa 10:00-23:00;Mo-Th,Su 10:00-22:00",
+                "operator": "«Экко-Рос»",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "travel_agency": {
+        "count": 1,
+        "detail": [
+            {
+                "email": "info@rusmototravel.com",
+                "name": "РусМотоТревел",
+                "name:en": "RusMotoTravel",
+                "opening_hours": "Mo-Fr 09:00-20:00",
+                "phone": "+7 495 6645846",
+                "shop": "travel_agency",
+                "website": "https://rusmototravel.com"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "private",
+                "amenity": "parking",
+                "parking": "multi-storey"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "yrru.rocketdata@gmail.com",
+                "contact:phone": "+7 495 7378581",
+                "contact:website": "https://www.yves-rocher.ru/",
+                "name": "Ив Роше",
+                "opening_hours": "Fr-Sa 10:00-23:00;Mo,Tu,We,Th,Su 10:00-22:00",
+                "operator": "ИВ РОШЕ ВОСТОК",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Дикси",
+                "brand:en": "Dixy",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "contact:facebook": "https://www.facebook.com/Dixyclub",
+                "contact:instagram": "https://www.instagram.com/dixy.channel",
+                "contact:ok": "https://ok.ru/dixyclub",
+                "contact:phone": "+7 800 3330201",
+                "contact:vk": "https://vk.com/dixyclub",
+                "contact:website": "https://dixy.ru",
+                "contact:youtube": "https://www.youtube.com/user/DixyChannel",
+                "name": "Дикси",
+                "name:ru": "Дикси",
+                "opening_hours": "24/7",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "addr:housenumber": "2",
+                "addr:street": "площадь Киевского Вокзала",
+                "building": "yes",
+                "building:levels": "4",
+                "height": "42",
+                "internet_access": "wlan",
+                "name": "Торгово-развлекательный центр \"Европейский\"",
+                "name:en": "European shopping center",
+                "opening_hours": "Mo-Th,Su 10:00-22:00; Fr,Sa 10:00-23:00",
+                "phone": "+7 495 9213444",
+                "shop": "mall",
+                "website": "http://www.europe-tc.ru/"
+            }
+        ]
+    },
+    "college": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "college",
+                "building": "yes",
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "2",
+                "addr:street": "Малый Новопесковский переулок",
+                "building": "service",
+                "name": "Тяговая подстанция метрополитена Т-5",
+                "power": "substation",
+                "voltage": "10000;825"
+            }
+        ]
+    }
+}

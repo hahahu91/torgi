@@ -1,0 +1,459 @@
+{
+    "residents": 6437,
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "note": "МИнБ («Московский шинный завод»)",
+                "amenity": "atm",
+                "operator": "ПАО «МИнБанк»"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "internet_access": "wlan",
+                "name": "Ситилинк",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "Ситилинк",
+                "phone": "+7 495 7802002",
+                "shop": "computer",
+                "website": "https://citilink.ru/"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Новоостаповская улица",
+                "bench": "no",
+                "source": "bing; yandex panorams",
+                "highway": "bus_stop",
+                "shelter": "no",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Новоостаповская улица",
+                "bench": "no",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "no",
+                "old_name": "Шинный завод",
+                "trolleybus": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "1-я Дубровская улица, 18",
+                "bench": "yes",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "old_name": "Шинный завод",
+                "trolleybus": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "1-я Дубровская улица, 18",
+                "bench": "yes",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "old_name": "Шинный завод",
+                "trolleybus": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Новоостаповская улица, 14",
+                "bench": "yes",
+                "source": "yandex panorams;bing",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "old_name": "Шинный завод",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash"
+            }
+        ]
+    },
+    "fountain": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fountain"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "car": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "car"
+            }
+        ]
+    },
+    "bar": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Glastonberry Pub",
+                "amenity": "bar",
+                "website": "glastonberrypub.ru",
+                "addr:street": "1-я Дубровская улица",
+                "addr:housenumber": "13А с1"
+            },
+            {
+                "amenity": "bar",
+                "name": "Бутылье"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "clinic",
+                "emergency": "no",
+                "healthcare": "clinic",
+                "health_facility:type": "clinic",
+                "name": "Медсанчасть №53"
+            },
+            {
+                "amenity": "clinic",
+                "email": "moscow@artrombst.ru",
+                "healthcare": "clinic",
+                "name": "АртроМедЦентр",
+                "opening_hours": "Mo-Su 08:00-20:00",
+                "phone": "+7 495 1628728",
+                "website": "https://artrombst.ru/"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "13",
+                "addr:street": "1-я Дубровская улица",
+                "amenity": "fast_food",
+                "cuisine": "pizza",
+                "name": "Пицца Фабрика",
+                "website": "https://www.pizzafab.ru/"
+            },
+            {
+                "amenity": "fast_food",
+                "brand": "Papa John's",
+                "brand:wikidata": "Q2759586",
+                "brand:wikipedia": "en:Papa John's Pizza",
+                "cuisine": "pizza",
+                "name": "Papa John's",
+                "takeaway": "yes"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "13А с1",
+                "addr:postcode": "115088",
+                "addr:street": "1-я Дубровская улица",
+                "contact:email": "entry.store1356@metro-cc.ru",
+                "contact:phone": "+7 495 1232600",
+                "contact:website": "https://msk.metro-cc.ru/",
+                "name": "Metro Cash & Carry",
+                "name:ru": "Метро Кэш энд Керри",
+                "opening_hours": "Mo-Su 05:00-24:00",
+                "operator": "METRO Cash&Carry",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "А-медик",
+                "amenity": "doctors"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Фермерский дом",
+                "shop": "convenience",
+                "opening_hours": "Mo-Su 08:00-21:00"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Динозаврик",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "phone": "+7 495 5445025",
+                "shop": "pet",
+                "website": "https://dinozavrik.ru/"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 2,
+        "detail": [
+            {
+                "email": "office@spa-salon.ru",
+                "name": "Имидж галерея",
+                "opening_hours": "Mo-Sa 10:00-22:00; Su 10:00-21:00",
+                "phone": "+7 495 6746479",
+                "shop": "beauty",
+                "website": "http://spa-salon.ru/"
+            },
+            {
+                "name": "Саша",
+                "shop": "beauty",
+                "opening_hours": "Mo-Su 10:00-21:00"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Vemina city",
+                "shop": "clothes",
+                "opening_hours": "Mo-Su 10:00-21:00"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Лит.Ра",
+                "shop": "alcohol",
+                "brand": "Лит.Ра",
+                "name:ru": "Лит.Ра",
+                "contact:vk": "https://vk.com/litra_beer",
+                "drink:beer": "bottled",
+                "drink:cider": "bottled",
+                "contact:website": "http://litra-beer.ru",
+                "drink:soft_drink": "bottled"
+            },
+            {
+                "brand": "Красное & Белое",
+                "brand:en": "Red&White",
+                "brand:wikidata": "Q24933790",
+                "brand:wikipedia": "en:Krasnoe & Beloe",
+                "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+                "contact:instagram": "https://www.instagram.com/krasnoebeloe",
+                "contact:ok": "https://ok.ru/krasnoebeloe",
+                "contact:telegram": "+7 922 7033000",
+                "contact:viber": "+7 922 7033000",
+                "contact:vk": "https://vk.com/krasnoebeloe",
+                "contact:website": "https://krasnoeibeloe.ru",
+                "contact:whatsapp": "+7 922 7033000",
+                "name": "Красное & Белое",
+                "name:en": "Red&White",
+                "name:ru": "Красное&Белое",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "security": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:door": "451",
+                "contact:email": "info@starnew.ru",
+                "contact:phone": "+7 495 1330173",
+                "contact:viber": "+7 926 9124924",
+                "contact:vk": "https://vk.com/domofon_servis",
+                "contact:whatsapp": "+7 926 9124924",
+                "delivery": "yes",
+                "level": "4",
+                "name": "Starnew.ru",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00",
+                "reservation": "recommended",
+                "shop": "security",
+                "website": "https://www.starnew.ru/"
+            }
+        ]
+    },
+    "hookah_lounge": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "hookah_lounge",
+                "name": "Hookah"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "KremlinStore",
+                "shop": "mobile_phone",
+                "website": "https://kremlinstore.ru"
+            }
+        ]
+    },
+    "shelter": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "shelter"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "capacity": "5"
+            }
+        ]
+    },
+    "houseware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сыроделие.ру",
+                "name:ru": "Сыромания.ру",
+                "shop": "houseware",
+                "website": "http://syromaniya.ru"
+            }
+        ]
+    },
+    "mall": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Larin",
+                "shop": "mall",
+                "building": "yes",
+                "addr:city": "Москва",
+                "addr:street": "1-я Дубровская улица",
+                "addr:housenumber": "13А с1"
+            },
+            {
+                "building": "yes",
+                "building:levels": "3",
+                "name": "Дубровка",
+                "name:en": "Dubrovka shopping center",
+                "official_short_name": "ТЦ",
+                "shop": "mall"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "source": "Адресный реестр Москвы, data.mos.ru",
+                "building": "commercial",
+                "addr:street": "Новоостаповская улица",
+                "building:levels": "9",
+                "addr:housenumber": "6А с1"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пролетарец",
+                "shop": "bakery",
+                "building": "yes",
+                "addr:street": "Новоостаповская улица",
+                "opening_hours": "Mo-Sa 08:00-20:30; Su 08:15-19:30",
+                "building:levels": "1",
+                "addr:housenumber": "12 с14"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "3",
+                "addr:postcode": "115088",
+                "addr:street": "Шарикоподшипниковская улица",
+                "amenity": "hospital",
+                "building": "yes",
+                "building:levels": "4",
+                "description": "УЗ ЮВАО Родильный дом № 15",
+                "healthcare": "hospital",
+                "health_facility:type": "hospital",
+                "health_specialty:gynaecology": "main",
+                "medical_system:western": "yes",
+                "name": "Родильный дом №15",
+                "phone": "+7 495 6744287",
+                "provided_for:female": "yes",
+                "website": "http://roddom15.ru/"
+            }
+        ]
+    }
+}

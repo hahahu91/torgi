@@ -1,0 +1,301 @@
+{
+    "residents": 4282,
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "alt_name": "Пятерочка",
+                "alt_name:ru": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "operator": "ООО \"Агроторг\"",
+                "phone": "+7 800 5555505",
+                "shop": "supermarket",
+                "website": "http://pyaterochka.ru/"
+            },
+            {
+                "name": "Магнит",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сираб",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "Автобусы 75,80,86,99,194,121,123,143,167,163,198,397,433,435,436,555,567. Троллейбус 21(по будням). Маршрутные такси 99,121,123",
+                "name": "улица Жени Егоровой",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "улица Жени Егоровой",
+                "public_transport": "stop_position"
+            },
+            {
+                "bench": "no",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "улица Жени Егоровой",
+                "public_transport": "platform",
+                "shelter": "no"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "улица Жени Егоровой (Суздальский проспект)",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "улица Жени Егоровой (Суздальский проспект)",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Шаурма",
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "building": "yes",
+                "building:levels": "1",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience",
+                "building": "pavilion",
+                "opening_hours": "24/7",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "136",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "design:year": "2010",
+                "drive_through": "no",
+                "post_box:type": "wall",
+                "post_box:design": "ЯПНМ-II-С",
+                "collection_times": "Mo-Fr 01:50,13:00; Sa 09:00; Su 13:00"
+            }
+        ]
+    },
+    "variety_store": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Fix Price",
+                "brand:wikidata": "Q4038791",
+                "brand:wikipedia": "ru:Fix Price (сеть магазинов)",
+                "name": "Fix Price",
+                "shop": "variety_store"
+            }
+        ]
+    },
+    "ticket": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 812 5765555",
+                "contact:vk": "https://vk.com/marshrut_spb",
+                "contact:website": "http://orgp.spb.ru",
+                "name": "Организатор перевозок",
+                "official_name": "Санкт-Петербургское государственное казенное учреждение «Организатор перевозок»",
+                "opening_hours": "08:00-13:00,14:00-20:00",
+                "shop": "ticket",
+                "tickets:public_transport": "yes"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 3,
+        "detail": [
+            {
+                "height": "8",
+                "building": "kindergarten",
+                "design:ref": "2С-04-3",
+                "addr:street": "улица Прокофьева",
+                "addr:postcode": "194355",
+                "building:levels": "2",
+                "addr:housenumber": "3 к2",
+                "building:cladding": "panel"
+            },
+            {
+                "building": "kindergarten",
+                "addr:city": "Санкт-Петербург",
+                "design:ref": "212-2-3ЛГ",
+                "addr:street": "улица Жени Егоровой",
+                "addr:country": "RU",
+                "addr:postcode": "194355",
+                "building:parts": "horizontal",
+                "building:levels": "2",
+                "addr:housenumber": "10 к3",
+                "building:cladding": "panel"
+            },
+            {
+                "building": "kindergarten",
+                "addr:city": "Санкт-Петербург",
+                "design:ref": "212-2-3ЛГ",
+                "addr:street": "Суздальский проспект",
+                "addr:country": "RU",
+                "addr:postcode": "194355",
+                "building:parts": "horizontal",
+                "building:levels": "2",
+                "addr:housenumber": "5 к2",
+                "building:cladding": "panel"
+            }
+        ]
+    },
+    "service": {
+        "count": 9,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "addr:city": "Санкт-Петербург",
+                "addr:street": "улица Жени Егоровой",
+                "addr:country": "RU",
+                "building:levels": "2",
+                "addr:housenumber": "3 к3",
+                "building:cladding": "tiling"
+            },
+            {
+                "building": "service",
+                "pipeline": "substation",
+                "substance": "heat",
+                "building:levels": "1",
+                "building:cladding": "brick"
+            },
+            {
+                "ref": "9125",
+                "power": "substation",
+                "branch": "Кабельная сеть",
+                "voltage": "10000;400",
+                "building": "service",
+                "location": "indoor",
+                "operator": "Ленэнерго",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "building:levels": "1",
+                "building:cladding": "panel"
+            },
+            {
+                "ref": "9228",
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1",
+                "building:cladding": "panel"
+            },
+            {
+                "building": "service",
+                "pipeline": "substation",
+                "substance": "heat",
+                "building:levels": "1",
+                "building:cladding": "panel"
+            },
+            {
+                "ref": "9227",
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1",
+                "building:cladding": "panel"
+            },
+            {
+                "ref": "9230",
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1",
+                "building:cladding": "panel"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1",
+                "building:cladding": "panel"
+            },
+            {
+                "ref": "9128",
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1",
+                "building:cladding": "brick"
+            }
+        ]
+    }
+}

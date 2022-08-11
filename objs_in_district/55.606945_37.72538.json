@@ -1,0 +1,783 @@
+{
+    "residents": 11154,
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Улица Генерала Белова, 45",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Улица Генерала Белова, 45",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Киноконцертный комплекс \"Авангард\"",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Киноконцертный комплекс \"Авангард\"",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Киноконцертный комплекс \"Авангард\"",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 12,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal",
+                "waste": "trash"
+            },
+            {
+                "amenity": "waste_disposal",
+                "waste": "trash"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "brand": "Дикси",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "contact:phone": "+7 800 3330201",
+                "contact:vk": "https://vk.com/dixyclub",
+                "contact:website": "https://dixy.ru",
+                "contact:youtube": "https://www.youtube.com/channel/UCfFxD9xhL67LxHvsDOp_rvg",
+                "name": "Дикси",
+                "name:en": "Dixy",
+                "name:ru": "Дикси",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "shop": "supermarket",
+                "wheelchair": "yes"
+            },
+            {
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/club19098821",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyatyorochka",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "shop": "supermarket",
+                "wheelchair": "yes"
+            },
+            {
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "shop": "supermarket",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ОПОП №5 района \"Орехово-Борисово Южное\"",
+                "amenity": "police"
+            }
+        ]
+    },
+    "playground": {
+        "count": 4,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Семена",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "shop": "florist",
+                "wheelchair": "no"
+            },
+            {
+                "inscription": "Салон Цветов",
+                "shop": "florist"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "doctors",
+                "brand": "Инвитро",
+                "brand:wikidata": "Q4200546",
+                "brand:wikipedia": "ru:Медицинская компания Инвитро",
+                "contact:email": "info@invitro.ru",
+                "contact:facebook": "https://www.facebook.com/invitro.ru",
+                "contact:instagram": "https://www.instagram.com/invitro.ru",
+                "contact:phone": "+7 495 3630363",
+                "contact:vk": "https://vk.com/invitro",
+                "contact:website": "https://www.invitro.ru",
+                "healthcare": "laboratory",
+                "health_facility:type": "laboratory",
+                "health_specialty:microbiology": "yes",
+                "medical_system:western": "yes",
+                "name": "Инвитро",
+                "name:en": "Invitro",
+                "name:ru": "Инвитро",
+                "opening_hours": "Mo-Fr 07:00-20:00; Sa 07:30-16:00; Su 09:00-16:00",
+                "operator:wikidata": "Q4200546",
+                "operator:wikipedia": "ru:Медицинская компания Инвитро",
+                "wheelchair": "no"
+            },
+            {
+                "alt_name": "Центр молекулярной диагностики",
+                "amenity": "doctors",
+                "brand": "CMD",
+                "contact:email": "info@cmd-online.ru",
+                "contact:facebook": "https://www.facebook.com/cmd.online.social",
+                "contact:instagram": "https://www.instagram.com/cmd_insta",
+                "contact:ok": "https://ok.ru/cmdonline",
+                "contact:twitter": "https://twitter.com/CMD_online",
+                "contact:vk": "https://vk.com/cmd.online",
+                "contact:website": "https://www.cmd-online.ru",
+                "contact:youtube": "https://www.youtube.com/channel/UCJLzXIczpWCx7Gelbmc3sAw",
+                "healthcare": "laboratory",
+                "health_facility:type": "laboratory",
+                "health_specialty:microbiology": "yes",
+                "medical_system:western": "yes",
+                "name": "CMD",
+                "name:en": "CMD",
+                "opening_hours": "Mo-Fr 07:00-19:30; Sa, Su 07:30-17:00",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Чайхона",
+                "amenity": "cafe",
+                "opening_hours": "Mo-Su 00:00-23:59"
+            },
+            {
+                "amenity": "cafe",
+                "cuisine": "burger",
+                "description": "бургер-бар"
+            },
+            {
+                "amenity": "cafe",
+                "cuisine": "coffee_shop",
+                "level": "-1",
+                "name": "Moose"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Магнит",
+                "name:ru": "Магнит",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "shop": "convenience",
+                "wheelchair": "no"
+            },
+            {
+                "brand": "ВкусВилл",
+                "contact:email": "info@izbenka.msk.ru",
+                "contact:facebook": "https://www.facebook.com/vkusvill.ru",
+                "contact:instagram": "https://www.instagram.com/izbenka_vkusvill",
+                "contact:phone": "+7 495 6638602",
+                "contact:telegram": "https://telegram.me/vkusvillbot",
+                "contact:vk": "https://vk.com/vkusvill_ru",
+                "contact:website": "https://vkusvill.ru",
+                "name": "ВкусВилл",
+                "name:ru": "ВкусВилл",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "variety_store": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Fix price",
+                "brand:wikidata": "Q4038791",
+                "brand:wikipedia": "ru:Fix Price (сеть магазинов)",
+                "contact:facebook": "https://www.facebook.com/fixprice.russia",
+                "contact:instagram": "https://www.instagram.com/fixprice.russia",
+                "contact:ok": "https://ok.ru/fixprice",
+                "contact:phone": "+7 800 7753515",
+                "contact:twitter": "https://twitter.com/fix_price",
+                "contact:vk": "https://vk.com/fix_price",
+                "contact:website": "https://www.fix-price.ru",
+                "contact:youtube": "https://www.youtube.com/user/fixprice36",
+                "name": "Fix price",
+                "name:en": "Fix price",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "shop": "variety_store"
+            }
+        ]
+    },
+    "ice_cream": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Спутник",
+                "amenity": "ice_cream",
+                "name:ru": "Спутник",
+                "delivery": "no",
+                "takeaway": "only",
+                "opening_hours": "Mo-Su 08:00-13:00,13:30-21:00",
+                "outdoor_seating": "no"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Коронка",
+                "amenity": "dentist",
+                "name:en": "Koronka",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            },
+            {
+                "amenity": "dentist",
+                "name": "Борисовский",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "wheelchair": "yes"
+            },
+            {
+                "amenity": "dentist",
+                "contact:phone": "+7 495 3435167",
+                "healthcare": "dentist",
+                "health_facility:type": "clinic",
+                "health_specialty:dentistry": "yes",
+                "medical_system:western": "yes",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "name": "А-медик",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "phone": "+7 495 1423807"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Магнит Аптека",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "bench": {
+        "count": 13,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 4,
+        "detail": [
+            {
+                "male": "yes",
+                "name": "Lion",
+                "official_name": "LION barbershop",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "hairdresser",
+                "wheelchair": "yes"
+            },
+            {
+                "contact:phone": "+7 965 3952075",
+                "name": "Лаванда",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "phone": "+7 499 3414242",
+                "shop": "hairdresser",
+                "wheelchair": "yes"
+            },
+            {
+                "name": "Красота в деталях",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "phone": "+7 900 5551115",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Олдбой",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "phone": "+7 495 4107010",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "inscription": "Детская обувь",
+                "opening_hours": "Mo-Su 10:00-20:30",
+                "shop": "shoes",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bar",
+                "name": "Beer & Burger",
+                "opening_hours": "Mo-Su 12:00-23:00",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "confectionery": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Мадам москвичка",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "shop": "confectionery"
+            },
+            {
+                "amenity": "cafe",
+                "cuisine": "coffee_shop",
+                "name": "Буханка",
+                "shop": "confectionery"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "kindergarten",
+                "name": "Совёнок",
+                "phone": "+7 966 3399913",
+                "website": "sovenok-sad.ru"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "addr:housenumber": "55 к2",
+                "addr:street": "улица Генерала Белова",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "roof:shape": "flat"
+            },
+            {
+                "building": "kindergarten",
+                "addr:city": "Москва",
+                "addr:street": "Воронежская улица",
+                "addr:country": "RU",
+                "addr:postcode": "115583",
+                "building:levels": "2",
+                "addr:housenumber": "8 к5"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "addr:housenumber": "10 к2",
+                "addr:postcode": "115583",
+                "addr:street": "Елецкая улица",
+                "building": "kindergarten",
+                "building:levels": "2"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Элья",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "beauty"
+            },
+            {
+                "contact:phone": "+7 925 8274673",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "beauty",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Соляная Пещера",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "shop": "beauty"
+            },
+            {
+                "name": "Beauty N",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "shop": "beauty",
+                "wheelchair": "yes"
+            },
+            {
+                "name": "МН",
+                "opening_hours": "24/7",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "tailor": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 495 3435074",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "shop": "tailor",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "childcare": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "childcare",
+                "contact:phone": "+7 977 9079896",
+                "name": "Мио",
+                "opening_hours": "Mo-Su 09:00-20:00"
+            }
+        ]
+    },
+    "language_school": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "language_school",
+                "contact:website": "https://www.bright-english.ru/",
+                "education": "courses",
+                "education_form:parttime": "yes",
+                "education_profile:languages": "yes",
+                "education_programme:EN": "yes",
+                "name": "Bright English",
+                "opening_hours": "Mo 13:00-19:00; Tu-Fr 13:00-20:00; Sa 09:00-13:00"
+            }
+        ]
+    },
+    "massage": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мой Тай",
+                "shop": "massage"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мини Маркет",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "training": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "18",
+                "addr:street": "улица Генерала Белова",
+                "amenity": "training",
+                "contact:facebook": "https://www.facebook.com/piruet.msk",
+                "contact:instagram": "https://www.instagram.com/sc_pirouette/",
+                "contact:vk": "https://vk.com/pirouette_rg",
+                "description": "Школа художественной гимнастики Pirouette",
+                "education": "facultative_school",
+                "education_form:parttime": "yes",
+                "education_level:primary": "yes",
+                "education_profile:sport": "yes",
+                "name": "Pirouette",
+                "phone": "+7 (499) 136-81-80",
+                "training": "sport",
+                "website": "https://piruet-msk.ru/"
+            }
+        ]
+    },
+    "school": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "addr:housenumber": "49 к1",
+                "addr:street": "улица Генерала Белова",
+                "building": "school",
+                "building:levels": "3",
+                "roof:shape": "flat"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "addr:housenumber": "21 к3",
+                "addr:postcode": "115583",
+                "addr:street": "Ясеневая улица",
+                "building": "school",
+                "building:levels": "3",
+                "name": "Школа №1636 здание 2"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "addr:housenumber": "12 к3",
+                "addr:postcode": "115583",
+                "addr:street": "Елецкая улица",
+                "building": "school",
+                "building:levels": "3",
+                "name": "Школа №886"
+            }
+        ]
+    },
+    "service": {
+        "count": 8,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "addr:housenumber": "51 к2 с2",
+                "addr:street": "улица Генерала Белова",
+                "building": "service",
+                "building:levels": "1",
+                "roof:shape": "flat"
+            },
+            {
+                "building": "service",
+                "addr:city": "Москва",
+                "addr:street": "улица Генерала Белова",
+                "addr:country": "RU",
+                "addr:housenumber": "43 с2"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "addr:housenumber": "53 к2 с2",
+                "addr:street": "улица Генерала Белова",
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "49 к3 с3",
+                "addr:street": "улица Генерала Белова",
+                "building": "service",
+                "building:levels": "1",
+                "roof:shape": "flat"
+            },
+            {
+                "building": "service",
+                "addr:city": "Москва",
+                "addr:street": "улица Генерала Белова",
+                "addr:country": "RU",
+                "addr:housenumber": "43 с3"
+            },
+            {
+                "addr:housenumber": "18 с3",
+                "addr:street": "улица Генерала Белова",
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "location": "indoor",
+                "power": "substation",
+                "substation": "minor_distribution"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "addr:housenumber": "18/1",
+                "addr:street": "улица Генерала Белова",
+                "amenity": "community_centre",
+                "building": "yes",
+                "building:levels": "3",
+                "name": "Центр культуры и искусства \"Авангард\""
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "denomination": "orthodox",
+                "name": "Храм иконы Божией Матери \"Троeручица\"",
+                "religion": "christian"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "newsagent",
+                "building": "kiosk",
+                "inscription": "Пресса",
+                "building:levels": "1"
+            },
+            {
+                "shop": "newsagent",
+                "building": "kiosk",
+                "inscription": "Пресса",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "kiosk",
+                "building": "yes"
+            }
+        ]
+    }
+}

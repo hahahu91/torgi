@@ -1,0 +1,213 @@
+{
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Поликлиника №5",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Павловский парк",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Магнит",
+                "operator": "Магнит",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            },
+            {
+                "name": "Минимаркет24",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Поликлиника №5",
+                "amenity": "hospital"
+            }
+        ]
+    },
+    "residents": 5100,
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Стоматологическая поликилика №3",
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Цветы",
+                "shop": "florist"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мини-пекарня",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "operator": "Промсвязьбанк"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Магнит Косметик",
+                "contact:email": "info@magnit.ru",
+                "contact:phone": "+7 800 2009002",
+                "contact:website": "https://magnitcosmetic.ru",
+                "name": "Магнит Косметик",
+                "name:en": "Magnit Cosmetic",
+                "name:ru": "Магнит Косметик",
+                "opening_hours": "08:00-22:00",
+                "operator": "АО \"Тандер\"",
+                "shop": "chemist"
+            }
+        ]
+    },
+    "tobacco": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Табак",
+                "shop": "tobacco"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ярославль",
+                "addr:country": "RU",
+                "addr:housenumber": "56",
+                "addr:region": "Ярославская область",
+                "addr:street": "Тутаевское шоссе",
+                "building": "yes",
+                "building:levels": "3",
+                "leisure": "sports_centre",
+                "name": "Спортбаза ХК Локомотив",
+                "source": "BING"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 4,
+        "detail": [
+            {
+                "source": "BING",
+                "building": "kindergarten",
+                "addr:street": "улица Блюхера",
+                "building:levels": "2",
+                "addr:housenumber": "60"
+            },
+            {
+                "building": "kindergarten",
+                "building:levels": "2"
+            },
+            {
+                "source": "BING",
+                "building": "kindergarten"
+            },
+            {
+                "building": "kindergarten"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "yes",
+                "shop": "mall"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "yes",
+                "name": "Овощи и фрукты",
+                "shop": "kiosk"
+            }
+        ]
+    }
+}

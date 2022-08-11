@@ -1,0 +1,320 @@
+{
+    "residents": 9051,
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "highway": "bus_stop",
+                "name": "ул. Ушинского",
+                "public_transport": "platform",
+                "ref": "5001",
+                "shelter": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Бульвар Гагарина",
+                "public_transport": "platform",
+                "ref": "100302",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "ref": "100300",
+                "name": "Бульвар Гагарина",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "ref": "5000",
+                "name": "ул. Ушинского",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "ул. Ушинского",
+                "public_transport": "platform",
+                "ref": "12300",
+                "shelter": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "ул. Ушинского",
+                "public_transport": "platform",
+                "ref": "12302",
+                "shelter": "no"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "police"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Детский сад №57",
+                "amenity": "kindergarten"
+            },
+            {
+                "addr:housenumber": "79А",
+                "addr:street": "бульвар Гагарина",
+                "building": "kindergarten",
+                "building:levels": "2"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ТерраИнтерьера",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Берег",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Ангор",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Монетка",
+                "shop": "supermarket",
+                "contact:vk": "https://vk.com/shop_monetka",
+                "contact:phone": "+7 800 1008500",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "contact:website": "http://www.monetka.ru/"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Алендвик",
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Карина",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Лекса",
+                "amenity": "pharmacy",
+                "dispensing": "no"
+            },
+            {
+                "name": "Планета здоровья",
+                "amenity": "pharmacy",
+                "dispensing": "no",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Погребок",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling",
+                "recycling_type": "container"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "atm": "yes",
+                "ref": "6984/0278",
+                "name": "Сбербанк",
+                "branch": "Волго-Вятский банк",
+                "amenity": "bank",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "operator": "ПАО \"Сбербанк\"",
+                "wheelchair": "yes",
+                "contact:phone": "+7 495 5005550",
+                "opening_hours": "Mo-Fr 09:30-18:30",
+                "contact:website": "http://www.sberbank.ru",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская библиотека №13",
+                "amenity": "library"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "614077",
+                "name": "Пермь 614077",
+                "amenity": "post_office",
+                "operator": "Почта России",
+                "contact:vk": "https://vk.com/russianpost",
+                "addr:postcode": "614077",
+                "contact:phone": "+7 342 2617812; +7 342 2618715",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-18:00; Su 09:00-14:00",
+                "contact:website": "https://www.pochta.ru",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России"
+            }
+        ]
+    },
+    "atm": {
+        "count": 3,
+        "detail": [
+            {
+                "ref": "980160",
+                "branch": "Волго-Вятский банк",
+                "amenity": "atm",
+                "cash_in": "yes",
+                "operator": "ПАО \"Сбербанк\"",
+                "currency:EUR": "no",
+                "currency:RUB": "yes",
+                "currency:USD": "no",
+                "contact:phone": "+7 800 5555550",
+                "contact:website": "http://www.sberbank.ru",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России"
+            },
+            {
+                "ref": "94391",
+                "branch": "Волго-Вятский банк",
+                "amenity": "atm",
+                "cash_in": "yes",
+                "operator": "ПАО \"Сбербанк\"",
+                "currency:EUR": "no",
+                "currency:RUB": "yes",
+                "currency:USD": "no",
+                "contact:phone": "+7 800 5555550",
+                "opening_hours": "24/7",
+                "contact:website": "http://www.sberbank.ru",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России"
+            },
+            {
+                "ref": "350561",
+                "branch": "Волго-Вятский банк",
+                "amenity": "atm",
+                "cash_in": "no",
+                "operator": "ПАО \"Сбербанк\"",
+                "currency:EUR": "no",
+                "currency:RUB": "yes",
+                "currency:USD": "no",
+                "contact:phone": "+7 800 5555550",
+                "contact:website": "http://www.sberbank.ru",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:postcode": "614077",
+                "amenity": "clinic",
+                "name": "МедЛабЭкспресс",
+                "opening_hours": "Mo-Fr 07:30-18:30; Sa-Su 07:30-12:00",
+                "website": "http://medlabexpress.perm.ru"
+            }
+        ]
+    },
+    "agrarian": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:instagram": "https://instagram.com/cvetochnaylavka59",
+                "contact:phone": "+7 342 2780033",
+                "contact:vk": "https://vk.com/vbukete59",
+                "contact:website": "https://www.cvety159.com/",
+                "name": "Цветочная лавка",
+                "opening_hours": "24/7",
+                "operator": "Цветочная лавка",
+                "shop": "agrarian"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 800 7707999",
+                "contact:website": "http://dns-shop.ru/",
+                "name": "DNS",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "ДНС Ритейл",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Средняя общеобразовательная школа №43",
+                "amenity": "school",
+                "building": "school",
+                "addr:street": "бульвар Гагарина",
+                "building:levels": "3",
+                "addr:housenumber": "75А"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ТЦ Кит",
+                "shop": "mall",
+                "building": "retail",
+                "addr:street": "улица Крупской",
+                "building:levels": "3",
+                "addr:housenumber": "79А"
+            }
+        ]
+    }
+}

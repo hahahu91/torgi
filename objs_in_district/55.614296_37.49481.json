@@ -1,0 +1,255 @@
+{
+    "residents": 3033,
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Гейн ойл",
+                "amenity": "fuel"
+            }
+        ]
+    },
+    "parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Стационарный пост ДПС (ЮЗАО)",
+                "amenity": "police"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "bin": "yes",
+                "name": "МКАД",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "route_ref": "600",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "name": "МКАД",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "route_ref": "600",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Улица Генерала Тюленева, 41",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "5-й микрорайон Тёплого Стана",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "5-й микрорайон Тёплого Стана",
+                "highway": "bus_stop",
+                "shelter": "no"
+            },
+            {
+                "name": "5-й микрорайон Тёплого Стана",
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "bus_station": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Диспетчерская \"5-й микрорайон Тёплого Стана\"",
+                "note": "уточнить положение",
+                "amenity": "bus_station",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "yes": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fuel",
+                "brand": "Газпром нефть",
+                "contact:website": "http://www.gpnbonus.ru",
+                "fuel:diesel": "no",
+                "fuel:octane_92": "yes",
+                "fuel:octane_95": "yes",
+                "name": "Газпромнефть",
+                "opening_hours": "24/7",
+                "operator": "ОАО \"Газпромнефть-Центр\"",
+                "payment:cards": "yes",
+                "ref": "15",
+                "shop": "yes",
+                "toilets": "yes",
+                "website": "https://www.gpnbonus.ru/"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket",
+                "brand": "Пятёрочка",
+                "name:en": "Pyatyorochka",
+                "name:ru": "Пятёрочка",
+                "alt_name": "Пятерочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:website": "https://5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka"
+            },
+            {
+                "name": "Магнит",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "car_repair",
+                "service": "tyres",
+                "description": "Шиномонтаж"
+            },
+            {
+                "addr:housenumber": "160",
+                "addr:street": "Профсоюзная улица",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Авто-Профсоюз",
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Почта Банк",
+                "amenity": "bank"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:email": "sberbank@sberbank.ru",
+                "contact:facebook": "https://www.facebook.com/bankdruzey",
+                "contact:instagram": "https://instagram.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "currency:RUB": "yes",
+                "operator": "Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 800 7753553",
+                "contact:website": "http://omnicdek.com/",
+                "name": "ОмниСДЭК",
+                "opening_hours": "Mo-Su 10:00-23:00",
+                "ref": "7081",
+                "vending": "parcel_pickup"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Школа 898 (дошкольное отделение)",
+                "fixme": "Нарисовано без спутника на глаз",
+                "amenity": "kindergarten",
+                "building": "kindergarten",
+                "addr:street": "улица Генерала Тюленева",
+                "building:levels": "4",
+                "addr:housenumber": "37А"
+            }
+        ]
+    }
+}

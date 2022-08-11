@@ -1,0 +1,1056 @@
+{
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Бусиново",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Бусиново",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Универсам",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Универсам",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Бусиново",
+                "note": "Нет посадки",
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 6,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "12",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "alt_name": "Перекрёсток",
+                "brand": "Перекрёсток",
+                "brand:en": "Perekryostok",
+                "brand:wikidata": "Q1684639",
+                "brand:wikipedia": "en:Perekrestok (supermarket chain)",
+                "contact:facebook": "https://www.facebook.com/perekrestok",
+                "contact:instagram": "http://instagram.com/perekrestok",
+                "contact:ok": "https://ok.ru/perekrestok.shop",
+                "contact:phone": "+7 495 6628888",
+                "contact:twitter": "https://twitter.com/perekrestok",
+                "contact:vk": "https://vk.com/perekrestok_shop",
+                "contact:website": "https://www.perekrestok.ru",
+                "contact:youtube": "https://www.youtube.com/channel/UCY9Nwfy_8drHqif0iryQ7Vw",
+                "name": "Перекрёсток",
+                "name:ru": "Перекресток",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "operator": "Торговый дом \"ПЕРЕКРЕСТОК\"",
+                "shop": "supermarket"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "2 с3",
+                "addr:postcode": "125599",
+                "addr:street": "улица Бусиновская Горка",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "opening_hours": "Mo-Su 8:00-23:00",
+                "shop": "supermarket",
+                "website": "https://5ka.ru/"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "2 с4",
+                "addr:postcode": "125599",
+                "addr:street": "улица Бусиновская Горка",
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "opening_hours": "Mo-Su 09:30-22:30",
+                "phone": "+7 800 2009002",
+                "shop": "supermarket",
+                "website": "http://magnit-info.ru"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "7",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "level": "-1",
+                "name": "Верный",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "shop": "supermarket",
+                "website": "https://www.verno-info.ru/shops/info/Moskva/ulMarshala-Fedorenko-7/",
+                "wheelchair": "yes"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "2 с3",
+                "addr:postcode": "125599",
+                "addr:street": "улица Бусиновская Горка",
+                "level": "2",
+                "name": "Семейный",
+                "shop": "supermarket"
+            },
+            {
+                "shop": "supermarket",
+                "building": "retail",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "building:levels": "1",
+                "addr:housenumber": "10 с1"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Вусал",
+                "phone": "+7 926 7036463",
+                "amenity": "cafe",
+                "cuisine": "kebab;regional",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "description": "Цена бани/сауны: от 700 руб/час. Бизнес-ланч, летняя веранда, кофе с собой. Спортивные трансляции",
+                "addr:postcode": "125599",
+                "opening_hours": "Mo-Su 11:00-24:00",
+                "internet_access": "wlan",
+                "outdoor_seating": "yes",
+                "addr:housenumber": "7",
+                "internet_access:fee": "yes"
+            },
+            {
+                "name": "ИП Недильский И.Р.",
+                "level": "1",
+                "phone": "+7 915 2222922",
+                "amenity": "cafe",
+                "cuisine": "kebab",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "description": "Хачапури. Хот-доги. Чебуреки. Шаурма",
+                "inscription": "Бистро Шаурма",
+                "addr:postcode": "125599",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "addr:housenumber": "12"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 4,
+        "detail": [
+            {
+                "shop": "convenience",
+                "level": "1",
+                "operator": "ООО \"ЛСП-Ю\"",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "inscription": "Продукты",
+                "addr:postcode": "125599",
+                "addr:housenumber": "7"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "2",
+                "addr:postcode": "125599",
+                "addr:street": "улица Бусиновская Горка",
+                "description": "Производство замороженных полуфабрикатов",
+                "name": "Замороженные полуфабрикаты",
+                "operator": "ООО \"МЛМ-Ра\"",
+                "phone": "+7 495 9950127",
+                "shop": "convenience",
+                "website": "http://mlm-food.ygo.ru/contacts/"
+            },
+            {
+                "shop": "convenience",
+                "level": "1",
+                "addr:city": "Москва",
+                "addr:street": "улица Бусиновская Горка",
+                "description": "Кондитерские и колбасные изделия. Молочные продукты",
+                "addr:postcode": "125599",
+                "addr:housenumber": "1 к1"
+            },
+            {
+                "name": "Милконс",
+                "shop": "convenience",
+                "level": "1",
+                "source": "local knowledge",
+                "operator": "ООО \"Милконс\"",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "addr:housenumber": "2 к1"
+            }
+        ]
+    },
+    "residents": 7983,
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "125599",
+                "name": "Отделение связи №125599",
+                "amenity": "post_office",
+                "operator": "Почта России",
+                "wheelchair": "yes",
+                "contact:phone": "+7 495 4861575",
+                "opening_hours": "Mo-Fr 08:00-13:00,14:00-20:00; Sa 09:00-13:00,14:00-18:00; Su off",
+                "contact:website": "http://www.russianpost.ru"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 5,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Гелиоса",
+                "shop": "hairdresser",
+                "level": "2",
+                "phone": "+7 901 5467377",
+                "website": "http://www.geliosa.ru/content/category/7/30/37/",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "addr:housenumber": "12"
+            },
+            {
+                "name": "Колор+О",
+                "shop": "hairdresser",
+                "phone": "+7 495 4860133",
+                "operator": "ООО \"Колор+О\"",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "addr:housenumber": "7"
+            },
+            {
+                "shop": "hairdresser",
+                "level": "1",
+                "phone": "+7 985 1189277",
+                "addr:city": "Москва",
+                "addr:street": "улица Бусиновская Горка",
+                "description": "Стрижка, маникюр, педикюр.",
+                "addr:postcode": "125599",
+                "addr:housenumber": "1 к1"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "2 с3",
+                "addr:postcode": "125599",
+                "addr:street": "улица Бусиновская Горка",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "ПАО \"Сбербанк\""
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "7",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "amenity": "bank",
+                "bic": "SABRRUMM",
+                "branch": "Московский банк",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://www.instagram.com/sberbank/",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 10:00-19:00",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "9038/01518",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Столички",
+                "brand": "Столички",
+                "amenity": "pharmacy",
+                "name:ru": "Столички",
+                "operator": "ООО «НЕО-ФАРМ»",
+                "addr:city": "Москва",
+                "contact:vk": "https://vk.com/stolichki_official",
+                "healthcare": "pharmacy",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "contact:website": "http://stolichki.ru/stores/239/",
+                "addr:housenumber": "12",
+                "contact:facebook": "https://www.facebook.com/stolichki",
+                "contact:instagram": "https://www.instagram.com/stolichki"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "12",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "amenity": "pharmacy",
+                "description": "мскАпт1270",
+                "email": "info@budzdorov.ru",
+                "healthcare": "pharmacy",
+                "level": "0",
+                "name": "Будь здоров!",
+                "name:ru": "Будь здоров!",
+                "opening_hours": "Mo-Fr 09:00-22:00; Sa-Su 09:00-21:00",
+                "operator": "ООО \"Ригла-Московская область\"",
+                "phone": "+7 495 2311697",
+                "website": "https://www.budzdorov.ru/store/view/97270"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пивной Рай",
+                "shop": "alcohol",
+                "drink:beer": "yes"
+            }
+        ]
+    },
+    "dry_cleaning": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Лавандерия",
+                "shop": "dry_cleaning",
+                "phone": "+7 495 6899853",
+                "website": "http://www.lavanderya.ru/adresa/?view=map",
+                "operator": "ООО \"ЛАВАНДЕРИЯ-М\"",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "addr:housenumber": "12"
+            }
+        ]
+    },
+    "travel_agency": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "12",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "shop": "travel_agency"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "7",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "level": "0",
+                "shop": "florist"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "12",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "level": "2",
+                "name": "Цветочная мастерская",
+                "phone": "+7 915 3667285",
+                "shop": "florist",
+                "website": "https://vk.com/businovo.flowers"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Куры-гриль",
+                "level": "0",
+                "amenity": "fast_food",
+                "cuisine": "kebab;chicken;shawarma",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "addr:housenumber": "7"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "amenity": "fast_food",
+                "building": "yes",
+                "contact:instagram": "https://www.instagram.com/burger_avenue_moscow/",
+                "name": "Бургер Авеню"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Улыбка-СФ",
+                "email": "info@ulybka-sf.ru",
+                "level": "2",
+                "phone": "+7 495 4865474",
+                "amenity": "dentist",
+                "website": "http://ulybka-sf.ru/",
+                "operator": "ООО Улыбка-СФ",
+                "addr:city": "Москва",
+                "healthcare": "dentist",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "addr:housenumber": "7"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "7",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "name": "МясновЪ",
+                "opening_hours": "Mo-Su 07:00-22:00",
+                "operator": "ООО \"МЯСНОВЪ - 77\"",
+                "phone": "+7 495 4249515",
+                "shop": "butcher",
+                "website": "https://www.myasnov.ru/magaziny_zdorovogo_pitaniya/"
+            },
+            {
+                "name": "Мясницкий ряд",
+                "shop": "butcher",
+                "brand": "Мясницкий ряд",
+                "name:ru": "Мясницкий ряд",
+                "operator": "Мясоперерабатывающий завод «Мясницкий ряд»",
+                "addr:city": "Москва",
+                "contact:vk": "https://vk.com/kolbasamr",
+                "addr:street": "улица Бусиновская Горка",
+                "addr:postcode": "125599",
+                "contact:email": "info2@kolbasa.ru",
+                "contact:phone": "+7 495 9811719",
+                "contact:website": "http://www.kolbasa.ru",
+                "addr:housenumber": "2 с4",
+                "contact:facebook": "https://www.facebook.com/kolbasaMR"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Zoomix",
+                "shop": "pet",
+                "email": "4997478940@mail.ru",
+                "phone": "+7 968 5341818",
+                "website": "http://zoomix.su/contacts",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "addr:housenumber": "12"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "brand": "PickPoint",
+                "contact:facebook": "https://www.facebook.com/PickPoint",
+                "contact:instagram": "https://www.instagram.com/pickpoint_rus/",
+                "contact:phone": "+7 495 9881230",
+                "contact:vk": "https://vk.com/club24434985",
+                "contact:website": "https://pickpoint.ru",
+                "name": "PickPoint",
+                "vending": "parcel_pickup"
+            },
+            {
+                "amenity": "vending_machine",
+                "currency:RUB": "yes",
+                "name": "Билеты",
+                "name:en": "Tickets",
+                "operator": "Мосгортранс",
+                "payment:cash": "yes",
+                "vending": "public_transport_tickets"
+            }
+        ]
+    },
+    "pawnbroker": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "СитиКредит",
+                "shop": "pawnbroker",
+                "email": "info@citylombard.ru",
+                "level": "1",
+                "phone": "+7 926 3857877",
+                "website": "http://citylombard.ru/",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "addr:housenumber": "12"
+            }
+        ]
+    },
+    "optician": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "12",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "shop": "optician"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "2 с3",
+                "addr:postcode": "125599",
+                "addr:street": "улица Бусиновская Горка",
+                "name": "Смешные цены",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Участковый пункт полиции № 12",
+                "phone": "+7 495 4863796",
+                "amenity": "police",
+                "operator": "МВД РФ",
+                "addr:city": "Москва",
+                "addr:street": "улица Бусиновская Горка",
+                "addr:postcode": "125599",
+                "addr:housenumber": "1 к1"
+            }
+        ]
+    },
+    "outpost": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "7",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "brand": "Ozon",
+                "brand:wikidata": "Q2365235",
+                "brand:wikipedia": "ru:Ozon.ru",
+                "contact:facebook": "https://www.facebook.com/ozon.ru",
+                "contact:instagram": "https://www.instagram.com/ozonru",
+                "contact:phone": "+7 800 7758181",
+                "contact:vk": "https://vk.com/ozon",
+                "contact:website": "https://www.ozon.ru/",
+                "description": "Постамат Ozon Box 1698 \nСрок хранения заказа: 2 дня",
+                "name": "Ozon",
+                "shop": "outpost"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "12",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "brand": "Wildberries",
+                "brand:wikidata": "Q24933714",
+                "brand:wikipedia": "ru:Wildberries",
+                "contact:email": "sales@wildberries.ru",
+                "contact:facebook": "https://www.facebook.com/wbbot",
+                "contact:instagram": "https://www.instagram.com/wildberriesru",
+                "contact:ok": "https://ok.ru/wildberries",
+                "contact:skype": "Wildberries_ru",
+                "contact:telegram": "wbshop_bot",
+                "contact:twitter": "https://twitter.com/wildberries_ru",
+                "contact:viber": "wildberries",
+                "contact:vk": "https://vk.com/wbbot",
+                "contact:website": "https://www.wildberries.ru",
+                "contact:whatsapp": "+7 926 5373137",
+                "contact:youtube": "https://www.youtube.com/user/Wildberriesshop",
+                "level": "2",
+                "name": "Wildberries",
+                "name:en": "Wildberries",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "phone": "+7 495 7755505-32692",
+                "shop": "outpost"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "2 с3",
+                "addr:postcode": "125599",
+                "addr:street": "улица Бусиновская Горка",
+                "brand": "Ozon",
+                "brand:wikidata": "Q2365235",
+                "brand:wikipedia": "ru:Ozon.ru",
+                "contact:facebook": "https://www.facebook.com/ozon.ru",
+                "contact:instagram": "https://www.instagram.com/ozonru",
+                "contact:phone": "+7 800 7758181",
+                "contact:vk": "https://vk.com/ozon",
+                "contact:website": "https://www.ozon.ru/",
+                "description": "Постамат Ozon Box 1698 \nСрок хранения заказа: 2 дня",
+                "name": "Ozon",
+                "shop": "outpost"
+            }
+        ]
+    },
+    "bench": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal",
+                "waste": "recycling"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "НОУ «Первая Школа»",
+                "note": "Организация располагается в здании, принадлежащем ГБОУ \"Школа № 1125 имени Я.Н. Федоренко\"",
+                "email": "mail@1school.ru",
+                "level": "3",
+                "phone": "+7 495 4867652",
+                "amenity": "school",
+                "website": "http://www.1school.ru/",
+                "operator": "ЧУ СОШ «Первая Школа»",
+                "addr:city": "Москва",
+                "addr:street": "улица Бусиновская Горка",
+                "description": "Первая школа — частная школа и детский сад",
+                "addr:postcode": "125599",
+                "addr:housenumber": "7 к1"
+            },
+            {
+                "addr:country": "RU",
+                "addr:housenumber": "7 к2",
+                "addr:postcode": "125599",
+                "addr:street": "улица Бусиновская Горка",
+                "building": "school"
+            }
+        ]
+    },
+    "payment_terminal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "payment_terminal",
+                "brand": "Элекснет",
+                "brand:wikidata": "Q4530795",
+                "brand:wikipedia": "ru:Элекснет",
+                "contact:email": "info@elecsnet.ru",
+                "contact:facebook": "https://www.facebook.com/elecsnet",
+                "contact:fax": "+7 495 2872959",
+                "contact:livejournal": "http://elecsnet.livejournal.com",
+                "contact:ok": "https://ok.ru/elecsnet",
+                "contact:phone": "+7 495 2413081;+7 495 7872964",
+                "contact:twitter": "https://twitter.com/elecsnet",
+                "contact:vk": "https://vk.com/elecsnet",
+                "contact:website": "http://elecsnet.ru",
+                "contact:youtube": "https://www.youtube.com/user/myelecsnet",
+                "name": "Элекснет",
+                "operator": "АО «ЭЛЕКСНЕТ»"
+            }
+        ]
+    },
+    "photo": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "photo",
+                "level": "2",
+                "operator": "ИП Данилов А.И.",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "description": "Фото на документы",
+                "addr:postcode": "125599",
+                "addr:housenumber": "12"
+            }
+        ]
+    },
+    "pyrotechnics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Фейерверки",
+                "shop": "pyrotechnics",
+                "email": "info@m-salut.ru",
+                "phone": "+7 495 2110483;+7 926 5666676",
+                "website": "https://m-salut.ru/",
+                "operator": "Компания «Моссалют»",
+                "addr:city": "Москва",
+                "addr:street": "улица Бусиновская Горка",
+                "addr:postcode": "125599",
+                "opening_hours": "Mo-Su 09:00-18:00",
+                "addr:housenumber": "2 с3"
+            }
+        ]
+    },
+    "fountain": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fountain"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "12",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "level": "2",
+                "name": "Sleep and Smile",
+                "shop": "furniture",
+                "website": "https://sleep-and-smile.ru/"
+            }
+        ]
+    },
+    "veterinary": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "1 к1",
+                "addr:postcode": "125599",
+                "addr:street": "улица Бусиновская Горка",
+                "amenity": "veterinary",
+                "contact:facebook": "https://www.facebook.com/smartvet.pro/",
+                "contact:instagram": "https://www.instagram.com/smartvet.pro/",
+                "contact:vk": "https://vk.com/smartvet_pro",
+                "email": "info@smartvet.pro",
+                "name": "Smartvet",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "opening_hours:covid19": "same",
+                "phone": "+7 495 1948252",
+                "website": "https://smartvet.pro/"
+            }
+        ]
+    },
+    "variety_store": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "12",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "brand": "Home Market",
+                "level": "2",
+                "phone": "+7 800 7707076",
+                "shop": "variety_store",
+                "website": "https://homemarket.ru/"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "12",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "level": "1",
+                "shop": "newsagent"
+            },
+            {
+                "shop": "newsagent",
+                "building": "kiosk",
+                "building:levels": "1"
+            },
+            {
+                "shop": "newsagent",
+                "building": "yes"
+            }
+        ]
+    },
+    "tailor": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "tailor"
+            }
+        ]
+    },
+    "mall": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "addr:housenumber": "12",
+                "addr:postcode": "125599",
+                "addr:street": "улица Маршала Федоренко",
+                "building": "yes",
+                "description": "Более 50 - ти магазинов.",
+                "email": "9689181@gmail.com",
+                "name": "Торговый центр «Бусиново»",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "phone": "+7 495 4861406",
+                "shop": "mall",
+                "website": "https://xn--90acrufbqgk2a.xn--p1ai/services"
+            },
+            {
+                "name": "Торговый центр \"Бусинка\"",
+                "shop": "mall",
+                "phone": "+7 495 2348855",
+                "website": "http://tc-businovo.ru/",
+                "building": "yes",
+                "addr:city": "Москва",
+                "addr:street": "улица Бусиновская Горка",
+                "addr:country": "RU",
+                "addr:postcode": "125599",
+                "addr:housenumber": "2 с3"
+            }
+        ]
+    },
+    "service": {
+        "count": 14,
+        "detail": [
+            {
+                "building": "service",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "building:levels": "1",
+                "addr:housenumber": "4 к1 с3"
+            },
+            {
+                "building": "service",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "building:levels": "1",
+                "addr:housenumber": "10 с1"
+            },
+            {
+                "building": "service",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "description": "Хозяйственный корпус",
+                "addr:country": "RU",
+                "addr:postcode": "125599",
+                "addr:housenumber": "7 с1"
+            },
+            {
+                "building": "service",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:country": "RU",
+                "addr:postcode": "125599",
+                "building:levels": "1",
+                "addr:housenumber": "4 с1"
+            },
+            {
+                "level": "1",
+                "power": "substation",
+                "website": "https://www.moesk.ru/#",
+                "building": "service",
+                "operator": "ПАО «МОЭСК»",
+                "addr:city": "Москва",
+                "substation": "minor_distribution",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "building:levels": "1",
+                "addr:housenumber": "8 к4 с1"
+            },
+            {
+                "power": "substation",
+                "website": "https://www.moesk.ru/#",
+                "building": "service",
+                "operator": "ПАО «МОЭСК»",
+                "addr:city": "Москва",
+                "substation": "minor_distribution",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "building:levels": "1",
+                "addr:housenumber": "8 к1с 5"
+            },
+            {
+                "level": "1",
+                "power": "substation",
+                "website": "https://www.moesk.ru/#",
+                "building": "service",
+                "operator": "ПАО «МОЭСК»",
+                "addr:city": "Москва",
+                "substation": "minor_distribution",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "addr:housenumber": "14 к3 с3"
+            },
+            {
+                "building": "service",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "description": "Хозяйственный корпус",
+                "addr:postcode": "125599",
+                "addr:housenumber": "7 с2"
+            },
+            {
+                "level": "1",
+                "power": "substation",
+                "website": "https://www.moesk.ru/#",
+                "building": "service",
+                "operator": "ПАО «МОЭСК»",
+                "addr:city": "Москва",
+                "substation": "minor_distribution",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "building:levels": "1",
+                "addr:housenumber": "14 к1 с3"
+            },
+            {
+                "level": "1",
+                "power": "substation",
+                "website": "https://www.moesk.ru/#",
+                "building": "service",
+                "operator": "ПАО «МОЭСК»",
+                "addr:city": "Москва",
+                "substation": "minor_distribution",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:country": "RU",
+                "addr:postcode": "125599",
+                "building:levels": "1",
+                "addr:housenumber": "4 к1 с4"
+            },
+            {
+                "building": "service",
+                "addr:city": "Москва",
+                "addr:street": "улица Маршала Федоренко",
+                "addr:postcode": "125599",
+                "building:levels": "1",
+                "addr:housenumber": "14 с1"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:postcode": "125599",
+                "addr:street": "улица Бусиновская Горка",
+                "building": "service",
+                "description": "Хозяйственный корпус"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:postcode": "125599",
+                "addr:street": "улица Бусиновская Горка",
+                "building": "service",
+                "description": "Хозяйственный корпус"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:postcode": "125599",
+                "addr:street": "улица Бусиновская Горка",
+                "building": "service",
+                "description": "Хозяйственный корпус"
+            }
+        ]
+    },
+    "ice_cream": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "ice_cream",
+                "building": "kiosk",
+                "building:levels": "1"
+            }
+        ]
+    }
+}

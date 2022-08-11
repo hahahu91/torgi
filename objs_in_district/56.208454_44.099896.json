@@ -1,0 +1,209 @@
+{
+    "residents": 2751,
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket",
+                "website": "http://e5.ru/",
+                "alt_name": "Пятерочка"
+            },
+            {
+                "shop": "supermarket",
+                "building": "yes"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Ждановский 607684",
+                "opening_hours": "Tu-Sa 08:00-13:00,14:00-17:00",
+                "operator": "АО «Почта России»",
+                "ref": "607684"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "police"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Cбербанк",
+                "amenity": "bank",
+                "website": "https://www.sberbank.ru/"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "hospital"
+            }
+        ]
+    },
+    "townhall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Большеельнинский сельсовет",
+                "amenity": "townhall",
+                "opening_hours": "Mo-Fr 08:00-13:00,14:00-16:00"
+            }
+        ]
+    },
+    "parking": {
+        "count": 2,
+        "detail": [
+            {
+                "fee": "no",
+                "access": "yes",
+                "amenity": "parking",
+                "surface": "asphalt"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Взрослая билиотека",
+                "amenity": "library"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "convenience"
+            },
+            {
+                "name": "Магнит",
+                "shop": "convenience",
+                "building": "commercial"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 2,
+        "detail": [
+            {
+                "access": "permissive",
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "stands"
+            },
+            {
+                "access": "permissive",
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "stands"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Диалог",
+                "amenity": "cafe",
+                "opening_hours": "Mo-Su 10:00-23:00"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "cuisine": "burger;hot_dog;kebab",
+                "name": "Шаурма"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Колосок",
+                "building": "kindergarten",
+                "addr:city": "Ждановский",
+                "addr:street": "Школьная улица",
+                "addr:postcode": "607684",
+                "addr:housenumber": "33А"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash",
+                "building": "yes",
+                "addr:housenumber": "31"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "greengrocer",
+                "building": "yes"
+            }
+        ]
+    }
+}

@@ -1,0 +1,939 @@
+{
+    "restaurant": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Ширван",
+                "amenity": "restaurant",
+                "cuisine": "regional"
+            },
+            {
+                "name": "Тан Жен",
+                "phone": "+7 812 7768935",
+                "amenity": "restaurant",
+                "cuisine": "asian",
+                "website": "http://tang-ren.ru",
+                "opening_hours": "Mo-Su 12:00-23:00"
+            }
+        ]
+    },
+    "atm": {
+        "count": 6,
+        "detail": [
+            {
+                "ref": "454336",
+                "level": "1",
+                "indoor": "yes",
+                "amenity": "atm",
+                "operator": "Сбербанк России",
+                "opening_hours": "24/7"
+            },
+            {
+                "ref": "454337",
+                "level": "1",
+                "indoor": "yes",
+                "amenity": "atm",
+                "operator": "Сбербанк России",
+                "opening_hours": "24/7"
+            },
+            {
+                "ref": "454334",
+                "level": "1",
+                "indoor": "yes",
+                "amenity": "atm",
+                "operator": "Сбербанк России",
+                "opening_hours": "24/7"
+            },
+            {
+                "ref": "454333",
+                "level": "1",
+                "indoor": "yes",
+                "amenity": "atm",
+                "operator": "Сбербанк России",
+                "opening_hours": "24/7"
+            },
+            {
+                "ref": "551259",
+                "level": "1",
+                "indoor": "yes",
+                "amenity": "atm",
+                "operator": "Сбербанк России",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "atm",
+                "operator": "Почта Банк",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 10:00-16:00; Su off"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 3,
+        "detail": [
+            {
+                "ref": "86",
+                "indoor": "yes",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "design:year": "2006",
+                "drive_through": "no",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 10:00-16:00; Su off",
+                "post_box:type": "wall",
+                "post_box:design": "ЯПВ-Н-П",
+                "collection_times": "Mo-Sa 07:30"
+            },
+            {
+                "amenity": "post_box",
+                "collection_times": "Mo-Fr 04:55,17:25; Sa 10:20; Su 17:25",
+                "design:year": "2010",
+                "drive_through": "no",
+                "operator": "Почта России",
+                "post_box:design": "ЯПНМ-II-С",
+                "post_box:type": "wall",
+                "ref": "474"
+            },
+            {
+                "amenity": "post_box",
+                "collection_times": "Mo-Fr 04:50,17:20; Sa 10:15; Su 17:20",
+                "design:year": "2010",
+                "drive_through": "no",
+                "operator": "Почта России",
+                "post_box:design": "ЯПНМ-II-С",
+                "post_box:type": "wall",
+                "ref": "472"
+            }
+        ]
+    },
+    "books": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Аристотель",
+                "shop": "books"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 7,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Улица Олеко Дундича",
+                "highway": "bus_stop",
+                "local_ref": "96",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "96",
+                "name": "Улица Олеко Дундича, 39",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "Автобусы 56,57",
+                "name": "Улица Олеко Дундича",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Бухарестская улица",
+                "highway": "bus_stop",
+                "local_ref": "Автобус 96",
+                "public_transport": "platform"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "57",
+                "name": "Улица Олеко Дундича",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "Улица Олеко Дундича",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Улица Олеко Дундича",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "residents": 5092,
+    "pharmacy": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Медея"
+            },
+            {
+                "amenity": "pharmacy",
+                "dispensing": "no",
+                "healthcare": "pharmacy",
+                "name": "Еврофарм"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:phone": "+7 812 4246088",
+                "contact:website": "https://kotonay.ru/",
+                "name": "Котонай",
+                "opening_hours": "24/7",
+                "operator": "Спектр"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Живика",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "phone": "+78122440548",
+                "website": "https://www.aptekazhivika.ru/store/view/78159"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:facebook": "http://facebook.com/aptekivita",
+                "contact:instagram": "https://www.instagram.com/vita_express/",
+                "contact:phone": "+7 800 7550003",
+                "contact:vk": "https://vk.com/aptekivita",
+                "contact:website": "https://vitaexpress.ru/",
+                "healthcare": "pharmacy",
+                "name": "Вита Экспресс",
+                "opening_hours": "Mo-Su 08:00-22:00"
+            }
+        ]
+    },
+    "seafood": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Рыболовный магазин",
+                "shop": "seafood"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Петролайн",
+                "opening_hours": "Mo-Su 11:00-20:00",
+                "shop": "furniture"
+            },
+            {
+                "shop": "furniture"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Селена",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "dentist",
+                "healthcare": "dentist",
+                "name": "Dentley"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Дикси",
+                "brand:en": "Dixy",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "contact:phone": "+7 800 3330201",
+                "contact:vk": "https://vk.com/dixyclub",
+                "contact:youtube": "https://www.youtube.com/user/DixyChannel",
+                "name": "Дикси",
+                "name:ru": "Дикси",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "shop": "supermarket",
+                "website": "https://dixy.ru/"
+            },
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит",
+                "name:de": "Magnit",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "phone": "+7 800 2009002",
+                "shop": "supermarket",
+                "website": "https://magnit-info.ru/"
+            }
+        ]
+    },
+    "veterinary": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Рувет",
+                "amenity": "veterinary",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Ваш магазин продуктов",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "name": "Уютный Магазинчик",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "building": "pavilion",
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "payment_terminal": {
+        "count": 2,
+        "detail": [
+            {
+                "ref": "781279",
+                "level": "1",
+                "indoor": "yes",
+                "amenity": "payment_terminal",
+                "operator": "Лидер",
+                "opening_hours": "09:00-23:00"
+            },
+            {
+                "ref": "10185862",
+                "brand": "Qiwi",
+                "level": "1",
+                "indoor": "yes",
+                "amenity": "payment_terminal",
+                "opening_hours": "09:00-23:00"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 2,
+        "detail": [
+            {
+                "level": "1",
+                "indoor": "yes",
+                "amenity": "vending_machine",
+                "vending": "bubble_gum",
+                "opening_hours": "09:00-23:00"
+            },
+            {
+                "level": "1",
+                "indoor": "yes",
+                "amenity": "vending_machine",
+                "vending": "toys",
+                "opening_hours": "09:00-23:00"
+            }
+        ]
+    },
+    "telephone": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "telephone",
+                "operator": "Ростелеком",
+                "payment:telephone_cards": "yes",
+                "phone": "+7 812 7769369"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "bench": {
+        "count": 52,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "library"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Рулевой",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Рулевой",
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Рулевой",
+                "amenity": "car_wash"
+            }
+        ]
+    },
+    "stationery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Графит",
+                "shop": "stationery"
+            }
+        ]
+    },
+    "agrarian": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дом семян",
+                "shop": "agrarian"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Магнит Косметик",
+                "brand:en": "Magnit Cosmetics",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит Косметик",
+                "name:en": "Magnit Cosmetics",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 25,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "service": {
+        "count": 13,
+        "detail": [
+            {
+                "addr:housenumber": "152 к3",
+                "addr:street": "Бухарестская улица",
+                "building": "service",
+                "man_made": "works"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "addr:letter": "Б",
+                "addr:street": "улица Олеко Дундича",
+                "addr:housenumber": "36 к3 литБ"
+            },
+            {
+                "building": "service",
+                "man_made": "works",
+                "addr:street": "улица Олеко Дундича",
+                "description": "Тепловая станция",
+                "addr:housenumber": "38 к2"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "addr:letter": "Б",
+                "addr:street": "улица Олеко Дундича",
+                "addr:housenumber": "39 к1 литБ"
+            },
+            {
+                "ref": "8770",
+                "power": "substation",
+                "branch": "Кабельная сеть",
+                "voltage": "10000;400",
+                "building": "service",
+                "location": "indoor",
+                "operator": "Ленэнерго",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "addr:letter": "Б",
+                "addr:street": "Малая Карпатская улица",
+                "building:levels": "1",
+                "addr:housenumber": "13 литБ"
+            },
+            {
+                "building": "service",
+                "power": "substation"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "addr:letter": "Б",
+                "addr:street": "Бухарестская улица",
+                "addr:housenumber": "152 к2 литБ"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "addr:letter": "Б",
+                "addr:street": "улица Олеко Дундича",
+                "addr:housenumber": "35 к3 литБ"
+            },
+            {
+                "ref": "8768",
+                "power": "substation",
+                "branch": "Кабельная сеть",
+                "voltage": "10000;400",
+                "building": "service",
+                "location": "indoor",
+                "operator": "Ленэнерго",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "addr:street": "улица Олеко Дундича",
+                "building:levels": "1",
+                "addr:housenumber": "36 к1 литБ"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "addr:letter": "Б",
+                "addr:street": "Бухарестская улица",
+                "addr:housenumber": "150 литБ"
+            },
+            {
+                "ref": "8775",
+                "power": "substation",
+                "branch": "Кабельная сеть",
+                "voltage": "10000;400",
+                "building": "service",
+                "location": "indoor",
+                "operator": "Ленэнерго",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "addr:letter": "Б",
+                "addr:street": "Малая Карпатская улица",
+                "building:levels": "1",
+                "addr:housenumber": "13 литБ"
+            },
+            {
+                "building": "service",
+                "power": "substation"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "39 к2",
+                "addr:street": "улица Олеко Дундича",
+                "building": "kindergarten",
+                "building:cladding": "panel",
+                "building:levels": "2",
+                "design:ref": "2С-04-3",
+                "height": "8"
+            },
+            {
+                "building": "kindergarten",
+                "addr:street": "улица Олеко Дундича",
+                "addr:housenumber": "35 к2"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "34 к1 литА",
+                "addr:letter": "А",
+                "addr:street": "улица Олеко Дундича",
+                "building": "commercial",
+                "building:levels": "2"
+            }
+        ]
+    },
+    "marketplace": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "marketplace",
+                "building": "pavilion",
+                "name": "Торговые ряды"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "building": "pavilion",
+                "name": "Столовая"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "greengrocer",
+                "building": "yes"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "yes",
+                "building:levels": "1",
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "shelter": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "shelter",
+                "building": "yes",
+                "shelter_type": "public_transport"
+            },
+            {
+                "amenity": "shelter",
+                "building": "yes",
+                "shelter_type": "public_transport"
+            },
+            {
+                "amenity": "shelter",
+                "building": "yes",
+                "shelter_type": "weather_shelter"
+            },
+            {
+                "amenity": "shelter",
+                "building": "yes",
+                "shelter_type": "weather_shelter"
+            },
+            {
+                "amenity": "shelter",
+                "building": "yes",
+                "shelter_type": "weather_shelter"
+            }
+        ]
+    }
+}

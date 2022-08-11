@@ -1,0 +1,638 @@
+{
+    "residents": 9450,
+    "pet": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Магнитогорск",
+                "addr:housenumber": "108",
+                "addr:postcode": "455026",
+                "addr:street": "улица Суворова",
+                "name": "ZooСфера",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00",
+                "phone": "+7 3519 203635",
+                "shop": "pet"
+            },
+            {
+                "name": "Пушистик",
+                "shop": "pet"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Магнитогорск",
+                "addr:housenumber": "21",
+                "addr:postcode": "455026",
+                "addr:street": "улица им. газеты Правда",
+                "name": "Информика",
+                "shop": "computer"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Оптима",
+                "phone": "+7 3519 237373",
+                "amenity": "pharmacy",
+                "addr:city": "Магнитогорск",
+                "addr:street": "проспект Карла Маркса",
+                "addr:postcode": "455044",
+                "addr:housenumber": "89"
+            },
+            {
+                "name": "Оптима",
+                "phone": "+7 3519 370749",
+                "amenity": "pharmacy",
+                "addr:city": "Магнитогорск",
+                "addr:street": "проспект Карла Маркса",
+                "addr:postcode": "455044",
+                "addr:housenumber": "81"
+            },
+            {
+                "addr:city": "Магнитогорск",
+                "addr:housenumber": "11",
+                "addr:postcode": "455044",
+                "addr:street": "улица им. газеты Правда",
+                "amenity": "pharmacy",
+                "name": "Уралмедсервис"
+            },
+            {
+                "name": "Аптекоуправление",
+                "amenity": "pharmacy",
+                "dispensing": "yes"
+            },
+            {
+                "name": "Областной аптечный склад",
+                "amenity": "pharmacy",
+                "website": "http://oac74.ru/"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магнитка food",
+                "amenity": "cafe",
+                "addr:city": "Магнитогорск",
+                "addr:street": "проспект Карла Маркса",
+                "addr:postcode": "455044",
+                "addr:housenumber": "91"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Магнитогорск",
+                "addr:housenumber": "43",
+                "addr:postcode": "455026",
+                "addr:street": "улица им. газеты Правда",
+                "amenity": "bar",
+                "name": "Пристань",
+                "phone": "+7 3519 204700"
+            }
+        ]
+    },
+    "atm": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "КУБ",
+                "addr:city": "Магнитогорск",
+                "addr:street": "проспект Карла Маркса",
+                "addr:postcode": "455044",
+                "addr:housenumber": "91"
+            },
+            {
+                "amenity": "atm",
+                "operator": "Сбербанк",
+                "website": "https://www.sberbank.ru/"
+            },
+            {
+                "amenity": "atm",
+                "operator": "КУБ",
+                "addr:city": "Магнитогорск",
+                "addr:street": "улица Дружбы",
+                "addr:postcode": "455026",
+                "addr:housenumber": "30"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Куранты",
+                "shop": "clothes",
+                "addr:city": "Магнитогорск",
+                "addr:street": "проспект Карла Маркса",
+                "addr:postcode": "455026",
+                "addr:housenumber": "98"
+            }
+        ]
+    },
+    "car": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Drive",
+                "shop": "car",
+                "addr:city": "Магнитогорск",
+                "addr:street": "проспект Карла Маркса",
+                "addr:postcode": "455026",
+                "addr:housenumber": "102"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:ru": "Пятёрочка",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "cafe": "bistro",
+                "name": "Питерская шаурма",
+                "phone": "+7 3519 471888",
+                "amenity": "fast_food",
+                "cuisine": "arabic;shawarma",
+                "website": "https://vk.com/shaurmapiterskaya",
+                "delivery": "yes",
+                "addr:city": "Магнитогорск",
+                "fast_food": "shawarma",
+                "addr:street": "проспект Карла Маркса",
+                "addr:postcode": "455026",
+                "addr:housenumber": "102"
+            },
+            {
+                "name": "Танго-пицца",
+                "amenity": "fast_food",
+                "cuisine": "pizza",
+                "addr:city": "Магнитогорск",
+                "addr:street": "проспект Карла Маркса",
+                "addr:postcode": "455044",
+                "addr:housenumber": "91"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Парк трёх поколений",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Парк трёх поколений",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Куранты",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Куранты",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Дружбы",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "yes",
+                "amenity": "parking",
+                "parking": "surface"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Магнитогорск",
+                "addr:country": "RU",
+                "addr:housenumber": "109",
+                "addr:postcode": "455026",
+                "addr:street": "улица Суворова",
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:email": "client@russianpost.ru",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "contact:instagram": "https://www.instagram.com/ruspostofficial",
+                "contact:ok": "https://ok.ru/ruspostofficial",
+                "contact:twitter": "https://twitter.com/ruspostofficial",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Магнитогорск 455026",
+                "opening_hours": "Mo-Fr 08:00-13:00,14:00-20:00; Sa 09:00-13:00,14:00-18:00",
+                "operator": "АО «Почта России»",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России",
+                "ref": "455026"
+            }
+        ]
+    },
+    "public_building": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Земельная кадастровая палата",
+                "amenity": "public_building"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 11,
+        "detail": [
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            },
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            },
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            },
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            },
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            },
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            },
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            },
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "102",
+                "addr:postcode": "455026",
+                "addr:street": "улица Суворова",
+                "name": "Красное & Белое",
+                "opening_hours": "Sa-Su 9:00-22:05",
+                "shop": "alcohol",
+                "website": "http://www.krasnoe-beloe.ru"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "access": "yes",
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "pitch": {
+        "count": 1,
+        "detail": [
+            {
+                "lit": "no",
+                "sport": "athletics",
+                "leisure": "pitch",
+                "surface": "unpaved"
+            }
+        ]
+    },
+    "bench": {
+        "count": 24,
+        "detail": [
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "amenity": "bench",
+                "material": "wood"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "bakery"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "brand": "Почта Банк",
+                "brand:en": "Post Bank",
+                "brand:wikidata": "Q24930461",
+                "brand:wikipedia": "en:Post Bank (Russia)",
+                "name": "Почта Банк",
+                "name:en": "Post Bank"
+            }
+        ]
+    },
+    "service": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "service",
+                "addr:city": "Магнитогорск",
+                "addr:postcode": "455026",
+                "building:levels": "1"
+            },
+            {
+                "building": "service",
+                "addr:city": "Магнитогорск",
+                "addr:postcode": "455026",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "mall": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Магнитогорск",
+                "addr:housenumber": "25",
+                "addr:postcode": "455026",
+                "addr:street": "улица им. газеты Правда",
+                "building": "commercial",
+                "building:levels": "3",
+                "name": "Пятёрочка",
+                "opening_hours": "Mo-Su 08:30-22:30",
+                "shop": "mall"
+            },
+            {
+                "name": "Монетка",
+                "shop": "mall",
+                "building": "commercial",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Д/с 153",
+                "phone": "+7 3519 371335",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:city": "Магнитогорск",
+                "addr:street": "проспект Карла Маркса",
+                "addr:postcode": "455044",
+                "building:levels": "2",
+                "addr:housenumber": "91/1"
+            },
+            {
+                "name": "Д/с 108",
+                "phone": "+7 3519 26????",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:city": "Магнитогорск",
+                "addr:street": "улица Дружбы",
+                "addr:postcode": "455026",
+                "building:levels": "2",
+                "addr:housenumber": "16/1"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Магнитогорск",
+                "addr:housenumber": "106",
+                "addr:postcode": "455026",
+                "addr:street": "проспект Карла Маркса",
+                "building": "school",
+                "building:levels": "3",
+                "name": "Многопрофильный лицей №1",
+                "roof:shape": "hipped"
+            }
+        ]
+    },
+    "clock": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Куранты",
+                "amenity": "clock",
+                "display": "analog",
+                "tourism": "attraction",
+                "building": "yes",
+                "man_made": "tower",
+                "visibility": "area"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:city": "Магнитогорск",
+                "addr:street": "проспект Карла Маркса",
+                "building:levels": "1",
+                "addr:housenumber": "81/1"
+            }
+        ]
+    }
+}

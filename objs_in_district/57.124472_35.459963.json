@@ -1,0 +1,259 @@
+{
+    "residents": 2490,
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ленолиум",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "doctors",
+                "description": "Амбулатория"
+            },
+            {
+                "name": "Лаборатория, Стоматология",
+                "amenity": "doctors"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ДК им. 40-летия Победы",
+                "amenity": "community_centre"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "college": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Торжокский педагогический колледж им. Ф.В. Бадюлина Учебный корпус",
+                "amenity": "college"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "cafe"
+            },
+            {
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Желтуха",
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "alt_name": "Пятерочка",
+                "alt_name:ru": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "email": "vopros@5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterchka",
+                "name:ru": "Пятёрочка",
+                "shop": "supermarket"
+            },
+            {
+                "alt_name": "Пятерочка",
+                "alt_name:ru": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "email": "vopros@5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Связной",
+                "shop": "mobile_phone"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 1,
+        "detail": [
+            {
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "bench": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Бристоль",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "school",
+                "addr:street": "Комсомольская улица",
+                "building:parts": "horizontal",
+                "building:levels": "3",
+                "addr:housenumber": "51"
+            },
+            {
+                "building": "school",
+                "roof:shape": "hipped",
+                "roof:colour": "#CD5C3C",
+                "roof:height": "2.5",
+                "roof:material": "metal",
+                "building:colour": "#BBE0F7",
+                "building:height": "7",
+                "building:levels": "2",
+                "building:material": "plaster"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "commercial",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist",
+                "building": "retail"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Лихославльская библиотека им. Владимира Соколова",
+                "amenity": "library",
+                "building": "yes",
+                "addr:city": "Лихославль",
+                "addr:street": "Первомайская улица",
+                "addr:postcode": "171210",
+                "roof:material": "tar_paper",
+                "building:levels": "2",
+                "addr:housenumber": "16"
+            }
+        ]
+    },
+    "service": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "service"
+            },
+            {
+                "building": "service"
+            }
+        ]
+    }
+}

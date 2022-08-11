@@ -1,0 +1,336 @@
+{
+    "residents": 7488,
+    "pharmacy": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Алголь",
+                "phone": "+7 4855 266477"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Витаминка",
+                "phone": "+7 4852 225745"
+            }
+        ]
+    },
+    "pub": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Жигули",
+                "amenity": "pub"
+            },
+            {
+                "name": "Робинзон",
+                "amenity": "pub"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Виктория",
+                "amenity": "restaurant"
+            },
+            {
+                "name": "Сэ Шер",
+                "amenity": "restaurant"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Винный склад",
+                "shop": "alcohol"
+            },
+            {
+                "name": "Алмаз",
+                "shop": "alcohol",
+                "name:ru": "Алмаз"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Больница имени Пирогова",
+                "highway": "bus_stop",
+                "location": "checked"
+            },
+            {
+                "name": "улица Блюхера",
+                "highway": "bus_stop",
+                "location": "checked"
+            },
+            {
+                "name": "улица Блюхера",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Д/К \"Полиграф\"",
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Хлеб",
+                "shop": "convenience"
+            },
+            {
+                "name": "Астория",
+                "shop": "convenience"
+            },
+            {
+                "name": "Гермес",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Атрус",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ГУЗ Рыбинский психоневрологический диспансер",
+                "amenity": "hospital"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Автозапчасти",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "website": "http://magnit-info.ru",
+                "opening_hours": "Mo-Su 09:30-21:30"
+            },
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "website": "http://magnit-info.ru",
+                "opening_hours": "Mo-Su 09:30-21:30"
+            },
+            {
+                "name": "Дружба",
+                "shop": "supermarket",
+                "building": "yes",
+                "addr:city": "Рыбинск",
+                "addr:street": "улица Блюхера",
+                "addr:country": "RU",
+                "building:levels": "2",
+                "addr:housenumber": "12"
+            },
+            {
+                "name": "Верный",
+                "shop": "supermarket",
+                "building": "yes",
+                "addr:city": "Рыбинск",
+                "addr:street": "улица Расплётина",
+                "addr:country": "RU",
+                "addr:housenumber": "22"
+            }
+        ]
+    },
+    "toys": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "toys"
+            }
+        ]
+    },
+    "playground": {
+        "count": 4,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Роспечать",
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Установочный центр \"ДиКон АВТО\"",
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "bar": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Зебра",
+                "amenity": "bar"
+            },
+            {
+                "name": "Бар 1878",
+                "amenity": "bar",
+                "name:ru": "Бар 1878",
+                "addr:street": "улица Блюхера",
+                "addr:housenumber": "1"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ярославский бройлер",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский секонд-хенд",
+                "shop": "clothes",
+                "second_hand": "yes"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Цветы",
+                "shop": "florist",
+                "name:ru": "Цветы",
+                "addr:street": "улица Куйбышева",
+                "opening_hours": "24/7",
+                "addr:housenumber": "9"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магнит косметик",
+                "shop": "cosmetics",
+                "name:ru": "Магнит косметик",
+                "addr:street": "Луговая улица",
+                "addr:housenumber": "3"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "operator": "Промсвязьбанк"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Школа № 32 корпус 2",
+                "source": "ГИС Рыбинск",
+                "amenity": "school",
+                "building": "yes",
+                "addr:city": "Рыбинск",
+                "addr:street": "улица Куйбышева",
+                "sourcedb:id": "2110018204",
+                "addr:country": "RU",
+                "building:levels": "3",
+                "addr:housenumber": "26"
+            },
+            {
+                "name": "Школа № 32 корпус 1",
+                "source": "ГИС Рыбинск",
+                "amenity": "school",
+                "building": "yes",
+                "addr:city": "Рыбинск",
+                "addr:street": "Моховая улица",
+                "sourcedb:id": "2110018237",
+                "addr:country": "RU",
+                "addr:housenumber": "18"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сластена",
+                "amenity": "cafe",
+                "building": "yes",
+                "addr:street": "улица Куйбышева"
+            }
+        ]
+    }
+}

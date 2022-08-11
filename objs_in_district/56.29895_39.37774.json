@@ -1,0 +1,313 @@
+{
+    "doityourself": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "doityourself"
+            },
+            {
+                "name": "Задов сервис",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "supermarket"
+            },
+            {
+                "name": "\"Линия тока\"",
+                "shop": "supermarket",
+                "operator": "ИП Тяжельников",
+                "addr:street": "улица 3-го Интернационала",
+                "addr:housenumber": "64"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "максавит",
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:phone": "+7 800 1008063;+7 915 7600171",
+                "contact:website": "http://apteka-nf.ru/",
+                "name": "Надежда-Фарм",
+                "opening_hours": "Mo,Su 09:00-18:00;Tu-Sa 07:30-19:00",
+                "operator": "ООО ХМ Аптека"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:phone": "+7 800 1008063;+7 915 7600125",
+                "contact:website": "http://apteka-nf.ru/",
+                "name": "Надежда-Фарм",
+                "opening_hours": "Mo,Su 09:00-18:00;Tu-Sa 07:30-19:00",
+                "operator": "ООО ХМ Аптека"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Отделение полиции",
+                "amenity": "police"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Купец",
+                "shop": "convenience"
+            },
+            {
+                "name": "Орбита",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "601785",
+                "name": "Отделение связи №601785",
+                "amenity": "post_office",
+                "alt_name": "Центральный почтамп",
+                "operator": "Почта России",
+                "contact:phone": "+7 49245 22263",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-18:00; Su 09:00-14:00",
+                "contact:website": "http://www.russianpost.ru"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дворец спорта",
+                "leisure": "sports_centre"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская поликлиника",
+                "amenity": "hospital"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Юность",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Детская поликлиника",
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Стоматологическая поликлиника",
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "kindergarten"
+            },
+            {
+                "name": "Детский сад №3",
+                "source": "IRS",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:city": "Кольчугино",
+                "addr:street": "улица 3-го Интернационала",
+                "addr:country": "RU",
+                "addr:street2": "улица 50 лет СССР",
+                "addr:postcode": "603011",
+                "addr:housenumber": "68",
+                "addr:housenumber2": "1"
+            }
+        ]
+    },
+    "parking": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "greengrocer"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "hifi": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hifi"
+            }
+        ]
+    },
+    "bar": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bar"
+            },
+            {
+                "amenity": "bar"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Хоум кредит",
+                "amenity": "bank"
+            }
+        ]
+    },
+    "nightclub": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Paradise",
+                "amenity": "nightclub"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "alt_name": "ДНС",
+                "brand": "DNS",
+                "brand:en": "DNS",
+                "brand:ru": "ДНС",
+                "brand:wikidata": "Q4036922",
+                "brand:wikipedia": "DNS (сеть магазинов)",
+                "contact:facebook": "https://www.facebook.com/dnsshop",
+                "contact:phone": "+7 800 7707999",
+                "contact:twitter": "https://twitter.com/dnsshop",
+                "contact:vk": "https://vk.com/dnsstore",
+                "contact:website": "http://dns-shop.ru/",
+                "contact:youtube": "https://www.youtube.com/c/DNSSHOPvideo",
+                "name": "DNS",
+                "name:en": "DNS",
+                "name:ru": "ДНС",
+                "opening_hours": "Mo-Su 09:00-19:00",
+                "operator": "ДНС Ритейл",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "residents": 354,
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Универмаг Добровольский",
+                "shop": "mall",
+                "building": "yes",
+                "addr:city": "Кольчугино",
+                "addr:street": "улица Добровольского",
+                "addr:country": "RU",
+                "addr:housenumber": "6"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service"
+            }
+        ]
+    }
+}

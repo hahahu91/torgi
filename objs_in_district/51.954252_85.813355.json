@@ -1,0 +1,12 @@
+{
+    "residents": 21,
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "convenience",
+                "building": "yes"
+            }
+        ]
+    }
+}

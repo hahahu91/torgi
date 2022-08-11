@@ -1,0 +1,270 @@
+{
+    "residents": 10552,
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Улица Рыкачёва",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Улица Менделеева",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Улица Нефтяников",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Бытовые товары",
+                "official_name": "Бытовые товары",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Улица Рыкачёва",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fuel"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "name": "Сбербанк",
+                "website": "https://www.sberbank.ru/"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "car_repair"
+            },
+            {
+                "name": "СТО",
+                "shop": "car_repair",
+                "building": "yes"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "kiosk",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Pizza&Pasta",
+                "amenity": "fast_food",
+                "cuisine": "pizza"
+            },
+            {
+                "name": "Шаурма",
+                "amenity": "fast_food"
+            },
+            {
+                "name": "Шаурма",
+                "amenity": "fast_food",
+                "cuisine": "asian",
+                "building": "yes",
+                "takeaway": "only"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Высшая лига",
+                "shop": "convenience"
+            },
+            {
+                "name": "Магнит",
+                "shop": "convenience"
+            },
+            {
+                "name": "Магнит",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience",
+                "building": "retail",
+                "building:levels": "1"
+            },
+            {
+                "name": "Продуктовый",
+                "shop": "convenience",
+                "building": "yes",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Япончик",
+                "amenity": "restaurant",
+                "cuisine": "japanese",
+                "takeaway": "yes"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "автомойка",
+                "amenity": "car_wash"
+            },
+            {
+                "name": "автомойка",
+                "amenity": "car_wash"
+            },
+            {
+                "amenity": "car_wash"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Аптека",
+                "amenity": "pharmacy",
+                "addr:street": "улица Гагарина"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:facebook": "http://facebook.com/aptekivita",
+                "contact:instagram": "https://www.instagram.com/vita_express/",
+                "contact:phone": "+7 800 7550003",
+                "contact:vk": "https://vk.com/aptekivita",
+                "contact:website": "https://vitaexpress.ru/",
+                "name": "Вита Экспресс",
+                "opening_hours": "Mo-Sa 09:00-21:00;Su 09:00-19:00"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "кафе Лоза",
+                "amenity": "cafe",
+                "addr:street": "улица Менделеева"
+            },
+            {
+                "name": "Нефтяников",
+                "phone": "+7 909 2761314",
+                "amenity": "cafe",
+                "cuisine": "russian;breakfast;local",
+                "name:en": "Neftyanikov",
+                "opening_hours": "Mo-Sa 09:00-21:00",
+                "internet_access": "wlan"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Кухни Мария",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "wine": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Красное & белое",
+                "shop": "wine",
+                "name:ru": "Красное & белое"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Баня № 2",
+                "leisure": "sauna",
+                "name:ru": "Баня № 2"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "Mo-Fr 08:00-21:00;Sa-Su 09:00-20:00",
+                "operator": "Промсвязьбанк"
+            }
+        ]
+    },
+    "social_facility": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "КЦСОН Красноперекопского района",
+                "height": "6",
+                "amenity": "social_facility",
+                "building": "yes",
+                "addr:street": "улица Гагарина",
+                "roof:material": "tar_paper",
+                "building:levels": "2",
+                "social_facility": "outreach",
+                "addr:housenumber": "32А",
+                "building:cladding": "brick",
+                "social_facility:for": "disabled;senior"
+            }
+        ]
+    }
+}

@@ -1,0 +1,533 @@
+{
+    "residents": 6180,
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Поликлиника",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Поликлиника",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Стоматология",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Магазин Элегант",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Магазин Элегант",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "ул. Зурабова",
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "food": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "11",
+                "addr:place": "6-й микрорайон",
+                "addr:region": "Иркутская область",
+                "is_in": "Иркутская область",
+                "name": "Абсолют 24часа",
+                "shop": "food"
+            }
+        ]
+    },
+    "atm": {
+        "count": 6,
+        "detail": [
+            {
+                "note": "Альфа-банк, ВТБ24, Дальневосточный",
+                "fixme": "странное сочетание оператора и банков в name",
+                "amenity": "atm",
+                "operator": "Сбербанк"
+            },
+            {
+                "name": "Сбербанк",
+                "amenity": "atm"
+            },
+            {
+                "name": "Сбербанк",
+                "amenity": "atm"
+            },
+            {
+                "amenity": "atm",
+                "operator": "Банк ВТБ (ПАО)",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Уралсиб, 24 часа",
+                "amenity": "atm"
+            },
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "Mo-Fr 07:30-19:00;Sa 10:00-14:00",
+                "operator": "Промсвязьбанк"
+            }
+        ]
+    },
+    "parking": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:place": "6-й микрорайон",
+                "addr:region": "Иркутская область",
+                "amenity": "parking",
+                "is_in": "Иркутская область",
+                "name": "ГК Молодежный",
+                "parking": "underground"
+            },
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "17",
+                "addr:place": "6-й микрорайон",
+                "addr:region": "Иркутская область",
+                "amenity": "parking",
+                "is_in": "Иркутская область",
+                "name": "ГК"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дева",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "9",
+                "addr:place": "6-й микрорайон",
+                "addr:region": "Иркутская область",
+                "is_in": "Иркутская область",
+                "name": "Енисей",
+                "shop": "convenience"
+            },
+            {
+                "name": "Восьмой",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "department_store": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "19",
+                "addr:place": "6-й микрорайон",
+                "addr:region": "Иркутская область",
+                "is_in": "Иркутская область",
+                "name": "Лола",
+                "shop": "department_store"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "12",
+                "addr:place": "микрорайон 6А",
+                "addr:region": "Иркутская область",
+                "amenity": "hospital",
+                "is_in": "Иркутская область",
+                "name": "МАНО, Поликлиника №3"
+            }
+        ]
+    },
+    "bank": {
+        "count": 4,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "16",
+                "addr:place": "6-й микрорайон",
+                "addr:region": "Иркутская область",
+                "amenity": "bank",
+                "is_in": "Иркутская область",
+                "name": "Пробизнесбанк, Лайф"
+            },
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "2",
+                "addr:place": "7-й микрорайон",
+                "addr:region": "Иркутская область",
+                "amenity": "bank",
+                "is_in": "Иркутская область",
+                "name": "Уралсиб"
+            },
+            {
+                "amenity": "bank",
+                "contact:facebook": "https://www.facebook.com/atb.su",
+                "contact:instagram": "https://www.instagram.com/atb.su/",
+                "contact:ok": "http://ok.ru/atb.su",
+                "contact:phone": "+7 800 7758888",
+                "contact:twitter": "https://twitter.com/atb_su",
+                "contact:vk": "http://vk.com/atb_su",
+                "contact:website": "https://www.atb.su/",
+                "contact:youtube": "https://www.youtube.com/user/atbbank1929",
+                "name": "Азиатско-Тихоокеанский банк",
+                "opening_hours": "Mo-Fr 09:00-19:00;Sa 10:00-16:00;Su 10:00-15:00"
+            },
+            {
+                "amenity": "bank",
+                "name": "Совкомбанк"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Стоматология",
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "2",
+                "addr:place": "7-й микрорайон",
+                "addr:region": "Иркутская область",
+                "amenity": "service",
+                "is_in": "Иркутская область",
+                "name": "Востокнефтепровод"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "36",
+                "addr:place": "7-й микрорайон",
+                "addr:region": "Иркутская область",
+                "is_in": "Иркутская область",
+                "name": "Командор",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Слата",
+                "shop": "supermarket",
+                "opening_hours": "Mo-Su 09:00-02:00"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "8",
+                "addr:place": "8-й микрорайон",
+                "addr:postcode": "665831",
+                "addr:region": "Иркутская область",
+                "amenity": "library",
+                "is_in": "Иркутская область",
+                "name": "Библиотека №6"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "8",
+                "addr:place": "8-й микрорайон",
+                "addr:postcode": "665831",
+                "addr:region": "Иркутская область",
+                "amenity": "post_office",
+                "is_in": "Иркутская область",
+                "name": "Почтовое отделение №31"
+            },
+            {
+                "amenity": "post_office",
+                "name": "Почтовое отделение №32"
+            }
+        ]
+    },
+    "yes": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "8",
+                "addr:place": "8-й микрорайон",
+                "addr:region": "Иркутская область",
+                "is_in": "Иркутская область",
+                "name": "ТЦ Элегант",
+                "shop": "yes"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "8",
+                "addr:place": "8-й микрорайон",
+                "addr:region": "Иркутская область",
+                "amenity": "pharmacy",
+                "is_in": "Иркутская область",
+                "name": "Фармация"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Фармэконом"
+            }
+        ]
+    },
+    "books": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Продалит",
+                "shop": "books"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Курумкан"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "restaurant",
+                "name": "Шоколадный рай"
+            }
+        ]
+    },
+    "bench": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "clinic",
+                "name": "Юнилаб"
+            }
+        ]
+    },
+    "bar": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bar",
+                "name": "Пивная заправка"
+            },
+            {
+                "amenity": "bar",
+                "name": "ПROБKИ38"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "АвтоТех",
+                "shop": "car_parts"
+            },
+            {
+                "name": "Запчасти из Тольятти",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "kindergarten",
+                "name": "Детский сад №49"
+            },
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "8",
+                "addr:place": "6-й микрорайон",
+                "addr:region": "Иркутская область",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "is_in": "Иркутская область",
+                "name": "Детский сад №55"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 6,
+        "detail": [
+            {
+                "shop": "kiosk",
+                "building": "yes"
+            },
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "15",
+                "addr:place": "6-й микрорайон",
+                "addr:region": "Иркутская область",
+                "building": "retail",
+                "building:levels": "1",
+                "shop": "kiosk"
+            },
+            {
+                "name": "продукты",
+                "shop": "kiosk",
+                "building": "yes"
+            },
+            {
+                "building": "yes",
+                "name": "Бельгийские пекарни",
+                "opening_hours": "09:00-20:00",
+                "shop": "kiosk"
+            },
+            {
+                "building": "yes",
+                "building:levels": "1",
+                "name": "ЗакуСити",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "shop": "kiosk"
+            },
+            {
+                "building": "yes",
+                "name": "Сарсенбаев",
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "garages": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "garages",
+                "building": "garages",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "25",
+                "addr:place": "6-й микрорайон",
+                "addr:region": "Иркутская область",
+                "building": "school",
+                "building:levels": "4",
+                "is_in": "Иркутская область",
+                "name": "Школа №4"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "8",
+                "addr:place": "8-й микрорайон",
+                "addr:postcode": "665831",
+                "addr:region": "Иркутская область",
+                "building": "commercial",
+                "building:levels": "2",
+                "is_in": "Иркутская область",
+                "shop": "mall"
+            }
+        ]
+    },
+    "shelter": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "shelter",
+                "building": "retail",
+                "name": "Саянский бройлер",
+                "shelter_type": "pavilion"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "greengrocer",
+                "building": "yes"
+            },
+            {
+                "building": "roof",
+                "shop": "greengrocer"
+            }
+        ]
+    }
+}

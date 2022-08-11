@@ -1,0 +1,190 @@
+{
+    "residents": 3111,
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Гастроном \"Аллея\"",
+                "shop": "convenience"
+            },
+            {
+                "name": "Пятёрочка",
+                "shop": "convenience",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "alt_name": "Пятерочка",
+                "contact:phone": "+7 965 7909233",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "contact:website": "http://pyaterochka.ru/"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Новгородский",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Галактика",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Zer Gut",
+                "amenity": "restaurant"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "brand:wikidata": "Q177054",
+                "brand:wikipedia": "ru:Burger King",
+                "contact:email": "bk-219@burgerking.ru",
+                "contact:phone": "+7 911 1422013",
+                "contact:website": "https://burgerking.ru/",
+                "cuisine": "burger",
+                "internet_access": "wlan",
+                "internet_access:fee": "no",
+                "name": "Бургер Кинг",
+                "name:en": "Burger King",
+                "name:ru": "Бургер Кинг",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "ref": "219",
+                "takeaway": "yes"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "K-Dens",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Новгородская",
+                "highway": "bus_stop",
+                "trolleybus": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Новгородская",
+                "trolleybus": "yes",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "АлюСтрой",
+                "shop": "doityourself",
+                "website": "https://alu-stroy.ru/",
+                "addr:street": "Новгородская улица",
+                "addr:housenumber": "4"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Вологодский Многопрофильный Лицей",
+                "amenity": "school"
+            },
+            {
+                "ref": "28",
+                "name": "Школа №28",
+                "amenity": "school",
+                "building": "yes",
+                "addr:city": "Вологда",
+                "addr:street": "улица Тендрякова",
+                "addr:country": "RU",
+                "building:levels": "3",
+                "addr:housenumber": "46"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "ref": "85",
+                "name": "Детский сад №85 «Подснежник»",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:city": "Вологда",
+                "addr:street": "Новгородская улица",
+                "addr:country": "RU",
+                "addr:housenumber": "7А"
+            },
+            {
+                "building": "kindergarten",
+                "addr:city": "Вологда",
+                "addr:street": "Ленинградская улица",
+                "addr:country": "RU",
+                "building:levels": "2",
+                "addr:housenumber": "87А"
+            }
+        ]
+    },
+    "university": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ВИПЭ (Вологодский институт права и экономики)",
+                "amenity": "university",
+                "building": "yes",
+                "addr:city": "Вологда",
+                "addr:street": "улица Щетинина",
+                "addr:country": "RU",
+                "building:levels": "3",
+                "addr:housenumber": "2"
+            }
+        ]
+    },
+    "theatre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ДК Подшипникового завода",
+                "amenity": "theatre",
+                "building": "yes",
+                "addr:city": "Вологда",
+                "short_name": "ДКПЗ",
+                "addr:street": "Ленинградская улица",
+                "addr:country": "RU",
+                "addr:housenumber": "89"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ТП-442",
+                "power": "substation",
+                "source": "oets35.ru",
+                "building": "service",
+                "building:levels": "1"
+            }
+        ]
+    }
+}

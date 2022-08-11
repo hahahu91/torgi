@@ -1,0 +1,2984 @@
+{
+    "residents": 5076,
+    "restaurant": {
+        "count": 28,
+        "detail": [
+            {
+                "alt_name": "2 палочки",
+                "amenity": "restaurant",
+                "contact:vk": "https://vk.com/dvepalochki",
+                "cuisine": "japanese;sushi",
+                "internet_access": "wlan",
+                "name": "Две палочки",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "payment:visa_debit": "yes",
+                "payment:visa_electron": "yes",
+                "phone": "+7 812 7751212",
+                "takeaway": "yes",
+                "website": "http://dvepalochki.ru/restaurants/nevskiy-pr-47/"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:instagram": "https://www.instagram.com/leonardo_restoran/",
+                "name": "Леонардо",
+                "name:en": "Leonardo",
+                "name:ru": "Леонардо",
+                "opening_hours": "12:00-24:00",
+                "operator": "ООО «Левикс»",
+                "phone": "+7 812 5722628",
+                "website": "https://leonardo-restoran.ru/"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:email": "ads@evrasia.spb.ru",
+                "contact:phone": "+7 812 3103879",
+                "contact:vk": "https://vk.com/evrasiaspb",
+                "contact:website": "https://evrasia.spb.ru/",
+                "cuisine": "sushi",
+                "name": "Евразия",
+                "opening_hours": "Mo-Su 12:00-05:00",
+                "operator": "Евразия",
+                "smoking": "yes"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:email": "ooo_kosta@inbox.ru",
+                "contact:instagram": "https://instagram.com/tamar_rest",
+                "contact:phone": "+7 812 6791119",
+                "contact:vk": "https://vk.com/restorannegoruj",
+                "contact:website": "https://tamarspb.ru/",
+                "cuisine": "caucasian",
+                "name": "Тамар",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "operator": "Тамар",
+                "outdoor_seating": "no"
+            },
+            {
+                "name": "Villa Aston",
+                "amenity": "restaurant",
+                "website": "https://cityhotelgroup.ru/restaurant/4",
+                "operator": "ООО «Бисквит Плюс»",
+                "contact:vk": "https://vk.com/club34199797",
+                "opening_hours": "11:00-23:00"
+            },
+            {
+                "name": "Ф.М. Достоевский",
+                "amenity": "restaurant",
+                "website": "http://www.dostoevskyfm.com/",
+                "int_name": "F.M. Dostoevsky"
+            },
+            {
+                "name": "Daily Delicatessen",
+                "amenity": "restaurant",
+                "website": "http://dailydelicatessen.com/",
+                "operator": "ООО «Джозеф»",
+                "opening_hours": "Mo-Th 08:00-23:00, Fr 08:00-02:00, Sa 09:00-02:00, Su 09:00-23:00",
+                "contact:facebook": "https://www.facebook.com/dailydelicatessen/"
+            },
+            {
+                "name": "Дом актёра",
+                "amenity": "restaurant",
+                "website": "http://domaktera.spb.ru/",
+                "contact:vk": "https://vk.com/tel9259105"
+            },
+            {
+                "name": "Quisisana",
+                "amenity": "restaurant",
+                "operator": "ООО «Полином СКБ»"
+            },
+            {
+                "amenity": "restaurant",
+                "cuisine": "chinese",
+                "level": "-1",
+                "name": "Тан Жен",
+                "opening_hours": "12:00-24:00",
+                "operator": "ООО \"Родос\"",
+                "phone": "+7 812 2729017",
+                "website": "http://www.tang-ren.ru/page/restoran_na_nevskom.htm"
+            },
+            {
+                "addr:housenumber": "1",
+                "addr:street": "улица Рубинштейна",
+                "amenity": "restaurant",
+                "contact:vk": "https://vk.com/marcellispeople",
+                "cuisine": "italian",
+                "int_name": "Marcelli's",
+                "name": "Марчеллис",
+                "opening_hours": "Su-Th 09:00-23:00; Fr-Sa 09:00-06:00",
+                "outdoor_seating": "yes",
+                "phone": "+7 812 9867869",
+                "website": "http://www.marcellis.ru/restaurants/Nevskiy-43/",
+                "wikidata": "Q106466773"
+            },
+            {
+                "addr:housenumber": "16",
+                "addr:street": "улица Рубинштейна",
+                "amenity": "restaurant",
+                "name": "KIT",
+                "website": "http://www.kitbistro.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:facebook": "https://www.facebook.com/caferubinstein",
+                "contact:phone": "+7 960 2598393",
+                "contact:vk": "https://vk.com/cafe_rubinshtein",
+                "name": "Рубинштейн",
+                "opening_hours": "Mo-Su 00:00-02:00,10:00-24:00",
+                "website": "https://www.caferubinstein.ru/",
+                "wheelchair": "yes"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:facebook": "https://www.facebook.com/georestspb/",
+                "contact:phone": "+7 812 3400074",
+                "contact:website": "https://geo-rest.com/",
+                "name": "География",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:phone": "+7 812 5790018",
+                "contact:vk": "https://vk.com/naparah",
+                "contact:website": "http://www.naparah.ru/",
+                "internet_access": "wlan",
+                "internet_access:fee": "no",
+                "name": "На парах",
+                "opening_hours": "24/7",
+                "wheelchair": "yes"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:vk": "https://vk.com/palermo_spb",
+                "cuisine": "italian",
+                "name": "Palermo",
+                "name:ru": "Палермо",
+                "opening_hours": "12:00-00:00",
+                "website": "https://www.palermo-spb.ru/"
+            },
+            {
+                "name": "Ватерлоо",
+                "amenity": "restaurant",
+                "int_name": "Waterloo",
+                "wheelchair": "no",
+                "opening_hours": "12:00-02:00",
+                "contact:website": "https://italy-group.ru/restaurants/waterloo/"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:instagram": "https://www.instagram.com/gyrlyandarest/",
+                "cuisine": "steak_house",
+                "name": "Гирлянда",
+                "opening_hours": "Mo-Su 12:00-24:00",
+                "website": "http://localsteak.ru/",
+                "wheelchair": "limited"
+            },
+            {
+                "amenity": "restaurant",
+                "cuisine": "barbecue",
+                "internet_access": "wlan",
+                "name": "Smoke BBQ",
+                "opening_hours": "Mo-Th 12:00-24:00; Fr 12:00-02:00; Sa 10:00-02:00; Su 10:00-24:00",
+                "phone": "+7 812 9055372",
+                "website": "https://smokebbqshop.ru/"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:vk": "https://vk.com/48chairs",
+                "contact:website": "https://48chairs.ru/",
+                "name": "48 стульев",
+                "name:en": "48 Chairs",
+                "name:ru": "48 стульев",
+                "opening_hours": "Mo-Su 00:00-02:00,12:00-24:00",
+                "wheelchair": "limited"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:vk": "https://vk.com/club35096702",
+                "cuisine": "russian",
+                "name": "Пельмения",
+                "name:en": "Pelmenya",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "phone": "+7 812 4154185",
+                "website": "http://pelmenya.com",
+                "wheelchair": "limited"
+            },
+            {
+                "name": "Палкинъ",
+                "amenity": "restaurant",
+                "name:en": "Palkin",
+                "website": "http://www.palkin.ru/",
+                "opening_hours": "12:00-23:00"
+            },
+            {
+                "name": "Beer Family",
+                "amenity": "restaurant",
+                "website": "http://beerfamily.ru/ru/restaurants/beer-family-restaurant",
+                "opening_hours": "Su-Th 11:00-01:00, Fr-Sa 11:00-02:30"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:phone": "+7 911 9288189",
+                "contact:website": "http://duoasia.ru",
+                "cuisine": "asian",
+                "name": "Duo Asia",
+                "opening_hours": "Mo-Su 18:00-24:00",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Mur_mur",
+                "amenity": "restaurant",
+                "website": "http://myasoet.ru/",
+                "opening_hours": "12:00+",
+                "contact:instagram": "https://www.instagram.com/mur__mur/"
+            },
+            {
+                "name": "Барбазан",
+                "amenity": "restaurant",
+                "website": "https://www.radissonblu.com/ru/hotel-stpetersburg/restaurants",
+                "int_name": "Barbazan"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:facebook": "catrest",
+                "contact:instagram": "cat_restaurant",
+                "contact:vk": "https://vk.com/catrestoran",
+                "cuisine": "georgian",
+                "int_name": "Cat",
+                "level": "-1",
+                "name": "Кэт",
+                "opening_hours": "12:00-24:00",
+                "operator": "Фирма \"Приютино\"",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "phone": "+7 812 3153800",
+                "website": "https://cat-restoran.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "restaurant",
+                "contact:facebook": "https://www.facebook.com/ma.rest.spb/",
+                "contact:instagram": "https://www.instagram.com/ma.rest/",
+                "name": "MA",
+                "opening_hours": "12:00+",
+                "website": "https://ma-rest.com/"
+            }
+        ]
+    },
+    "cinema": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Кристалл-Палас",
+                "amenity": "cinema",
+                "website": "http://www.cp.spb.ru/",
+                "wheelchair": "limited"
+            }
+        ]
+    },
+    "deli": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Caviar Russia",
+                "shop": "deli",
+                "website": "http://www.caviarrussia.ru/"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Шаверма",
+                "amenity": "fast_food",
+                "bicycle": "yes",
+                "operator": "ООО «Вилдамс»",
+                "wheelchair": "no",
+                "description": "Городская шаверма",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "fast_food",
+                "description": "Столовая",
+                "fast_food": "cafeteria",
+                "name": "Diner №1",
+                "opening_hours": "Mo-Fr 09:00-22:00; Sa-Su 10:00-22:00",
+                "operator": "ООО \"Део Мед Фарм\"",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "fast_food",
+                "brand": "Теремок",
+                "brand:en": "Teremok",
+                "brand:ru": "Теремок",
+                "brand:wikidata": "Q4455593",
+                "brand:wikipedia": "ru:Теремок (сеть быстрого питания)",
+                "contact:vk": "https://vk.com/teremok",
+                "cuisine": "crepe;russian",
+                "name": "Теремок",
+                "name:en": "Teremok",
+                "name:ru": "Теремок",
+                "note": "нет на сайте",
+                "opening_hours": "08:30-23:00",
+                "operator": "ООО «Теремок — Русские Блины»",
+                "takeaway": "yes",
+                "website": "https://teremok.ru/"
+            },
+            {
+                "amenity": "fast_food",
+                "brand": "Бургер Кинг",
+                "brand:en": "Burger King",
+                "brand:ru": "Бургер Кинг",
+                "brand:wikidata": "Q177054",
+                "brand:wikipedia": "en:Burger King",
+                "contact:email": "bk-20@burgerking.ru",
+                "contact:facebook": "https://www.facebook.com/BurgerKingRussia",
+                "contact:phone": "+7 812 6771256",
+                "contact:vk": "https://vk.com/burgerking",
+                "contact:website": "https://burgerking.ru",
+                "cuisine": "burger",
+                "diet:vegetarian": "no",
+                "internet_access": "wlan",
+                "internet_access:fee": "no",
+                "int_name": "Burger King",
+                "name": "Бургер Кинг",
+                "name:en": "Burger King",
+                "name:ru": "Бургер Кинг",
+                "note": "режим работы на сайте не совпадает с режимом работы на месте, на сайте вообще непонятно: \"круглосуточно\", но перерыв часов семь",
+                "opening_hours": "Su-Th 07:00-03:00, Fr-Sa 07:00-05:00",
+                "operator": "ООО \"Бургер Рус\"",
+                "ref": "20",
+                "takeaway": "yes"
+            },
+            {
+                "amenity": "fast_food",
+                "contact:vk": "https://vk.com/cheburoom",
+                "name": "Чебуroom",
+                "opening_hours": "24/7",
+                "operator": "ООО \"Чебурекоделы\"",
+                "website": "https://cheburoom.ru/",
+                "wheelchair": "limited"
+            },
+            {
+                "amenity": "fast_food",
+                "contact:vk": "https://vk.com/tarelka_life",
+                "fast_food": "cafeteria",
+                "internet_access": "wlan",
+                "level": "0",
+                "name": "Тарелка",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "operator": "ООО «Гермес»",
+                "phone": "+7 812 3149949",
+                "website": "http://tarelkas.ru/cafes/nevskiy-pr-d-53/",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 34,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "contact:vk": "https://vk.com/chaj_dom",
+                "cuisine": "tea",
+                "diet:vegetarian": "yes",
+                "internet_access": "wlan",
+                "name": "Чайный Дом",
+                "opening_hours": "Mo,Tu,Th 11:00-02:00, We 13:00-02:00, Fr,Sa 11:00-05:00, Su 11:00-03:00",
+                "website": "http://teahousesmall.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "cafe",
+                "contact:vk": "https://vk.com/bushe.bakery",
+                "name": "Буше",
+                "name:ru": "Буше",
+                "opening_hours": "08:00-23:00",
+                "operator": "ООО «ПКД «Венец»",
+                "payment:cash": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "payment:visa_electron": "yes",
+                "phone": "+7 812 6405151 ext. 501",
+                "takeaway": "yes",
+                "website": "http://bushe.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "cafe",
+                "contact:vk": "kosulya_est",
+                "diet:vegetarian": "yes",
+                "name": "Косуля",
+                "opening_hours": "Mo-Su 12:00-01:00",
+                "operator": "Космос",
+                "outdoor_seating": "no",
+                "payment:cash": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "payment:visa_electron": "yes",
+                "phone": "+7 921 8928265",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Квартирка",
+                "amenity": "cafe",
+                "website": "http://reca.rest/restaurants/kvartirkanevski51",
+                "contact:vk": "https://vk.com/pososedski",
+                "opening_hours": "Mo-Su 12:00-01:00"
+            },
+            {
+                "name": "Мамуния",
+                "amenity": "cafe",
+                "operator": "Индивидуальный предприниматель Сафронова Анна Валентиновна",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Пышечная фабрика",
+                "amenity": "cafe",
+                "operator": "ООО «Арсенал Инвест»",
+                "opening_hours": "08:00-22:00",
+                "contact:instagram": "https://www.instagram.com/fabrikapishek/"
+            },
+            {
+                "name": "Сиртаки",
+                "amenity": "cafe",
+                "cuisine": "greek",
+                "contact:vk": "https://vk.com/sirtaki_taverna"
+            },
+            {
+                "name": "Pizza Milano",
+                "email": "pizzamilanobar@mail.ru",
+                "phone": "+7 812 2739822;+7 950 0164626",
+                "amenity": "cafe",
+                "cuisine": "italian; mexican",
+                "website": "http://www.pizzamilanobar.ru/",
+                "contact:vk": "https://vk.com/pizzamilanobar",
+                "opening_hours": "Mo-Su 12:00+"
+            },
+            {
+                "name": "Рубаи",
+                "amenity": "cafe",
+                "cuisine": "coffee_shop",
+                "website": "http://rubai.ru/",
+                "contact:vk": "https://vk.com/rubai_spb",
+                "description": "Чайно-кофейный дом",
+                "opening_hours": "Mo-Su 11:00+"
+            },
+            {
+                "amenity": "cafe",
+                "brand": "Старбакс",
+                "brand:en": "Starbucks",
+                "brand:wikidata": "Q37158",
+                "brand:wikipedia": "en:Starbucks",
+                "contact:email": "csd@starbuckscoffee.ru",
+                "contact:facebook": "https://www.facebook.com/StarbucksRussia",
+                "contact:instagram": "https://www.instagram.com/starbucksrussia/",
+                "contact:twitter": "https://twitter.com/StarbucksRussia",
+                "contact:website": "http://www.starbucks.ru/store/1005961",
+                "cuisine": "coffee_shop",
+                "diet:vegetarian": "no",
+                "internet_access": "wlan",
+                "name": "Старбакс",
+                "name:en": "Starbucks",
+                "name:ru": "Старбакс",
+                "opening_hours": "24/7",
+                "takeaway": "yes",
+                "wheelchair": "yes"
+            },
+            {
+                "amenity": "cafe",
+                "contact:phone": "+7 812 9444490;+7 812 3477149",
+                "cuisine": "cheburek; russian; asian",
+                "diet:vegetarian": "yes",
+                "name": "Брынза",
+                "opening_hours": "10:00-23:00",
+                "operator": "ООО «Союз»",
+                "website": "https://cafebrynza.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "name": "11 Cafe",
+                "amenity": "cafe"
+            },
+            {
+                "amenity": "cafe",
+                "contact:vk": "https://vk.com/ketchupburgers",
+                "cuisine": "burger",
+                "name": "Ketch Up Burgers",
+                "opening_hours": "Su-Th 11:00-23:00; Fr-Sa 11:00-01:00",
+                "outdoor_seating": "no",
+                "smoking": "no",
+                "website": "http://ketchupburgers.ru/",
+                "wheelchair": "yes"
+            },
+            {
+                "name": "City Grill",
+                "phone": "+7 812 9382708",
+                "amenity": "cafe",
+                "cuisine": "american",
+                "website": "http://www.citygrillexpress.ru/",
+                "contact:vk": "https://vk.com/id144362982",
+                "opening_hours": "Mo-Th 11:00-23:00, Fr-Sa 12:00-01:00, Su 12:00-23:00",
+                "internet_access": "wlan"
+            },
+            {
+                "amenity": "cafe",
+                "contact:vk": "https://vk.com/morecoffee",
+                "cuisine": "coffee_shop",
+                "name": "Знакомьтесь, Джо",
+                "wheelchair": "no"
+            },
+            {
+                "addr:housenumber": "63",
+                "addr:postcode": "191025",
+                "addr:street": "Литейный проспект",
+                "amenity": "cafe",
+                "contact:facebook": "https://www.facebook.com/KombuchaBistro/",
+                "name": "Kombucha",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "cafe",
+                "contact:email": "info@bagginscoffee.ru",
+                "contact:phone": "+7 800 6007015",
+                "contact:vk": "https://vk.com/bagginscoffee",
+                "contact:website": "https://bagginscoffee.ru/",
+                "cuisine": "coffee_shop",
+                "name": "Baggins Coffee",
+                "opening_hours": "Mo-Fr 08:00-21:00; Sa-Su 09:00-21:00",
+                "operator": "ИП Сауров Артем Эдуардович"
+            },
+            {
+                "cafe": "time_cafe",
+                "name": "Замок Гоя",
+                "amenity": "cafe",
+                "website": "http://zamokgoya.ru/",
+                "addr:floor": "4",
+                "contact:instagram": "https://www.instagram.com/zamokgoya/"
+            },
+            {
+                "amenity": "cafe",
+                "contact:vk": "https://vk.com/grandchainiy",
+                "name": "Чайный дом",
+                "opening_hours": "13:00+",
+                "website": "http://teahouse-grand.ru/"
+            },
+            {
+                "amenity": "cafe",
+                "name": "Шаверма",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "cafe",
+                "contact:facebook": "https://www.facebook.com/bistrotlemoujik/",
+                "name": "Le Moujik",
+                "website": "https://lemoujik.ru/"
+            },
+            {
+                "amenity": "cafe",
+                "contact:vk": "https://vk.com/caffecentrale",
+                "name": "Чентрале",
+                "name:en": "Centrale",
+                "name:ru": "Чентрале",
+                "operator": "Удача",
+                "outdoor_seating": "yes",
+                "payment:cash": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "payment:visa_electron": "yes",
+                "phone": "+7 812 9971237"
+            },
+            {
+                "amenity": "cafe",
+                "contact:vk": "https://vk.com/surfcoffeespb",
+                "name": "Surf Coffee",
+                "website": "http://surfcoffee.ru/",
+                "wheelchair": "yes"
+            },
+            {
+                "amenity": "cafe",
+                "name": "Каха бар",
+                "website": "https://kakhabar.ru/",
+                "wheelchair": "yes"
+            },
+            {
+                "name": "Бизе",
+                "amenity": "cafe",
+                "website": "http://bize.spb.ru/",
+                "contact:vk": "https://vk.com/bize_spb",
+                "opening_hours": "Mo-Fr 08:30-23:00; Sa-Su 10:00-23:00"
+            },
+            {
+                "name": "Sicaffe",
+                "amenity": "cafe",
+                "website": "http://sicafferussia.com/",
+                "contact:vk": "https://vk.com/sicafferussia"
+            },
+            {
+                "amenity": "cafe",
+                "contact:vk": "https://vk.com/lapastacafe",
+                "name": "La Pasta",
+                "opening_hours": "Mo,Tu 11:00-23:00, Fr 11:00-01:00, Su 12:00-24:00, We,Th 11:00-24:00, Sa 12:00-01:00",
+                "operator": "ООО «Лайф»"
+            },
+            {
+                "amenity": "cafe",
+                "contact:vk": "https://vk.com/mccafe_russia",
+                "name": "МакКафе",
+                "opening_hours": "07:00-23:00",
+                "operator": "ООО «Макдоналдс»",
+                "website": "https://mcdonalds.ru/restaurants/283",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "cafe"
+            },
+            {
+                "name": "Pitcher",
+                "amenity": "cafe",
+                "cuisine": "coffee_shop"
+            },
+            {
+                "addr:housenumber": "60",
+                "addr:street": "Литейный проспект",
+                "amenity": "cafe",
+                "name": "Котокафе"
+            },
+            {
+                "addr:housenumber": "60",
+                "addr:street": "Литейный проспект",
+                "amenity": "cafe",
+                "name": "Котокафе"
+            },
+            {
+                "amenity": "cafe",
+                "name:en": "Papaya"
+            },
+            {
+                "amenity": "cafe",
+                "name": "Третье место",
+                "name:en": "Third place"
+            }
+        ]
+    },
+    "bar": {
+        "count": 25,
+        "detail": [
+            {
+                "name": "Проходимец",
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/bar_prohodimec",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/lastorres",
+                "name": "Las Torres",
+                "opening_hours": "12:00-05:00",
+                "operator": "ООО \"Стан\"",
+                "outdoor_seating": "yes",
+                "website": "http://www.las-torres.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Почта",
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/pochtabar"
+            },
+            {
+                "name": "Филин Гуд",
+                "amenity": "bar",
+                "description": "«Friendly Bar»"
+            },
+            {
+                "name": "Maestro",
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/maestromusicbar"
+            },
+            {
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/crazywinespb",
+                "name": "Crazy Wine",
+                "opening_hours": "Su-Th 14:00-01:00, Fr-Sa 14:00-06:00",
+                "website": "http://reca.rest/restaurants/crazywine",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/boozystreet",
+                "name": "Boozy Street",
+                "website": "https://boozystreet.ru/"
+            },
+            {
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/poisonkaraoke",
+                "karaoke": "yes",
+                "level": "-1",
+                "name": "Poison",
+                "opening_hours": "Mo-Fr 00:00-05:00,19:00-24:00; Sa,Su 00:00-07:00,19:00-24:00"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "9/3",
+                "addr:street": "улица Рубинштейна",
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/laperlarubinsteina",
+                "name": "La Perla Seafood Bar",
+                "opening_hours": "Mo-Su 14:00-02:00",
+                "phone": "+7 921 3666893",
+                "website": "https://laperlarest.ru"
+            },
+            {
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/punkbrew",
+                "name": "Punk Brew",
+                "opening_hours": "Su-Th 12:00-03:00, Fr-Sa 12:00-06:00",
+                "website": "http://reca.rest/restaurants/punkbrew"
+            },
+            {
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/barsaigon",
+                "name": "Сайгон",
+                "opening_hours": "Mo-Su 00:00-05:00,15:00-24:00",
+                "website": "https://barsaigon.ru/"
+            },
+            {
+                "name": "Mishka",
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/mishkabar",
+                "opening_hours": "Mo-Su 00:00-06:00,18:00-24:00"
+            },
+            {
+                "name": "БарМитя",
+                "amenity": "bar",
+                "contact:phone": "+7 960 2598393"
+            },
+            {
+                "name": "Cannelle",
+                "amenity": "bar",
+                "website": "https://www.radissonblu.com/hotel-stpetersburg/bars"
+            },
+            {
+                "name": "Granada",
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/club140027224"
+            },
+            {
+                "name": "Бонвиван",
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/bonvivanspb",
+                "opening_hours": "Su-Th 16:00-02:00, Fr-Sa 16:00-06:00"
+            },
+            {
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/coyoteuglyspb",
+                "name": "Гадкий Койот",
+                "opening_hours": "20:00-06:00",
+                "operator": "ООО \"Бар тайм СПб\"",
+                "website": "http://coyoteugly.ru/sankt-peterburg/",
+                "wheelchair": "no"
+            },
+            {
+                "addr:floor": "3",
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/bargedonist",
+                "name": "Гедонист",
+                "opening_hours": "We-Su 20:00-05:00",
+                "website": "https://gedobar.ru/"
+            },
+            {
+                "addr:floor": "2",
+                "amenity": "bar",
+                "contact:vk": "https://vk.com/commode.club",
+                "name": "Commode",
+                "opening_hours": "Su-Th 18:00-05:00, Fr-Sa 18:00-07:00",
+                "website": "https://commode.club/",
+                "wheelchair": "no"
+            },
+            {
+                "name": "#трудовыебудни",
+                "amenity": "bar",
+                "contact:facebook": "https://www.facebook.com/budnibar/"
+            },
+            {
+                "name": "Угрюмочная",
+                "phone": "+7 812 6002012",
+                "amenity": "bar",
+                "website": "http://www.ugrumo.ru/",
+                "opening_hours": "Su-Th 16:00-04:00; Fr-Sa 16:00-06:00"
+            },
+            {
+                "name": "Джин-Тоник",
+                "amenity": "bar",
+                "name:en": "Gin-Tonic"
+            },
+            {
+                "amenity": "bar",
+                "name": "Угрюмочная"
+            },
+            {
+                "amenity": "bar",
+                "name": "баревич"
+            },
+            {
+                "amenity": "bar",
+                "contact:instagram": "https://www.instagram.com/tagliatellacaffe/",
+                "contact:phone": "+7 929 1580036",
+                "fixme": "Местоположение грубое; бар где-то во дворе",
+                "name": "Tagliatella",
+                "opening_hours": "Mo-Su 16:00-24:00"
+            }
+        ]
+    },
+    "pub": {
+        "count": 8,
+        "detail": [
+            {
+                "amenity": "pub",
+                "email": "9667910@mail.ru",
+                "name": "Сибирская корона",
+                "name:en": "Siberian Crown",
+                "phone": "+7 812 9667910;+7 812 3105522",
+                "website": "http://vk.com/pubsk",
+                "wheelchair": "limited"
+            },
+            {
+                "amenity": "pub",
+                "contact:vk": "https://vk.com/fiddlersgreen",
+                "cuisine": "regional",
+                "name": "Fiddler's Green",
+                "smoking": "outside",
+                "website": "https://hatgroup.ru/fiddlers-green/"
+            },
+            {
+                "amenity": "pub",
+                "contact:vk": "https://vk.com/cafe_elephant",
+                "email": "el015@mail.ru",
+                "internet_access": "wlan",
+                "name": "Elephant",
+                "name:ru": "Элефант",
+                "opening_hours": "Mo-Su 11:00-24:00",
+                "phone": "+7 812 9045375",
+                "website": "https://www.elephantcafe.ru/"
+            },
+            {
+                "amenity": "pub",
+                "contact:phone": "+7 812 6111110;+7 812 4183993",
+                "contact:tripadvisor": "https://www.tripadvisor.ru/Restaurant_Review-g298507-d7938462-Reviews-Brasserie_Kriek-St_Petersburg_Northwestern_District.html",
+                "contact:website": "http://www.kriek.ru/contacts/restoran-na-nevskom-47/",
+                "cuisine": "belgian",
+                "name": "Kriek",
+                "name:en": "Kriek",
+                "name:ru": "Крик",
+                "opening_hours": "Mo-Th, Su 11:30-01:00; Fr, Sa 11:30-02:30",
+                "takeaway": "yes"
+            },
+            {
+                "amenity": "pub",
+                "contact:phone": "+7 812 6111110;+7 812 4182425",
+                "contact:website": "http://www.kriek.ru/contacts/restoran-na-nevskom-64/",
+                "level": "2",
+                "name": "Kriek",
+                "name:en": "Kriek",
+                "name:ru": "Крик",
+                "opening_hours": "Mo-Th,Su 12:00-01:00, Fr-Sa 12:00-02:30",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "pub",
+                "contact:vk": "https://vk.com/mannekenpisspb",
+                "name": "Manneken Pis",
+                "website": "http://reca.rest/restaurants/mannekenpisnevskiy",
+                "wheelchair": "yes"
+            },
+            {
+                "name": "Бар 53",
+                "amenity": "pub",
+                "website": "http://bar53.ru/"
+            },
+            {
+                "name": "Подстреленная гусыня",
+                "amenity": "pub",
+                "website": "https://www.pivnicespb.ru/",
+                "operator": "ООО «Элефант»",
+                "contact:vk": "https://vk.com/potrefena",
+                "opening_hours": "Su-Th 12:00-00:00, Fr-Sa 12:00-02:00"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 24,
+        "detail": [
+            {
+                "name": "Маска",
+                "shop": "clothes",
+                "clothes": "costumes",
+                "operator": "ИП Сокольская А.А.",
+                "opening_hours": "Mo-Sa 11:00-20:00; Su 11:00-19:00"
+            },
+            {
+                "contact:vk": "https://vk.com/tatyanaparfionova",
+                "name": "Татьяна Парфёнова",
+                "opening_hours": "12:00-20:00",
+                "shop": "clothes",
+                "website": "http://parfionova.ru/"
+            },
+            {
+                "name": "Truvor",
+                "shop": "clothes",
+                "clothes": "men",
+                "website": "http://truvor-sale.ru/",
+                "operator": "ИП Пынькина ВН",
+                "opening_hours": "10:00-21:00"
+            },
+            {
+                "contact:vk": "https://vk.com/marchelas",
+                "name": "Marchelas",
+                "shop": "clothes",
+                "website": "https://marchelas.com/"
+            },
+            {
+                "brand": "H&M",
+                "brand:wikidata": "Q188326",
+                "brand:wikipedia": "en:H&M",
+                "contact:vk": "https://vk.com/hmrussia",
+                "name": "H&M",
+                "opening_hours": "11:00-21:00",
+                "operator": "ООО «Эйч энд Эм Хеннес энд Мауриц»",
+                "payment:cash": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "payment:visa_electron": "yes",
+                "shop": "clothes",
+                "website": "https://www.hm.com/ru",
+                "wheelchair": "no"
+            },
+            {
+                "contact:vk": "https://vk.com/mintstore",
+                "name": "Mint",
+                "opening_hours": "11:00-22:00",
+                "phone": "+7 812 2753659",
+                "shop": "clothes",
+                "website": "http://mintstore.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "contact:vk": "https://vk.com/totogroup",
+                "level": "-1",
+                "name": "Toto Group",
+                "opening_hours": "Mo-Su 11:00-20:00",
+                "operator": "ООО «Рион»",
+                "shop": "clothes",
+                "website": "https://www.totogroup.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "contact:vk": "https://vk.com/club18937459",
+                "name": "Incanto",
+                "opening_hours": "Mo-Su 10:00-23:00",
+                "operator": "ООО «Верона»",
+                "shop": "clothes",
+                "website": "https://incanto.eu/",
+                "wheelchair": "yes"
+            },
+            {
+                "contact:vk": "https://vk.com/uniquefabric",
+                "name": "Unique Fabric",
+                "opening_hours": "10:00-22:00",
+                "shop": "clothes",
+                "website": "https://uniquefabric.ru/",
+                "wheelchair": "yes"
+            },
+            {
+                "name": "Секонд Хэнд",
+                "shop": "clothes"
+            },
+            {
+                "contact:vk": "https://vk.com/gate31",
+                "name": "Gate31",
+                "shop": "clothes",
+                "website": "https://www.gate31.ru/"
+            },
+            {
+                "name": "FB42",
+                "shop": "clothes",
+                "website": "http://fb42.ru/",
+                "contact:vk": "https://vk.com/fb_42"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "3",
+                "addr:street": "Стремянная улица",
+                "brand": "CODERED",
+                "contact:vk": "https://vk.com/coderedstorespb",
+                "name": "CODERED Store",
+                "opening_hours": "11:00-21:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa_debit": "yes",
+                "shop": "clothes",
+                "website": "http://codered.su/"
+            },
+            {
+                "name": "Furly",
+                "shop": "clothes",
+                "website": "https://furly.ru/",
+                "addr:floor": "7",
+                "contact:vk": "https://vk.com/furlyru",
+                "opening_hours": "12:00-21:00"
+            },
+            {
+                "name": "by Alena Dementeva",
+                "shop": "clothes",
+                "website": "http://www.byalenadementeva.com/",
+                "contact:vk": "https://vk.com/byalenadementeva"
+            },
+            {
+                "name": "Fashion Lavka",
+                "shop": "clothes",
+                "opening_hours": "Mo-Fr 12:00-21:00; Sa 12:00-19:00",
+                "contact:instagram": "https://www.instagram.com/fashion_lavka/"
+            },
+            {
+                "name": "Bat Norton",
+                "shop": "clothes",
+                "website": "https://batnorton.com/",
+                "operator": "ООО «Принтбургер»",
+                "contact:vk": "https://vk.com/batnortonshopspb",
+                "opening_hours": "10:00-22:00"
+            },
+            {
+                "contact:vk": "https://vk.com/gate31",
+                "name": "Gate31",
+                "note": "скорее всего закрыт",
+                "opening_hours": "11:00-22:00",
+                "shop": "clothes",
+                "website": "https://www.gate31.ru/"
+            },
+            {
+                "contact:vk": "https://vk.com/usta_k_ustam",
+                "name": "Уста к устам",
+                "shop": "clothes",
+                "website": "https://www.ustakustam.ru/"
+            },
+            {
+                "name": "Белорусский трикотаж",
+                "shop": "clothes"
+            },
+            {
+                "contact:vk": "https://vk.com/eurobrandmarket",
+                "name": "Евробренд",
+                "opening_hours": "10:00-21:00",
+                "second_hand": "yes",
+                "shop": "clothes",
+                "website": "https://eurobrand.market/"
+            },
+            {
+                "name": "Шляпный салонъ Ольги Макеевой",
+                "shop": "clothes",
+                "clothes": "hats",
+                "website": "http://шляпныйсалон.рф/",
+                "opening_hours": "11:00-19:00"
+            },
+            {
+                "name": "Fiancée",
+                "shop": "clothes",
+                "clothes": "wedding",
+                "website": "http://fsalon.ru/",
+                "contact:vk": "https://vk.com/fsalon_spb",
+                "opening_hours": "11:00-21:00"
+            },
+            {
+                "name": "Wear House",
+                "shop": "clothes",
+                "website": "https://www.wearhouse.ru/",
+                "contact:vk": "https://vk.com/wearhouse",
+                "opening_hours": "12:00-21:00"
+            }
+        ]
+    },
+    "bank": {
+        "count": 8,
+        "detail": [
+            {
+                "name": "Ишбанк",
+                "amenity": "bank",
+                "website": "http://www.isbank.com.ru/index.php/ru/isbank-sank-peterburg-filial",
+                "int_name": "İşbank",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00"
+            },
+            {
+                "amenity": "bank",
+                "contact:email": "bank@ubrr.ru",
+                "contact:phone": "+7 800 1000200",
+                "contact:website": "https://spb.ubrr.ru/",
+                "name": "Уральский банк реконструкции и развития",
+                "opening_hours": "Mo-Fr 09:30-20:00;Sa 11:00-17:00",
+                "operator": "УБРиР"
+            },
+            {
+                "amenity": "bank",
+                "branch": "Северо-Западный банк",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "en:Sberbank of Russia",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://instagram.com/sberbank",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 10:00-19:00",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "phone": "+7 812 2729089",
+                "ref": "9055/015",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Ситибанк",
+                "brand": "Citibank",
+                "branch": "Невский проспект",
+                "amenity": "bank",
+                "website": "https://www.citibank.ru/",
+                "int_name": "Citibank",
+                "operator": "Ситибанк",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-18:00"
+            },
+            {
+                "amenity": "bank",
+                "brand": "Банк Санкт-Петербург",
+                "brand:wikidata": "Q4407652",
+                "contact:vk": "https://vk.com/bspb",
+                "name": "Санкт-Петербург",
+                "opening_hours": "Mo-Fr 10:00-20:00",
+                "operator": "ПАО «Банк «Санкт-Петербург»",
+                "operator:wikidata": "Q4407652",
+                "website": "https://www.bspb.ru/"
+            },
+            {
+                "amenity": "bank",
+                "brand": "Бинбанк",
+                "brand:en": "B&N Bank",
+                "brand:wikidata": "Q4086829",
+                "brand:wikipedia": "en:B&N Bank",
+                "contact:vk": "https://vk.com/binbank",
+                "name": "Бинбанк",
+                "name:en": "B&N Bank",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-17:00",
+                "website": "https://www.binbank.ru/branches/#branch573"
+            },
+            {
+                "amenity": "bank",
+                "brand": "UniCredit",
+                "brand:wikidata": "Q45568",
+                "contact:email": "unicredit@unicredit.ru",
+                "contact:phone": "+7 495 2587200;+7 800 7001020",
+                "contact:twitter": "https://twitter.com/unicreditrussia",
+                "contact:vk": "https://vk.com/unicreditbank",
+                "contact:website": "https://www.unicreditbank.ru/",
+                "contact:youtube": "https://www.youtube.com/user/unicreditbankrussia",
+                "name": "ЮниКредит Лизинг",
+                "office": "company",
+                "opening_hours": "Mo-Fr 10:00-20:00",
+                "operator": "ЮниКредит Банк"
+            },
+            {
+                "amenity": "bank",
+                "branch": "Северо-Западный банк",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "en:Sberbank of Russia",
+                "contact:phone": "+7 800 5555550",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru/",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 10:30-19:30",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "9055/01694",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "travel_agency": {
+        "count": 13,
+        "detail": [
+            {
+                "name": "TopTrips",
+                "shop": "travel_agency",
+                "website": "https://spb.toptrips.ru/contacts/golovnoy-ofis-na-nevskom",
+                "contact:vk": "https://vk.com/toptrips",
+                "opening_hours": "10:00-22:00"
+            },
+            {
+                "name": "Discovery Tour",
+                "shop": "travel_agency",
+                "opening_hours": "Mo-Fr 11:00-20:00;Sa 11:00-17:00"
+            },
+            {
+                "name": "Good Travel",
+                "phone": "+7 812 7196669",
+                "shop": "travel_agency",
+                "website": "http://good-travel.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Zима & Lето",
+                "shop": "travel_agency",
+                "phone": "+7 812 3372722",
+                "opening_hours": "Mo-Su 10:00-20:00"
+            },
+            {
+                "name": "Тайм Трэвел",
+                "shop": "travel_agency",
+                "website": "http://www.openviza.ru/",
+                "contact:vk": "https://vk.com/openvizaspb"
+            },
+            {
+                "name": "Христофор Тур",
+                "shop": "travel_agency",
+                "website": "http://www.hristofor.com/",
+                "contact:vk": "https://vk.com/hristofortour"
+            },
+            {
+                "name": "Дядюшка Ник",
+                "shop": "travel_agency",
+                "website": "http://www.nicktour.spb.ru/",
+                "contact:vk": "https://vk.com/unclenick",
+                "opening_hours": "Mo-Fr 11:00-19:00; Sa 11:00-15:00"
+            },
+            {
+                "name": "Мастер-Тур",
+                "shop": "travel_agency",
+                "website": "http://www.mtspb.ru/",
+                "addr:floor": "4",
+                "contact:vk": "https://vk.com/public4356353"
+            },
+            {
+                "name": "Нептун",
+                "shop": "travel_agency",
+                "website": "https://www.neptun.ru/contacts/sanktpeterburg.php"
+            },
+            {
+                "name": "Удачный тур",
+                "shop": "travel_agency",
+                "website": "http://udachatour.com/",
+                "addr:floor": "7",
+                "contact:vk": "https://vk.com/club32482485"
+            },
+            {
+                "name": "Горячие туры",
+                "shop": "travel_agency",
+                "website": "http://www.hottspb.ru/mayakovskaya/",
+                "operator": "ООО \"Рубеж\"",
+                "contact:vk": "https://vk.com/hottmanagementcompany"
+            },
+            {
+                "name": "James Travel",
+                "shop": "travel_agency",
+                "website": "http://www.james-travel.ru/",
+                "addr:floor": "4",
+                "contact:vk": "https://vk.com/james_travel"
+            },
+            {
+                "name": "Петрополитана Тур",
+                "shop": "travel_agency",
+                "website": "http://www.petropolitana.com/",
+                "contact:vk": "https://vk.com/club18079709",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa 11:00-19:00"
+            }
+        ]
+    },
+    "bed": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Togas",
+                "shop": "bed",
+                "website": "https://www.togas.com/ru/",
+                "operator": "ИП «Тогкас Павлос»",
+                "contact:vk": "https://vk.com/togastextile",
+                "opening_hours": "10:00-22:00"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "ЛиксNail",
+                "shop": "beauty",
+                "website": "https://liksnail.ru/",
+                "operator": "ИП Кит Виктория Николаевна",
+                "contact:vk": "https://vk.com/club139601119",
+                "opening_hours": "09:00-21:00"
+            },
+            {
+                "name": "Солнечный Бункер",
+                "shop": "beauty",
+                "operator": "ООО \"Паритет\"",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Designer Sun",
+                "shop": "beauty",
+                "phone": "+7 812 7197456",
+                "description": "студия загара",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Chicago",
+                "shop": "beauty",
+                "website": "http://salon-chicago.ru/"
+            },
+            {
+                "name": "Bel Etage",
+                "shop": "beauty",
+                "website": "http://bkbeletage.ru/",
+                "contact:vk": "https://vk.com/club31267378"
+            },
+            {
+                "name": "Guinot",
+                "shop": "beauty",
+                "website": "http://guinot-salon.ru/",
+                "contact:vk": "https://vk.com/guinot",
+                "opening_hours": "Mo-Fr 10:00-22:00; Sa-Su 11:00-20:00"
+            }
+        ]
+    },
+    "antiques": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Сокровища Петербурга",
+                "shop": "antiques",
+                "website": "http://rusantico.ru/"
+            },
+            {
+                "name": "На Литейном",
+                "shop": "antiques",
+                "opening_hours": "Mo-Sa 10:30-19:30; Su 11:00-18:00"
+            },
+            {
+                "name": "Антиквариат",
+                "shop": "antiques",
+                "description": "Антикварная и букинистическая торговля С. Ляха",
+                "opening_hours": "Mo-Sa 11:00-19:30; Su 11:00-18:00"
+            },
+            {
+                "shop": "antiques",
+                "operator": "ООО «Владимирский, 3»",
+                "opening_hours": "11:00-19:00"
+            },
+            {
+                "shop": "antiques"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "1",
+                "addr:postcode": "191025",
+                "addr:street": "Стремянная улица",
+                "alt_name": "Пятерочка",
+                "alt_name:ru": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "operator": "ООО \"Агроторг\"",
+                "phone": "+7 800 5555505",
+                "shop": "supermarket",
+                "website": "https://5ka.ru/"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "13",
+                "addr:postcode": "191002",
+                "addr:street": "Владимирский проспект",
+                "brand": "Семишагофф",
+                "brand:wikidata": "Q58003374",
+                "contact:vk": "https://vk.com/7shagoff",
+                "name": "Семишагофф",
+                "opening_hours": "09:00-23:00",
+                "operator": "ООО «ТК Триумф»",
+                "phone": "+7 812 6485000",
+                "shop": "supermarket",
+                "website": "http://semishagoff.org/"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 7,
+        "detail": [
+            {
+                "name": "Galary",
+                "shop": "shoes",
+                "operator": "ИП \"Веселов С.П.\"",
+                "contact:vk": "https://vk.com/galary95",
+                "opening_hours": "Mo-Su 10:00-21:00"
+            },
+            {
+                "brand": "Ecco",
+                "brand:wikidata": "Q1280255",
+                "brand:wikipedia": "en:ECCO",
+                "contact:email": "info@ecco-ros.ru",
+                "contact:facebook": "https://www.facebook.com/eccoru",
+                "contact:instagram": "https://instagram.com/ecco_ru",
+                "contact:ok": "https://ok.ru/eccoru",
+                "contact:phone": "+7 495 6412525;+7 800 4442525;+7 812 6080520",
+                "contact:vk": "https://vk.com/eccoru",
+                "contact:website": "https://www.ecco-shoes.ru/",
+                "name": "Ecco",
+                "opening_hours": "10:00-22:00",
+                "operator": "«ЭККО-Петербург»",
+                "shop": "shoes"
+            },
+            {
+                "name": "Högl",
+                "shop": "shoes",
+                "website": "https://hoegl.ru/",
+                "operator": "ООО «Хёгель Шу Фэшн»",
+                "contact:vk": "https://vk.com/hogl_russia",
+                "opening_hours": "10:00-21:00"
+            },
+            {
+                "contact:vk": "https://vk.com/porta9ru",
+                "name": "Porta 9",
+                "opening_hours": "10:00-22:00",
+                "shop": "shoes",
+                "website": "https://porta9.ru/",
+                "wheelchair": "yes"
+            },
+            {
+                "name": "Stopa",
+                "shop": "shoes",
+                "opening_hours": "10:00-21:00"
+            },
+            {
+                "name": "Opera",
+                "shop": "shoes",
+                "contact:vk": "https://vk.com/operashoes"
+            },
+            {
+                "name": "Opera",
+                "shop": "shoes",
+                "contact:vk": "https://vk.com/operashoes",
+                "opening_hours": "11:00-21:00"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Bengel",
+                "shop": "bakery",
+                "website": "http://bengel.ru/",
+                "contact:vk": "https://vk.com/bengelbakery"
+            },
+            {
+                "contact:vk": "https://vk.com/f.volchek",
+                "email": "info@fvolchek.ru",
+                "inscription": "Булочная № 89",
+                "name": "Булочные Ф. Вольчека",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "operator": "Смольков А.А.",
+                "payment:cash": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "payment:visa_electron": "yes",
+                "phone": "+7 967 5990546; +7 812 6420638",
+                "ref": "89",
+                "shop": "bakery",
+                "website": "http://fvolchek.ru/",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "guns": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Выставка-продажа",
+                "shop": "guns",
+                "phone": "+7 812 5757238"
+            }
+        ]
+    },
+    "tattoo": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Shadink",
+                "shop": "tattoo"
+            },
+            {
+                "name": "West End",
+                "shop": "tattoo",
+                "phone": "+7 812 9068906",
+                "opening_hours": "Mo-Su 12:00-21:00"
+            },
+            {
+                "email": "dont_tell_mama@mail.ru",
+                "internet_access": "wlan",
+                "name": "Art of Pain",
+                "opening_hours": "Mo-Su 11:00-20:00",
+                "phone": "+7 921 9039019",
+                "shop": "tattoo",
+                "website": "https://artofpain.ru/"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Университетская аптека",
+                "name:ru": "Университетская аптека",
+                "website": "http://www.yapteka.ru/"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:vk": "https://vk.com/ozerkiapteka",
+                "name": "Озерки",
+                "opening_hours": "Mo-Fr 07:00-23:00; Sa-Su 08:00-22:00",
+                "operator": "ООО «Аптеки Бинко»",
+                "website": "https://ozerki.ru/",
+                "wheelchair": "limited"
+            }
+        ]
+    },
+    "pastry": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Север-Метрополь",
+                "opening_hours": "08:00-23:00",
+                "operator": "ИП Долгобородов Вадим Германович",
+                "payment:cash": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "payment:visa_electron": "yes",
+                "phone": "+7 812 4587476",
+                "shop": "pastry",
+                "website": "https://sever-metropol.ru/",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Вестпост",
+                "amenity": "post_office",
+                "website": "http://www.westpost.ru/ru",
+                "description": "Почтовые и курьерские услуги"
+            },
+            {
+                "name": "SPSR Express",
+                "amenity": "post_office",
+                "website": "https://www.spsr.ru/",
+                "opening_hours": "Mo-Fr 09:00-17:00; Sa 11:00-16:00"
+            }
+        ]
+    },
+    "college": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Интерстудио",
+                "amenity": "college",
+                "operator": "Федеральное агентство по культуре и кинематографи",
+                "description": "Федеральный Государственный Институт повышения квалификации и переподготовки работников культуры"
+            }
+        ]
+    },
+    "art": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Гильдия мастеров",
+                "shop": "art",
+                "website": "http://art.guild-master.ru/artgallery/about/index.html",
+                "contact:vk": "https://vk.com/club40138690",
+                "opening_hours": "Mo-Su 12:00-20:00"
+            },
+            {
+                "name": "Parivar",
+                "shop": "art",
+                "addr:city": "Санкт-Петербург",
+                "addr:street": "улица Рубинштейна",
+                "opening_hours": "11:00-22:00",
+                "addr:housenumber": "2/45"
+            }
+        ]
+    },
+    "confectionery": {
+        "count": 3,
+        "detail": [
+            {
+                "contact:facebook": "https://www.facebook.com/youstore.one/",
+                "name": "Мармеладная бочка",
+                "shop": "confectionery"
+            },
+            {
+                "shop": "confectionery",
+                "website": "http://www.slsojuz.ru/nevskij-prospekt.html",
+                "operator": "ООО «Сладкий Союз»",
+                "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-22:00"
+            },
+            {
+                "addr:housenumber": "72 литА",
+                "addr:street": "Невский проспект",
+                "contact:vk": "https://vk.com/shopalenka",
+                "name": "Алёнка",
+                "name:en": "Alenka",
+                "office": "2Н",
+                "opening_hours": "09:00-22:00",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "shop": "confectionery",
+                "website": "https://shop.alenka.ru/"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Дом актёра имени К. С. Станиславского",
+                "amenity": "arts_centre",
+                "operator": "Союз театральных деятелей России"
+            },
+            {
+                "amenity": "arts_centre",
+                "contact:vk": "https://vk.com/boreyartcentr",
+                "name": "Борей",
+                "opening_hours": "Tu-Sa 12:00-20:00",
+                "phone": "+7 812 2753837",
+                "website": "http://borey.ru"
+            },
+            {
+                "amenity": "arts_centre",
+                "name": "Зеркальный зал дворца Белосельских-Белозерских",
+                "website": "http://www.spdm.ru/zerkalnyy-zal-dvorca-beloselskih-belozerskih",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "arts_centre",
+                "contact:vk": "https://vk.com/lectorium_plus",
+                "name": "Живопись +",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "books": {
+        "count": 5,
+        "detail": [
+            {
+                "brand": "Дом книги",
+                "brand:wikidata": "Q48950742",
+                "brand:wikipedia": "ru:Московский дом книги",
+                "description": "«Мир науки и медицины»",
+                "name": "Дом книги",
+                "opening_hours": "11:00-20:00",
+                "operator": "ОАО ТФ \"СПб Дом книги\"",
+                "shop": "books",
+                "website": "http://www.dk-spb.ru/",
+                "wheelchair": "limited"
+            },
+            {
+                "brand": "Буквоед",
+                "brand:wikidata": "Q4098549",
+                "brand:wikipedia": "ru:Буквоед",
+                "contact:vk": "https://vk.com/bookvoed",
+                "name": "Буквоед",
+                "name:en": "Bookvoed",
+                "opening_hours": "09:00-23:00",
+                "shop": "books",
+                "website": "https://www.bookvoed.ru/shop?id=31"
+            },
+            {
+                "contact:vk": "https://vk.com/bookhunterspb",
+                "description": "Учебники и книги на иностранных языках",
+                "int_name": "Anglia",
+                "name": "Англия",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa 11:00-20:00; Su 12:00-19:00",
+                "operator": "ООО «Букхантер»",
+                "phone": "+7 812 5798284;+7 812 5798007",
+                "shop": "books"
+            },
+            {
+                "contact:vk": "https://vk.com/izdaniya",
+                "email": "ivanovnovnov@gmail.com",
+                "name": "Подписные издания",
+                "note": "http://www.whorunscoinhive.com/coinhive_id/fUcZhe9lNCJQV8HBxOQZdS9FzxhgqFXw",
+                "opening_hours": "10:00-22:00",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "phone": "+7 812 2735053",
+                "shop": "books",
+                "toilets": "yes",
+                "toilets:access": "free",
+                "website": "https://www.podpisnie.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "contact:email": "store@respublica.ru",
+                "contact:facebook": "https://www.facebook.com/Respublica.ru",
+                "contact:instagram": "https://www.instagram.com/respublica_ru/",
+                "contact:phone": "+7 812 7023662",
+                "contact:vk": "https://vk.com/respublica",
+                "contact:website": "https://www.respublica.ru/",
+                "internet_access": "wlan",
+                "name": "Республика",
+                "opening_hours": "24/7",
+                "operator": "Республика",
+                "payment:cash": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "no",
+                "payment:visa": "yes",
+                "payment:visa_electron": "yes",
+                "shop": "books",
+                "wheelchair": "limited"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 12,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "15",
+                "name": "Невский проспект (Литейный проспект)",
+                "public_transport": "platform",
+                "trolleybus": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Литейный проспект",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "trolleybus": "yes"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Литейный проспект",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "wheelchair": "yes"
+            },
+            {
+                "name": "Невский проспект",
+                "public_transport": "stop_position",
+                "trolleybus": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Невский проспект",
+                "name:ru": "Невский проспект",
+                "public_transport": "platform",
+                "shelter": "no",
+                "trolleybus": "yes",
+                "wheelchair": "yes"
+            },
+            {
+                "name": "Литейный проспект",
+                "public_transport": "stop_position",
+                "trolleybus": "yes"
+            },
+            {
+                "bus": "yes",
+                "ref": "3;7;22;24;27;181;191",
+                "name": "Литейный проспект",
+                "operator": "СПб ГУП \"Пассажиравтотранс\"",
+                "trolleybus": "no",
+                "tactile_paving": "no",
+                "public_transport": "stop_position"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Литейный проспект",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "trolleybus": "yes"
+            },
+            {
+                "name": "Литейный проспект",
+                "public_transport": "stop_position",
+                "trolleybus": "yes"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "internet_access": "wlan",
+                "local_ref": "3;7;22;24;27;181;191",
+                "name": "Литейный проспект",
+                "passenger_information_display": "yes",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "wheelchair": "yes"
+            },
+            {
+                "bus": "yes",
+                "ref": "3;7;22;24;27;181;191",
+                "name": "Литейный проспект",
+                "operator": "СПб ГУП \"Организатор перевозок\"",
+                "trolleybus": "no",
+                "tactile_paving": "no",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Невский проспект (Литейный проспект)",
+                "public_transport": "stop_position",
+                "trolleybus": "yes"
+            }
+        ]
+    },
+    "medical_supply": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Кладовая здоровья",
+                "shop": "medical_supply",
+                "level": "-1",
+                "phone": "+7 812 5792855",
+                "website": "https://kladzdor.ru/",
+                "operator": "ООО «Кладовая Здоровья СПб»",
+                "wheelchair": "no",
+                "opening_hours": "Mo-Fr 10:00-21:00; Sa-Su 11:00-21:00",
+                "medical_supply": "orthopedic"
+            },
+            {
+                "brand": "Ортека",
+                "brand:wikidata": "Q62393660",
+                "contact:email": "info@orteka.ru",
+                "contact:facebook": "https://www.facebook.com/orteka.rus",
+                "contact:instagram": "https://www.instagram.com/orteka_rus/",
+                "contact:phone": "+7 800 3333112",
+                "contact:vk": "https://vk.com/orteka_ru",
+                "contact:website": "https://orteka.ru/salon/orteka-na-liteinom.php",
+                "medical_supply": "orthopedic",
+                "name": "Ортека",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "operator": "НИКАМЕД",
+                "shop": "medical_supply",
+                "wheelchair": "limited"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience",
+                "wheelchair": "no"
+            },
+            {
+                "name": "СантаМаг",
+                "shop": "convenience",
+                "website": "http://santa-mag.ru/",
+                "operator": "ООО «Беркут»",
+                "contact:vk": "https://vk.com/club144216822",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Лайт",
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            },
+            {
+                "brand": "Азбука вкуса",
+                "brand:wikidata": "Q4058209",
+                "contact:vk": "https://vk.com/azbukavkusaspb",
+                "name": "АВ Daily",
+                "opening_hours": "24/7",
+                "operator": "ООО «Городской супермаркет»",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "phone": "+7 800 7003487;+7 495 5043487",
+                "ref:av": "359031",
+                "shop": "convenience",
+                "website": "https://av.ru/shops/nevskij-pr-d-72/"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            },
+            {
+                "name": "Лето",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "МТС",
+                "brand:en": "MTS",
+                "brand:wikidata": "Q1368919",
+                "brand:wikipedia": "en:MTS (network provider)",
+                "contact:vk": "https://vk.com/mts",
+                "name": "МТС",
+                "name:en": "MTS",
+                "opening_hours": "09:00-22:00",
+                "operator": "МТС",
+                "ref": "E706",
+                "shop": "mobile_phone",
+                "website": "https://spb.mts.ru/"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "watches": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Swatch",
+                "brand:wikidata": "Q573422",
+                "brand:wikipedia": "en:Swatch",
+                "contact:vk": "https://vk.com/swatchru",
+                "name": "Swatch",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "ООО \"Свотч Груп (Рус)\"",
+                "phone": "+7 812 4540503",
+                "shop": "watches",
+                "website": "https://www.swatch.com/ru_ru/store-locator/russia/northwest-russia/st-petersburg/nevskiy-prospect-st-petersburg"
+            }
+        ]
+    },
+    "ticket": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:vk": "https://vk.com/bileter",
+                "name": "Bileter",
+                "opening_hours": "10:00-21:00; 15:00-16:00 off",
+                "operator": "Дирекция театрально-зрелищных касс",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "phone": "+7 800 3338051;+7 812 3808050",
+                "ref": "24",
+                "shop": "ticket",
+                "tickets:theatre": "yes",
+                "website": "https://www.bileter.ru/"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Участковый пункт полиции",
+                "amenity": "police",
+                "operator": "МВД РФ",
+                "opening_hours": "Tu,Th 18:00-20:00; Sa[2],Su[4] 12:00-14:00"
+            }
+        ]
+    },
+    "wedding": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Валерия",
+                "shop": "wedding",
+                "description": "Свадебный салон"
+            }
+        ]
+    },
+    "fabric": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Майстер Петерс",
+                "shop": "fabric",
+                "craft": "shoemaker",
+                "description": "обувная клиника",
+                "opening_hours": "Mo-Fr 10:00-14:00;15:00-20:00; Su 11:00-18:00"
+            }
+        ]
+    },
+    "atm": {
+        "count": 7,
+        "detail": [
+            {
+                "amenity": "atm",
+                "opening_hours": "09:00-24:00; 00:00-03:00",
+                "operator": "Газпромбанк",
+                "website": "https://www.gazprombank.ru/"
+            },
+            {
+                "ref": "551730",
+                "amenity": "atm",
+                "operator": "Сбербанк",
+                "opening_hours": "24/7"
+            },
+            {
+                "brand": "ЮниКредит Банк",
+                "amenity": "atm",
+                "website": "http://unicredit.ru",
+                "operator": "ЮниКредит Банк",
+                "addr:street": "Графский переулок",
+                "currency:EUR": "yes",
+                "currency:RUB": "yes",
+                "currency:USD": "yes",
+                "addr:housenumber": "2/48"
+            },
+            {
+                "brand": "ЮниКредит Банк",
+                "amenity": "atm",
+                "cash_in": "yes",
+                "website": "http://unicredit.ru",
+                "operator": "ЮниКредит Банк",
+                "addr:street": "набережная реки Фонтанки",
+                "currency:EUR": "yes",
+                "currency:RUB": "yes",
+                "currency:USD": "yes",
+                "addr:housenumber": "48/2"
+            },
+            {
+                "brand": "Citibank",
+                "amenity": "atm",
+                "website": "https://www.citibank.ru/",
+                "operator": "Ситибанк",
+                "opening_hours": "24/7"
+            },
+            {
+                "brand": "Сбербанк",
+                "amenity": "atm",
+                "operator": "Сбербанк России",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "atm",
+                "brand": "Санкт-Петербург",
+                "contact:email": "cc@bspb.ru",
+                "contact:facebook": "https://www.facebook.com/bspb/",
+                "contact:instagram": "https://instagram.com/bank_spb",
+                "contact:ok": "https://ok.ru/bspb",
+                "contact:phone": "+7 800 2225050;+7 812 3295050",
+                "contact:twitter": "https://twitter.com/bank_spb",
+                "contact:vk": "https://vk.com/bspb",
+                "contact:website": "https://www.bspb.ru/",
+                "currency:RUB": "yes",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "operator": "ПАО Банк Санкт-Петербург",
+                "telegram": "https://t.me/mybspb"
+            }
+        ]
+    },
+    "telephone": {
+        "count": 4,
+        "detail": [
+            {
+                "phone": "+7 812 3147048",
+                "amenity": "telephone"
+            },
+            {
+                "amenity": "telephone"
+            },
+            {
+                "phone": "+7 812 5712452",
+                "amenity": "telephone"
+            },
+            {
+                "amenity": "telephone"
+            }
+        ]
+    },
+    "theatre": {
+        "count": 2,
+        "detail": [
+            {
+                "alt_name": "Академический Малый драматический театр — Театр Европы",
+                "amenity": "theatre",
+                "contact:vk": "https://vk.com/mdt_dodin",
+                "email": "mdtpr@mail.ru",
+                "name": "Академический Малый драматический театр – Театр Европы",
+                "opening_hours": "Mo-Su 12:00-22:00",
+                "operator": "ФГБУК «Академический Малый драматический театр – Театр Европы»",
+                "phone": "+7 812 7132078",
+                "ref:mkrf_theaters": "15312",
+                "website": "http://mdt-dodin.ru/",
+                "wheelchair": "yes",
+                "wikidata": "Q1113233"
+            },
+            {
+                "amenity": "theatre",
+                "email": "t.karlssonhaus@yandex.ru",
+                "name": "Karlsson Haus",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "phone": "+7 812 3095601",
+                "ref:mkrf_theaters": "39022",
+                "website": "http://www.karlssonhaus.ru/"
+            }
+        ]
+    },
+    "outdoor": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Ирбис",
+                "shop": "outdoor",
+                "website": "http://irbis.spb.ru",
+                "payment:cash": "yes",
+                "payment:visa": "yes",
+                "opening_hours": "Mo-Su 11:00-21:00",
+                "payment:mastercard": "yes"
+            },
+            {
+                "name": "Снаряжение",
+                "shop": "outdoor",
+                "name:ru": "Снаряжение",
+                "operator": "ООО «Вектор»",
+                "contact:vk": "https://vk.com/equipru",
+                "contact:email": "Pasl80@yandex.ru",
+                "contact:phone": "+7 812 7124870",
+                "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-18:00",
+                "contact:website": "http://www.equip.ru/ul._stremyannaya,_d._3"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "fee": "no",
+                "amenity": "bicycle_parking",
+                "covered": "no",
+                "capacity": "5",
+                "bicycle_parking": "rack"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Экобокс",
+                "fixme": "уточнить положение",
+                "amenity": "recycling",
+                "recycling_type": "container",
+                "recycling:batteries": "yes",
+                "recycling:hydrargyrum": "yes",
+                "recycling:hazardous_waste": "yes",
+                "recycling:low_energy_bulbs": "yes",
+                "recycling:fluorescent_tubes": "yes"
+            },
+            {
+                "name": "Экобокс",
+                "fixme": "уточнить положение(в СПб ГДТЮ, Невский 39)",
+                "amenity": "recycling",
+                "recycling_type": "container",
+                "recycling:batteries": "yes"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Л'Этуаль",
+                "brand:wikidata": "Q18400706",
+                "brand:wikipedia": "ru:Л’Этуаль",
+                "contact:vk": "https://vk.com/letoile_official",
+                "name": "Л'Этуаль",
+                "opening_hours": "10:00-22:00",
+                "phone": "+7 800 3337711 (доб. 32476, 32477)",
+                "shop": "cosmetics",
+                "website": "https://www.letu.ru/"
+            },
+            {
+                "contact:email": "spb-gallery@mixit.ru",
+                "contact:phone": "+7 812 4587754",
+                "contact:vk": "https://vk.com/mixit_ru",
+                "contact:website": "https://mixit.ru/",
+                "name": "Mixit",
+                "opening_hours": "Mo-Su 10:00 - 22:00",
+                "operator": "Рязанова Галина Александровна",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "gift": {
+        "count": 2,
+        "detail": [
+            {
+                "contact:vk": "https://vk.com/lilkko",
+                "email": "info@lilkko.ru",
+                "name": "Lilkko",
+                "old_name": "Zakka",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "phone": "+7 800 5058964",
+                "shop": "gift",
+                "website": "https://www.lilkko.ru/"
+            },
+            {
+                "name": "Симфония Камня",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa 11:00-20:00; Su 11:00-19:00",
+                "operator": "ООО \"Территория\"",
+                "shop": "gift",
+                "website": "https://www.symphgem.ru/",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Стриж",
+                "shop": "hairdresser",
+                "contact:vk": "https://vk.com/strizh_barber",
+                "opening_hours": "10:00-22:00"
+            },
+            {
+                "contact:vk": "https://vk.com/odisodis",
+                "name": "Осипов",
+                "name:en": "Osipov",
+                "shop": "hairdresser",
+                "website": "http://denis-osipov.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Расчеши",
+                "shop": "hairdresser",
+                "website": "http://ras4eshi.ru/",
+                "contact:vk": "https://vk.com/ras4eshi",
+                "opening_hours": "09:30-21:30"
+            },
+            {
+                "name": "Irina Anderson",
+                "shop": "hairdresser",
+                "website": "https://irina-anderson.ru/vladimirsky-ru/glavnaya.html",
+                "contact:vk": "https://vk.com/hairbyirinaanderson",
+                "opening_hours": "09:00-21:00"
+            },
+            {
+                "contact:email": "777budko777@bk.ru",
+                "contact:instagram": "https://instagram.com/way_to_beauty_spb",
+                "contact:phone": "+7 911 0897139",
+                "name": "Way to Beauty",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "Way to Beauty",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 4,
+        "detail": [
+            {
+                "ref": "61",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "design:year": "2010",
+                "drive_through": "no",
+                "post_box:type": "wall",
+                "post_box:design": "ЯПНМ-II-С",
+                "collection_times": "Mo-Fr 04:30,12:50; Sa 08:30; Su 12:50"
+            },
+            {
+                "ref": "54",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "design:year": "2010",
+                "drive_through": "no",
+                "post_box:type": "wall",
+                "post_box:design": "ЯПНМ-II-С",
+                "collection_times": "Mo-Fr 03:55,12:15; Sa 07:55; Su 12:15"
+            },
+            {
+                "ref": "63",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "design:year": "2010",
+                "drive_through": "no",
+                "post_box:type": "wall",
+                "post_box:design": "ЯПНМ-II-С",
+                "collection_times": "Mo-Fr 04:40,13:00; Sa 08:40; Su 13:00"
+            },
+            {
+                "ref": "73",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "design:year": "2010",
+                "drive_through": "no",
+                "post_box:type": "wall",
+                "post_box:design": "ЯПНМ-II-С",
+                "collection_times": "Mo-Fr 05:30,14:05; Sa 09:40; Su 14:05"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "fee": "no",
+                "access": "customers",
+                "amenity": "parking",
+                "parking": "surface",
+                "surface": "asphalt"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "76",
+                "addr:street": "Невский проспект",
+                "amenity": "school",
+                "contact:email": "info@oratoris.ru",
+                "contact:phone": "+7 812 9293259",
+                "contact:vk": "https://vk.com/oratoris",
+                "contact:website": "https://www.oratoris.ru",
+                "name": "ORATORIS"
+            }
+        ]
+    },
+    "bench": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "credit_union": {
+        "count": 1,
+        "detail": [
+            {
+                "alt_name": "Сберъкнижка",
+                "amenity": "credit_union",
+                "contact:vk": "https://vk.com/sberknru",
+                "name": "Глобал Финанс",
+                "website": "https://gfkpk.ru/"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Меди",
+                "phone": "+7 812 7770000;+7 812 3240001",
+                "amenity": "doctors",
+                "website": "https://medi.spb.ru/medi/kliniki/kompleksy/nevskiy",
+                "contact:vk": "https://vk.com/mediclinics",
+                "healthcare": "clinic",
+                "opening_hours": "08:00-21:30"
+            },
+            {
+                "name": "Kosmet",
+                "amenity": "doctors",
+                "website": "https://www.kosmet.ru/",
+                "operator": "ООО «Лак»",
+                "contact:vk": "https://vk.com/kosmetsanktpeterburg",
+                "opening_hours": "Mo-Fr 09:00-21:00; Sa-Su 10:00-20:00"
+            },
+            {
+                "amenity": "doctors",
+                "contact:vk": "https://vk.com/onaklinika",
+                "healthcare": "doctor",
+                "name": "Она",
+                "opening_hours": "09:00-21:00",
+                "website": "https://ona-clinic.ru/"
+            }
+        ]
+    },
+    "stripclub": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Zависть",
+                "amenity": "stripclub",
+                "website": "http://zavistbar.ru/lounge-bar/",
+                "contact:vk": "https://vk.com/zavistbar"
+            },
+            {
+                "amenity": "stripclub",
+                "contact:vk": "https://vk.com/zavistbar",
+                "int_name": "Zavist",
+                "name": "Zависть",
+                "website": "http://zavistbar.ru/"
+            },
+            {
+                "name": "Playgirls",
+                "note": "на сайте указан другой адрес",
+                "amenity": "stripclub",
+                "website": "https://playgirls.spb.ru/",
+                "alt_name": "PG",
+                "operator": "ООО «1/6 часть Суши»",
+                "contact:vk": "https://vk.com/playgirls_spb"
+            }
+        ]
+    },
+    "optician": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Зайди — увидишь",
+                "shop": "optician",
+                "website": "https://zaidiuvidish.ru",
+                "operator": "ООО «Зайди — увидишь»",
+                "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-20:00"
+            },
+            {
+                "name": "Zeiss",
+                "shop": "optician",
+                "brand": "Zeiss",
+                "website": "https://zaidiuvidish.ru",
+                "operator": "ООО «Зайди — увидишь»",
+                "opening_hours": "Mo-Sa 10:00-21:00; Su 11:00-20:00",
+                "brand:wikidata": "Q282186"
+            },
+            {
+                "shop": "optician"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Spy-Ear",
+                "shop": "electronics",
+                "website": "https://spy-ear.ru/",
+                "contact:vk": "https://vk.com/spy_ear",
+                "description": "аренда и продажа микронаушников"
+            },
+            {
+                "brand": "Xiaomi",
+                "brand:wikidata": "Q1636958",
+                "contact:vk": "https://vk.com/mi.russia",
+                "email": "retail001ru78@mi-shop.com",
+                "name": "Mi",
+                "opening_hours": "10:00-22:00",
+                "operator": "ООО \"Смарт Оранж\"",
+                "shop": "electronics",
+                "website": "https://mi-shop.com/"
+            },
+            {
+                "brand": "re:Store",
+                "brand:wikidata": "Q7486956",
+                "contact:email": "ac.vladimirskiy.spb@re-store.ru",
+                "contact:facebook": "https://www.facebook.com/restore.ru",
+                "contact:instagram": "https://instagram.com/restore_ru",
+                "contact:phone": "+7 812 6777276",
+                "contact:vk": "https://vk.com/re_store",
+                "contact:website": "https://www.re-store.ru/",
+                "contact:youtube": "https://www.youtube.com/user/restoreapr",
+                "name": "Re:store",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "реСтор",
+                "shop": "electronics",
+                "telegram": "https://t.me/restore_ru"
+            }
+        ]
+    },
+    "interior_decoration": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сентябревъ",
+                "shop": "interior_decoration",
+                "website": "http://www.sentiabrev.ru/",
+                "contact:vk": "https://vk.com/sentiabrev",
+                "opening_hours": "Mo-Fr 10:00-20:00"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "dentist",
+                "contact:vk": "https://vk.com/matissdent",
+                "healthcare": "dentist",
+                "name": "Матисс Дент",
+                "opening_hours": "09:00-21:00",
+                "website": "https://matissdent.ru/"
+            }
+        ]
+    },
+    "training": {
+        "count": 8,
+        "detail": [
+            {
+                "amenity": "training",
+                "contact:vk": "https://vk.com/oratoris",
+                "description": "Курсы ораторского искусства",
+                "level": "4",
+                "name": "Oratoris",
+                "website": "https://oratoris.ru/"
+            },
+            {
+                "name": "MD. Trend",
+                "amenity": "training",
+                "website": "http://www.mezoniti.spb.ru/",
+                "contact:vk": "https://vk.com/md_trend"
+            },
+            {
+                "amenity": "training",
+                "contact:vk": "https://vk.com/ege101ball",
+                "description": "Курсы подготовки к ЕГЭ и ОГЭ",
+                "name": "101 балл",
+                "website": "https://www.101ball.ru/"
+            },
+            {
+                "name": "Экспресс-ТВ",
+                "amenity": "training",
+                "website": "https://www.ex-tv.ru/",
+                "addr:floor": "6",
+                "contact:vk": "https://vk.com/express_tv",
+                "description": "Школа кино и телевидения"
+            },
+            {
+                "name": "Институт культурных программ",
+                "amenity": "training",
+                "website": "http://www.spbicp.ru/",
+                "contact:vk": "https://vk.com/club44751392"
+            },
+            {
+                "name": "Maximum",
+                "amenity": "training",
+                "operator": "Юмакс",
+                "contact:vk": "https://vk.com/maximumtest",
+                "description": "Подготовка к ЕГЭ и ОГЭ",
+                "contact:email": "info@maximumtest.ru",
+                "contact:phone": "+7 812 3855955",
+                "opening_hours": "Mo-Su 11:00-20:00",
+                "contact:website": "http://maximumtest.ru/"
+            },
+            {
+                "amenity": "training",
+                "level": "3",
+                "name": "ABart Center",
+                "website": "https://www.bartcenter.ru/"
+            },
+            {
+                "amenity": "training",
+                "brand": "Association Montessori Internationale",
+                "brand:wikidata": "Q2867275",
+                "level": "3",
+                "name": "Учебный центр АМИ",
+                "note": "http://goldenbusina.ru/assistentskij-kurs-0-3/"
+            }
+        ]
+    },
+    "nightclub": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "nightclub",
+                "name": "LA"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "12",
+                "addr:postcode": "191025",
+                "addr:street": "улица Рубинштейна",
+                "amenity": "kindergarten",
+                "contact:email": "91@dou-center.spb.ru",
+                "contact:phone": "+7 812 5712726",
+                "contact:website": "http://gbdoy91.ru",
+                "name": "Детский сад № 91",
+                "official_name": "Государственное бюджетное дошкольное образовательное учреждение детский сад № 91 компенсирующего вида Центрального района Санкт-Петербурга",
+                "ref": "91"
+            },
+            {
+                "amenity": "kindergarten",
+                "contact:email": "dou112.centr@obr.gov.spb.ru",
+                "contact:phone": "+7 812 5717226",
+                "contact:website": "http://gbdou112.3dn.ru",
+                "name": "Детский сад №112",
+                "official_name": "Государственное бюджетное дошкольное образовательное учреждение детский сад № 112 Центрального района Санкт-Петербурга",
+                "ref": "112"
+            },
+            {
+                "amenity": "kindergarten",
+                "contact:email": "92@dou-center.spb.ru",
+                "contact:phone": "+7 812 5722804",
+                "name": "Детский сад № 92",
+                "official_name": "Государственное бюджетное дошкольное образовательное учреждение детский сад № 92 комбинированного вида Центрального района Санкт-Петербурга",
+                "ref": "92"
+            }
+        ]
+    },
+    "tobacco": {
+        "count": 3,
+        "detail": [
+            {
+                "alt_name": "Табак Сити",
+                "name": "Табак Sity",
+                "note": "нет на сайте",
+                "opening_hours": "08:00-23:00",
+                "shop": "tobacco",
+                "website": "http://tabaksity.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Табакерка",
+                "shop": "tobacco",
+                "website": "http://www.tabakerka.biz/fontanka/",
+                "operator": "ООО «Стиль»",
+                "opening_hours": "Mo-Sa 10:00-21:00; Su 12:00-21:00"
+            },
+            {
+                "name": "Огонёк",
+                "shop": "tobacco",
+                "contact:vk": "https://vk.com/tabakogonek"
+            }
+        ]
+    },
+    "tea": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Geotea",
+                "shop": "tea",
+                "website": "http://geotea.ru/",
+                "alt_name": "География чая",
+                "contact:vk": "https://vk.com/geotea"
+            },
+            {
+                "name": "Унция",
+                "shop": "tea",
+                "website": "https://www.chay.info/",
+                "contact:vk": "https://vk.com/teaounce"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Hall Oscar",
+                "shop": "furniture",
+                "website": "https://halloscar.ru/salons/~item/8",
+                "contact:vk": "https://vk.com/halloscar",
+                "opening_hours": "Mo-Fr 11:00-20:00; Sa-Su 11:00-19:00"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "СтройХозТовары",
+                "shop": "doityourself",
+                "opening_hours": "Mo-Sa 10:00-20:00; Su 11:00-20:00"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Арарат",
+                "shop": "alcohol",
+                "website": "http://ararat-wine.ru/",
+                "contact:vk": "https://vk.com/araratwine",
+                "opening_hours": "Mo-Sa 11:00-22:00; Su 11:00-21:00"
+            },
+            {
+                "name": "Монополь",
+                "shop": "alcohol",
+                "website": "https://www.monopolshop.com/restaurant/monopol_na_vladimirskom/",
+                "operator": "ООО «Монополь-Бар»",
+                "contact:vk": "https://vk.com/monopolbar",
+                "opening_hours": "11:00-22:00"
+            }
+        ]
+    },
+    "sewing": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Яркий мир рукоделия",
+                "shop": "sewing",
+                "website": "http://mir-ruk.ru/",
+                "contact:vk": "https://vk.com/mir_rukodelija"
+            }
+        ]
+    },
+    "bag": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Samsonite",
+                "brand:wikidata": "Q1203426",
+                "brand:wikipedia": "en:Samsonite",
+                "name": "Samsonite",
+                "shop": "bag",
+                "website": "https://www.samsonite.ru/"
+            }
+        ]
+    },
+    "houseware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Императорский фарфор",
+                "shop": "houseware",
+                "brand": "Императорский фарфоровый завод",
+                "website": "http://www.ipm.ru/shops/shops_2/",
+                "contact:vk": "https://vk.com/ipm_ru",
+                "brand:wikidata": "Q1303887"
+            }
+        ]
+    },
+    "bookmaker": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Лига ставок",
+                "brand:en": "Liga Stavok",
+                "brand:ru": "Лига ставок",
+                "brand:wikidata": "Q6545804",
+                "brand:wikipedia": "ru:Лига Ставок",
+                "contact:email": "info@ligastavok.ru",
+                "contact:phone": "+7 800 5554455",
+                "contact:vk": "https://vk.com/ligastavok_official",
+                "contact:website": "https://www.ligastavok.ru/",
+                "name": "Лига ставок",
+                "name:en": "Liga Stavok",
+                "name:ru": "Лига ставок",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "operator": "Первая международная букмекерская компания",
+                "shop": "bookmaker"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Настроение",
+                "shop": "florist",
+                "website": "https://buket-podarki.ru/",
+                "contact:vk": "https://vk.com/nastroeniespb",
+                "opening_hours": "08:00-22:00"
+            },
+            {
+                "name": "Цветочное бюро",
+                "shop": "florist",
+                "website": "https://цветочноебюро.рф/"
+            }
+        ]
+    },
+    "hookah_lounge": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Bonnie & Clyde",
+                "amenity": "hookah_lounge",
+                "contact:vk": "https://vk.com/bonnielounge",
+                "opening_hours": "Mo-Th 16:00-06:00, Fr-Sa 12:00-06:00"
+            }
+        ]
+    },
+    "massage": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Матрешки",
+                "shop": "massage",
+                "massage": "sexual",
+                "website": "http://spa-matreshki.ru/",
+                "contact:vk": "https://vk.com/matreshkispa"
+            },
+            {
+                "name": "Маска",
+                "shop": "massage"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "community_centre",
+                "contact:vk": "https://vk.com/mediaspb24",
+                "name": "Медиацентр Правительства Санкт-Петербурга",
+                "website": "https://www.gov.spb.ru/gov/otrasl/press/mediacentr-pravitelstva-sankt-peterburga/"
+            }
+        ]
+    },
+    "wine": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Монополь",
+                "shop": "wine"
+            }
+        ]
+    },
+    "escape_game": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:facebook": "https://www.facebook.com/ilockedspb",
+                "contact:instagram": "https://www.instagram.com/ilockedru",
+                "contact:vk": "https://vk.com/ilockedru",
+                "contact:youtube": "https://www.youtube.com/iLockedru",
+                "email": "ilocked@ilocked.ru",
+                "leisure": "escape_game",
+                "name": "iLocked",
+                "phone": "+7 812 4486894",
+                "website": "http://ilocked.ru"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "stationery": {
+        "count": 1,
+        "detail": [
+            {
+                "name:en": "Lilkko",
+                "shop": "stationery"
+            }
+        ]
+    },
+    "beverages": {
+        "count": 1,
+        "detail": [
+            {
+                "internet_access": "wlan",
+                "name": "WHAT THE FRESH?",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "phone": "+7 999 6693567",
+                "shop": "beverages",
+                "website": "http://wtf.com.ru/"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "info@zolotaya-pora.ru",
+                "contact:instagram": "https://instagram.com/zolotayapora",
+                "contact:phone": "+7 965 7934046",
+                "contact:website": "https://zolotaya-pora.ru/",
+                "name": "Золотая пора",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "operator": "Золотая пора",
+                "shop": "computer"
+            }
+        ]
+    },
+    "service": {
+        "count": 4,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:country": "RU",
+                "addr:housenumber": "35/37",
+                "addr:letter": "Л",
+                "addr:street": "набережная реки Фонтанки",
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation",
+                "source": "rgis"
+            },
+            {
+                "ref": "84",
+                "power": "substation",
+                "source": "rgis.spb.ru",
+                "building": "service",
+                "addr:city": "Санкт-Петербург",
+                "addr:letter": "Е",
+                "addr:street": "Невский проспект",
+                "building:levels": "1",
+                "addr:housenumber": "74-76"
+            },
+            {
+                "ref": "829",
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "addr:street": "Стремянная улица",
+                "addr:housenumber": "2А"
+            }
+        ]
+    }
+}

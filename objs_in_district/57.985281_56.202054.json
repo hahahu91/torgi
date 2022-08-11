@@ -1,0 +1,355 @@
+{
+    "residents": 7932,
+    "post_box": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_box",
+                "ref": "137"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "ул. Снайперов",
+                "public_transport": "platform",
+                "ref": "101201",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "ул. Снайперов",
+                "public_transport": "stop_position"
+            },
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "ул. Советской Армии",
+                "public_transport": "platform",
+                "ref": "120701",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Монетка",
+                "brand:wikidata": "Q4301704",
+                "brand:wikipedia": "ru:Монетка (сеть магазинов)",
+                "contact:email": "office@monetka.ru",
+                "contact:phone": "+7 800 1008500",
+                "contact:vk": "https://vk.com/shop_monetka",
+                "contact:website": "http://www.monetka.ru",
+                "name": "Монетка",
+                "name:en": "Monetka",
+                "name:ru": "Монетка",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "operator": "ООО \"Фокус-Ритейл\"",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Планета здоровья",
+                "amenity": "pharmacy",
+                "name:en": "Planet Health",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Планета здоровья"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling",
+                "recycling_type": "container",
+                "recycling:plastic_bottles": "yes"
+            }
+        ]
+    },
+    "waste_transfer_station": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_transfer_station"
+            },
+            {
+                "amenity": "waste_transfer_station"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пирожковая",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "name": "Хлебница",
+                "opening_hours": "Mo-Su 08:00-21:00"
+            },
+            {
+                "amenity": "fast_food",
+                "contact:email": "lavka76@yandex.ru",
+                "contact:facebook": "https://facebook.com/kulinarnayalavka1",
+                "contact:instagram": "https://instagram.com/lavkaperm",
+                "contact:phone": "+7 342 2765859",
+                "contact:vk": "https://vk.com/kulinarnayalavka1",
+                "contact:website": "https://lavkanomer1.ru/",
+                "name": "Лавка №1",
+                "opening_hours": "Mo-Fr 08:00-21:00;Sa-Su 10:00-21:00",
+                "operator": "Лавка №1"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "check_date:opening_hours": "2021-04-14",
+                "name": "Лион",
+                "opening_hours": "10:00-23:00",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Эстер",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Matrix",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Mia",
+                "opening_hours": "Mo-Th 12:00-00:00; Fr 12:00-04:00; Sa 14:00-04:00; Su 14:00-00:00"
+            }
+        ]
+    },
+    "medical_supply": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "info@ldc.ru",
+                "contact:phone": "+7 342 2701060",
+                "contact:website": "https://perm.ldc.ru/",
+                "name": "МИБС",
+                "opening_hours": "Mo-Sa 07:30-23:30;Su 09:00-17:00",
+                "operator": "ЛДЦ МИБС-Пермь",
+                "shop": "medical_supply"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "clinic",
+                "healthcare": "clinic",
+                "healthcare:speciality": "physiatry",
+                "name": "ТриАктив-MED",
+                "website": "http://triaktivmed.ru"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "doctors",
+                "contact:facebook": "https://www.facebook.com/kdllaboratory",
+                "contact:instagram": "https://www.instagram.com/kdl.ru",
+                "contact:phone": "+7 342 2060400",
+                "contact:vk": "https://vk.com/kdllab",
+                "contact:website": "https://www.kdl.ru/",
+                "health_facility:type": "laboratory",
+                "health_specialty:microbiology": "yes",
+                "name": "KDL",
+                "opening_hours": "Mo-Fr 07:30-20:00;Sa 08:00-12:00;Su 09:00-13:00",
+                "operator": "«Медицинский центр «Диапазон»"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "marina_djeansmira@mail.ru",
+                "contact:phone": "+7 951 9316263",
+                "name": "Джинсы Мира",
+                "opening_hours": "Mo-Sa 11:00-20:00;Su 11:00-19:00",
+                "operator": "Джинсы Мира",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "service": {
+        "count": 6,
+        "detail": [
+            {
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "building": "service"
+            },
+            {
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation",
+                "roof:shape": "gabled",
+                "substation": "minor_distribution"
+            },
+            {
+                "branch": "ПГЭС - Южный РЭС",
+                "building": "service",
+                "building:levels": "1",
+                "official_short_name": "ТП",
+                "operator": "МРСК Урала - Пермэнерго",
+                "power": "substation",
+                "ref": "7489",
+                "substation": "minor_distribution",
+                "voltage": "6000;400"
+            },
+            {
+                "branch": "ПГЭС - Южный РЭС",
+                "building": "service",
+                "building:levels": "1",
+                "official_short_name": "ТП",
+                "operator": "МРСК Урала - Пермэнерго",
+                "power": "substation",
+                "ref": "7129",
+                "roof:shape": "gabled",
+                "substation": "minor_distribution",
+                "voltage": "6000;400"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "23",
+                "addr:street": "улица Советской Армии",
+                "amenity": "training",
+                "building": "school",
+                "building:levels": "9",
+                "name": "Детская музыкальная школа №10",
+                "source:start_date": "pkr_perm",
+                "start_date": "1986",
+                "training": "music"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 11,
+        "detail": [
+            {
+                "addr:housenumber": "14А",
+                "addr:street": "улица Мира",
+                "building": "kindergarten",
+                "building:levels": "2"
+            },
+            {
+                "addr:housenumber": "25А",
+                "addr:street": "улица Советской Армии",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "roof:shape": "flat"
+            },
+            {
+                "addr:housenumber": "7",
+                "addr:street": "улица Баумана",
+                "building": "kindergarten"
+            },
+            {
+                "addr:housenumber": "51А",
+                "addr:street": "Стахановская улица",
+                "building": "kindergarten",
+                "building:levels": "2"
+            },
+            {
+                "building": "kindergarten",
+                "building:levels": "2"
+            },
+            {
+                "addr:housenumber": "6А",
+                "addr:street": "улица Чайковского",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "roof:shape": "flat"
+            },
+            {
+                "building": "kindergarten",
+                "building:levels": "2"
+            },
+            {
+                "building": "kindergarten"
+            },
+            {
+                "building": "kindergarten"
+            },
+            {
+                "addr:housenumber": "5Б",
+                "addr:street": "улица Баумана",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "roof:shape": "flat",
+                "source:start_date": "isogd_perm",
+                "start_date": "2014-08-20"
+            },
+            {
+                "addr:housenumber": "8",
+                "addr:street": "улица Чайковского",
+                "building": "kindergarten"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "commercial"
+            }
+        ]
+    }
+}

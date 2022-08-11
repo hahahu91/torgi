@@ -1,0 +1,103 @@
+{
+    "residents": 15600,
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "parking",
+                "opening_hours": "08:00-24:00"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Антей",
+                "shop": "convenience",
+                "opening_hours": "Mo-Su 08:00-20:00"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Саровбизнесбанк",
+                "amenity": "bank"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_box",
+                "operator": "Почта России"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Городская баня",
+                "leisure": "sauna",
+                "name:ru": "Городская баня"
+            }
+        ]
+    },
+    "confectionery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Фабрика \"Городецкий пряник\"",
+                "shop": "confectionery",
+                "name:ru": "Фабрика \"Городецкий пряник\""
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Госаптека",
+                "amenity": "pharmacy",
+                "name:ru": "Госаптека"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Медицинский центр \"Экомед\"",
+                "amenity": "clinic",
+                "name:ru": "Медицинский центр \"Экомед\""
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Красное и белое",
+                "shop": "alcohol",
+                "name:ru": "Красное и белое"
+            }
+        ]
+    },
+    "department_store": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "2",
+                "addr:street": "улица Я.Петрова",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Петровский",
+                "shop": "department_store"
+            }
+        ]
+    }
+}

@@ -1,0 +1,455 @@
+{
+    "residents": 10473,
+    "books": {
+        "count": 1,
+        "detail": [
+            {
+                "check_date:opening_hours": "2021-04-19",
+                "name": "Академкнига",
+                "opening_hours": "Mo-Fr 10:00-19:00, Sa 10:00-18:00",
+                "shop": "books",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Ботик Петра",
+                "amenity": "restaurant"
+            },
+            {
+                "amenity": "restaurant",
+                "diet:vegan": "yes",
+                "diet:vegetarian": "yes",
+                "name": "Lambic",
+                "opening_hours": "Mo-Su 12:00-24:00"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Медит групп",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "pharmacy",
+                "brand": "36,6",
+                "brand:wikidata": "Q226889",
+                "brand:wikipedia": "ru:36,6 (аптечная сеть)",
+                "contact:facebook": "https://www.facebook.com/apteka366",
+                "contact:instagram": "https://www.instagram.com/apteka366",
+                "contact:ok": "https://ok.ru/group/57486618853421",
+                "contact:vk": "https://vk.com/apteka36i6",
+                "contact:website": "https://apteka366.ru",
+                "healthcare": "pharmacy",
+                "name": "36,6",
+                "name:ru": "36,6",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Дарвиновский музей",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            },
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Дарвиновский музей",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash"
+            }
+        ]
+    },
+    "car": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "renault",
+                "name": "Авантайм",
+                "shop": "car",
+                "website": "https://renault.avantime.ru/",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "name:signed": "no",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Барбер клуб",
+                "opening_hours": "Mo-Su 09:30-21:30",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "playground": {
+        "count": 3,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "pub": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pub",
+                "description": "Пивное заведение"
+            }
+        ]
+    },
+    "bench": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "check_date": "2021-04-14"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "check_date": "2021-04-14"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "check_date": "2021-04-14"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "check_date": "2021-04-14"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "check_date": "2021-04-14"
+            }
+        ]
+    },
+    "model": {
+        "count": 1,
+        "detail": [
+            {
+                "check_date:opening_hours": "2021-04-13",
+                "name": "Моделист.RU",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-18:00; Su 11:00-16:00",
+                "shop": "model"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "stands",
+                "capacity": "10",
+                "check_date:capacity": "2021-04-06",
+                "covered": "no",
+                "fee": "no",
+                "name": "Дарвиновский музей",
+                "name:en": "State Darvin Museum",
+                "ref": "23001"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "rack"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "stands",
+                "capacity": "10",
+                "covered": "no"
+            }
+        ]
+    },
+    "bicycle_rental": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_rental",
+                "capacity": "15",
+                "capacity:electric": "0",
+                "contact:email": "info@velobike.ru",
+                "contact:phone": "+7 495 9664669",
+                "contact:website": "https://velobike.ru/",
+                "fee": "yes",
+                "network": "Велобайк",
+                "opening_hours": "24/7",
+                "operator": "АО «СитиБайк»",
+                "payment:cash": "no",
+                "payment:mastercard": "yes",
+                "payment:troika": "no",
+                "payment:visa": "yes",
+                "ref": "350",
+                "seasonal": "yes"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Зебра",
+                "sport": "fitness",
+                "leisure": "sports_centre",
+                "contact:phone": "+7 495 2307727",
+                "contact:website": "http://www.fitnes.ru"
+            },
+            {
+                "leisure": "sports_centre",
+                "name": "Бойцовский центр на ул. Вавилова",
+                "opening_hours": "Mo-Sa 12:00-22:00",
+                "phone": "+74957899222",
+                "sport": "fighting",
+                "website": "https://taekwondoitf.ru"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Биография",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "vacant": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "vacant"
+            }
+        ]
+    },
+    "estate_agent": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Центракадемстрой",
+                "opening_hours:signed": "no",
+                "shop": "estate_agent",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "check_date:opening_hours": "2021-04-19",
+                "name": "Зелёная симфония",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa,Su 10:00-18:00",
+                "shop": "florist"
+            },
+            {
+                "name": "Das flowers",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "shop": "florist"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Институт научной информации по общественным наукам РАН",
+                "amenity": "library",
+                "name:de": "Institut für gesellschafts­wissenschaftliche Information der russischen Akademie der Wissenschaften",
+                "name:en": "Institute of Scientific Information for Social Sciences of the Russian Academy of Sciences",
+                "wikidata": "Q4201615",
+                "wikipedia": "ru:Институт научной информации по общественным наукам РАН",
+                "short_name": "ИНИОН",
+                "contact:email": "info@inion.ru",
+                "official_name": "Федеральное государственное бюджетное учреждение науки Институт научной информации по общественным наукам Российской академии наук",
+                "contact:website": "http://www.inion.ru/"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kiosk",
+                "building:levels": "1",
+                "inscription": "Пресса",
+                "name": "Пресса",
+                "opening_hours": "Mo-Fr 07:00-19:00",
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Вкусвил",
+                "opening_hours": "PH,Mo-Su 09:00-22:00",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Институт психического здоровья",
+                "amenity": "clinic",
+                "website": "ipza.ru"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "diet:vegetarian": "yes",
+                "name": "Южное",
+                "opening_hours": "Mo-Su 11:00-23:00"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "contact:instagram": "https://www.instagram.com/coffeebrainmsk/",
+                "contact:vk": "https://vk.com/coffeebrainmsk",
+                "cuisine": "coffee_shop",
+                "name": "Coffeebrain",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa,Su 09:00-19:00",
+                "takeaway": "yes"
+            }
+        ]
+    },
+    "copyshop": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дизайн бюро",
+                "opening_hours": "Mo-Fr 09:00-17:00",
+                "shop": "copyshop"
+            }
+        ]
+    },
+    "clock": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "clock",
+                "display": "analog",
+                "faces": "2",
+                "support": "pole"
+            }
+        ]
+    },
+    "ice_cream": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "ice_cream",
+                "name": "Айсберри"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "source": "Адресный реестр Москвы, data.mos.ru",
+                "building": "school",
+                "addr:street": "улица Вавилова",
+                "building:levels": "4",
+                "addr:housenumber": "51"
+            }
+        ]
+    },
+    "service": {
+        "count": 5,
+        "detail": [
+            {
+                "addr:housenumber": "45 с1",
+                "addr:street": "улица Вавилова",
+                "building": "service",
+                "building:levels": "1",
+                "roof:shape": "gabled",
+                "source": "Адресный реестр Москвы, data.mos.ru"
+            },
+            {
+                "addr:housenumber": "57 с1",
+                "addr:street": "Ленинский проспект",
+                "building": "service"
+            },
+            {
+                "addr:housenumber": "47 к2 с1",
+                "addr:street": "улица Вавилова",
+                "building": "service",
+                "building:levels": "1",
+                "roof:shape": "flat",
+                "source": "Адресный реестр Москвы, data.mos.ru"
+            },
+            {
+                "addr:housenumber": "14 с1",
+                "addr:street": "улица Губкина",
+                "building": "service",
+                "building:levels": "1",
+                "roof:shape": "flat"
+            },
+            {
+                "building": "service"
+            }
+        ]
+    }
+}

@@ -1,0 +1,214 @@
+{
+    "residents": 8361,
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "highway": "bus_stop",
+                "shelter": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пивнушка",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "department_store": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "department_store"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket",
+                "website": "http://e5.ru/",
+                "alt_name": "Пятерочка"
+            },
+            {
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Миндаль",
+                "shop": "supermarket"
+            },
+            {
+                "addr:city": "Новокуйбышевск",
+                "addr:housenumber": "35",
+                "addr:street": "проспект Победы",
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "shop": "supermarket"
+            },
+            {
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "building": "yes",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Парикмахерская",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "alt_name": "ДНС",
+                "brand": "DNS",
+                "brand:en": "DNS",
+                "brand:ru": "ДНС",
+                "brand:wikidata": "Q4036922",
+                "brand:wikipedia": "ru:DNS (компания)",
+                "contact:facebook": "https://www.facebook.com/dnsshop",
+                "contact:phone": "+7 800 7707999",
+                "contact:twitter": "https://twitter.com/dnsshop",
+                "contact:vk": "https://vk.com/dnsstore",
+                "contact:website": "http://dns-shop.ru/",
+                "contact:youtube": "https://www.youtube.com/c/DNSSHOPvideo",
+                "name": "DNS",
+                "name:en": "DNS",
+                "name:ru": "ДНС",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "ДНС Ритейл",
+                "shop": "computer"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "24/7",
+                "operator": "Промсвязьбанк"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "contact:facebook": "http://facebook.com/aptekivita",
+                "contact:instagram": "https://www.instagram.com/vita_express/",
+                "contact:phone": "+7 800 7550003",
+                "contact:vk": "https://vk.com/aptekivita",
+                "contact:website": "https://vitaexpress.ru/",
+                "healthcare": "pharmacy",
+                "name": "Вита Экспресс",
+                "opening_hours": "Mo-Su 08:00-21:00"
+            },
+            {
+                "addr:city": "Новокуйбышевск",
+                "addr:housenumber": "36",
+                "addr:street": "проспект Победы",
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Дежурная Аптека 245",
+                "opening_hours": "Mo-Su 9:00-22:00",
+                "phone": "+7 846 355-70-36",
+                "website": "https://apteka245.ru/filials/аптека-222-новокуйбышевск-проспект-победы-36"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 800 7753553",
+                "contact:website": "http://omnicdek.com/",
+                "name": "ОмниСДЭК",
+                "opening_hours": "Mo-Su 08:00-00:00",
+                "ref": "6262",
+                "vending": "parcel_pickup"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Новокуйбышевск",
+                "addr:housenumber": "34",
+                "addr:street": "проспект Победы",
+                "building": "school",
+                "building:levels": "3"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Новокуйбышевск",
+                "addr:housenumber": "34А",
+                "addr:street": "проспект Победы",
+                "amenity": "fast_food",
+                "brand": "Макдоналдс",
+                "brand:en": "McDonald's",
+                "brand:ru": "Макдоналдс",
+                "brand:wikidata": "Q38076",
+                "brand:wikipedia": "en:McDonald's",
+                "building": "yes",
+                "contact:facebook": "https://www.facebook.com/mcdonaldsrussia",
+                "contact:phone": "+7 846 3557011",
+                "contact:website": "contact:website",
+                "cuisine": "burger",
+                "name": "Макдоналдс",
+                "name:en": "McDonald's",
+                "name:ru": "Макдоналдс",
+                "opening_hours": "Mo-Su 07:00-24:00",
+                "takeaway": "yes"
+            }
+        ]
+    }
+}

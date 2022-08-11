@@ -1,0 +1,480 @@
+{
+    "residents": 6567,
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Сквер им. Решетникова",
+                "public_transport": "stop_position"
+            },
+            {
+                "ref": "8701",
+                "name": "Сквер им. Решетникова",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Сквер им. Решетникова",
+                "public_transport": "platform",
+                "ref": "8700"
+            },
+            {
+                "bus": "yes",
+                "name": "Сквер им. Решетникова",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "bank": {
+        "count": 7,
+        "detail": [
+            {
+                "atm": "no",
+                "name": "Перминвестбанк",
+                "amenity": "bank"
+            },
+            {
+                "atm": "no",
+                "name": "Сибирский энергетический банк",
+                "amenity": "bank"
+            },
+            {
+                "atm": "no",
+                "name": "АК Барс",
+                "amenity": "bank"
+            },
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "contact:email": "info@tkbbank.ru",
+                "contact:facebook": "https://www.facebook.com/tkbbank",
+                "contact:instagram": "https://www.instagram.com/tkbbank/",
+                "contact:phone": "+7 800 1003200;+7 800 7009310",
+                "contact:website": "https://tkbbank.ru/",
+                "name": "Транскапиталбанк",
+                "opening_hours": "Fr 9:00-16:45;Mo-Th 09:00-18:00",
+                "operator": "\"ТРАНСКАПИТАЛБАНК\""
+            },
+            {
+                "amenity": "bank",
+                "contact:email": "info@zenit.ru",
+                "contact:phone": "+7 800 5006677",
+                "contact:website": "https://www.zenit.ru/",
+                "name": "Зенит",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "operator": "Банк Зенит"
+            },
+            {
+                "amenity": "bank",
+                "contact:email": "unicredit@unicredit.ru",
+                "contact:phone": "+7 495 2587200;+7 800 7001020",
+                "contact:twitter": "https://twitter.com/unicreditrussia",
+                "contact:vk": "https://vk.com/unicreditbank",
+                "contact:website": "https://www.unicreditbank.ru/",
+                "contact:youtube": "https://www.youtube.com/user/unicreditbankrussia",
+                "name": "ЮниКредит Банк",
+                "opening_hours": "Mo-Fr 09:00-17:00",
+                "operator": "ЮниКредит Банк"
+            },
+            {
+                "ref": "6984/0273",
+                "name": "Сбербанк",
+                "branch": "Волго-Вятский банк",
+                "amenity": "bank",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "building": "yes",
+                "operator": "ПАО \"Сбербанк\"",
+                "addr:city": "Пермь",
+                "department": "Пермское отделение",
+                "wheelchair": "yes",
+                "addr:street": "Монастырская улица",
+                "addr:country": "RU",
+                "addr:postcode": "614990",
+                "contact:phone": "+7 495 5005550",
+                "opening_hours": "Mo-Fr 09:00-13:00,14:00-17:00",
+                "building:levels": "4",
+                "contact:website": "http://www.sberbank.ru",
+                "addr:housenumber": "4",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России"
+            }
+        ]
+    },
+    "public_building": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Управление федеральной службы государственной регистрации, кадастра и картографии по Пермскому краю",
+                "amenity": "public_building"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "МТС",
+                "shop": "mobile_phone",
+                "operator": "МТС"
+            }
+        ]
+    },
+    "library": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Пермская краевая детская библиотека им. Л. И. Кузьмина",
+                "amenity": "library",
+                "website": "https://www.pkdb.ru/",
+                "opening_hours": "Mo-Fr 09:00-18:00; Su 10:00-17:00"
+            },
+            {
+                "name": "Центральная городская библиотека им. А. С. Пушкина",
+                "amenity": "library",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сковородка",
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "nightclub": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "nightclub",
+                "name": "Karaoke-Hall"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "parking",
+                "parking": "surface"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Другое место",
+                "amenity": "cafe",
+                "cuisine": "balkan",
+                "website": "http://www.vkusnoest.ru/kafe-drugoe-mesto",
+                "contact:phone": "+7 342 218 12 35",
+                "opening_hours": "Mo-Sa 12:00-23:00, Su 13:00-22:00"
+            },
+            {
+                "name": "Дягилев",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Кофе Сити",
+                "amenity": "cafe",
+                "cuisine": "coffee_shop"
+            },
+            {
+                "addr:postcode": "61400",
+                "amenity": "cafe",
+                "cuisine": "coffee_shop",
+                "email": "Forrest.coffee.happens@yandex.ru",
+                "name:en": "FORREST",
+                "opening_hours": "Mo-Fr 08:00-24:00; Sa-Su 10:00-24:00",
+                "phone": "+7 965 5562877"
+            },
+            {
+                "amenity": "cafe",
+                "name": "Lemon Tree"
+            }
+        ]
+    },
+    "drinking_water": {
+        "count": 1,
+        "detail": [
+            {
+                "fee": "yes",
+                "amenity": "drinking_water"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Винотека Vinorio",
+                "shop": "alcohol",
+                "email": "info@vinorio.ru",
+                "phone": "+7 342 2079720",
+                "website": "http://vinorio.ru/",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "contact:facebook": "https://www.facebook.com/vinoteka.vinorio"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bar",
+                "contact:facebook": "https://www.facebook.com/vinoteka.vinorio",
+                "email": "info@vinorio.ru",
+                "name": "Vinorio",
+                "opening_hours": "Mo-Su 11:00-24:00",
+                "phone": "+7 342 2079720",
+                "website": "http://vinorio.ru/"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Компот",
+                "amenity": "restaurant"
+            }
+        ]
+    },
+    "outdoor": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Басег",
+                "shop": "outdoor",
+                "phone": "+7 342 2101242",
+                "name:en": "Baseg",
+                "website": "https://www.baseg.ru/",
+                "opening_hours": "Mo-Su 10:00-22:00"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сцена",
+                "shop": "clothes",
+                "email": "kib990@gmail.com",
+                "phone": "+7 342 2128341",
+                "clothes": "dance",
+                "website": "www.kibanovscena.ru",
+                "addr:street": "Советская улица",
+                "opening_hours": "Mo-Su 10:00-19:00"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ТрансКапиталБанк",
+                "amenity": "atm"
+            }
+        ]
+    },
+    "pub": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "48",
+                "addr:postcode": "614015",
+                "addr:street": "Советская улица",
+                "amenity": "pub",
+                "cuisine": "steak_house",
+                "name": "Butcher's daughter",
+                "name:en": "The Butcher's Daughter",
+                "name:ru": "Дочь Мясника",
+                "opening_hours": "Mo-Fr 14:00-24:00; Sa,Su 00:00-02:00,15:00-24:00",
+                "phone": "+7 342 2888565"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_box"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Автостудия АвтоЛаб 59",
+                "shop": "car_repair",
+                "website": "http://avtolab59.ru",
+                "addr:city": "Пермь",
+                "addr:street": "Монастырская улица",
+                "addr:postcode": "614000",
+                "addr:housenumber": "19Б",
+                "service:vehicle:audio": "yes",
+                "service:vehicle:glass": "yes",
+                "service:vehicle:car_repair": "yes",
+                "service:vehicle:body_repair": "yes"
+            }
+        ]
+    },
+    "travel_agency": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "турклуб \"Затерянный Мир\"",
+                "shop": "travel_agency",
+                "phone": "+7 342 2942258;+7 342 2942259",
+                "website": "https://zmtravel.ru/",
+                "addr:street": "улица 25 Октября",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa 11:00-16:00",
+                "addr:housenumber": "8"
+            },
+            {
+                "name": "СКО ТРЭВЕЛ",
+                "shop": "travel_agency",
+                "email": "skoperm@mail.ru",
+                "phone": "+7 342 2700303",
+                "name:en": "SKO TRAVEL",
+                "website": "http://www.skoperm.ru",
+                "description": "ТУРЫ ПО РОССИИ И ВО ВСЕ СТРАНЫ МИРА! АВИАБИЛЕТЫ",
+                "addr:postcode": "614000",
+                "opening_hours": "Mo-Su 10:00-20:00"
+            },
+            {
+                "name": "Пегас туристик",
+                "name:en": "Pegas Touristik",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa 12:00-16:00",
+                "phone": "+7 342 2101070",
+                "shop": "travel_agency",
+                "website": "http://www.pegasperm.ru"
+            }
+        ]
+    },
+    "bench": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "theatre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "25А",
+                "addr:street": "Петропавловская улица",
+                "amenity": "theatre",
+                "building": "yes",
+                "building:colour": "silver",
+                "building:levels": "4",
+                "email": "office@permopera.ru",
+                "name": "Пермский театр оперы и балета имени П. И. Чайковского",
+                "name:de": "Permer Akademisches Opern- und Ballett-Theater P. I. Tschaikowski",
+                "name:en": "Perm Tchaikovsky Opera and Ballet Theatre",
+                "name:ru": "Пермский театр оперы и балета имени П. И. Чайковского",
+                "operator": "ГКБУК «Пермский театр оперы и балета им. П. И. Чайковского»",
+                "phone": "+7 342 2123087",
+                "ref:mkrf_theaters": "12713",
+                "tourism": "attraction",
+                "website": "https://permopera.ru/",
+                "wikidata": "Q115035",
+                "wikipedia": "ru:Пермский театр оперы и балета имени П. И. Чайковского"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "33",
+                "addr:street": "Советская улица",
+                "building": "school",
+                "building:levels": "4"
+            }
+        ]
+    },
+    "ticket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Касса театра",
+                "shop": "ticket",
+                "phone": "+7 342 2123087",
+                "name:en": "Theatre Box Office",
+                "building": "yes",
+                "addr:street": "Петропавловская улица",
+                "payment:visa": "yes",
+                "opening_hours": "Mo-Su 10:00-14:00,15:00-19:00",
+                "building:levels": "1",
+                "addr:housenumber": "25А/1",
+                "payment:mastercard": "yes"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Торговая баня мещанки Е. П. Кашиной",
+                "leisure": "sauna",
+                "tourism": "attraction",
+                "building": "yes",
+                "wikidata": "Q16706994",
+                "wikipedia": "ru:Торговая баня Кашиной",
+                "start_date": "~1874",
+                "addr:street": "Монастырская улица",
+                "building:levels": "2",
+                "addr:housenumber": "19"
+            }
+        ]
+    },
+    "university": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Пермь",
+                "addr:housenumber": "4",
+                "addr:street": "Сибирская улица",
+                "amenity": "university",
+                "building": "university",
+                "building:levels": "6",
+                "description": "ФГБОУ ВПО Пермская ГСХА, Корпус ФПИ",
+                "name": "Корпус ФПИ"
+            },
+            {
+                "addr:city": "Пермь",
+                "addr:housenumber": "23",
+                "addr:housenumber2": "10",
+                "addr:street": "Петропавловская улица",
+                "addr:street2": "улица 25 Октября",
+                "amenity": "university",
+                "architect": "Дютель, Юлий Осипович",
+                "building": "university",
+                "building:levels": "3",
+                "name": "ФГБОУ ВПО Пермская ГСХА, Главный корпус",
+                "start_date": "1860",
+                "website": "https://pgsha.ru/"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "service",
+                "building:levels": "1",
+                "name": "КНС-3 \"Пермь-1\""
+            }
+        ]
+    }
+}

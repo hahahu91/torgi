@@ -1,0 +1,106 @@
+{
+    "residents": 711,
+    "furniture": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Мебель",
+                "shop": "furniture"
+            },
+            {
+                "name": "Клён",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Баня №2",
+                "leisure": "sauna"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Садко",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Аптечный пункт",
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Аптека",
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Поликлиника №4",
+                "amenity": "doctors"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Алко плюс",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:country": "RU",
+                "amenity": "post_office",
+                "name": "Почтовое отделение \"Асбест-4\"",
+                "operator": "Почта России",
+                "ref": "624264",
+                "website": "https://russianpost.ru/"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Эконом",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский сад №41",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:street": "проспект Ленина",
+                "addr:housenumber": "6/1"
+            }
+        ]
+    }
+}

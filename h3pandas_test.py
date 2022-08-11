@@ -29,16 +29,6 @@ def get_region_gpkg(region_name):
 
     region.to_file(f"{region_name}.gpkg", driver="GPKG")
 
-def get_other_region_gpkg(region_name):
-
-    with open(f'../konturs/osmdump_poly/{region_name}.poly', 'r', encoding='utf8') as f:
-        boundary = gpd.GeoSeries.from_file(f) #.to_crs(epsg=3857)
-        print("1\t", f)
-
-        region = gpd.read_file("../konturs/russia.gpkg", mask=f)
-
-        region.to_file(f"{region_name}.gpkg", driver="GPKG")
-
 def get_population_from_kontur_population(lat, lng, region):
     location = h3.geo_to_h3(lat, lng, 8)
     if (int(region) == 12):
@@ -54,6 +44,8 @@ def get_population_from_kontur_population(lat, lng, region):
     return kontur.loc[(kontur.index == location)]["population"].get(0)
 
 def get_all_objs_from_kontur_population(objs):
+    if not os.path.exists("../konturs/russia.gpkg"):
+        get_russia_gpkg()
     kontur = pd.DataFrame(gpd.read_file("../konturs/russia.gpkg"))
     kontur.set_index("h3", inplace=True)
     #answer = []
@@ -70,7 +62,6 @@ def get_all_objs_from_kontur_population(objs):
 
 
     return
-#882d5322b7fffff
 
 def distance(x1, y1, x2, y2):
     return math.sqrt((x1-x2)**2+(y2-y1)**2)

@@ -1,0 +1,540 @@
+{
+    "residents": 7686,
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Первая помощь",
+                "opening_hours": "Mo-Su 08:00-22:00"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 8,
+        "detail": [
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "covered": "yes",
+                "highway": "bus_stop",
+                "local_ref": "19;21;28;153",
+                "name": "Ленская улица, 18",
+                "public_transport": "platform",
+                "tactile_paving": "no"
+            },
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "covered": "yes",
+                "highway": "bus_stop",
+                "local_ref": "15;92;174",
+                "name": "Ленская улица",
+                "public_transport": "platform",
+                "tactile_paving": "no"
+            },
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "covered": "yes",
+                "highway": "bus_stop",
+                "local_ref": "15;19;21;23;27;28;37;77;92;124;174",
+                "name": "Белорусская улица",
+                "public_transport": "platform",
+                "tactile_paving": "no"
+            },
+            {
+                "bus": "yes",
+                "name": "Белорусская улица",
+                "public_transport": "stop_position"
+            },
+            {
+                "bench": "no",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "15;23;27;37;77;92;124;174",
+                "name": "Ленская улица (Белорусская улица)",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "no"
+            },
+            {
+                "bus": "yes",
+                "name": "Ленская улица",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Ленская улица (Белорусская улица)",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Ленская улица, 18",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "tailor": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "tailor"
+            },
+            {
+                "shop": "tailor"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 2,
+        "detail": [
+            {
+                "opening_hours": "Mo-Fr 10:00-21:00; Sa,Su 11:00-20:00",
+                "phone": "+7 950 0370808, +7 906 2758275",
+                "shop": "beauty"
+            },
+            {
+                "name": "Каринэ",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 10,
+        "detail": [
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "shop": "convenience",
+                "toilets:wheelchair": "no"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "dentist",
+                "healthcare": "dentist",
+                "name": "Аквадент"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Виват Маэстро",
+                "amenity": "cafe",
+                "cuisine": "caucasian, european"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hardware"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит",
+                "name:de": "Magnit",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "opening_hours": "Mo-Su 08:30-22:30",
+                "phone": "+7 800 2009002",
+                "shop": "supermarket",
+                "website": "http://magnit-info.ru"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:country": "RU",
+                "addr:housenumber": "18",
+                "addr:postcode": "195298",
+                "addr:street": "Ленская улица",
+                "brand": "Семишагофф",
+                "brand:wikidata": "Q58003374",
+                "building": "retail",
+                "building:levels": "1",
+                "check_date:opening_hours": "2020-11-28",
+                "design:ref": "272-31-2ЛГ",
+                "name": "Семишагофф",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "shop": "supermarket"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "12 к1",
+                "addr:postcode": "195298",
+                "addr:street": "Ленская улица",
+                "brand": "Перекрёсток",
+                "brand:en": "Perekryostok",
+                "brand:wikidata": "Q1684639",
+                "brand:wikipedia": "en:Perekrestok (supermarket chain)",
+                "building": "store",
+                "contact:facebook": "https://www.facebook.com/perekrestok",
+                "contact:instagram": "http://instagram.com/perekrestok",
+                "contact:ok": "https://ok.ru/perekrestok.shop",
+                "contact:phone": "+7 812 4483010",
+                "contact:twitter": "https://twitter.com/perekrestok",
+                "contact:vk": "https://vk.com/perekrestok_shop",
+                "contact:website": "https://www.perekrestok.ru",
+                "height": "7.5",
+                "name": "Перекрёсток",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "operator": "Торговый дом \"ПЕРЕКРЁСТОК\"",
+                "phone": "+7 800 2009555",
+                "shop": "supermarket",
+                "website": "https://www.perekrestok.ru/"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "clinic",
+                "healthcare": "clinic",
+                "name": "Центр клинической неврологии ЦМРТ",
+                "opening_hours": "24/7",
+                "phone": "+7 812 6007017",
+                "short_name": "ЦМРТ",
+                "website": "http://cmrt-nevrolog.ru"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal",
+                "waste": "trash"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Цветоптторг",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "shop": "florist"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Live Beer",
+                "shop": "alcohol",
+                "website": "http://livebeer.spb.ru/",
+                "drink:beer": "yes",
+                "payment:cash": "yes",
+                "opening_hours": "Mo-Fr 13:00-22:00; Sa,Su 11:00-22:00",
+                "payment:debit_cards": "yes",
+                "payment:credit_cards": "yes"
+            },
+            {
+                "name": "Ароматный мир",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "shop": "alcohol",
+                "website": "https://amwine.ru/"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Овощи и Фрукты",
+                "shop": "greengrocer"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "post_box",
+                "collection_times": "Mo-Su 06:50",
+                "design:year": "2010",
+                "drive_through": "no",
+                "operator": "Почта России",
+                "post_box:design": "ЯПНМ-II-С",
+                "post_box:type": "wall",
+                "ref": "318"
+            },
+            {
+                "ref": "317",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "design:year": "2010",
+                "drive_through": "no",
+                "post_box:type": "wall",
+                "post_box:design": "ЯПНМ-II-С",
+                "collection_times": "Mo-Fr 05:35,14:15; Sa 10:45; Su 14:15"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling",
+                "recycling:aluminium": "yes",
+                "recycling:plastic_bottles": "yes",
+                "recycling_type": "container"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "cuisine": "kebab",
+                "name": "Шаверма"
+            },
+            {
+                "amenity": "fast_food",
+                "name": "Две вилки",
+                "opening_hours": "Mo-Sa 10:00-22:00; Su 10:00-20:00; PH closed"
+            }
+        ]
+    },
+    "bench": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "stands",
+                "capacity": "14",
+                "covered": "no",
+                "fee": "no",
+                "opening_hours": "24/7",
+                "supervised": "no"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 5,
+        "detail": [
+            {
+                "addr:housenumber": "20 к2",
+                "addr:postcode": "195298",
+                "addr:street": "Ленская улица",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "design:ref": "212-2-3ЛГ"
+            },
+            {
+                "addr:housenumber": "16 к3",
+                "addr:postcode": "195298",
+                "addr:street": "Белорусская улица",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "design:ref": "212-2-3ЛГ",
+                "source:building:levels": "serial features"
+            },
+            {
+                "addr:housenumber": "16 к4",
+                "addr:postcode": "195298",
+                "addr:street": "Ленская улица",
+                "building": "kindergarten",
+                "building:cladding": "panel",
+                "building:levels": "2",
+                "design:ref": "2С-04-3",
+                "height": "8"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:country": "RU",
+                "addr:housenumber": "15 к4",
+                "addr:postcode": "195298",
+                "addr:street": "проспект Наставников",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "building:material": "brick",
+                "design:ref": "214-2-4ЛГ"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:country": "RU",
+                "addr:housenumber": "29 к3",
+                "addr:postcode": "195298",
+                "addr:street": "проспект Косыгина",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "building:material": "brick",
+                "design:ref": "214-2-4ЛГ"
+            }
+        ]
+    },
+    "service": {
+        "count": 8,
+        "detail": [
+            {
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "building:material": "brick",
+                "power": "substation"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "building:material": "brick",
+                "power": "substation"
+            },
+            {
+                "power": "substation",
+                "building": "service"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "building:material": "brick",
+                "power": "substation"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:country": "RU",
+                "addr:housenumber": "16 к3 литВ",
+                "addr:postcode": "195298",
+                "addr:street": "Ленская улица",
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "building:material": "brick",
+                "operator": "Россети, ЛенЭнерго",
+                "power": "substation"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "11 к2",
+                "addr:postcode": "195298",
+                "addr:street": "проспект Наставников",
+                "building": "school",
+                "building:levels": "4",
+                "design:ref": "2С-02-10"
+            },
+            {
+                "addr:housenumber": "26 к2",
+                "addr:postcode": "195298",
+                "addr:street": "проспект Косыгина",
+                "building": "school",
+                "building:levels": "4",
+                "design:ref": "2С-02-10"
+            }
+        ]
+    }
+}

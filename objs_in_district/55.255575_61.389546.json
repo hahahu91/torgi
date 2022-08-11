@@ -1,0 +1,136 @@
+{
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "description": "В магазине \"Молния экспресс\"",
+                "operator": "ЧЕЛИНДБАНК"
+            }
+        ]
+    },
+    "residents": 10380,
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Красное & Белое",
+                "brand:en": "Red&White",
+                "brand:wikidata": "Q24933790",
+                "brand:wikipedia": "en:Krasnoe & Beloe",
+                "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+                "contact:instagram": "https://www.instagram.com/krasnoebeloe",
+                "contact:ok": "https://ok.ru/krasnoebeloe",
+                "contact:telegram": "+7 922 7033000",
+                "contact:viber": "+7 922 7033000",
+                "contact:vk": "https://vk.com/krasnoebeloe",
+                "contact:website": "https://www.krasnoeibeloe.ru",
+                "contact:whatsapp": "+7 922 7033000",
+                "name": "Красное & Белое",
+                "name:en": "Red&White",
+                "name:ru": "Красное&Белое",
+                "shop": "alcohol"
+            },
+            {
+                "brand": "Красное & Белое",
+                "brand:en": "Red&White",
+                "brand:wikidata": "Q24933790",
+                "brand:wikipedia": "en:Krasnoe & Beloe",
+                "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+                "contact:instagram": "https://www.instagram.com/krasnoebeloe",
+                "contact:ok": "https://ok.ru/krasnoebeloe",
+                "contact:telegram": "+7 922 7033000",
+                "contact:viber": "+7 922 7033000",
+                "contact:vk": "https://vk.com/krasnoebeloe",
+                "contact:website": "https://www.krasnoeibeloe.ru",
+                "contact:whatsapp": "+7 922 7033000",
+                "name": "Красное & Белое",
+                "name:en": "Red&White",
+                "name:ru": "Красное&Белое",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "brand": "Уральский банк реконструкции и развития",
+                "brand:en": "Ural Bank for Reconstruction and Development",
+                "brand:ru": "Уральский банк реконструкции и развития",
+                "brand:wikidata": "Q4476745",
+                "brand:wikipedia": "ru:Уральский банк реконструкции и развития",
+                "contact:email": "bank@ubrr.ru",
+                "contact:phone": "+7 800 1000200",
+                "contact:website": "https://chel.ubrr.ru/",
+                "name": "Уральский банк реконструкции и развития",
+                "name:en": "Ural Bank for Reconstruction and Development",
+                "name:ru": "Уральский банк реконструкции и развития",
+                "opening_hours": "Mo-Fr 09:00-19:00;Sa 10:00-16:00",
+                "operator": "УБРиР",
+                "short_name": "УБРиР",
+                "short_name:ru": "УБРиР"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Челябинск",
+                "addr:country": "RU",
+                "addr:housenumber": "8",
+                "addr:street": "Театральный переулок",
+                "building": "kindergarten"
+            },
+            {
+                "addr:city": "Челябинск",
+                "addr:country": "RU",
+                "addr:housenumber": "15В",
+                "addr:street": "улица Богдана Хмельницкого",
+                "building": "kindergarten"
+            },
+            {
+                "addr:city": "Челябинск",
+                "addr:country": "RU",
+                "addr:housenumber": "10",
+                "addr:street": "Липецкая улица",
+                "building": "kindergarten",
+                "building:levels": "2"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "school",
+                "addr:city": "Челябинск",
+                "addr:street": "улица Жукова",
+                "addr:country": "RU",
+                "building:levels": "4",
+                "addr:housenumber": "16"
+            },
+            {
+                "building": "school",
+                "addr:city": "Челябинск",
+                "addr:street": "Социалистическая улица",
+                "addr:country": "RU",
+                "building:levels": "2",
+                "addr:housenumber": "46"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "17/1",
+                "addr:street": "улица Богдана Хмельницкого",
+                "building": "commercial",
+                "building:levels": "1"
+            }
+        ]
+    }
+}

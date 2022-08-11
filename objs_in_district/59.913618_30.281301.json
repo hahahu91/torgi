@@ -1,0 +1,1031 @@
+{
+    "residents": 6762,
+    "bus_stop": {
+        "count": 10,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "43",
+                "name": "улица Циолковского",
+                "public_transport": "platform",
+                "shelter": "no"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "43",
+                "name": "улица Циолковского",
+                "public_transport": "platform",
+                "shelter": "no"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "2;6;49;66",
+                "name": "Курляндская улица",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "wheelchair": "limited"
+            },
+            {
+                "bus": "yes",
+                "ref": "2;6;49;66",
+                "name": "Курляндская улица",
+                "operator": "СПб ГУП \"Организатор перевозок\"",
+                "share_taxi": "yes",
+                "tactile_paving": "no",
+                "public_transport": "stop_position"
+            },
+            {
+                "bench": "no",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "набережная реки Фонтанки",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "no",
+                "wheelchair": "limited"
+            },
+            {
+                "bus": "yes",
+                "name": "набережная реки Фонтанки",
+                "operator": "СПб ГУП \"Организатор перевозок\"",
+                "public_transport": "stop_position",
+                "ref": "2;6;22;49;70",
+                "share_taxi": "yes",
+                "tactile_paving": "no"
+            },
+            {
+                "bus": "yes",
+                "name": "улица Циолковского",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "улица Циолковского",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Рижский проспект",
+                "name:ru": "Рижский проспект",
+                "operator": "СПб ГУП \"Организатор перевозок\"",
+                "public_transport": "stop_position",
+                "ref": "2;6;49",
+                "share_taxi": "yes",
+                "tactile_paving": "no"
+            },
+            {
+                "bench": "no",
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Рижский проспект",
+                "name:ru": "Рижский проспект",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "no",
+                "wheelchair": "limited"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Фармакор",
+                "amenity": "pharmacy",
+                "website": "http://www.pharmacor.ru/",
+                "opening_hours": "Mo-Fr 09:00-21:00"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Андалуз",
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "contact:facebook": "pyaterochka",
+                "contact:instagram": "pyaterochka_official",
+                "contact:ok": "pyaterochka",
+                "contact:vk": "pyaterochka_shop",
+                "name": "Пятёрочка",
+                "opening_hours": "08:00-23:00",
+                "operator": "ООО «Агроторг»",
+                "shop": "supermarket",
+                "website": "https://5ka.ru/",
+                "wheelchair": "yes"
+            },
+            {
+                "alt_name": "Пятерочка",
+                "alt_name:ru": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "Mo-Fr 08:00-23:00; Sa-Su 09:00-23:00",
+                "operator": "ООО «Агроторг»",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 9,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "200000 мелочей",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Екатерингофская",
+                "amenity": "library",
+                "website": "http://www.lplib.ru/",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-18:00"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 2,
+        "detail": [
+            {
+                "contact:email": "kur@td-auto.ru",
+                "contact:phone": "+7 812 6776220",
+                "contact:website": "https://dvizhcom.ru",
+                "name": "Движком",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "shop": "car_parts"
+            },
+            {
+                "name": "OilCity",
+                "shop": "car_parts",
+                "website": "http://www.oilcity.ru/"
+            }
+        ]
+    },
+    "books": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Старая книга на Рижском",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa 11:00-18:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "no",
+                "payment:debit_cards": "no",
+                "second_hand": "only",
+                "shop": "books",
+                "wheelchair": "limited"
+            },
+            {
+                "entrance": "yes",
+                "name": "Книга",
+                "shop": "books"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Эконом",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Драники",
+                "amenity": "cafe",
+                "operator": "ООО «Вишневская Экспресс»",
+                "opening_hours": "09:00-21:00"
+            },
+            {
+                "amenity": "cafe",
+                "contact:vk": "club28313329",
+                "cuisine": "georgian",
+                "delivery": "yes",
+                "name": "Чито Гврито",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "reservation": "yes",
+                "website": "https://chitogvrito.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "cafe",
+                "cafe": "bistrot",
+                "name": "Уют",
+                "name:ru": "Уют",
+                "opening_hours": "Mo-Fr 08:00-21:00; Sa 10:00-20:00",
+                "website": "https://stolovayauyut.business.site/"
+            },
+            {
+                "addr:housenumber": "29",
+                "addr:street": "Курляндская улица",
+                "amenity": "cafe",
+                "building": "kiosk",
+                "contact:email": "hotline@coffee-like.com",
+                "contact:phone": "+7 341 2908292;+7 800 3334130",
+                "contact:vk": "https://vk.com/coffeelike78",
+                "contact:website": "https://coffee-like.com/",
+                "cuisine": "coffee_shop",
+                "name": "Coffee Like",
+                "opening_hours": "Mo-Fr 08:00-21:00;Sa-Su 10:00-21:00",
+                "operator": "Кошкин В.В."
+            }
+        ]
+    },
+    "convenience": {
+        "count": 10,
+        "detail": [
+            {
+                "name": "Тёма",
+                "shop": "convenience",
+                "opening_hours": "08:00-22:00"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience",
+                "opening_hours": "08:00-00:00"
+            },
+            {
+                "name": "Белорусская гастрономия",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "entrance": "yes",
+                "name": "Белорусский продукт",
+                "opening_hours": "09:00-21:00",
+                "shop": "convenience",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            },
+            {
+                "food": "yes",
+                "name": "Продукты",
+                "shop": "convenience",
+                "name:ru": "Продукты",
+                "opening_hours": "24/7"
+            },
+            {
+                "shop": "convenience",
+                "opening_hours": "08:00-21:00"
+            },
+            {
+                "food": "yes",
+                "name": "Продукты",
+                "name:ru": "Продукты",
+                "opening_hours": "Mo-Sa 09:00-22:00; Su 10:00-21:00",
+                "operator": "ИП Лебеденко Е.А.",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Ароматный мир",
+                "contact:facebook": "https://www.facebook.com/amwine.ru",
+                "contact:instagram": "https://instagram.com/amwine.ru",
+                "contact:telegram": "https://t.me/amwineru",
+                "contact:twitter": "https://twitter.com/amwineru",
+                "contact:vk": "https://vk.com/amwineru",
+                "drink:beer": "bottled",
+                "drink:cider": "bottled",
+                "drink:cognac": "bottled",
+                "drink:soft_drink": "bottled",
+                "drink:sparkling_wine": "bottled",
+                "drink:vodka": "bottled",
+                "drink:whisky": "bottled",
+                "drink:wine": "bottled",
+                "name": "Ароматный мир",
+                "name:ru": "Ароматный мир",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "ООО «АМ-2 СПб»",
+                "shop": "alcohol",
+                "website": "https://amwine.ru/customers/shops/detail/433855/",
+                "wheelchair": "no"
+            },
+            {
+                "brand": "Красное & Белое",
+                "brand:wikidata": "Q24933790",
+                "contact:vk": "https://vk.com/krasnoebeloe",
+                "entrance": "yes",
+                "name": "Красное & Белое",
+                "opening_hours": "09:00-22:05",
+                "operator": "ООО «Альфа Ижевск»",
+                "shop": "alcohol",
+                "website": "https://krasnoeibeloe.ru/",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "pub": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pub",
+                "contact:vk": "https://vk.com/flotilla_spb",
+                "name": "Флотилия",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "website": "http://www.flotilia.su/"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Цветы",
+                "opening_hours": "08:00-21:00",
+                "shop": "florist",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bar",
+                "floor": "0",
+                "name": "Ялта Group",
+                "opening_hours": "11:00-05:00",
+                "website": "https://yalta-bar.ru/"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Свет Востока",
+                "amenity": "restaurant",
+                "cuisine": "chinese",
+                "smoking": "no",
+                "website": "https://svet-vostoka.ru/",
+                "operator": "ООО «Лон тхэн»",
+                "takeaway": "yes",
+                "contact:vk": "https://vk.com/restoran_svet_vostoka_spb",
+                "addr:street": "Курляндская улица",
+                "opening_hours": "11:30-23:30",
+                "addr:housenumber": "36"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "bic": "SABRRUMM",
+                "branch": "Северо-Западный банк",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "contact:facebook": "sberbank",
+                "contact:instagram": "sberbank",
+                "contact:ok": "sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "sberbank",
+                "contact:vk": "sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "sberbank",
+                "drive_through": "no",
+                "opening_hours": "Mo-Fr 10:00-19:00",
+                "operator": "Сбербанк России",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "9055/0112",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Носки, колготки, трикотаж",
+                "shop": "clothes",
+                "opening_hours": "Mo-Sa 10:00-19:00"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 3,
+        "detail": [
+            {
+                "ref": "450",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "design:year": "2010",
+                "drive_through": "no",
+                "post_box:type": "wall",
+                "post_box:design": "ЯПНМ-II-С",
+                "collection_times": "Mo-Fr 07:35,18:50; Sa 09:55; Su 18:50"
+            },
+            {
+                "ref": "22",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "design:year": "2010",
+                "drive_through": "no",
+                "post_box:type": "wall",
+                "post_box:design": "ЯПНМ-II-С",
+                "collection_times": "Mo-Fr 07:25,18:40; Sa 09:45; Su 18:40"
+            },
+            {
+                "ref": "241",
+                "indoor": "yes",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "drive_through": "no",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-13:00,14:00-18:00; Su off",
+                "post_box:type": "pillar",
+                "collection_times": "Mo-Sa 09:10"
+            }
+        ]
+    },
+    "medical_supply": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:vk": "ortmed",
+                "email": "sale@ort-med.pro",
+                "entrance": "yes",
+                "name": "Ортея медика",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-17:00",
+                "phone": "+7 812 9602395",
+                "shop": "medical_supply",
+                "website": "https://ort-med.pro/",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:instagram": "fresh_89006400017",
+                "contact:vk": "club174832879",
+                "entrance": "yes",
+                "name": "Фрэш",
+                "name:en": "Fresh",
+                "name:ru": "Фрэш",
+                "opening_hours": "09:00-21:00",
+                "operator": "ИП Дегтярева Е.Н.",
+                "shop": "beauty",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "pet": {
+        "count": 2,
+        "detail": [
+            {
+                "contact:facebook": "filyashop",
+                "contact:instagram": "filya_shop",
+                "contact:vk": "zootovarfilya",
+                "name": "Филя",
+                "opening_hours": "10:00-21:00",
+                "operator": "ИП Дреничев А.А.",
+                "phone": "+7 812 6707313",
+                "shop": "pet",
+                "website": "https://www.zootovar-spb.ru/magazin/6221-staro-petergofskii-15.htm"
+            },
+            {
+                "contact:vk": "https://vk.com/zootovarfilya",
+                "name": "Филя",
+                "opening_hours": "10:00-21:00",
+                "operator": "ИП Дреничев А.А.",
+                "shop": "pet",
+                "website": "https://www.zootovar-spb.ru/magazin/rizhskii-42.htm"
+            }
+        ]
+    },
+    "houseware": {
+        "count": 1,
+        "detail": [
+            {
+                "craft": "shoemaker",
+                "opening_hours": "Mo-Sa 10:00-20:00; Sa 11:00-19:00",
+                "operator": "ИП Короткова Т.М.",
+                "shop": "houseware"
+            }
+        ]
+    },
+    "packaging": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Упаковка",
+                "opening_hours": "Mo-Fr 10:00-19:00",
+                "operator": "ИП Данилова А.В.",
+                "shop": "packaging",
+                "website": "http://pak-spb.ru/"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "arts_centre",
+                "name": "Китежград",
+                "website": "http://www.ddt-i.ru/index.php?option=com_content&view=article&id=79&Itemid=18"
+            }
+        ]
+    },
+    "social_facility": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Комплексный центр социального обслуживания населения Адмиралтейского района",
+                "amenity": "social_facility",
+                "website": "http://kcson.admiral.gov.spb.ru/",
+                "social_facility": "outreach"
+            },
+            {
+                "name": "Транзит",
+                "amenity": "social_facility",
+                "website": "https://shelter-tranzit.ru/",
+                "contact:vk": "https://vk.com/club2448567",
+                "social_facility": "shelter",
+                "social_facility:for": "juvenile"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Newport",
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "fountain": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fountain"
+            }
+        ]
+    },
+    "bench": {
+        "count": 26,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "antiques": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Антиквариат на Рижском",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa 11:00-18:00",
+                "shop": "antiques",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "atm": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "operator": "Промсвязьбанк"
+            },
+            {
+                "amenity": "atm",
+                "brand": "Сбербанк",
+                "indoor": "yes",
+                "opening_hours": "24/7",
+                "operator": "Сбербанк России",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "theatre": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "theatre",
+                "email": "mimigrants@yandex.ru",
+                "name": "Клоун-мим-театр «Мимигранты»",
+                "opening_hours": "Mo-Th, Su 10:00-18:00; Fr-Sa 10:00-21:00",
+                "operator": "Санкт-Петербургское ГБУ «Клоун-мим-театр «Мимигранты»",
+                "phone": "+7 812 2511551",
+                "ref:mkrf_theaters": "12900",
+                "website": "https://www.mimigrants.spb.ru/"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "29",
+                "addr:postcode": "190020",
+                "addr:street": "Рижский проспект",
+                "amenity": "community_centre",
+                "community_centre:for": "child",
+                "email": "ddtadmiral@mail.ru",
+                "full_name": "Государственное бюджетное учреждение дополнительного образования Дом творчества «Измайловский»",
+                "name": "Дом творчества «Измайловский»",
+                "phone": "+7 812 7130261",
+                "short_name": "ГБУ ДО ДТ «Измайловский»",
+                "type": "collection",
+                "website": "http://www.ddt-i.ru/"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "27",
+                "addr:postcode": "190020",
+                "addr:street": "Рижский проспект",
+                "amenity": "community_centre",
+                "community_centre:for": "child",
+                "email": "ddtadmiral@mail.ru",
+                "full_name": "Государственное бюджетное учреждение дополнительного образования Дом творчества «Измайловский»",
+                "name": "Дом творчества «Измайловский»",
+                "phone": "+7 812 5750656",
+                "short_name": "ГБУ ДО ДТ «Измайловский»",
+                "type": "collection",
+                "website": "http://www.ddt-i.ru/"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "address:comment": "1—4 этаж Район Адмиралтейский",
+                "addr:housenumber": "154",
+                "addr:street": "набережная реки Фонтанки",
+                "amenity": "clinic",
+                "contact:facebook": "https://www.facebook.com/gosmed.ru",
+                "contact:instagram": "https://www.instagram.com/gosmed.ru/",
+                "contact:vk": "https://vk.com/pirogovcentrspb",
+                "contact:youtube": "https://www.youtube.com/channel/UCfAdAx2oWQolpEV1gzgMAww",
+                "healthcare": "clinic",
+                "name": "Лечебно-диагностический комплекс на Фонтанке на метро Нарвская",
+                "opening_hours": "Mo-Fr 08:00-21:00",
+                "phone": "+78126762525",
+                "website": "https://www.gosmed.ru/"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "3",
+                "addr:street": "улица Циолковского",
+                "amenity": "clinic",
+                "contact:facebook": "https://www.facebook.com/gosmed.ru",
+                "contact:instagram": "https://www.instagram.com/gosmed.ru/",
+                "contact:vk": "https://vk.com/pirogovcentrspb",
+                "contact:website": "http://www.gosmed.ru",
+                "contact:youtube": "https://www.youtube.com/channel/UCfAdAx2oWQolpEV1gzgMAww",
+                "healthcare": "clinic",
+                "name": "Лечебно-диагностический комплекс на Циолковского Клиники высоких медицинских технологий им. Пирогова СПбГУ",
+                "opening_hours": "Mo-Sa 08:00-20:00",
+                "phone": "+7 (812) 676-25-25;+7 (812) 676-25-21;+7 (812) 676-25-10;+7 (812) 676-25-77;+7 (812) 676-25-67"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "toilets",
+                "building": "yes",
+                "addr:street": "улица Циолковского",
+                "building:levels": "1",
+                "addr:housenumber": "8А"
+            }
+        ]
+    },
+    "service": {
+        "count": 8,
+        "detail": [
+            {
+                "addr:housenumber": "52 литВ",
+                "addr:street": "Рижский проспект",
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation",
+                "substation": "minor_distribution"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:letter": "Ж",
+                "addr:street": "Курляндская улица",
+                "building:levels": "1",
+                "addr:housenumber": "28"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:letter": "Я",
+                "addr:street": "Курляндская улица",
+                "building:levels": "1",
+                "addr:housenumber": "28"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:letter": "Я",
+                "addr:street": "улица Циолковского",
+                "building:levels": "1",
+                "addr:housenumber": "9"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:letter": "О",
+                "addr:street": "Курляндская улица",
+                "building:levels": "1",
+                "addr:housenumber": "28"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:letter": "Я",
+                "addr:street": "Старо-Петергофский проспект",
+                "building:levels": "1",
+                "addr:housenumber": "2 к2"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:letter": "Б",
+                "addr:street": "Рижский проспект",
+                "building:levels": "1",
+                "addr:housenumber": "23"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:letter": "Б",
+                "addr:street": "Курляндская улица",
+                "building:levels": "1",
+                "addr:housenumber": "36-38"
+            }
+        ]
+    },
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:country": "RU",
+                "addr:housenumber": "156А",
+                "addr:letter": "З",
+                "addr:street": "набережная реки Фонтанки",
+                "amenity": "fuel",
+                "brand": "ПТК",
+                "brand:en": "The Petersburg Fuel Company",
+                "brand:ru": "ПТК",
+                "brand:wikidata": "Q4360193",
+                "brand:wikipedia": "ru:Петербургская топливная компания",
+                "building": "yes",
+                "building:levels": "1",
+                "fuel:octane_92": "yes",
+                "fuel:octane_95": "yes",
+                "name": "ПТК",
+                "name:en": "The Petersburg Fuel Company",
+                "name:ru": "ПТК",
+                "opening_hours": "24/7",
+                "operator": "ООО «ПТК»",
+                "phone": "+7 812 2513871",
+                "ref": "10",
+                "website": "https://www.ptk.ru/"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Часовня в честь Воздвижения Креста Господня и Святой Царицы Елены",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "religion": "christian",
+                "denomination": "orthodox"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "3",
+                "addr:street": "улица Циолковского",
+                "amenity": "doctors",
+                "building": "yes",
+                "building:levels": "7",
+                "full_name": "Клиника высоких медицинских технологий им. Н. И. Пирогова (поликлиника, стационар) Санкт-Петербургского государственного университета",
+                "healthcare": "doctor",
+                "healthcare:speciality": "surgery;proctology;gynaecology;nephrology",
+                "name": "Клиника высоких медицинских технологий им. Н. И. Пирогова",
+                "website": "http://www.gosmed.ru/"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Союзпечать",
+                "shop": "newsagent",
+                "building": "kiosk"
+            }
+        ]
+    }
+}

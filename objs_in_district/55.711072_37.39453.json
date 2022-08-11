@@ -1,0 +1,310 @@
+{
+    "library": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "39 к3",
+                "addr:postcode": "121353",
+                "addr:street": "Беловежская улица",
+                "amenity": "library",
+                "name": "Детская библиотека №147 - Центр культурного наследия этнографа и фольклориста В.И.Даля",
+                "opening_hours": "Mo-Su 11:00-18:00;Sa 12:00-17:00",
+                "operator": "ГБУК г. Москвы \"ЦБС ЗАО\"",
+                "phone": "+7 495 4471531"
+            },
+            {
+                "amenity": "library",
+                "name": "Библиотека им. Б. Пастернака",
+                "phone": "+7 495 4464755"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Поликлиника",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "operator": "Мосгортранс",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Поликлиника",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "operator": "Мосгортранс",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Поликлиника",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Поликлиника",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "БИМ",
+                "shop": "supermarket",
+                "phone": "+7 495 4481577",
+                "website": "http://www.gastronombim.ru/",
+                "opening_hours": "Mo-Sa 09:00-23:00; Su 09:00-20:00"
+            },
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "brand": "Магнит",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "operator": "АО \"Тандер\"",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:website": "http://magnit-info.ru"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Бархатт",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Лилия",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "school": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "school",
+                "name": "Школа №384",
+                "phone": "+7 495 4460171",
+                "website": "http://schz384.mskzapad.ru/"
+            },
+            {
+                "amenity": "school",
+                "name": "Школа №384",
+                "phone": "+7 495 4462394",
+                "website": "http://sch811.mskzapad.ru/"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "7",
+                "addr:postcode": "121353",
+                "addr:street": "Беловежская улица",
+                "building": "school",
+                "building:levels": "3"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "clinic",
+                "healthcare": "clinic",
+                "health_facility:type": "clinic",
+                "name": "Детская поликлиника №51",
+                "phone": "+7 495 4473815",
+                "website": "https://www.mosgorzdrav.ru/dgp51"
+            },
+            {
+                "amenity": "clinic",
+                "healthcare": "clinic",
+                "health_facility:type": "clinic",
+                "name": "Поликлиника №143",
+                "phone": "+7 495 4463664",
+                "website": "https://www.mosgorzdrav.ru/gp143"
+            }
+        ]
+    },
+    "optician": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "optician"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy"
+            },
+            {
+                "name": "Ригла",
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy"
+            }
+        ]
+    },
+    "fountain": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fountain"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Горизонт",
+                "amenity": "community_centre"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Бим",
+                "shop": "convenience",
+                "building": "yes",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская обувь",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская одежда",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "tailor": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "tailor"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "kindergarten",
+                "name": "Детский сад №826",
+                "phone": "+7 495 4472454",
+                "website": "http://ds826.mskzapad.ru/"
+            },
+            {
+                "amenity": "kindergarten",
+                "name": "Детский сад №825",
+                "phone": "+7 499 5041291",
+                "website": "http://dskv825.mskzapad.ru/"
+            }
+        ]
+    },
+    "residents": 13416,
+    "car": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Авилон-Трейд",
+                "shop": "car",
+                "second_hand": "only",
+                "contact:phone": "+7 495 1539319-3767",
+                "opening_hours": "Mo-Su 09:00-21:40",
+                "contact:website": "http://avilon-trade.ru/"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "addr:city": "Москва",
+                "addr:street": "Беловежская улица",
+                "addr:postcode": "121353",
+                "building:levels": "1",
+                "addr:housenumber": "37 к1 с1"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "4А",
+                "addr:street": "Беловежская улица",
+                "building": "commercial",
+                "building:levels": "7"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "4",
+                "addr:street": "Беловежская улица",
+                "building": "commercial",
+                "building:levels": "7",
+                "website": "http://www.wgate.ru/"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "4В",
+                "addr:street": "Беловежская улица",
+                "building": "commercial",
+                "building:levels": "7",
+                "website": "http://www.wgate.ru/"
+            }
+        ]
+    }
+}

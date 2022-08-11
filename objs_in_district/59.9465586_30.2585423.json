@@ -1,0 +1,444 @@
+{
+    "residents": 3057,
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "Автобус 41. Маршрутные такси 186,249а",
+                "name": "16-я,17я Линии В.О.(Камская улица)",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "Автобус 42. Маршрутные такси 186,249а",
+                "name": "16-я,17я Линии В.О.(Камская улица)",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "Камская улица",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Камская улица",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Маркет 24",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "name": "Удачный",
+                "shop": "convenience"
+            },
+            {
+                "food": "yes",
+                "name": "Продукты",
+                "shop": "convenience",
+                "name:ru": "Продукты",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "veterinary": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Государственная ветеринарная станция Василеостровского района",
+                "phone": "+7 812 3211485",
+                "amenity": "veterinary",
+                "addr:street": "17-я линия В.О.",
+                "addr:housenumber": "56"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Материк",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "phone": "+7 812 3183180",
+                "shop": "doityourself",
+                "website": "https://www.materik-m.ru/"
+            }
+        ]
+    },
+    "bench": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "covered": "no",
+                "capacity": "18",
+                "bicycle_parking": "stands"
+            },
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "religion": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:street": "16-17-я линии В.О.",
+                "shop": "religion"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Профи",
+                "shop": "car_repair",
+                "service": "tyres",
+                "addr:city": "Санкт-Петербург",
+                "addr:street": "16-17-я линии В.О.",
+                "addr:housenumber": "66"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Блеск",
+                "amenity": "car_wash",
+                "addr:city": "Санкт-Петербург",
+                "addr:street": "16-17-я линии В.О.",
+                "addr:housenumber": "66"
+            },
+            {
+                "name": "Автомойка LUX",
+                "phone": "+7 812 3098111",
+                "amenity": "car_wash",
+                "website": "http://www.washlux.ru",
+                "opening_hours": "24/7",
+                "internet_access": "wlan"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "doctors",
+                "name": "Центр МРТ",
+                "name:en": "MRT SPB",
+                "name:ru": "Центр МРТ",
+                "opening_hours": "24/7",
+                "phone": "+7 812 3095397",
+                "website": "https://www.mrtspb.ru/"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "76",
+                "addr:postcode": "199178",
+                "addr:street": "15-я линия В.О.",
+                "amenity": "clinic",
+                "contact:mobile": "+7 911 9265106",
+                "contact:phone": "+7 812 3847403",
+                "description": "Мужская консультация. Урология-андрология, дермато-венерология, УЗИ, анализы",
+                "email": "info@doctor-spb.ru",
+                "healthcare": "clinic",
+                "healthcare:speciality": "urology;gynaecology;dermatology",
+                "level": "1",
+                "name": "Медицинский центр Доктор СПб",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "operator": "ООО \"ЦКИД\"",
+                "operator:type": "private",
+                "start_date": "19.06.2017",
+                "website": "http://www.doctor-spb.ru"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Верный",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "phone": "+7 812 6010100",
+                "shop": "supermarket",
+                "website": "https://www.verno-info.ru/",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Булочные Ф. Вольчека",
+                "contact:email": "info@fvolchek.ru",
+                "contact:phone": "+7 812 6420638",
+                "contact:vk": "f.volchek",
+                "contact:website": "http://fvolchek.ru/",
+                "name": "Булочная Ф. Вольчека",
+                "name:ru": "Булочная Ф. Вольчека",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "parking_entrance": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "private",
+                "amenity": "parking_entrance"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Красное & Белое",
+                "brand:en": "Red&White",
+                "brand:wikidata": "Q24933790",
+                "brand:wikipedia": "en:Krasnoe & Beloe",
+                "drive_through": "no",
+                "name": "Красное & Белое",
+                "name:en": "Red&White",
+                "opening_hours": "Mo-Su 09:00-22:05",
+                "operator": "ООО\"Альфа-М\"",
+                "shop": "alcohol",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "contact:website": "https://pelmesh-spb.ru",
+                "fast_food": "cafeteria",
+                "level": "0",
+                "name": "Пельмешъ",
+                "opening_hours": "Mo-Su 08:00-22:00"
+            }
+        ]
+    },
+    "variety_store": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Fix Price",
+                "brand:wikidata": "Q4038791",
+                "brand:wikipedia": "ru:Fix Price (сеть магазинов)",
+                "contact:website": "https://fix-price.ru/",
+                "level": "1",
+                "name": "Fix Price",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "shop": "variety_store"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Кабинет",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Цветы",
+                "opening_hours": "24/7",
+                "shop": "florist"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:country": "RU",
+                "addr:housenumber": "77",
+                "addr:street": "14-я линия В.О.",
+                "building": "school",
+                "building:architecture": "stalinist neoclassicism",
+                "building:cladding": "plaster",
+                "building:levels": "4",
+                "design:code:SPb": "Шк-16",
+                "name": "Переделка ГОУ ОСОШ № 575 Василеостровского района в общежитие Горного университета с достройкой еще одного этажа",
+                "source": "Bing;rgis"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:country": "RU",
+                "addr:housenumber": "16А",
+                "addr:street": "Камская улица",
+                "building": "school",
+                "building:architecture": "stalinist neoclassicism",
+                "building:cladding": "plaster",
+                "building:levels": "4",
+                "design:code:SPb": "Шк-16",
+                "source": "Bing; rgis"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "fee": "yes",
+                "unisex": "yes",
+                "amenity": "toilets",
+                "website": "http://www.vodokanal.spb.ru/kanalizovanie/tualety/",
+                "building": "yes",
+                "operator": "ГУП «Водоканал Санкт-Петербурга»",
+                "addr:street": "Камская улица",
+                "opening_hours": "09:00-21:00",
+                "building:levels": "1",
+                "addr:housenumber": "5 к2",
+                "toilets:disposal": "flush"
+            }
+        ]
+    },
+    "university": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "54",
+                "addr:letter": "А",
+                "addr:street": "17-я линия В.О.",
+                "amenity": "university",
+                "building": "yes",
+                "name": "Институт сетевых технологий",
+                "source": "Bing;rgis"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:country": "RU",
+                "addr:housenumber": "19-21",
+                "addr:letter": "А",
+                "addr:street": "набережная реки Смоленки",
+                "amenity": "university",
+                "building": "yes",
+                "name": "Государственный институт психологии и социальной работы",
+                "source:addr": "rgis",
+                "website": "https://psysocwork.ru/"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Церковь Святого Воскресения",
+                "amenity": "place_of_worship",
+                "name:en": "Armenian Church of the Holy Resurrection",
+                "building": "church",
+                "religion": "christian",
+                "wikidata": "Q4505006",
+                "addr:city": "Санкт-Петербург",
+                "wikipedia": "ru:Церковь Святого Воскресения (Санкт-Петербург)",
+                "addr:letter": "Б",
+                "addr:street": "набережная реки Смоленки",
+                "source:addr": "rgis",
+                "addr:country": "RU",
+                "denomination": "armenian_apostolic",
+                "addr:housenumber": "29"
+            }
+        ]
+    },
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "27А",
+                "addr:street": "набережная реки Смоленки",
+                "amenity": "fuel",
+                "brand": "ПТК",
+                "brand:en": "The Petersburg Fuel Company",
+                "brand:ru": "ПТК",
+                "brand:wikidata": "Q4360193",
+                "brand:wikipedia": "ru:Петербургская топливная компания",
+                "building": "yes",
+                "building:levels": "1",
+                "fuel:octane_92": "yes",
+                "fuel:octane_95": "yes",
+                "name": "ПТК",
+                "name:en": "The Petersburg Fuel Company",
+                "name:ru": "ПТК",
+                "operator": "Петербургская Топливная Компания",
+                "ref": "5",
+                "source:addr": "rgis"
+            }
+        ]
+    },
+    "service": {
+        "count": 2,
+        "detail": [
+            {
+                "ref": "401",
+                "building": "service",
+                "man_made": "mineshaft",
+                "operator": "Петербургский метрополитен",
+                "mineshaft_type": "air",
+                "building:levels": "1"
+            },
+            {
+                "ref": "1424",
+                "power": "substation",
+                "branch": "Кабельная сеть",
+                "building": "service",
+                "location": "indoor",
+                "operator": "Ленэнерго",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "building:levels": "1"
+            }
+        ]
+    }
+}

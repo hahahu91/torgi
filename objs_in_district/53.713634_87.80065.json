@@ -1,0 +1,132 @@
+{
+    "residents": 345,
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "place_of_worship"
+            }
+        ]
+    },
+    "pub": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "pub"
+            },
+            {
+                "amenity": "pub"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy"
+            }
+        ]
+    },
+    "marketplace": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "marketplace"
+            }
+        ]
+    },
+    "school": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Школа №1",
+                "amenity": "school",
+                "building": "yes",
+                "addr:city": "Мыски",
+                "addr:region": "Кемеровская область",
+                "addr:street": "улица Вахрушева",
+                "addr:country": "RU",
+                "addr:housenumber": "26"
+            },
+            {
+                "name": "Школа №1",
+                "amenity": "school",
+                "building": "yes",
+                "addr:city": "Мыски",
+                "addr:region": "Кемеровская область",
+                "addr:street": "улица Вахрушева",
+                "addr:country": "RU",
+                "addr:housenumber": "26"
+            },
+            {
+                "name": "Школа №1",
+                "amenity": "school",
+                "building": "yes",
+                "addr:city": "Мыски",
+                "addr:region": "Кемеровская область",
+                "addr:street": "улица Вахрушева",
+                "addr:country": "RU",
+                "addr:housenumber": "26"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Любимый",
+                "shop": "supermarket",
+                "building": "yes",
+                "addr:city": "Мыски",
+                "addr:region": "Кемеровская область",
+                "addr:street": "Шахтёрская улица"
+            },
+            {
+                "name": "Эльф",
+                "shop": "supermarket",
+                "building": "yes",
+                "addr:city": "Мыски",
+                "addr:region": "Кемеровская область",
+                "addr:street": "Шахтёрская улица",
+                "addr:country": "RU",
+                "addr:housenumber": "2В"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Мыски",
+                "addr:country": "RU",
+                "addr:housenumber": "23А",
+                "addr:region": "Кемеровская область",
+                "addr:street": "улица Вахрушева",
+                "amenity": "hospital",
+                "building": "yes",
+                "healthcare": "hospital"
+            },
+            {
+                "addr:city": "Мыски",
+                "addr:country": "RU",
+                "addr:housenumber": "6",
+                "addr:region": "Кемеровская область",
+                "addr:street": "улица Пушкина",
+                "amenity": "hospital",
+                "building": "yes",
+                "healthcare": "hospital"
+            },
+            {
+                "addr:city": "Мыски",
+                "addr:country": "RU",
+                "addr:housenumber": "2",
+                "addr:region": "Кемеровская область",
+                "addr:street": "Юбилейный бульвар",
+                "amenity": "hospital",
+                "building": "yes",
+                "healthcare": "hospital"
+            }
+        ]
+    }
+}

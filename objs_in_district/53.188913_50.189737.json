@@ -1,0 +1,568 @@
+{
+    "residents": 6459,
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Автостанция \"Аврора\"",
+                "public_transport": "platform",
+                "share_taxi": "yes",
+                "shelter": "yes"
+            },
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "bus": "yes",
+                "name": "Партизанская улица",
+                "highway": "bus_stop",
+                "share_taxi": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Партизанская улица",
+                "highway": "bus_stop",
+                "share_taxi": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Партизанская улица",
+                "public_transport": "stop_position",
+                "share_taxi": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "Автостанция \"Аврора\"",
+                "public_transport": "stop_position",
+                "share_taxi": "yes"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Макдоналдс",
+                "amenity": "fast_food",
+                "cuisine": "burger",
+                "name:de": "McDonald's",
+                "name:en": "McDonald's",
+                "name:ru": "Макдоналдс",
+                "smoking": "no",
+                "website": "https://mcdonalds.ru/",
+                "alt_name": "Макдональдс",
+                "int_name": "McDonald's",
+                "operator": "Макдоналдс",
+                "takeaway": "yes",
+                "operator:en": "McDonald's",
+                "operator:ru": "Макдоналдс",
+                "addr:country": "RU"
+            },
+            {
+                "amenity": "fast_food",
+                "brand:wikidata": "Q177054",
+                "brand:wikipedia": "ru:Burger King",
+                "contact:email": "FeedBack@burgerking.ru",
+                "contact:phone": "+7 800 55045454422",
+                "contact:website": "https://burgerking.ru/",
+                "cuisine": "burger",
+                "internet_access": "wlan",
+                "internet_access:fee": "no",
+                "name": "Бургер Кинг",
+                "name:en": "Burger King",
+                "name:ru": "Бургер Кинг",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "БУРГЕР РУС",
+                "operator:phone": "+7 495 5445000",
+                "ref": "422",
+                "takeaway": "yes"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Самара",
+                "addr:housenumber": "47А",
+                "addr:street": "Аэродромная улица",
+                "amenity": "restaurant",
+                "cuisine": "japanese",
+                "name": "То Сё",
+                "opening_hours": "10:00-22:00",
+                "phone": "+7 846 205-52-15",
+                "website": "https://toce.ru/"
+            },
+            {
+                "addr:city": "Самара",
+                "addr:housenumber": "47А",
+                "addr:street": "Аэродромная улица",
+                "amenity": "restaurant",
+                "cuisine": "italian",
+                "name": "Луиджи",
+                "opening_hours": "10:00-22:00",
+                "phone": "+7 846 205-23-35",
+                "website": "https://luigi.ru/"
+            }
+        ]
+    },
+    "cinema": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cinema"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Остап",
+                "shop": "supermarket"
+            },
+            {
+                "brand": "Лента",
+                "brand:wikidata": "Q4258608",
+                "brand:wikipedia": "ru:Лента (сеть магазинов)",
+                "contact:email": "info@lenta.com",
+                "contact:facebook": "https://www.facebook.com/lentacom",
+                "contact:instagram": "https://www.instagram.com/lenta_com",
+                "contact:ok": "https://ok.ru/group/53286834208943",
+                "contact:phone": "+7 800 7004111",
+                "contact:vk": "https://vk.com/lentacom",
+                "contact:website": "https://www.lenta.com",
+                "delivery": "no",
+                "internet_access": "no",
+                "name": "Лента",
+                "name:en": "Lenta",
+                "opening_hours": "Mo-Su 08:00-24:00",
+                "operator": "ООО \"Лента\"",
+                "shop": "supermarket",
+                "toilets": "yes",
+                "wheelchair": "yes",
+                "wheelchair:description:ru": "данные Ленты"
+            }
+        ]
+    },
+    "public_building": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ЕИРЦ",
+                "amenity": "public_building"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "contact:phone": "+7 800 2005888",
+                "contact:twitter": "https://twitter.com/ruspostofficial",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Самара 443070",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-18:00",
+                "operator": "АО «Почта России»",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России",
+                "phone": "268-86-08",
+                "ref": "443070"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "atm": "yes",
+                "name": "Сбербанк: дополнительный офис №6991/0217",
+                "phone": "268-86-07",
+                "branch": "Поволжский банк",
+                "amenity": "bank",
+                "website": "http://sbrf.ru/",
+                "operator": "Сбербанк России"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 4,
+        "detail": [
+            {
+                "alt_name": "ДНС",
+                "brand": "DNS",
+                "brand:en": "DNS",
+                "brand:ru": "ДНС",
+                "brand:wikidata": "Q4036922",
+                "brand:wikipedia": "DNS (сеть магазинов)",
+                "contact:email": "avrora@dns-shop.ru",
+                "contact:facebook": "https://www.facebook.com/dnsshop",
+                "contact:phone": "+7 800 7707999",
+                "contact:twitter": "https://twitter.com/dnsshop",
+                "contact:vk": "https://vk.com/dnsstore",
+                "contact:website": "http://dns-shop.ru/",
+                "contact:youtube": "https://www.youtube.com/c/DNSSHOPvideo",
+                "name": "DNS",
+                "name:en": "DNS",
+                "name:ru": "ДНС",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "ДНС Ритейл",
+                "shop": "electronics"
+            },
+            {
+                "name": "SUPER ГАЗ",
+                "shop": "electronics",
+                "phone": "+7 846 2695142",
+                "website": "https://supergas.ru/",
+                "contact:phone": "+7 846 2695080"
+            },
+            {
+                "contact:email": "samsung.aurora.smr@galaxystore.ru",
+                "contact:phone": "+7 800 7000088;+7 846 3754225",
+                "contact:website": "https://galaxystore.ru/",
+                "name": "Samsung",
+                "name:en": "Samsung",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "operator": "Носимо",
+                "shop": "electronics"
+            },
+            {
+                "contact:email": "24@mvideo.ru",
+                "contact:facebook": "https://www.facebook.com/mvideo.ru",
+                "contact:instagram": "https://www.instagram.com/mvideo_ru/",
+                "contact:ok": "https://ok.ru/mvideo",
+                "contact:phone": "+7 800 6007775",
+                "contact:twitter": "https://twitter.com/mvideo",
+                "contact:vk": "https://vk.com/mvideo",
+                "contact:website": "https://mvideo.ru/",
+                "name": "М.Видео",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "МВМ",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "fee": "yes",
+                "amenity": "parking",
+                "parking": "rooftop"
+            }
+        ]
+    },
+    "sports": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Спортмастер",
+                "shop": "sports",
+                "email": "e-commerce@sportmaster.ru",
+                "phone": "+7 800 777-777-1; +7 846 254-60-49",
+                "name:en": "Sportmaster",
+                "name:ru": "Спортмастер",
+                "website": "https://www.sportmaster.ru/store/6153/",
+                "operator": "ООО «Спортмастер»",
+                "opening_hours": "Mo-Su 10:00-22:00"
+            }
+        ]
+    },
+    "toys": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Lego",
+                "shop": "toys",
+                "email": "lego.aurora.smr@mir-kubikov.ru",
+                "phone": "+7 846 375-42-75",
+                "name:en": "Lego",
+                "website": "https://mir-kubikov.ru/",
+                "operator": "Икстрим",
+                "contact:ok": "http://ok.ru/legostores",
+                "contact:vk": "https://vk.com/legostores",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "contact:facebook": "https://www.facebook.com/legostores",
+                "contact:instagram": "https://instagram.com/legostores"
+            }
+        ]
+    },
+    "houseware": {
+        "count": 2,
+        "detail": [
+            {
+                "contact:email": "info@startonline.ru",
+                "contact:phone": "+7 846 2063006",
+                "contact:website": "https://tddomovoy.ru/",
+                "name": "Домовой",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "Управляющая компания «СТАРТ»",
+                "shop": "houseware"
+            },
+            {
+                "contact:facebook": "https://www.facebook.com/kuchenland.ru",
+                "contact:instagram": "https://www.instagram.com/kuchenland_official/",
+                "contact:phone": "+7 846 2013747",
+                "contact:vk": "https://vk.com/kuchenland_official",
+                "contact:website": "https://www.kuchenland.ru/",
+                "name": "Kuchenland",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "ИП Базанов В.М.",
+                "shop": "houseware"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 4,
+        "detail": [
+            {
+                "contact:email": "os-respect@mail.ru",
+                "contact:phone": "+7 846 2022404",
+                "contact:website": "https://respect-shoes.ru/",
+                "name": "Respect",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "operator": "Респект-Онлайн",
+                "shop": "shoes"
+            },
+            {
+                "addr:city": "Самара",
+                "addr:housenumber": "47А",
+                "addr:street": "Аэродромная улица",
+                "brand": "MILANA",
+                "description": "Магазин мужской и женской обуви, сумок и аксессуаров (кошельки, портмоне, перчатки, зонты, ремни), средств по уходу за обувью",
+                "email": "avrora@milana-shoes.ru",
+                "level": "2",
+                "name": "MILANA",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "payment:cash": "yes",
+                "payment:debit_cards": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "phone": "+7 (846) 211-00-52",
+                "shop": "shoes",
+                "website": "https://milana-shoes.ru/"
+            },
+            {
+                "contact:email": "club@ralf.ru",
+                "contact:phone": "+7 800 2001011",
+                "contact:website": "https://ralf.ru/",
+                "name": "Ralf Ringer",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "shop": "shoes"
+            },
+            {
+                "contact:email": "hotline@belwest.by",
+                "contact:facebook": "https://www.facebook.com/belwest.shoes/",
+                "contact:instagram": "https://www.instagram.com/belwest.shoes/",
+                "contact:ok": "https://ok.ru/belwest.shoes",
+                "contact:phone": "+7 846 3759200",
+                "contact:vk": "https://vk.com/belwest.shoes",
+                "contact:youtube": "https://www.youtube.com/channel/UCMxwgKfu3jxDiv9lAdluR1Q",
+                "name": "Belwest",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "Белвест Ритейл Москва",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "ice_cream": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "contact:email": "horeca@33pingvina.ru",
+                "contact:phone": "+7 800 1005033",
+                "contact:website": "https://33pingvina.ru/",
+                "cuisine": "ice_cream",
+                "name": "33 пингвина",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "Интеропт",
+                "shop": "ice_cream"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "yrru.rocketdata@gmail.com",
+                "contact:phone": "+7 846 2771741;+7 927 2071741",
+                "contact:website": "https://www.yves-rocher.ru/",
+                "name": "Ив Роше",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "ДЖУРИК ДЕНИС ВАСИЛЬЕВИЧ",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "baby_goods": {
+        "count": 1,
+        "detail": [
+            {
+                "clothes": "children",
+                "contact:email": "a_abrosimov@detoc.ru",
+                "contact:phone": "+7 846 3002212",
+                "contact:website": "https://samara.dochkisinochki.ru/",
+                "name": "Дочки-сыночки",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "Волга",
+                "shop": "baby_goods"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Свой мастер",
+                "operator": "ИП Веткина ИНН 631188941701",
+                "phone": "+79198038310",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "dentist",
+                "healthcare": "dentist",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-16:00",
+                "phone": "+79879406435"
+            },
+            {
+                "amenity": "dentist",
+                "contact:email": "edental-adm-avrora@mail.ru",
+                "contact:instagram": "https://instagram.com/edental_clinic",
+                "contact:phone": "+7 846 2010447;+7 961 3860303",
+                "contact:vk": "https://vk.com/edentalclinic",
+                "contact:website": "https://xn--80ahdzi4a2eb.xn--p1ai/",
+                "name": "Эденталь",
+                "opening_hours": "Mo-Fr 08:00-20:00;Sa 10:00-20:00",
+                "operator": "ООО Эденталь"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Самара",
+                "addr:housenumber": "47А",
+                "addr:street": "Аэродромная улица",
+                "amenity": "cafe",
+                "name": "Кафе-Хинкальная Мушмула",
+                "opening_hours": "Mo-Su 10:00-23:00",
+                "phone": "+7 987 955-53-50",
+                "website": "https://mushmula.ru/"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "info@loverepublic.ru",
+                "contact:instagram": "https://www.instagram.com/loverepublic_official/",
+                "contact:phone": "+7 800 2503233;+7 846 2010940",
+                "contact:vk": "https://vk.com/loverepublic_official",
+                "contact:website": "https://loverepublic.ru/",
+                "name": "Love Republic",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "Мэлон Фэшн Груп",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:city": "Самара",
+                "addr:street": "улица Волгина",
+                "addr:postcode": "443070",
+                "building:levels": "2",
+                "addr:housenumber": "97"
+            },
+            {
+                "building": "kindergarten",
+                "addr:city": "Самара",
+                "addr:street": "Тушинская улица",
+                "addr:postcode": "443070",
+                "building:levels": "2",
+                "addr:housenumber": "45"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "улица Авроры",
+                "addr:postcode": "443076",
+                "building:levels": "1",
+                "addr:housenumber": "101А"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ГУВД по Самарской области",
+                "amenity": "police",
+                "building": "yes",
+                "addr:city": "Самара",
+                "addr:street": "улица Авроры",
+                "addr:country": "RU",
+                "addr:postcode": "443076",
+                "building:levels": "2",
+                "addr:housenumber": "101"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ТЦ \"Аврора\"",
+                "shop": "mall",
+                "building": "yes",
+                "addr:city": "Самара",
+                "addr:street": "Аэродромная улица",
+                "addr:postcode": "443070",
+                "building:levels": "7",
+                "addr:housenumber": "47А"
+            }
+        ]
+    }
+}

@@ -1,0 +1,442 @@
+{
+    "residents": 10363,
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fuel",
+                "fuel:diesel": "yes",
+                "fuel:octane_92": "yes",
+                "fuel:octane_95": "yes"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Московский областной противотуберкулезный диспансер",
+                "amenity": "clinic",
+                "contact:phone": "+7 499 9781519",
+                "contact:website": "http://moptd.ru"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "car_wash"
+            },
+            {
+                "addr:housenumber": "5 с2",
+                "addr:street": "Новосущёвская улица",
+                "amenity": "car_wash",
+                "building": "industrial",
+                "building:levels": "1",
+                "contact:phone": "+7 964 5958008",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "playground": {
+        "count": 3,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Альковъ",
+                "amenity": "restaurant"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Домовой храм в МИИТ",
+                "amenity": "place_of_worship",
+                "religion": "christian",
+                "denomination": "russian_orthodox"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Морошка",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "police",
+                "name": "Участковый пункт полиции № 63"
+            }
+        ]
+    },
+    "coworking_place": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "coworking_place",
+                "internet_access": "wlan",
+                "name": "Дом у моря",
+                "website": "http://www.dom-y-morya.ru/"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Bounce Kitchen",
+                "sport": "trampoline",
+                "leisure": "sports_centre",
+                "website": "http://bouncekitchen.ru/"
+            }
+        ]
+    },
+    "training": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "training",
+                "name": "Московский свинг данс клуб",
+                "name:en": "Moscow swing dance society",
+                "name:ru": "МСДК (Московский свинг данс клуб)",
+                "short_name": "МСДК",
+                "training": "dance",
+                "website": "https://msds.ru/"
+            },
+            {
+                "name": "Этнический центр ИНБИ",
+                "amenity": "training",
+                "building": "yes",
+                "addr:street": "площадь Борьбы",
+                "building:levels": "4",
+                "addr:housenumber": "13А с1"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "car_repair",
+                "service": "tyres",
+                "description": "Шиномонтаж"
+            },
+            {
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 495 5395454",
+                "contact:website": "http://parking.mos.ru/",
+                "opening_hours": "24/7",
+                "operator": "ГКУ «Администратор Московского парковочного пространства»",
+                "payment:cash": "no",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "ref": "3176",
+                "ref:mos_parking": "5004942",
+                "source": "dit.mos.ru",
+                "vending": "parking_tickets",
+                "zone:parking": "3016"
+            }
+        ]
+    },
+    "veterinary": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Слон и Моська",
+                "amenity": "veterinary",
+                "name:ru": "Слон и Моська",
+                "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-17:00"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Хозстроймаг",
+                "shop": "hardware",
+                "name:ru": "Хозстроймаг",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Отвинтаж",
+                "opening_hours": "Mo-Su 12:00-21:00",
+                "phone": "+7 926 8110461",
+                "shop": "clothes",
+                "website": "https://www.instagram.com/otvintagshop/"
+            }
+        ]
+    },
+    "pub": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "BeerDock&MeetMeat",
+                "amenity": "pub",
+                "craft_beer": "yes",
+                "contact:phone": "+7 495 7604536"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Вкусняк",
+                "amenity": "fast_food"
+            },
+            {
+                "amenity": "fast_food",
+                "cuisine": "coffee_shop;sandwich",
+                "drive_through": "no"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "wall_loops",
+                "capacity": "3",
+                "covered": "no",
+                "fee": "no",
+                "opening_hours": "24/7",
+                "supervised": "no"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "stands",
+                "capacity": "4",
+                "covered": "no",
+                "fee": "no",
+                "opening_hours": "24/7",
+                "supervised": "no"
+            }
+        ]
+    },
+    "copyshop": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 925 4480849",
+                "contact:website": "https://www.copy-orange.com/",
+                "name": "Copy-Orange",
+                "shop": "copyshop"
+            }
+        ]
+    },
+    "massage": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Тайрай",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "phone": "+7 495 2254242",
+                "shop": "massage"
+            }
+        ]
+    },
+    "bicycle_rental": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_rental",
+                "contact:email": "info@velobike.ru",
+                "contact:phone": "+7 495 9664669",
+                "contact:website": "https://velobike.ru/",
+                "fee": "yes",
+                "network": "Велобайк",
+                "opening_hours": "24/7",
+                "operator": "АО «СитиБайк»",
+                "seasonal": "spring;summer;autumn"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Солярис",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сибэс",
+                "amenity": "bank",
+                "building": "yes",
+                "addr:street": "Перуновский переулок",
+                "building:levels": "3",
+                "addr:housenumber": "3 с2"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "18",
+                "addr:street": "Новосущёвская улица",
+                "amenity": "hospital",
+                "building": "hospital",
+                "building:levels": "4",
+                "contact:phone": "+7 499 9786885",
+                "healthcare": "hospital",
+                "health_facility:type": "hospital",
+                "medical_system:western": "yes",
+                "name": "Клиническая больница Росздрава"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 5,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:city": "Москва",
+                "addr:street": "улица Образцова",
+                "building:levels": "3",
+                "addr:housenumber": "7 с3"
+            },
+            {
+                "building": "commercial",
+                "addr:street": "улица Образцова",
+                "building:levels": "3",
+                "addr:housenumber": "14"
+            },
+            {
+                "building": "commercial",
+                "addr:street": "Октябрьский переулок",
+                "building:levels": "3",
+                "addr:housenumber": "23"
+            },
+            {
+                "building": "commercial",
+                "building:levels": "3",
+                "addr:housenumber": "2"
+            },
+            {
+                "building": "commercial",
+                "building:levels": "3"
+            }
+        ]
+    },
+    "school": {
+        "count": 4,
+        "detail": [
+            {
+                "building": "school",
+                "addr:city": "Москва",
+                "addr:street": "Сущёвская улица",
+                "building:levels": "4",
+                "addr:housenumber": "32"
+            },
+            {
+                "building": "school",
+                "addr:street": "улица Достоевского",
+                "building:levels": "4",
+                "addr:housenumber": "25 с1"
+            },
+            {
+                "building": "school",
+                "addr:street": "улица Достоевского",
+                "building:levels": "1",
+                "addr:housenumber": "25 с1"
+            },
+            {
+                "building": "school",
+                "addr:street": "Октябрьский переулок",
+                "building:levels": "4",
+                "addr:housenumber": "11"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "location": "indoor",
+                "addr:city": "Москва",
+                "substation": "minor_distribution",
+                "addr:street": "Новосущёвская улица",
+                "building:levels": "1",
+                "addr:housenumber": "20 с3"
+            }
+        ]
+    }
+}

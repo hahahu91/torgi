@@ -1,0 +1,170 @@
+{
+    "residents": 3282,
+    "convenience": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Магазин \"Ирина\"",
+                "shop": "convenience"
+            },
+            {
+                "name": "Магазин \"Батончик\"",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Трио",
+                "shop": "convenience",
+                "building": "retail",
+                "addr:street": "улица 10-й микрорайон",
+                "building:levels": "1",
+                "addr:housenumber": "3А"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Супермаркет \"Кора\"",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Монетка",
+                "shop": "supermarket",
+                "building": "retail",
+                "addr:street": "улица 10-й микрорайон",
+                "opening_hours": "10:00-22:00",
+                "addr:housenumber": "4А"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 8,
+        "detail": [
+            {
+                "name": "10 микрорайон",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "10 микрорайон",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Дом ветеранов",
+                "share_taxi": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "name": "Дом ветеранов",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "name": "Дом ветеранов",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Дом ветеранов",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "share_taxi": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "10 микрорайон",
+                "share_taxi": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "10 микрорайон",
+                "share_taxi": "yes",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магазин \"Усадьба\"",
+                "shop": "florist"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Аптека 36,6",
+                "amenity": "pharmacy",
+                "website": "https://366.ru/"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Стоматология",
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "social_facility": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дом ветеранов",
+                "amenity": "social_facility",
+                "social_facility": "group_home",
+                "social_facility:for": "senior"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "7 дней",
+                "shop": "mall",
+                "building": "retail",
+                "addr:city": "Прокопьевск",
+                "addr:street": "улица 10-й микрорайон",
+                "addr:country": "RU",
+                "addr:housenumber": "5Б"
+            }
+        ]
+    },
+    "service": {
+        "count": 3,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service"
+            },
+            {
+                "power": "substation",
+                "building": "service"
+            },
+            {
+                "power": "substation",
+                "building": "service"
+            }
+        ]
+    }
+}

@@ -1,0 +1,669 @@
+{
+    "residents": 3268,
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "restaurant",
+                "cuisine": "korean",
+                "name": "Korean BBQ гриль",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "website": "http://koreanbbq.spb.ru/",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 13,
+        "detail": [
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "2;6;35;66;",
+                "name": "Старо-Петергофский проспект, 27",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "wheelchair": "limited"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Старо-Петергофский проспект, 27",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "wheelchair": "limited"
+            },
+            {
+                "bench": "no",
+                "bin": "no",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Набережная Обводного канала",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "no",
+                "wheelchair": "limited"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "65;67;67Б;70",
+                "name": "Старо-Петергофский проспект",
+                "public_transport": "platform",
+                "shelter": "no"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "65;67;67Б;71",
+                "name": "Старо-Петергофский проспект",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "ref": "2;6;49",
+                "name": "Курляндская улица",
+                "operator": "СПб ГУП \"Организатор перевозок\"",
+                "share_taxi": "yes",
+                "tactile_paving": "no",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "ref": "2;6;35;66",
+                "name": "Старо-Петергофский проспект, 27",
+                "operator": "СПб ГУП \"Организатор перевозок\"",
+                "tactile_paving": "no",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "ref": "2;6;35;66",
+                "name": "Старо-Петергофский проспект, 27",
+                "operator": "СПб ГУП \"Организатор перевозок\"",
+                "share_taxi": "yes",
+                "tactile_paving": "no",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "ref": "2;6;49;66",
+                "name": "Набережная Обводного канала",
+                "operator": "СПб ГУП \"Организатор перевозок\"",
+                "share_taxi": "yes",
+                "tactile_paving": "no",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "local_ref": "35;35А;65;66;67;67Б;71",
+                "name": "набережная Обводного канала, 150",
+                "public_transport": "platform",
+                "shelter": "no"
+            },
+            {
+                "bus": "yes",
+                "name": "набережная Обводного канала, 150",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Старо-Петергофский проспект",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Старо-Петергофский проспект",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Авиценна",
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "opening_hours": "09:00-21:00",
+                "operator": "ООО «Ника Фарм»",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "optician": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "optician",
+                "opening_hours": "11:00-19:00"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Дикси",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "contact:facebook": "https://www.facebook.com/Dixyclub",
+                "contact:instagram": "https://www.instagram.com/dixy.channel/",
+                "contact:ok": "https://ok.ru/dixyclub",
+                "contact:phone": "+7 800 3330201",
+                "contact:vk": "https://vk.com/dixyclub",
+                "contact:youtube": "https://www.youtube.com/user/DixyChannel",
+                "name": "Дикси",
+                "name:ru": "Дикси",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "operator": "АО «Дикси Юг»",
+                "shop": "supermarket",
+                "website": "https://dixy.ru/"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Щи да борщи",
+                "opening_hours": "Mo-Fr 07:00-21:00; Sa-Su 09:00-21:00",
+                "operator": "ООО «Здоровье»",
+                "phone": "+7 812 2517395"
+            },
+            {
+                "amenity": "cafe",
+                "contact:instagram": "https://www.instagram.com/coffeemoose.spb/",
+                "contact:phone": "+7 906 3031704",
+                "contact:vk": "https://vk.com/coffeemoose178",
+                "contact:website": "https://coffee-moose.ru/",
+                "name": "Coffee Moose",
+                "opening_hours": "Mo-Fr 08:00-21:00; Sa-Su 08:00-20:00",
+                "operator": "ИП Киселев Александр Сергеевич",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Mari Beauty",
+                "opening_hours": "10:00-21:00",
+                "shop": "hairdresser",
+                "wheelchair": "no"
+            },
+            {
+                "disused:shop": "hairdresser",
+                "name": "Мандарин",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Food Market",
+                "opening_hours": "24/7",
+                "operator": "ООО «И.Ш.Т.»",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "Mo-Su 07:00-22:00",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Буханка",
+                "shop": "bakery",
+                "website": "http://pekarnya-buhanka.ru/",
+                "contact:vk": "https://vk.com/pekarnya_buhanka",
+                "opening_hours": "07:00-23:00"
+            }
+        ]
+    },
+    "bench": {
+        "count": 21,
+        "detail": [
+            {
+                "source": "bing",
+                "amenity": "bench"
+            },
+            {
+                "source": "bing",
+                "amenity": "bench"
+            },
+            {
+                "source": "bing",
+                "amenity": "bench"
+            },
+            {
+                "source": "bing",
+                "amenity": "bench"
+            },
+            {
+                "source": "bing",
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Спецовка",
+                "shop": "clothes",
+                "website": "http://www.spetsovka.com/",
+                "contact:vk": "https://vk.com/tdspecovka",
+                "opening_hours": "09:00-20:00"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Олд Сити Моторс",
+                "shop": "car_repair",
+                "name:en": "Old City Motors",
+                "name:ru": "Олд Сити Моторс",
+                "website": "http://oldcitymotors.spb.ru/"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "toilets",
+                "fee": "yes",
+                "opening_hours": "May-Sep: 09:00-21:00",
+                "operator": "ГУП «Водоканал Санкт-Петербурга»",
+                "website": "http://www.vodokanal.spb.ru/kanalizovanie/tualety/"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Наша столовая",
+                "amenity": "fast_food",
+                "name:ru": "Наша столовая",
+                "fast_food": "cafeteria",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Столовая",
+                "amenity": "fast_food",
+                "fast_food": "cafeteria"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Инструмент",
+                "shop": "hardware",
+                "operator": "ИП Кузнецов А.П.",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa 11:00-18:00"
+            },
+            {
+                "name": "Резинаторг",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "computer": {
+        "count": 2,
+        "detail": [
+            {
+                "contact:vk": "https://vk.com/royal_computers",
+                "name": "Royal Computers",
+                "opening_hours": "Mo-Sa 11:00-20:00",
+                "shop": "computer",
+                "website": "https://royal-computers.ru/"
+            },
+            {
+                "name": "Нотик",
+                "shop": "computer",
+                "website": "http://www.notik.ru/information/85#Obvodkanal",
+                "operator": "ООО «Наволок»",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa 11:00-19:00"
+            }
+        ]
+    },
+    "outpost": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Ozon.ru",
+                "brand:wikidata": "Q2365235",
+                "contact:facebook": "https://www.facebook.com/ozon.ru/",
+                "contact:instagram": "https://www.instagram.com/ozonru/",
+                "contact:twitter": "https://twitter.com/Ozon_ru/",
+                "contact:vk": "https://vk.com/ozon",
+                "name": "Ozon",
+                "opening_hours": "10:00-21:00",
+                "shop": "outpost",
+                "website": "https://www.ozon.ru/"
+            }
+        ]
+    },
+    "radiotechnics": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "138/7",
+                "addr:postcode": "190020",
+                "addr:street": "набережная Обводного канала",
+                "description": "Продажа и установка сетевой адресно-аналоговой пожарной сигнализации.",
+                "name": "Z-line",
+                "phone": "+7 812 6111193",
+                "shop": "radiotechnics",
+                "website": "https://z-line.su/"
+            }
+        ]
+    },
+    "outdoor": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "NorfinSpb.ru",
+                "shop": "outdoor",
+                "website": "https://norfinspb.ru/"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Резиновая обувь",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "glaziery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Элайнс",
+                "shop": "glaziery",
+                "website": "http://fasad812.ru/"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "locksmith": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ключник",
+                "shop": "locksmith",
+                "website": "https://www.kluchnik-spb.ru/"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "car_parts"
+            },
+            {
+                "name": "Аккума",
+                "shop": "car_parts",
+                "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-19:00"
+            },
+            {
+                "contact:instagram": "https://instagram.com/check_inspb",
+                "contact:phone": "+7 999 0079007",
+                "name": "Check In SPb",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "ООО Легион-Авто",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "fireplace": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мир у дачи",
+                "shop": "fireplace",
+                "website": "https://mirydachi.ru/"
+            }
+        ]
+    },
+    "sewing": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "France Fournitures",
+                "shop": "sewing",
+                "website": "http://www.fr-furn.ru/",
+                "opening_hours": "Mo-Fr 10:00-18:00"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Штопор",
+                "shop": "alcohol",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "16",
+                "addr:street": "Старо-Петергофский проспект",
+                "amenity": "community_centre",
+                "name": "Санкт-Петербургский центр НЛП",
+                "name:en": "NLP Spb",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "phone": "+7 812 9070707",
+                "website": "http://nlpspb.ru"
+            }
+        ]
+    },
+    "events_venue": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "events_venue",
+                "name": "Банкетный зал \"Зефир\"",
+                "website": "https://www.zefirholl.ru/"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Баня \"Волна\"",
+                "leisure": "sauna"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling",
+                "recycling:plastic_bottles": "yes"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Поликлиника №24",
+                "amenity": "clinic",
+                "building": "yes",
+                "addr:city": "Санкт-Петербург",
+                "healthcare": "clinic",
+                "addr:street": "набережная Обводного канала",
+                "building:levels": "3",
+                "addr:housenumber": "140",
+                "health_facility:type": "clinic",
+                "building:architecture": "classicism"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Травмпункт",
+                "amenity": "doctors",
+                "building": "yes",
+                "healthcare": "doctor",
+                "building:levels": "3",
+                "health_facility:type": "first_aid",
+                "building:architecture": "brick style",
+                "medical_system:western": "yes",
+                "health_specialty:traumatology": "yes"
+            },
+            {
+                "addr:housenumber": "12",
+                "addr:street": "Старо-Петергофский проспект",
+                "amenity": "doctors",
+                "building": "yes",
+                "name": "ГКДЦ \"Ювента\"",
+                "website": "http://www.juventa-spb.info/"
+            }
+        ]
+    },
+    "service": {
+        "count": 2,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:letter": "К",
+                "addr:street": "Старо-Петергофский проспект",
+                "building:levels": "1",
+                "addr:housenumber": "21 литК"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:letter": "Я",
+                "addr:street": "Старо-Петергофский проспект",
+                "building:levels": "1",
+                "addr:housenumber": "14"
+            }
+        ]
+    }
+}

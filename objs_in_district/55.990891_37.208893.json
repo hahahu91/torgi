@@ -1,0 +1,517 @@
+{
+    "residents": 5259,
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Парк Победы",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Парк Победы",
+                "public_transport": "stop_position"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Парк Победы",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Магазин «Товары для дома»",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "source": "knowledge + bing"
+            },
+            {
+                "bus": "yes",
+                "name": "Парк Победы",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "waste_disposal",
+                "waste": "trash"
+            },
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal",
+                "waste": "trash"
+            },
+            {
+                "amenity": "waste_disposal",
+                "waste": "trash"
+            }
+        ]
+    },
+    "sports": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 499 7102293",
+                "name": "4sport",
+                "opening_hours": "10:00-20:00",
+                "operator": "ООО \"ФоСпорт\"",
+                "shop": "sports",
+                "source": "photo+internet",
+                "website": "4sport.ru"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 4,
+        "detail": [
+            {
+                "comment": "Снаружи только название, больше никаких вывесок",
+                "inscription": "Продукты",
+                "shop": "convenience",
+                "source": "photo"
+            },
+            {
+                "comment": "ИП Царьков В.В.",
+                "name": "Угловой",
+                "opening_hours": "09:00-24:00",
+                "shop": "convenience",
+                "source": "photo"
+            },
+            {
+                "addr:city": "Зеленоград",
+                "addr:housenumber": "к458",
+                "is_in:neighbourhood": "4-й микрорайон",
+                "level": "0",
+                "name": "Калинка",
+                "official_name": "ООО \"Калинка\"",
+                "opening_hours": "09:00-21:00",
+                "shop": "convenience",
+                "source": "visited"
+            },
+            {
+                "brand": "ВкусВилл",
+                "brand:wikidata": "Q57271676",
+                "brand:wikipedia": "ru:Вкусвилл",
+                "contact:email": "info@izbenka.msk.ru",
+                "contact:facebook": "https://www.facebook.com/vkusvill.ru",
+                "contact:instagram": "https://www.instagram.com/vkusvill_ru",
+                "contact:phone": "+7 925 2991492",
+                "contact:telegram": "https://telegram.me/vkusvillbot",
+                "contact:twitter": "https://twitter.com/we_are_vkusvill",
+                "contact:vk": "https://vk.com/vkusvill_ru",
+                "contact:website": "https://vkusvill.ru",
+                "name": "ВкусВилл",
+                "name:ru": "ВкусВилл",
+                "opening_hours": "09:00-22:00",
+                "shop": "convenience",
+                "start_date": "2021-03-14",
+                "website": "https://vkusvill.ru/shops/?shop_id=152197"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "comment": "Снаружи только название, больше никаких вывесок",
+                "name": "Солярий",
+                "shop": "beauty",
+                "source": "photo"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "1000 мелочей",
+                "shop": "mall",
+                "source": "knowledge"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "wall_loops",
+                "capacity": "5-10",
+                "comment": "Вертикальные, 5 сдвоенных слотов",
+                "covered": "no"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "wall_loops",
+                "capacity": "5",
+                "comment": "Вертикальные",
+                "covered": "yes"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "wall_loops",
+                "capacity": "10",
+                "comment": "Стальной прямоугольник почти у самой стены, раму пристегнуть не удобно",
+                "covered": "no"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "branch": "Дополнительный офис \"Зеленоградский\"",
+                "brand": "Промсвязьбанк",
+                "brand:en": "Promsvyazbank",
+                "brand:wikidata": "Q649100",
+                "brand:wikipedia": "ru:Промсвязьбанк",
+                "contact:email": "info@psbank.ru",
+                "contact:website": "http://www.psbank.ru",
+                "name": "Промсвязьбанк",
+                "name:en": "Promsvyazbank",
+                "name:ru": "Промсвязьбанк",
+                "opening_hours": "Mo-Fr 09:30-20:00; Sa 10:00-16:00",
+                "operator": "ПAO «Промсвязьбанк»",
+                "short_name": "ПСБ"
+            }
+        ]
+    },
+    "shelter": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "shelter"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Зеленоград",
+                "addr:housenumber": "к445",
+                "is_in:neighbourhood": "4-й микрорайон",
+                "leisure": "sports_centre",
+                "name": "Тонус-клуб",
+                "phone": "+7 909 1501100",
+                "website": "https://tonusclub.ru/"
+            }
+        ]
+    },
+    "bench": {
+        "count": 9,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "bin": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "bin": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "bin": "yes",
+                "material": "wood",
+                "seats": "4"
+            },
+            {
+                "bin": "yes",
+                "seats": "2",
+                "amenity": "bench",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "bin": "yes",
+                "material": "wood",
+                "seats": "4"
+            },
+            {
+                "bin": "yes",
+                "seats": "2",
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "bin": "yes",
+                "material": "wood",
+                "seats": "4"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "bin": "yes",
+                "material": "wood",
+                "seats": "4"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "bin": "yes",
+                "material": "wood",
+                "seats": "4"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "bicycle": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Велосеть",
+                "shop": "bicycle"
+            }
+        ]
+    },
+    "atm": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "24/7",
+                "operator": "Промсвязьбанк"
+            },
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "24/7",
+                "operator": "Промсвязьбанк"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "comment": "ООО \"ПродМир\", ИНН 5009074197",
+                "contact:email": "info@agrohold.ru",
+                "contact:instagram": "https://www.instagram.com/supermarket_miratorg/",
+                "contact:phone": "+7 495 6441701",
+                "contact:website": "https://shop.miratorg.ru/",
+                "name": "Мираторг",
+                "opening_hours": "08:00-23:00",
+                "operator": "ООО Продмир",
+                "shop": "supermarket",
+                "start_date": "2019-12-01"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "recycling",
+                "comment": "Бак \"Вторсырье\", \"Пластик, стекло, металл, макулатура\"",
+                "recycling:aluminium": "yes",
+                "recycling:books": "yes",
+                "recycling:cans": "yes",
+                "recycling:cardboard": "yes",
+                "recycling:cartons": "yes",
+                "recycling:foil": "yes",
+                "recycling:glass": "yes",
+                "recycling:glass_bottles": "yes",
+                "recycling:newspaper": "yes",
+                "recycling:paper": "yes",
+                "recycling:paper_packaging": "yes",
+                "recycling:plastic": "yes",
+                "recycling:plastic_bags": "yes",
+                "recycling:plastic_bottles": "yes",
+                "recycling:plastic_packaging": "yes",
+                "recycling:sheet_metal": "yes",
+                "recycling:styrofoam": "yes",
+                "recycling_type": "container"
+            },
+            {
+                "amenity": "recycling",
+                "comment": "Бак \"Вторсырье\", \"Пластик, стекло, металл, макулатура\"",
+                "recycling:aluminium": "yes",
+                "recycling:books": "yes",
+                "recycling:cans": "yes",
+                "recycling:cardboard": "yes",
+                "recycling:cartons": "yes",
+                "recycling:foil": "yes",
+                "recycling:glass": "yes",
+                "recycling:glass_bottles": "yes",
+                "recycling:newspaper": "yes",
+                "recycling:paper": "yes",
+                "recycling:paper_packaging": "yes",
+                "recycling:plastic": "yes",
+                "recycling:plastic_bags": "yes",
+                "recycling:plastic_bottles": "yes",
+                "recycling:plastic_packaging": "yes",
+                "recycling:sheet_metal": "yes",
+                "recycling:styrofoam": "yes",
+                "recycling_type": "container"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "vending": "ice_cream"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "yes",
+                "amenity": "toilets",
+                "contact:phone": "+7 495 6766235",
+                "fee": "no",
+                "operator": "Департамент жилищно-коммунального хозяйства города Москвы, Государственное Бюджетное Учреждение города Москвы \"ДОРИНВЕСТ\"",
+                "ref": "П33",
+                "toilets:disposal": "flush",
+                "unisex": "yes",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "school": {
+        "count": 3,
+        "detail": [
+            {
+                "building": "school",
+                "addr:city": "Зеленоград",
+                "design:ref": "2Мг-04-3",
+                "start_date": "1968",
+                "addr:region": "Москва",
+                "addr:country": "RU",
+                "building:levels": "3",
+                "addr:housenumber": "к442А",
+                "is_in:neighbourhood": "4-й микрорайон"
+            },
+            {
+                "name": "ФОК \"Юность\"",
+                "amenity": "school",
+                "comment": "\"зал 36х18 метров\" (из схемы при строительстве)",
+                "leisure": "sports_centre",
+                "building": "yes",
+                "addr:city": "Зеленоград",
+                "addr:region": "Москва",
+                "addr:country": "RU",
+                "building:levels": "3",
+                "addr:housenumber": "к443",
+                "is_in:neighbourhood": "4-й микрорайон"
+            },
+            {
+                "building": "school",
+                "addr:city": "Зеленоград",
+                "design:ref": "65-426/1",
+                "start_date": "1963",
+                "addr:region": "Москва",
+                "addr:country": "RU",
+                "building:levels": "3",
+                "addr:housenumber": "к428А",
+                "is_in:neighbourhood": "4-й микрорайон"
+            }
+        ]
+    },
+    "service": {
+        "count": 4,
+        "detail": [
+            {
+                "building": "service",
+                "addr:city": "Зеленоград",
+                "addr:region": "Москва",
+                "building:levels": "1",
+                "addr:housenumber": "к456А",
+                "is_in:neighbourhood": "4-й микрорайон"
+            },
+            {
+                "building": "service",
+                "addr:city": "Зеленоград",
+                "addr:region": "Москва",
+                "addr:country": "RU",
+                "building:levels": "1",
+                "is_in:neighbourhood": "4-й микрорайон"
+            },
+            {
+                "building": "service",
+                "addr:city": "Зеленоград",
+                "addr:region": "Москва",
+                "addr:country": "RU",
+                "building:levels": "1",
+                "addr:housenumber": "к449 с1",
+                "is_in:neighbourhood": "4-й микрорайон"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "addr:city": "Зеленоград",
+                "addr:region": "Москва",
+                "addr:street": "Берёзовая аллея",
+                "addr:country": "RU",
+                "building:levels": "1",
+                "addr:housenumber": "15 с2"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:city": "Зеленоград",
+                "design:ref": "2Мг-04-3",
+                "addr:region": "Москва",
+                "addr:country": "RU",
+                "building:levels": "3",
+                "addr:housenumber": "к445А",
+                "is_in:neighbourhood": "4-й микрорайон"
+            },
+            {
+                "building": "kindergarten",
+                "addr:city": "Зеленоград",
+                "design:ref": "2Мг-04-3",
+                "addr:region": "Москва",
+                "addr:country": "RU",
+                "building:levels": "3",
+                "addr:housenumber": "к448А",
+                "is_in:neighbourhood": "4-й микрорайон"
+            }
+        ]
+    }
+}

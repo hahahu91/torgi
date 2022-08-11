@@ -1,0 +1,575 @@
+{
+    "residents": 9031,
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            },
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "1-я Аптека",
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Новая аптека",
+                "amenity": "pharmacy",
+                "dispensing": "no"
+            },
+            {
+                "name": "Семейная аптека",
+                "amenity": "pharmacy",
+                "dispensing": "no"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Парикмахерская",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Гламур",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "\"Лулу\" парикмахерская",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Парикмахерская",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Десяточка",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Ладушка",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Продукты",
+                "shop": "supermarket"
+            },
+            {
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "outdoor": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сетка",
+                "shop": "outdoor"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мир цветов",
+                "shop": "florist"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "\"Hipix\" принт сервис",
+                "shop": "computer"
+            }
+        ]
+    },
+    "bank": {
+        "count": 7,
+        "detail": [
+            {
+                "amenity": "bank",
+                "contact:facebook": "https://www.facebook.com/atb.su",
+                "contact:instagram": "https://www.instagram.com/atb.su/",
+                "contact:ok": "http://ok.ru/atb.su",
+                "contact:phone": "+7 800 7758888",
+                "contact:twitter": "https://twitter.com/atb_su",
+                "contact:vk": "http://vk.com/atb_su",
+                "contact:website": "https://www.atb.su/",
+                "contact:youtube": "https://www.youtube.com/user/atbbank1929",
+                "name": "АТБ",
+                "opening_hours": "Mo-Fr 09:00-19:00;Sa 10:00-17:00"
+            },
+            {
+                "name": "Восточный экспресс банк",
+                "amenity": "bank"
+            },
+            {
+                "name": "Роял Кредит Банк",
+                "amenity": "bank"
+            },
+            {
+                "atm": "yes",
+                "bic": "VTBRRUMM",
+                "name": "ВТБ",
+                "brand": "ВТБ",
+                "amenity": "bank",
+                "name:en": "VTB",
+                "name:ru": "ВТБ",
+                "operator": "Банк ВТБ (публичное акционерное общество)",
+                "contact:vk": "https://vk.com/vtb24",
+                "contact:email": "info@vtb.ru",
+                "contact:phone": "+7 800 2007799",
+                "contact:twitter": "https://twitter.com/vtb",
+                "contact:website": "https://www.vtb.ru",
+                "contact:youtube": "https://www.youtube.com/user/vtbgroup",
+                "contact:facebook": "https://www.facebook.com/vtbgroup",
+                "operator:wikidata": "Q1549389",
+                "operator:wikipedia": "ru:Банк ВТБ"
+            },
+            {
+                "name": "Сбербанк",
+                "amenity": "bank"
+            },
+            {
+                "atm": "yes",
+                "name": "Совкомбанк",
+                "amenity": "bank"
+            },
+            {
+                "name": "Сбербанк",
+                "amenity": "bank",
+                "building": "yes",
+                "operator": "Сбербанк",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "car": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Автозапчасти",
+                "shop": "car"
+            },
+            {
+                "name": "Макар",
+                "shop": "car"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Билайн",
+                "shop": "mobile_phone",
+                "opening_hours": "Mo-Su 10:00-21:00"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Квартирный ответ",
+                "shop": "hardware"
+            },
+            {
+                "name": "1000 мелочей",
+                "shop": "hardware"
+            },
+            {
+                "name": "Наш дом",
+                "shop": "hardware"
+            },
+            {
+                "name": "Замки",
+                "shop": "hardware"
+            },
+            {
+                "name": "Уровень",
+                "shop": "hardware",
+                "name:ru": "Уровень",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            }
+        ]
+    },
+    "fabric": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Лавка рукоделия",
+                "shop": "fabric"
+            },
+            {
+                "name": "Вяжем сами",
+                "shop": "fabric"
+            },
+            {
+                "name": "Ткани",
+                "shop": "fabric"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 9,
+        "detail": [
+            {
+                "name": "Наше молоко",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            },
+            {
+                "name": "Пятачок",
+                "shop": "convenience"
+            },
+            {
+                "name": "Амбарчик",
+                "shop": "convenience"
+            },
+            {
+                "name": "Во дворе",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            },
+            {
+                "name": "Наш район",
+                "shop": "convenience"
+            },
+            {
+                "name": "Магазин продукты",
+                "shop": "convenience",
+                "name:ru": "Магазин продукты"
+            },
+            {
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Семь гномов",
+                "shop": "clothes"
+            },
+            {
+                "name": "Дивный мир",
+                "shop": "clothes"
+            },
+            {
+                "name": "Одежда женская",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "stationery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "\"Pix\" канцтовары",
+                "shop": "stationery"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "\"Барыня\" хозтовары",
+                "shop": "chemist"
+            },
+            {
+                "name": "\"Фея\" бытова химия",
+                "shop": "chemist"
+            },
+            {
+                "name": "Бытова химия",
+                "shop": "chemist"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 4,
+        "detail": [
+            {
+                "shop": "kiosk"
+            },
+            {
+                "name": "Продукты",
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk",
+                "building": "yes",
+                "addr:city": "Комсомольск-на-Амуре",
+                "addr:street": "улица Орехова",
+                "addr:country": "RU",
+                "addr:housenumber": "45/6"
+            },
+            {
+                "shop": "kiosk",
+                "building": "yes"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "\"Древо\" мебельный",
+                "shop": "furniture"
+            },
+            {
+                "name": "\"Олимп\" мебельный",
+                "shop": "furniture"
+            },
+            {
+                "contact:phone": "+7 421 7242060;+7 909 8714898",
+                "contact:website": "https://lazurit.com/",
+                "name": "Lazurit",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "school": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "МОУ ДОД спец школа олимпийского резерва №1",
+                "amenity": "school"
+            },
+            {
+                "name": "Лицей №33",
+                "building": "school",
+                "addr:city": "Комсомольск-на-Амуре",
+                "addr:street": "Московский проспект",
+                "addr:country": "RU",
+                "addr:postcode": "681029",
+                "building:levels": "3",
+                "addr:housenumber": "28"
+            },
+            {
+                "addr:city": "Комсомольск-на-Амуре",
+                "addr:country": "RU",
+                "addr:housenumber": "63",
+                "addr:postcode": "681014",
+                "addr:street": "Ленинградская улица",
+                "building": "school",
+                "building:levels": "3",
+                "name": "Школа №8",
+                "phone": "+7 4217 228560;+7 4217 224498"
+            },
+            {
+                "building": "school",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "shoe_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "shoe_repair",
+                "description": "Ремонт обуви"
+            }
+        ]
+    },
+    "garden_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сад",
+                "shop": "garden_centre"
+            }
+        ]
+    },
+    "toys": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Акуна Мата",
+                "shop": "toys"
+            }
+        ]
+    },
+    "travel_agency": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пегас Туристик",
+                "shop": "travel_agency"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Союзпечать",
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Хлеб ХЗ №3",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Разливное пиво",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "department_store": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "1000 мелочей",
+                "shop": "department_store"
+            }
+        ]
+    },
+    "wine": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дилан",
+                "shop": "wine",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:facebook": "https://www.facebook.com/atb.su",
+                "contact:instagram": "https://www.instagram.com/atb.su/",
+                "contact:ok": "http://ok.ru/atb.su",
+                "contact:phone": "+7 800 7758888",
+                "contact:twitter": "https://twitter.com/atb_su",
+                "contact:vk": "http://vk.com/atb_su",
+                "contact:website": "https://www.atb.su/",
+                "contact:youtube": "https://www.youtube.com/user/atbbank1929",
+                "opening_hours": "Mo-Fr 09:00-19:00;Sa 10:00-17:00"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Комсомольск-на-Амуре",
+                "addr:country": "RU",
+                "addr:housenumber": "37",
+                "addr:postcode": "681007",
+                "addr:street": "улица Орехова",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "contact:phone": "+7 4217 220817",
+                "name": "Детский сад №132"
+            },
+            {
+                "addr:city": "Комсомольск-на-Амуре",
+                "addr:country": "RU",
+                "addr:housenumber": "20/6",
+                "addr:postcode": "681014",
+                "addr:street": "проспект Победы",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "contact:phone": "+7 4217 229298",
+                "name": "Детский сад № 53"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 3,
+        "detail": [
+            {
+                "building": "commercial"
+            },
+            {
+                "building": "commercial",
+                "building:levels": "1"
+            },
+            {
+                "building": "commercial",
+                "addr:street": "Московский проспект",
+                "building:levels": "1",
+                "addr:housenumber": "30А"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Комсомольск-на-Амуре",
+                "addr:housenumber": "47",
+                "addr:street": "Ленинградская улица",
+                "building": "yes",
+                "building:levels": "2",
+                "description": "Новый бассейн с современной системой очистки. Тренажерный зал",
+                "fee": "yes",
+                "leisure": "sports_centre",
+                "level": "1",
+                "name": "Амур",
+                "official_name": "Спортивно-плавательный комплекс \"Амур\"",
+                "sport": "swimming;fitness"
+            }
+        ]
+    }
+}

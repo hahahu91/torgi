@@ -1,0 +1,628 @@
+{
+    "residents": 5811,
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "ДК «Серп и молот»",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "ДК «Серп и молот»",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bench": "no",
+                "bus": "yes",
+                "covered": "no",
+                "highway": "bus_stop",
+                "public_transport": "platform",
+                "shelter": "no"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 8,
+        "detail": [
+            {
+                "name": "Белорусский фермер",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience",
+                "entrance": "yes"
+            },
+            {
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:website": "http://magnit-info.ru",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "opening_hours": "Mo-Fr 08:00-21:00, Sa,Su 09:00-21:00",
+                "operator": "АО \"Тандер\"",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "bar": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bar"
+            },
+            {
+                "name": "Кружка",
+                "amenity": "bar"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Погребок",
+                "amenity": "cafe",
+                "opening_hours": "Mo-Su 10:00-23:00"
+            },
+            {
+                "name": "Начни день",
+                "amenity": "cafe",
+                "opening_hours": "Mo-Fr 07:30-16:30"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "police"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Имидж",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 2,
+        "detail": [
+            {
+                "fee": "yes",
+                "amenity": "toilets"
+            },
+            {
+                "fee": "yes",
+                "amenity": "toilets"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "vending": "Горячие напитки"
+            },
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 495 5395454",
+                "contact:website": "http://parking.mos.ru/",
+                "opening_hours": "24/7",
+                "operator": "ГКУ «Администратор Московского парковочного пространства»",
+                "payment:cash": "no",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "ref": "2144",
+                "ref:mos_parking": "62920543",
+                "source": "dit.mos.ru",
+                "vending": "parking_tickets",
+                "zone:parking": "3017"
+            },
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 495 5395454",
+                "contact:website": "http://parking.mos.ru/",
+                "opening_hours": "24/7",
+                "operator": "ГКУ «Администратор Московского парковочного пространства»",
+                "payment:cash": "no",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "ref": "3219",
+                "ref:mos_parking": "5004999",
+                "source": "dit.mos.ru",
+                "vending": "parking_tickets",
+                "zone:parking": "3008"
+            },
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 495 5395454",
+                "contact:website": "http://parking.mos.ru/",
+                "opening_hours": "24/7",
+                "operator": "ГКУ «Администратор Московского парковочного пространства»",
+                "payment:cash": "no",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "ref": "2324",
+                "ref:mos_parking": "62920547",
+                "source": "dit.mos.ru",
+                "vending": "parking_tickets",
+                "zone:parking": "3017"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пресса",
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Донер Кебаб 24",
+                "amenity": "fast_food",
+                "cuisine": "kebab",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "fast_food",
+                "brand": "Теремок",
+                "brand:en": "Teremok",
+                "brand:ru": "Теремок",
+                "brand:wikidata": "Q4455593",
+                "brand:wikipedia": "ru:Теремок (сеть быстрого питания)",
+                "contact:facebook": "https://www.facebook.com/teremok",
+                "contact:phone": "+7 495 9562730",
+                "contact:website": "http://www.teremok.ru",
+                "cuisine": "crepe;russian",
+                "diet:vegetarian": "yes",
+                "name": "Теремок",
+                "name:en": "Teremok",
+                "name:ru": "Теремок",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "operator:wikidata": "Q4455593",
+                "operator:wikipedia": "ru:Теремок (сеть быстрого питания)",
+                "takeaway": "yes"
+            },
+            {
+                "amenity": "fast_food",
+                "cuisine": "kebab",
+                "name": "Донер-Кебаб",
+                "takeaway": "only"
+            },
+            {
+                "amenity": "fast_food",
+                "cuisine": "kebab",
+                "name": "Шаурма №1",
+                "takeaway": "only"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "1/9",
+                "addr:street": "Таможенный проезд",
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Витафарм",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "hospital",
+                "healthcare": "hospital",
+                "name": "Клинический госпиталь на Яузе"
+            }
+        ]
+    },
+    "florist": {
+        "count": 3,
+        "detail": [
+            {
+                "email": "zakaz@floramarkt.su",
+                "name": "ФлораМаркт",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "phone": "+7 495 9785454",
+                "shop": "florist",
+                "website": "http://www.floramarkt.ru"
+            },
+            {
+                "email": "info@moscvet.org",
+                "name": "Мосцветторг",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "phone": "+7 495 5062041",
+                "shop": "florist",
+                "website": "http://www.moscvettorg.ru"
+            },
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "place_of_worship",
+                "building": "chapel",
+                "religion": "christian",
+                "denomination": "russian_orthodox"
+            },
+            {
+                "name": "Часовня святого благоверного князя Димитрия Донского",
+                "amenity": "place_of_worship",
+                "building": "chapel",
+                "religion": "christian",
+                "denomination": "russian_orthodox"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Смешные цены",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "bakery"
+            },
+            {
+                "name": "Хлеба лавка Бородинского",
+                "shop": "bakery",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Мегафон",
+                "brand:en": "MegaFon",
+                "brand:wikidata": "Q1720713",
+                "brand:wikipedia": "en:MegaFon",
+                "contact:facebook": "https://www.facebook.com/MegaFon.ru",
+                "contact:habrahabr": "https://habrahabr.ru/company/megafon",
+                "contact:ok": "https://ok.ru/megafon",
+                "contact:phone": "+7 800 5500500",
+                "contact:twitter": "https://twitter.com/megafonru",
+                "contact:vk": "https://vk.com/megafon",
+                "contact:website": "https://megafon.ru",
+                "contact:youtube": "https://www.youtube.com/user/MegaFonTV",
+                "name": "МегаФон",
+                "name:en": "MegaFon",
+                "name:ru": "МегаФон",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "shop": "mobile_phone"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "money_lender": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Займ Экспресс",
+                "shop": "money_lender"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "newsagent",
+                "inscription": "Пресса"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Craftmann",
+                "name:en": "Craftmann",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "phone": "+7 495 7674582",
+                "shop": "electronics",
+                "website": "https://craftmann.ru/"
+            }
+        ]
+    },
+    "language_school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "5",
+                "addr:street": "Хлебников переулок",
+                "amenity": "language_school",
+                "education": "courses",
+                "education_form:parttime": "yes",
+                "education_profile:languages": "yes",
+                "email": "english@start2talk.ru",
+                "name": "Star Talk",
+                "office": "company",
+                "opening_hours": "Mo-Sa 10:30-19:30",
+                "phone": "+7 499 6860441",
+                "website": "https://www.start2talk.ru/"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling",
+                "recycling:glass": "yes",
+                "recycling:plastic": "yes",
+                "recycling_type": "container"
+            }
+        ]
+    },
+    "bookmaker": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Лига ставок",
+                "brand:en": "Liga Stavok",
+                "brand:ru": "Лига ставок",
+                "brand:wikidata": "Q6545804",
+                "brand:wikipedia": "ru:Лига Ставок",
+                "contact:email": "info@ligastavok.ru",
+                "contact:phone": "+7 800 5554455",
+                "contact:website": "https://www.ligastavok.ru/",
+                "name": "Лига ставок",
+                "name:en": "Liga Stavok",
+                "name:ru": "Лига ставок",
+                "opening_hours": "24/7",
+                "operator": "Первая международная букмекерская компания",
+                "shop": "bookmaker"
+            }
+        ]
+    },
+    "bicycle_rental": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_rental",
+                "contact:email": "info@velobike.ru",
+                "contact:phone": "+7 495 9664669",
+                "contact:website": "https://velobike.ru/",
+                "fee": "yes",
+                "network": "Велобайк",
+                "opening_hours": "24/7",
+                "operator": "АО «СитиБайк»",
+                "payment:cash": "no",
+                "payment:mastercard": "yes",
+                "payment:troika": "no",
+                "payment:visa": "yes",
+                "seasonal": "yes"
+            }
+        ]
+    },
+    "outpost": {
+        "count": 1,
+        "detail": [
+            {
+                "description": "Офис 11",
+                "name": "НОКС",
+                "shop": "outpost",
+                "website": "http://www.noksknives.ru/"
+            }
+        ]
+    },
+    "copyshop": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:door": "6",
+                "contact:phone": "+7 495 1252560",
+                "contact:website": "https://stamp-service.ru",
+                "name": "Штамп-сервис",
+                "opening_hours": "Mo-Th 10:00-19:00; Fr 10:00-18:30",
+                "shop": "copyshop"
+            }
+        ]
+    },
+    "hookah_lounge": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "hookah_lounge",
+                "name": "Tea&Smoke",
+                "opening_hours": "Mo-Th, Su 12:00-02:00; Fr-Sa 12:00-04:00",
+                "phone": "74994951462",
+                "website": "http://teaandsmoke.ru"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Школа №1229",
+                "amenity": "school",
+                "building": "school",
+                "addr:street": "Верхний Золоторожский переулок",
+                "building:levels": "3",
+                "addr:housenumber": "2"
+            },
+            {
+                "name": "Лицей №1303",
+                "source": "Адресный реестр Москвы, data.mos.ru",
+                "amenity": "school",
+                "building": "yes",
+                "addr:street": "Таможенный проезд",
+                "building:levels": "4",
+                "addr:housenumber": "4"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Юнит",
+                "shop": "car_repair",
+                "building": "yes",
+                "addr:street": "Волочаевская улица",
+                "contact:phone": "+7 495 7071777",
+                "building:levels": "2",
+                "contact:website": "http://www.unitauto.ru",
+                "addr:housenumber": "44"
+            }
+        ]
+    },
+    "fire_station": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "отряд Центроспас",
+                "source": "Адресный реестр Москвы, data.mos.ru",
+                "amenity": "fire_station",
+                "building": "yes",
+                "addr:street": "Золоторожская набережная",
+                "addr:housenumber": "1 с1"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "Волочаевская улица",
+                "addr:postcode": "111033",
+                "building:levels": "2",
+                "addr:housenumber": "21"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Торговый центр «Гранд-Сити»",
+                "shop": "mall",
+                "name:en": "Grand-City shopping center",
+                "building": "retail",
+                "addr:street": "улица Золоторожский Вал",
+                "building:levels": "2",
+                "addr:housenumber": "42"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ГСК \"Чкаловец\"",
+                "access": "private",
+                "amenity": "parking",
+                "parking": "multi-storey",
+                "building": "garages",
+                "addr:street": "Строгановский проезд",
+                "building:levels": "2",
+                "addr:housenumber": "1"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "6 с9",
+                "addr:postcode": "111033",
+                "addr:street": "Таможенный проезд",
+                "building": "commercial",
+                "building:levels": "3",
+                "name": "Офисный центр \"Золотой снег\"",
+                "phone": "+7 495 3628107",
+                "source": "http://www.spr.ru/lefortovo/zolotoy-sneg.html"
+            },
+            {
+                "name": "Бизнес-центр Au-room",
+                "source": "Адресный реестр Москвы, data.mos.ru",
+                "building": "commercial",
+                "addr:street": "улица Золоторожский Вал",
+                "building:levels": "2",
+                "addr:housenumber": "32 с6"
+            }
+        ]
+    }
+}

@@ -1,0 +1,420 @@
+{
+    "books": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Лас-Книгас",
+                "shop": "books"
+            }
+        ]
+    },
+    "residents": 6651,
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Универсам «Нижегородский»",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Высшая школа экономики",
+                "tram": "yes",
+                "bench": "no",
+                "highway": "bus_stop",
+                "railway": "tram_stop",
+                "shelter": "no",
+                "trolleybus": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Высшая школа экономики",
+                "tram": "yes",
+                "bench": "no",
+                "highway": "bus_stop",
+                "railway": "tram_stop",
+                "shelter": "no",
+                "trolleybus": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "улица Семашко",
+                "public_transport": "stop_position",
+                "tram": "yes",
+                "trolleybus": "yes"
+            },
+            {
+                "name": "Универсам «Нижегородский»",
+                "trolleybus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "name": "Универсам «Нижегородский»",
+                "public_transport": "stop_position",
+                "trolleybus": "yes"
+            }
+        ]
+    },
+    "parking_entrance": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "parking_entrance",
+                "barrier": "gate",
+                "entrance": "yes"
+            },
+            {
+                "amenity": "parking_entrance",
+                "entrance": "yes"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Гранитогрес",
+                "shop": "doityourself"
+            },
+            {
+                "name": "ЕвроКерамика",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "bank": {
+        "count": 9,
+        "detail": [
+            {
+                "name": "Гута-Банк",
+                "amenity": "bank"
+            },
+            {
+                "name": "Росбанк",
+                "amenity": "bank"
+            },
+            {
+                "name": "ТрансКредитБанк",
+                "amenity": "bank"
+            },
+            {
+                "atm": "yes",
+                "name": "Банк Россия",
+                "amenity": "bank"
+            },
+            {
+                "atm": "yes",
+                "name": "ВОК Банк",
+                "amenity": "bank"
+            },
+            {
+                "atm": "yes",
+                "name": "Авангард",
+                "amenity": "bank"
+            },
+            {
+                "atm": "yes",
+                "name": "Промсвязьбанк",
+                "amenity": "bank"
+            },
+            {
+                "amenity": "bank",
+                "contact:email": "info@tkbbank.ru",
+                "contact:facebook": "https://www.facebook.com/tkbbank",
+                "contact:instagram": "https://www.instagram.com/tkbbank/",
+                "contact:phone": "+7 800 1003200;+7 800 7009310",
+                "contact:website": "https://tkbbank.ru/",
+                "name": "Транскапиталбанк",
+                "opening_hours": "Fr 9:00-16:45;Mo-Th 09:00-18:00",
+                "operator": "\"ТРАНСКАПИТАЛБАНК\""
+            },
+            {
+                "addr:housenumber": "45",
+                "addr:street": "улица Пискунова",
+                "amenity": "bank",
+                "atm": "yes",
+                "brand:wikidata": "Q1377835",
+                "brand:wikipedia": "ru:Альфа-банк",
+                "building": "yes",
+                "building:architecture": "modern",
+                "building:colour": "lightyellow",
+                "building:levels": "2",
+                "contact:phone": "+7 495 7888878",
+                "contact:website": "https://alfabank.ru",
+                "description": "Отделение банка \"Альфа-Банк\"",
+                "name": "Альфа-Банк",
+                "name:en": "Alfa-Bank",
+                "name:ru": "Альфа-Банк",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-18:00; Su off",
+                "operator": "АО \"Альфа-Банк\"",
+                "ref": "0700"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Эстетик клуб",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "post_box"
+            },
+            {
+                "amenity": "post_box"
+            }
+        ]
+    },
+    "atm": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "Альфа-Банк",
+                "opening_hours": "08:00-22:00"
+            },
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "24/7",
+                "operator": "Промсвязьбанк"
+            },
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "Mo-Fr 10:00-19:00",
+                "operator": "Промсвязьбанк"
+            },
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "operator": "Промсвязьбанк"
+            },
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "operator": "Промсвязьбанк"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Spar",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 2,
+        "detail": [
+            {
+                "note": "velocity_parking",
+                "amenity": "bicycle_parking"
+            },
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "jewelry": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "jewelry"
+            }
+        ]
+    },
+    "fishing": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Рыбачьте с нами",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00",
+                "shop": "fishing"
+            }
+        ]
+    },
+    "medical_supply": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "info@ldc.ru",
+                "contact:phone": "+7 831 4322363",
+                "contact:website": "https://nn.ldc.ru/",
+                "name": "МИБС",
+                "opening_hours": "07:00-23:00",
+                "operator": "ЛДЦ МИБС-НН",
+                "shop": "medical_supply"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "38А",
+                "addr:street": "улица Пискунова",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "building:architecture": "eclectic",
+                "denomination": "orthodox",
+                "name": "Часовня в честь Владимирско-Оранской иконы Божией Матери",
+                "religion": "christian",
+                "tourism": "attraction"
+            }
+        ]
+    },
+    "public_building": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "5А",
+                "addr:street": "Большая Печёрская улица",
+                "amenity": "public_building",
+                "building": "yes",
+                "building:levels": "2",
+                "name": "Военкомат",
+                "roof:shape": "hipped"
+            },
+            {
+                "addr:housenumber": "32А",
+                "addr:street": "улица Ульянова",
+                "amenity": "public_building",
+                "building": "yes",
+                "name": "Социально-реабилитационный центр \"Ласточка\""
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "34А",
+                "addr:street": "улица Нестерова",
+                "amenity": "doctors",
+                "building": "yes",
+                "name": "Поликлиника №21"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "41",
+                "addr:street": "улица Пискунова",
+                "building": "yes",
+                "building:architecture": "modern",
+                "height": "9",
+                "name": "Универсам «Нижегородский»",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "service",
+                "building:architecture": "modern",
+                "building:levels": "1",
+                "frequency": "50",
+                "location": "indoor",
+                "official_short_type": "ТП",
+                "operator": "ООО «Волгоэлектросеть»",
+                "owner": "ООО «Специнвестпроект»",
+                "power": "substation",
+                "ref": "774",
+                "substation": "minor_distribution",
+                "voltage": "6000;400"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "fee": "yes",
+                "amenity": "parking",
+                "parking": "underground",
+                "building": "yes",
+                "building:architecture": "modern"
+            }
+        ]
+    },
+    "college": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "22",
+                "addr:street": "улица Семашко",
+                "amenity": "college",
+                "building": "yes",
+                "building:architecture": "art_nouveau",
+                "building:levels": "3",
+                "name": "Нижегородский медицинский базовый колледж",
+                "tourism": "attraction"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Центр по профилактике и борьбе со СПИД",
+                "amenity": "hospital",
+                "tourism": "attraction",
+                "building": "yes",
+                "addr:street": "улица Минина",
+                "addr:housenumber": "20Е",
+                "building:architecture": "eclectic"
+            }
+        ]
+    }
+}

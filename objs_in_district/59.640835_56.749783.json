@@ -1,0 +1,277 @@
+{
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "35-й магазин",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "35-й магазин",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "35-й магазин",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "35-й магазин",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ермак",
+                "shop": "supermarket",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "185"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ЦДТ \"Кристалл\"",
+                "amenity": "arts_centre",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "185"
+            }
+        ]
+    },
+    "hifi": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ТехноЛайн",
+                "shop": "hifi",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "180"
+            }
+        ]
+    },
+    "residents": 2925,
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "atm": "yes",
+                "ref": "6984/0617",
+                "name": "Сбербанк",
+                "branch": "Волго-Вятский банк",
+                "amenity": "bank",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "operator": "ПАО \"Сбербанк\"",
+                "wheelchair": "yes",
+                "contact:phone": "+7 495 5005550",
+                "opening_hours": "Mo-Fr 09:30-18:30",
+                "contact:website": "http://www.sberbank.ru",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "618542",
+                "name": "Соликамск 618542",
+                "amenity": "post_office",
+                "operator": "Почта России",
+                "addr:city": "Соликамск",
+                "contact:vk": "https://vk.com/russianpost",
+                "addr:street": "улица 20-летия Победы",
+                "addr:country": "RU",
+                "addr:postcode": "618542",
+                "contact:phone": "+7 34253 78077",
+                "opening_hours": "Tu-Fr 10:00-13:00,14:00-19:00; Sa 09:00-13:00,14:00-18:00",
+                "contact:website": "https://www.pochta.ru",
+                "addr:housenumber": "190",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Библиотека-филиал №3",
+                "amenity": "library",
+                "addr:city": "Соликамск",
+                "addr:region": "Пермский край",
+                "addr:street": "Привокзальная улица",
+                "addr:country": "RU",
+                "addr:housenumber": "4"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Стоматологическая поликлиника №1",
+                "amenity": "dentist",
+                "addr:city": "Соликамск",
+                "addr:street": "Привокзальная улица",
+                "addr:housenumber": "10"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Красное&Белое",
+                "shop": "alcohol",
+                "brand": "Красное&Белое",
+                "name:en": "Krasnoye&Beloye",
+                "name:ru": "Красное&Белое",
+                "addr:city": "Соликамск",
+                "addr:street": "Набережная улица",
+                "contact:phone": "+7 922 7033000",
+                "opening_hours": "Mo-Su 09:00-22:05",
+                "contact:website": "http://www.krasnoeibeloe.ru",
+                "addr:housenumber": "163",
+                "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+                "operator:wikidata": "Q24933790",
+                "operator:wikipedia": "ru:Красное & Белое"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пекарня Каравай",
+                "shop": "bakery",
+                "addr:city": "Соликамск",
+                "addr:street": "Привокзальная улица",
+                "addr:housenumber": "4"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Бар вредных привычек",
+                "amenity": "bar",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "186"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "ref": "20619624",
+                "name": "Магнит",
+                "shop": "convenience",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "operator": "АО Тандер",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "contact:phone": "+7 800 2009002",
+                "opening_hours": "09:00-21:30",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:website": "http://magnit-info.ru",
+                "addr:housenumber": "188"
+            },
+            {
+                "name": "Хлебная лавка",
+                "shop": "convenience",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "190"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Краса",
+                "shop": "beauty",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "194"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "car_parts",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "185"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Участковый опорный пункт",
+                "amenity": "police",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "190"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:country": "RU",
+                "building:levels": "2",
+                "addr:housenumber": "181А"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "building": "yes"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Авторобот",
+                "shop": "car_repair",
+                "building": "yes",
+                "addr:city": "Соликамск",
+                "addr:street": "Привокзальная улица",
+                "addr:housenumber": "1Б"
+            }
+        ]
+    }
+}

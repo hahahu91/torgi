@@ -1,0 +1,862 @@
+{
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Механический завод",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Механический завод",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Магазин \"Гранат\"",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Магазин \"Гранат\"",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "residents": 6456,
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "name": "EMS",
+                "operator": "Почта России",
+                "website": "https://russianpost.ru/"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket",
+                "opening_hours": "Mo-Su 08:00-22:00"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "yes",
+                "amenity": "parking",
+                "parking": "surface",
+                "park_ride": "no"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Робин Сдобин",
+                "amenity": "fast_food",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Русский аппетит",
+                "amenity": "fast_food",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "11 бургеров Оушена",
+                "amenity": "fast_food",
+                "cuisine": "burger"
+            },
+            {
+                "amenity": "fast_food",
+                "name": "Чайхона Алишер"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 5,
+        "detail": [
+            {
+                "ref": "305",
+                "amenity": "post_box",
+                "operator": "Почта России"
+            },
+            {
+                "ref": "306",
+                "amenity": "post_box",
+                "operator": "Почта России"
+            },
+            {
+                "ref": "210",
+                "fixme": "Проверить существование данного ящика",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "collection_times": "Mo-Fr 07:43,16:42; Sa 15:36; Su 15:11"
+            },
+            {
+                "ref": "210",
+                "fixme": "Уточнить номер и время выемки писем",
+                "source": "local_knowledge",
+                "amenity": "post_box",
+                "operator": "ФГУП \"Почта России\"",
+                "post_box:type": "wall",
+                "source:position": "bing",
+                "collection_times": "Mo-Fr 07:43,16:42; Sa 15:36; Su 15:11"
+            },
+            {
+                "amenity": "post_box"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "57",
+                "name": "Участковый пункт полиции №57",
+                "phone": "+7 473 2364334",
+                "amenity": "police",
+                "operator": "Отдел полиции №5 УМВД России по городу Воронежу"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "fax": "+7 473 2368000",
+                "name": "Воронежская городская клиническая больница №20",
+                "email": "gkb20@vmail.ru",
+                "phone": "+7 473 2368000",
+                "amenity": "hospital",
+                "opening_hours": "Mo-Fr 08:00-20:00;Sa-Su 09:00-15:00"
+            }
+        ]
+    },
+    "college": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Воронежский государственный колледж профессиональных технологий, экономики и сервиса",
+                "amenity": "college"
+            }
+        ]
+    },
+    "storage": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Камера хранения",
+                "shop": "storage",
+                "opening_hours": "Mo-Th 06:30-14:00, 14:48-19:00;Fr 06:30-14:00, 14:48-18:00"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Каспий",
+                "phone": "+7-473-2718156",
+                "amenity": "cafe",
+                "cuisine": "azerbaidjan;oriental;international",
+                "name:en": "Kaspiy",
+                "addr:street": "улица Ворошилова",
+                "opening_hours": "Mo-Su 12:00-02:00"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Панорама",
+                "name:en": "Panorama",
+                "opening_hours": "Mo-Sa 06:00-20:00; Su 08:00-22:00",
+                "shop": "convenience"
+            },
+            {
+                "name": "Магнит",
+                "shop": "convenience",
+                "opening_hours": "Mo-Su 08:00-22:00"
+            },
+            {
+                "name": "Центрторг",
+                "shop": "convenience",
+                "name:en": "Centrtorg",
+                "opening_hours": "Mo-Su 08:00-23:00"
+            },
+            {
+                "name": "Радуга",
+                "shop": "convenience",
+                "opening_hours": "Mo-Su,PH 07:00-19:00"
+            },
+            {
+                "name": "Кофе, чай, табак",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "atm": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "Сбербанк России"
+            },
+            {
+                "amenity": "atm",
+                "operator": "Банк \"Авангард\"",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "atm",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "operator": "ВТБ24"
+            }
+        ]
+    },
+    "farm": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Гранат",
+                "opening_hours": "Mo-Su 08:00-21:00",
+                "phone": "+7 473 229-56-52",
+                "shop": "farm",
+                "website": "https://www.granat36.ru/"
+            }
+        ]
+    },
+    "bench": {
+        "count": 15,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "no",
+                "material": "wood",
+                "seats": "4"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "no",
+                "material": "wood",
+                "seats": "4"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "no",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "no",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "no",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "no",
+                "material": "wood"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Пятисотка",
+                "name:en": "Pyatisotka",
+                "opening_hours": "closed",
+                "shop": "clothes"
+            },
+            {
+                "name": "Детский салон",
+                "name:en": "Kids salon",
+                "opening_hours": "Mo-Sa 10:00-19:00; Su 10:00-18:00",
+                "phone": "2596406",
+                "shop": "clothes"
+            },
+            {
+                "name": "Планета Секонд-Хенд",
+                "second_hand": "only",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "shoe_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "shoe_repair",
+                "name:en": "Shoe repair",
+                "description": "Ремонт обуви",
+                "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:30-12:00"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пекарня №1",
+                "shop": "bakery",
+                "name:en": "Bakery №1",
+                "inscription": "Горячий лаваш из тандыра",
+                "opening_hours": "Mo-Su 08:00-20:00"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "КГБ",
+                "phone": "2369968",
+                "amenity": "dentist",
+                "name:en": "KGB",
+                "website": "http://kgb-stomat.ru/",
+                "official_name": "Качество Гарантия Безопасность",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            },
+            {
+                "name": "Умная стоматология",
+                "amenity": "dentist",
+                "opening_hours": "Mo-Fr 09:00-18:00"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Kapika",
+                "shop": "shoes",
+                "description": "Магазин детской обуви",
+                "opening_hours": "Mo-Sa 10:00-19:00; Su 10:00-18:00"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дело житейское",
+                "shop": "hardware",
+                "name:en": "Delo zhiteiskoe",
+                "opening_hours": "Mo-Su 09:00-19:00"
+            }
+        ]
+    },
+    "beverages": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "BEER LIN",
+                "shop": "beverages",
+                "drink": "beer",
+                "name:en": "BEER LIN",
+                "opening_hours": "Mo-Su 11:00-23:00"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Эртан",
+                "shop": "hairdresser",
+                "name:en": "Ertan",
+                "opening_hours": "Mo-Su 09:00-20:00"
+            },
+            {
+                "name": "Цирюльник",
+                "shop": "hairdresser",
+                "opening_hours": "Mo-Su 09:00-20:00"
+            },
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Арт-квартал",
+                "phone": "+79507675784",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Эвалар",
+                "amenity": "pharmacy",
+                "name:en": "Evalar",
+                "opening_hours": "Mo-Su 08:00-20:00"
+            },
+            {
+                "name": "Забота",
+                "email": "info@apteka-zabota.com",
+                "phone": "+74732764066",
+                "amenity": "pharmacy",
+                "website": "http://apteka-zabota.com",
+                "operator": "ООО \"Забота\"",
+                "addr:postcode": "394055",
+                "opening_hours": "Mo-Su 08:00-20:00"
+            },
+            {
+                "name": "Максавит",
+                "amenity": "pharmacy",
+                "opening_hours": "Mo-Fr 08:00-21:00; Sa-Su 08:00-20:00"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Сана",
+                "opening_hours": "Mo-Fr 08:00-21:00; Sa,Su 08:00-20:00; PH 08:00-20:00"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Медицинский кабинет на Депутатской, 12",
+                "amenity": "doctors"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Крона",
+                "shop": "pet",
+                "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-17:00"
+            }
+        ]
+    },
+    "photo": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Konica",
+                "shop": "photo"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дубки",
+                "shop": "butcher",
+                "description": "колбасы",
+                "opening_hours": "Mo-Sa 07:00 - 19:00; Su 07:00 - 18:00"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Beauty'Ю",
+                "shop": "beauty",
+                "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-19:00"
+            },
+            {
+                "addr:housenumber": "82",
+                "addr:street": "улица Моисеева",
+                "internet_access": "wlan",
+                "name": "Кудри",
+                "name:en": "Kudri",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "phone": "+74732596373",
+                "shop": "beauty",
+                "website": "http://kudri_vrn.ru"
+            }
+        ]
+    },
+    "confectionery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Воронежские конфеты",
+                "shop": "confectionery",
+                "opening_hours": "Mo-Su 09:00-20:00"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Электро-, радиотовары",
+                "shop": "electronics",
+                "wheelchair": "no",
+                "opening_hours": "Mo-Su,PH 09:00-18:00"
+            }
+        ]
+    },
+    "water_point": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Чистая вода",
+                "amenity": "water_point"
+            }
+        ]
+    },
+    "ice_cream": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "ice_cream",
+                "inscription": "Мороженое, табак"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магнит косметик",
+                "shop": "cosmetics",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            }
+        ]
+    },
+    "bookmaker": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Фонбет",
+                "opening_hours": "24/7",
+                "shop": "bookmaker"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 16,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "capacity": "7"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "capacity": "5"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "wall_loops",
+                "capacity": "10",
+                "covered": "no"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "capacity": "20",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "payment_terminal": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "payment_terminal",
+                "cash_in": "yes",
+                "drive_through": "no",
+                "opening_hours": "Mo-Sa 06:00-20:00; Su 08:00-22:00",
+                "operator": "qiwi"
+            },
+            {
+                "amenity": "payment_terminal",
+                "operator": "Qiwi"
+            },
+            {
+                "amenity": "payment_terminal",
+                "brand": "QIWI",
+                "cash_in": "yes",
+                "drive_through": "no",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "operator": "qiwi"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Грядка",
+                "shop": "greengrocer"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Роспечать",
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "bar": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bar",
+                "name": "Пробка",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "bar",
+                "name": "Берёзка алко",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "books": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "books"
+            }
+        ]
+    },
+    "toys": {
+        "count": 1,
+        "detail": [
+            {
+                "opening_hours": "Mo-Sa 11:00-20:00; Su 11:00-19:00",
+                "shop": "toys"
+            }
+        ]
+    },
+    "stationery": {
+        "count": 1,
+        "detail": [
+            {
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-19:00",
+                "shop": "stationery"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "operator": "ozon",
+                "vending": "parcel_pickup"
+            }
+        ]
+    },
+    "amusement_arcade": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "amusement_arcade"
+            }
+        ]
+    },
+    "funeral_directors": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Памятники",
+                "phone": "2225657",
+                "shop": "funeral_directors"
+            },
+            {
+                "name": "Акрополь",
+                "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-14:00",
+                "shop": "funeral_directors"
+            }
+        ]
+    },
+    "service": {
+        "count": 7,
+        "detail": [
+            {
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "ref": "903",
+                "power": "substation",
+                "building": "service",
+                "location": "indoor",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "building:levels": "1",
+                "official_short_type": "ТП"
+            },
+            {
+                "ref": "51",
+                "power": "substation",
+                "building": "service",
+                "location": "indoor",
+                "frequency": "50",
+                "substation": "distribution",
+                "building:levels": "1",
+                "building:material": "brick",
+                "official_short_type": "РП"
+            },
+            {
+                "ref": "1367",
+                "power": "substation",
+                "building": "service",
+                "location": "indoor",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "building:levels": "1",
+                "building:material": "brick",
+                "official_short_type": "ТП"
+            },
+            {
+                "ref": "901",
+                "fixme": "Уточнить местоположение",
+                "power": "substation",
+                "building": "service",
+                "location": "indoor",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "building:levels": "1",
+                "building:material": "brick",
+                "official_short_type": "ТП"
+            },
+            {
+                "ref": "13",
+                "building": "service",
+                "pipeline": "substation",
+                "substance": "gas",
+                "description": "ГРП"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "description": "ШРП",
+                "landuse": "industrial",
+                "pipeline": "substation",
+                "substance": "gas",
+                "substation": "distribution"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:city": "Воронеж",
+                "addr:street": "улица Моисеева",
+                "addr:housenumber": "65Г"
+            }
+        ]
+    }
+}

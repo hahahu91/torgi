@@ -1,0 +1,227 @@
+{
+    "residents": 4201,
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Школа №25",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Школа №25",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "share_taxi": "yes",
+                "trolleybus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "share_taxi": "yes",
+                "trolleybus": "yes",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:phone": "+7 800 5555505",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "08:00-23:00",
+                "operator": "X5 Retail Group",
+                "ref": "12533",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Праздничный",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Майский",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience",
+                "building": "yes",
+                "addr:street": "переулок Малинники",
+                "building:levels": "1",
+                "addr:housenumber": "7/2"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Аптекарь",
+                "amenity": "pharmacy",
+                "dispensing": "no"
+            },
+            {
+                "name": "Аптека",
+                "amenity": "pharmacy",
+                "name:en": "Drugstore",
+                "name:ru": "Аптека"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "8",
+                "amenity": "post_box",
+                "operator": "Почта России"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "library",
+                "contact:phone": "+7 4842 515395;+7 4842 515334",
+                "contact:website": "http://cbs-kaluga.ru/",
+                "name": "Городская библиотека имени С. А. Есенина",
+                "opening_hours": "Mo-Tu 11:00-19:00; Th-Su 11:00-19:00",
+                "ref": "8",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "СДЮШОР «Торпедо»",
+                "sport": "soccer",
+                "leisure": "sports_centre"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "brand:wikidata": "Q24933790",
+                "brand:wikipedia": "en:Krasnoe & Beloe",
+                "contact:website": "https://krasnoeibeloe.ru",
+                "name": "Красное & Белое",
+                "name:en": "Red&White",
+                "name:ru": "Красное & Белое",
+                "opening_hours": "09:00-22:05",
+                "phone": "+7 800 1000804",
+                "ref": "3729",
+                "shop": "alcohol",
+                "website": "https://krasnoeibeloe.ru/"
+            }
+        ]
+    },
+    "training": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская школа искусств №5",
+                "amenity": "training",
+                "building": "yes",
+                "training": "art",
+                "addr:street": "переулок Малинники",
+                "source:addr": "survey",
+                "building:levels": "2",
+                "addr:housenumber": "8А"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hardware",
+                "building": "yes",
+                "building:levels": "2"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Шиномонтаж",
+                "shop": "car_repair",
+                "building": "yes",
+                "addr:street": "Тарутинская улица",
+                "source:addr": "survey",
+                "building:levels": "1",
+                "addr:housenumber": "62"
+            }
+        ]
+    },
+    "pub": {
+        "count": 2,
+        "detail": [
+            {
+                "note": "летнее кафе",
+                "amenity": "pub",
+                "building": "roof"
+            },
+            {
+                "note": "летнее кафе",
+                "amenity": "pub",
+                "building": "yes",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "kiosk",
+                "building": "yes"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "ТП-364",
+                "power": "substation",
+                "building": "service",
+                "operator": "Калугаэнерго",
+                "building:levels": "1"
+            }
+        ]
+    }
+}

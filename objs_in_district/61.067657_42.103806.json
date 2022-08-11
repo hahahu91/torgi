@@ -1,0 +1,596 @@
+{
+    "residents": 2732,
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Аюта"
+            },
+            {
+                "amenity": "cafe",
+                "name": "Суши Рай"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Аптека",
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Аптека низких цен"
+            },
+            {
+                "name": "Аптека низких цен",
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy"
+            }
+        ]
+    },
+    "bank": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "branch": "Северо-Западный банк",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "en:Sberbank of Russia",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://instagram.com/sberbank",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru/",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 09:00-17:15",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "phone": "+7 81836 61407",
+                "ref": "8637/0202",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "bank",
+                "branch": "Операционный офис \"Отделение в г. Вельск\"",
+                "contact:phone": "+7 81836 60957;+7 81836 62303;+7 800 1007474",
+                "contact:website": "https://minbank.ru/",
+                "name": "Московский индустриальный банк",
+                "opening_hours": "Mo-Th 09:00-19:00; Fr 09:00-18:00; Sa 10:00-16:00",
+                "operator": "ПАО \"МИнБанк\""
+            },
+            {
+                "amenity": "bank",
+                "branch": "Северо-Западный банк",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "en:Sberbank of Russia",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://instagram.com/sberbank",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555777",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru/",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 09:00-17:00",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "8637/21599",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "phone": "+7 800 5555505",
+                "shop": "supermarket",
+                "website": "https://5ka.ru/"
+            },
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "opening_hours": "Mo-Su 09:30-21:30",
+                "operator": "АО \"Тандер\"",
+                "phone": "+7 800 2009002",
+                "shop": "supermarket",
+                "website": "http://magnit-info.ru/"
+            },
+            {
+                "brand": "Дикси",
+                "brand:en": "Dixy",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "name": "Дикси",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "butcher"
+            },
+            {
+                "name": "Мясо",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "sports": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Кросс",
+                "shop": "sports"
+            },
+            {
+                "name": "Спорт Охота Рыбалка",
+                "shop": "sports"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Лес и дом",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "hifi": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hifi"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Бристоль",
+                "brand:wikidata": "Q59155583",
+                "brand:wikipedia": "ru:Бристоль (сеть магазинов)",
+                "name": "Бристоль",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Лада",
+                "shop": "convenience",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Алиса",
+                "shop": "convenience"
+            },
+            {
+                "name": "Хлеб",
+                "shop": "convenience"
+            },
+            {
+                "name": "Чудославский",
+                "shop": "convenience",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa-Su 10:00-16:00"
+            },
+            {
+                "name": "Магазин \"Хлеб\"",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пекарня Любимая",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "books": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Книжный дворик",
+                "shop": "books"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Фруктовая лавка",
+                "shop": "greengrocer"
+            }
+        ]
+    },
+    "outdoor": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Перекат",
+                "shop": "outdoor"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Ассорти",
+                "shop": "clothes"
+            },
+            {
+                "name": "Оксана",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Десяточка",
+                "shop": "chemist"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Жемчужина Севера",
+                "amenity": "restaurant",
+                "addr:street": "улица Дзержинского",
+                "addr:housenumber": "92"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Вельск",
+                "addr:housenumber": "99",
+                "addr:street": "улица Дзержинского",
+                "alt_name": "ДНС",
+                "brand": "DNS",
+                "brand:en": "DNS",
+                "brand:ru": "ДНС",
+                "brand:wikidata": "Q4036922",
+                "brand:wikipedia": "ru:DNS (компания)",
+                "contact:facebook": "https://www.facebook.com/dnsshop",
+                "contact:phone": "+7 800 7707999",
+                "contact:twitter": "https://twitter.com/dnsshop",
+                "contact:vk": "https://vk.com/dnsstore",
+                "contact:website": "http://dns-shop.ru/",
+                "contact:youtube": "https://www.youtube.com/c/DNSSHOPvideo",
+                "craft": "electronics_repair",
+                "name": "DNS",
+                "name:en": "DNS",
+                "name:ru": "ДНС",
+                "opening_hours": "Mo-Sa 09:00-20:00;Su 09:00-19:00",
+                "operator": "ДНС Ритейл",
+                "shop": "computer"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "brand": "Додо Пицца",
+                "brand:en": "Dodo Pizza",
+                "brand:ru": "Додо Пицца",
+                "brand:wikidata": "Q61949318",
+                "brand:wikipedia": "ru:Додо Пицца",
+                "cuisine": "pizza",
+                "delivery": "yes",
+                "name": "Додо Пицца",
+                "name:en": "Dodo Pizza",
+                "name:ru": "Додо Пицца",
+                "opening_hours": "10:00-22:00",
+                "takeaway": "yes"
+            }
+        ]
+    },
+    "deli": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мясные традиции",
+                "shop": "deli"
+            }
+        ]
+    },
+    "stationery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Канцинвест",
+                "shop": "stationery"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Гран При",
+                "shop": "florist"
+            }
+        ]
+    },
+    "atm": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Сбербанк",
+                "amenity": "atm",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "operator": "ПАО Сбербанк",
+                "currency:RUB": "yes",
+                "contact:website": "https://www.sberbank.ru/",
+                "currency:others": "no"
+            },
+            {
+                "amenity": "atm",
+                "contact:phone": "+7 800 1007474",
+                "contact:website": "https://minbank.ru/",
+                "name": "Московский индустриальный банк",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-15:00",
+                "operator": "ПАО \"МИнБанк\"",
+                "ref": "A0260039"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "outpost": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пункт выдачи \"Wildberries\"",
+                "shop": "outpost",
+                "website": "https://www.wildberries.ru/",
+                "addr:city": "Вельск",
+                "addr:street": "улица Ломоносова",
+                "opening_hours": "Mo-Su 10:00-20:00"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "car_parts"
+            },
+            {
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "payment_terminal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "payment_terminal",
+                "contact:phone": "+7 800 1007474",
+                "contact:website": "https://minbank.ru/",
+                "name": "Московский индустриальный банк",
+                "opening_hours": "Mo-Th 09:00-19:00; Fr 09:00-18:00; Sa 10:00-16:00",
+                "operator": "ПАО \"МИнБанк\"",
+                "ref": "K0260003"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 800 7753553",
+                "contact:website": "http://omnicdek.com/",
+                "name": "ОмниСДЭК",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "ref": "6293",
+                "vending": "parcel_pickup"
+            }
+        ]
+    },
+    "mall": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "94",
+                "addr:street": "улица Дзержинского",
+                "building": "yes",
+                "building:levels": "2",
+                "name": "Торговый центр \"Аюта\"",
+                "shop": "mall"
+            },
+            {
+                "addr:city": "Вельск",
+                "addr:housenumber": "99",
+                "addr:street": "улица Дзержинского",
+                "building": "yes",
+                "name": "Славянка",
+                "shop": "mall"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "20",
+                "addr:street": "улица Ломоносова",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Русская тройка",
+                "roof:shape": "gabled",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "service": {
+        "count": 7,
+        "detail": [
+            {
+                "building": "service"
+            },
+            {
+                "building": "service",
+                "power": "substation"
+            },
+            {
+                "power": "substation",
+                "building": "service"
+            },
+            {
+                "addr:city": "Вельск",
+                "addr:housenumber": "40А",
+                "addr:street": "улица Гагарина",
+                "building": "service",
+                "gas": "sub_station",
+                "source": "rosreestr"
+            },
+            {
+                "gas": "sub_station",
+                "source": "rosreestr",
+                "building": "service",
+                "addr:street": "улица Гагарина",
+                "addr:housenumber": "40Б"
+            },
+            {
+                "addr:city": "Вельск",
+                "addr:housenumber": "98Б",
+                "addr:street": "Октябрьская улица",
+                "building": "service",
+                "gas": "sub_station"
+            },
+            {
+                "source": "rosreestr",
+                "building": "service",
+                "addr:street": "улица Гагарина"
+            }
+        ]
+    },
+    "yes": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "yes",
+                "building": "yes",
+                "roof:shape": "gabled",
+                "building:levels": "1"
+            }
+        ]
+    }
+}

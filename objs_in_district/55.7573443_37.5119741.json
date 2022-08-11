@@ -1,0 +1,177 @@
+{
+    "atv": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "8 с3",
+                "addr:street": "Причальный проезд",
+                "contact:email": "info@grizzly.ru",
+                "contact:phone": "+7 495 6625684",
+                "contact:website": "http://www.grizzly.ru/",
+                "name": "Мотоцентр Grizzly",
+                "opening_hours": "Mo-Fr 09:00-21:00; Sa 10:00-19:00; Su off",
+                "shop": "atv"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "Романовская школа",
+                "public_transport": "platform",
+                "route_ref": "155;?",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            },
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "Романовская школа",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            },
+            {
+                "bus": "yes",
+                "name": "Романовская школа",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Романовская школа",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "residents": 3003,
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "cuisine": "georgian",
+                "email": "eli-sacebeli@mail.ru",
+                "internet_access": "wlan",
+                "name": "Ели Сацебели",
+                "opening_hours": "Mo-Su 11:00-23:00",
+                "phone": "+7 495 7955805"
+            },
+            {
+                "amenity": "cafe",
+                "contact:facebook": "https://facebook.com/CoffeeCrosby",
+                "contact:instagram": "https://instagram.com/crosbycoffee_moscow",
+                "contact:phone": "+7 965 1839958",
+                "contact:website": "https://crosbycoffee.ru/",
+                "name": "Crosby Coffee Company",
+                "opening_hours": "Mo-Fr 08:00-20:00;Sa-Su 09:00-20:00",
+                "operator": "Crosby Coffee Company"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "5А",
+                "addr:postcode": "121087",
+                "addr:street": "Береговой проезд",
+                "email": "pr@rgryozy.ru",
+                "level": "-1",
+                "name": "Розовые грезы",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "phone": "+7 499 6788113",
+                "shop": "florist",
+                "website": "rgryozy.ru"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "5А к7",
+                "addr:street": "Береговой проезд",
+                "contact:phone": "+7 965 3383016",
+                "contact:website": "https://samizoo.ru",
+                "level": "-1",
+                "name": "Сами с Усами",
+                "name:ru": "Сами с Усами",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "ООО \"АС-Капитал\"",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "shop": "pet"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "check_date:opening_hours": "2020-12-10",
+                "dispensing": "yes",
+                "healthcare": "pharmacy",
+                "name": "Фил Фарм",
+                "opening_hours": "Mo-Sa 09:00-22:00; Su 09:00-21:00"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "alt_name": "Перекрёсток",
+                "brand": "Перекресток",
+                "brand:wikidata": "Q1684639",
+                "brand:wikipedia": "ru:Перекрёсток (сеть магазинов)",
+                "contact:facebook": "https://www.facebook.com/perekrestok",
+                "contact:instagram": "https://www.instagram.com/perekrestok",
+                "contact:ok": "https://ok.ru/perekrestok.shop",
+                "contact:twitter": "https://twitter.com/perekrestok",
+                "contact:vk": "https://vk.com/perekrestok_shop",
+                "contact:website": "https://www.perekrestok.ru",
+                "contact:youtube": "https://www.youtube.com/channel/UCY9Nwfy_8drHqif0iryQ7Vw",
+                "name": "Перекресток",
+                "name:ru": "Перекресток",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "4",
+                "addr:street": "Заречная улица",
+                "building": "service"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:street": "Заречная улица",
+                "building:levels": "4",
+                "addr:housenumber": "4 с1"
+            }
+        ]
+    }
+}

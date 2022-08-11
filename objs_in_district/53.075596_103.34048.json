@@ -1,0 +1,46 @@
+{
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm"
+            }
+        ]
+    },
+    "residents": 2466,
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Свирск",
+                "addr:housenumber": "4",
+                "addr:street": "улица Дзержинского",
+                "building": "school",
+                "name": "Школа №1"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Свирск",
+                "addr:housenumber": "9",
+                "addr:street": "улица Маяковского",
+                "building": "kindergarten"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Свирск",
+                "addr:housenumber": "1",
+                "addr:street": "улица Хасановских боёв",
+                "amenity": "arts_centre",
+                "building": "yes"
+            }
+        ]
+    }
+}

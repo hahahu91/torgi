@@ -1,0 +1,183 @@
+{
+    "residents": 5877,
+    "restaurant": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Ем Сам",
+                "amenity": "restaurant",
+                "cuisine": "japanese",
+                "website": "http://www.em-sam.com/"
+            },
+            {
+                "name": "Столовая Халяль",
+                "amenity": "restaurant"
+            }
+        ]
+    },
+    "stripclub": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Салон \"Тай\"",
+                "note": "Массаж, SPA-салон, Стриптиз",
+                "amenity": "stripclub"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Карандаш",
+                "shop": "convenience",
+                "website": "www.karnt.ru",
+                "int_name": "Karandah",
+                "addr:street": "Газетная улица",
+                "addr:postcode": "622001",
+                "addr:housenumber": "28"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Горсовет",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "улица Островского",
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дуэт",
+                "fixme": "уточнить месторасположение",
+                "amenity": "cafe",
+                "operator": "СетиТагила",
+                "internet_access": "wlan"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Гора",
+                "amenity": "bar",
+                "name:ru": "Гора"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Живика",
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Чебаркульская птица",
+                "shop": "butcher"
+            },
+            {
+                "name": "Дом мяса",
+                "shop": "butcher"
+            },
+            {
+                "name": "Мясной",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Солнышко",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Верный",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Тагилхлеб",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "FixPrice",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "toys": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский мир",
+                "shop": "toys"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "УБРиР"
+            }
+        ]
+    },
+    "college": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "college",
+                "building": "yes",
+                "addr:street": "проспект Ленина",
+                "building:levels": "4",
+                "addr:housenumber": "2А"
+            },
+            {
+                "amenity": "college",
+                "building": "yes",
+                "addr:street": "улица Карла Маркса",
+                "building:levels": "4",
+                "addr:housenumber": "2"
+            }
+        ]
+    }
+}

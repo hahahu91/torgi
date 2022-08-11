@@ -1,0 +1,416 @@
+{
+    "residents": 5283,
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Горьковское шоссе",
+                "operator": "ГУП \"Мосгортранс\"",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Библиотека",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Малый Купавенский проезд",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "63Б",
+                "addr:street": "шоссе Энтузиастов",
+                "contact:email": "shop77230@koleso.ru",
+                "contact:facebook": "http://www.facebook.com/kolesoru",
+                "contact:instagram": "https://www.instagram.com/koleso.ru",
+                "contact:phone": "+7 495 5440202;+7 499 3085993;+7 800 1006878",
+                "contact:vk": "https://vk.com/kolesoru",
+                "contact:website": "https://koleso.ru/",
+                "name": "Колесо",
+                "opening_hours": "Mo-Fr 09:00-20:00;Sa-Su 09:00-19:00",
+                "operator": "САМ-МБ",
+                "shop": "car_parts",
+                "was:shop": "car_parts"
+            },
+            {
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "compressed_air": {
+        "count": 1,
+        "detail": [
+            {
+                "fee": "no",
+                "amenity": "compressed_air"
+            }
+        ]
+    },
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fuel",
+                "brand": "Лукойл",
+                "car_wash": "yes",
+                "contact:website": "http://www.lukoil.ru",
+                "fuel:diesel": "yes",
+                "fuel:lpg": "no",
+                "fuel:octane_92": "yes",
+                "fuel:octane_95": "yes",
+                "fuel:octane_98": "no",
+                "name": "Лукойл",
+                "opening_hours": "24/7",
+                "operator": "ООО \"ЛУКОЙЛ-Центрнефтепродукт\"",
+                "payment:cards": "yes",
+                "ref": "566"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "parking": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Библиотека №117 им. В.М. Загорского",
+                "amenity": "library"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ludovic",
+                "amenity": "bar"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "language_school": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "language_school",
+                "education": "courses",
+                "education_form:parttime": "yes",
+                "education_profile:languages": "yes",
+                "education_programme:EN": "yes",
+                "email": "mail@englishgood.ru",
+                "name": "EnglishGood",
+                "phone": "+7 495 5175564",
+                "website": "https://englishgood.ru/"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Хозтовары",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "bench": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "shelter": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "shelter"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Красное&Белое",
+                "brand:wikidata": "Q24933790",
+                "brand:wikipedia": "ru:Красное & Белое",
+                "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+                "contact:instagram": "https://www.instagram.com/krasnoebeloe",
+                "contact:ok": "https://ok.ru/krasnoebeloe",
+                "contact:telegram": "+7 922 7033000",
+                "contact:viber": "+7 922 7033000",
+                "contact:vk": "https://vk.com/krasnoebeloe",
+                "contact:website": "https://krasnoeibeloe.ru",
+                "contact:whatsapp": "+7 922 7033000",
+                "name": "Красное&Белое",
+                "name:ru": "Красное&Белое",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "outpost": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Wildberries",
+                "brand:wikidata": "Q24933714",
+                "brand:wikipedia": "ru:Wildberries",
+                "contact:email": "sales@wildberries.ru",
+                "contact:facebook": "https://www.facebook.com/wbbot",
+                "contact:instagram": "https://www.instagram.com/wildberriesru",
+                "contact:ok": "https://ok.ru/wildberries",
+                "contact:skype": "Wildberries_ru",
+                "contact:telegram": "wbshop_bot",
+                "contact:twitter": "https://twitter.com/wildberries_ru",
+                "contact:viber": "wildberries",
+                "contact:vk": "https://vk.com/wbbot",
+                "contact:website": "https://www.wildberries.ru",
+                "contact:whatsapp": "+7 926 5373137",
+                "contact:youtube": "https://www.youtube.com/user/Wildberriesshop",
+                "name": "Wildberries",
+                "name:en": "Wildberries",
+                "shop": "outpost"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Pirelli",
+                "service": "tyres",
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "63 с1",
+                "addr:street": "шоссе Энтузиастов",
+                "amenity": "fast_food",
+                "brand": "Макдоналдс",
+                "brand:en": "McDonald's",
+                "brand:ru": "Макдоналдс",
+                "brand:wikidata": "Q38076",
+                "brand:wikipedia": "en:McDonald’s",
+                "building": "yes",
+                "building:levels": "1",
+                "contact:email": "info@ru.mcd.com",
+                "contact:facebook": "https://www.facebook.com/mcdonaldsrussia",
+                "contact:instagram": "https://www.instagram.com/mcdonalds_rus/",
+                "contact:phone": "+7 499 3088593",
+                "contact:vk": "https://vk.com/mcdonaldsrussia",
+                "contact:website": "https://mcdonalds.ru",
+                "contact:youtube": "https://www.youtube.com/user/McDonaldsRussia",
+                "cuisine": "burger",
+                "diet:vegetarian": "no",
+                "int_name": "McDonald's",
+                "internet_access": "wlan",
+                "name": "Макдоналдс",
+                "name:de": "McDonald's",
+                "name:en": "McDonald's",
+                "name:ru": "Макдоналдс",
+                "opening_hours": "Mo-Su 05:00-04:00",
+                "operator": "Макдоналдс",
+                "operator:en": "McDonald's",
+                "operator:ru": "Макдоналдс",
+                "smoking": "no",
+                "takeaway": "yes"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 3,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "улица Чечулина",
+                "building:levels": "2",
+                "addr:housenumber": "24"
+            },
+            {
+                "building": "kindergarten",
+                "addr:street": "Челябинская улица",
+                "building:levels": "2",
+                "addr:housenumber": "26А"
+            },
+            {
+                "building": "kindergarten",
+                "addr:street": "Челябинская улица",
+                "building:levels": "2",
+                "addr:housenumber": "26"
+            }
+        ]
+    },
+    "service": {
+        "count": 5,
+        "detail": [
+            {
+                "addr:housenumber": "27 с2",
+                "addr:street": "Магнитогорская улица",
+                "building": "service",
+                "building:levels": "1",
+                "location": "indoor",
+                "man_made": "heat_exchange_station",
+                "pipeline": "substation",
+                "substance": "heat",
+                "substation": "distribution"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:street": "Челябинская улица",
+                "building:levels": "1",
+                "addr:housenumber": "29 с2"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:street": "Малый Купавенский проезд",
+                "building:levels": "1",
+                "addr:housenumber": "3 с2"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:street": "Магнитогорская улица",
+                "building:levels": "1",
+                "addr:housenumber": "25 с2"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:street": "Магнитогорская улица",
+                "building:levels": "1",
+                "addr:housenumber": "27 с3"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "addr:street": "улица Чечулина",
+                "building:levels": "3",
+                "addr:housenumber": "28"
+            }
+        ]
+    }
+}

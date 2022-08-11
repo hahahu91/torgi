@@ -1,0 +1,159 @@
+{
+    "residents": 2077,
+    "car": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Навигатор",
+                "shop": "car"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Посылторг",
+                "shop": "convenience",
+                "operator": "Посылторг"
+            },
+            {
+                "name": "АлАнТа",
+                "shop": "convenience",
+                "name:en": "AlAnTa"
+            },
+            {
+                "shop": "convenience",
+                "source": "rosreestr",
+                "building": "yes",
+                "operator": "Ассорти",
+                "addr:street": "Владимирская улица",
+                "addr:housenumber": "2"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "РоНас",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "sports": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Спорттовары",
+                "shop": "sports"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Аптека \"Ната\"",
+                "name:ru": "Аптека \"Ната\""
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:postcode": "601914",
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:phone": "+7 49232 37814",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Ковров 601914",
+                "opening_hours": "Mo-Sa 09:00-18:00",
+                "operator": "АО «Почта России»",
+                "ref": "601914"
+            }
+        ]
+    },
+    "atm": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "atm"
+            },
+            {
+                "amenity": "atm",
+                "operator": "Банк ВТБ (ПАО)",
+                "addr:street": "Комсомольская улица",
+                "addr:housenumber": "36"
+            }
+        ]
+    },
+    "houseware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Хозяйственный магазин",
+                "shop": "houseware"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магазин газового оборудования \"Теплосфера\"",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "bus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "highway": "bus_stop",
+                "shelter": "no",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "Комсомольская улица",
+                "addr:housenumber": "34/1"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "МБОУ СОШ №9",
+                "building": "school",
+                "addr:street": "улица Жуковского",
+                "addr:housenumber": "5"
+            }
+        ]
+    }
+}

@@ -1,0 +1,277 @@
+{
+    "bus_stop": {
+        "count": 10,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Переулок строителей",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Больница",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Дом Быта",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Дом Быта",
+                "public_transport": "stop_position"
+            },
+            {
+                "name": "Дом Быта",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Дом Быта",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Больница",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Переулок строителей",
+                "public_transport": "stop_position"
+            },
+            {
+                "name": "переулок Строителей",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Переулок строителей",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Продукты \"Крез\"",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "residents": 5358,
+    "kiosk": {
+        "count": 10,
+        "detail": [
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "bench": {
+        "count": 8,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "no"
+            },
+            {
+                "name": "Для влюблённых",
+                "amenity": "bench",
+                "name:en": "For lovers",
+                "backrest": "yes"
+            },
+            {
+                "name": "Романтичная",
+                "amenity": "bench",
+                "name:en": "Romantic",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "car_repair",
+                "phone": "+7 902 80 96377",
+                "description": "Грузовые и легковые",
+                "opening_hours": "Mo-Fr 09:00-19:00",
+                "service:vehicle:tires": "yes",
+                "service:vehicle:wheels": "yes",
+                "service:vehicle:alignment": "yes"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 800 7707999",
+                "contact:website": "http://dns-shop.ru/",
+                "name": "DNS",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "ДНС Ритейл",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Добрянка",
+                "addr:country": "RU",
+                "addr:housenumber": "95",
+                "addr:postcode": "618740",
+                "addr:street": "Советская улица",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "building": "retail",
+                "contact:phone": "+7 800 2009002",
+                "contact:website": "http://magnit-info.ru",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "opening_hours": "10:00-21:30",
+                "operator": "АО Тандер",
+                "ref": "20608368",
+                "shop": "supermarket"
+            },
+            {
+                "addr:city": "Добрянка",
+                "addr:country": "RU",
+                "addr:housenumber": "25",
+                "addr:postcode": "618740",
+                "addr:street": "улица Жуковского",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "building": "retail",
+                "contact:phone": "+7 800 2009002",
+                "contact:website": "http://magnit-info.ru",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "opening_hours": "09:30-22:00",
+                "operator": "АО Тандер",
+                "ref": "20611072",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:city": "Добрянка",
+                "addr:street": "улица Жуковского",
+                "addr:country": "RU",
+                "addr:postcode": "618740",
+                "addr:housenumber": "22"
+            },
+            {
+                "building": "kindergarten",
+                "addr:city": "Добрянка",
+                "addr:street": "улица Герцена",
+                "addr:country": "RU",
+                "addr:housenumber": "30/1"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "addr:city": "Добрянка",
+                "addr:street": "улица Жуковского",
+                "addr:country": "RU",
+                "addr:postcode": "618740",
+                "addr:housenumber": "26"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ТЦ \"Семья\"",
+                "shop": "mall",
+                "building": "retail",
+                "addr:city": "Добрянка",
+                "addr:street": "улица Герцена",
+                "addr:country": "RU",
+                "addr:postcode": "618740",
+                "addr:housenumber": "37"
+            }
+        ]
+    }
+}

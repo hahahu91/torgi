@@ -1,0 +1,335 @@
+{
+    "residents": 5040,
+    "fountain": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fountain",
+                "memorial": "statue",
+                "name": "Городской фонтан",
+                "natural": "water"
+            }
+        ]
+    },
+    "townhall": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "townhall"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "bin": "yes",
+                "name": "Аптека №230",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "name": "Старый замок",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "name": "Старый замок",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Аптека №230",
+                "share_taxi": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Старый замок",
+                "share_taxi": "yes",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "school": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Школа №14",
+                "amenity": "school"
+            },
+            {
+                "name": "Школа - интернат №2",
+                "amenity": "school"
+            },
+            {
+                "amenity": "school",
+                "building": "yes",
+                "addr:street": "улица Обручева",
+                "addr:housenumber": "52"
+            },
+            {
+                "addr:housenumber": "23",
+                "addr:street": "проспект Строителей",
+                "amenity": "school",
+                "building": "yes",
+                "grades": "2"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Магазин \"Фирменный\"",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Мария-Ра",
+                "shop": "supermarket",
+                "building": "yes",
+                "addr:street": "улица Обручева",
+                "addr:housenumber": "47А"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Почта №50",
+                "amenity": "post_office",
+                "website": "https://russianpost.ru/",
+                "operator": "Почта России",
+                "addr:country": "RU"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Городская больница",
+                "amenity": "hospital"
+            },
+            {
+                "name": "Детская больница",
+                "amenity": "hospital"
+            }
+        ]
+    },
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "name": "Сбербанк РФ",
+                "website": "https://www.sberbank.ru/"
+            },
+            {
+                "name": "Сбербанк",
+                "amenity": "bank",
+                "website": "https://www.sberbank.ru/",
+                "operator": "Сбербанк России"
+            }
+        ]
+    },
+    "car": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "автомагазин САМАРА ЛАДА",
+                "shop": "car"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Монетка",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "Сбербанк России"
+            }
+        ]
+    },
+    "bench": {
+        "count": 23,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            }
+        ]
+    },
+    "food_court": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "food_court"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "police"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Социальная",
+                "amenity": "pharmacy",
+                "name:ru": "Социальная"
+            },
+            {
+                "name": "Эдельвейс",
+                "amenity": "pharmacy",
+                "name:ru": "Эдельвейс"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "15А",
+                "addr:street": "проспект Строителей",
+                "building": "commercial",
+                "building:levels": "2"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ТЦ Простор",
+                "shop": "mall",
+                "name:en": "TC Prostor",
+                "building": "yes",
+                "addr:city": "Прокопьевск",
+                "addr:street": "проспект Строителей",
+                "addr:housenumber": "6"
+            }
+        ]
+    }
+}

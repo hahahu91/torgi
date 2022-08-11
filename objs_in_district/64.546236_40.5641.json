@@ -1,0 +1,1159 @@
+{
+    "bank": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "no",
+                "branch": "Северо-Западный банк",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "en:Sberbank of Russia",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://instagram.com/sberbank",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru/",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:30-16:30",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "phone": "+7 8182 202264",
+                "ref": "8637/0166",
+                "wheelchair": "yes"
+            },
+            {
+                "amenity": "bank",
+                "branch": "Дополнительное отделение 32/1",
+                "brand": "Московский индустриальный банк",
+                "brand:en": "Moscow Industrial Bank",
+                "brand:wikidata": "Q4304145",
+                "brand:wikipedia": "ru:Московский индустриальный банк",
+                "contact:phone": "+7 8182 657665;+7 800 1007474",
+                "contact:website": "https://minbank.ru/",
+                "name": "Московский индустриальный банк",
+                "name:en": "Moscow Industrial Bank",
+                "opening_hours": "Mo-Fr 10:00-13:00,14:00-18:00",
+                "operator": "ПАО \"МИнБанк\"",
+                "ref": "32/1"
+            },
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "branch": "Санкт-Петербургский филиал",
+                "name": "Home Credit Bank",
+                "name:ru": "Хоум Кредит Банк",
+                "opening_hours": "Mo-Fr 10:00-19:00",
+                "operator": "ООО \"Хоум Кредит энд Финанс Банк\"",
+                "phone": "+7 8182 423516;+7 8182 423517",
+                "ref": "29/02",
+                "website": "https://www.homecredit.ru",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "brand": "Почта Банк",
+                "brand:en": "Post Bank",
+                "brand:wikidata": "Q24930461",
+                "brand:wikipedia": "en:Post Bank (Russia)",
+                "contact:phone": "+7 800 5500770",
+                "contact:website": "https://www.pochtabank.ru/",
+                "name": "Почта Банк",
+                "name:en": "Post Bank",
+                "opening_hours": "Mo-Fr 09:00-21:00; Sa 10:00-17:00",
+                "operator": "АО \"Почта Банк\"",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "residents": 7146,
+    "bus_stop": {
+        "count": 7,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "улица Тимме",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "departures_board": "delay",
+                "highway": "bus_stop",
+                "name": "кинотеатр Русь",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "Воскресенская улица",
+                "bench": "no",
+                "highway": "bus_stop",
+                "shelter": "no",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "bus": "yes",
+                "name": "Медтехника",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Воскресенская улица",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "кинотеатр Русь",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "улица Тимме",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "restaurant",
+                "internet_access": "wlan",
+                "name": "Остров",
+                "opening_hours": "closed",
+                "phone": "+7 8182 622444"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "post_box",
+                "collection_times": "Mo-Fr 02:50,17:15; Sa 02:50,15:30; Su 08:30",
+                "operator": "Почта России",
+                "post_box:type": "wall",
+                "ref": "51"
+            },
+            {
+                "amenity": "post_box",
+                "collection_times": "Mo 19:05; Tu-Sa 18:33; Su 17:44",
+                "operator": "Почта России",
+                "ref": "53"
+            },
+            {
+                "ref": "431",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "post_box:type": "wall",
+                "collection_times": "Mo-Fr 02:45,17:10; Sa 02:45,15:25"
+            }
+        ]
+    },
+    "cinema": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Русь",
+                "amenity": "cinema",
+                "operator": "ООО \"Руськино\"",
+                "contact:phone": "+7 8182 442222",
+                "contact:website": "www.ruskino29.ru"
+            }
+        ]
+    },
+    "money_lender": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Росденьги",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-20:00",
+                "operator": "ООО МУК \"СтандартФинанс СТВ\"",
+                "shop": "money_lender",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Экспресс-займы",
+                "opening_hours": "10:00-20:00",
+                "operator": "ООО \"Микрофинансовая организация \"Центр экспресс-кредитования\"",
+                "phone": "+7 800 3332200",
+                "shop": "money_lender",
+                "website": "https://www.fastmoney.ru/",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "jewelry": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Золотой",
+                "opening_hours": "Mo-Su 09:30-20:00",
+                "operator": "ИП Клюшенок В.А.",
+                "shop": "jewelry",
+                "wheelchair": "no"
+            },
+            {
+                "name": "585Gold",
+                "opening_hours": "10:00-20:00",
+                "operator": "ИП Половцов А.Н.",
+                "shop": "jewelry",
+                "website": "https://zoloto585.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "name": "585 золотой",
+                "shop": "jewelry",
+                "operator": "ООО \"Регент голд\";ООО \"Ломбарды ЮС-585\";ООО \"Микрофинансовая организация \"Фастмани.ру\"",
+                "wheelchair": "no",
+                "opening_hours": "10:00-20:00"
+            }
+        ]
+    },
+    "garden_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дачный",
+                "shop": "garden_centre",
+                "wheelchair": "limited",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00; Su 10:00-17:00"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Первый цветочный супермаркет",
+                "shop": "florist",
+                "phone": "+7 8182 477480",
+                "wheelchair": "no",
+                "opening_hours": "Mo-Su 08:00-20:00"
+            },
+            {
+                "name": "Sunflo",
+                "opening_hours": "Mo-Sa 08:00-20:00; Su 09:00-19:00",
+                "phone": "+7 8182 444211;+7 8182 444218",
+                "shop": "florist",
+                "website": "https://flowers-arh.ru/",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 3,
+        "detail": [
+            {
+                "brand": "МТС",
+                "brand:en": "MTS",
+                "brand:wikidata": "Q1368919",
+                "brand:wikipedia": "en:MTS (network provider)",
+                "contact:website": "http://www.mts.ru/",
+                "name": "МТС",
+                "name:en": "MTS",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "operator": "АО \"РТК\"",
+                "shop": "mobile_phone",
+                "wheelchair": "no"
+            },
+            {
+                "brand": "Билайн",
+                "brand:en": "Beeline",
+                "brand:wikidata": "Q402880",
+                "brand:wikipedia": "en:Beeline (brand)",
+                "name": "Билайн",
+                "name:en": "Beeline",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "operator": "ПАО \"ВымпелКом\"",
+                "shop": "mobile_phone",
+                "wheelchair": "no"
+            },
+            {
+                "brand": "Теле2",
+                "brand:en": "Tele2",
+                "brand:wikidata": "Q309865",
+                "brand:wikipedia": "en:Tele2",
+                "name": "Теле2",
+                "name:en": "Tele2",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "shop": "mobile_phone",
+                "website": "https://arh.tele2.ru/",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Живика",
+                "opening_hours": "Mo-Su 08:00-21:00",
+                "operator": "ООО \"Ригла\"",
+                "ref": "31137",
+                "wheelchair": "limited"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:facebook": "https://www.facebook.com/apteka.maksavit/",
+                "contact:instagram": "https://www.instagram.com/apteka_maksavit/",
+                "contact:phone": "+7 921 0795038",
+                "contact:vk": "https://vk.com/club36998040",
+                "contact:website": "https://maksavit.ru/",
+                "name": "Максавит",
+                "opening_hours": "Mo-Fr 08:00-21:00; Sa, Su 08:00-20:00",
+                "operator": "ООО \"Эндэкофарм\"",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:instagram": "https://www.instagram.com/goodapteka/",
+                "contact:ok": "https://ok.ru/group/55968848871441",
+                "contact:phone": "+7 8182 692321",
+                "contact:vk": "https://vk.com/dobraya.apteka",
+                "contact:website": "https://d-apteka.ru/",
+                "healthcare": "pharmacy",
+                "name": "Добрая аптека",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "operator": "ООО \"Радуга\"",
+                "payment:cash": "yes",
+                "payment:coins": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:notes": "yes",
+                "payment:visa": "yes",
+                "payment:visa_electron": "yes",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Эвалар",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "operator": "ООО \"Юнивер\"",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "29плюс",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "operator": "ООО \"Гамма 7\"",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "atm": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:phone": "+7 800 5555550",
+                "contact:website": "https://www.sberbank.ru/",
+                "currency:others": "no",
+                "currency:RUB": "yes",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "24/7",
+                "operator": "ПАО Сбербанк",
+                "wheelchair": "yes"
+            },
+            {
+                "amenity": "atm",
+                "contact:phone": "+7 800 1007474",
+                "contact:website": "https://minbank.ru/",
+                "name": "Московский индустриальный банк",
+                "opening_hours": "24/7",
+                "operator": "ПАО \"МИнБанк\"",
+                "ref": "A0260100"
+            },
+            {
+                "name": "Хоум Кредит Банк",
+                "brand": "Хоум кредит",
+                "amenity": "atm",
+                "operator": "ООО \"Хоум Кредит энд Финанс Банк\"",
+                "wheelchair": "no",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ТЦ \"Березка\"",
+                "shop": "mall",
+                "opening_hours": "Mo-Fr 11:00-19:00; Sa,Su 11:00-18:00"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:country": "RU",
+                "addr:postcode": "163069",
+                "amenity": "post_office",
+                "name": "Отделение связи №163069",
+                "opening_hours": "Mo-Fr 08:00-13:00,14:00-20:00; Sa 09:00-13:00,14:00-18:00",
+                "operator": "Почта России",
+                "ref": "163069",
+                "website": "https://russianpost.ru/",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Улыбка радуги",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "ООО \"Североморское\"",
+                "phone": "+7 800 3336600",
+                "shop": "chemist",
+                "website": "https://www.r-ulybka.ru/",
+                "wheelchair": "limited"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Грандез",
+                "shop": "hairdresser",
+                "wheelchair": "no",
+                "contact:phone": "+7 8182 658798",
+                "opening_hours": "Mo-Fr 09:00-20:00; Su 10:00-18:00; Sa 09:00-19:00"
+            },
+            {
+                "name": "Revlon",
+                "shop": "hairdresser",
+                "wheelchair": "no",
+                "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-17:00"
+            },
+            {
+                "contact:phone": "+7 953 9325868;+7 952 3065552",
+                "name": "на Тимме, 11",
+                "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-17:00",
+                "shop": "hairdresser",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Экзотика",
+                "shop": "hairdresser",
+                "phone": "+7 953 2679244",
+                "wheelchair": "no",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00"
+            },
+            {
+                "name": "Цирюльня",
+                "opening_hours": "Mo-Fr 11:00-19:00; Sa-Su 12:00-17:00",
+                "phone": "+7 8182 476104",
+                "shop": "hairdresser",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "contact:phone": "+7 800 2501065",
+                "contact:website": "https://xn--80aajizflwo8a1f.xn--80aa2akda.xn--p1ai/",
+                "cuisine": "chicken",
+                "name": "Kannam chicken",
+                "name:ru": "Каннам чикен",
+                "opening_hours": "Mo-Su 10:00-23:00",
+                "operator": "ИП Деев К.В.",
+                "takeaway": "yes",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "cafe",
+                "cuisine": "pizza",
+                "internet_access": "wlan",
+                "name": "Don Pizza",
+                "opening_hours": "Mo-Su 10:00-24:00",
+                "phone": "+7 8182 403900"
+            },
+            {
+                "amenity": "cafe",
+                "name": "Кофейня \"Остров\"",
+                "opening_hours": "closed"
+            },
+            {
+                "name": "Maestro",
+                "phone": "+7 8182 460660",
+                "amenity": "cafe",
+                "wheelchair": "no",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "outdoor_seating": "yes"
+            }
+        ]
+    },
+    "bar": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bar",
+                "name": "Ночь",
+                "opening_hours": "Mo-Su 00:00-09:00,21:00-24:00",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "bar",
+                "name": "Дрова",
+                "opening_hours": "Mo-Th 12:00-00:00; Fr-Su 12:00-02:00",
+                "operator": "ООО \"Северные продукты\"",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Лагуна",
+                "phone": "+7 8182 239688",
+                "leisure": "sauna"
+            }
+        ]
+    },
+    "bench": {
+        "count": 11,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Привокзальная детская библиотека № 8",
+                "amenity": "library",
+                "operator": "МУК \"Централизованная библиотечная система\"",
+                "contact:vk": "https://vk.com/club59491015",
+                "wheelchair": "no",
+                "contact:phone": "+7 8182 202908",
+                "opening_hours": "Mo-Fr 11:00-18:00; Su 11:00-17:00",
+                "contact:website": "https://arhlib.ru/"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 11,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal",
+                "operator": "МУП \"САХ\""
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "outdoor": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Рыболов",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00; Su 10:00-17:00",
+                "shop": "outdoor",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Хороший клёв",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa, Su 10:00-18:00",
+                "shop": "outdoor",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 2,
+        "detail": [
+            {
+                "ref": "22",
+                "name": "Роспечать",
+                "shop": "newsagent",
+                "website": "http://www.rosparh.ru/",
+                "operator": "МУП \"Роспечать\""
+            },
+            {
+                "ref": "62",
+                "name": "Роспечать",
+                "shop": "newsagent",
+                "website": "http://www.rosparh.ru/",
+                "building": "retail",
+                "operator": "МУП \"Роспечать\"",
+                "opening_hours": "Mo-Fr 07:00-10:00,10:30-15:00,15:30-20:00; Sa,Su 10:00-13:00,14:00-17:00",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "drinking_water": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "drinking_water",
+                "name": "Акварель",
+                "opening_hours": "24/7",
+                "vending": "water"
+            },
+            {
+                "amenity": "drinking_water",
+                "name": "Акварель",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "playground": {
+        "count": 3,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            },
+            {
+                "name": "горка",
+                "leisure": "playground"
+            }
+        ]
+    },
+    "houseware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Хозяюшка",
+                "shop": "houseware",
+                "operator": "ИП Лапина Е.А.",
+                "wheelchair": "no",
+                "opening_hours": "Mo-Sa 10:00-19:00; Su 10:00-18:00"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "covered": "yes",
+                "capacity": "12",
+                "bicycle_parking": "rack"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "capacity": "6",
+                "bicycle_parking": "wall_loops"
+            }
+        ]
+    },
+    "copyshop": {
+        "count": 2,
+        "detail": [
+            {
+                "contact:phone": "+7 8182 643645",
+                "description": "Печати, штампы, ксерокопирование",
+                "name": "Морион",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "shop": "copyshop",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Лайт",
+                "shop": "copyshop",
+                "email": "info@liteprint.me",
+                "phone": "+7 8182 400070;+7 8182 420016",
+                "website": "http://liteprint.me/",
+                "wheelchair": "no",
+                "opening_hours": "Mo-Fr 10:00-19:00"
+            }
+        ]
+    },
+    "music": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Аудио видео",
+                "shop": "music",
+                "opening_hours": "09:00-24:00"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:phone": "+7 800 2009002",
+                "contact:website": "https://www.magnit.ru/",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "operator": "АО \"Тандер\"",
+                "shop": "supermarket",
+                "wheelchair": "limited"
+            },
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:phone": "+7 800 2009002",
+                "contact:website": "https://www.magnit.ru/",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "operator": "АО \"Тандер\"",
+                "ref": "Циклантера",
+                "shop": "supermarket",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "outpost": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ozon",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "operator": "ИП Макаренко Кирилл Владимирович",
+                "shop": "outpost",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "pawnbroker": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Золотой ломбард",
+                "opening_hours": "Mo-Su 09:30-20:00",
+                "operator": "ООО \"Ломбарды ЮС-585\"",
+                "shop": "pawnbroker",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "dentist",
+                "healthcare": "dentist",
+                "name": "Стоматология",
+                "opening_hours": "Mo-Su 08:30-21:00",
+                "operator": "ЗАО \"Рагас\"",
+                "phone": "+7 8182 237763"
+            }
+        ]
+    },
+    "bookmaker": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Betcity",
+                "opening_hours": "11:00-23:00",
+                "operator": "ООО \"Фортуна\"",
+                "ref": "423",
+                "shop": "bookmaker",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Spot time",
+                "opening_hours": "24/7",
+                "operator": "ООО \"Спот\"",
+                "shop": "bookmaker",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мясной",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "shop": "butcher",
+                "wheelchair": "limited"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Фрукты-овощи",
+                "opening_hours": "Mo-Fr 09:30-21:00; Sa, Su 09:30-20:00",
+                "shop": "greengrocer"
+            },
+            {
+                "shop": "greengrocer",
+                "building": "yes",
+                "opening_hours": "Mo-Su 09:00-20:00"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "clinic",
+                "contact:website": "https://oblstom29.ru/",
+                "healthcare": "clinic",
+                "name": "Отделение терапевтической и хирургической стоматологии",
+                "operator": "ГАУЗ Архангельской области «Архангельская областная клиническая стоматологическая поликлиника»"
+            }
+        ]
+    },
+    "tailor": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Силуэт",
+                "shop": "tailor",
+                "wheelchair": "no",
+                "opening_hours": "Mo-Fr 10:00-18:00; Su 11:00-16:00"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Бенигнум",
+                "shop": "beauty",
+                "phone": "+7 8182 433009",
+                "website": "http://www.benignum.ru/",
+                "operator": "ООО \"Мирабелла\"",
+                "wheelchair": "no",
+                "opening_hours": "Mo-Sa 10:00-21:00; Su 10:00-18:00"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Здоровая семья",
+                "phone": "+7 8182 476500;+7 8182 425475",
+                "amenity": "doctors",
+                "wheelchair": "no",
+                "opening_hours": "Mo-Fr 08:00-21:00; Sa,Su 10:00-18:00"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "kiosk",
+                "operator": "ИП Хрушкой А.В.",
+                "opening_hours": "24/7"
+            },
+            {
+                "shop": "kiosk",
+                "operator": "ИП Оруджев А.Ш.",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Магнит Косметик",
+                "brand:en": "Magnit Cosmetics",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:phone": "+7 800 2009002",
+                "contact:website": "https://www.magnit.ru/",
+                "name": "Магнит Косметик",
+                "name:en": "Magnit Cosmetics",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "АО \"Тандер\"",
+                "ref": "Тохоку",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 800 3017755",
+                "contact:website": "https://www.winelab.ru/",
+                "name": "Винлаб",
+                "name:en": "Winelab",
+                "name:ru": "Винлаб",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "alcohol",
+                "wheelchair": "limited"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ботик",
+                "shop": "shoes",
+                "contact:vk": "https://vk.com/detobuvbotik"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Хлебница",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "payment_terminal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "payment_terminal",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "operator": "Qiwi",
+                "ref": "10476970"
+            },
+            {
+                "amenity": "payment_terminal",
+                "contact:phone": "+7 800 1007474",
+                "contact:website": "https://minbank.ru/",
+                "name": "Московский индустриальный банк",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-15:00",
+                "operator": "ПАО \"МИнБанк\"",
+                "ref": "K0260001"
+            }
+        ]
+    },
+    "fitness_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 8182 444458",
+                "leisure": "fitness_centre",
+                "name": "Фитнесс формула",
+                "opening_hours": "Mo-Fr 07:00-22:00; Sa 10:00-17:00; Su 11:00-16:00"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "улица Тимме",
+                "building:levels": "2",
+                "addr:housenumber": "11 к1"
+            },
+            {
+                "building": "kindergarten",
+                "addr:street": "Воскресенская улица",
+                "building:levels": "2",
+                "addr:housenumber": "116 к1"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "commercial",
+                "roof:shape": "flat",
+                "addr:street": "Воскресенская улица",
+                "building:levels": "2",
+                "addr:housenumber": "99 к1"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "9",
+                "addr:street": "улица 23-й Гвардейской Дивизии",
+                "building": "school",
+                "building:levels": "4"
+            }
+        ]
+    },
+    "service": {
+        "count": 6,
+        "detail": [
+            {
+                "ref": "ТП-230",
+                "name": "ТП-230",
+                "power": "substation",
+                "voltage": "10000;400",
+                "building": "service",
+                "location": "indoor",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "building:levels": "1"
+            },
+            {
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "ref": "ТП-220",
+                "name": "ТП-220",
+                "power": "substation",
+                "voltage": "10000;400",
+                "building": "service",
+                "location": "indoor",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "building:levels": "1"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "frequency": "50",
+                "building:levels": "1"
+            },
+            {
+                "ref": "ТП-233",
+                "name": "ТП-231",
+                "power": "substation",
+                "voltage": "10000;400",
+                "building": "service",
+                "location": "indoor",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "building:levels": "1"
+            },
+            {
+                "name": "Стационарный пост наблюдения за загрязнением атмосферного воздуха",
+                "building": "service",
+                "man_made": "monitoring_station",
+                "operator": "ФГБУ \"Северное УГМС\"",
+                "building:levels": "1",
+                "monitoring:air_quality": "yes"
+            }
+        ]
+    },
+    "dairy": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "retail",
+                "building:levels": "1",
+                "name": "Каргополочка",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-19:00; Su 10:00-18:00",
+                "shop": "dairy",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "convenience",
+                "building": "retail",
+                "operator": "ИП Данзиев Э.М.",
+                "opening_hours": "24/7",
+                "building:levels": "1"
+            }
+        ]
+    }
+}

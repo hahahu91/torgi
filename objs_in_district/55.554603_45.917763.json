@@ -1,0 +1,25 @@
+{
+    "residents": 540,
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Пятый",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Павловская курочка",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сбербанк",
+                "amenity": "bank"
+            }
+        ]
+    }
+}

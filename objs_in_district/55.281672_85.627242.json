@@ -1,0 +1,143 @@
+{
+    "residents": 1155,
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Сказка",
+                "amenity": "kindergarten"
+            },
+            {
+                "name": "Детский сад \"Сказка\"",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:city": "Топки",
+                "addr:street": "Кузнецкая улица",
+                "addr:housenumber": "4",
+                "social_facility:for": "child"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ЦРБ г.Топки",
+                "amenity": "hospital",
+                "addr:city": "Топки",
+                "addr:street": "улица Революции",
+                "official_name": "МБУЗ ЦРБ Топкинского района",
+                "addr:housenumber": "1"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пиво Сибири",
+                "shop": "alcohol",
+                "name:ru": "Пиво Сибири"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "highway": "bus_stop",
+                "name": "Пенсионный фонд",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Больница",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Больница",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Кристалл",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Кристалл",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Пенсионный фонд",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Экономька",
+                "shop": "supermarket",
+                "building": "yes",
+                "addr:city": "Топки",
+                "addr:street": "улица Луначарского",
+                "addr:housenumber": "1"
+            },
+            {
+                "name": "Мария-ра",
+                "shop": "supermarket",
+                "building": "yes",
+                "addr:city": "Топки",
+                "addr:street": "улица Луначарского",
+                "building:levels": "2",
+                "addr:housenumber": "6"
+            }
+        ]
+    },
+    "resort": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Топки",
+                "addr:housenumber": "5",
+                "addr:street": "улица Революции",
+                "building": "yes",
+                "leisure": "resort",
+                "name": "Кристалл"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "community_centre",
+                "building": "yes",
+                "addr:city": "Топки",
+                "addr:street": "улица Революции",
+                "addr:housenumber": "20"
+            }
+        ]
+    }
+}

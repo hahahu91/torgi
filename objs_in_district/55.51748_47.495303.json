@@ -1,0 +1,34 @@
+{
+    "residents": 487,
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Прораб",
+                "shop": "doityourself",
+                "building": "yes"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Seven",
+                "shop": "supermarket",
+                "building": "yes"
+            }
+        ]
+    }
+}

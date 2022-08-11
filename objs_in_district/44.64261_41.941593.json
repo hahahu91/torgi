@@ -1,0 +1,275 @@
+{
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "police"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "contact:email": "info@zao-agrokomplex.ru",
+                "contact:facebook": "https://www.facebook.com/agrokomplex.ru/",
+                "contact:instagram": "https://www.instagram.com/agrokomplex_ru/",
+                "contact:phone": "+7 800 2500690",
+                "contact:vk": "https://vk.com/agrokomplex_ru",
+                "contact:website": "https://www.zao-agrokomplex.ru/",
+                "name": "Агрокомплекс Выселковский",
+                "opening_hours": "Mo-Su 08:30-20:30",
+                "operator": "фирма \"Агрокомплекс\" им. Н.И. Ткачёва",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "taxi": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "taxi"
+            }
+        ]
+    },
+    "laundry": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "laundry"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "pub": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pub"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "jewelry": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "jewelry"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "restaurant"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "greengrocer"
+            }
+        ]
+    },
+    "garden_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "garden_centre"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "butcher"
+            }
+        ]
+    },
+    "confectionery": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "confectionery"
+            }
+        ]
+    },
+    "seafood": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "seafood"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Фанагория",
+                "shop": "alcohol",
+                "name:ru": "Фанагория",
+                "opening_hours": "Mo-Su 10:00-20:00"
+            }
+        ]
+    },
+    "residents": 2808,
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 800 7707999",
+                "contact:website": "http://dns-shop.ru/",
+                "name": "DNS",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "operator": "ДНС Ритейл",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 4,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "улица Павлова",
+                "addr:country": "RU",
+                "addr:housenumber": "14"
+            },
+            {
+                "building": "kindergarten",
+                "addr:city": "Невинномысск",
+                "addr:street": "улица Гагарина",
+                "addr:housenumber": "8"
+            },
+            {
+                "building": "kindergarten",
+                "addr:street": "бульвар Мира",
+                "addr:country": "RU",
+                "addr:housenumber": "13"
+            },
+            {
+                "building": "kindergarten",
+                "addr:city": "Невинномысск",
+                "addr:street": "улица Гагарина",
+                "addr:housenumber": "12А"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "addr:city": "Невинномысск",
+                "addr:street": "улица Павлова",
+                "addr:housenumber": "17"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магазин ART Мебель",
+                "smoking": "no",
+                "website": "http://artmebel.info/",
+                "building": "commercial",
+                "addr:city": "Невинномысск",
+                "wheelchair": "yes",
+                "addr:street": "Крымский переулок",
+                "addr:postcode": "357100",
+                "addr:housenumber": "1"
+            }
+        ]
+    }
+}

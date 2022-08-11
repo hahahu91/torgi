@@ -1,0 +1,172 @@
+{
+    "residents": 495,
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ДК УЭХК",
+                "amenity": "community_centre"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Четвертый магазин",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "no",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Кедр",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "books": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Глория",
+                "shop": "books"
+            }
+        ]
+    },
+    "hifi": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Глория",
+                "shop": "hifi"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Благодар",
+                "amenity": "pharmacy",
+                "operator": "ООО Аптечная сеть\"Благодар\""
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Континент",
+                "shop": "alcohol"
+            },
+            {
+                "name": "Красное Белое",
+                "shop": "alcohol",
+                "website": "http://www.krasnoeibeloe.ru/",
+                "addr:street": "Первомайская улица",
+                "addr:housenumber": "66"
+            }
+        ]
+    },
+    "atm": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "Сбербанк"
+            },
+            {
+                "amenity": "atm",
+                "operator": "ВТБ24"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Для вас",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Плюс",
+                "shop": "cosmetics",
+                "building": "yes",
+                "addr:city": "Новоуральск",
+                "addr:street": "Комсомольская улица"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "building": "yes",
+                "addr:city": "Новоуральск",
+                "addr:street": "улица Фрунзе",
+                "addr:housenumber": "9"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Публичная библиотека",
+                "email": "adm_lib@novotec.ru",
+                "phone": "+7 34370 90585",
+                "amenity": "library",
+                "website": "http://www.publiclibrary.ru",
+                "building": "yes",
+                "addr:city": "Новоуральск",
+                "addr:street": "улица Фрунзе",
+                "addr:country": "RU",
+                "addr:postcode": "624130",
+                "official_name": "Муниципальное бюджетное учреждение культуры «Публичная библиотека» Новоуральского городского округа",
+                "opening_hours": "Mo-Fr 11:00-19:00;Su 10:00-17:00",
+                "addr:housenumber": "13"
+            }
+        ]
+    },
+    "training": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская школа искусств",
+                "amenity": "training",
+                "building": "yes",
+                "training": "art",
+                "addr:city": "Новоуральск",
+                "addr:street": "Первомайская улица",
+                "addr:housenumber": "43"
+            }
+        ]
+    }
+}

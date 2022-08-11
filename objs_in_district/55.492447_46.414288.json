@@ -1,0 +1,303 @@
+{
+    "residents": 2376,
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Шумерлинский ГРОВД",
+                "amenity": "police",
+                "addr:street": "улица Щербакова",
+                "addr:housenumber": "45"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "highway": "bus_stop",
+                "name": "Ж/Д вокзал",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Ж/Д вокзал",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Магазин \"Орбита\"",
+                "name:en": "Shop \"Orbita\"",
+                "name:ru": "Магазин \"Орбита\"",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Улица Октябрьская",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Гостиница",
+                "public_transport": "platform",
+                "share_taxi": "yes"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Встреча",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Пельменная",
+                "amenity": "cafe"
+            },
+            {
+                "name": "АнТал",
+                "amenity": "cafe",
+                "addr:street": "улица Карла Маркса",
+                "addr:housenumber": "23"
+            },
+            {
+                "name": "Новая Реальность",
+                "amenity": "cafe",
+                "addr:street": "улица Карла Маркса",
+                "addr:housenumber": "21"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "429123",
+                "name": "Шумерля 429123",
+                "amenity": "post_office",
+                "operator": "Почта России",
+                "contact:vk": "https://vk.com/russianpost",
+                "addr:country": "RU",
+                "contact:phone": "+7 83536 24378",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-18:00",
+                "contact:website": "https://www.pochta.ru",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Юбилейная",
+                "amenity": "fast_food",
+                "addr:street": "Октябрьская улица",
+                "addr:housenumber": "14"
+            }
+        ]
+    },
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "11",
+                "addr:street": "Октябрьская улица",
+                "amenity": "bank",
+                "atm": "yes",
+                "branch": "Волго-Вятский банк",
+                "brand": "ВТБ",
+                "brand:en": "VTB Bank",
+                "brand:wikidata": "Q1549389",
+                "brand:wikipedia": "en:VTB Bank",
+                "contact:phone": "+7 495 5005550",
+                "contact:website": "https://www.sberbank.ru",
+                "description": "Доп.офис №5836/08",
+                "name": "ВТБ",
+                "name:en": "VTB Bank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 08:00-17:00",
+                "operator": "ВТБ",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "8613/0202",
+                "wheelchair": "yes"
+            },
+            {
+                "atm": "no",
+                "name": "B2B Bank",
+                "amenity": "bank",
+                "addr:street": "улица Щербакова",
+                "addr:housenumber": "20"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Фабрика натяжных потолков Ваш Выбор",
+                "shop": "doityourself",
+                "addr:street": "улица Карла Маркса",
+                "addr:housenumber": "21"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Марина",
+                "shop": "hairdresser",
+                "opening_hours": "Mo-Fr 09:00-18:00; Sa 08:00-14:00; Su 10:00-15:00"
+            },
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "toilets"
+            }
+        ]
+    },
+    "nightclub": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Премьер",
+                "amenity": "nightclub"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Салон здоровья и красоты",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Спорт бар",
+                "amenity": "bar"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "alt_name": "Пятерочка",
+                "alt_name:ru": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "email": "vopros@5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterchka",
+                "name:ru": "Пятёрочка",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Сахарок",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "МАВ&K Трейд",
+                "shop": "computer"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            },
+            {
+                "name": "Владимир",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Электрон+",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Бристоль",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling",
+                "recycling_type": "container"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "contact:facebook": "http://facebook.com/aptekivita",
+                "contact:instagram": "https://www.instagram.com/vita_express/",
+                "contact:phone": "+7 800 7550003",
+                "contact:vk": "https://vk.com/aptekivita",
+                "contact:website": "https://vitaexpress.ru/",
+                "name": "Вита Экспресс",
+                "opening_hours": "Mo-Su 08:00-20:00"
+            }
+        ]
+    },
+    "bus_station": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Шумерля",
+                "addr:housenumber": "1",
+                "addr:street": "Октябрьская улица",
+                "amenity": "bus_station",
+                "building": "yes",
+                "name": "Шумерлинский автовокзал"
+            }
+        ]
+    }
+}

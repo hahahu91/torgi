@@ -1,0 +1,345 @@
+{
+    "bus_stop": {
+        "count": 1,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Красное",
+                "highway": "bus_stop",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "residents": 3118,
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "618542",
+                "name": "Соликамск 618542",
+                "amenity": "post_office",
+                "operator": "Почта России",
+                "addr:city": "Соликамск",
+                "contact:vk": "https://vk.com/russianpost",
+                "addr:street": "улица 20-летия Победы",
+                "addr:country": "RU",
+                "addr:postcode": "618542",
+                "contact:phone": "+7 34253 78077",
+                "opening_hours": "Tu-Fr 10:00-13:00,14:00-19:00; Sa 09:00-13:00,14:00-18:00",
+                "contact:website": "https://www.pochta.ru",
+                "addr:housenumber": "190",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Монетка",
+                "shop": "supermarket",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "188А"
+            },
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "building": "yes",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "204"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Красное&Белое",
+                "shop": "alcohol",
+                "brand": "Красное&Белое",
+                "name:en": "Krasnoye&Beloye",
+                "name:ru": "Красное&Белое",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "contact:phone": "+7 922 7033000",
+                "opening_hours": "Mo-Su 09:00-22:05",
+                "contact:website": "http://www.krasnoeibeloe.ru",
+                "addr:housenumber": "200",
+                "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+                "operator:wikidata": "Q24933790",
+                "operator:wikipedia": "ru:Красное & Белое"
+            },
+            {
+                "name": "Красное&Белое",
+                "shop": "alcohol",
+                "brand": "Красное&Белое",
+                "name:en": "Krasnoye&Beloye",
+                "name:ru": "Красное&Белое",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "contact:phone": "+7 922 7033000",
+                "opening_hours": "Mo-Su 09:00-22:05",
+                "contact:website": "http://www.krasnoeibeloe.ru",
+                "addr:housenumber": "188А",
+                "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+                "operator:wikidata": "Q24933790",
+                "operator:wikipedia": "ru:Красное & Белое"
+            },
+            {
+                "name": "Лион",
+                "shop": "alcohol",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "188"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 6,
+        "detail": [
+            {
+                "ref": "20606888",
+                "name": "Магнит",
+                "shop": "convenience",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "operator": "АО Тандер",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "contact:phone": "+7 800 2009002",
+                "opening_hours": "10:00-22:00",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:website": "http://magnit-info.ru",
+                "addr:housenumber": "204"
+            },
+            {
+                "name": "Стрекоза",
+                "shop": "convenience",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "188А"
+            },
+            {
+                "name": "Хлебная лавка",
+                "shop": "convenience",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "190"
+            },
+            {
+                "name": "Пятёрочка",
+                "shop": "convenience",
+                "name:en": "Pyatyorochka",
+                "name:ru": "Пятёрочка",
+                "operator": "X5 Retail Group",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "contact:phone": "+7 800 5555505",
+                "opening_hours": "08:00-23:00",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:website": "https://5ka.ru",
+                "addr:housenumber": "189"
+            },
+            {
+                "name": "Пятёрочка",
+                "shop": "convenience",
+                "name:en": "Pyatyorochka",
+                "name:ru": "Пятёрочка",
+                "operator": "X5 Retail Group",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "contact:phone": "+7 800 5555505",
+                "opening_hours": "08:00-23:00",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:website": "https://5ka.ru",
+                "addr:housenumber": "198"
+            },
+            {
+                "shop": "convenience",
+                "building": "yes",
+                "addr:city": "Соликамск",
+                "addr:street": "Привокзальная улица",
+                "addr:housenumber": "16А"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "ВСТРЕЧА",
+                "amenity": "cafe",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "196"
+            },
+            {
+                "amenity": "cafe",
+                "building": "yes",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:country": "RU",
+                "addr:housenumber": "196"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магазин - Пекарня",
+                "shop": "bakery",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "196"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Краса",
+                "shop": "beauty",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "194"
+            }
+        ]
+    },
+    "farm": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "СВОЙ",
+                "shop": "farm",
+                "addr:city": "Соликамск",
+                "addr:street": "Набережная улица",
+                "addr:housenumber": "168"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Будь здоров",
+                "amenity": "pharmacy",
+                "addr:city": "Соликамск",
+                "addr:street": "Набережная улица",
+                "addr:housenumber": "168"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Участковый опорный пункт",
+                "amenity": "police",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "190"
+            }
+        ]
+    },
+    "social_facility": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Говоруша, логопедический центр",
+                "amenity": "social_facility",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "198"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Церковь Рождества Иоанна Предтечи",
+                "image": "http://upload.wikimedia.org/wikipedia/commons/1/16/Соликамская_церковь_Иоанна_Предтечи.jpg?uselang=ru",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "heritage": "5",
+                "historic": "heritage",
+                "religion": "christian",
+                "wikidata": "Q4202537",
+                "addr:city": "Соликамск",
+                "wikipedia": "ru:Иоанно-Предтеченская церковь (Соликамск)",
+                "start_date": "1721..1728",
+                "addr:street": "Привокзальная улица",
+                "addr:country": "RU",
+                "denomination": "russian_orthodox",
+                "heritage:ref": "5910063000",
+                "addr:postcode": "618542",
+                "heritage:since": "1960-08-30",
+                "ref:temples.ru": "7555",
+                "contact:website": "http://www.ioann.i-perm.ru",
+                "addr:housenumber": "32Б",
+                "heritage:website": "http://kulturnoe-nasledie.ru/monuments.php?id=5910063000",
+                "heritage:operator": "Федеральная",
+                "year_of_construction": "1728"
+            }
+        ]
+    },
+    "mall": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "МЕГА Ермак",
+                "shop": "mall",
+                "building": "retail",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:country": "RU",
+                "addr:housenumber": "210"
+            },
+            {
+                "shop": "mall",
+                "building": "yes",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "188А"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский дом",
+                "amenity": "social_facility",
+                "building": "kindergarten",
+                "addr:city": "Соликамск",
+                "addr:street": "улица Олега Кошевого",
+                "addr:country": "RU",
+                "building:levels": "2",
+                "social_facility": "group_home",
+                "addr:housenumber": "4",
+                "social_facility:for": "orphan"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash",
+                "building": "yes",
+                "addr:city": "Соликамск",
+                "addr:street": "улица 20-летия Победы",
+                "addr:housenumber": "191А"
+            }
+        ]
+    }
+}

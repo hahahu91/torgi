@@ -1,0 +1,32 @@
+{
+    "residents": 108,
+    "telephone": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "telephone",
+                "operator": "Ростелеком"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Часовня во славу Георгия Победоносца",
+                "amenity": "place_of_worship"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Прионежское РАЙПО, маг. № 41",
+                "shop": "supermarket",
+                "building": "yes",
+                "opening_hours": "Mo-Su 10:00-14:00,15:00-19:00; Tu off"
+            }
+        ]
+    }
+}

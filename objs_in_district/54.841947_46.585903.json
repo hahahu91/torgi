@@ -1,0 +1,475 @@
+{
+    "bus_stop": {
+        "count": 7,
+        "detail": [
+            {
+                "highway": "bus_stop",
+                "name": "Почта",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Почта",
+                "public_transport": "platform"
+            },
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "Администрация",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "Администрация",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "5 Арсенал",
+                "name:cv": "5. арсенал",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "5 Арсенал",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Рынок",
+                "public_transport": "platform",
+                "share_taxi": "yes"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "name:en": "Magnit"
+            }
+        ]
+    },
+    "residents": 2104,
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Золотая Сура",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "parking",
+                "parking": "surface"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "429820",
+                "name": "Алатырь 429820",
+                "amenity": "post_office",
+                "operator": "Почта России",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:phone": "+7 83531 23797",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-18:00; Su 09:00-14:00",
+                "contact:website": "https://www.pochta.ru",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России"
+            }
+        ]
+    },
+    "bench": {
+        "count": 8,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "building": "stands"
+            }
+        ]
+    },
+    "fountain": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fountain"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "52",
+                "addr:postcode": "429800",
+                "addr:street": "Комиссариатская улица",
+                "name": "Русский огород",
+                "name:ru": "Русский огород",
+                "opening_hours": "Mo-Su 09:00-18:00",
+                "phone": "+7 937 3833383",
+                "shop": "hardware"
+            },
+            {
+                "shop": "hardware"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Багира",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "clinic"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Берёзка",
+                "shop": "convenience",
+                "name:en": "Beryozka"
+            },
+            {
+                "name": "Вкус детства (Белоруссия)",
+                "shop": "convenience",
+                "addr:street": "Комиссариатская улица",
+                "addr:housenumber": "42 к1"
+            },
+            {
+                "shop": "convenience",
+                "building": "yes"
+            }
+        ]
+    },
+    "jewelry": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "jewelry"
+            }
+        ]
+    },
+    "interior_decoration": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Обои",
+                "shop": "interior_decoration"
+            }
+        ]
+    },
+    "furnace": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "furnace"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Новый стиль",
+                "shop": "chemist"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "electronics"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Церковь Иоанна Воина",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "religion": "christian",
+                "start_date": "1994..1996",
+                "denomination": "russian_orthodox",
+                "ref:temples.ru": "12606"
+            },
+            {
+                "name": "Церковь Воздвижения Честного Креста Господня",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "religion": "christian",
+                "start_date": "1827",
+                "denomination": "russian_orthodox",
+                "ref:temples.ru": "12605"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Евросеть",
+                "shop": "mobile_phone",
+                "opening_hours": "Mo-Su 08:00-19:00"
+            },
+            {
+                "name": "Связной",
+                "shop": "mobile_phone",
+                "addr:street": "Комиссариатская улица",
+                "opening_hours": "Mo-Su 08:00-19:00",
+                "addr:housenumber": "42"
+            },
+            {
+                "name": "Билайн",
+                "shop": "mobile_phone",
+                "addr:street": "Комиссариатская улица",
+                "opening_hours": "Mo-Su 08:00-19:00",
+                "internet_access": "wlan",
+                "addr:housenumber": "42 к1"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Клиника доктора Волкова",
+                "amenity": "dentist",
+                "addr:street": "Московская улица",
+                "addr:housenumber": "106"
+            }
+        ]
+    },
+    "hunting": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Охота и рыбалка",
+                "shop": "hunting",
+                "addr:street": "Комиссариатская улица",
+                "addr:housenumber": "42 к1"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "За рулём",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "СтройМир",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "music_school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Школа Искусств",
+                "amenity": "music_school"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Дворец Культуры",
+                "phone": "+7 83531 20031",
+                "source": "http://alatyrdk.ru",
+                "amenity": "community_centre",
+                "website": "http://alatyrdk.ru/",
+                "building": "yes",
+                "wheelchair": "yes",
+                "addr:street": "Московская улица",
+                "addr:postcode": "429820",
+                "opening_hours": "08:00-22:00",
+                "addr:housenumber": "106"
+            },
+            {
+                "name": "Дом детского творчества",
+                "amenity": "community_centre",
+                "building": "yes",
+                "roof:shape": "gabled",
+                "addr:street": "Первомайская улица",
+                "roof:colour": "dark_green",
+                "roof:levels": "2",
+                "building:colour": "light_green",
+                "building:levels": "2",
+                "addr:housenumber": "80"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "ДЮСШ №1",
+                "phone": "+78353120153",
+                "leisure": "sports_centre",
+                "building": "school"
+            },
+            {
+                "building": "school",
+                "addr:city": "Алатырь",
+                "addr:street": "Первомайская улица",
+                "building:levels": "2",
+                "addr:housenumber": "76А"
+            }
+        ]
+    },
+    "townhall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Администрация",
+                "phone": "+78353120270",
+                "source": "http://gov.cap.ru/default.aspx?gov_id=56",
+                "amenity": "townhall",
+                "website": "http://gov.cap.ru/default.aspx?gov_id=56",
+                "building": "public",
+                "wikidata": "Q103255",
+                "addr:city": "Алатырь",
+                "wikipedia": "en:Alatyr, Chuvash Republic",
+                "wheelchair": "yes",
+                "addr:street": "Первомайская улица",
+                "addr:postcode": "429820",
+                "building:levels": "3",
+                "addr:housenumber": "87"
+            }
+        ]
+    },
+    "department_store": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Алатырь",
+                "addr:housenumber": "52А",
+                "addr:street": "Комиссариатская улица",
+                "building": "yes",
+                "building:levels": "2",
+                "internet_access": "wlan",
+                "name": "Центральный",
+                "name:en": "Centralniy",
+                "name:ja": "ツェントラーリヌイ",
+                "shop": "department_store",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "mall": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "mall",
+                "building": "yes"
+            },
+            {
+                "addr:city": "Алатырь",
+                "addr:housenumber": "110",
+                "addr:street": "Московская улица",
+                "building": "retail",
+                "name": "Гулливер",
+                "shop": "mall"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "kiosk",
+                "building": "yes"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "commercial",
+                "building:levels": "2"
+            }
+        ]
+    }
+}

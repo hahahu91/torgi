@@ -1,0 +1,233 @@
+{
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "кафе"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Незнайка-1, Алис, ООО",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Аптека №94"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Любимая аптека, ООО"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hardware"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Городской автовокзал",
+                "public_transport": "stop_position"
+            },
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "name": "Междугородний автовокзал",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Администрация",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "sauna"
+            }
+        ]
+    },
+    "fountain": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fountain"
+            }
+        ]
+    },
+    "service": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Амурский филиал страховой компании Колымская",
+                "shop": "service"
+            },
+            {
+                "name": "Стадион г. Амурска , ООО",
+                "amenity": "service"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "height": "4",
+                "location": "indoor",
+                "power": "substation",
+                "substation": "minor_distribution"
+            },
+            {
+                "building": "service",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "pawnbroker": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Городской центр расчетов, Ломбард, ООО",
+                "shop": "pawnbroker"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Кокетка , ООО",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Южанка",
+                "name:ru": "Южанка",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "name": "Росбанк",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "website": "https://www.rosbank.ru/"
+            }
+        ]
+    },
+    "residents": 3348,
+    "photo": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Фоточка",
+                "name:ru": "Фоточка",
+                "shop": "photo"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Молоток",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Десяточка",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "language_school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "28А",
+                "addr:street": "проспект Мира",
+                "amenity": "language_school",
+                "building": "public",
+                "building:levels": "2",
+                "name": "Лингвистическая школа, ННУДО",
+                "office": "educational_institution"
+            }
+        ]
+    },
+    "townhall": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "11",
+                "addr:street": "проспект Мира",
+                "amenity": "townhall",
+                "building": "public",
+                "building:levels": "4",
+                "government": "administrative",
+                "name": "Администрация Амурского муниципального района",
+                "office": "government",
+                "roof:shape": "hipped"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "13А",
+                "addr:street": "проспект Мира",
+                "amenity": "restaurant",
+                "building": "commercial",
+                "building:levels": "1",
+                "cuisine": "regional",
+                "microbrewery": "no",
+                "name": "Релакс"
+            }
+        ]
+    },
+    "music_school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "22А",
+                "addr:street": "проспект Мира",
+                "amenity": "music_school",
+                "building": "public",
+                "building:levels": "2",
+                "education": "facultative_school",
+                "education_form:parttime": "yes",
+                "education_level:primary": "yes",
+                "education_profile:music": "yes",
+                "education_system:ru_standard": "yes",
+                "name": "Музыкальная школа",
+                "office": "educational_institution"
+            }
+        ]
+    }
+}

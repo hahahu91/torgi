@@ -1,0 +1,60 @@
+{
+    "residents": 2589,
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash",
+                "name": "Аква-плюс"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Анютка",
+                "name:ru": "Анютка",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 3,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:city": "Челябинск",
+                "addr:street": "Механическая улица",
+                "addr:postcode": "454081",
+                "building:levels": "3",
+                "addr:housenumber": "61"
+            },
+            {
+                "building": "commercial",
+                "building:levels": "1"
+            },
+            {
+                "addr:city": "Челябинск",
+                "addr:housenumber": "7/1",
+                "addr:street": "улица Героев Танкограда",
+                "building": "commercial",
+                "name": "Автокомплекс АвтоМАркус"
+            }
+        ]
+    },
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fuel",
+                "building": "yes",
+                "building:levels": "1",
+                "fuel:diesel": "yes",
+                "fuel:octane_92": "yes",
+                "fuel:octane_95": "yes",
+                "name": "Прайс"
+            }
+        ]
+    }
+}

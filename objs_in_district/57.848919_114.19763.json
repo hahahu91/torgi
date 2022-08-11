@@ -1,0 +1,544 @@
+{
+    "gift": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Вега",
+                "shop": "gift",
+                "addr:city": "Бодайбо"
+            }
+        ]
+    },
+    "school": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Дом творчества",
+                "amenity": "school",
+                "addr:city": "Бодайбо",
+                "addr:street": "улица Урицкого",
+                "addr:housenumber": "10"
+            },
+            {
+                "name": "Вечерняя школа",
+                "amenity": "school",
+                "addr:city": "Бодайбо",
+                "addr:street": "Почтовый переулок",
+                "addr:housenumber": "4А"
+            },
+            {
+                "building": "school",
+                "addr:city": "Бодайбо",
+                "addr:street": "Почтовый переулок",
+                "addr:housenumber": "4А"
+            }
+        ]
+    },
+    "residents": 10021,
+    "outpost": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "23",
+                "addr:street": "улица Урицкого",
+                "shop": "outpost"
+            }
+        ]
+    },
+    "library": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Городская библиотека",
+                "amenity": "library"
+            },
+            {
+                "name": "Детская библиотека",
+                "amenity": "library"
+            },
+            {
+                "name": "Детская библиотека",
+                "amenity": "library",
+                "building": "yes",
+                "addr:city": "Бодайбо"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:postcode": "666904",
+                "amenity": "pharmacy",
+                "name": "Доверие",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "phone": "+73956151718"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "cuisine": "japanese;italian",
+                "delivery": "Mo-Su 12:00-22:00",
+                "entrance": "yes",
+                "name": "Кьянти",
+                "payment:cash": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "payment:visa_electron": "yes",
+                "phone": "+7 914 9305199",
+                "wheelchair": "no"
+            },
+            {
+                "amenity": "cafe",
+                "name": "Фортуна"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "brand": "СДЭК",
+                "brand:wikidata": "Q28665980",
+                "brand:wikipedia": "ru:СДЭК",
+                "name": "СДЭК"
+            },
+            {
+                "addr:housenumber": "15",
+                "addr:postcode": "666904",
+                "addr:street": "улица Урицкого",
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "name": "Почта № 666904",
+                "opening_hours:covid19": "Mo-Su 08:00-17:00"
+            }
+        ]
+    },
+    "jewelry": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:housenumber": "31А",
+                "addr:street": "улица Урицкого",
+                "name": "Камея",
+                "shop": "jewelry"
+            },
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "13",
+                "addr:street": "улица Мира",
+                "building": "yes",
+                "name": "Ювелирный",
+                "shop": "jewelry"
+            },
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "31А",
+                "addr:street": "улица Урицкого",
+                "building": "yes",
+                "shop": "jewelry"
+            }
+        ]
+    },
+    "parking": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "farm": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "33Б",
+                "addr:street": "улица Карла Либкнехта",
+                "name": "Продукты",
+                "shop": "farm"
+            },
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "33Б",
+                "addr:street": "улица Карла Либкнехта",
+                "building": "yes",
+                "shop": "farm"
+            },
+            {
+                "building": "yes",
+                "shop": "farm"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Омега",
+                "shop": "convenience",
+                "vending": "food"
+            },
+            {
+                "name": "Ангарск",
+                "shop": "convenience"
+            },
+            {
+                "name": "Деликатес",
+                "shop": "convenience",
+                "building": "yes",
+                "addr:city": "Бодайбо"
+            },
+            {
+                "name": "Север",
+                "shop": "convenience",
+                "building": "yes",
+                "addr:city": "Бодайбо"
+            },
+            {
+                "building": "yes",
+                "name": "Mix",
+                "shop": "convenience"
+            },
+            {
+                "addr:housenumber": "19",
+                "addr:street": "улица Карла Либкнехта",
+                "building": "yes",
+                "name": "Витязь",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Стройдвор",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "courthouse": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "7",
+                "addr:street": "улица Мира",
+                "amenity": "courthouse",
+                "name": "Судебный участок № 124"
+            }
+        ]
+    },
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bank",
+                "name": "Ланта-Банк"
+            },
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "20",
+                "amenity": "bank",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "en:Sberbank of Russia",
+                "building": "yes",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Компьютерсервис",
+                "shop": "computer"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Линия уюта",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ангелина",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "language_school": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "language_school",
+                "name": "Центр Иностранных Языков"
+            }
+        ]
+    },
+    "pub": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pub",
+                "name": "Форштатская пивоварня"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "2А",
+                "addr:street": "улица Мира",
+                "building": "commercial",
+                "building:levels": "3",
+                "height": "10"
+            },
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "4",
+                "addr:street": "улица Мира",
+                "building": "commercial",
+                "building:levels": "3",
+                "height": "10",
+                "name": "Лензолото"
+            },
+            {
+                "addr:city": "Бодайбо",
+                "building": "commercial"
+            }
+        ]
+    },
+    "mall": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "8",
+                "addr:street": "улица Урицкого",
+                "building": "yes",
+                "name": "Юбилейный",
+                "shop": "mall"
+            },
+            {
+                "name": "Сфера",
+                "shop": "mall",
+                "building": "yes",
+                "addr:city": "Бодайбо"
+            },
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "44",
+                "addr:street": "улица Карла Либкнехта",
+                "building": "yes",
+                "building:levels": "2",
+                "name": "Олимпия Плаза",
+                "shop": "mall"
+            }
+        ]
+    },
+    "yes": {
+        "count": 5,
+        "detail": [
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "14",
+                "addr:street": "улица Урицкого",
+                "building": "yes",
+                "name": "Ваш Дом",
+                "shop": "yes"
+            },
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "16",
+                "addr:street": "улица Урицкого",
+                "building": "yes",
+                "shop": "yes"
+            },
+            {
+                "name": "Фотомир",
+                "shop": "yes",
+                "building": "yes",
+                "addr:city": "Бодайбо"
+            },
+            {
+                "addr:city": "Бодайбо",
+                "building": "commercial",
+                "building:levels": "2",
+                "name": "Дуэт сити",
+                "shop": "yes"
+            },
+            {
+                "name": "Диковина",
+                "shop": "yes",
+                "building": "yes",
+                "addr:city": "Бодайбо"
+            }
+        ]
+    },
+    "nightclub": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "nightclub",
+                "building": "yes",
+                "addr:city": "Бодайбо"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Бодайбо",
+                "building": "yes",
+                "name": "Стройбат",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ласточка",
+                "shop": "hardware",
+                "building": "yes",
+                "addr:city": "Бодайбо"
+            }
+        ]
+    },
+    "townhall": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "33",
+                "addr:street": "улица Урицкого",
+                "amenity": "townhall",
+                "building": "yes",
+                "name": "администрация г. Бодайбо"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "На камушке",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "religion": "christian",
+                "addr:city": "Бодайбо"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "39",
+                "addr:street": "улица Карла Либкнехта",
+                "building": "yes",
+                "name": "Сапфир",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Бодайбо",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "name": "Золотинка"
+            },
+            {
+                "name": "Радуга",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:city": "Бодайбо"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Бодайбо",
+                "addr:housenumber": "2",
+                "addr:street": "улица Урицкого",
+                "amenity": "bar",
+                "building": "yes",
+                "name": "Лидер"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "yes",
+                "name": "Удачный",
+                "shop": "florist"
+            }
+        ]
+    }
+}

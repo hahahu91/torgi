@@ -1,0 +1,193 @@
+{
+    "residents": 627,
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 6,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Черный кот",
+                "shop": "convenience"
+            },
+            {
+                "name": "Северный градус",
+                "shop": "convenience",
+                "building": "yes"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "branch": "Северо-Западный банк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "ru:Сбербанк России",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://instagram.com/sberbank",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 8202 674017",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "operator": "ПАО Сбербанк",
+                "ref": "8638/0179",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "hifi": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hifi"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "bus_station": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bus_station",
+                "name": "Бабаево"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "162480",
+                "name": "Отделение связи №162480",
+                "amenity": "post_office",
+                "operator": "Почта России",
+                "addr:country": "RU",
+                "contact:phone": "+7 81743 22365",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-18:00; Su 09:00-18:00",
+                "contact:website": "http://www.russianpost.ru"
+            }
+        ]
+    },
+    "music": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Драйв",
+                "shop": "music"
+            }
+        ]
+    },
+    "cinema": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cinema"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "park": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "park",
+                "name": "Площадка, для игры в мини-футбол (В прошлом хокейная коробка)"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "cash_in": "yes",
+                "drive_through": "no",
+                "operator": "АО БАНК СГБ"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Бабаево",
+                "addr:housenumber": "12",
+                "addr:street": "улица Красный Октябрь",
+                "building": "yes",
+                "name": "Николаевский",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "place_of_worship",
+                "building": "church",
+                "religion": "christian",
+                "construction": "yes",
+                "denomination": "orthodox"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "toilets",
+                "building": "yes"
+            }
+        ]
+    }
+}

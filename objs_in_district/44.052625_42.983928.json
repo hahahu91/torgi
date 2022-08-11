@@ -1,0 +1,28 @@
+{
+    "residents": 1320,
+    "bus_stop": {
+        "count": 1,
+        "detail": [
+            {
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "commercial"
+            }
+        ]
+    }
+}

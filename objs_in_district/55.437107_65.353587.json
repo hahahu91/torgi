@@ -1,0 +1,328 @@
+{
+    "residents": 1671,
+    "bus_stop": {
+        "count": 7,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Троицкая площадь",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Троицкая площадь",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Троицкая площадь",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Троицкая площадь",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Центральный рынок",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Центральный рынок",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Центральный рынок",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "police": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Управление ФСБ по Курганской области",
+                "amenity": "police"
+            },
+            {
+                "name": "Управление внутренних дел Курганской области",
+                "amenity": "police",
+                "building": "yes",
+                "addr:street": "улица Куйбышева",
+                "addr:housenumber": "81"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Курган",
+                "addr:housenumber": "62Б",
+                "addr:postcode": "640000",
+                "addr:street": "улица Куйбышева",
+                "brand": "Связной",
+                "brand:en": "Svyaznoy",
+                "brand:wikidata": "Q65371",
+                "brand:wikipedia": "en:Svyaznoy",
+                "name": "Связной",
+                "name:en": "Svyaznoy",
+                "opening_hours": "9:00-21:00",
+                "shop": "mobile_phone",
+                "website": "http://www.svyaznoy.ru/"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Гости",
+                "amenity": "restaurant",
+                "website": "http://restoclub45.ru/",
+                "addr:city": "Курган",
+                "addr:street": "улица Пичугина",
+                "addr:housenumber": "6 с2"
+            },
+            {
+                "name": "Мишель",
+                "amenity": "restaurant",
+                "cuisine": "french",
+                "internet_access": "wlan"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "shop": "supermarket"
+            },
+            {
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "shop": "supermarket"
+            },
+            {
+                "addr:city": "Курган",
+                "addr:country": "RU",
+                "addr:housenumber": "107А",
+                "addr:postcode": "640018",
+                "addr:street": "Советская улица",
+                "building": "yes",
+                "building:levels": "2",
+                "name": "Метрополис",
+                "opening_hours": "Mo-Su,PH 08:00-22:00",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "hotline@belwest.by",
+                "contact:facebook": "https://www.facebook.com/belwest.shoes/",
+                "contact:instagram": "https://www.instagram.com/belwest.shoes/",
+                "contact:ok": "https://ok.ru/belwest.shoes",
+                "contact:phone": "+7 352 2603133",
+                "contact:vk": "https://vk.com/belwest.shoes",
+                "contact:youtube": "https://www.youtube.com/channel/UCMxwgKfu3jxDiv9lAdluR1Q",
+                "name": "Belwest",
+                "opening_hours": "Mo-Fr 10:00-20:00;Sa-Su 10:00-19:00",
+                "operator": "Белвест Ритейл Москва",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "lukmanov.rr@dns-shop.ru",
+                "contact:phone": "+7 800 7707999",
+                "contact:website": "http://dns-shop.ru/",
+                "name": "DNS",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "operator": "ДНС Ритейл",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "1",
+                "addr:postcode": "640018",
+                "addr:street": "Троицкая площадь",
+                "amenity": "arts_centre",
+                "building": "public",
+                "building:levels": "3",
+                "name": "Курганская Областная Филармония",
+                "wheelchair": "yes",
+                "wikidata": "Q4248051",
+                "wikipedia": "ru:Курганская областная филармония"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Зауральский Торговый Дом",
+                "shop": "clothes",
+                "building": "yes",
+                "addr:street": "улица Куйбышева",
+                "building:levels": "3",
+                "addr:housenumber": "68"
+            },
+            {
+                "name": "Зауральский Торговый Дом",
+                "shop": "clothes",
+                "building": "yes",
+                "addr:street": "улица Куйбышева",
+                "building:levels": "3",
+                "addr:housenumber": "68"
+            }
+        ]
+    },
+    "fire_station": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пожарная часть №9",
+                "height": "27",
+                "amenity": "fire_station",
+                "tourism": "yes",
+                "website": "http://kurgan.pro/okn/n027/",
+                "building": "yes",
+                "historic": "heritage",
+                "old_name": "Пожарное депо",
+                "start_date": "1882",
+                "addr:street": "улица Куйбышева",
+                "description": "Объект культурного наследия регионального значения (027)",
+                "addr:housenumber": "62"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "72Б",
+                "addr:postcode": "640000",
+                "addr:street": "улица Куйбышева",
+                "building": "yes",
+                "name": "ТЦ \"Даниловский\"",
+                "shop": "mall"
+            }
+        ]
+    },
+    "marketplace": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Центральный рынок",
+                "amenity": "marketplace",
+                "building": "yes",
+                "addr:street": "улица Куйбышева",
+                "addr:housenumber": "74"
+            }
+        ]
+    },
+    "theatre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Курган",
+                "addr:country": "RU",
+                "addr:housenumber": "104",
+                "addr:street": "Советская улица",
+                "amenity": "theatre",
+                "building": "public",
+                "building:levels": "2",
+                "description": "Объект культурного наследия регионального значения (053)",
+                "email": "office@gulliver45.ru",
+                "historic": "heritage",
+                "name": "Курганский театр кукол «Гулливер»",
+                "old_name": "Доходный дом Васильевых",
+                "operator": "ГБУК «Курганский театр кукол «Гулливер»",
+                "phone": "+7 352 246-62-62",
+                "ref:mkrf_theaters": "12431",
+                "start_date": "1899",
+                "tourism": "yes",
+                "website": "http://www.gulliver45.ru/"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Библиотека им. Н.А. Островского",
+                "amenity": "library",
+                "building": "yes",
+                "addr:street": "улица Ленина",
+                "addr:housenumber": "4"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "PAPIN beer BAR",
+                "amenity": "bar",
+                "building": "yes",
+                "addr:city": "Курган",
+                "addr:street": "Троицкая площадь",
+                "addr:postcode": "640018",
+                "addr:housenumber": "1А"
+            }
+        ]
+    }
+}

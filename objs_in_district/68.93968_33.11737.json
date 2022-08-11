@@ -1,0 +1,117 @@
+{
+    "residents": 2607,
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "dispensing": "no",
+                "name": "Аптечный пункт"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Морская улица",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Морская улица",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Поликлиника №5",
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ЦГБ филиал №1",
+                "amenity": "library",
+                "operator": "Центральная городская библиотека",
+                "official_name": "Информационный интеллект-центр - филиал №1",
+                "contact:website": "http://murmanlib.ru"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Центр спортивной подготовки Мурманской области",
+                "leisure": "sports_centre",
+                "name:ru": "Центр спортивной подготовки Мурманской области"
+            },
+            {
+                "name": "Легкоатлетический манеж",
+                "leisure": "sports_centre",
+                "building": "yes",
+                "addr:city": "Мурманск",
+                "addr:street": "улица Долина Уюта",
+                "addr:housenumber": "6"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Гимназия №7",
+                "amenity": "school",
+                "building": "school",
+                "addr:city": "Мурманск",
+                "addr:street": "улица Зои Космодемьянской",
+                "contact:email": "gimn7mur@mail.ru",
+                "contact:phone": "+7 8152 245124",
+                "building:levels": "2",
+                "contact:website": "http://gimn7mur.narod.ru",
+                "addr:housenumber": "13"
+            },
+            {
+                "name": "Средняя школа №17",
+                "amenity": "school",
+                "building": "school",
+                "addr:city": "Мурманск",
+                "addr:street": "улица Олега Кошевого",
+                "contact:email": "school17_murm@mail.ru",
+                "contact:phone": "+7 8152 245278",
+                "building:levels": "2",
+                "contact:website": "http://sc-17.ru/",
+                "addr:housenumber": "12А"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Поликлиника №5",
+                "amenity": "doctors",
+                "building": "yes",
+                "addr:city": "Мурманск",
+                "addr:street": "Морская улица",
+                "building:levels": "4",
+                "addr:housenumber": "9"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский сад №157",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:city": "Мурманск",
+                "addr:street": "Морская улица",
+                "building:levels": "2",
+                "addr:housenumber": "13"
+            }
+        ]
+    }
+}

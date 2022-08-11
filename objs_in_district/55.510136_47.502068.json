@@ -1,0 +1,472 @@
+{
+    "residents": 4509,
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Дворец культуры",
+                "highway": "bus_stop",
+                "name:cv": "Культура ҫурчӗ"
+            },
+            {
+                "name": "Дворец культуры",
+                "highway": "bus_stop",
+                "name:cv": "Культура керменӗ"
+            },
+            {
+                "name": "Рынок",
+                "highway": "bus_stop",
+                "name:cv": "Пасар"
+            }
+        ]
+    },
+    "fountain": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fountain"
+            }
+        ]
+    },
+    "department_store": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Лидер",
+                "shop": "department_store"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Камея"
+            },
+            {
+                "name": "Пельменная",
+                "amenity": "cafe",
+                "name:ru": "Пельменная"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Чебоксарский трикотаж",
+                "shop": "clothes"
+            },
+            {
+                "name": "Westfalika",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "МТС",
+                "shop": "mobile_phone"
+            },
+            {
+                "name": "Мегафон",
+                "shop": "mobile_phone",
+                "name:en": "Megafon",
+                "name:ru": "Мегафон"
+            },
+            {
+                "name": "Теле 2",
+                "shop": "mobile_phone"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Центральный",
+                "name:ja": "ツェントラーリヌイ",
+                "shop": "mall"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Аптека №78",
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Добрый аптекарь",
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Магия"
+            }
+        ]
+    },
+    "books": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Книжный мир",
+                "shop": "books"
+            }
+        ]
+    },
+    "atm": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Банк Москвы",
+                "amenity": "atm",
+                "operator": "Банк Москвы"
+            },
+            {
+                "amenity": "atm",
+                "cash_in": "no",
+                "operator": "ВТБ24"
+            },
+            {
+                "amenity": "atm",
+                "brand": "Ак Барс Банк",
+                "contact:email": "kanc@akbars.ru",
+                "contact:facebook": "https://www.facebook.com/akbarsbank",
+                "contact:instagram": "https://www.instagram.com/akbars_bank/",
+                "contact:ok": "https://ok.ru/akbarsbank",
+                "contact:phone": "+7 800 2005303",
+                "contact:twitter": "https://twitter.com/akbars_ru",
+                "contact:vk": "https://vk.com/akbars_ru",
+                "contact:website": "https://akbars.ru/",
+                "opening_hours": "24/7",
+                "operator": "Ак Барс Банк",
+                "telegram": "https://t.me/akbars_ru"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Жаннет",
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дантист",
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Крепеж",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Канашская библиотека",
+                "amenity": "library"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "contact:phone": "+7 83533 21328",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Канаш 429334",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-18:00",
+                "operator": "Почта России",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России",
+                "ref": "429334"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Магнит У дома",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Чайка",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Чувашпечать",
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "driving_school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сова",
+                "phone": "+7 83533 20222;+7 937 3886161",
+                "amenity": "driving_school",
+                "website": "https://avtosova.ru/",
+                "license_classes": "B"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Зубная поликлиника",
+                "amenity": "clinic"
+            }
+        ]
+    },
+    "photo": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Народное фото",
+                "opening_hours": "Mo-Fr 09:00-18:00; Sa-Su 09:00-17:00",
+                "shop": "photo"
+            },
+            {
+                "operator": "ИП Фейгин",
+                "shop": "photo"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Добропек",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 8,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Триумф-сервис",
+                "shop": "convenience"
+            },
+            {
+                "name": "Школьник",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "ТЦ \"Татьяна\"",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "1000 мелочей",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "toys": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Малышок",
+                "shop": "toys"
+            },
+            {
+                "name": "Мишутка",
+                "shop": "toys"
+            }
+        ]
+    },
+    "seafood": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Океан",
+                "shop": "seafood"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "name": "Шаурма"
+            },
+            {
+                "amenity": "fast_food",
+                "name": "Crazy Burger"
+            },
+            {
+                "amenity": "fast_food",
+                "name": "Love Бар"
+            },
+            {
+                "amenity": "fast_food",
+                "name": "Самурай"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Цветы",
+                "shop": "florist"
+            },
+            {
+                "name": "Цветы",
+                "shop": "florist"
+            }
+        ]
+    },
+    "cinema": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cinema"
+            }
+        ]
+    },
+    "photo_studio": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Май",
+                "shop": "photo_studio"
+            }
+        ]
+    },
+    "parking": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "access": "customers",
+                "amenity": "parking",
+                "fee": "no",
+                "parking": "surface"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "contact:email": "kanc@akbars.ru",
+                "contact:facebook": "https://www.facebook.com/akbarsbank",
+                "contact:instagram": "https://www.instagram.com/akbars_bank/",
+                "contact:ok": "https://ok.ru/akbarsbank",
+                "contact:phone": "+7 800 2005303",
+                "contact:twitter": "https://twitter.com/akbars_ru",
+                "contact:vk": "https://vk.com/akbars_ru",
+                "contact:website": "https://akbars.ru/",
+                "name": "Ак Барс Банк",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "operator": "АК БАРС БАНК",
+                "telegram": "https://t.me/akbars_ru"
+            }
+        ]
+    },
+    "doors": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "doors"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пивоман",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Cardan",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "addr:street": "проспект Ленина",
+                "addr:housenumber": "29"
+            }
+        ]
+    }
+}

@@ -1,0 +1,236 @@
+{
+    "social_facility": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Благое дело",
+                "amenity": "social_facility"
+            }
+        ]
+    },
+    "residents": 549,
+    "veterinary": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ветеринарный пункт",
+                "amenity": "veterinary"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ДК \"Металлург\"",
+                "amenity": "community_centre"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Джоли и Питъ",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Надежда",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Милан",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Отделение полиции",
+                "amenity": "police"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Стиль",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "toys": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Умные игрушки",
+                "shop": "toys"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "highway": "bus_stop",
+                "shelter": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мясная лавка",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Билиотека",
+                "amenity": "library"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Центральный",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "5",
+                "addr:postcode": "624170",
+                "addr:street": "улица 8 Марта",
+                "amenity": "bank",
+                "branch": "Уральский банк",
+                "contact:phone": "+7 800 5555550",
+                "contact:website": "https://www.sberbank.ru",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 10:00-13:00,14:00-17:30",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "phone": "+7 34370 59475",
+                "ref": "7003/0836",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Почта России",
+                "amenity": "post_office"
+            }
+        ]
+    },
+    "stripclub": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Martin",
+                "amenity": "stripclub"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сауна",
+                "phone": "+7 34370 55510",
+                "leisure": "sauna",
+                "addr:street": "улица Рабочей Молодёжи",
+                "addr:postcode": "624170",
+                "opening_hours": "24/7",
+                "addr:housenumber": "6"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Монетка",
+                "shop": "supermarket",
+                "building": "yes",
+                "addr:city": "Верх-Нейвинский",
+                "addr:street": "улица Ленина",
+                "addr:housenumber": "18"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "arts_centre",
+                "building": "yes",
+                "addr:city": "Новоуральск",
+                "addr:street": "улица Рабочей Молодёжи",
+                "addr:housenumber": "2"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "school",
+                "building": "yes",
+                "name": "Школа им, Арапова"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Автозапчасти",
+                "shop": "car_repair",
+                "building": "yes"
+            }
+        ]
+    }
+}

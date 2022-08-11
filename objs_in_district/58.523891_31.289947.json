@@ -1,0 +1,624 @@
+{
+    "residents": 1056,
+    "bicycle_parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            },
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "branch": "Северо-Западный банк",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "en:Sberbank of Russia",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://instagram.com/sberbank",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo,We-Sa 10:00-15:00; Tu 10:30-15:00",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "8629/01440",
+                "wheelchair": "yes"
+            },
+            {
+                "addr:city": "Великий Новгород",
+                "addr:housenumber": "7А",
+                "addr:street": "Бояна улица",
+                "amenity": "bank",
+                "atm": "yes",
+                "building": "yes",
+                "contact:email": "kanc@akbars.ru",
+                "contact:facebook": "https://www.facebook.com/akbarsbank",
+                "contact:instagram": "https://www.instagram.com/akbars_bank/",
+                "contact:ok": "https://ok.ru/akbarsbank",
+                "contact:phone": "+7 800 2005303",
+                "contact:telegram": "https://t.me/akbars_ru",
+                "contact:twitter": "https://twitter.com/akbars_ru",
+                "contact:vk": "https://vk.com/akbars_ru",
+                "contact:website": "https://akbars.ru/",
+                "name": "Ак Барс Банк",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "operator": "АК БАРС БАНК"
+            }
+        ]
+    },
+    "atm": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Балтийский банк",
+                "amenity": "atm",
+                "operator": "Балтийский банк"
+            },
+            {
+                "name": "Сбербанк",
+                "phone": "+7 800 5555550",
+                "amenity": "atm",
+                "name:ru": "Сбербанк",
+                "website": "https://www.sberbank.ru/",
+                "operator": "ПАО Сбербанк"
+            },
+            {
+                "name": "Новобанк (24ч.)",
+                "amenity": "atm",
+                "operator": "Новобанк"
+            },
+            {
+                "amenity": "atm",
+                "contact:email": "kanc@akbars.ru",
+                "contact:facebook": "https://www.facebook.com/akbarsbank",
+                "contact:instagram": "https://www.instagram.com/akbars_bank/",
+                "contact:ok": "https://ok.ru/akbarsbank",
+                "contact:phone": "+7 800 2005303",
+                "contact:telegram": "https://t.me/akbars_ru",
+                "contact:twitter": "https://twitter.com/akbars_ru",
+                "contact:vk": "https://vk.com/akbars_ru",
+                "contact:website": "https://akbars.ru/",
+                "name": "Ак Барс Банк",
+                "opening_hours": "Mo-Fr 09:00 - 18:00",
+                "operator": "АК БАРС БАНК"
+            },
+            {
+                "amenity": "atm",
+                "contact:email": "kanc@akbars.ru",
+                "contact:facebook": "https://www.facebook.com/akbarsbank",
+                "contact:instagram": "https://www.instagram.com/akbars_bank/",
+                "contact:ok": "https://ok.ru/akbarsbank",
+                "contact:phone": "+7 800 2005303",
+                "contact:twitter": "https://twitter.com/akbars_ru",
+                "contact:vk": "https://vk.com/akbars_ru",
+                "contact:website": "https://akbars.ru/",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "operator": "Ак Барс Банк",
+                "telegram": "https://t.me/akbars_ru"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "note": "проверено 26.12.2015"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Панацея-Н",
+                "note": "проверено 27.12.2015"
+            },
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "veterinary": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ветеринарная станция",
+                "amenity": "veterinary"
+            }
+        ]
+    },
+    "bicycle": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пелетон",
+                "note": "проверено 26.12.2015",
+                "shop": "bicycle"
+            }
+        ]
+    },
+    "taxi": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "taxi"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Любек",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Диез",
+                "amenity": "cafe",
+                "opening_hours": "Mo-Su 10:00-20:00"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "alt_name": "Пятерочка",
+                "alt_name:ru": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "phone": "+7 800 5555505",
+                "shop": "supermarket",
+                "website": "https://5ka.ru/"
+            },
+            {
+                "brand": "Светофор",
+                "brand:en": "Svetofor",
+                "brand:wikidata": "Q61875920",
+                "name": "Светофор",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Диез",
+                "shop": "electronics"
+            },
+            {
+                "contact:phone": "+7 800 7707999",
+                "contact:website": "http://dns-shop.ru/",
+                "name": "DNS",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "operator": "Днс Ритейл",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Большая Московская улица",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "ул. Фёдоровский ручей",
+                "public_transport": "platform"
+            },
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "ул. Федоровский ручей",
+                "public_transport": "platform",
+                "ref": "34",
+                "shelter": "yes",
+                "source": "http://gazetanovgorod.ru/index.php?option=com_docman&task=doc_download&gid=72&Itemid=51"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Большая Московская улица",
+                "public_transport": "platform",
+                "ref": "25"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Центральная городская библиотека им. Д. Балашова",
+                "amenity": "library"
+            }
+        ]
+    },
+    "pub": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Тайм-Аут",
+                "amenity": "pub"
+            },
+            {
+                "name": "Самовар",
+                "note": "проверено 26.12.2015",
+                "amenity": "pub"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Алкон Лада",
+                "shop": "convenience"
+            },
+            {
+                "name": "лактис",
+                "shop": "convenience"
+            },
+            {
+                "name": "Универсам Магнит",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "note": "проверено 26.12.2015",
+                "shop": "butcher",
+                "operator": "Великолукский мясокомбинат"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "fast_food"
+            },
+            {
+                "name": "Дом быта",
+                "amenity": "fast_food",
+                "cuisine": "burger",
+                "addr:street": "улица Фёдоровский Ручей"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Пиццерия",
+                "note": "проверено 26.12.2015",
+                "amenity": "restaurant",
+                "cuisine": "pizza"
+            },
+            {
+                "addr:city": "Великий Новгород",
+                "addr:housenumber": "52/9",
+                "addr:street": "Большая Московская улица",
+                "amenity": "restaurant",
+                "cuisine": "regional",
+                "name": "My Kitchen",
+                "opening_hours": "Mo-Su 12:00-02:00",
+                "website": "https://vk.com/my_kitchen_vn"
+            }
+        ]
+    },
+    "books": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:postcode": "173004",
+                "brand": "Буквоед",
+                "brand:wikidata": "Q4098549",
+                "brand:wikipedia": "ru:Буквоед",
+                "name": "Буквоед",
+                "note": "проверено 26.12.2015: \"Буквоед\"",
+                "phone": "+7 8162 660860",
+                "shop": "books"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Кари",
+                "name:en": "Kari",
+                "name:ru": "Кари",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "clothes"
+            },
+            {
+                "name": "Диез",
+                "shop": "clothes",
+                "name:ru": "Диез",
+                "opening_hours": "Mo-Su 10:00-20:00"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сервис центр магазина Усадьба",
+                "shop": "car_repair",
+                "name:ru": "Сервис центр магазина Усадьба"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Столберри",
+                "shop": "furniture",
+                "name:ru": "Столберри"
+            },
+            {
+                "brand": "Askona",
+                "brand:wikidata": "Q4071319",
+                "brand:wikipedia": "ru:Аскона (компания)",
+                "contact:email": "welcome@askona.ru",
+                "contact:phone": "+7 816 2682054",
+                "contact:website": "https://www.askona.ru/",
+                "name": "Askona",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "operator": "Торговый Дом «Аскона»",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "garden_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Усадьба",
+                "shop": "garden_centre",
+                "name:ru": "Усадьба"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "старорусская мельница",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "nightclub": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "nightclub",
+                "name": "Genesis",
+                "opening_hours": "Fr,Sa 22:00-06:00"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Бургер Папа",
+                "phone": "+7 8162 558719",
+                "amenity": "bar"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "kindergarten",
+                "building": "kindergarten",
+                "design:ref": "2-04-651/5",
+                "addr:street": "Славная улица",
+                "building:levels": "2",
+                "addr:housenumber": "55А"
+            },
+            {
+                "building": "kindergarten",
+                "design:ref": "2-04-651/5",
+                "addr:street": "Большая Московская улица",
+                "building:levels": "2",
+                "addr:housenumber": "21А"
+            },
+            {
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:street": "улица Герасименко-Маницына",
+                "addr:housenumber": "5"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 5,
+        "detail": [
+            {
+                "addr:city": "Великий Новгород",
+                "addr:housenumber": "36",
+                "addr:street": "Большая Московская улица",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "denomination": "russian_orthodox",
+                "historic": "yes",
+                "name": "Церковь Климента",
+                "religion": "christian",
+                "start_date": "1386;1519",
+                "wikidata": "Q4504756",
+                "wikipedia": "ru:Церковь Климента (Великий Новгород)"
+            },
+            {
+                "addr:city": "Великий Новгород",
+                "addr:housenumber": "48А",
+                "addr:street": "Большая Московская улица",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "denomination": "russian_orthodox",
+                "historic": "yes",
+                "name": "Церковь Никиты Мученика",
+                "religion": "christian",
+                "wikidata": "Q4504805",
+                "wikipedia": "ru:Церковь Никиты Мученика (Великий Новгород)"
+            },
+            {
+                "addr:city": "Великий Новгород",
+                "addr:housenumber": "19А",
+                "addr:street": "улица Фёдоровский Ручей",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "denomination": "russian_orthodox",
+                "historic": "yes",
+                "name": "Церковь Фёдора Стратилата на Ручью",
+                "religion": "christian",
+                "start_date": "1360",
+                "wikidata": "Q4505275",
+                "wikipedia": "ru:Церковь Феодора Стратилата на Ручью"
+            },
+            {
+                "addr:city": "Великий Новгород",
+                "addr:housenumber": "42",
+                "addr:street": "Большая Московская улица",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "denomination": "russian_orthodox",
+                "historic": "yes",
+                "name": "Церковь Димитрия Солунского",
+                "religion": "christian",
+                "start_date": "1462",
+                "tourism": "attraction",
+                "wikidata": "Q4504683",
+                "wikipedia": "ru:Церковь Димитрия Солунского (Великий Новгород)"
+            },
+            {
+                "addr:city": "Великий Новгород",
+                "addr:street": "Большая Московская улица",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "denomination": "russian_orthodox",
+                "historic": "yes",
+                "man_made": "tower",
+                "name": "Колокольня",
+                "religion": "christian",
+                "tourism": "attraction",
+                "tower:type": "bell_tower"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Школа №8",
+                "amenity": "school",
+                "building": "school",
+                "design:ref": "2Р-02-1",
+                "addr:street": "улица Фёдоровский Ручей",
+                "building:levels": "3",
+                "addr:housenumber": "19"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Великий Новгород",
+                "addr:housenumber": "15А",
+                "addr:street": "улица Фёдоровский Ручей",
+                "building": "yes",
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "college": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Великий Новгород",
+                "addr:housenumber": "10/48",
+                "addr:housenumber_1": "48/10",
+                "addr:street": "улица Фёдоровский Ручей",
+                "addr:street_1": "улица Михайлова",
+                "amenity": "college",
+                "building": "yes",
+                "name": "Кооперативный техникум"
+            }
+        ]
+    },
+    "fire_station": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Великий Новгород",
+                "addr:housenumber": "27",
+                "addr:street": "Михайлова улица",
+                "amenity": "fire_station",
+                "building": "yes",
+                "name": "Пожарная часть",
+                "operator": "RU-NGR"
+            }
+        ]
+    }
+}

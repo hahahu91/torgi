@@ -1,0 +1,804 @@
+{
+    "optician": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "optician"
+            },
+            {
+                "shop": "optician"
+            },
+            {
+                "level": "1",
+                "name": "Новое зрение",
+                "opening_hours": "Mo-Sa 10:00-20:00; Su 11:00-20:00",
+                "shop": "optician",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "furniture"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Балтика-Мед",
+                "phone": "+7 812 6636351",
+                "amenity": "pharmacy",
+                "website": "http://www.baltikamed1.spb.ru/",
+                "opening_hours": "08:00-23:30"
+            },
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:facebook": "http://facebook.com/aptekivita",
+                "contact:instagram": "https://www.instagram.com/vita_express/",
+                "contact:phone": "+7 800 755-00-03",
+                "contact:vk": "https://vk.com/aptekivita",
+                "contact:website": "https://vitaexpress.ru/",
+                "name": "Вита Экспресс",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "residents": 6740,
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "bic": "VTBRRUMM",
+                "name": "ВТБ",
+                "brand": "ВТБ",
+                "amenity": "bank",
+                "name:en": "VTB",
+                "name:ru": "ВТБ",
+                "operator": "Банк ВТБ (публичное акционерное общество)",
+                "contact:vk": "https://vk.com/vtb",
+                "contact:email": "info@vtb.ru",
+                "contact:phone": "+7 800 2007799",
+                "contact:twitter": "https://twitter.com/vtb",
+                "contact:website": "https://www.vtb.ru",
+                "contact:youtube": "https://www.youtube.com/user/vtbgroup",
+                "contact:facebook": "https://www.facebook.com/vtbgroup",
+                "operator:wikidata": "Q1549389",
+                "operator:wikipedia": "ru:Банк ВТБ"
+            }
+        ]
+    },
+    "payment_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "payment_centre",
+                "brand": "Петроэлектросбыт",
+                "contact:facebook": "petroelektrosbyt",
+                "contact:twitter": "zao_pes",
+                "contact:vk": "petroelektrosbyt",
+                "office": "energy_supplier",
+                "opening_hours": "Mo-Sa 08:30-19:30; Su off",
+                "operator": "АО «Петроэлектросбыт»",
+                "phone": "+7 812 6792222",
+                "website": "https://www.pes.spb.ru/"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "contact:email": "sushi-wok@ya.ru",
+                "contact:phone": "+7 812 9875115",
+                "contact:website": "http://www.sushi-wok.ru/",
+                "cuisine": "asian",
+                "name": "Суши WOK",
+                "opening_hours": "Mo-Su 10:00-23:00"
+            },
+            {
+                "amenity": "fast_food",
+                "cuisine": "kebab",
+                "level": "1",
+                "name": "Шаверма",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "универсам «Гаванский»",
+                "public_transport": "platform",
+                "share_taxi": "yes",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "trolleybus": "yes",
+                "wheelchair": "limited"
+            },
+            {
+                "bus": "yes",
+                "ref": "1;6;6А;10;41;100;158",
+                "name": "универсам «Гаванский»",
+                "operator": "СПб ГУП \"Организатор перевозок\"",
+                "share_taxi": "yes",
+                "trolleybus": "yes",
+                "tactile_paving": "no",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "ref": "1;6;6А;10;42;100;158",
+                "name": "универсам «Гаванский»",
+                "operator": "СПб ГУП \"Организатор перевозок\"",
+                "share_taxi": "yes",
+                "trolleybus": "yes",
+                "tactile_paving": "no",
+                "public_transport": "stop_position"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "универсам «Гаванский»",
+                "public_transport": "platform",
+                "share_taxi": "yes",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "trolleybus": "yes",
+                "wheelchair": "limited"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "toilets",
+                "fee": "yes",
+                "opening_hours": "08:30-21:00",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "bicycle_parking": "stands",
+                "capacity": "12",
+                "covered": "no"
+            },
+            {
+                "access": "private",
+                "amenity": "bicycle_parking"
+            },
+            {
+                "access": "private",
+                "amenity": "bicycle_parking"
+            },
+            {
+                "fee": "no",
+                "amenity": "bicycle_parking",
+                "covered": "no",
+                "supervised": "no",
+                "opening_hours": "24/7",
+                "bicycle_parking": "rack"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 7,
+        "detail": [
+            {
+                "amenity": "waste_basket",
+                "check_date": "2021-04-26"
+            },
+            {
+                "amenity": "waste_basket",
+                "check_date": "2021-01-07"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket",
+                "check_date": "2021-01-07"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "photo": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "photo",
+                "phone": "+7 952 3892298",
+                "opening_hours": "Mo-Sa 10:00-20:00; Su 11:00-19:00"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "greengrocer"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "ГОУ ДОД \"На Васильевском\"",
+                "amenity": "arts_centre"
+            },
+            {
+                "name": "ГОУ ДОД \"На Васильевском\"",
+                "amenity": "arts_centre"
+            }
+        ]
+    },
+    "bench": {
+        "count": 13,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "check_date": "2021-01-07"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "check_date": "2021-01-07"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "check_date": "2021-01-07"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "check_date": "2021-01-07"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "layer": "1",
+                "amenity": "bench"
+            },
+            {
+                "layer": "1",
+                "amenity": "bench"
+            },
+            {
+                "layer": "1",
+                "amenity": "bench"
+            },
+            {
+                "layer": "1",
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "brown",
+                "material": "wood",
+                "seats": "2"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Участковый пункт",
+                "amenity": "police"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Садовод",
+                "shop": "hardware"
+            },
+            {
+                "name": "Пакеты",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "books": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Книжный магазин",
+                "shop": "books"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Филя",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "shop": "pet"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Улыбка радуги",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Салон красоты",
+                "shop": "beauty"
+            },
+            {
+                "check_date:opening_hours": "2020-11-04",
+                "name": "Нью",
+                "name:ru": "Нью",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "parking": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "parking",
+                "parking": "surface",
+                "parking:primary_usage": "residents"
+            },
+            {
+                "amenity": "parking",
+                "parking": "surface",
+                "parking:primary_usage": "residents"
+            },
+            {
+                "access": "private",
+                "amenity": "parking",
+                "parking": "underground",
+                "building": "parking",
+                "addr:city": "Санкт-Петербург",
+                "addr:letter": "Б",
+                "addr:street": "улица Кораблестроителей",
+                "addr:country": "RU",
+                "building:part": "roof",
+                "building:levels": "1",
+                "addr:housenumber": "37 к4"
+            },
+            {
+                "access": "private",
+                "amenity": "parking",
+                "parking": "underground",
+                "building": "parking",
+                "building:parts": "horizontal",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "training": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ДЮСШ №2",
+                "amenity": "training",
+                "alt_name": "ДЮСШ №2 Василеостровского района Санкт-Петербурга",
+                "training": "sport",
+                "education": "facultative_school",
+                "contact:phone": "+78124098382",
+                "contact:website": "http://dush2-vo.ru/",
+                "education_form:parttime": "yes",
+                "education_level:primary": "yes",
+                "education_profile:sport": "yes",
+                "education_system:ru_standard": "yes"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling",
+                "description": "Это остановка и тут нет никакого контейнера",
+                "recycling:clothes": "yes",
+                "recycling:shoes": "yes",
+                "recycling_type": "container",
+                "source": "local_knowledge",
+                "website": "http://www.lepta.info/"
+            }
+        ]
+    },
+    "swimming_pool": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "ccr@fhclub.ru",
+                "contact:instagram": "https://www.instagram.com/fitnesshouse",
+                "contact:phone": "+7 812 6100606",
+                "contact:vk": "https://vk.com/fitnesshouse",
+                "contact:website": "https://www.fitnesshouse.ru/",
+                "contact:youtube": "https://www.youtube.com/user/fitnessHouse6100606",
+                "leisure": "swimming_pool",
+                "name": "Fitness House",
+                "opening_hours": "Mo-Fr 07:00-23:00;Sa-Su 08:00-22:00",
+                "operator": "ИП Шкуратова С.А."
+            }
+        ]
+    },
+    "financial_advice": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:comment": "4 этаж, офис 17",
+                "addr:full": "Санкт-Петербург, переулок Каховского, 12",
+                "amenity": "financial_advice",
+                "contact:instagram": "https://www.instagram.com/bfnika",
+                "contact:vk": "https://vk.com/club19688033",
+                "image": "https://p2.zoon.ru/1/a/5746351840c088c4398c3765_5cb0811616c45.jpg",
+                "name": "Ника",
+                "opening_hours": "Mo-Fr 09:30-17:00; Sa-Su off",
+                "phone": "+7 921 9115253;+7 812 4590333",
+                "website": "https://bfnika.ru/"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "contact:email": "cc@bspb.ru",
+                "contact:facebook": "https://www.facebook.com/bspb/",
+                "contact:instagram": "https://instagram.com/bank_spb",
+                "contact:ok": "https://ok.ru/bspb",
+                "contact:phone": "+7 800 2225050;+7 812 3295050",
+                "contact:twitter": "https://twitter.com/bank_spb",
+                "contact:vk": "https://vk.com/bspb",
+                "contact:website": "https://www.bspb.ru/",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "Санкт-Петербург",
+                "telegram": "https://t.me/mybspb"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "shop": "supermarket"
+            },
+            {
+                "brand": "Перекрёсток",
+                "brand:en": "Perekryostok",
+                "brand:wikidata": "Q1684639",
+                "brand:wikipedia": "en:Perekrestok (supermarket chain)",
+                "name": "Перекрёсток",
+                "opening_hours": "24/7",
+                "operator": "Торговый дом \"ПЕРЕКРЕСТОК\"",
+                "phone": "+7 812 4483010",
+                "shop": "supermarket",
+                "website": "https://www.perekrestok.ru/"
+            },
+            {
+                "addr:housenumber": "42",
+                "addr:street": "Наличная улица",
+                "building": "retail",
+                "building:levels": "2",
+                "name": "Универсам «Гаванский»",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Глав Пиво",
+                "opening_hours": "Mo-Su 11:00-22:00",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "yes",
+                "leisure": "playground"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "40 к3",
+                "addr:street": "Наличная улица",
+                "building": "kindergarten",
+                "building:cladding": "panel",
+                "building:levels": "2",
+                "design:ref": "2С-04-3",
+                "height": "8"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "44 к4",
+                "addr:street": "Наличная улица",
+                "building": "school",
+                "building:levels": "4",
+                "building:parts": "horizontal",
+                "design:ref": "2С-02-10"
+            },
+            {
+                "building": "school",
+                "material": "brick",
+                "addr:city": "Санкт-Петербург",
+                "addr:letter": "Б",
+                "addr:street": "Наличная улица",
+                "source:addr": "rgis",
+                "addr:country": "RU",
+                "addr:postcode": "199155",
+                "building:levels": "3",
+                "addr:housenumber": "48 к3",
+                "building:cladding": "brick"
+            }
+        ]
+    },
+    "service": {
+        "count": 11,
+        "detail": [
+            {
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "power": "substation",
+                "indoor": "yes",
+                "building": "service",
+                "addr:city": "Санкт-Петербург",
+                "substation": "minor_distribution",
+                "addr:letter": "А",
+                "addr:street": "Наличная улица",
+                "source:addr": "rgis",
+                "addr:country": "RU",
+                "building:levels": "1",
+                "addr:housenumber": "48 к4"
+            },
+            {
+                "ref": "1171",
+                "power": "substation",
+                "branch": "Кабельная сеть",
+                "building": "service",
+                "location": "indoor",
+                "operator": "Ленэнерго",
+                "addr:city": "Санкт-Петербург",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "addr:letter": "Т",
+                "addr:street": "Новосмоленская набережная",
+                "addr:country": "RU",
+                "building:levels": "1",
+                "addr:housenumber": "1 к3"
+            },
+            {
+                "ref": "1147",
+                "power": "substation",
+                "branch": "Кабельная сеть",
+                "height": "6",
+                "building": "service",
+                "location": "indoor",
+                "operator": "Ленэнерго",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "addr:letter": "Т",
+                "addr:street": "переулок Каховского",
+                "building:levels": "1",
+                "addr:housenumber": "9 литТ"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "addr:city": "Санкт-Петербург",
+                "substation": "minor_distribution",
+                "addr:letter": "У",
+                "addr:street": "Наличная улица",
+                "building:levels": "1",
+                "addr:housenumber": "40 к4"
+            },
+            {
+                "ref": "1183",
+                "power": "substation",
+                "branch": "Кабельная сеть",
+                "voltage": "10000;400",
+                "building": "service",
+                "location": "indoor",
+                "operator": "Ленэнерго",
+                "addr:city": "Санкт-Петербург",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "addr:letter": "Т",
+                "addr:street": "Наличная улица",
+                "source:addr": "rgis",
+                "addr:country": "RU",
+                "addr:postcode": "199155",
+                "building:levels": "1",
+                "addr:housenumber": "55"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "51 литТ",
+                "addr:street": "Наличная улица",
+                "branch": "Кабельная сеть",
+                "building": "service",
+                "building:levels": "1",
+                "frequency": "50",
+                "location": "indoor",
+                "operator": "Ленэнерго",
+                "power": "substation",
+                "ref": "1179",
+                "substation": "minor_distribution"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "roof:shape": "flat"
+            },
+            {
+                "building": "service",
+                "pipeline": "substation",
+                "addr:city": "Санкт-Петербург",
+                "substance": "gas",
+                "substation": "minor_distribution",
+                "addr:letter": "Д",
+                "addr:street": "улица Кораблестроителей",
+                "source:addr": "rgis",
+                "building:levels": "1",
+                "addr:housenumber": "39 к3"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:letter": "У",
+                "building:levels": "1"
+            },
+            {
+                "power": "substation",
+                "indoor": "yes",
+                "building": "service",
+                "addr:city": "Санкт-Петербург",
+                "substation": "minor_distribution",
+                "addr:letter": "Т",
+                "addr:street": "улица Кораблестроителей",
+                "addr:country": "RU",
+                "building:levels": "1",
+                "addr:housenumber": "39"
+            }
+        ]
+    },
+    "pitch": {
+        "count": 3,
+        "detail": [
+            {
+                "leisure": "pitch",
+                "building": "yes",
+                "building:levels": "1"
+            },
+            {
+                "leisure": "pitch",
+                "building": "yes",
+                "roof:shape": "hipped",
+                "building:levels": "1"
+            },
+            {
+                "leisure": "pitch",
+                "building": "yes",
+                "building:levels": "1"
+            }
+        ]
+    }
+}

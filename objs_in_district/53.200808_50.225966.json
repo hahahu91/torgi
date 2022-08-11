@@ -1,0 +1,219 @@
+{
+    "residents": 9396,
+    "pharmacy": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "name": "Аптека 36,6",
+                "website": "https://366.ru/"
+            },
+            {
+                "name": "Вита",
+                "note": "Аптека №42",
+                "phone": "+7-846-222-53-34",
+                "amenity": "pharmacy",
+                "opening_hours": "Mo-Sa 09:00-22:00; Su 09:00-20:00"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:facebook": "http://facebook.com/aptekivita",
+                "contact:instagram": "https://www.instagram.com/vita_express/",
+                "contact:phone": "+7 800 7550003",
+                "contact:vk": "https://vk.com/aptekivita",
+                "contact:website": "https://vitaexpress.ru/",
+                "name": "Вита Экспресс",
+                "opening_hours": "Mo-Sa 08:00-23:00;Su 08:00-22:00"
+            },
+            {
+                "name": "Аптека",
+                "amenity": "pharmacy",
+                "building": "yes",
+                "addr:city": "Самара",
+                "addr:street": "улица Гагарина",
+                "addr:country": "RU",
+                "addr:postcode": "443023",
+                "building:levels": "1",
+                "addr:housenumber": "155А"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "police"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "atm": "yes",
+                "name": "Сбербанк: дополнительный офис №6991/0356",
+                "phone": "262-40-20",
+                "branch": "Поволжский банк",
+                "amenity": "bank",
+                "website": "http://sbrf.ru/",
+                "operator": "Сбербанк России"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "SUPER ГАЗ",
+                "shop": "electronics",
+                "website": "https://supergas.ru/",
+                "contact:phone": "+7 846 2021400"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Самара",
+                "addr:housenumber": "1А",
+                "addr:street": "улица Победы",
+                "contact:email": "shop63115@koleso.ru",
+                "contact:facebook": "http://www.facebook.com/kolesoru",
+                "contact:instagram": "https://www.instagram.com/koleso.ru",
+                "contact:phone": "+7 800 1006878;+7 846 2021630;+7 846 9935001",
+                "contact:vk": "https://vk.com/kolesoru",
+                "contact:website": "https://smr.koleso.ru/",
+                "name": "Колесо",
+                "opening_hours": "Mo-Fr 09:00-20:00;Sa-Su 09:00-18:00",
+                "operator": "САМ-МБ",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 3,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "Запорожская улица",
+                "building:levels": "3",
+                "addr:housenumber": "5"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "улица Промышленности",
+                "building:levels": "2",
+                "addr:housenumber": "288"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "улица Победы",
+                "building:levels": "2",
+                "addr:housenumber": "3А"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "school",
+                "addr:city": "Самара",
+                "addr:street": "улица Промышленности",
+                "building:levels": "3",
+                "addr:housenumber": "319"
+            },
+            {
+                "building": "school",
+                "addr:city": "Самара",
+                "addr:street": "Днепровская улица",
+                "building:levels": "2",
+                "addr:housenumber": "2"
+            }
+        ]
+    },
+    "service": {
+        "count": 9,
+        "detail": [
+            {
+                "building": "service",
+                "name": "РП 114",
+                "power": "substation",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            },
+            {
+                "building": "service",
+                "operator": "ПТС"
+            },
+            {
+                "building": "service",
+                "name": "ТП 1033",
+                "power": "substation",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            },
+            {
+                "building": "service",
+                "name": "ТП 3219",
+                "power": "substation",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "name": "ТП 1034",
+                "official_short_type": "ТП",
+                "power": "substation",
+                "ref": "1034",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "name": "ТП 1033",
+                "official_short_type": "ТП",
+                "power": "substation",
+                "ref": "1033",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "name": "ТП 1035",
+                "official_short_type": "ТП",
+                "power": "substation",
+                "ref": "1035",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "name": "ТП 1036",
+                "official_short_type": "ТП",
+                "power": "substation",
+                "ref": "1036",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "name": "ТП 1061",
+                "official_short_type": "ТП",
+                "power": "substation",
+                "ref": "1061",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            }
+        ]
+    }
+}

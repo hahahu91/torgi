@@ -1,0 +1,239 @@
+{
+    "residents": 11919,
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Мичуринский пр-т, 58",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Мичуринский пр-т, 58",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "name": "ул. Раменки, 16",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "ул. Раменки, 16",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "brand": "А5",
+                "brand:wikidata": "Q62663476",
+                "contact:facebook": "https://www.facebook.com/apteka5",
+                "contact:vk": "https://vk.com/apteka_a5",
+                "contact:website": "http://apteka5.ru",
+                "healthcare": "pharmacy",
+                "name": "А5",
+                "name:ru": "А5"
+            }
+        ]
+    },
+    "parking": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking",
+                "parking": "multi-storey",
+                "building": "yes",
+                "addr:city": "Москва",
+                "addr:street": "улица Удальцова",
+                "addr:country": "RU",
+                "addr:housenumber": "60"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "vending": "coffee"
+            }
+        ]
+    },
+    "fitness_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "fitness_centre"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "dentist",
+                "healthcare": "dentist"
+            }
+        ]
+    },
+    "playground": {
+        "count": 3,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "pitch": {
+        "count": 3,
+        "detail": [
+            {
+                "leisure": "pitch",
+                "sport": "basketball"
+            },
+            {
+                "leisure": "pitch"
+            },
+            {
+                "leisure": "pitch"
+            }
+        ]
+    },
+    "e-cigarette": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "sale@vardex.ru",
+                "contact:facebook": "https://www.facebook.com/vardexRU",
+                "contact:instagram": "http://instagram.com/vardex_ru",
+                "contact:phone": "+7 495 6680606 ext. 1029",
+                "contact:twitter": "https://twitter.com/Vardexru",
+                "contact:vk": "http://vk.com/vardex_ru",
+                "contact:website": "https://vardex.ru/",
+                "name": "Vardex",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "operator": "«ВАРДЕКС ПЛЮС»",
+                "shop": "e-cigarette"
+            }
+        ]
+    },
+    "driving_school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "17 к2",
+                "addr:street": "улица Раменки",
+                "amenity": "driving_school",
+                "building": "yes",
+                "building:levels": "2"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "sports_centre",
+                "building": "yes",
+                "addr:street": "улица Раменки",
+                "building:levels": "2",
+                "addr:housenumber": "19"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "13 к3",
+                "addr:street": "улица Раменки",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "source:addr": "Rosreestr"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "16",
+                "addr:street": "улица Раменки",
+                "building": "commercial",
+                "building:levels": "1",
+                "building:part": "yes"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "27",
+                "addr:street": "улица Раменки",
+                "amenity": "clinic",
+                "building": "yes",
+                "building:levels": "5",
+                "healthcare": "clinic",
+                "health_facility:type": "clinic",
+                "name": "Детская поликлиника №131",
+                "phone": "+7 495 9311696"
+            },
+            {
+                "name": "Поликлиника №209",
+                "amenity": "clinic",
+                "building": "yes",
+                "addr:city": "Москва",
+                "healthcare": "clinic",
+                "addr:street": "улица Раменки",
+                "addr:country": "RU",
+                "building:levels": "7",
+                "addr:housenumber": "29",
+                "health_facility:type": "clinic"
+            }
+        ]
+    }
+}

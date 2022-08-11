@@ -1,0 +1,368 @@
+{
+    "residents": 4788,
+    "post_office": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "contact:phone": "+7 800 2005888",
+                "contact:twitter": "https://twitter.com/ruspostofficial",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Самара 443008",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa-Su 09:00-18:00",
+                "operator": "АО «Почта России»",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России",
+                "phone": "995-08-18",
+                "ref": "443008"
+            },
+            {
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "contact:phone": "+7 800 2005888",
+                "contact:twitter": "https://twitter.com/ruspostofficial",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Самара 443009",
+                "opening_hours": "Mo-Fr 08:00-21:00; Sa-Su 09:00-21:00",
+                "operator": "АО «Почта России»",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России",
+                "ref": "443009"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 1,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Воронежская улица",
+                "highway": "bus_stop",
+                "trolleybus": "yes",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "mobile_phone"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Разгуляй",
+                "amenity": "restaurant",
+                "addr:city": "Самара",
+                "addr:street": "улица Калинина",
+                "addr:housenumber": "11А"
+            },
+            {
+                "name": "Виноград",
+                "amenity": "restaurant",
+                "building": "yes",
+                "addr:city": "Самара",
+                "addr:street": "улица Калинина",
+                "building:levels": "3",
+                "addr:housenumber": "23А"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "branch": "Кредитно-кассовый офис «Самара — улица Победы»",
+                "brand:wikidata": "Q1377835",
+                "brand:wikipedia": "ru:Альфа-банк",
+                "contact:phone": "+7 495 7888878",
+                "contact:website": "https://alfabank.ru",
+                "name": "Альфа-Банк",
+                "name:en": "Alfa-Bank",
+                "name:ru": "Альфа-Банк",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00; Su off",
+                "operator": "АО \"Альфа-Банк\"",
+                "ref": "0742"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "contact:facebook": "http://facebook.com/aptekivita",
+                "contact:instagram": "https://www.instagram.com/vita_express/",
+                "contact:phone": "+7 800 7550003",
+                "contact:vk": "https://vk.com/aptekivita",
+                "contact:website": "https://vitaexpress.ru/",
+                "name": "Вита Экспресс",
+                "opening_hours": "Mo-Su 08:00-20:00"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bar",
+                "contact:email": "banket@blackrabbitsmr.ru",
+                "contact:instagram": "https://instagram.com/black_rabbit_dance_cafe",
+                "contact:phone": "+7 846 2020213;+7 902 1803991;+7 902 1804052",
+                "contact:vk": "https://vk.com/blackrabbit163",
+                "contact:website": "https://blackrabbitsmr.ru/",
+                "name": "Black Rabbit",
+                "opening_hours": "Fr-Sa 12:00-04:00;Mo-Th,Su 12:00-02:00",
+                "operator": "Black Rabbit"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "addr:city": "Самара",
+                "addr:street": "переулок Штамповщиков",
+                "building:levels": "2",
+                "addr:housenumber": "5"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 13,
+        "detail": [
+            {
+                "name": "Самарский филиал ОАО \"ВРК-1\"",
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "Ново-Вокзальная улица",
+                "building:levels": "2",
+                "addr:housenumber": "11Б"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "Воронежская улица",
+                "building:levels": "2",
+                "addr:housenumber": "7"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "Театральный проезд",
+                "building:levels": "2",
+                "addr:housenumber": "6"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "Воронежская улица",
+                "building:levels": "2",
+                "addr:housenumber": "7А"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "Томашевский тупик",
+                "building:levels": "3",
+                "addr:housenumber": "8"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "улица Калинина",
+                "building:levels": "2",
+                "addr:housenumber": "8А"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "Воронежская улица",
+                "building:levels": "3",
+                "addr:housenumber": "9"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "улица Калинина",
+                "building:levels": "3",
+                "addr:housenumber": "11А"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "улица Калинина",
+                "building:levels": "1",
+                "addr:housenumber": "11Б"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "улица Победы",
+                "building:levels": "1",
+                "addr:housenumber": "101А"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "улица Победы",
+                "building:levels": "1",
+                "addr:housenumber": "99 к1"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "улица Победы",
+                "building:levels": "1",
+                "addr:housenumber": "99 к2"
+            },
+            {
+                "building": "commercial",
+                "addr:city": "Самара",
+                "addr:street": "улица Победы",
+                "building:levels": "1",
+                "addr:housenumber": "99 к3"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Промышленный РУВД",
+                "amenity": "police",
+                "building": "yes",
+                "addr:city": "Самара",
+                "addr:street": "улица Калинина",
+                "addr:country": "RU",
+                "building:levels": "4",
+                "addr:housenumber": "13"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "place_of_worship",
+                "building": "church",
+                "religion": "christian",
+                "addr:city": "Самара",
+                "addr:street": "улица Победы",
+                "denomination": "mormon",
+                "building:levels": "2",
+                "addr:housenumber": "100А"
+            },
+            {
+                "amenity": "place_of_worship",
+                "building": "church",
+                "religion": "christian",
+                "addr:city": "Самара",
+                "addr:street": "улица Победы",
+                "denomination": "orthodox",
+                "building:levels": "2",
+                "addr:housenumber": "99Б"
+            }
+        ]
+    },
+    "service": {
+        "count": 6,
+        "detail": [
+            {
+                "building": "service",
+                "name": "ТП 228",
+                "operator": "ООО \"Энерго\"",
+                "power": "substation",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            },
+            {
+                "building": "service",
+                "name": "ТП 3271",
+                "power": "substation",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            },
+            {
+                "building": "service",
+                "name": "ТП 3286",
+                "power": "substation",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            },
+            {
+                "building": "service",
+                "name": "ТП 3009",
+                "power": "substation",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            },
+            {
+                "building": "service",
+                "name": "ТП 3014",
+                "power": "substation",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "name": "ТП 3274",
+                "power": "substation",
+                "substation": "minor_distribution",
+                "voltage": "10000;400"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ДК Самарец",
+                "amenity": "community_centre",
+                "building": "yes",
+                "addr:city": "Самара",
+                "addr:street": "улица Победы",
+                "building:levels": "1",
+                "addr:housenumber": "96А"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "convenience",
+                "building": "yes"
+            },
+            {
+                "shop": "convenience",
+                "building": "yes"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "kiosk",
+                "building": "yes"
+            }
+        ]
+    }
+}

@@ -1,0 +1,215 @@
+{
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "atm": "yes",
+                "name": "УРАЛСИБ",
+                "amenity": "bank"
+            }
+        ]
+    },
+    "residents": 1497,
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Катерина",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "supermarket"
+            },
+            {
+                "name": "Магнит",
+                "shop": "supermarket"
+            },
+            {
+                "addr:city": "Белебей",
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дневной стационар",
+                "amenity": "clinic"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Стоматологическая поликлиника",
+                "amenity": "dentist"
+            },
+            {
+                "name": "Жемчужина",
+                "amenity": "dentist"
+            },
+            {
+                "name": "Стоматология",
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Юмитекс",
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Евро-Строй",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Профи",
+                "shop": "cosmetics"
+            },
+            {
+                "name": "Веснушка",
+                "shop": "cosmetics"
+            },
+            {
+                "addr:city": "Белебей",
+                "brand": "Магнит Косметик",
+                "brand:en": "Magnit Cosmetics",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит Косметик",
+                "name:en": "Magnit Cosmetics",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мяу",
+                "shop": "pet"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ВАЗ - КАМАЗ",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "farm": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Шоколове",
+                "shop": "farm"
+            }
+        ]
+    },
+    "townhall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Администрация МР Белебеевский район РБ",
+                "amenity": "townhall",
+                "addr:street": "Красная улица",
+                "addr:housenumber": "114"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Галантея",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "телефон ру",
+                "shop": "mobile_phone"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Белебей",
+                "addr:housenumber": "112",
+                "addr:postcode": "452000",
+                "addr:street": "Красная улица",
+                "amenity": "cafe",
+                "cuisine": "pizza;georgian;russian;italian;european",
+                "internet_access": "wlan",
+                "internet_access:fee": "no",
+                "name": "Кафе Друзья",
+                "opening_hours": "10:00-23:00",
+                "opening_hours:covid19": "same",
+                "outdoor_seating": "no"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:city": "Белебей",
+                "addr:street": "Интернациональная улица",
+                "addr:country": "RU",
+                "addr:housenumber": "1/1"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская поликлиника",
+                "amenity": "hospital",
+                "building": "yes",
+                "addr:city": "Белебей",
+                "addr:street": "Красная улица",
+                "addr:country": "RU",
+                "addr:housenumber": "81"
+            }
+        ]
+    }
+}

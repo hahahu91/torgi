@@ -1,0 +1,38 @@
+{
+    "residents": 507,
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "23",
+                "addr:street": "Российская улица",
+                "email": "auto-mix42@yandex.ru",
+                "name": "AutoMix",
+                "opening_hours": "Mo-Fr 09:00-18:00; Sa 10:00-16:00",
+                "phone": "+7 953 0613222",
+                "shop": "car_parts",
+                "website": "http://auto-mix42.ru"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Основная общеобразовательная школа №29",
+                "building": "school",
+                "addr:street": "улица Луначарского",
+                "building:levels": "2",
+                "addr:housenumber": "9"
+            }
+        ]
+    }
+}

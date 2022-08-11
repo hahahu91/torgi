@@ -1,0 +1,425 @@
+{
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Площадь Репина",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "wheelchair": "limited"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Площадь Репина",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "wheelchair": "limited"
+            },
+            {
+                "bus": "yes",
+                "ref": "2;6;22;71",
+                "name": "Площадь Репина",
+                "share_taxi": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "ref": "2;6;22;70;181",
+                "name": "Площадь Репина",
+                "operator": "СПб ГУП \"Организатор перевозок\"",
+                "share_taxi": "yes",
+                "tactile_paving": "no",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "library",
+                "name": "Библиотека СПбГМТУ"
+            }
+        ]
+    },
+    "residents": 8201,
+    "cafe": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Столовая ОАО \"Адмиралтейские верфи\"",
+                "access": "private",
+                "amenity": "cafe"
+            },
+            {
+                "amenity": "cafe",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "cafe",
+                "int_name": "Three Rivers",
+                "name": "Три реки"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "name": "Пятёрочка",
+                "note": "нет на сайте",
+                "opening_hours": "09:00-23:00",
+                "operator": "ООО «Агроторг»",
+                "shop": "supermarket",
+                "website": "https://5ka.ru/"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal",
+                "check_date": "2013-04-23"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "chemist"
+            }
+        ]
+    },
+    "college": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Институт \"Влада\"",
+                "amenity": "college",
+                "website": "http://vlada-hair.ru/"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Восток",
+                "amenity": "fast_food",
+                "fast_food": "cafeteria"
+            },
+            {
+                "name": "Пирожковая сказка",
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "brand": "Промсвязьбанк",
+                "brand:wikidata": "Q649100",
+                "contact:vk": "https://vk.com/psbank_ru",
+                "name": "Промсвязьбанк",
+                "note": "нет на сайте, возможно не работает; \"дополнительный офис \"Кассовый центр\"",
+                "website": "https://www.psbank.ru/"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "restaurant",
+                "contact:vk": "https://vk.com/club28313329",
+                "cuisine": "georgian",
+                "name": "Чито Гврито",
+                "opening_hours": "11:00-23:00",
+                "website": "http://chitogvrito.ru/contacts/item/rimskogo-korsakova-pr-109.html"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:vk": "https://vk.com/krasnoebeloe",
+                "name": "Красное & Белое",
+                "opening_hours": "09:00-22:05",
+                "operator": "ООО «Бета Ижевск»",
+                "shop": "alcohol",
+                "website": "https://krasnoeibeloe.ru/"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Медпункт",
+                "amenity": "doctors"
+            },
+            {
+                "amenity": "doctors",
+                "emergency": "yes",
+                "healthcare": "doctor",
+                "name": "Отделение \"Скорой помощи\""
+            }
+        ]
+    },
+    "post_box": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "27",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "design:year": "2010",
+                "drive_through": "no",
+                "post_box:type": "wall",
+                "post_box:design": "ЯПНМ-II-С",
+                "collection_times": "Mo-Fr 07:55,19:10; Sa 10:15; Su 19:10"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "kindergarten",
+                "contact:email": "dou22.adm@obr.gov.spb.ru",
+                "contact:phone": "+7 812 7144198",
+                "contact:website": "https://ds22.admiral.gov.spb.ru",
+                "name": "Детский сад №22",
+                "official_name": "Государственное бюджетное дошкольное образовательное учреждение детский сад №22 Адмиралтейского района Санкт-Петербурга",
+                "ref": "22"
+            },
+            {
+                "building": "kindergarten",
+                "addr:street": "набережная реки Пряжки",
+                "building:levels": "2",
+                "design:code:SPb": "ДС-34",
+                "addr:housenumber": "58-60"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kiosk",
+                "building:levels": "1",
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "bench": {
+        "count": 9,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "outpost": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Ozon.ru",
+                "brand:wikidata": "Q2365235",
+                "contact:vk": "https://vk.com/ozon",
+                "name": "Ozon.ru",
+                "opening_hours": "Mo-Fr 11:00-20:00",
+                "shop": "outpost",
+                "website": "https://www.ozon.ru/"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "school",
+                "addr:city": "Санкт-Петербург",
+                "addr:street": "Витебская улица",
+                "building:levels": "4",
+                "addr:housenumber": "6-8"
+            },
+            {
+                "addr:city": "Санкт-Петербург",
+                "addr:housenumber": "11",
+                "addr:street": "Мясная улица",
+                "amenity": "school",
+                "building": "school",
+                "building:levels": "4",
+                "contact:email": "diplomatschool@mail.ru",
+                "contact:phone": "+7 812 7140424",
+                "contact:vk": "https://vk.com/diplomatschool",
+                "contact:website": "http://diplomatschool.ru",
+                "name": "Частная школа «Дипломат»",
+                "note": "на сайте майнер www.sparechange.io",
+                "official_name": "Частное общеобразовательное учреждение \"Школа \"ДИПЛОМАТ\""
+            }
+        ]
+    },
+    "service": {
+        "count": 4,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:street": "улица Володи Ермака",
+                "building:levels": "1",
+                "addr:housenumber": "3-5"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:street": "набережная реки Пряжки",
+                "building:levels": "1",
+                "addr:housenumber": "52"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "addr:letter": "Г",
+                "addr:street": "Лоцманская улица",
+                "building:levels": "1",
+                "addr:housenumber": "20"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "substation": "minor_distribution",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Лоцманские бани",
+                "leisure": "sauna",
+                "website": "http://лоцманские.рф/",
+                "building": "yes",
+                "addr:letter": "В",
+                "addr:street": "Лоцманская улица",
+                "building:levels": "4",
+                "addr:housenumber": "20"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "yes",
+                "building:levels": "1",
+                "opening_hours": "24/7",
+                "shop": "car_repair"
+            }
+        ]
+    }
+}

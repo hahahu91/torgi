@@ -1,0 +1,479 @@
+{
+    "residents": 1110,
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "yes",
+                "amenity": "toilets",
+                "changing_table": "no",
+                "fee": "no",
+                "tourism": "yes",
+                "unisex": "yes",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "улица Олега Кошевого",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "улица Олега Кошевого",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "улица Волкова",
+                "public_transport": "platform",
+                "shelter": "no"
+            },
+            {
+                "bus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "drinking_water": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "drinking_water"
+            },
+            {
+                "amenity": "drinking_water"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 12,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "bench": {
+        "count": 14,
+        "detail": [
+            {
+                "seats": "4",
+                "colour": "brown",
+                "amenity": "bench",
+                "backrest": "no",
+                "material": "wood"
+            },
+            {
+                "seats": "4",
+                "colour": "brown",
+                "amenity": "bench",
+                "backrest": "no",
+                "material": "wood"
+            },
+            {
+                "seats": "4",
+                "colour": "brown",
+                "amenity": "bench",
+                "backrest": "no",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "social_facility": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Псков",
+                "addr:country": "RU",
+                "addr:full": "Псковская область, Псков, ул.Школьная, д.26",
+                "addr:housenumber": "26",
+                "addr:postcode": "180006",
+                "addr:region": "Псковская область",
+                "addr:street": "Школьная улица",
+                "amenity": "social_facility",
+                "email": "cso-pskovrajon@social.pskov.ru",
+                "fax": "+7 8112 667354",
+                "name": "Центр социального обслуживания Псковского района",
+                "official_name": "ГКУСО «Центр социального обслуживания» Псковского района",
+                "official_status": "ЦСО",
+                "opening_hours": "Mo-Fr 08:00-12:30,13:30-17:00",
+                "phone": "+7 8112 720749;+7 8112 720734;+7 8112 754843",
+                "social_facility": "outreach",
+                "source": "Главное государственное управление социальной защиты населения Псковской области",
+                "source:website": "http://social.pskov.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "addr:city": "Псков",
+                "addr:country": "RU",
+                "addr:full": "Псковская область, Псков, ул.Школьная, д.26",
+                "addr:housenumber": "26",
+                "addr:postcode": "180006",
+                "addr:region": "Псковская область",
+                "addr:street": "Школьная улица",
+                "amenity": "social_facility",
+                "email": "pskovrajon@social.pskov.ru",
+                "fax": "+7 8112 720685",
+                "name": "Территориальное управление социальной защиты Псковского района",
+                "official_name": "Территориальное управление Псковского района Главного государственного управления социальной защиты населения Псковской области",
+                "official_status": "ТУСЗН",
+                "opening_hours": "Mo-Fr 08:00-12:30,13:30-17:00",
+                "phone": "+7 8112 720755;+7 8112 720760",
+                "social_facility": "outreach",
+                "source": "Главное государственное управление социальной защиты населения Псковской области",
+                "source:website": "http://social.pskov.ru/",
+                "wheelchair": "no"
+            },
+            {
+                "addr:country": "RU",
+                "addr:full": "Псковская область, Псков, ул.Набат, д.6а",
+                "addr:housenumber": "6А",
+                "addr:postcode": "180006",
+                "addr:region": "Псковская область",
+                "addr:street": "улица Набат",
+                "amenity": "social_facility",
+                "building": "yes",
+                "name": "Социально-реабилитационный центр для несовершеннолетних",
+                "official_name": "ГКУСО «Социально-реабилитационный центр для несовершеннолетних г. Пскова»",
+                "official_status": "УСОСД",
+                "phone": "+7 8112 724232",
+                "social_facility": "outreach",
+                "social_facility:for": "orphan",
+                "source": "Главное государственное управление социальной защиты населения Псковской области",
+                "source:website": "http://social.pskov.ru/"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "capacity": "3"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "capacity": "3"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "capacity": "3"
+            }
+        ]
+    },
+    "power_tools": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Кувалда.ру",
+                "shop": "power_tools",
+                "description": "магазин электроинструмента, пункт выдачи интернет магазина"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "\"Погребок\"",
+                "shop": "convenience",
+                "name:ru": "\"Погребок\""
+            }
+        ]
+    },
+    "cafe": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Coffee Brabus",
+                "phone": "+7 8112 602330",
+                "amenity": "cafe",
+                "website": "http://www.coffeebrabus.ru",
+                "opening_hours": "Mo-Su 08:30-21:00"
+            },
+            {
+                "amenity": "cafe",
+                "name": "Архондарик"
+            },
+            {
+                "name": "Шпагатка",
+                "source": "memory",
+                "amenity": "cafe",
+                "cuisine": "russian",
+                "name:en": "Shpagatka",
+                "name:ru": "Берлога",
+                "building": "yes",
+                "addr:street": "улица Олега Кошевого",
+                "addr:postcode": "180006",
+                "building:levels": "2",
+                "addr:housenumber": "2А"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Автозапчасти для \"Немцев\"",
+                "shop": "car_parts",
+                "name:ru": "Автозапчасти для \"Немцев\""
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Автомакси",
+                "shop": "car_repair",
+                "name:en": "Avtomaksi",
+                "addr:housenumber": "22"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling",
+                "recycling:plastic": "yes",
+                "recycling:plastic_bottles": "yes",
+                "recycling_type": "container"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "24",
+                "addr:postcode": "180006",
+                "addr:street": "Школьная улица",
+                "amenity": "clinic",
+                "building": "yes",
+                "healthcare": "clinic",
+                "healthcare:speciality": "stomatology",
+                "name": "Поликлиника Псковской районной больницы",
+                "phone": "+7 8112 720756",
+                "source": "Государственный комитет по здравоохранению и фармации Псковской области",
+                "source:website": "http://zdrav.pskov.ru/"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Коррекционная школа №5",
+                "source": "bing",
+                "amenity": "school",
+                "building": "yes",
+                "wheelchair": "no",
+                "addr:street": "Первомайская улица",
+                "description": "для детей с нарушением слуха",
+                "addr:postcode": "180006",
+                "addr:housenumber": "32"
+            },
+            {
+                "name": "Коррекционная школа №6",
+                "source": "bing",
+                "amenity": "school",
+                "building": "yes",
+                "wheelchair": "no",
+                "addr:street": "улица Олега Кошевого",
+                "addr:postcode": "180006",
+                "official_name": "государственное бюджетное образовательное учреждение Псковской области \"Специальная (коррекционная) школа VII вида № 6\"",
+                "building:levels": "4",
+                "addr:housenumber": "8"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:housenumber": "9А",
+                "addr:postcode": "180006",
+                "addr:street": "улица Волкова",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "denomination": "russian_orthodox",
+                "historic": "yes",
+                "name": "Церковь Ильи Пророка",
+                "religion": "christian",
+                "source": "bing",
+                "tourism": "attraction"
+            },
+            {
+                "name": "Церковь Святого Варлаама Хутынского",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "religion": "christian",
+                "wikidata": "Q3584620",
+                "wikipedia": "ru:Церковь Варлаама Хутынского (Псков)",
+                "addr:street": "улица Леона Поземского",
+                "denomination": "orthodox",
+                "addr:postcode": "180006",
+                "addr:housenumber": "53"
+            },
+            {
+                "name": "Церковь Воскресения Христова со Стадища",
+                "source": "bing",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "religion": "christian",
+                "wikidata": "Q4504663",
+                "wikipedia": "ru:Церковь Воскресения Христова со Стадища (Псков)",
+                "addr:street": "улица Набат",
+                "denomination": "orthodox",
+                "addr:postcode": "180006",
+                "addr:housenumber": "4А"
+            }
+        ]
+    },
+    "training": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская школа искусств",
+                "source": "bing",
+                "amenity": "training",
+                "building": "yes",
+                "training": "art",
+                "wheelchair": "no",
+                "addr:street": "улица Олега Кошевого",
+                "addr:postcode": "180006",
+                "building:levels": "3",
+                "addr:housenumber": "8"
+            }
+        ]
+    },
+    "college": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Колледж искусств",
+                "source": "bing",
+                "amenity": "college",
+                "website": "http://poki-rk.ru/",
+                "building": "yes",
+                "wheelchair": "no",
+                "addr:street": "улица Набат",
+                "description": "Отделение культуры и искусств",
+                "addr:postcode": "180006",
+                "official_name": "ГОУ СПО \"Псковский областной колледж искусств имени Н.А. Римского-Корсакова\"",
+                "building:levels": "3",
+                "addr:housenumber": "5"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский сад №51",
+                "source": "bing",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "wheelchair": "no",
+                "addr:street": "Первомайская улица",
+                "addr:postcode": "180006",
+                "official_name": "МДОУ «Детский сад комбинированного вида № 51»",
+                "addr:housenumber": "34"
+            }
+        ]
+    }
+}

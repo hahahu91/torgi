@@ -19,6 +19,7 @@ regions_abbr = {1:{"abbr":"RU-AD","official name":"Республика Адыг
 19:{"abbr":"RU-KK","official name":"Республика Хакасия","short":"Хакасия"},
 21:{"abbr":"RU-CU","official name":"Чувашская Республика","short":"Чувашия"},
 22:{"abbr":"RU-ALT","official name":"Алтайский край"},
+23:{"abbr":"RU-KDA","official name":"Краснодарский край"},
 24:{"abbr":"RU-KYA","official name":"Красноярский край"},
 25:{"abbr":"RU-PRI","official name":"Приморский край"},
 26:{"abbr":"RU-STA","official name":"Ставропольский край"},

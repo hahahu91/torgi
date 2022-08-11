@@ -1,0 +1,373 @@
+{
+    "bus_stop": {
+        "count": 8,
+        "detail": [
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "covered": "yes",
+                "highway": "bus_stop",
+                "name": "улица Транспортная",
+                "passenger_information_display": "yes",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "улица Анциферова",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "улица Анциферова",
+                "public_transport": "platform"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Красноармейская",
+                "old_name": "улица Анциферова",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "улица Анциферова",
+                "public_transport": "stop_position",
+                "trolleybus": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "улица Транспортная",
+                "public_transport": "stop_position",
+                "trolleybus": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "улица Анциферова",
+                "public_transport": "stop_position",
+                "trolleybus": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "Красноармейская",
+                "old_name": "улица Анциферова",
+                "public_transport": "stop_position",
+                "trolleybus": "yes"
+            }
+        ]
+    },
+    "department_store": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Гомзовский",
+                "shop": "department_store",
+                "source": "veld67",
+                "addr:city": "Йошкар-Ола",
+                "addr:street": "Красноармейская улица",
+                "addr:housenumber": "98В"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "pub": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pub",
+                "contact:email": "barrel2014@mail.ru",
+                "contact:instagram": "https://instagram.com/barcafebarrel",
+                "contact:phone": "+7 836 2200201;+7 902 4300201",
+                "contact:vk": "https://vk.com/barrelbar",
+                "contact:website": "https://cafe-barrel.tilda.ws/",
+                "name": "Баррель",
+                "opening_hours": "Mo-Su 12:00-01:00",
+                "operator": "Пинта"
+            }
+        ]
+    },
+    "books": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "books"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Купидон",
+                "shop": "florist"
+            },
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "waste": "trash",
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Спартак",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "residents": 9255,
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "5",
+                "amenity": "library"
+            }
+        ]
+    },
+    "ticket": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "ticket",
+                "operator": "МП \"ТТ\""
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "МТС",
+                "office": "telecommunication",
+                "shop": "mobile_phone",
+                "website": "https://mts.ru/"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "bar": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Вятич спорт",
+                "amenity": "bar"
+            }
+        ]
+    },
+    "drinking_water": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "drinking_water",
+                "drinking_water": "untreated"
+            }
+        ]
+    },
+    "money_lender": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "money_lender",
+                "brand": "Быстроденьги"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "chemist"
+            },
+            {
+                "shop": "chemist"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Закусочная",
+                "shop": "alcohol",
+                "opening_hours": "Mo-Su 07:30-21:00"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Лада",
+                "shop": "convenience"
+            },
+            {
+                "name": "Йола",
+                "shop": "convenience",
+                "source": "veld67",
+                "addr:city": "Йошкар-Ола",
+                "addr:street": "Красноармейская улица",
+                "addr:housenumber": "98Б"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Мясная лавка",
+                "shop": "butcher"
+            },
+            {
+                "name": "Птица",
+                "shop": "butcher",
+                "operator": "ЗАО \"Марийское\""
+            }
+        ]
+    },
+    "yes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "одежда по карману",
+                "shop": "yes",
+                "source": "veld67",
+                "addr:city": "Йошкар-Ола",
+                "addr:street": "Красноармейская улица",
+                "addr:housenumber": "98Г"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Калейдоскоп",
+                "shop": "hardware",
+                "source": "veld67",
+                "addr:city": "Йошкар-Ола",
+                "addr:street": "Красноармейская улица",
+                "addr:housenumber": "98Б"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сбербанк",
+                "amenity": "atm"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Трио",
+                "shop": "hairdresser",
+                "source": "veld67",
+                "addr:street": "улица Анциферова",
+                "addr:housenumber": "19"
+            },
+            {
+                "name": "Парикмахерская",
+                "shop": "hairdresser",
+                "phone": "+78362339656",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa-Su 10:00-17:00"
+            }
+        ]
+    },
+    "beverages": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Бристоль",
+                "shop": "beverages"
+            }
+        ]
+    },
+    "service": {
+        "count": 4,
+        "detail": [
+            {
+                "building": "service",
+                "phone": "+7 8362 453322",
+                "power": "substation",
+                "ref": "ТП-248",
+                "voltage": "6000"
+            },
+            {
+                "power": "substation",
+                "building": "service"
+            },
+            {
+                "power": "substation",
+                "building": "service"
+            },
+            {
+                "power": "substation",
+                "building": "service"
+            }
+        ]
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Школа №45 им. Д. Блынского",
+                "amenity": "school"
+            }
+        ]
+    },
+    "residents": 1011
+}

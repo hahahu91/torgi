@@ -1,0 +1,167 @@
+{
+    "residents": 1509,
+    "telephone": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "telephone"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "152240",
+                "name": "Отделение связи №152240",
+                "amenity": "post_office",
+                "website": "https://russianpost.ru/",
+                "operator": "Почта России",
+                "addr:country": "RU",
+                "addr:postcode": "152240"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Перекрёсток",
+                "shop": "convenience",
+                "website": "https://www.perekrestok.ru/",
+                "alt_name": "Перекресток",
+                "operator": "X5 Retail Group",
+                "addr:country": "RU"
+            },
+            {
+                "name": "Дикси",
+                "shop": "convenience"
+            },
+            {
+                "name": "Копейка",
+                "shop": "convenience"
+            },
+            {
+                "name": "Теремок",
+                "shop": "convenience",
+                "building": "shop",
+                "addr:street": "улица Кирова",
+                "addr:housenumber": "9А"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Радуга",
+                "amenity": "restaurant"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "operator": "Ригла"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 1,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Аптека",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ярославич",
+                "shop": "mall",
+                "building": "yes"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "brand": "Магнит",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "building": "retail",
+                "addr:city": "Гаврилов-Ям",
+                "addr:street": "улица Кирова",
+                "addr:postcode": "152240",
+                "addr:housenumber": "12"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "school",
+                "addr:street": "улица Кирова",
+                "building:levels": "3",
+                "addr:housenumber": "13"
+            },
+            {
+                "name": "Школа №2",
+                "source": "Bing",
+                "building": "school",
+                "addr:city": "Гаврилов-Ям",
+                "addr:street": "улица Калинина",
+                "addr:country": "RU",
+                "addr:district": "Гаврилов-Ямский район",
+                "addr:housenumber": "4"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Детский сад компнсирующего вида",
+                "source": "Bing",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:city": "Гаврилов-Ям",
+                "addr:street": "улица Менжинского",
+                "addr:postcode": "152240",
+                "addr:housenumber": "50А"
+            },
+            {
+                "name": "Солнышко",
+                "source": "Bing",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:street": "улица Менжинского",
+                "addr:housenumber": "53"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Цветы",
+                "shop": "florist",
+                "building": "commercial",
+                "addr:city": "Гаврилов-Ям",
+                "addr:street": "улица Калинина",
+                "addr:postcode": "152240",
+                "addr:housenumber": "2"
+            }
+        ]
+    }
+}

@@ -1,0 +1,1041 @@
+{
+    "residents": 11335,
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "operator": "ООО «Каштан»",
+                "opening_hours": "Mo-Su 08:00-20:00"
+            },
+            {
+                "name": "Аптечка+",
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 8,
+        "detail": [
+            {
+                "name": "Телевизионная площадь",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Школа №14",
+                "bench": "no",
+                "highway": "bus_stop",
+                "shelter": "no",
+                "tactile_paving": "no",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Школа №14",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Улица Огарёва",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "alt_name": "Музей имени Чижевского",
+                "tactile_paving": "no",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Телевизионная площадь",
+                "bench": "yes",
+                "routes": "8,9,10,17,81",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "share_taxi": "yes",
+                "trolleybus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "share_taxi": "yes",
+                "trolleybus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "share_taxi": "yes",
+                "trolleybus": "yes",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:country": "RU",
+                "addr:postcode": "248030",
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "contact:phone": "+7 800 1000000",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Калуга 248030",
+                "note": "у входа есть кнопка вызова сотрудника для обслуживания инвалидов",
+                "opening_hours": "Mo-Fr 08:00-13:00,14:00-20:00; Sa 09:00-18:00",
+                "operator": "АО «Почта России»",
+                "phone": "+7 4842 742672",
+                "ref": "248030",
+                "wheelchair": "limited",
+                "wheelchair:description": "personnel_call_button"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Сила тока",
+                "shop": "doityourself"
+            },
+            {
+                "name": "Ручной и садовый инструмент \"Тиски\"",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 9,
+        "detail": [
+            {
+                "name": "Ylsun",
+                "shop": "car_parts"
+            },
+            {
+                "name": "Автозапчасти для иномарок",
+                "shop": "car_parts"
+            },
+            {
+                "name": "Иномарка",
+                "shop": "car_parts"
+            },
+            {
+                "name": "Димсон",
+                "shop": "car_parts"
+            },
+            {
+                "shop": "car_parts"
+            },
+            {
+                "shop": "car_parts"
+            },
+            {
+                "name": "emex",
+                "shop": "car_parts"
+            },
+            {
+                "name": "Автозапчасти",
+                "shop": "car_parts"
+            },
+            {
+                "name": "Все для авто",
+                "note": "запчасти для корейских авто",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "DC стоматология",
+                "amenity": "dentist"
+            },
+            {
+                "name": "Стоматология",
+                "amenity": "dentist",
+                "opening_hours": "09:00-19:00"
+            },
+            {
+                "name": "Дантист",
+                "amenity": "dentist"
+            },
+            {
+                "name": "D.S. Стоматология",
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Праздничный",
+                "note": "есть пандус, но под углом 45% к земле",
+                "shop": "convenience",
+                "wheelchair": "no",
+                "opening_hours": "Mo-Su 08:00-23:00"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience",
+                "opening_hours": "Mo-Fr 09:00-21:00"
+            },
+            {
+                "name": "Радон",
+                "shop": "convenience",
+                "opening_hours": "Mo-Su 08:00-21:00"
+            },
+            {
+                "name": "Продукты П1",
+                "shop": "convenience"
+            },
+            {
+                "name": "Здоровая еда",
+                "shop": "convenience",
+                "organic": "yes"
+            }
+        ]
+    },
+    "gas_equipment": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Калугаоблгаз",
+                "phone": "+7 4842 799015;+7 4842 591838",
+                "shop": "gas_equipment"
+            }
+        ]
+    },
+    "bench": {
+        "count": 8,
+        "detail": [
+            {
+                "seats": "3",
+                "colour": "black",
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "colour": "black",
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "colour": "black",
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "colour": "black",
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "colour": "black",
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "colour": "black",
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "colour": "black",
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "seats": "3",
+                "colour": "black",
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "cuisine": "fish_and_chips",
+                "email": "elguna@mail.ru",
+                "name": "Fish House",
+                "phone": "+7 4842 569277"
+            },
+            {
+                "name": "Суши-бар \"Кавасаки\"",
+                "amenity": "cafe",
+                "cuisine": "japanese"
+            },
+            {
+                "name": "«Мята Lounge»",
+                "amenity": "cafe",
+                "name:ru": "«Мята Lounge»"
+            }
+        ]
+    },
+    "bar": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "7 пятниц",
+                "amenity": "bar",
+                "entrance": "yes",
+                "opening_hours": "Mo-Su 18:00-8:00"
+            },
+            {
+                "amenity": "bar"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "brand:wikidata": "Q24933790",
+                "brand:wikipedia": "en:Krasnoe & Beloe",
+                "contact:website": "https://krasnoeibeloe.ru",
+                "name": "Красное & Белое",
+                "name:en": "Red&White",
+                "name:ru": "Красное & Белое",
+                "opening_hours": "09:00-22:05",
+                "phone": "+7 800 1000804",
+                "ref": "2500",
+                "shop": "alcohol",
+                "website": "https://krasnoeibeloe.ru/"
+            },
+            {
+                "name": "Пивоварня «Демидовъ»",
+                "shop": "alcohol",
+                "opening_hours": "10:00-24:00"
+            }
+        ]
+    },
+    "drinking_water": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Колонка",
+                "amenity": "drinking_water",
+                "drinking_water": "untreated"
+            },
+            {
+                "note": "водоколонка",
+                "amenity": "drinking_water",
+                "man_made": "water_well"
+            },
+            {
+                "note": "водоколонка",
+                "amenity": "drinking_water"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "fee": "yes",
+                "name": "Клиника «Элита»",
+                "amenity": "hospital",
+                "emergency": "no"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:country": "RU",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "ref": "83",
+                "website": "https://russianpost.ru/"
+            },
+            {
+                "addr:country": "RU",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "ref": "99",
+                "website": "https://russianpost.ru/"
+            }
+        ]
+    },
+    "frame": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Двери",
+                "shop": "frame"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Интерьер",
+                "shop": "furniture"
+            },
+            {
+                "name": "Веста",
+                "shop": "furniture",
+                "level": "2"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Музейон",
+                "amenity": "restaurant"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "clothes"
+            },
+            {
+                "name": "Белка и стрелка",
+                "shop": "clothes"
+            },
+            {
+                "contact:email": "pr@detoc.ru",
+                "contact:facebook": "https://www.facebook.com/dochkisynochki/",
+                "contact:instagram": "https://www.instagram.com/dochkisinochki/",
+                "contact:phone": "+7 484 2212363",
+                "contact:vk": "https://vk.com/dochkisinochki",
+                "contact:website": "https://www.dochkisinochki.ru/",
+                "name": "Дочки-Сыночки",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "Волга",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "АКБ «Фора-банк»",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "public_bookcase": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "public_bookcase"
+            },
+            {
+                "name": "Уличная библиотека",
+                "amenity": "public_bookcase",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "booktrading": {
+        "count": 1,
+        "detail": [
+            {
+                "note": "уличная библиотека - ящик для обмена книгами",
+                "amenity": "booktrading"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магнит Косметик",
+                "shop": "chemist"
+            }
+        ]
+    },
+    "courthouse": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мировые судьи г.Калуги",
+                "amenity": "courthouse"
+            }
+        ]
+    },
+    "confectionery": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Кондитерская Ирины Мороз",
+                "shop": "confectionery"
+            },
+            {
+                "name": "Сухофрукты и сладости",
+                "shop": "confectionery"
+            }
+        ]
+    },
+    "funeral_directors": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Ангел",
+                "shop": "funeral_directors"
+            },
+            {
+                "name": "Памятники «Ритуал-Сервис»",
+                "shop": "funeral_directors"
+            },
+            {
+                "name": "Некрополь",
+                "shop": "funeral_directors"
+            },
+            {
+                "name": "Ангел",
+                "shop": "funeral_directors"
+            },
+            {
+                "name": "Ритуальный",
+                "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-16:00",
+                "shop": "funeral_directors"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "toilets"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Цветок",
+                "shop": "florist"
+            },
+            {
+                "name": "Брабион",
+                "shop": "florist",
+                "name:ru": "Брабион"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "library",
+                "contact:phone": "+7 4842 790031;+7 4842 740102",
+                "contact:website": "http://cbs-kaluga.ru/",
+                "name": "Центральная детская библиотека",
+                "official_name": "Центральная городская детская библиотека имени А.П.Гайдара",
+                "opening_hours": "Mo-Fr 10:00-18:00; Su 10:00-18:00",
+                "phone": "+7 4842 790031;+7 4842 740131",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bicycle_parking"
+            }
+        ]
+    },
+    "electronics_repair": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Мёбиус",
+                "amenity": "electronics_repair"
+            },
+            {
+                "name": "Ремонт кондиционеров \"Интехсервис\"",
+                "amenity": "electronics_repair",
+                "addr:flats": "помещение 7",
+                "addr:street": "улица Баррикад",
+                "addr:housenumber": "8"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Бабочка",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Магазин «Парикмахер»",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Чио Чио",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Интегратор",
+                "shop": "computer"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мясной магазин",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "garden_centre": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Поле Сад",
+                "shop": "garden_centre"
+            },
+            {
+                "name": "Урожайный",
+                "shop": "garden_centre"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Калужский офтальмологический центр",
+                "amenity": "doctors",
+                "entrance": "yes",
+                "emergency": "no"
+            },
+            {
+                "name": "Терапия красоты",
+                "amenity": "doctors"
+            },
+            {
+                "amenity": "doctors",
+                "brand": "Гемотест",
+                "contact:email": "client@gemotest.ru",
+                "contact:facebook": "https://www.facebook.com/gemotestlab",
+                "contact:ok": "https://ok.ru/gemotest",
+                "contact:skype": "vrachgemotest",
+                "contact:vk": "https://vk.com/gemotestlab",
+                "contact:website": "https://www.gemotest.ru",
+                "emergency": "no",
+                "healthcare": "laboratory",
+                "health_facility:type": "laboratory",
+                "health_specialty:microbiology": "yes",
+                "medical_system:western": "yes",
+                "name": "Гемотест",
+                "name:ru": "Гемотест"
+            },
+            {
+                "name": "Лаборатория «Инвитро»",
+                "amenity": "doctors",
+                "name:en": "Invitro",
+                "addr:street": "улица Поле Свободы"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Студия красоты",
+                "shop": "beauty"
+            },
+            {
+                "name": "Фурор",
+                "shop": "beauty",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa-Su 10:00-16:00"
+            }
+        ]
+    },
+    "tattoo": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Endless pain",
+                "shop": "tattoo"
+            }
+        ]
+    },
+    "doors": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Двери",
+                "shop": "doors"
+            }
+        ]
+    },
+    "pet_food": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Зоомаркет",
+                "shop": "pet_food"
+            }
+        ]
+    },
+    "perfumery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Профессиональная косметика",
+                "shop": "perfumery"
+            }
+        ]
+    },
+    "interior_decoration": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мир стекла",
+                "shop": "interior_decoration"
+            }
+        ]
+    },
+    "fishing": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Поклёвка",
+                "shop": "fishing"
+            },
+            {
+                "name": "Поплавок",
+                "shop": "fishing"
+            }
+        ]
+    },
+    "jewelry": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ресса",
+                "shop": "jewelry"
+            }
+        ]
+    },
+    "sewing": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Швейный мир",
+                "shop": "sewing"
+            }
+        ]
+    },
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "fax": "+7 4842 547008",
+                "name": "Образование",
+                "opening_hours": "Mo-Fr 09:00-13:00,13:30-20:00; Sa,Su 10:00-13:00,13:30-17:00",
+                "phone": "+7 4842 549727",
+                "website": "www.obrbank.ru"
+            },
+            {
+                "addr:housenumber": "4",
+                "addr:street": "улица Воронина",
+                "amenity": "bank",
+                "atm": "yes",
+                "building": "yes",
+                "building:levels": "4",
+                "contact:phone": "+7 4842 701000;+7 4842 762555",
+                "contact:website": "http://www.forabank.ru/",
+                "name": "Центральный офис АКБ «Фора-Банк»",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa 10:00-12:30,13:00-15:30",
+                "operator": "АКБ ЗАО «ФОРА-БАНК»",
+                "url": "http://klg.forabank.ru/contacts/offices/item3"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "name": "La Pizza",
+                "name:ru": "La Pizza",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "phone": "+74842926373"
+            }
+        ]
+    },
+    "outdoor": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Рыбалка, лодки",
+                "shop": "outdoor"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сантехника",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "veterinary": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Калуга",
+                "addr:housenumber": "4 к1",
+                "addr:postcode": "248030",
+                "addr:street": "улица Труда",
+                "amenity": "veterinary",
+                "description": "Широкопрофильная ветеринарная клиника \"Жизнь\" в Калуге специализируется на оказании ветеринарной помощи домашним животным основываясь на принципах доказательной медицины.",
+                "name": "Ветеринарная клиника \"Жизнь\"",
+                "opening_hours": "Sa-Th 10:00-21:00",
+                "operator": "ООО \"Жизнь\"",
+                "phone": "+7 902 9879507",
+                "website": "https://vk.com/vetklinika_kaluga"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Перекресток",
+                "shop": "supermarket"
+            },
+            {
+                "addr:housenumber": "129",
+                "addr:street": "улица Поле Свободы",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "building": "yes",
+                "building:levels": "1",
+                "contact:phone": "+7 800 2009002",
+                "contact:website": "https://magnit-info.ru",
+                "internet_access": "no",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "opening_hours": "09:00-22:00",
+                "operator": "АО \"Тандер\"",
+                "ref": "40756",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Дикси",
+                "shop": "supermarket",
+                "building": "commercial",
+                "addr:street": "улица Огарёва",
+                "payment:visa": "yes",
+                "opening_hours": "10:00-22:00",
+                "building:levels": "2",
+                "contact:website": "http://dixy.ru/",
+                "addr:housenumber": "13",
+                "payment:mastercard": "yes",
+                "payment:visa_debit": "yes"
+            },
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "building": "yes",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "bicycle": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Форвард",
+                "shop": "bicycle"
+            }
+        ]
+    },
+    "tv_company": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ГТРК «Калуга»",
+                "amenity": "tv_company",
+                "building": "yes",
+                "addr:street": "улица Поле Свободы",
+                "building:levels": "2",
+                "addr:housenumber": "40А"
+            }
+        ]
+    },
+    "training": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Школа искусств №2",
+                "amenity": "training",
+                "building": "yes",
+                "training": "art",
+                "addr:street": "улица Воронина",
+                "official_name": "Детская школа искусств №2 им. С.С. Туликова, МОУ ДОД",
+                "building:levels": "4",
+                "addr:housenumber": "7"
+            }
+        ]
+    },
+    "townhall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Правительство Калужской области",
+                "amenity": "townhall",
+                "building": "yes",
+                "addr:street": "Пролетарская улица",
+                "building:levels": "7",
+                "addr:housenumber": "111"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Церковь Петра и Павла",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "religion": "christian",
+                "addr:street": "улица Труда",
+                "denomination": "orthodox",
+                "addr:housenumber": "1А"
+            },
+            {
+                "name": "Церковь Василия Блаженного",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "religion": "christian",
+                "addr:street": "улица Герцена",
+                "denomination": "orthodox",
+                "addr:housenumber": "15"
+            },
+            {
+                "name": "Приход Святого Георгия",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "religion": "christian",
+                "addr:street": "улица Поле Свободы",
+                "denomination": "catholic",
+                "official_name": "Приход Святого Георгия Великомученика Римско-Католической Церкви в г. Калуге",
+                "addr:housenumber": "127"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "kiosk",
+                "building": "yes"
+            },
+            {
+                "shop": "kiosk",
+                "building": "yes"
+            },
+            {
+                "shop": "kiosk",
+                "building": "yes",
+                "addr:street": "улица Огарёва",
+                "source:addr": "survey",
+                "building:levels": "1",
+                "addr:housenumber": "37"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "ТП-105",
+                "power": "substation",
+                "building": "service",
+                "operator": "Калугаэнерго",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "114",
+                "addr:street": "улица Баррикад",
+                "building": "commercial",
+                "building:levels": "3",
+                "building:material": "brick"
+            }
+        ]
+    }
+}

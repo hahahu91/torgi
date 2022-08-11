@@ -1,0 +1,1207 @@
+{
+    "residents": 6102,
+    "bus_stop": {
+        "count": 8,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Улица Первомайская",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Улица Комсомольская",
+                "public_transport": "platform",
+                "shelter": "no"
+            },
+            {
+                "bus": "yes",
+                "departures_board": "no",
+                "highway": "bus_stop",
+                "name": "Площадь Волкова",
+                "public_transport": "platform",
+                "trolleybus": "yes"
+            },
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Мукомольный переулок",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Торговый переулок",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Площадь Волкова",
+                "public_transport": "platform",
+                "source": "2GIS",
+                "trolleybus": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Торговый переулок",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Торговый переулок",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:country": "RU",
+                "addr:housenumber": "22",
+                "addr:postcode": "150000",
+                "addr:street": "Комсомольская улица",
+                "alt_name": "Центральный телеграф",
+                "amenity": "post_office",
+                "name": "Главпочтамт",
+                "opening_hours": "Mo-Fr 08:00-22:00; Sa-Su 09:00-18:00",
+                "operator": "Почта России",
+                "phone": "+7 4852 729528",
+                "ref": "150000",
+                "source": "http://www.yarpost.ru/opsmore.php?ops=yaroslavl",
+                "website": "https://russianpost.ru/"
+            },
+            {
+                "name": "СДЭК",
+                "phone": "+7 915 9758634",
+                "amenity": "post_office",
+                "name:ru": "СДЭК",
+                "website": "http://www.edostavka.ru/",
+                "addr:street": "Большая Октябрьская улица",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-16:00; Su 10:00-14:00",
+                "addr:housenumber": "39/2"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 21,
+        "detail": [
+            {
+                "name": "Баккара",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Web",
+                "amenity": "cafe",
+                "website": "web-yar.ru",
+                "addr:street": "Комсомольская улица",
+                "addr:postcode": "150000",
+                "internet_access": "*",
+                "addr:housenumber": "14"
+            },
+            {
+                "addr:housenumber": "13/31",
+                "addr:street": "улица Кирова",
+                "amenity": "cafe",
+                "cuisine": "coffee_shop",
+                "name": "Traveler's Coffe",
+                "website": "http://www.travelerscoffee.ru",
+                "wifi": "free"
+            },
+            {
+                "addr:housenumber": "20",
+                "addr:street": "Комсомольская улица",
+                "alt_name": "Трэвэлерс кофе",
+                "amenity": "cafe",
+                "cuisine": "coffee_shop",
+                "int_name": "Traveler's Coffee",
+                "name": "Traveler's Coffee",
+                "website": "http://www.travelerscoffee.ru",
+                "wifi": "free"
+            },
+            {
+                "name": "Академия, сеть пиццерий",
+                "amenity": "cafe",
+                "cuisine": "pizza;italian;japanese;russian",
+                "payment:cash": "yes",
+                "contact:phone": "+7 4852 339707",
+                "opening_hours": "Su-Th 11:00-23:00; Fr-Sa 11:00-01:00",
+                "payment:cards": "yes",
+                "contact:website": "http://ponaehali76.ru"
+            },
+            {
+                "name": "Cafe №1",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Кавказская пленница",
+                "amenity": "cafe",
+                "opening_hours": "Su-Th 11:00-01:00; Fr-Sa 11:00-03:00"
+            },
+            {
+                "name": "Крымский дворик",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Фреш",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Арбуз ",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Булочная24Кофейня",
+                "amenity": "cafe",
+                "opening_hours": "24/7",
+                "internet_access": "wlan"
+            },
+            {
+                "name": "Брюгге",
+                "amenity": "cafe",
+                "cuisine": "grill",
+                "name:en": "Bruges",
+                "name:ru": "Брюгге"
+            },
+            {
+                "name": "Базар",
+                "amenity": "cafe",
+                "name:en": "Bazar",
+                "opening_hours": "Mo-Su 10:00-22:00"
+            },
+            {
+                "amenity": "cafe",
+                "internet_access": "wlan",
+                "name": "Подбелка",
+                "name:en": "Podbelka",
+                "name:ru": "Подбелка",
+                "opening_hours": "Mo-Su 00:00-24:00"
+            },
+            {
+                "name": "Пелеменная на Свободе",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Русский чай",
+                "amenity": "cafe",
+                "opening_hours": "Mo-Su 09:00-20:00"
+            },
+            {
+                "amenity": "cafe",
+                "contact:email": "hotline@coffee-like.com",
+                "contact:phone": "+7 341 2908292;+7 800 3334130",
+                "contact:website": "https://coffee-like.com/",
+                "name": "Coffee Like",
+                "opening_hours": "Mo-Su 07:00-24:00",
+                "operator": "Смирнова Юлия Валентиновна"
+            },
+            {
+                "amenity": "cafe",
+                "contact:email": "hotline@coffee-like.com",
+                "contact:phone": "+7 341 2908292;+7 800 3334130",
+                "contact:website": "https://coffee-like.com/",
+                "name": "Coffee Like",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "operator": "Смирнова Юлия Валентиновна"
+            },
+            {
+                "amenity": "cafe",
+                "cuisine": "chicken;russian;cake;pancake;breakfast;coffee_shop;ice_cream",
+                "delivery": "yes",
+                "delivery:operator": "Яндекс.Еда",
+                "description": "Можно пообедать комплексно, столовая самообслуживания. уютно, чисто, приемлемые цены, вкусное, дешевое мороженое.",
+                "name": "Bazar",
+                "opening_hours": "09:00-23:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:cryptocurrencies": "no",
+                "payment:debit_cards": "yes",
+                "phone": "+7 4852 671080",
+                "smoking": "no",
+                "source": "http://restoranbazar.ru",
+                "takeaway": "yes",
+                "website": "http://restoranbazar.ru"
+            },
+            {
+                "amenity": "cafe",
+                "cuisine": "american",
+                "name": "Бургерная"
+            },
+            {
+                "amenity": "cafe",
+                "building": "yes",
+                "addr:city": "Ярославль",
+                "addr:street": "Первомайская улица",
+                "addr:country": "RU",
+                "building:levels": "1",
+                "addr:housenumber": "37"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Свежий хлеб",
+                "shop": "convenience"
+            },
+            {
+                "name": "Социал",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling"
+            }
+        ]
+    },
+    "university": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ЯрГУ им. Демидова (Экономический факультет)",
+                "amenity": "university"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Округ",
+                "shop": "clothes"
+            },
+            {
+                "name": "Старый город",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 4,
+        "detail": [
+            {
+                "description": "Магазин продуктов для здорового питания",
+                "name": "ВкусВилл",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "payment:cards": "yes",
+                "payment:cash": "yes",
+                "shop": "supermarket",
+                "website": "https://www.vkusvill.ru/"
+            },
+            {
+                "name": "Пятёрочка",
+                "name:en": "Pyatorochka",
+                "shop": "supermarket",
+                "website": "https://5ka.ru/"
+            },
+            {
+                "brand": "Дикси",
+                "brand:en": "Dixy",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "name": "Дикси",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Пятёрочка",
+                "name:en": "Pyatyorochka",
+                "shop": "supermarket",
+                "website": "https://5ka.ru/"
+            }
+        ]
+    },
+    "bar": {
+        "count": 10,
+        "detail": [
+            {
+                "name": "Пятое авеню",
+                "amenity": "bar"
+            },
+            {
+                "name": "Дудки бар",
+                "amenity": "bar",
+                "name:en": "Dudki bar",
+                "contact:phone": "+7 4852 330933",
+                "opening_hours": "Mo-Fr 00:00-02:00,12:00-24:00; Sa,Su 00:00-06:00,12:00-24:00",
+                "contact:website": "http://www.dudkibar.ru"
+            },
+            {
+                "name": "Кафе-Бар \"Республика\"",
+                "amenity": "bar"
+            },
+            {
+                "name": "Tabasko",
+                "amenity": "bar"
+            },
+            {
+                "name": "Happy bar",
+                "amenity": "bar",
+                "contact:phone": "+7 4852 732281",
+                "opening_hours": "Mo-Fr 00:00-02:00,11:00-24:00; Sa,Su 00:00-05:00,11:00-24:00",
+                "contact:website": "http://bar-happy.ru"
+            },
+            {
+                "amenity": "bar",
+                "contact:phone": "+7 915 9910000",
+                "contact:website": "http://aladdin76.ru",
+                "name": "Аладдин, кальян-бар",
+                "opening_hours": "Mo-Fr 14:00-02:00; Sa-Su 14:00-05:00",
+                "smoking": "dedicated"
+            },
+            {
+                "amenity": "bar",
+                "contact:phone": "+7 4852 732404",
+                "internet_access": "wlan",
+                "name": "Белый Кролик",
+                "name:en": "White Rabbit",
+                "name:ru": "Белый Кролик"
+            },
+            {
+                "name": "Августин",
+                "amenity": "bar"
+            },
+            {
+                "phone": "+7 4852 338309",
+                "amenity": "bar",
+                "name:en": "Hookah Place",
+                "opening_hours": "Mo-Su 12:00-03:00",
+                "internet_access": "wlan"
+            },
+            {
+                "amenity": "bar",
+                "contact:phone": "+7 906 6390005",
+                "contact:website": "http://aladdin76.ru",
+                "name": "Аладдин, кальян-бар",
+                "opening_hours": "Mo-Fr 14:00-02:00; Sa-Su 14:00-05:00",
+                "smoking": "dedicated"
+            }
+        ]
+    },
+    "books": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Читай Город",
+                "shop": "books",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            },
+            {
+                "name": "Читай город",
+                "shop": "books",
+                "name:ru": "Читай город",
+                "opening_hours": "Mo-Su 10:00-22:00"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Выставочный зал им. Нужина",
+                "source": "Bing",
+                "amenity": "arts_centre"
+            },
+            {
+                "name": "Джазовый центр",
+                "amenity": "arts_centre",
+                "building": "yes",
+                "addr:city": "Ярославль",
+                "addr:street": "Большая Октябрьская улица",
+                "addr:country": "RU",
+                "addr:postcode": "150000",
+                "building:levels": "3",
+                "addr:housenumber": "50"
+            }
+        ]
+    },
+    "jewelry": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Ювелирный",
+                "shop": "jewelry"
+            },
+            {
+                "shop": "jewelry",
+                "contact:phone": "+7 999 7997571",
+                "opening_hours": "10:00-19:00",
+                "contact:website": "http://izumrudov.com/"
+            }
+        ]
+    },
+    "bank": {
+        "count": 9,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "contact:phone": "+7 800 5555550",
+                "contact:website": "https://www.sberbank.ru",
+                "name": "Сбербанк",
+                "name:de": "Sberbank",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "website": "https://www.sberbank.ru/"
+            },
+            {
+                "bic": "VTBRRUMM",
+                "name": "ВТБ Банк Москвы",
+                "brand": "ВТБ Банк Москвы",
+                "amenity": "bank",
+                "name:en": "VTB Bank of Moscow",
+                "name:ru": "ВТБ Банк Москвы",
+                "contact:ok": "https://ok.ru/vtb",
+                "contact:vk": "https://vk.com/vtb_bm",
+                "contact:phone": "+7 800 2002326",
+                "opening_hours": "Mo-Th 09:00-18:00; Fr 09:00-17:00; Sa 10:00-15:00; Su off",
+                "brand:wikidata": "Q767946",
+                "brand:wikipedia": "ru:Банк Москвы",
+                "contact:twitter": "https://twitter.com/VTB_BM",
+                "contact:website": "https://www.bm.ru",
+                "contact:youtube": "https://www.youtube.com/vtbgroup",
+                "contact:facebook": "https://www.facebook.com/VTB.BankofMoscow",
+                "contact:instagram": "https://www.instagram.com/bankvtb"
+            },
+            {
+                "name": "Росбанк",
+                "amenity": "bank",
+                "drive_through": "no",
+                "opening_hours": "Mo-Fr 10:00-19:00"
+            },
+            {
+                "atm": "yes",
+                "name": "Ренессанс Кредит",
+                "phone": "+7 4852 304000",
+                "amenity": "bank",
+                "website": "https://rencredit.ru",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa 10:00-17:00"
+            },
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "brand:wikidata": "Q1377835",
+                "brand:wikipedia": "ru:Альфа-банк",
+                "contact:phone": "+7 495 7888878",
+                "contact:website": "https://alfabank.ru",
+                "name": "Альфа-Банк",
+                "name:en": "Alfa-Bank",
+                "name:ru": "Альфа-Банк",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00; Su off",
+                "operator": "АО \"Альфа-Банк\"",
+                "operator:wikidata": "Q1377835",
+                "operator:wikipedia": "ru:Альфа-банк",
+                "phone": "+7 4852 730325",
+                "ref": "0730"
+            },
+            {
+                "atm": "yes",
+                "name": "Бинбанк",
+                "phone": "+7 4852 599389",
+                "amenity": "bank",
+                "website": "https://www.binbank.ru/",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-17:00"
+            },
+            {
+                "bic": "VTBRRUMM",
+                "name": "ВТБ",
+                "brand": "ВТБ",
+                "amenity": "bank",
+                "name:en": "VTB",
+                "name:ru": "ВТБ",
+                "operator": "Банк ВТБ (публичное акционерное общество)",
+                "contact:ok": "https://ok.ru/vtb",
+                "contact:vk": "https://vk.com/vtb24",
+                "contact:email": "info@vtb.ru",
+                "contact:phone": "+7 800 1002424",
+                "contact:twitter": "https://twitter.com/vtb",
+                "contact:website": "https://www.vtb.ru",
+                "contact:youtube": "https://www.youtube.com/user/vtbgroup",
+                "contact:facebook": "https://www.facebook.com/vtbgroup",
+                "contact:instagram": "https://www.instagram.com/bankvtb",
+                "operator:wikidata": "Q1549389",
+                "operator:wikipedia": "ru:Банк ВТБ"
+            },
+            {
+                "name": "Открытие",
+                "amenity": "bank"
+            },
+            {
+                "name": "Отделение Ярославль ГУ Банка России по ЦФО",
+                "amenity": "bank",
+                "name:en": "Russian Central Bank Yaroslavl unit",
+                "building": "yes",
+                "addr:city": "Ярославль",
+                "addr:street": "Комсомольская улица",
+                "addr:country": "RU",
+                "addr:housenumber": "7"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Авторитет",
+                "amenity": "dentist"
+            }
+        ]
+    },
+    "beverages": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Виномания",
+                "shop": "beverages"
+            }
+        ]
+    },
+    "department_store": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ТД \"Каскад\"",
+                "shop": "department_store"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Ковчег",
+                "amenity": "restaurant"
+            },
+            {
+                "name": "Джузеппе",
+                "amenity": "restaurant",
+                "cuisine": "italian;italian_pizza",
+                "addr:street": "Республиканская улица",
+                "internet_access": "wlan"
+            },
+            {
+                "amenity": "restaurant",
+                "name": "Багет, паштет и желтый плед",
+                "website": "https://baget-pashtet.ru/"
+            },
+            {
+                "name": "Светлана ",
+                "amenity": "restaurant"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "KFC",
+                "brand": "KFC",
+                "amenity": "fast_food",
+                "cuisine": "chicken",
+                "name:de": "KFC",
+                "name:en": "KFC",
+                "website": "http://www.kfc.ru/",
+                "alt_name": "Kentucky Fried Chicken",
+                "int_name": "KFC",
+                "old_name": "Ростик’с-KFC / Ростикс",
+                "operator": "KFC",
+                "takeaway": "yes",
+                "addr:country": "RU",
+                "brand:wikidata": "Q524757",
+                "brand:wikipedia": "ru:KFC",
+                "contact:website": "http://www.kfc.ru",
+                "diet:vegetarian": "no",
+                "contact:facebook": "https://www.facebook.com/kfcrussia"
+            },
+            {
+                "name": "Сушиwok",
+                "amenity": "fast_food"
+            },
+            {
+                "amenity": "fast_food",
+                "delivery": "no",
+                "drive_through": "no",
+                "name": "Bazar",
+                "name:en": "Bazar",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "outdoor_seating": "yes",
+                "smoking": "no",
+                "takeaway": "yes"
+            },
+            {
+                "amenity": "fast_food",
+                "delivery": "yes",
+                "delivery:operator": "Яндекс.Еда",
+                "drive_through": "no",
+                "name": "Bazar",
+                "name:en": "Bazar",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "outdoor_seating": "yes",
+                "smoking": "no",
+                "takeaway": "yes"
+            },
+            {
+                "amenity": "fast_food",
+                "contact:email": "FeedBack@burgerking.ru",
+                "contact:phone": "+7 495 5445000",
+                "contact:vk": "https://vk.com/burgerking",
+                "contact:website": "https://burgerking.ru/",
+                "name": "Бургер кинг",
+                "opening_hours": "09:00-01:00",
+                "operator": "БУРГЕР РУС"
+            },
+            {
+                "amenity": "fast_food",
+                "building": "kiosk",
+                "name": "Гриль Дональдс"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Каскад",
+                "shop": "electronics"
+            },
+            {
+                "name": "enter",
+                "shop": "electronics",
+                "website": "enter.ru",
+                "addr:street": "Первомайская улица",
+                "description": "Продажа элекроники, бытовой техники, товаров для дома - пункт выдачи товара",
+                "opening_hours": "09:00-21:00",
+                "addr:housenumber": "33"
+            },
+            {
+                "name": "ООО НТП \"Поликом\".",
+                "shop": "electronics",
+                "addr:street": "улица Свободы",
+                "addr:housenumber": "12Б"
+            },
+            {
+                "contact:email": "Guschina.OA@dns-shop.ru",
+                "contact:phone": "+7 800 7707999",
+                "contact:website": "http://dns-shop.ru/",
+                "name": "DNS",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "ДНС Ритейл",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "atm": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "ВТБ-24"
+            },
+            {
+                "name": "Сбербанк",
+                "source": "2GIS",
+                "amenity": "atm"
+            },
+            {
+                "amenity": "atm",
+                "contact:email": "info@psbank.ru",
+                "contact:phone": "+7 495 7873333;+7 800 3330303",
+                "contact:website": "https://psbank.ru/",
+                "opening_hours": "Mo-Su 08:00-20:00",
+                "operator": "Промсвязьбанк"
+            }
+        ]
+    },
+    "dance": {
+        "count": 1,
+        "detail": [
+            {
+                "dance:teaching": "yes",
+                "leisure": "dance",
+                "name": "Студия индийских танцев."
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Ярославль",
+                "addr:housenumber": "14",
+                "addr:postcode": "150000",
+                "addr:street": "улица Кирова",
+                "brand": "Билайн",
+                "brand:wikidata": "Q402880",
+                "brand:wikipedia": "ru:Билайн",
+                "contact:facebook": "https://www.facebook.com/Beelinerus",
+                "contact:phone": "+7 800 7000611",
+                "contact:website": "http://moskva.beeline.ru",
+                "name": "Билайн",
+                "name:en": "Beeline",
+                "name:ru": "Билайн",
+                "office": "telecommunication",
+                "phone": "+7 4852 595589",
+                "shop": "mobile_phone",
+                "website": "http://yarbeeline.ru/"
+            },
+            {
+                "name": "Профи",
+                "shop": "mobile_phone",
+                "description": "Запчасти к мобильным телефонам и инструмент",
+                "payment:cash": "yes",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa 10:00-20:00; Su 10:00-19:00",
+                "payment:debit_cards": "yes",
+                "payment:credit_cards": "yes"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Tani star",
+                "shop": "florist",
+                "contact:phone": "+7 4852 726612",
+                "opening_hours": "Mo-Sa 09:00-20:00; Su 10:00-18:00",
+                "contact:website": "http://tanistar.ru"
+            },
+            {
+                "name": "Kraft",
+                "shop": "florist",
+                "email": "info@lovekraft.ru",
+                "phone": "+7 4852 909001",
+                "website": "http://lovekraft.ru",
+                "opening_hours": "Mo-Su 10:30-22:00"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Власьевская",
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Аптека",
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Планета здоровья",
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:facebook": "http://facebook.com/aptekivita",
+                "contact:instagram": "https://www.instagram.com/vita_express/",
+                "contact:phone": "+7 800 7550003",
+                "contact:vk": "https://vk.com/aptekivita",
+                "contact:website": "https://vitaexpress.ru/",
+                "name": "Вита Центральная",
+                "opening_hours": "Mo-Su 08:00-21:00"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:housenumber": "13/31",
+                "addr:street": "улица Кирова",
+                "name": "Zenden",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "shoes"
+            },
+            {
+                "name": "Francesco Donni",
+                "shop": "shoes"
+            },
+            {
+                "name": "Лёгкий шаг",
+                "shop": "shoes"
+            }
+        ]
+    },
+    "gift": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Православный мир",
+                "shop": "gift",
+                "name:en": "Orthodox world",
+                "opening_hours": "Mo-Su 10:00-20:00"
+            },
+            {
+                "shop": "gift"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Кросфит-Ураган",
+                "leisure": "sports_centre"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "travel_agency": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Облака",
+                "shop": "travel_agency",
+                "phone": "+7 4852 940300",
+                "name:en": "Clouds travel",
+                "name:ru": "Облака",
+                "website": "http://www.clouds-travel.ru",
+                "opening_hours": "Mo-Su 10:00-19:00"
+            },
+            {
+                "name": "Турагентство \"София\"",
+                "shop": "travel_agency",
+                "email": "sofiayar76@mail.ru",
+                "level": "2",
+                "phone": "+7 800 2501676",
+                "addr:city": "Ярославль",
+                "addr:street": "Комсомольская улица"
+            },
+            {
+                "name": "Пегас",
+                "shop": "travel_agency"
+            },
+            {
+                "addr:city": "Ярославль",
+                "addr:housenumber": "20",
+                "addr:street": "улица Свободы",
+                "name": "Авианик",
+                "payment:cash": "yes",
+                "payment:coins": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "phone": "+7 4852 728220",
+                "shop": "travel_agency",
+                "website": "https://avia76.ru/"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Летуаль",
+                "shop": "cosmetics",
+                "name:ru": "Летуаль"
+            },
+            {
+                "contact:email": "yrru.rocketdata@gmail.com",
+                "contact:phone": "+7 495 2304139",
+                "contact:website": "https://www.yves-rocher.ru/",
+                "name": "Ив Роше",
+                "opening_hours": "Mo-Fr 10:00-20:00;Sa 10:00-18:00;Su 10:00-16:00",
+                "operator": "ЯКУШЕВА АЛЛА АМУРОВНА",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "photo": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:postcode": "150000",
+                "email": "fotodokyar@yandex.ru",
+                "internet_access": "wlan",
+                "name": "Фото салон ВЗГЛЯД",
+                "name:ru": "Фото салон ВЗГЛЯД фото на документы",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa-Su 10:00-18:00",
+                "phone": "+7 910 6628731",
+                "shop": "photo",
+                "website": "http://www.fotodok76.ru"
+            }
+        ]
+    },
+    "hookah_lounge": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:postcode": "150000",
+                "amenity": "hookah_lounge",
+                "internet_access": "wlan",
+                "name": "Gusto",
+                "opening_hours": "Su-Th 12:00-24:00; Fr-Sa 12:00-04:00",
+                "phone": "+7 4852 903199",
+                "website": "http://Vk.com/gusto.hookah"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Знаменская церковь",
+                "amenity": "place_of_worship",
+                "name:ru": "Знаменская церковь"
+            },
+            {
+                "amenity": "place_of_worship",
+                "building": "church",
+                "denomination": "russian_orthodox",
+                "historic": "yes",
+                "name": "Церковь Богоявления Господня",
+                "name:en": "Church of the Epiphany",
+                "religion": "christian",
+                "tourism": "attraction",
+                "wikidata": "Q4504600",
+                "wikipedia": "ru:Церковь Богоявления (Ярославль)"
+            },
+            {
+                "addr:city": "Ярославль",
+                "addr:housenumber": "41А",
+                "addr:street": "Большая Октябрьская улица",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "denomination": "russian_orthodox",
+                "historic": "yes",
+                "name": "Церковь Похвалы Пресвятой Богородицы",
+                "religion": "christian",
+                "source": "BING",
+                "tourism": "attraction"
+            },
+            {
+                "addr:city": "Ярославль",
+                "addr:housenumber": "41",
+                "addr:street": "Большая Октябрьская улица",
+                "amenity": "place_of_worship",
+                "building": "church",
+                "denomination": "russian_orthodox",
+                "historic": "yes",
+                "name": "Храм Дмитрия Солунского",
+                "religion": "christian",
+                "source": "BING",
+                "tourism": "attraction"
+            }
+        ]
+    },
+    "fitness_centre": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "ФК \"Стиль Жизни\"",
+                "email": "newfitness76@yandex.ru",
+                "leisure": "fitness_centre",
+                "name:en": "FC \"Life Style\"",
+                "website": "http://фкстильжизни.рф",
+                "internet_access": "wlan"
+            },
+            {
+                "leisure": "fitness_centre",
+                "name": "Гараж",
+                "opening_hours": "Mo-Su 07:00-23:00",
+                "sport": "fitness;gym"
+            }
+        ]
+    },
+    "car": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Европа",
+                "shop": "car",
+                "car:sales": "used",
+                "second_hand": "only"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "toilets",
+                "changing_table": "no",
+                "unisex": "yes",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Виномания",
+                "opening_hours": "09:00-22:00",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "studio": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "studio",
+                "contact:email": "info@maximumtest.ru",
+                "contact:phone": "+7 485 2208996",
+                "contact:website": "http://maximumtest.ru/",
+                "name": "Maximum",
+                "opening_hours": "Mo-Su 12:00-20:00",
+                "operator": "Акопов Георгий Серегеевич"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Волков-Плаза",
+                "shop": "mall"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "yes",
+                "amenity": "parking",
+                "fee": "yes",
+                "layer": "-1",
+                "parking": "underground"
+            }
+        ]
+    },
+    "tobacco": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Табачный Мир",
+                "shop": "tobacco"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "contact@yves-rocher.ru",
+                "contact:facebook": "https://www.facebook.com/YvesRocherRussia",
+                "contact:instagram": "https://www.instagram.com/yvesrocher_russia/",
+                "contact:ok": "https://ok.ru/yves.rocher.russia",
+                "contact:phone": "+7 495 2304139",
+                "contact:vk": "https://vk.com/yves.rocher.russia",
+                "contact:website": "https://www.yves-rocher.ru/",
+                "name": "Yves Rocher France SPA",
+                "opening_hours": "Mo-Fr 10:00-20:00;Sa 10:00-18:00;Su 10:00-16:00",
+                "operator": "ЯКУШЕВА АЛЛА АМУРОВНА",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ОМ Кировского района",
+                "height": "11",
+                "amenity": "police",
+                "building": "civic",
+                "roof:shape": "hipped",
+                "addr:street": "Большая Октябрьская улица",
+                "building:levels": "2",
+                "addr:housenumber": "42"
+            }
+        ]
+    },
+    "nightclub": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Семь Пятниц",
+                "source": "Bing",
+                "amenity": "nightclub",
+                "name:en": "Seven Fridays",
+                "building": "yes",
+                "addr:city": "Ярославль",
+                "addr:street": "Комсомольская улица",
+                "addr:housenumber": "10А"
+            }
+        ]
+    },
+    "service": {
+        "count": 2,
+        "detail": [
+            {
+                "ref": "158",
+                "name": "ТП-158",
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "ref": "156",
+                "name": "ТП-156",
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ярославль",
+                "addr:country": "RU",
+                "addr:housenumber": "45",
+                "addr:region": "Ярославская область",
+                "addr:street": "Большая Октябрьская улица",
+                "building": "commercial",
+                "building:levels": "2",
+                "height": "9"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Шаурма",
+                "shop": "kiosk",
+                "height": "2.5",
+                "building": "yes"
+            }
+        ]
+    }
+}

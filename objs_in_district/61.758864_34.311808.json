@@ -1,0 +1,84 @@
+{
+    "residents": 4254,
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "fitness_station": {
+        "count": 1,
+        "detail": [
+            {
+                "description": "Тренажёры",
+                "leisure": "fitness_station",
+                "sport": "fitness"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "5",
+                "addr:street": "бульвар Интернационалистов",
+                "building": "kindergarten",
+                "building:levels": "3",
+                "design:modified": "yes",
+                "design:ref": "211-1-296"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "design:ref": "221-1-384",
+                "addr:street": "бульвар Интернационалистов",
+                "building:levels": "4",
+                "addr:housenumber": "2",
+                "building:cladding": "panel"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "37",
+                "addr:street": "улица Хейкконена",
+                "building": "yes",
+                "leisure": "sports_centre",
+                "name": "H2O",
+                "opening_hours": "Mo-Su 07:00-23:00",
+                "sport": "swimming"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Петрозаводск",
+                "addr:housenumber": "8А",
+                "addr:street": "бульвар Интернационалистов",
+                "building": "yes",
+                "shop": "supermarket"
+            }
+        ]
+    }
+}

@@ -1,0 +1,208 @@
+{
+    "residents": 5031,
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket",
+                "name:ja": "ズヴョーズヌイ"
+            }
+        ]
+    },
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fuel",
+                "brand": "Газпромнефть",
+                "fuel:octane_92": "yes",
+                "fuel:octane_95": "yes",
+                "name": "Газпромнефть",
+                "operator": "Газпром нефть",
+                "self_service": "yes",
+                "website": "https://www.gazprom-neft.ru/"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Автошины и диски мира",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ДАРиК",
+                "shop": "clothes",
+                "phone": "278-60-20",
+                "website": "http://daric.ru",
+                "description": "военторг"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist"
+            }
+        ]
+    },
+    "outdoor": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ДАРиК рекламно-производственный отдел",
+                "shop": "outdoor",
+                "email": "dar-reklama@mail.ru",
+                "phone": "8-953-82-82-82-0",
+                "name:en": "Daric",
+                "name:ru": "ДАРиК рекламно-производственный отдел",
+                "website": "http://daric.ru",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "internet_access": "wlan"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Живика",
+                "amenity": "pharmacy",
+                "name:ru": "Живика",
+                "website": "http://zhivika.ru/"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Продукты",
+                "shop": "convenience",
+                "name:ru": "Продукты",
+                "opening_hours": "Mo-Su 08:00-23:00"
+            },
+            {
+                "name": "Бристоль",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "copyshop": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "УралЮрИсдат",
+                "shop": "copyshop",
+                "name:ru": "УралЮрИсдат"
+            }
+        ]
+    },
+    "shelter": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "shelter"
+            },
+            {
+                "amenity": "shelter",
+                "building": "roof",
+                "shelter_type": "public_transport"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Восторг",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "bench": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes"
+            }
+        ]
+    },
+    "service": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "service",
+                "addr:city": "Екатеринбург",
+                "addr:country": "RU",
+                "building:levels": "1"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation",
+                "ref": "4544",
+                "substation": "yes"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Екатеринбург",
+                "addr:country": "RU",
+                "addr:housenumber": "2А",
+                "addr:postcode": "620014",
+                "addr:street": "улица Энергостроителей",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "height": "10"
+            }
+        ]
+    },
+    "tyres": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "tyres",
+                "building": "commercial",
+                "addr:city": "Екатеринбург",
+                "addr:street": "улица Челюскинцев",
+                "addr:country": "RU",
+                "addr:postcode": "620014",
+                "building:levels": "1",
+                "addr:housenumber": "5З"
+            }
+        ]
+    }
+}

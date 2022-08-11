@@ -1,0 +1,401 @@
+{
+    "residents": 7560,
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "bin": "yes",
+                "name": "Площадь Викторио Кодовильи",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Площадь Викторио Кодовильи",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "3-я Парковая улица",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "name": "Щёлковский проезд",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "name": "Щёлковский проезд",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Цветология",
+                "shop": "florist"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "bic": "SABRRUMM",
+                "branch": "Московский банк",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://www.instagram.com/sberbank/",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank/",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 10:00-19:00",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "ref": "9038/0985",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Рубин-банкетный зал",
+                "amenity": "restaurant"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Виват-пицца",
+                "amenity": "fast_food"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Рубин",
+                "shop": "convenience"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience",
+                "opening_hours": "Mo-Su 10:00-20:00"
+            },
+            {
+                "name": "Лабаз",
+                "shop": "convenience",
+                "opening_hours": "Mo-Su 08:00-21:00"
+            },
+            {
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "phone": "+7 495 1646761",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "105425",
+                "name": "Москва 105425",
+                "amenity": "post_office",
+                "operator": "ФГУП «Почта России»",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:phone": "+7 800 2005888",
+                "opening_hours": "Mo-Fr 08:00-13:00,14:00-20:00; Sa 09:00-13:00,14:00-18:00; Su off",
+                "contact:twitter": "https://twitter.com/ruspostofficial",
+                "contact:website": "https://www.pochta.ru",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России"
+            }
+        ]
+    },
+    "parking": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "parking",
+                "parking": "surface",
+                "capacity": "7"
+            },
+            {
+                "amenity": "parking",
+                "parking": "surface"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Стоматология на Парковой",
+                "amenity": "dentist",
+                "healthcare": "dentist",
+                "health_facility:type": "clinic",
+                "medical_system:western": "yes",
+                "health_specialty:dentistry": "yes"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "У Джонни"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "level": "-1",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "opening_hours": "09:00-22:00",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "collection_times": "Mo-Fr 16:08,19:58; Sa 16:08,17:58; Su 16:55"
+            }
+        ]
+    },
+    "outpost": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Wildberries",
+                "brand:wikidata": "Q24933714",
+                "brand:wikipedia": "ru:Wildberries",
+                "contact:email": "sales@wildberries.ru",
+                "contact:facebook": "https://www.facebook.com/wbbot",
+                "contact:instagram": "https://www.instagram.com/wildberriesru",
+                "contact:ok": "https://ok.ru/wildberries",
+                "contact:skype": "Wildberries_ru",
+                "contact:telegram": "wbshop_bot",
+                "contact:twitter": "https://twitter.com/wildberries_ru",
+                "contact:viber": "wildberries",
+                "contact:vk": "https://vk.com/wbbot",
+                "contact:website": "https://www.wildberries.ru",
+                "contact:whatsapp": "+7 926 5373137",
+                "contact:youtube": "https://www.youtube.com/user/Wildberriesshop",
+                "name": "Wildberries",
+                "name:en": "Wildberries",
+                "shop": "outpost"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Храм преподобного Серафима Саровского",
+                "amenity": "place_of_worship",
+                "religion": "christian",
+                "denomination": "russian_orthodox",
+                "opening_hours": "Sa,Su"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 495 5395454",
+                "contact:website": "http://parking.mos.ru/",
+                "opening_hours": "24/7",
+                "operator": "ГКУ «Администратор Московского парковочного пространства»",
+                "payment:cash": "no",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "ref": "3076",
+                "ref:mos_parking": "334973606",
+                "source": "dit.mos.ru",
+                "vending": "parking_tickets",
+                "zone:parking": "4078"
+            }
+        ]
+    },
+    "bench": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Участковый пункт полиции 34",
+                "amenity": "police"
+            }
+        ]
+    },
+    "houseware": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "houseware"
+            },
+            {
+                "contact:facebook": "https://www.facebook.com/kuchenland.ru",
+                "contact:instagram": "https://www.instagram.com/kuchenland_official/",
+                "contact:phone": "+7 495 7301808",
+                "contact:vk": "https://vk.com/kuchenland_official",
+                "contact:website": "https://www.kuchenland.ru/",
+                "name": "Kuchenland",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "ИП Дорофеева А.С.",
+                "shop": "houseware"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Поликлиника №18",
+                "amenity": "clinic",
+                "building": "hospital",
+                "healthcare": "clinic",
+                "addr:street": "Сиреневый бульвар",
+                "contact:phone": "+7 499 1646630",
+                "building:levels": "4",
+                "addr:housenumber": "8",
+                "health_facility:type": "clinic"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ЦРР №837",
+                "amenity": "school",
+                "building": "yes",
+                "addr:city": "Москва",
+                "addr:street": "Верхняя Первомайская улица",
+                "building:levels": "3",
+                "addr:housenumber": "23"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "5-я Парковая улица",
+                "building:levels": "2",
+                "addr:housenumber": "39"
+            },
+            {
+                "building": "kindergarten",
+                "addr:street": "5-я Парковая улица",
+                "addr:postcode": "105425",
+                "addr:housenumber": "43А"
+            }
+        ]
+    },
+    "college": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Колледж автоматизации и информационных технологий № 20",
+                "amenity": "college",
+                "building": "yes",
+                "addr:street": "Верхняя Первомайская улица",
+                "building:levels": "5",
+                "addr:housenumber": "7"
+            }
+        ]
+    },
+    "fire_station": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "ПЧ-26",
+                "name": "Пожарная часть № 26",
+                "amenity": "fire_station",
+                "building": "yes",
+                "operator": "RU-MOW",
+                "addr:street": "3-я Парковая улица",
+                "building:levels": "3",
+                "addr:housenumber": "41"
+            }
+        ]
+    },
+    "veterinary": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "8А",
+                "addr:street": "Сиреневый бульвар",
+                "amenity": "veterinary",
+                "building": "yes",
+                "building:levels": "2",
+                "name": "Первомайский ветеринарный центр",
+                "opening_hours": "24/7",
+                "phone": "+7 499 1644872",
+                "website": "http://www.pvcentre.ru/"
+            }
+        ]
+    }
+}

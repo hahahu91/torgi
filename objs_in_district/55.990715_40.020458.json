@@ -1,0 +1,352 @@
+{
+    "residents": 2928,
+    "supermarket": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Ассорти",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "phone": "8 800 2009002",
+                "website": "http://www.magnit-info.ru",
+                "opening_hours": "08:00-22:00",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)"
+            },
+            {
+                "name": "Дикси",
+                "shop": "supermarket"
+            },
+            {
+                "addr:city": "Собинка",
+                "addr:housenumber": "35",
+                "addr:street": "Центральная улица",
+                "alt_name": "Пятерочка",
+                "alt_name:ru": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "building": "yes",
+                "building:levels": "1",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "email": "vopros@5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterchka",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "08:00-22:00",
+                "shop": "supermarket",
+                "website": "https://5ka.ru/"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 7,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Автостанция Собинка",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bin": "yes",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Автостанция Собинка",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Медицинский центр",
+                "amenity": "hospital"
+            },
+            {
+                "addr:city": "Собинка",
+                "addr:country": "RU",
+                "addr:housenumber": "24 к3",
+                "addr:street": "улица Димитрова",
+                "amenity": "hospital",
+                "building": "yes",
+                "emergency": "yes",
+                "name": "Скорая помощь",
+                "roof:shape": "hipped"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Аптечный пункт",
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Наша аптека",
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Визит",
+                "amenity": "cafe"
+            },
+            {
+                "amenity": "cafe",
+                "building": "yes"
+            },
+            {
+                "amenity": "cafe",
+                "building": "yes",
+                "name": "Лира"
+            },
+            {
+                "name": "Водопад",
+                "amenity": "cafe",
+                "building": "yes"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Роспечать",
+                "shop": "newsagent"
+            },
+            {
+                "name": "Роспечать",
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "toys": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "toys"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "seafood": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Рыба",
+                "shop": "seafood"
+            }
+        ]
+    },
+    "bus_station": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Автостанция Собинка",
+                "amenity": "bus_station",
+                "public_transport": "station"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "сотовые телефоны б.у.",
+                "shop": "mobile_phone",
+                "name:ru": "сотовые телефоны б.у."
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "atm": "yes",
+                "name": "Совкомбанк",
+                "phone": "8 800 2006696",
+                "amenity": "bank",
+                "website": "https://sovcombank.ru",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "operator:wikidata": "Q4426566",
+                "operator:wikipedia": "ru:Совкомбанк"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Василиса",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 800 7707999",
+                "contact:website": "http://dns-shop.ru/",
+                "name": "DNS",
+                "opening_hours": "Mo-Su 09:00-19:00",
+                "operator": "ДНС Ритейл",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:phone": "+7 800 7753553",
+                "contact:website": "http://omnicdek.com/",
+                "name": "ОмниСДЭК",
+                "opening_hours": "Mo-Su 08:00-21:00",
+                "ref": "6257",
+                "vending": "parcel_pickup"
+            }
+        ]
+    },
+    "townhall": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Собинка",
+                "addr:country": "RU",
+                "addr:housenumber": "1",
+                "addr:street": "улица Димитрова",
+                "amenity": "townhall",
+                "building": "yes",
+                "building:levels": "3",
+                "name": "Городская админинстрация",
+                "roof:shape": "hipped"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Собинка",
+                "addr:country": "RU",
+                "addr:housenumber": "3А",
+                "addr:street": "улица Чайковского",
+                "building": "school",
+                "source": "rosreestr"
+            }
+        ]
+    },
+    "college": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ПУ №44",
+                "amenity": "college",
+                "building": "yes",
+                "addr:city": "Собинка",
+                "roof:shape": "hipped",
+                "addr:street": "улица Димитрова",
+                "addr:country": "RU",
+                "building:levels": "3",
+                "addr:housenumber": "7"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:city": "Собинка",
+                "roof:shape": "hipped",
+                "addr:street": "улица Димитрова",
+                "addr:country": "RU",
+                "addr:housenumber": "13"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Поликлиника",
+                "amenity": "clinic",
+                "building": "yes",
+                "addr:city": "Собинка",
+                "healthcare": "clinic",
+                "roof:shape": "hipped",
+                "addr:street": "улица Димитрова",
+                "addr:country": "RU",
+                "building:levels": "2",
+                "addr:housenumber": "24",
+                "health_facility:type": "clinic"
+            }
+        ]
+    },
+    "music_school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Собинка",
+                "addr:country": "RU",
+                "amenity": "music_school",
+                "building": "yes",
+                "name": "Музыкальная школа"
+            }
+        ]
+    }
+}

@@ -1,0 +1,125 @@
+{
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "name": "Проспект Строителей",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Дворец Спорта",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Проспект Строителей",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Покрышкина",
+                "highway": "bus_stop",
+                "alt_name": "ГАИ"
+            },
+            {
+                "name": "Покрышкина",
+                "highway": "bus_stop",
+                "alt_name": "ГАИ"
+            }
+        ]
+    },
+    "police": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "ГИБДД",
+                "amenity": "police"
+            },
+            {
+                "name": "РОВД Центрального района",
+                "amenity": "police"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Эвриком Кузбасс",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "pub": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пиво",
+                "amenity": "pub"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "residents": 391,
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "hospital",
+                "name": "Медиа-Сервис",
+                "phone": "+7 3843 561003"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "детский сад №42",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:city": "Новокузнецк",
+                "addr:street": "проспект Строителей",
+                "addr:housenumber": "44"
+            },
+            {
+                "name": "детский сад №2",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:city": "Новокузнецк",
+                "addr:street": "проспект Строителей",
+                "addr:housenumber": "50"
+            }
+        ]
+    }
+}

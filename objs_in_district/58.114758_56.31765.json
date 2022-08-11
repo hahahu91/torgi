@@ -1,0 +1,107 @@
+{
+    "residents": 3558,
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Гибискус",
+                "shop": "florist",
+                "addr:street": "улица Карбышева",
+                "addr:housenumber": "6"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Лион",
+                "shop": "alcohol",
+                "addr:street": "улица Карбышева",
+                "addr:housenumber": "6"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "La fleur",
+                "amenity": "cafe",
+                "cuisine": "coffee_shop",
+                "addr:street": "улица Карбышева",
+                "addr:housenumber": "6"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "highway": "bus_stop",
+                "name": "Микрорайон Гайва",
+                "public_transport": "platform",
+                "ref": "20801"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Микрорайон Гайва",
+                "public_transport": "platform",
+                "ref": "20800"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:phone": "+7 800 2009002",
+                "contact:website": "http://magnit-info.ru",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "opening_hours": "09:30-22:00",
+                "operator": "АО Тандер",
+                "ref": "20640188",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Детский сад №175",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "addr:street": "улица Репина",
+                "building:levels": "2",
+                "addr:housenumber": "76"
+            },
+            {
+                "name": "Детский сад №394",
+                "amenity": "kindergarten",
+                "building": "kindergarten",
+                "addr:street": "улица Репина",
+                "building:levels": "2",
+                "addr:housenumber": "10А"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Средняя школа №101",
+                "amenity": "school",
+                "building": "school",
+                "addr:street": "улица Репина",
+                "official_name": "Средняя общеобразовательная школа №101",
+                "building:levels": "2",
+                "addr:housenumber": "12"
+            }
+        ]
+    }
+}

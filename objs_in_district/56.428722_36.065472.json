@@ -1,0 +1,17 @@
+{
+    "residents": 0,
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Часовня Александра Невского",
+                "amenity": "place_of_worship",
+                "building": "chapel",
+                "religion": "christian",
+                "start_date": "1869",
+                "denomination": "russian_orthodox",
+                "ref:temples.ru": "1704"
+            }
+        ]
+    }
+}

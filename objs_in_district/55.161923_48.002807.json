@@ -1,0 +1,23 @@
+{
+    "residents": 411,
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сбербанк",
+                "amenity": "bank"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "recycling",
+                "operator": "Сбербанк",
+                "recycling_type": "container",
+                "recycling:batteries": "yes"
+            }
+        ]
+    }
+}

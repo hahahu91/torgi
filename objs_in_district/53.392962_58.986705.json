@@ -1,0 +1,228 @@
+{
+    "residents": 8310,
+    "car": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Магтехноцентр",
+                "shop": "car",
+                "phone": "+7 3519 318100",
+                "addr:city": "Магнитогорск",
+                "addr:street": "проспект Ленина",
+                "addr:postcode": "455037",
+                "addr:housenumber": "93"
+            },
+            {
+                "shop": "car",
+                "name:en": "BMW"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "С/ц Ford",
+                "shop": "car_repair",
+                "addr:city": "Магнитогорск",
+                "description": "Сервисный центр Ford"
+            },
+            {
+                "addr:city": "Магнитогорск",
+                "addr:housenumber": "9",
+                "addr:postcode": "455037",
+                "addr:street": "улица Марджани",
+                "name": "Fit Service",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "payment:cash": "yes",
+                "payment:credit_cards": "yes",
+                "payment:debit_cards": "yes",
+                "phone": "+7 3519 490201",
+                "service:vehicle:car_repair": "yes",
+                "service:vehicle:diagnostics": "yes",
+                "service:vehicle:oil_change": "yes",
+                "shop": "car_repair",
+                "website": "https://magnitogorsk.fitauto.ru/"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Д/с 6",
+                "phone": "+7 3519 347245",
+                "amenity": "kindergarten",
+                "addr:city": "Магнитогорск",
+                "addr:street": "улица Советской Армии",
+                "addr:postcode": "455037",
+                "addr:housenumber": "29/2"
+            }
+        ]
+    },
+    "fuel": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Салават",
+                "brand": "Салават",
+                "amenity": "fuel",
+                "name:ja": "サラヴァート",
+                "website": "http://www.lukoil.ru/",
+                "addr:city": "Магнитогорск"
+            },
+            {
+                "amenity": "fuel",
+                "fuel:lpg": "yes"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ситно",
+                "shop": "convenience",
+                "addr:city": "Магнитогорск",
+                "addr:street": "улица Советской Армии",
+                "description": "Продукты",
+                "addr:postcode": "455037",
+                "addr:housenumber": "31"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Школа 66",
+                "phone": "+7 3519 317933",
+                "amenity": "school",
+                "addr:city": "Магнитогорск",
+                "addr:street": "проспект Ленина",
+                "addr:postcode": "455037",
+                "addr:housenumber": "96"
+            },
+            {
+                "amenity": "school",
+                "building": "yes",
+                "addr:city": "Магнитогорск",
+                "addr:street": "проспект Ленина",
+                "addr:postcode": "455037",
+                "building:levels": "4",
+                "addr:housenumber": "96"
+            }
+        ]
+    },
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Дом обороны",
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Обувная фабрика",
+                "bench": "no",
+                "highway": "bus_stop",
+                "shelter": "no",
+                "tactile_paving": "no"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "AVTOМИР",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "laundry": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Лада",
+                "shop": "laundry",
+                "name:en": "Lada",
+                "addr:street": "проспект Ленина",
+                "addr:housenumber": "89/4"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "contact:facebook": "http://facebook.com/aptekivita",
+                "contact:instagram": "https://www.instagram.com/vita_express/",
+                "contact:phone": "+7 800 7550003",
+                "contact:vk": "https://vk.com/aptekivita",
+                "contact:website": "https://vitaexpress.ru/",
+                "name": "Вита Экспресс",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "service",
+                "addr:city": "Магнитогорск",
+                "addr:street": "улица Советской Армии",
+                "addr:postcode": "455037",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магнит",
+                "shop": "mall",
+                "building": "yes",
+                "addr:city": "Магнитогорск",
+                "addr:street": "улица Советской Армии",
+                "building:levels": "3",
+                "addr:housenumber": "31А"
+            }
+        ]
+    }
+}

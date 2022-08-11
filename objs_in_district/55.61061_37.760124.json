@@ -1,0 +1,372 @@
+{
+    "residents": 5122,
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Авоська",
+                "shop": "convenience",
+                "wheelchair": "yes",
+                "opening_hours": "Mo-Su 09:00-23:00"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 5,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Зябликово",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Гурьевский проезд, 35",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Гурьевский проезд, 35",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "name": "16-й микрорайон Орехова-Борисова",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            },
+            {
+                "name": "16-й микрорайон Орехова-Борисова",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "parking_entrance": {
+        "count": 1,
+        "detail": [
+            {
+                "access": "private",
+                "amenity": "parking_entrance"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:housenumber": "25 к1",
+                "addr:postcode": "115597",
+                "addr:street": "Гурьевский проезд",
+                "amenity": "pharmacy",
+                "name": "А-мега",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "phone": "+7 968 8612142"
+            },
+            {
+                "name": "Кэртис-М",
+                "amenity": "pharmacy",
+                "opening_hours": "Mo-Fr 08:30-22:30; Sa 11:00-21:00; Su 12:00-20:00"
+            },
+            {
+                "name": "Красота и здоровье",
+                "amenity": "pharmacy",
+                "opening_hours": "Mo-Su 09:00-22:00"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "bench": {
+        "count": 42,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "police",
+                "name": "Участковый пункт полиции №6",
+                "phone": "+7 495 3979090",
+                "ref": "6"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Matrix",
+                "shop": "hairdresser",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa-Su 10:00-17:00"
+            }
+        ]
+    },
+    "parking": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            },
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "service": "tyres",
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "service": {
+        "count": 5,
+        "detail": [
+            {
+                "building": "service",
+                "addr:street": "Гурьевский проезд",
+                "addr:housenumber": "29-2"
+            },
+            {
+                "power": "substation",
+                "height": "4",
+                "building": "service",
+                "addr:street": "Гурьевский проезд",
+                "building:levels": "1",
+                "addr:housenumber": "25 к1 с2"
+            },
+            {
+                "power": "substation",
+                "height": "4",
+                "building": "service"
+            },
+            {
+                "power": "substation",
+                "height": "4",
+                "building": "service",
+                "substation": "yes"
+            },
+            {
+                "addr:city": "район Зябликово",
+                "addr:housenumber": "26 к1",
+                "addr:postcode": "115682",
+                "addr:street": "Ореховый бульвар",
+                "alt_name": "Ново-Орехово",
+                "building": "service",
+                "location": "indoor",
+                "name": "Шипиловская",
+                "operator": "ОАО «Энергокомплекс»",
+                "power": "substation",
+                "rating": "160 MVA",
+                "ref": "863",
+                "substation": "industrial",
+                "voltage": "110000;20000"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "Гурьевский проезд",
+                "building:levels": "2",
+                "addr:housenumber": "31 к3"
+            }
+        ]
+    },
+    "social_facility": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский дом №71",
+                "amenity": "social_facility",
+                "building": "yes",
+                "wheelchair": "limited",
+                "addr:street": "Гурьевский проезд",
+                "addr:postcode": "115597",
+                "building:levels": "2",
+                "social_facility": "group_home",
+                "addr:housenumber": "27 к3",
+                "social_facility:for": "orphan"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "clothes",
+                "building": "yes"
+            }
+        ]
+    }
+}

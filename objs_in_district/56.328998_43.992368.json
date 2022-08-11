@@ -1,0 +1,1075 @@
+{
+    "residents": 3103,
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "bus": "yes",
+                "name": "Рождественская улица",
+                "highway": "bus_stop",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Речной вокзал",
+                "highway": "bus_stop",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Рождественская улица",
+                "highway": "bus_stop",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пресса",
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 8,
+        "detail": [
+            {
+                "amenity": "restaurant",
+                "email": "info@pir.nn.ru",
+                "internet_access": "wlan",
+                "name": "Папаша Билли",
+                "opening_hours": "24/7",
+                "operator": "Группа компаний ПИР",
+                "phone": "+7 831 4336751",
+                "website": "http://www.pir.nn.ru/dadbilly/"
+            },
+            {
+                "amenity": "restaurant",
+                "cuisine": "japanese",
+                "email": "12stulievnn@mail.ru",
+                "internet_access": "wlan",
+                "name": "12 стульев",
+                "phone": "+7 831 4156712",
+                "website": "http://www.12stulievnn.ru"
+            },
+            {
+                "amenity": "restaurant",
+                "email": "ptkn10@mail.ru",
+                "internet_access": "wlan",
+                "internet_access:fee": "no",
+                "name": "Пяткин",
+                "opening_hours": "Mo-Su 12:00-24:00",
+                "operator": "ГК Пир",
+                "phone": "+7 831 4309183",
+                "website": "http://www.pir.nnov.ru"
+            },
+            {
+                "name": "Бельканто",
+                "amenity": "restaurant",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Солодовъ",
+                "wifi": "free",
+                "phone": "+7 831 4220404",
+                "amenity": "restaurant",
+                "website": "http://солодовъ.рф",
+                "opening_hours": "12:00-24:00"
+            },
+            {
+                "name": "Балканский дворик",
+                "amenity": "restaurant",
+                "opening_hours": "Mo-Su 11:00-24:00"
+            },
+            {
+                "addr:city": "Нижний Новгород",
+                "addr:housenumber": "19",
+                "addr:street": "Рождественская улица",
+                "amenity": "restaurant",
+                "cuisine": "georgian",
+                "name": "БаклаДжан",
+                "opening_hours": "Mo-Th,Su 12:00-24:00; Fr-Sa 12:00-02:00",
+                "operator": "ООО \"Бастурма\"",
+                "operator:ref:inn": "5260414940",
+                "outdoor_seating": "yes",
+                "phone": "+7 831 4245155",
+                "smoking": "yes"
+            },
+            {
+                "amenity": "restaurant",
+                "name": "Скоба"
+            }
+        ]
+    },
+    "bicycle_parking": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "bicycle_parking",
+                "covered": "no",
+                "capacity": "6",
+                "operator": "рестаран «Папаша Билли»",
+                "bicycle_parking": "stands"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "covered": "no",
+                "capacity": "10",
+                "bicycle_parking": "wall_loops"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "covered": "no",
+                "capacity": "5",
+                "supervised": "no",
+                "bicycle_parking": "wall_loops"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "covered": "no",
+                "capacity": "20",
+                "bicycle_parking": "rack"
+            },
+            {
+                "amenity": "bicycle_parking",
+                "covered": "no",
+                "capacity": "14",
+                "bicycle_parking": "wall_loops"
+            }
+        ]
+    },
+    "pub": {
+        "count": 9,
+        "detail": [
+            {
+                "name": "Закусочная",
+                "amenity": "pub",
+                "opening_hours": "Mo-Su 07:00-22:00"
+            },
+            {
+                "amenity": "pub",
+                "description": "Корчма",
+                "name": "Козьма Минич",
+                "opening_hours": "Mo-Su 12:00-23:00",
+                "phone": "+7 831 313750"
+            },
+            {
+                "amenity": "pub",
+                "internet_access": "wlan",
+                "internet_access:fee": "no",
+                "name": "Union Jack",
+                "opening_hours": "24/7",
+                "phone": "+7 831 4330734",
+                "smoking": "yes",
+                "website": "http://unionjack-nn.ru"
+            },
+            {
+                "name": "Oblico Morale Bar",
+                "amenity": "pub"
+            },
+            {
+                "amenity": "pub",
+                "drink": "beer",
+                "name": "Эрик Рыжий",
+                "opening_hours": "11:00-24:00",
+                "phone": "+7 987 1126777",
+                "smoking": "no",
+                "website": "https://nn.ericthered.ru/"
+            },
+            {
+                "name": "Стрелок",
+                "amenity": "pub"
+            },
+            {
+                "name": "ТемаФеичъ",
+                "amenity": "pub"
+            },
+            {
+                "addr:housenumber": "8Б",
+                "addr:street": "Рождественская улица",
+                "amenity": "pub",
+                "description": "Магазин-бар крафтового пива. Нестандартное пиво и сидр частных пивоварен. Для биргиков и всех, кто открыт новым вкусам.",
+                "level": "0",
+                "name": "HopHead",
+                "opening_hours": "Mo-Su 14:00-22:00",
+                "phone": "+7 903 0414185",
+                "smoking": "outside",
+                "website": "https://vk.com/hopheadnn",
+                "wheelchair": "limited"
+            },
+            {
+                "amenity": "pub",
+                "description": "магазин-бар крафтового пива",
+                "name": "PortBAR craft beer",
+                "opening_hours": "Mo-Su 00:00-02:00,14:00-24:00",
+                "phone": "+7 920 2582655",
+                "website": "https://vk.com/port_bar"
+            }
+        ]
+    },
+    "dance": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "olegyelena@mail.ru",
+                "contact:phone": "+7 831 4148442",
+                "contact:website": "http://mastertango.ru",
+                "dance:teaching": "yes",
+                "leisure": "dance",
+                "name": "Мастерская танго"
+            }
+        ]
+    },
+    "gift": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Продукты",
+                "shop": "gift"
+            },
+            {
+                "name": "Волшебная лавка",
+                "shop": "gift",
+                "opening_hours": "Tu-Su 12:00-21:00"
+            },
+            {
+                "description": "Этнический центр.",
+                "email": "hello@domashamana.ru",
+                "name": "Дом шамана",
+                "opening_hours": "Tu-Su 12:00-21:00",
+                "phone": "+7 831 4137720",
+                "shop": "gift",
+                "website": "http://domshamana.ru"
+            }
+        ]
+    },
+    "telephone": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "telephone"
+            },
+            {
+                "amenity": "telephone"
+            },
+            {
+                "amenity": "telephone"
+            },
+            {
+                "amenity": "telephone"
+            },
+            {
+                "amenity": "telephone"
+            },
+            {
+                "amenity": "telephone"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Luxury Store",
+                "shop": "clothes"
+            },
+            {
+                "name": "Ramsey London",
+                "shop": "clothes"
+            },
+            {
+                "name": "Априори",
+                "shop": "clothes",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa,Su 10:00-19:00"
+            },
+            {
+                "name": "Валентин",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "phone": "+7 831 4333779",
+                "shop": "clothes",
+                "website": "http://valentinshop.ru"
+            },
+            {
+                "name": "Соната",
+                "opening_hours": "Mo-Sa 09:00-19:00; Su 09:00-16:00",
+                "phone": "+7 831 4619193",
+                "shop": "clothes",
+                "website": "http://sonatann.ru"
+            },
+            {
+                "name": "Точка",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 17,
+        "detail": [
+            {
+                "name": "Золотой восток",
+                "amenity": "cafe",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Ёж",
+                "amenity": "cafe"
+            },
+            {
+                "amenity": "cafe",
+                "email": "12stulievnn@mail.ru",
+                "internet_access": "wlan",
+                "name": "Лица",
+                "phone": "+7 831 2780076",
+                "website": "http://www.12stulievnn.ru"
+            },
+            {
+                "amenity": "cafe",
+                "description": "Литературное кафе",
+                "name": "Безухов",
+                "opening_hours": "24/7",
+                "phone": "+7 831 4338763",
+                "website": "http://bezuhov.ru"
+            },
+            {
+                "name": "Нептун",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Оливо",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Централ Перк",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Сандаловый дом",
+                "amenity": "cafe",
+                "opening_hours": "Mo-Su 10:00-19:00"
+            },
+            {
+                "name": "Beerлога",
+                "amenity": "cafe"
+            },
+            {
+                "amenity": "cafe",
+                "contact:phone": "+7 831 2820111",
+                "contact:vk": "https://vk.com/seledkabar",
+                "name": "Селедка и кофе"
+            },
+            {
+                "addr:housenumber": "24",
+                "addr:street": "Рождественская улица",
+                "amenity": "cafe",
+                "internet_access": "wlan",
+                "name": "Coffee cake",
+                "opening_hours": "Mo-Th 08:00-22:00; Fr 08:00-23:59; Sa 00:00-23:59; Su 00:00-22:00",
+                "phone": "+7 831 4636500;+7 831 4133688",
+                "website": "https://www.coffee-cake.net/"
+            },
+            {
+                "name": "Семь:сорок",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Ламаджо",
+                "amenity": "cafe"
+            },
+            {
+                "name": "Кофе – это Фрукт",
+                "amenity": "cafe",
+                "cuisine": "coffee",
+                "smoking": "outside",
+                "opening_hours": "Mo-Th 08:00-21:00; Fr 08:00-22:00; Sa 11:00-22:00; Su 11:00-21:00"
+            },
+            {
+                "amenity": "cafe",
+                "cuisine": "german;grill;italian;mexican;pasta",
+                "internet_access": "wlan",
+                "name": "Гастропаб Горьковская пивоварня",
+                "name:en": "Gastropub Gorkovskaya Brewery",
+                "opening_hours": "Mo-Fr 12:00-24:00; Sa-Su 12:00-01:00",
+                "phone": "+7 910 7902726",
+                "website": "http://gorkybeer.ru"
+            },
+            {
+                "addr:city": "Нижний Новгород",
+                "addr:housenumber": "18",
+                "addr:street": "Рождественская улица",
+                "amenity": "cafe",
+                "name": "Квеври",
+                "opening_hours": "Mo-Th, Su 12:00-21:00; Fr-Sa 12:00-23:00",
+                "phone": "+7 831 2128942"
+            },
+            {
+                "amenity": "cafe",
+                "name": "7 гость"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Тайна",
+                "leisure": "sauna"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Дикобраз",
+                "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-17:00",
+                "phone": "+7 831 2789648",
+                "shop": "hairdresser",
+                "website": "https://dicobraz.ru/"
+            },
+            {
+                "name": "Chop-chop",
+                "opening_hours": "Mo-Su 12:00-22:00",
+                "phone": "+7 831 4300719",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Mr. Right",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "nightclub": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "nightclub",
+                "name": "Лекс",
+                "phone": "+7 831 2301030",
+                "website": "http://lexxnn.ru"
+            },
+            {
+                "name": "Central bar",
+                "amenity": "nightclub",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "nightclub",
+                "email": "opera_nn@mail.ru",
+                "name": "Опера",
+                "phone": "+7 831 4342989",
+                "website": "http://karaoke-opera.ru"
+            },
+            {
+                "name": "Shizgara",
+                "amenity": "nightclub"
+            },
+            {
+                "name": "Склад",
+                "amenity": "nightclub",
+                "smoking": "yes",
+                "website": "http://vk.com/skladclub"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "car_wash"
+            },
+            {
+                "amenity": "car_wash"
+            }
+        ]
+    },
+    "musical_instrument": {
+        "count": 1,
+        "detail": [
+            {
+                "email": "music@avallon.nnov.ru",
+                "name": "Аваллон",
+                "opening_hours": "Mo-Fr 10:00-18:00",
+                "phone": "+7 831 4303684",
+                "shop": "musical_instrument",
+                "website": "http://avallonltd.com"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "internet_access": "wlan",
+                "internet_access:fee": "no",
+                "name": "Спар",
+                "opening_hours": "Mo-Su 07:00-22:00",
+                "shop": "convenience",
+                "website": "https://spar-nn.ru/"
+            },
+            {
+                "name": "Продукты",
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "post_box",
+                "operator": "Почта России"
+            },
+            {
+                "amenity": "post_box",
+                "operator": "Почта России"
+            }
+        ]
+    },
+    "training": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская художественная школа №1",
+                "amenity": "training",
+                "training": "art",
+                "short_name": "ДХШ №1"
+            }
+        ]
+    },
+    "clock": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "clock",
+                "display": "digital",
+                "support": "wall_mounted",
+                "thermometer": "yes"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "bench": {
+        "count": 68,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "highway": "street_lamp"
+            },
+            {
+                "amenity": "bench",
+                "highway": "street_lamp"
+            },
+            {
+                "amenity": "bench",
+                "highway": "street_lamp"
+            },
+            {
+                "amenity": "bench",
+                "highway": "street_lamp"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "highway": "street_lamp"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench",
+                "direction": "NW"
+            },
+            {
+                "amenity": "bench",
+                "direction": "NW"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Камея",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "confectionery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Meredo",
+                "shop": "confectionery"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Farmani",
+                "amenity": "pharmacy",
+                "opening_hours": "Mo-Su 08:00-20:00"
+            }
+        ]
+    },
+    "motorcycle": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ducati",
+                "shop": "motorcycle"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "brand:wikidata": "Q1502763",
+                "brand:wikipedia": "ru:Почта России",
+                "contact:website": "https://www.pochta.ru",
+                "name": "Нижний Новгород 603001",
+                "opening_hours": "Tu,Th 09:00-13:00,14:00-17:00; We,Fr 11:00-13:00,14:00-19:00; Sa 09:00-13:00,14:00-16:00",
+                "operator": "АО «Почта России»",
+                "ref": "603001"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 19,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            },
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 2,
+        "detail": [
+            {
+                "fee": "no",
+                "amenity": "toilets",
+                "wheelchair": "yes"
+            },
+            {
+                "fee": "no",
+                "amenity": "toilets",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Бристоль",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "arts_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Futuro",
+                "amenity": "arts_centre"
+            }
+        ]
+    },
+    "theatre": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "24",
+                "addr:street": "Рождественская улица",
+                "amenity": "theatre",
+                "description": "Учебный театр Юрия Головина",
+                "name": "Утюг",
+                "phone": "+7 904 9274719",
+                "website": "https://utugnn.ru"
+            }
+        ]
+    },
+    "bar": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Ribs and Beer",
+                "amenity": "bar",
+                "cuisine": "ribs",
+                "opening_hours": "Tu-Th 16:00-22:00; Fr-Sa 16:00-04:00; Su 16:00-00:00"
+            },
+            {
+                "name": "Rebel",
+                "amenity": "bar",
+                "name:en": "REBEL craft beer",
+                "name:ru": "REBEL craft beer",
+                "addr:street": "Кожевенный переулок",
+                "addr:postcode": "603001",
+                "addr:housenumber": "7"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "vending": "parking_tickets"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "community_centre",
+                "community_centre": "environment_centre",
+                "contact:phone": "+7 831 4302881",
+                "contact:vk": "https://vk.com/drontnn",
+                "contact:website": "https://dront.ru",
+                "name": "Дронт",
+                "official_name": "Экоцентр \"Дронт\""
+            }
+        ]
+    },
+    "houseware": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:facebook": "https://www.facebook.com/kuchenland.ru",
+                "contact:instagram": "https://www.instagram.com/kuchenland_official/",
+                "contact:phone": "+7 831 2161315",
+                "contact:vk": "https://vk.com/kuchenland_official",
+                "contact:website": "https://www.kuchenland.ru/",
+                "name": "Kuchenland",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "shop": "houseware"
+            }
+        ]
+    },
+    "place_of_worship": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "3",
+                "addr:street": "Крутой переулок",
+                "amenity": "place_of_worship",
+                "building": "yes",
+                "building:architecture": "oldrussian",
+                "denomination": "orthodox",
+                "name": "Церковь успения божией матери",
+                "place": "Нижегородский район",
+                "religion": "christian",
+                "start_date": "C17",
+                "tourism": "attraction"
+            }
+        ]
+    },
+    "service": {
+        "count": 6,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service",
+                "building:levels": "2"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "ref": "221",
+                "power": "substation",
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "ref": "579",
+                "power": "substation",
+                "building": "service",
+                "roof:colour": "silver",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ильинский",
+                "shop": "car_repair",
+                "building": "yes",
+                "building:levels": "1"
+            }
+        ]
+    }
+}

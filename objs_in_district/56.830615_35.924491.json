@@ -1,0 +1,345 @@
+{
+    "bus_stop": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Бульвар Цанова",
+                "highway": "bus_stop"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Торговый центр \"Вавилон\"",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Торговый центр",
+                "public_transport": "platform"
+            },
+            {
+                "name": "Бульвар Цанова",
+                "highway": "bus_stop"
+            },
+            {
+                "bench": "no",
+                "bus": "yes",
+                "covered": "no",
+                "highway": "bus_stop",
+                "public_transport": "platform",
+                "shelter": "no"
+            },
+            {
+                "bench": "no",
+                "bin": "no",
+                "covered": "no",
+                "highway": "bus_stop",
+                "name": "бульвар Цанова",
+                "passenger_information_display": "no",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "no",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "residents": 7737,
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "170028",
+                "name": "Отделение связи №170028",
+                "amenity": "post_office",
+                "operator": "Почта России",
+                "addr:country": "RU",
+                "addr:postcode": "170028",
+                "contact:phone": "+7 4822 434930",
+                "opening_hours": "Mo-Fr 08:00-13:00,14:00-20:00; Sa 09:00-13:00,14:00-18:00; Su off",
+                "contact:website": "http://www.russianpost.ru"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "post_box",
+                "website": "https://russianpost.ru/",
+                "operator": "Почта России",
+                "addr:country": "RU"
+            },
+            {
+                "addr:country": "RU",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "website": "https://russianpost.ru/"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Пятёрочка",
+                "shop": "supermarket",
+                "source": "ref",
+                "opening_hours": "Mo-Su 08:00-22:00"
+            },
+            {
+                "brand": "Ашан",
+                "brand:en": "Auchan",
+                "brand:wikidata": "Q758603",
+                "brand:wikipedia": "ru:Auchan",
+                "name": "Ашан",
+                "name:en": "Auchan",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Универсал",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Аптека + Оптика",
+                "amenity": "pharmacy",
+                "opening_hours": "7:30-22:00"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Эконом",
+                "name:ru": "Эконом"
+            }
+        ]
+    },
+    "playground": {
+        "count": 2,
+        "detail": [
+            {
+                "leisure": "playground"
+            },
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "greengrocer"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Спортивная школа",
+                "leisure": "sports_centre",
+                "alt_name": "КСДЮСШОР №1"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Стелла",
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Продпост",
+                "shop": "convenience"
+            },
+            {
+                "name": "Вино - Водка - Мясо",
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Мини маркет",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience",
+                "building": "retail",
+                "addr:street": "улица Орджоникидзе",
+                "building:levels": "1",
+                "addr:housenumber": "54А"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "car_wash"
+            },
+            {
+                "amenity": "car_wash"
+            }
+        ]
+    },
+    "tyres": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "tyres"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 3,
+        "detail": [
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk",
+                "building": "yes"
+            }
+        ]
+    },
+    "florist": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "florist"
+            },
+            {
+                "shop": "florist",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "dentist",
+                "healthcare": "dentist",
+                "name": "Тверская областная стоматологическая поликлиника"
+            }
+        ]
+    },
+    "variety_store": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Fix Price",
+                "shop": "variety_store",
+                "brand": "Fix Price",
+                "brand:wikidata": "Q4038791",
+                "brand:wikipedia": "ru:Fix Price (сеть магазинов)"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "name": "Шаурма",
+                "name:en": "Shawarma"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Открытая (сменная) общеобразовательная школа №5",
+                "amenity": "school",
+                "building": "yes",
+                "addr:city": "Тверь",
+                "addr:street": "улица Орджоникидзе",
+                "addr:country": "RU",
+                "building:levels": "3",
+                "addr:housenumber": "53В"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "service"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "kindergarten",
+                "addr:street": "улица Фадеева",
+                "building:levels": "2",
+                "addr:housenumber": "44"
+            },
+            {
+                "addr:city": "Тверь",
+                "addr:country": "RU",
+                "addr:housenumber": "43 к13",
+                "addr:street": "Зелёный проезд",
+                "building": "kindergarten",
+                "roof:shape": "flat"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "building": "yes",
+                "addr:street": "улица Орджоникидзе",
+                "addr:housenumber": "48В"
+            }
+        ]
+    }
+}

@@ -1,0 +1,269 @@
+{
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Кафе \"Санта Фе\"",
+                "smoking": "outside"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Пивной ресторан \"Бухтилов\"",
+                "amenity": "restaurant"
+            }
+        ]
+    },
+    "residents": 4764,
+    "seafood": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "\"Рыбная бухта\"",
+                "shop": "seafood",
+                "addr:street": "улица Чернышевского",
+                "opening_hours": "09:00-21:00",
+                "addr:housenumber": "20"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "bench": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name:ru": "Магазин",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Магазин",
+                "name:ru": "Магазин",
+                "public_transport": "platform",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Азон Пульс"
+            },
+            {
+                "name": "Ритм",
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "ИП Шашкова",
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Аптека №161",
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "dispensing": "yes",
+                "healthcare": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "dispensing": "yes",
+                "healthcare": "pharmacy"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_box"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "СтройДом",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "72Б",
+                "addr:street": "улица Чернышевского",
+                "amenity": "bank",
+                "atm": "yes",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "en:Sberbank of Russia",
+                "drive_through": "no",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "cheese": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Брянск",
+                "addr:housenumber": "66/7",
+                "addr:street": "улица Тельмана",
+                "name": "Умалат",
+                "shop": "cheese"
+            }
+        ]
+    },
+    "fountain": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fountain"
+            }
+        ]
+    },
+    "bench": {
+        "count": 6,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "поликлиника №2",
+                "amenity": "hospital",
+                "building": "yes"
+            },
+            {
+                "name": "Больница №2. Хирургический корпус",
+                "amenity": "hospital",
+                "building": "yes",
+                "addr:city": "Брянск"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "9",
+                "addr:street": "Фосфоритная улица",
+                "building": "school",
+                "name": "Гимназия №3"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "yes",
+                "building:levels": "1",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "retail",
+                "int_name": "Kalita",
+                "name": "Калита",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist",
+                "building": "yes"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "newsagent",
+                "building": "yes"
+            }
+        ]
+    },
+    "bandstand": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "yes",
+                "leisure": "bandstand"
+            }
+        ]
+    }
+}

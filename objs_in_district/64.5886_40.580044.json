@@ -1,0 +1,228 @@
+{
+    "residents": 2568,
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Пять шагов",
+                "shop": "supermarket",
+                "contact:vk": "https://vk.com/club75261118",
+                "contact:phone": "+7 8182 234181",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "contact:website": "http://www.5shagov.panorama29.ru/"
+            },
+            {
+                "contact:vk": "https://vk.com/afanasy_fasol",
+                "name": "Афанасий",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Агат",
+                "amenity": "pharmacy",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            },
+            {
+                "name": "Фармомед",
+                "amenity": "pharmacy",
+                "name:ru": "Фармомед",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Эдельвейс",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "АлкоShop",
+                "shop": "alcohol",
+                "operator": "ООО \"Долина 2\"",
+                "addr:city": "Архангельск",
+                "addr:street": "улица Мусинского",
+                "addr:postcode": "163012",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "addr:housenumber": "15"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "branch": "Северо-Западный банк",
+                "cash_in": "yes",
+                "contact:phone": "+7 800 5555550",
+                "contact:website": "https://www.sberbank.ru/",
+                "currency:others": "no",
+                "currency:RUB": "yes",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "operator": "ПАО Сбербанк",
+                "ref": "60005176"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Северодвинский мясокомбинат",
+                "shop": "butcher",
+                "name:ru": "Северодвинский мясокомбинат",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa-Su 09:00-18:00"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Хлебная лавка",
+                "shop": "bakery",
+                "name:ru": "Хлебная лавка",
+                "opening_hours": "Mo-Su 08:00-19:00"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "florist",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Бигуди",
+                "shop": "hairdresser",
+                "name:ru": "Бигуди",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa-Su 10:00-19:00"
+            },
+            {
+                "name": "Хабрина",
+                "shop": "hairdresser",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa-Su 10:00-18:00"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "pet",
+                "opening_hours": "Mo-Su 11:00-20:00"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Шик",
+                "shop": "cosmetics",
+                "name:ru": "Шик",
+                "opening_hours": "Mo-Fr 09:00-21:00; Sa 09:00-20:00; Su 10:00-20:00"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "pitch": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "теннисный стол",
+                "sport": "table_tennis",
+                "leisure": "pitch"
+            }
+        ]
+    },
+    "vending_machine": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "vending_machine",
+                "contact:website": "https://qwbox.ru/",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "operator": "Qiwi",
+                "vending": "parcel_pickup"
+            }
+        ]
+    },
+    "service": {
+        "count": 3,
+        "detail": [
+            {
+                "ref": "ТП-929",
+                "name": "ТП-929",
+                "power": "substation",
+                "rating": "1260 kVA",
+                "voltage": "6000;400",
+                "building": "service",
+                "location": "indoor",
+                "operator": "ООО \"АСЭП\"",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "building:levels": "1"
+            },
+            {
+                "ref": "ТП-940",
+                "name": "ТП-940",
+                "power": "substation",
+                "rating": "400 kVA",
+                "voltage": "6000;400",
+                "building": "service",
+                "location": "indoor",
+                "operator": "ООО \"АСЭП\"",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "building:levels": "1"
+            },
+            {
+                "building": "service",
+                "building:levels": "1"
+            }
+        ]
+    }
+}

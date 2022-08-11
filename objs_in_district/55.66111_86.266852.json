@@ -1,0 +1,151 @@
+{
+    "residents": 2781,
+    "police": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "44",
+                "addr:street": "улица Мира",
+                "amenity": "police",
+                "name": "Полиция"
+            }
+        ]
+    },
+    "courthouse": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "14",
+                "addr:street": "улица Черняховского",
+                "amenity": "courthouse",
+                "name": "Берёзовский городской суд"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Чибис",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Чибис",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Гор.суд",
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Лига-Респект",
+                "shop": "alcohol",
+                "addr:street": "улица Черняховского",
+                "addr:housenumber": "41"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 5,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "sauna": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Баня",
+                "leisure": "sauna",
+                "addr:street": "улица Черняховского"
+            }
+        ]
+    },
+    "copyshop": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Типография",
+                "shop": "copyshop",
+                "entrance": "yes"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мечта",
+                "amenity": "car_wash"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Почта России",
+                "amenity": "post_box",
+                "operator": "Почта России",
+                "addr:country": "RU"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "40",
+                "addr:street": "улица Мира",
+                "name": "Строительные материалы",
+                "opening_hours": "Mo-Su 10:00-18:00",
+                "shop": "hardware"
+            }
+        ]
+    },
+    "service": {
+        "count": 2,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service"
+            },
+            {
+                "power": "substation",
+                "building": "service"
+            }
+        ]
+    },
+    "department_store": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "department_store",
+                "building": "retail",
+                "addr:city": "Берёзовский",
+                "addr:street": "улица Кочубея",
+                "building:levels": "1",
+                "addr:housenumber": "22"
+            }
+        ]
+    }
+}

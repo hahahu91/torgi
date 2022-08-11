@@ -1,0 +1,770 @@
+{
+    "bus_stop": {
+        "count": 11,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "7-я Парковая улица",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bin": "yes",
+                "name": "Первомайская улица",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "public_transport": "platform"
+            },
+            {
+                "bin": "yes",
+                "name": "Измайловский бульвар",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "7-я Парковая улица",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bin": "yes",
+                "name": "7-я Парковая улица",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "5-я Парковая улица",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            },
+            {
+                "bin": "yes",
+                "name": "7-я Парковая улица",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes",
+                "tactile_paving": "no",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "5-я Парковая улица",
+                "public_transport": "platform",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            },
+            {
+                "bus": "yes",
+                "name": "Первомайская улица",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Измайловский бульвар",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "7-я Парковая улица",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "residents": 12261,
+    "pharmacy": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Маяк",
+                "amenity": "pharmacy",
+                "opening_hours": "24/7"
+            },
+            {
+                "amenity": "pharmacy",
+                "contact:phone": "9952251",
+                "name": "Аптечный пункт",
+                "opening_hours": "Mo-Su 09:15-14:00,14:30-21:00",
+                "operator": "ООО \"Авеста\""
+            },
+            {
+                "name": "Норма",
+                "amenity": "pharmacy",
+                "description": "Аптечный пункт №487",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            },
+            {
+                "amenity": "pharmacy",
+                "website": "http://www.alphega-apteka.ru",
+                "operator": "alphega аптека",
+                "payment:visa": "yes",
+                "opening_hours": "24/7",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes"
+            },
+            {
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "brand": "Столички",
+                "contact:facebook": "https://www.facebook.com/stolichki",
+                "contact:instagram": "https://www.instagram.com/stolichki",
+                "contact:phone": "+7 499 6480312",
+                "contact:vk": "https://vk.com/stolichki_official",
+                "contact:website": "https://stolichki.ru",
+                "healthcare": "pharmacy",
+                "name": "Столички",
+                "name:ru": "Столички",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "operator": "ООО «НЕО-ФАРМ»",
+                "ref": "309"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 5,
+        "detail": [
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "МясновЪ",
+                "shop": "convenience",
+                "brand": "МясновЪ",
+                "name:ru": "МясновЪ",
+                "contact:vk": "https://vk.com/myasnov.russia",
+                "contact:email": "info@coolclever.ru",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "contact:website": "https://www.myasnov.ru/",
+                "contact:facebook": "https://www.facebook.com/myasnov.russia",
+                "contact:instagram": "https://instagram.com/myasnov.russia/"
+            },
+            {
+                "shop": "convenience",
+                "addr:street": "5-я Парковая улица",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            },
+            {
+                "brand": "МясновЪ",
+                "contact:email": "info@coolclever.ru",
+                "contact:facebook": "https://www.facebook.com/myasnov.russia",
+                "contact:instagram": "https://instagram.com/myasnov.russia/",
+                "contact:vk": "https://vk.com/myasnov.russia",
+                "contact:website": "https://www.myasnov.ru/",
+                "name": "МясновЪ",
+                "name:ru": "МясновЪ",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience",
+                "building": "yes"
+            }
+        ]
+    },
+    "pet": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "pet",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            },
+            {
+                "name": "Бетховен",
+                "shop": "pet",
+                "opening_hours": "Mo-Su 10:00-22:00"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Хозтовары",
+                "shop": "hardware",
+                "opening_hours": "Mo-Fr 10:00-20:00, Sa-Su 10:00-19:00"
+            },
+            {
+                "name": "Перестройка",
+                "shop": "hardware",
+                "opening_hours": "Mo-Su 10:00-20:00"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 4,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            },
+            {
+                "name": "Фея",
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser",
+                "opening_hours": "Mo-Su 09:00-21:00"
+            },
+            {
+                "name": "Эконом Парикмахерская",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "variety_store": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Fix price",
+                "brand:wikidata": "Q4038791",
+                "brand:wikipedia": "ru:Fix Price (сеть магазинов)",
+                "contact:facebook": "https://www.facebook.com/fixprice.russia",
+                "contact:instagram": "https://www.instagram.com/fixprice.russia",
+                "contact:ok": "https://ok.ru/fixprice",
+                "contact:phone": "+7 800 7753515",
+                "contact:twitter": "https://twitter.com/fix_price",
+                "contact:vk": "https://vk.com/fix_price",
+                "contact:website": "https://www.fix-price.ru",
+                "contact:youtube": "https://www.youtube.com/user/fixprice36",
+                "name": "Fix price",
+                "name:en": "Fix price",
+                "opening_hours": "Mo-Su 09:00-21:00",
+                "payment:cash": "yes",
+                "payment:coins": "no",
+                "payment:mastercard": "yes",
+                "payment:notes": "no",
+                "payment:visa": "yes",
+                "payment:visa_electron": "yes",
+                "shop": "variety_store"
+            }
+        ]
+    },
+    "ice_cream": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "ice_cream"
+            }
+        ]
+    },
+    "shoe_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "shoe_repair"
+            }
+        ]
+    },
+    "shoes": {
+        "count": 2,
+        "detail": [
+            {
+                "contact:email": "info@ecco-ros.ru",
+                "contact:facebook": "https://www.facebook.com/eccoru",
+                "contact:instagram": "https://instagram.com/ecco_ru",
+                "contact:ok": "https://ok.ru/eccoru",
+                "contact:phone": "+7 495 6412525;+7 495 9335658;+7 499 1630060;+7 800 4442525",
+                "contact:vk": "https://vk.com/eccoru",
+                "contact:website": "https://www.ecco-shoes.ru/",
+                "name": "Ecco",
+                "opening_hours": "Mo-Su 10:00-21:00",
+                "operator": "Экко-Рос",
+                "shop": "shoes"
+            },
+            {
+                "shop": "shoes"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "L'обувь",
+                "shop": "clothes"
+            },
+            {
+                "name": "Мужской костюм",
+                "shop": "clothes",
+                "clothes": "men",
+                "opening_hours": "Mo-Sa 10:00-20:00, Su 10:00-19:00"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Автоприз",
+                "shop": "car_parts",
+                "opening_hours": "Mo-Sa 09:00-21:00; Su 10:00-19:00"
+            },
+            {
+                "name": "Би-Би",
+                "shop": "car_parts",
+                "website": "http://www.auto49.ru/",
+                "opening_hours": "Mo-Su 09:00-23:00"
+            },
+            {
+                "opening_hours": "Mo-Fr 09:30-19:30; Sa-Su 10:00-17:00",
+                "phone": "+7 499 3673258",
+                "shop": "car_parts"
+            },
+            {
+                "contact:email": "ShopAGA.M61@amag.ru",
+                "contact:phone": "+7 985 2621673",
+                "contact:website": "https://www.amag.ru/",
+                "name": "Автомаг",
+                "opening_hours": "Mo-Sa 09:00-21:00;Su 10:00-18:00",
+                "operator": "Автохимия-Инвест",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Детский сад №960",
+                "amenity": "kindergarten",
+                "description": "встр"
+            },
+            {
+                "name": "Детский сад №1127 (встр)",
+                "amenity": "kindergarten",
+                "education": "kindergarten",
+                "education_level:preschool": "yes",
+                "education_profile:general": "yes",
+                "education_system:ru_standard": "yes"
+            },
+            {
+                "name": "Детский сад №687",
+                "amenity": "kindergarten",
+                "building": "kindergarten",
+                "addr:street": "Измайловский бульвар",
+                "building:levels": "3",
+                "addr:housenumber": "30А"
+            },
+            {
+                "building": "kindergarten",
+                "addr:street": "Измайловский бульвар",
+                "addr:housenumber": "20А"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "brand": "Магнит",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "operator": "АО \"Тандер\"",
+                "payment:cash": "yes",
+                "payment:visa": "no",
+                "contact:email": "info@magnit.ru",
+                "contact:phone": "+7 800 2009002",
+                "opening_hours": "Mo-Sa 08:00-23:00",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "contact:twitter": "https://twitter.com/magnit_info",
+                "contact:website": "http://magnit-info.ru",
+                "payment:mastercard": "no"
+            },
+            {
+                "alt_name": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/club19098821",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "payment:american_express": "yes",
+                "payment:cash": "yes",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa": "yes",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 4,
+        "detail": [
+            {
+                "brand": "Отдохни",
+                "contact:email": "somelie@coolclever.ru",
+                "contact:facebook": "https://www.facebook.com/somelie.community",
+                "contact:instagram": "https://www.instagram.com/somelie__community",
+                "contact:vk": "https://vk.com/somelie.community",
+                "contact:website": "https://www.somelie.ru",
+                "drink:beer": "bottled",
+                "drink:cognac": "bottled",
+                "drink:soft_drink": "bottled",
+                "drink:sparkling_wine": "bottled",
+                "drink:vodka": "bottled",
+                "drink:whisky": "bottled",
+                "drink:wine": "bottled",
+                "name": "Отдохни",
+                "name:ru": "Отдохни",
+                "opening_hours": "Mo-Su 09:00-23:00",
+                "shop": "alcohol"
+            },
+            {
+                "name": "Разливное пиво на Бульваре",
+                "shop": "alcohol",
+                "drink:beer": "yes",
+                "opening_hours": "Mo-Su 10:00-23:00"
+            },
+            {
+                "brand": "Ароматный мир",
+                "contact:facebook": "https://www.facebook.com/amwine.ru",
+                "contact:instagram": "https://instagram.com/amwine.ru",
+                "contact:phone": "+7 499 1643921",
+                "contact:twitter": "https://twitter.com/amwineru",
+                "contact:vk": "https://vk.com/amwineru",
+                "contact:website": "https://amwine.ru",
+                "drink:beer": "bottled",
+                "drink:cider": "bottled",
+                "drink:cognac": "bottled",
+                "drink:soft_drink": "bottled",
+                "drink:sparkling_wine": "bottled",
+                "drink:vodka": "bottled",
+                "drink:whisky": "bottled",
+                "drink:wine": "bottled",
+                "name": "Ароматный мир",
+                "name:ru": "Ароматный мир",
+                "opening_hours": "Mo-Sa 09:30-22:30; Su 11:00-22:00",
+                "shop": "alcohol"
+            },
+            {
+                "brand": "Красное&Белое",
+                "brand:wikidata": "Q24933790",
+                "brand:wikipedia": "ru:Красное & Белое",
+                "contact:facebook": "https://www.facebook.com/krasnoe.beloe",
+                "contact:instagram": "https://www.instagram.com/krasnoebeloe",
+                "contact:ok": "https://ok.ru/krasnoebeloe",
+                "contact:telegram": "+7 922 7033000",
+                "contact:viber": "+7 922 7033000",
+                "contact:vk": "https://vk.com/krasnoebeloe",
+                "contact:website": "https://krasnoeibeloe.ru",
+                "contact:whatsapp": "+7 922 7033000",
+                "name": "Красное&Белое",
+                "name:ru": "Красное&Белое",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "bank",
+                "name": "Московский индустриальный банк",
+                "operator": "ОАО \"МИнБ\"",
+                "website": "https://www.minbank.ru/"
+            },
+            {
+                "amenity": "bank",
+                "name": "Почта Банк"
+            }
+        ]
+    },
+    "beauty": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Лори",
+                "shop": "beauty",
+                "website": "http://salon-lori.ru"
+            },
+            {
+                "addr:city": "Москва",
+                "addr:housenumber": "10/32",
+                "addr:postcode": "105264",
+                "addr:street": "Измайловский бульвар",
+                "email": "info@charmestudio.ru",
+                "name": "Charme Studio",
+                "opening_hours": "Mo-Su 11:00-21:00",
+                "phone": "+7 966 3270127",
+                "shop": "beauty"
+            },
+            {
+                "name": "Beauty Angel",
+                "shop": "beauty"
+            }
+        ]
+    },
+    "toys": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Игрушки",
+                "shop": "toys",
+                "opening_hours": "Mo-Su 10:00-21:00"
+            }
+        ]
+    },
+    "radiotechnics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мир Радио",
+                "shop": "radiotechnics",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa,Su 10:00-19:00"
+            }
+        ]
+    },
+    "dentist": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "dentist",
+                "healthcare": "dentist",
+                "health_facility:type": "clinic",
+                "health_specialty:dentistry": "yes",
+                "medical_system:western": "yes",
+                "name": "Стоматологическая поликлиника №8",
+                "opening_hours": "Mo-Fr 08:00-20:00; Sa 09:00-18:00",
+                "phone": "+7 499 3672290"
+            },
+            {
+                "amenity": "dentist",
+                "addr:street": "Измайловский бульвар"
+            }
+        ]
+    },
+    "university": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Московский институт энергобезопасности и энергосбережения",
+                "amenity": "university",
+                "website": "http://mieen.ru"
+            },
+            {
+                "name": "ММА им. Сеченова (Физический корпус)",
+                "amenity": "university",
+                "building": "yes",
+                "roof:shape": "hipped",
+                "addr:street": "Измайловский бульвар",
+                "roof:material": "metal",
+                "building:levels": "5",
+                "addr:housenumber": "8"
+            },
+            {
+                "name": "ММА им. Сеченова (Физический корпус)",
+                "amenity": "university",
+                "building": "yes",
+                "roof:shape": "hipped",
+                "addr:street": "Измайловский бульвар",
+                "roof:material": "metal",
+                "building:levels": "5",
+                "addr:housenumber": "8 с1"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_box",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "contact:facebook": "https://www.facebook.com/ruspost?filter=2",
+                "contact:phone": "+7 800 2005888",
+                "contact:twitter": "https://twitter.com/ruspostofficial",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:website": "https://www.pochta.ru",
+                "operator": "ФГУП «Почта России»",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Флорион",
+                "shop": "florist",
+                "operator": "ООО \"Флорион\"",
+                "wheelchair": "no",
+                "addr:street": "Первомайская улица",
+                "payment:cash": "yes",
+                "payment:visa": "yes",
+                "opening_hours": "Mo-Fr 08:00-22:00; Sa 09:00-22:00; Su 09:00-21:00",
+                "payment:maestro": "yes",
+                "payment:mastercard": "yes",
+                "payment:visa_electron": "yes"
+            }
+        ]
+    },
+    "books": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мир Школьника",
+                "shop": "books"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:street": "Первомайская улица",
+                "amenity": "fast_food",
+                "cuisine": "pizza",
+                "name": "Додо Пицца"
+            }
+        ]
+    },
+    "music_school": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детская музыкальная школа имени С.В. Рахманинова",
+                "amenity": "music_school",
+                "education": "facultative_school",
+                "education_form:parttime": "yes",
+                "education_level:primary": "yes",
+                "education_profile:music": "yes",
+                "education_system:ru_standard": "yes"
+            }
+        ]
+    },
+    "department_store": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Меркурий",
+                "shop": "department_store",
+                "opening_hours": "Mo-Sa 10:00-20:00; Su 10:00-18:00"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "В окошках",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Городская поликлиника №191",
+                "amenity": "clinic",
+                "addr:city": "Москва",
+                "addr:street": "7-я Парковая улица",
+                "opening_hours": "Mo-Fr 07:30-21:00; Sa 09:00-18:00; Su 09:00-16:00",
+                "addr:housenumber": "8"
+            },
+            {
+                "amenity": "clinic",
+                "building": "residential",
+                "healthcare": "clinic",
+                "roof:shape": "hipped",
+                "addr:street": "Первомайская улица",
+                "addr2:street": "Первомайская улица",
+                "addr:postcode": "105043",
+                "roof:material": "metal",
+                "building:levels": "5",
+                "addr:housenumber": "61/8",
+                "addr2:housenumber": "61/8",
+                "health_facility:type": "clinic"
+            }
+        ]
+    },
+    "bench": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "police": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "ОВД ВАО",
+                "amenity": "police"
+            },
+            {
+                "name": "ОВД ВАО",
+                "amenity": "police",
+                "building": "office",
+                "roof:shape": "hipped",
+                "addr:street": "Измайловский бульвар",
+                "roof:material": "metal",
+                "building:levels": "5",
+                "addr:housenumber": "13"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "school",
+                "roof:shape": "hipped",
+                "addr:street": "Измайловский бульвар",
+                "roof:levels": "0",
+                "addr:postcode": "105264",
+                "roof:material": "metal",
+                "building:levels": "5",
+                "addr:housenumber": "7"
+            },
+            {
+                "addr:housenumber": "59",
+                "addr:street": "Первомайская улица",
+                "building": "school",
+                "building:levels": "4"
+            }
+        ]
+    }
+}

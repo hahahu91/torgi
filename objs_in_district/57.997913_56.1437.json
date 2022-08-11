@@ -1,0 +1,454 @@
+{
+    "residents": 8760,
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Желябова",
+                "amenity": "fuel"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 6,
+        "detail": [
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Семья",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Суши Ворк",
+                "shop": "supermarket"
+            },
+            {
+                "name": "Монетка",
+                "shop": "supermarket"
+            },
+            {
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "shop": "supermarket"
+            },
+            {
+                "addr:housenumber": "10А",
+                "addr:street": "улица Желябова",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "building": "commercial",
+                "building:levels": "1",
+                "contact:phone": "+7 800 5555505",
+                "contact:website": "https://5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyatyorochka",
+                "name:ru": "Пятёрочка",
+                "opening_hours": "24/7",
+                "operator": "X5 Retail Group",
+                "ref": "7849",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Планета Здоровья",
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "car_wash": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "car_wash"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "highway": "bus_stop",
+                "name": "ул. Желябова",
+                "public_transport": "platform",
+                "ref": "18500"
+            },
+            {
+                "bus": "yes",
+                "name": "ул. Желябова",
+                "public_transport": "stop_position"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "ул. Желябова",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Халяль",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "doctors",
+                "description": "Городская клиническая больница № 2 им. Ф.Х. Граля",
+                "name": "Женская консультация № 1"
+            },
+            {
+                "name": "Практик",
+                "amenity": "doctors"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "газеты журналы",
+                "shop": "kiosk"
+            },
+            {
+                "shop": "kiosk",
+                "building": "yes",
+                "building:levels": "1"
+            },
+            {
+                "name": "Созвездие",
+                "shop": "kiosk",
+                "building": "yes",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "513522",
+                "branch": "Волго-Вятский банк",
+                "amenity": "atm",
+                "cash_in": "no",
+                "operator": "ПАО \"Сбербанк\"",
+                "currency:EUR": "no",
+                "currency:RUB": "yes",
+                "currency:USD": "no",
+                "contact:phone": "+7 800 5555550",
+                "opening_hours": "24/7",
+                "contact:website": "http://www.sberbank.ru",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Лион",
+                "shop": "alcohol"
+            },
+            {
+                "name": "Крепость",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:email": "mona81@list.ru",
+                "contact:phone": "+7 342 2221151",
+                "contact:vk": "https://vk.com/autoyamka",
+                "name": "Автоямка",
+                "opening_hours": "24/7",
+                "operator": "Автоямка",
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Мясное место",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Продукты",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience"
+            },
+            {
+                "name": "Парус",
+                "shop": "convenience",
+                "building": "yes"
+            }
+        ]
+    },
+    "wine": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Красное&Белое",
+                "shop": "wine"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "bakery"
+            }
+        ]
+    },
+    "cosmetics": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Магнит Косметик",
+                "brand:en": "Magnit Cosmetics",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит Косметик",
+                "name:en": "Magnit Cosmetics",
+                "shop": "cosmetics"
+            }
+        ]
+    },
+    "baby_goods": {
+        "count": 1,
+        "detail": [
+            {
+                "contact:phone": "+7 982 4960558",
+                "contact:vk": "https://vk.com/toysmagicdiscount",
+                "name": "Магия скидок",
+                "opening_hours": "Mo-Su 10:00-20:00",
+                "operator": "Магия скидок",
+                "shop": "baby_goods"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "8",
+                "addr:street": "Парковый проспект",
+                "building": "commercial",
+                "building:levels": "2",
+                "roof:shape": "flat"
+            },
+            {
+                "building": "commercial",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "service": {
+        "count": 13,
+        "detail": [
+            {
+                "building": "service",
+                "building:levels": "1",
+                "man_made": "heat_exchange_station"
+            },
+            {
+                "building": "service",
+                "building:levels": "2",
+                "man_made": "heat_exchange_station",
+                "roof:shape": "flat"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "man_made": "heat_exchange_station"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "roof:shape": "flat"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "roof:shape": "flat"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation",
+                "ref": "5239",
+                "roof:shape": "flat",
+                "substation": "minor_distribution"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation",
+                "roof:shape": "flat",
+                "substation": "minor_distribution"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation",
+                "substation": "minor_distribution",
+                "voltage": "6000;400"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "roof:shape": "flat"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation",
+                "substation": "minor_distribution"
+            },
+            {
+                "building": "service",
+                "building:levels": "1"
+            },
+            {
+                "building": "service",
+                "building:levels": "1",
+                "power": "substation",
+                "substation": "minor_distribution"
+            },
+            {
+                "branch": "ПГЭС - Южный РЭС",
+                "building": "service",
+                "building:levels": "1",
+                "frequency": "50",
+                "location": "indoor",
+                "official_short_type": "ТП",
+                "operator": "МРСК Урала - Пермэнерго",
+                "power": "substation",
+                "ref": "5260",
+                "substation": "minor_distribution",
+                "voltage": "6000;400"
+            }
+        ]
+    },
+    "confectionery": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Бриош",
+                "shop": "confectionery",
+                "building": "yes",
+                "addr:street": "Парковый проспект",
+                "building:levels": "1",
+                "addr:housenumber": "26Б"
+            }
+        ]
+    },
+    "training": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "16",
+                "addr:street": "Парковый проспект",
+                "amenity": "training",
+                "building": "yes",
+                "building:levels": "2",
+                "name": "Школа искусств №13",
+                "roof:shape": "hipped",
+                "training": "art"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "14",
+                "addr:street": "улица Строителей",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "description": "Корпус 1",
+                "source:start_date": "isogd_perm",
+                "start_date": "1988-12-31"
+            },
+            {
+                "addr:housenumber": "8Б",
+                "addr:street": "Парковый проспект",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "name": "Детский сад \"Пермячок\""
+            }
+        ]
+    },
+    "mall": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "3Б",
+                "addr:street": "Парковый проспект",
+                "building": "commercial",
+                "building:levels": "2",
+                "name": "ТЦ \"Новый Проспект\"",
+                "roof:shape": "flat",
+                "shop": "mall",
+                "source:addr": "isogd_perm",
+                "source:start_date": "isogd_perm",
+                "start_date": "2017-12-29"
+            },
+            {
+                "addr:housenumber": "16А",
+                "addr:street": "улица Желябова",
+                "building": "commercial",
+                "building:levels": "2",
+                "name": "ТЦ Желябова",
+                "shop": "mall",
+                "source:start_date": "isogd_perm",
+                "start_date": "2016-08-12"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Пермь",
+                "addr:housenumber": "8А",
+                "addr:street": "Парковый проспект",
+                "building": "school",
+                "building:levels": "1",
+                "height": "6"
+            }
+        ]
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "residents": 207,
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "parking"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Вкусная еда",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Стадион Шахтер",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            },
+            {
+                "name": "Стадион Шахтер",
+                "bench": "yes",
+                "highway": "bus_stop",
+                "shelter": "yes"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Амиго",
+                "shop": "supermarket",
+                "addr:street": "Транспортная улица",
+                "addr:housenumber": "7А"
+            },
+            {
+                "addr:housenumber": "39",
+                "addr:street": "улица Ленина",
+                "brand": "Ярче!",
+                "brand:en": "Yarche!",
+                "brand:wikidata": "Q102254456",
+                "contact:facebook": "https://www.facebook.com/Yarche.supermarket/",
+                "contact:instagram": "https://www.instagram.com/supermarket_yarche",
+                "contact:vk": "https://vk.com/supermarket_yarche",
+                "email": "feedback@ya-retail.ru",
+                "name": "Ярче!",
+                "name:en": "Yarche!",
+                "name:ru": "Ярче!",
+                "shop": "supermarket",
+                "website": "https://ярче.рф/"
+            },
+            {
+                "name": "Чибис",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "mall": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Купец",
+                "shop": "mall"
+            },
+            {
+                "name": "Премьер",
+                "shop": "mall"
+            }
+        ]
+    },
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Россельхозбанк",
+                "amenity": "bank",
+                "addr:street": "улица Коваленко",
+                "addr:housenumber": "10"
+            },
+            {
+                "atm": "yes",
+                "name": "Сбербанк",
+                "amenity": "bank",
+                "building": "yes",
+                "addr:street": "Промышленная улица",
+                "addr:housenumber": "2"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Интеллект, компьютерный магазин",
+                "shop": "electronics",
+                "addr:street": "Советская улица",
+                "addr:housenumber": "12"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Детский сад № 9",
+                "amenity": "kindergarten",
+                "addr:street": "Советская улица",
+                "addr:housenumber": "7"
+            }
+        ]
+    },
+    "cinema": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Россия",
+                "amenity": "cinema",
+                "building": "yes",
+                "addr:street": "улица Ленина",
+                "addr:housenumber": "37"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Шаурма",
+                "amenity": "cafe",
+                "smoking": "no",
+                "building": "civic",
+                "addr:street": "Транспортная улица",
+                "building:levels": "2",
+                "internet_access": "no",
+                "addr:housenumber": "13А",
+                "internet_access:fee": "no"
+            }
+        ]
+    },
+    "townhall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Администрация г. Киселёвск",
+                "amenity": "townhall",
+                "building": "civic",
+                "addr:city": "Киселёвск",
+                "addr:street": "улица Ленина",
+                "addr:country": "RU",
+                "official_name": "Администрация г. Киселёвск",
+                "addr:housenumber": "30"
+            }
+        ]
+    },
+    "sports_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "оздоровительный центр \"Юность\"",
+                "sport": "swimming",
+                "leisure": "sports_centre",
+                "building": "yes",
+                "addr:street": "Советская улица",
+                "addr:housenumber": "1А"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "power": "substation",
+                "building": "service"
+            }
+        ]
+    }
+}

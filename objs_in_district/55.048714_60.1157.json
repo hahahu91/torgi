@@ -1,0 +1,414 @@
+{
+    "residents": 4218,
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "post_office",
+                "brand": "Почта России",
+                "contact:email": "client@russianpost.ru",
+                "contact:facebook": "https://www.facebook.com/ruspost",
+                "contact:instagram": "https://www.instagram.com/ruspostofficial",
+                "contact:ok": "https://ok.ru/ruspostofficial",
+                "contact:twitter": "https://twitter.com/ruspostofficial",
+                "contact:vk": "https://vk.com/russianpost",
+                "contact:website": "https://www.pochta.ru",
+                "operator": "ФГУП «Почта России»",
+                "operator:wikidata": "Q1502763",
+                "operator:wikipedia": "ru:Почта России",
+                "ref": "456300"
+            }
+        ]
+    },
+    "atm": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "Сбербанк России"
+            },
+            {
+                "addr:housenumber": "81",
+                "addr:street": "Ильменская улица",
+                "amenity": "atm",
+                "brand": "СМП банк"
+            },
+            {
+                "addr:housenumber": "81",
+                "addr:street": "Ильменская улица",
+                "amenity": "atm",
+                "brand": "Сбербанк"
+            },
+            {
+                "amenity": "atm",
+                "brand": "Челинвестбанк",
+                "opening_hours": "24/7",
+                "operator": "Челинвестбанк"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 4,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Медицинский колледж",
+                "public_transport": "platform",
+                "shelter": "no"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "ЦГБ",
+                "shelter": "no",
+                "tactile_paving": "no"
+            },
+            {
+                "highway": "bus_stop",
+                "name": "Медицинский колледж",
+                "shelter": "no"
+            },
+            {
+                "bench": "yes",
+                "highway": "bus_stop",
+                "name": "ЦГБ",
+                "shelter": "yes",
+                "tactile_paving": "no"
+            }
+        ]
+    },
+    "erotic": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Миасс",
+                "addr:housenumber": "91",
+                "addr:postcode": "456300",
+                "addr:street": "улица Романенко",
+                "level": "1",
+                "name": "Венера",
+                "name:en": "Venera",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa-Su 10:00-17:00",
+                "shop": "erotic"
+            }
+        ]
+    },
+    "drinking_water": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "drinking_water",
+                "drinking_water": "yes",
+                "man_made": "water_tap"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "delivery": "yes",
+                "internet_access": "no",
+                "noname": "yes",
+                "opening_hours": "Mo-Fr 09:00-18:00",
+                "smoking": "no",
+                "takeaway": "yes"
+            }
+        ]
+    },
+    "bench": {
+        "count": 16,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "colour": "#68554E",
+                "material": "wood",
+                "seats": "2"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "81",
+                "addr:street": "Ильменская улица",
+                "name": "Продукты",
+                "opening_hours": "Mo-Sa 08:00-20:00; Su 08:00-19:00",
+                "shop": "convenience"
+            },
+            {
+                "addr:street": "Ильменская улица",
+                "name": "Продукты",
+                "opening_hours": "Mo-Su,PH 08:00-20:00",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "81",
+                "addr:street": "Ильменская улица",
+                "amenity": "pharmacy",
+                "name": "Нью-фармлэнд",
+                "opening_hours": "Mo-Fr 10:00-18:00"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Миасс",
+                "addr:housenumber": "101",
+                "addr:postcode": "456300",
+                "addr:street": "улица Романенко",
+                "level": "1",
+                "name": "Компьютеры Альфа Лайн",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa-Su 10:00-15:00; PH closed",
+                "shop": "computer"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "brand": "Красное & Белое",
+                "brand:en": "Red&White",
+                "name": "Красное & Белое",
+                "name:en": "Red&White",
+                "opening_hours": "Mo-Su,PH 09:00-22:05",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal",
+                "waste": "trash"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "81",
+                "addr:street": "Ильменская улица",
+                "amenity": "clinic",
+                "building": "hospital",
+                "building:levels": "5",
+                "healthcare": "clinic",
+                "name": "Поликлиника",
+                "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-14:00"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "3А",
+                "addr:postcode": "456300",
+                "addr:street": "улица Чучева",
+                "building": "kindergarten",
+                "building:levels": "2"
+            }
+        ]
+    },
+    "nightclub": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Клуб-кафе \"Викинг\"",
+                "amenity": "nightclub",
+                "building": "yes",
+                "addr:street": "улица Романенко",
+                "building:levels": "1",
+                "addr:housenumber": "91Б"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "89",
+                "addr:street": "улица Романенко",
+                "building": "school",
+                "building:levels": "3",
+                "name": "Гимназия №26"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Миасс",
+                "addr:country": "RU",
+                "addr:housenumber": "65",
+                "addr:postcode": "456300",
+                "addr:region": "Челябинская область",
+                "addr:street": "проспект Автозаводцев",
+                "building": "retail",
+                "building:levels": "3",
+                "name": "Слон",
+                "official_short_type": "ТРК",
+                "roof:colour": "#D8D8D8",
+                "shop": "mall"
+            }
+        ]
+    },
+    "service": {
+        "count": 4,
+        "detail": [
+            {
+                "addr:housenumber": "90",
+                "addr:street": "Ильменская улица",
+                "building": "service"
+            },
+            {
+                "building": "service",
+                "height": "4",
+                "name": "ТР 2",
+                "power": "substation",
+                "voltage": "63000"
+            },
+            {
+                "building": "service"
+            },
+            {
+                "building": "service"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "kiosk",
+                "building:levels": "1",
+                "inscription": "Роспечать",
+                "name": "Роспечать",
+                "opening_hours": "Mo-Sa 08:00-17:00",
+                "shop": "newsagent"
+            }
+        ]
+    }
+}

@@ -1,0 +1,283 @@
+{
+    "bus_stop": {
+        "count": 8,
+        "detail": [
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Заводской проспект",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "улица Веры Слуцкой, 91",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bench": "yes",
+                "bin": "yes",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "улица Веры Слуцкой",
+                "public_transport": "platform",
+                "shelter": "yes"
+            },
+            {
+                "bus": "yes",
+                "name": "Заводской проспект",
+                "public_transport": "stop_position"
+            },
+            {
+                "bench": "no",
+                "bin": "no",
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Заводской проспект",
+                "public_transport": "platform",
+                "shelter": "no"
+            },
+            {
+                "bus": "yes",
+                "name": "улица Веры Слуцкой, 91",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "Заводской проспект",
+                "public_transport": "stop_position"
+            },
+            {
+                "bus": "yes",
+                "name": "улица Веры Слуцкой",
+                "public_transport": "stop_position"
+            }
+        ]
+    },
+    "swimming_pool": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Бассейн ИЗ",
+                "leisure": "swimming_pool"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит",
+                "name:de": "Magnit",
+                "name:en": "Magnit",
+                "name:ru": "Магнит",
+                "opening_hours": "Mo-Su 08:00-23:00",
+                "phone": "+7 800 2009002",
+                "shop": "supermarket",
+                "website": "https://magnit-info.ru/"
+            }
+        ]
+    },
+    "residents": 3468,
+    "car_repair": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "car_repair"
+            },
+            {
+                "shop": "car_repair",
+                "addr:street": "Заводской проспект"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "post_box": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "post_box",
+                "collection_times": "Mo-Fr 10:40,18:30; Sa 10:40; Su 18:30",
+                "drive_through": "no",
+                "operator": "Почта России",
+                "post_box:type": "wall"
+            },
+            {
+                "amenity": "post_box",
+                "collection_times": "Mo-Fr 10:40,18:30; Sa 10:40; Su 18:30",
+                "drive_through": "no",
+                "operator": "Почта России",
+                "post_box:type": "wall"
+            },
+            {
+                "ref": "1069",
+                "access": "private",
+                "amenity": "post_box",
+                "disused": "yes",
+                "operator": "Почта России",
+                "drive_through": "no",
+                "post_box:type": "slot"
+            }
+        ]
+    },
+    "waste_basket": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "waste_basket"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "cuisine": "barbecue;russian",
+                "name": "Луна"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "17",
+                "addr:street": "Заводской проспект",
+                "name": "stop express",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            },
+            {
+                "addr:housenumber": "34 к3",
+                "addr:street": "Заводской проспект",
+                "building": "pavilion",
+                "building:levels": "1",
+                "name": "Яблоня",
+                "name:ru": "Яблоня",
+                "opening_hours": "24/7",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "bench": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "toilets": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "toilets",
+                "opening_hours": "24/7",
+                "operator": "Газпромнефть"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "height": "8",
+                "building": "kindergarten",
+                "addr:city": "Колпино",
+                "design:ref": "2С-04-3",
+                "addr:region": "Санкт-Петербург",
+                "addr:street": "Заводской проспект",
+                "addr:country": "RU",
+                "addr:postcode": "196657",
+                "building:levels": "2",
+                "addr:housenumber": "32 к2",
+                "building:cladding": "panel"
+            },
+            {
+                "name": "Детский сад №2",
+                "height": "8",
+                "amenity": "kindergarten",
+                "building": "kindergarten",
+                "addr:city": "Колпино",
+                "design:ref": "2С-04-3",
+                "addr:region": "Санкт-Петербург",
+                "addr:street": "Заводской проспект",
+                "addr:country": "RU",
+                "addr:postcode": "196657",
+                "building:levels": "2",
+                "addr:housenumber": "46",
+                "building:cladding": "panel"
+            }
+        ]
+    },
+    "fuel": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Колпино",
+                "addr:housenumber": "17",
+                "addr:street": "Заводской проспект",
+                "amenity": "fuel",
+                "building": "yes",
+                "building:levels": "1",
+                "compressed_air": "yes",
+                "fuel:diesel": "yes",
+                "fuel:octane_95": "yes",
+                "fuel:octane_98": "yes",
+                "name": "Газпромнефть",
+                "opening_hours": "24/7",
+                "operator": "ОАО «Газпром нефть»",
+                "toilets": "yes",
+                "website": "https://www.gazprom-neft.ru/"
+            }
+        ]
+    },
+    "service": {
+        "count": 1,
+        "detail": [
+            {
+                "ref": "3339",
+                "power": "substation",
+                "branch": "Кабельная сеть",
+                "voltage": "6000;400",
+                "building": "service",
+                "location": "indoor",
+                "operator": "Ленэнерго",
+                "frequency": "50",
+                "substation": "minor_distribution",
+                "building:levels": "1"
+            }
+        ]
+    }
+}

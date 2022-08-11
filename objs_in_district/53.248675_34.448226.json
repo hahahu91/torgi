@@ -1,0 +1,176 @@
+{
+    "residents": 3630,
+    "parking": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Автостоянка",
+                "amenity": "parking"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 4,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Азон Пульс"
+            },
+            {
+                "name": "ООО Самсоновы-3",
+                "amenity": "pharmacy"
+            },
+            {
+                "name": "Аптека №161",
+                "amenity": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "dispensing": "yes",
+                "healthcare": "pharmacy"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Магнит",
+                "brand:en": "Magnit",
+                "brand:wikidata": "Q940518",
+                "brand:wikipedia": "ru:Магнит (сеть магазинов)",
+                "name": "Магнит",
+                "name:en": "Magnit",
+                "shop": "convenience"
+            },
+            {
+                "shop": "convenience",
+                "building": "retail",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "cheese": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Брянск",
+                "addr:housenumber": "66/7",
+                "addr:street": "улица Тельмана",
+                "name": "Умалат",
+                "shop": "cheese"
+            }
+        ]
+    },
+    "fountain": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "fountain"
+            }
+        ]
+    },
+    "bench": {
+        "count": 8,
+        "detail": [
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            },
+            {
+                "amenity": "bench",
+                "backrest": "yes",
+                "material": "wood"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Магнит",
+                "shop": "supermarket",
+                "building": "yes",
+                "int_name": "Magnit"
+            },
+            {
+                "building": "retail",
+                "int_name": "Kalita",
+                "name": "Калита",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "public_building": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ТЦ Командор",
+                "amenity": "public_building",
+                "building": "yes",
+                "int_name": "Komandor"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "9",
+                "addr:street": "Фосфоритная улица",
+                "building": "school",
+                "name": "Гимназия №3"
+            }
+        ]
+    },
+    "marketplace": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "marketplace",
+                "building": "yes"
+            }
+        ]
+    },
+    "bandstand": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "yes",
+                "leisure": "bandstand"
+            }
+        ]
+    }
+}

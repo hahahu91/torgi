@@ -1,0 +1,97 @@
+{
+    "residents": 447,
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "atm": "yes",
+                "branch": "Центрально-Черноземный банк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "ru:Сбербанк России",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://www.instagram.com/sberbank",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "contact:youtube": "https://www.youtube.com/sberbank",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-Fr 09:00-13:00,14:00-17:15",
+                "operator": "ПАО Сбербанк",
+                "operator:wikidata": "Q205012",
+                "operator:wikipedia": "ru:Сбербанк России",
+                "phone": "+7-47354-41145",
+                "ref": "9013/0406",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Детский сад",
+                "amenity": "kindergarten"
+            },
+            {
+                "amenity": "kindergarten"
+            },
+            {
+                "addr:housenumber": "20",
+                "addr:place": "Юго-восточный микрорайон",
+                "amenity": "kindergarten",
+                "name": "Детский сад"
+            }
+        ]
+    },
+    "library": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Библиотека",
+                "amenity": "library"
+            }
+        ]
+    },
+    "telephone": {
+        "count": 1,
+        "detail": [
+            {
+                "phone": "4735441080",
+                "amenity": "telephone"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "1",
+                "addr:place": "Юго-восточный микрорайон",
+                "amenity": "fast_food",
+                "name": "Русский аппетит",
+                "opening_hours": "24/7"
+            }
+        ]
+    },
+    "college": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:place": "Юго-восточный микрорайон",
+                "amenity": "college",
+                "building": "yes",
+                "name": "ПТУ 34"
+            },
+            {
+                "addr:place": "Юго-восточный микрорайон",
+                "amenity": "college",
+                "building": "yes"
+            }
+        ]
+    }
+}

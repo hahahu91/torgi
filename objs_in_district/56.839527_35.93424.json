@@ -1,0 +1,755 @@
+{
+    "shoes": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Обувь в Чайке",
+                "shop": "shoes",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00; Su 10:00-17:00"
+            }
+        ]
+    },
+    "fast_food": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "fast_food",
+                "cuisine": "pizza",
+                "name": "Милано",
+                "opening_hours": "Su-Th 11:00-22:00; Fr,Sa 11:00-23:00"
+            },
+            {
+                "amenity": "fast_food",
+                "cuisine": "burger",
+                "name": "Шаурма сити"
+            }
+        ]
+    },
+    "outdoor": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Рыбачок",
+                "shop": "outdoor"
+            },
+            {
+                "name": "Турист",
+                "shop": "outdoor",
+                "wheelchair": "no"
+            },
+            {
+                "name": "Рыбачок",
+                "shop": "outdoor",
+                "opening_hours": "Mo-Fr 09:00-18:00; Sa 09:00-18:00; Su 09:00-16:00"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Аптека"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy"
+            },
+            {
+                "amenity": "pharmacy",
+                "healthcare": "pharmacy",
+                "name": "Аптека низких цен",
+                "opening_hours": "Mo-Su 08:00-24:00"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Верхневолжская птицефабрика",
+                "shop": "butcher",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa-Su 10:00-18:00"
+            },
+            {
+                "name": "Мясной двор",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "courthouse": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Тверской областной суд",
+                "amenity": "courthouse",
+                "wheelchair": "yes"
+            }
+        ]
+    },
+    "residents": 7173,
+    "college": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Тверской колледж сервиса и туризма",
+                "amenity": "college",
+                "wheelchair": "yes",
+                "toilets:wheelchair": "yes"
+            }
+        ]
+    },
+    "copyshop": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Информационный Центр",
+                "shop": "copyshop"
+            },
+            {
+                "name": "Fujifilm",
+                "shop": "copyshop",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa-Su 09:00-19:00"
+            }
+        ]
+    },
+    "doityourself": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Тиги-Кнауф",
+                "operator": "OOO \"Тиги-Тверь\"",
+                "phone": "+7 4822 791110",
+                "shop": "doityourself",
+                "website": "http://igips.ru/tver/contacts/"
+            },
+            {
+                "name": "Скобяная лавка",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa,Su 09:00-17:00",
+                "shop": "doityourself"
+            }
+        ]
+    },
+    "post_office": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:country": "RU",
+                "addr:postcode": "170037",
+                "amenity": "post_office",
+                "name": "Отделение №37",
+                "operator": "Почта России",
+                "ref": "170037",
+                "website": "https://russianpost.ru/"
+            }
+        ]
+    },
+    "pawnbroker": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "pawnbroker"
+            }
+        ]
+    },
+    "mobile_phone": {
+        "count": 3,
+        "detail": [
+            {
+                "brand": "МТС",
+                "brand:en": "MTS",
+                "brand:wikidata": "Q1368919",
+                "brand:wikipedia": "en:MTS (network provider)",
+                "name": "МТС",
+                "name:en": "MTS",
+                "opening_hours": "Mo-Fr 10:00-20:00; Sa,Su 10:00-19:00",
+                "shop": "mobile_phone",
+                "website": "http://www.mts.ru/"
+            },
+            {
+                "brand": "Tele2",
+                "brand:wikidata": "Q309865",
+                "brand:wikipedia": "en:Tele2",
+                "name": "Tele2",
+                "shop": "mobile_phone"
+            },
+            {
+                "brand": "Евросеть",
+                "brand:en": "Euroset",
+                "brand:wikidata": "Q65310",
+                "brand:wikipedia": "en:Euroset",
+                "name": "Евросеть",
+                "name:en": "Euroset",
+                "shop": "mobile_phone"
+            }
+        ]
+    },
+    "bakery": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Коржик",
+                "opening_hours": "Mo-Su 08:00-20:00",
+                "shop": "bakery"
+            },
+            {
+                "name": "Хлебница",
+                "shop": "bakery"
+            }
+        ]
+    },
+    "bathroom_furnishing": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Российская Сантехника",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00; Su 09:00-16:00",
+                "shop": "bathroom_furnishing"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Минимаркет",
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Супермаркет",
+                "shop": "convenience",
+                "opening_hours": "24/7"
+            },
+            {
+                "name": "Народный",
+                "shop": "convenience",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa-Su 10:00-18:00"
+            },
+            {
+                "name": "Красное и белое",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "hardware": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Лотос",
+                "shop": "hardware",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00; Su 09:00-16:00"
+            },
+            {
+                "level": "1",
+                "name": "Всеинструменты.ру",
+                "shop": "hardware",
+                "wheelchair": "no"
+            }
+        ]
+    },
+    "clothes": {
+        "count": 4,
+        "detail": [
+            {
+                "name": "Эконом",
+                "shop": "clothes",
+                "opening_hours": "Mo-Fr 09:00-20:00; Sa-Su 09:00-19:00"
+            },
+            {
+                "name": "Детская одежда",
+                "shop": "clothes"
+            },
+            {
+                "name": "Одежда и обувь",
+                "shop": "clothes"
+            },
+            {
+                "name": "Всё в ажуре",
+                "name:ru": "Всё в ажуре",
+                "shop": "clothes"
+            }
+        ]
+    },
+    "jewelry": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Кайрос",
+                "shop": "jewelry",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa-Su 10:00-17:00"
+            }
+        ]
+    },
+    "electronics": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Электротовары",
+                "shop": "electronics",
+                "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00; Su 09:00-16:00"
+            },
+            {
+                "name": "Рекорд",
+                "shop": "electronics"
+            }
+        ]
+    },
+    "furniture": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Экономебель",
+                "shop": "furniture",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa-Su 10:00-17:00"
+            },
+            {
+                "name": "Боровичи Мебель",
+                "shop": "furniture"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "seafood": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Дары Нептуна",
+                "opening_hours": "Mo-Sa 09:00-20:00; Su 09:00-17:00",
+                "shop": "seafood"
+            }
+        ]
+    },
+    "fabric": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Рукодельница",
+                "shop": "fabric"
+            },
+            {
+                "level": "1",
+                "name": "Тверской лён",
+                "shop": "fabric"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "cafe",
+                "name": "Кафетерий",
+                "opening_hours": "Mo-Fr 10:00-19:00; Sa 10:00-18:00; Su 10:00-17:00"
+            },
+            {
+                "name": "Малиновка",
+                "amenity": "cafe"
+            }
+        ]
+    },
+    "gift": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Катюша",
+                "shop": "gift"
+            }
+        ]
+    },
+    "newsagent": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Тверьсоюзпечать",
+                "shop": "newsagent"
+            }
+        ]
+    },
+    "travel_agency": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Медвежий угол",
+                "shop": "travel_agency"
+            }
+        ]
+    },
+    "computer": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Глобал",
+                "shop": "computer"
+            }
+        ]
+    },
+    "car_repair": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "car_repair"
+            }
+        ]
+    },
+    "university": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Тверской филиал ГОУ ВПО Инжэкон",
+                "amenity": "university",
+                "website": "http://www.engectver.ru/"
+            }
+        ]
+    },
+    "doctors": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "doctors",
+                "healthcare": "doctor",
+                "name": "Арт-Мед"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Автозапчасти для иномарок",
+                "shop": "car_parts"
+            },
+            {
+                "name": "Pirelli",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "driving_school": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "driving_school"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Татьянин день",
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "waste_disposal": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "waste_disposal"
+            },
+            {
+                "amenity": "waste_disposal"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 7,
+        "detail": [
+            {
+                "bin": "no",
+                "bus": "yes",
+                "covered": "no",
+                "highway": "bus_stop",
+                "name": "Площадь Терешковой",
+                "passenger_information_display": "no",
+                "public_transport": "platform",
+                "tactile_paving": "no",
+                "wheelchair": "yes"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Площадь Терешковой",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "no"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Озёрная улица",
+                "public_transport": "platform",
+                "shelter": "no",
+                "tactile_paving": "no"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Площадь Терешковой",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Площадь Терешковой",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Площадь Терешковой",
+                "public_transport": "platform"
+            },
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "name": "Площадь Терешковой",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "hospital": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "hospital",
+                "healthcare": "hospital",
+                "name": "МУЗ \"Городская клиническая больница №6\" Кабинет лечебной физкультуры"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Ароматный мир",
+                "shop": "alcohol",
+                "opening_hours": "10:00-21:00"
+            }
+        ]
+    },
+    "pet": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ЗооЛэнд",
+                "shop": "pet"
+            }
+        ]
+    },
+    "bank": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "47/27",
+                "addr:postcode": "170028",
+                "addr:street": "площадь Терешковой",
+                "amenity": "bank",
+                "atm": "yes",
+                "branch": "Среднерусский банк",
+                "brand": "Сбербанк",
+                "brand:en": "Sberbank",
+                "brand:ru": "Сбербанк",
+                "brand:wikidata": "Q205012",
+                "brand:wikipedia": "ru:Сбербанк России",
+                "contact:facebook": "https://www.facebook.com/sberbank",
+                "contact:instagram": "https://www.instagram.com/sberbank",
+                "contact:ok": "https://ok.ru/sberbank",
+                "contact:phone": "+7 800 5555550",
+                "contact:twitter": "https://twitter.com/sberbank",
+                "contact:vk": "https://vk.com/sberbank",
+                "contact:website": "https://www.sberbank.ru",
+                "name": "Сбербанк",
+                "name:en": "Sberbank",
+                "name:ru": "Сбербанк",
+                "opening_hours": "Mo-We 09:00-19:00; Th 09:00-18:00; Sa 09:00-15:00",
+                "operator": "ПАО Сбербанк",
+                "ref": "8607/0155",
+                "wheelchair": "yes"
+            },
+            {
+                "amenity": "bank",
+                "brand": "Бинбанк",
+                "brand:en": "B&N Bank",
+                "brand:wikidata": "Q4086829",
+                "brand:wikipedia": "en:B&N Bank",
+                "name": "Бинбанк",
+                "name:en": "B&N Bank"
+            }
+        ]
+    },
+    "florist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Флория",
+                "shop": "florist"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 2,
+        "detail": [
+            {
+                "brand": "Дикси",
+                "brand:en": "Dixy",
+                "brand:wikidata": "Q4161561",
+                "brand:wikipedia": "ru:Дикси (сеть магазинов)",
+                "name": "Дикси",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "shop": "supermarket"
+            },
+            {
+                "brand": "Пятёрочка",
+                "brand:en": "Pyaterochka",
+                "level": "1",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterochka",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "shop": "supermarket",
+                "toilets": "no"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "school": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "school",
+                "name": "МОУ СОШ №27 Начальная школа"
+            },
+            {
+                "amenity": "school",
+                "name": "МОУ СОШ №26",
+                "website": "http://www.school26tver.ru/"
+            },
+            {
+                "addr:city": "Тверь",
+                "addr:housenumber": "32",
+                "addr:street": "улица Орджоникидзе",
+                "building": "school",
+                "building:levels": "2"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 3,
+        "detail": [
+            {
+                "addr:city": "Тверь",
+                "addr:housenumber": "29А",
+                "addr:street": "улица Орджоникидзе",
+                "amenity": "kindergarten",
+                "name": "Детский сад №35",
+                "phone": "+7 4822 587840"
+            },
+            {
+                "building": "kindergarten",
+                "addr:street": "улица Тамары Ильиной",
+                "building:levels": "2",
+                "addr:housenumber": "28"
+            },
+            {
+                "addr:city": "Тверь",
+                "addr:housenumber": "29А",
+                "addr:street": "улица Орджоникидзе",
+                "building": "kindergarten",
+                "building:levels": "2",
+                "roof:shape": "hipped"
+            }
+        ]
+    },
+    "parking": {
+        "count": 4,
+        "detail": [
+            {
+                "access": "yes",
+                "amenity": "parking",
+                "fee": "no",
+                "parking": "surface"
+            },
+            {
+                "access": "yes",
+                "amenity": "parking",
+                "fee": "no",
+                "parking": "surface"
+            },
+            {
+                "access": "yes",
+                "amenity": "parking",
+                "fee": "no",
+                "parking": "surface"
+            },
+            {
+                "access": "yes",
+                "amenity": "parking",
+                "fee": "no",
+                "parking": "surface"
+            }
+        ]
+    },
+    "yes": {
+        "count": 1,
+        "detail": [
+            {
+                "level": "0",
+                "name": "Вкусняшки",
+                "shop": "yes"
+            }
+        ]
+    },
+    "car": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Шинный ряд",
+                "shop": "car"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "commercial",
+                "addr:city": "Тверь",
+                "addr:street": "улица Лукина",
+                "building:levels": "2",
+                "addr:housenumber": "17"
+            }
+        ]
+    },
+    "paint": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Тверь",
+                "addr:housenumber": "19",
+                "addr:street": "улица Лукина",
+                "building": "yes",
+                "name": "Мастерская красок",
+                "shop": "paint"
+            }
+        ]
+    }
+}

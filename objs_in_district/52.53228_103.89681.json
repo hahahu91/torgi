@@ -1,0 +1,376 @@
+{
+    "residents": 5682,
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "9",
+                "addr:place": "100-й квартал",
+                "addr:region": "Иркутская область",
+                "amenity": "cafe",
+                "cuisine": "kebab",
+                "name": "ШашлыкoFF",
+                "name:ru": "ШашлыкоFF",
+                "website": "https://shashlikoff.com/"
+            }
+        ]
+    },
+    "restaurant": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "ГИС",
+                "amenity": "restaurant",
+                "cuisine": "international",
+                "addr:city": "Ангарск",
+                "addr:region": "Иркутская область",
+                "addr:street": "улица Мира",
+                "addr:country": "RU",
+                "addr:housenumber": "81А"
+            },
+            {
+                "name": "Курумкан",
+                "amenity": "restaurant",
+                "cuisine": "asian",
+                "name:ja": "クルムカン",
+                "addr:city": "Ангарск",
+                "addr:region": "Иркутская область",
+                "addr:street": "улица Жданова",
+                "addr:country": "RU"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 6,
+        "detail": [
+            {
+                "name": "Детский сад №62",
+                "amenity": "kindergarten"
+            },
+            {
+                "name": "Детский сад №103",
+                "amenity": "kindergarten"
+            },
+            {
+                "name": "Детский сад №70",
+                "amenity": "kindergarten"
+            },
+            {
+                "name": "Детский сад №15",
+                "amenity": "kindergarten"
+            },
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "8",
+                "addr:place": "93-й квартал",
+                "addr:region": "Иркутская область",
+                "building": "kindergarten",
+                "building:levels": "2"
+            },
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "29",
+                "addr:place": "88-й квартал",
+                "addr:region": "Иркутская область",
+                "building": "kindergarten",
+                "building:levels": "2"
+            }
+        ]
+    },
+    "school": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Школа-интернат N7",
+                "amenity": "school"
+            },
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:place": "93-й квартал",
+                "addr:region": "Иркутская область",
+                "amenity": "school",
+                "name": "Школа №3"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "91 квартал",
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "atm": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Восточный экспресс, 24 часа",
+                "amenity": "atm"
+            },
+            {
+                "name": "Сбербанк, 24 часа",
+                "amenity": "atm"
+            },
+            {
+                "amenity": "atm",
+                "name": "Сбербанк"
+            }
+        ]
+    },
+    "gardening": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "41",
+                "addr:place": "93-й квартал",
+                "addr:region": "Иркутская область",
+                "name": "Перестройка",
+                "shop": "gardening"
+            }
+        ]
+    },
+    "nightclub": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Триумф (недейств.)",
+                "amenity": "nightclub"
+            }
+        ]
+    },
+    "food": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Ангарск",
+                "addr:country": "RU",
+                "addr:housenumber": "104",
+                "addr:place": "93-й квартал",
+                "addr:region": "Иркутская область",
+                "name": "Командор",
+                "shop": "food"
+            }
+        ]
+    },
+    "books": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Линер",
+                "shop": "books"
+            },
+            {
+                "name": "Продолитъ",
+                "shop": "books"
+            }
+        ]
+    },
+    "car_parts": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Автопрофиль",
+                "shop": "car_parts"
+            }
+        ]
+    },
+    "fitness_station": {
+        "count": 2,
+        "detail": [
+            {
+                "fitness_station": "horizontal_bar",
+                "leisure": "fitness_station",
+                "sport": "fitness"
+            },
+            {
+                "fitness_station": "parallel_bars",
+                "leisure": "fitness_station",
+                "sport": "fitness"
+            }
+        ]
+    },
+    "bench": {
+        "count": 18,
+        "detail": [
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            },
+            {
+                "amenity": "bench"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Усольский свинокомплекс",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Магазин быт хим",
+                "shop": "chemist"
+            }
+        ]
+    },
+    "chocolate": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Шоколад",
+                "shop": "chocolate"
+            }
+        ]
+    },
+    "alcohol": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "пивная",
+                "shop": "alcohol"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Белоречье 13",
+                "shop": "convenience"
+            },
+            {
+                "name": "Белоречье-2",
+                "shop": "convenience"
+            }
+        ]
+    },
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "bank",
+                "name": "Сбербанк"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 3,
+        "detail": [
+            {
+                "amenity": "pharmacy",
+                "name": "36и6"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Аптека 38"
+            },
+            {
+                "amenity": "pharmacy",
+                "name": "Фармэконом"
+            }
+        ]
+    },
+    "garages": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "garages",
+                "building": "garages",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "mall": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Универмаг",
+                "shop": "mall",
+                "building": "yes",
+                "addr:city": "Ангарск",
+                "addr:region": "Иркутская область",
+                "addr:street": "улица Чайковского",
+                "addr:country": "RU",
+                "building:levels": "2",
+                "addr:housenumber": "19"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:housenumber": "3",
+                "addr:street": "улица Жаднова",
+                "building": "commercial"
+            },
+            {
+                "addr:housenumber": "24",
+                "addr:street": "улица Чайковского",
+                "building": "commercial"
+            }
+        ]
+    }
+}

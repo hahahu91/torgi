@@ -1,0 +1,146 @@
+{
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Цирюльня",
+                "shop": "hairdresser"
+            },
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "drinking_water": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "drinking_water"
+            }
+        ]
+    },
+    "residents": 2055,
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Аптека управление",
+                "amenity": "pharmacy"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 1,
+        "detail": [
+            {
+                "bus": "yes",
+                "highway": "bus_stop",
+                "public_transport": "platform"
+            }
+        ]
+    },
+    "supermarket": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:postcode": "171502",
+                "alt_name": "Пятерочка",
+                "alt_name:ru": "Пятерочка",
+                "brand": "Пятёрочка",
+                "brand:wikidata": "Q1768969",
+                "brand:wikipedia": "ru:Пятёрочка",
+                "contact:email": "vopros@5ka.ru",
+                "contact:facebook": "https://www.facebook.com/pyaterochka",
+                "contact:instagram": "https://www.instagram.com/pyaterochka_official",
+                "contact:ok": "https://ok.ru/pyaterochka",
+                "contact:phone": "+7 800 5555505",
+                "contact:vk": "https://vk.com/pyaterochka_shop",
+                "contact:website": "https://5ka.ru",
+                "email": "vopros@5ka.ru",
+                "name": "Пятёрочка",
+                "name:en": "Pyaterchka",
+                "name:ru": "Пятёрочка",
+                "shop": "supermarket"
+            }
+        ]
+    },
+    "atm": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "atm",
+                "operator": "Сбербанк"
+            }
+        ]
+    },
+    "cafe": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Кимры",
+                "addr:housenumber": "18",
+                "addr:street": "улица Орджоникидзе",
+                "amenity": "cafe",
+                "building": "yes",
+                "name": "Beerloga"
+            }
+        ]
+    },
+    "community_centre": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "ДК Современник",
+                "amenity": "community_centre",
+                "building": "yes"
+            }
+        ]
+    },
+    "kindergarten": {
+        "count": 2,
+        "detail": [
+            {
+                "addr:city": "Кимры",
+                "addr:housenumber": "35",
+                "addr:street": "Московская улица",
+                "amenity": "kindergarten",
+                "building": "yes",
+                "name": "Детский сад № 19"
+            },
+            {
+                "name": "Детский сад № 28",
+                "building": "kindergarten",
+                "addr:city": "Кимры",
+                "addr:street": "улица Никитина",
+                "addr:housenumber": "60"
+            }
+        ]
+    },
+    "mall": {
+        "count": 2,
+        "detail": [
+            {
+                "shop": "mall",
+                "building": "yes"
+            },
+            {
+                "name": "Заречье",
+                "shop": "mall",
+                "building": "yes",
+                "operator": "Брик",
+                "addr:city": "Кимры",
+                "addr:street": "улица Русакова",
+                "addr:housenumber": "15"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "convenience",
+                "building": "yes"
+            }
+        ]
+    }
+}

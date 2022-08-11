@@ -1,0 +1,127 @@
+{
+    "theatre": {
+        "count": 1,
+        "detail": [
+            {
+                "alt_name": "Театр танца «Гжель»",
+                "amenity": "theatre",
+                "name": "Гжель",
+                "official_name": "Московский государственный академический театр танца \"Гжель\"",
+                "operator": "ГБУК г. Москвы «Московский государственный академический театр танца «Гжель»",
+                "phone": "+7 495 4910610",
+                "ref:mkrf_theaters": "14413",
+                "website": "http://theatregzhel.ru/"
+            }
+        ]
+    },
+    "residents": 8784,
+    "convenience": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "convenience"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 1,
+        "detail": [
+            {
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "recycling": {
+        "count": 2,
+        "detail": [
+            {
+                "amenity": "recycling",
+                "website": "http://spt.moscow/",
+                "operator": "ООО «Спецтранс»",
+                "opening_hours": "24/7",
+                "recycling_type": "container",
+                "recycling:plastic_bottles": "yes"
+            },
+            {
+                "amenity": "recycling"
+            }
+        ]
+    },
+    "playground": {
+        "count": 1,
+        "detail": [
+            {
+                "leisure": "playground"
+            }
+        ]
+    },
+    "training": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:postcode": "125362",
+                "amenity": "training",
+                "email": "nouganna@mail.ru",
+                "name": "Ганна",
+                "name:en": "Ganna",
+                "opening_hours": "Mo-Sa 09:00-21:00",
+                "phone": "+7 495 4910670",
+                "website": "http://www.gannaedu.ru"
+            }
+        ]
+    },
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "addr:street": "Большая Набережная улица",
+                "addr:country": "RU",
+                "building:levels": "4",
+                "addr:housenumber": "23"
+            }
+        ]
+    },
+    "service": {
+        "count": 4,
+        "detail": [
+            {
+                "building": "service"
+            },
+            {
+                "building": "service",
+                "building:levels": "2"
+            },
+            {
+                "building": "service"
+            },
+            {
+                "building": "service",
+                "building:levels": "2"
+            }
+        ]
+    },
+    "clinic": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:city": "Москва",
+                "addr:country": "RU",
+                "addr:housenumber": "1 к4",
+                "addr:postcode": "125362",
+                "addr:street": "улица Долгова",
+                "amenity": "clinic",
+                "building": "yes",
+                "building:levels": "4",
+                "full_name": "Городская поликлиника №115 Филиал №3",
+                "healthcare": "clinic",
+                "health_facility:type": "clinic",
+                "name": "Поликлиника №115 филиал №3",
+                "official_name": "Государственное бюджетное учреждение здравоохранения \"Городская поликлиника №115 Департамента здравоохранения города Москвы\" Филиал №3",
+                "old_name": "Поликлиника №139",
+                "phone": "+7 495 4916801",
+                "website": "https://www.mosgorzdrav.ru/gp139/"
+            }
+        ]
+    }
+}

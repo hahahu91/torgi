@@ -1,0 +1,174 @@
+{
+    "bank": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Сбербанк №4205/0105",
+                "amenity": "bank"
+            }
+        ]
+    },
+    "veterinary": {
+        "count": 1,
+        "detail": [
+            {
+                "amenity": "veterinary",
+                "contact:phone": "+7 4217 544023",
+                "name": "Ветеринарный участок Ленинского округа"
+            }
+        ]
+    },
+    "hairdresser": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Николль",
+                "shop": "hairdresser"
+            },
+            {
+                "name": "\"Шарм\" парикмахерская",
+                "shop": "hairdresser"
+            }
+        ]
+    },
+    "convenience": {
+        "count": 3,
+        "detail": [
+            {
+                "name": "Апельсин",
+                "shop": "convenience"
+            },
+            {
+                "name": "Москва",
+                "shop": "convenience",
+                "building": "yes",
+                "addr:city": "Комсомольск-на-Амуре",
+                "addr:unit": "2",
+                "addr:street": "Московский проспект",
+                "opening_hours": "Mo-Su 08:00-22:00",
+                "building:levels": "1",
+                "addr:housenumber": "14А"
+            },
+            {
+                "name": "Гренада",
+                "shop": "convenience",
+                "building": "yes",
+                "addr:street": "Московский проспект",
+                "opening_hours": "Mo-Su 09:00-22:00",
+                "building:levels": "1",
+                "addr:housenumber": "14"
+            }
+        ]
+    },
+    "pharmacy": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Аптека",
+                "amenity": "pharmacy",
+                "dispensing": "no"
+            }
+        ]
+    },
+    "kiosk": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "ДАКГОМЗ",
+                "shop": "kiosk"
+            },
+            {
+                "name": "Продукты",
+                "shop": "kiosk"
+            }
+        ]
+    },
+    "butcher": {
+        "count": 1,
+        "detail": [
+            {
+                "name": "Доброе дело",
+                "shop": "butcher"
+            }
+        ]
+    },
+    "bus_stop": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Сбербанк",
+                "highway": "bus_stop"
+            },
+            {
+                "name": "Сбербанк",
+                "highway": "bus_stop"
+            }
+        ]
+    },
+    "residents": 4337,
+    "school": {
+        "count": 1,
+        "detail": [
+            {
+                "building": "school",
+                "addr:city": "Комсомольск-на-Амуре",
+                "addr:street": "проспект Победы",
+                "addr:country": "RU",
+                "addr:postcode": "681029",
+                "addr:housenumber": "47/3"
+            }
+        ]
+    },
+    "commercial": {
+        "count": 2,
+        "detail": [
+            {
+                "building": "commercial",
+                "building:levels": "1"
+            },
+            {
+                "building": "commercial",
+                "building:levels": "1"
+            }
+        ]
+    },
+    "greengrocer": {
+        "count": 2,
+        "detail": [
+            {
+                "name": "Амбарчик",
+                "shop": "greengrocer",
+                "building": "yes",
+                "addr:unit": "3",
+                "addr:street": "Московский проспект",
+                "opening_hours": "Mo-Su 09:00-20:00",
+                "building:levels": "1",
+                "addr:housenumber": "10"
+            },
+            {
+                "name": "Уголок",
+                "shop": "greengrocer",
+                "building": "yes",
+                "addr:unit": "2",
+                "addr:street": "Московский проспект",
+                "opening_hours": "Mo-Su 10:00-22:00",
+                "building:levels": "1",
+                "addr:housenumber": "6"
+            }
+        ]
+    },
+    "chemist": {
+        "count": 1,
+        "detail": [
+            {
+                "addr:housenumber": "10",
+                "addr:street": "Московский проспект",
+                "building": "yes",
+                "building:levels": "1",
+                "name": "Вектор",
+                "opening_hours": "Mo-Sa 09:00-18:00",
+                "shop": "chemist"
+            }
+        ]
+    }
+}

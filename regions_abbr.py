@@ -77,6 +77,7 @@ regions_abbr = {1:{"abbr":"RU-AD","official name":"Республика Адыг
 78:{"abbr":"RU-SPE","official name":"Санкт-Петербург"},
 79:{"abbr":"RU-YEV","official name":"Еврейская автономная область"},
 82:{"abbr":"RU-CR","official name":"Республика Крым","short":"Крым"},
+91:{"abbr":"RU-CR","official name":"Республика Крым","short":"Крым"},
 83:{"abbr":"RU-NEN","official name":"Ненецкий автономный округ"},
 86:{"abbr":"RU-KHM","official name":"Ханты-Мансийский автономный округ"},
 87:{"abbr":"RU-CHU","official name":"Чукотский автономный округ"},

@@ -51,7 +51,7 @@ def try_get_coords_again(file_xlsx_path):
                 ws[f'H{index+1}'] = f'{address}'
 
                 print(address, lat, lon)
-        elif not os.path.exists(f'tmp/{id}.json'):
+        elif not os.path.exists(f'cache/tmp_loc/{id}.json'):
             save_address_with_geo(id, address, coord, cadastr)
     save_opening_output_file(file_xlsx_path)
     wb.save(file_xlsx_path)
@@ -73,9 +73,9 @@ def save_address_with_geo(id, address, coord, cadnum = None):
             "flat_cadnum": f"{cadnum}" if cadnum else None
         }
     }]
-    if not os.path.exists('tmp'):
-        os.makedirs('tmp')
-    with open(f'tmp/{id}.json', "w", encoding='utf8') as file:
+    if not os.path.exists('cache/tmp_loc'):
+        os.makedirs('cache/tmp_loc')
+    with open(f'cache/tmp_loc/{id}.json', "w", encoding='utf8') as file:
         json.dump(data_json, file, ensure_ascii=False, indent=4)
 
 def set_population_in_xlsx(file_xlsx_path):
@@ -101,7 +101,7 @@ def set_population_in_xlsx(file_xlsx_path):
                     ws[f'O{index + 1}'] = f'{entity["residents"]}'
                     ws[f'P{index + 1}'] = f'{entity["entity"]}'
                     ws[f'Q{index + 1}'].font = Font( underline='single', color='0000FF')
-                    ws[f'Q{index + 1}'] = f"""=HYPERLINK("{os.path.abspath("objs_in_district")}/{coord[0]}_{coord[1]}.json", "{coord[0]}_{coord[1]}.json")"""
+                    ws[f'Q{index + 1}'] = f"""=HYPERLINK("{os.path.abspath("cache/objs_in_district")}/{coord[0]}_{coord[1]}.json", "{coord[0]}_{coord[1]}.json")"""
 
                     ws[f'K{index + 1}'] = float(format(price_m2/int(entity["residents"]), ".2f")) if int(entity["residents"]) else ""
                     ws[f'K{index + 1}'].number_format = '_-* # ##0.00 ₽_-;-* # ##0.00 ₽_-'
@@ -153,7 +153,7 @@ def get_from_kontur_population(file_xlsx_path):
             continue
         try:
             coord = re.sub(r'^.+"([^"]+)"\)$', r'\1', row[13].value).split(',') if row[13].value else None
-            if coord != None and coord[0] != "None" and coord[1] != "None":
+            if coord != None and coord[0] != "None" and coord[1] != "None" and not row[17].value:
                 objs[index] = {"lat": coord[0], "lon": coord[1], "price_m2": row[5].value}
 
         except Exception as _ex:
@@ -184,7 +184,6 @@ def set_population_in_xls_from_cache(file_xlsx_path):
             #region = row[1].value
             # objs_by_regions.update(region)
             if row[13].value == 'None, None' or row[13].value == None or row[13].value == '':
-                print(f"continue line{index}")
                 continue
             if row[14].value and row[15].value: #уже есть данные
                 continue
@@ -193,13 +192,13 @@ def set_population_in_xls_from_cache(file_xlsx_path):
             price_m2 = row[5].value
 
             if lat and lon:
-                if os.path.exists(f'objs_in_district/{lat}_{lon}.json'):
+                if os.path.exists(f'cache/objs_in_district/{lat}_{lon}.json'):
                     entity = get_objs_in_district_from_cache(lat, lon)
                     if entity:
                         ws[f'O{index+1}'] = f'{entity["residents"]}'
                         ws[f'P{index+1}'] = f'{entity["entity"]}'
                         ws[f'Q{index+1}'].font = Font(underline='single', color='0000FF')
-                        ws[f'Q{index+1}'] = f"""=HYPERLINK("{os.path.abspath("objs_in_district")}/{lat}_{lon}.json", "{lat}_{lon}.json")"""
+                        ws[f'Q{index+1}'] = f"""=HYPERLINK("{os.path.abspath("cache/objs_in_district")}/{lat}_{lon}.json", "{lat}_{lon}.json")"""
 
                         ws[f'K{index+1}'] = float(format(price_m2 / int(entity["residents"]), ".2f")) if int(entity["residents"]) else ""
                         ws[f'K{index+1}'].number_format = '_-* # ##0.00 ₽_-;-* # ##0.00 ₽_-'
@@ -229,7 +228,7 @@ def get_population_from_osm(file_xlsx_path):
             lat, lon = float(coord_lat), float(coord_lon) or None
             price_m2 = row[5].value
             if lat and lon:
-                if not os.path.exists(f'objs_in_district/{lat}_{lon}.json'):
+                if not os.path.exists(f'cache/objs_in_district/{lat}_{lon}.json'):
                     objs[index] = {"index": index, "lat": lat, "lon": lon, "price_m2": price_m2}
                     list_obj = objs_by_regions.get(region) or []
                     list_obj.insert(index,objs[index])
@@ -245,64 +244,11 @@ def get_population_from_osm(file_xlsx_path):
         count_all_objs_in_region(objs_by_regions[region], region)
 
     set_population_in_xls_from_cache(file_xlsx_path)
-    # print(f"get objects in district {index} from xls")
-    #         entity = get_commercial_assessment(float(coord[0]), float(coord[1]), region)
-    #         if entity:
-    #             ws[f'O{index + 1}'] = f'{entity["residents"]}'
-    #             ws[f'P{index + 1}'] = f'{entity["entity"]}'
-    #             ws[f'Q{index + 1}'].font = Font( underline='single', color='0000FF')
-    #             ws[f'Q{index + 1}'] = f"""=HYPERLINK("{os.path.abspath("objs_in_district")}/{coord[0]}_{coord[1]}.json", "{coord[0]}_{coord[1]}.json")"""
-    #
-    #             ws[f'K{index + 1}'] = float(format(price_m2/int(entity["residents"]), ".2f")) if int(entity["residents"]) else ""
-    #             ws[f'K{index + 1}'].number_format = '_-* # ##0.00 ₽_-;-* # ##0.00 ₽_-'
 
     return
-    #get_all_objs_from_kontur_population(objs)
-    # print(objs)
-    # for index in objs:
-    #     population = objs[index]["population"]
-    #     ws[f'R{index + 1}'] = population
-    #     ws[f'S{index + 1}'] = float(format(objs[index]["price_m2"] / int(population), ".2f")) if int(population) else ""
-    #     ws[f'S{index + 1}'].number_format = '_-* # ##0.00 ₽_-;-* # ##0.00 ₽_-'
-    #     # print(index, "\t", population)
-    #
-    # save_opening_output_file(file_xlsx_path)
-    # wb.save(file_xlsx_path)
 
-    # region = row[1].value
-    # coord = re.sub(r'^.+"([^"]+)"\)$', r'\1', row[13].value).split(',')
-    # price_m2 = row[5].value
-    # #coord = row[13].value.split(',')
-    # #address = row[7].value
-    # #cadastr = row[9].value
-    # id = re.sub(r'^.+"([^"]+)"\)$', r'\1', row[3].value)
-    # try:
-    #     if coord[0] != "None" and coord[1] != "None":
-    #         print(f"get objects in district {index} from xls")
-    #         entity = get_commercial_assessment(float(coord[0]), float(coord[1]), region)
-    #         if entity:
-    #             ws[f'O{index + 1}'] = f'{entity["residents"]}'
-    #             ws[f'P{index + 1}'] = f'{entity["entity"]}'
-    #             ws[f'Q{index + 1}'].font = Font( underline='single', color='0000FF')
-    #             ws[f'Q{index + 1}'] = f"""=HYPERLINK("{os.path.abspath("objs_in_district")}/{coord[0]}_{coord[1]}.json", "{coord[0]}_{coord[1]}.json")"""
-    #
-    #             ws[f'K{index + 1}'] = float(format(price_m2/int(entity["residents"]), ".2f")) if int(entity["residents"]) else ""
-    #             ws[f'K{index + 1}'].number_format = '_-* # ##0.00 ₽_-;-* # ##0.00 ₽_-'
-    #         print(entity["residents"], entity["entity"])
-
-#try_get_coords_again('torgi/output_archive.xlsx')
+#try_get_coords_again('torgi/output.xlsx')
 #set_population_in_xlsx('torgi/output_archive.xlsx')
-#get_from_kontur_population('torgi/output.xlsx')
-get_population_from_osm('torgi/output_archive.xlsx')
-
-
-# Download and subset data
-# df = pd.read_csv('https://github.com/uber-web/kepler.gl-data/raw/master/nyctrips/data.csv')
-# df = df.rename({'pickup_longitude': 'lng', 'pickup_latitude': 'lat'}, axis=1)[['lng', 'lat', 'passenger_count']]
-# qt = 0.1
-# print(df.head())
-# df = df.loc[(df['lng'] > df['lng'].quantile(qt)) & (df['lng'] < df['lng'].quantile(1-qt))
-#             & (df['lat'] > df['lat'].quantile(qt)) & (df['lat'] < df['lat'].quantile(1-qt))]
-# dfh3 = df.h3.geo_to_h3(10)
-# print(dfh3.head())
+get_from_kontur_population('torgi/output.xlsx')
+get_population_from_osm('torgi/output.xlsx')
 

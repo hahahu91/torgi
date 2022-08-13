@@ -7,6 +7,7 @@ import osmiter
 import os
 import re
 import json
+import wget
 #'lat': 56.6216708, 'lon': 47.8798082
 def obj_in_districk(lat, lon, lat_obj, lon_obg):
     if not lat_obj or not lon_obg:
@@ -64,7 +65,8 @@ def count_commercial_assessment(feature_tags, entity):
     elif "natural" not in feature_tags:
         residents = get_residents(feature_tags)
         amount = residents if not entity.get("residents") else entity.get("residents") + residents
-        entity.update({"residents": amount})
+        if amount:
+            entity.update({"residents": amount})
 
 def count_objects_in_district(lat, lon, region):
     from regions_abbr import regions_abbr
@@ -74,10 +76,13 @@ def count_objects_in_district(lat, lon, region):
         return None
     if not os.path.exists(f"../konturs/{file_osm}.pbf"):
         print(f"not file_osm {region} region {file_osm}.pbf")
-        return None
+        url = f"https://needgeo.com/data/current/region/RU/{file_osm}.pbg"
+        print('Beginning file download with wget module')
+        wget.download(url, f"../konturs/{file_osm}.pbf")
+        print('End file download with wget module')
     nodes = set()
     entity = {}
-
+    print("Openning file osm")
     for feature in osmiter.iter_from_osm(f"../konturs/{file_osm}.pbf", file_format="pbf"):
         if obj_in_districk(lat, lon, feature.get("lat"), feature.get("lon")):
             nodes.add(feature["id"])
@@ -94,9 +99,8 @@ def count_objects_in_district(lat, lon, region):
     return entity
 
 def get_objs_in_district_from_cache(lat, lon):
-    if os.path.exists(f'objs_in_district/{lat}_{lon}.json'):
-        print("get entity from file")
-        with open(f'objs_in_district/{lat}_{lon}.json', encoding='utf8') as f:
+    if os.path.exists(f'cache/objs_in_district/{lat}_{lon}.json'):
+        with open(f'cache/objs_in_district/{lat}_{lon}.json', encoding='utf8') as f:
             entity = json.load(f)
 
             return count_entity(entity)
@@ -123,23 +127,30 @@ def get_commercial_assessment(lat, lon, region):
     else:
         print("not file in coords")
         entity = count_objects_in_district(lat, lon, region)
-        if entity:
-            if not os.path.exists('objs_in_district'):
-                os.makedirs('objs_in_district')
-            with open(f'objs_in_district/{lat}_{lon}.json', "w", encoding='utf8') as file:
+        if entity and entity.get("residents") != 0:
+            if not os.path.exists('cache/objs_in_district'):
+                os.makedirs('cache/objs_in_district')
+            with open(f'cache/objs_in_district/{lat}_{lon}.json', "w", encoding='utf8') as file:
                 json.dump(entity, file, ensure_ascii=False, indent=4)
         return count_entity(entity)
 
 def count_all_objs_in_region(objs, region):
     from regions_abbr import regions_abbr
 
-    file_osm = regions_abbr.get(int(region)).get("abbr")
+    file_osm = regions_abbr.get(int(region)).get("abbr") if regions_abbr.get(int(region)) else None
     if not file_osm:
         print(f"not region {region} abbr")
         return None
-    if not os.path.exists(f"../konturs/{file_osm}.pbf"):
-        print(f"not file_osm {region} region {file_osm}.pbf")
-        return None
+    if not os.path.exists(f"konturs/{file_osm}.pbf"):
+        print(f"not file_osm {region} region {file_osm}.pbf") #https://needgeo.com/data/current/region/RU/RU-ME.pbf
+        url = f"https://needgeo.com/data/current/region/RU/{file_osm}.pbf"
+        print('Beginning file download with wget module')
+        try:
+            wget.download(url, f"konturs/{file_osm}.pbf")
+        except Exception as _ex:
+            print(_ex, file_osm, url)
+            return None
+        print('End file download with wget module')
 
     for index, id in enumerate(objs):
         print(id)
@@ -147,7 +158,7 @@ def count_all_objs_in_region(objs, region):
 
         #print(index, id['lat'])
     print(f'proccesing region {region}: {file_osm}')
-    for feature in osmiter.iter_from_osm(f"../konturs/{file_osm}.pbf", file_format="pbf"):
+    for feature in osmiter.iter_from_osm(f"konturs/{file_osm}.pbf", file_format="pbf"):
         for id_obj in objs:
             #print(obj)
 
@@ -169,11 +180,11 @@ def count_all_objs_in_region(objs, region):
     #
     # return entity
     for id_obj in objs:
-        id_obj["nodes"].clear()
+        del id_obj["nodes"]
         if id_obj['entity']:
-            if not os.path.exists('objs_in_district'):
-                os.makedirs('objs_in_district')
-            with open(f'objs_in_district/{id_obj["lat"]}_{id_obj["lon"]}.json', "w", encoding='utf8') as file:
+            if not os.path.exists('cache/objs_in_district'):
+                os.makedirs('cache/objs_in_district')
+            with open(f'cache/objs_in_district/{id_obj["lat"]}_{id_obj["lon"]}.json', "w", encoding='utf8') as file:
                 json.dump(id_obj['entity'], file, ensure_ascii=False, indent=4)
     print(objs)
     #if entity != {}:

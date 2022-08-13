@@ -86,11 +86,12 @@ def extract_cadastral_num(obj):
     return cad
 
 
-def transform_into_flatter_structure(folder="torgi/result"):
-    amount_files = 0
-    for i in os.listdir(f"{folder}/"):
-        if i != 'result_full.json':
-            amount_files += 1
+def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICATIONS_SUBMISSION"):
+    if not amount_files:
+        amount_files = 0
+        for i in os.listdir(f"{folder}/"):
+            if i != 'result_full.json':
+                amount_files += 1
 
     data = {}
     data["content"] = []
@@ -164,19 +165,7 @@ def transform_into_flatter_structure(folder="torgi/result"):
                         lat = info_object["lat"]
                         lon = info_object["lon"]
                         address = info_object["address"]
-                #commercial_assessment = 0
-                # if lat and lon and i.get('subjectRFCode'):
-                #     try:
-                #         commercial_assessment = get_commercial_assessment(lat, lon, i['subjectRFCode'])
-                #     except Exception as _ex:
-                #         print(_ex, "\r\n", lat, lon, i['subjectRFCode'])
-                # residents = 0
-                # shops = 0
-                # if commercial_assessment:
-                #     residents = commercial_assessment.get("residents")
-                #     for category  in commercial_assessment:
-                #         if category != "residents":
-                #             shops += commercial_assessment.get(category)
+
                 coord = f'''=HYPERLINK("https://yandex.ru/maps/?&text={lat}, {lon}", "{lat}, {lon}")''' if lat and lon and lat != "None" and lon != "None" else ""
                 object = {
                     "Регион": i['subjectRFCode'],
@@ -194,7 +183,10 @@ def transform_into_flatter_structure(folder="torgi/result"):
                     "Координаты": coord,
                     "Жителей в округе": "",
                     "Коммерческих объектов": "",
-                    "Описание коммерческих объектов": ""
+                    "Описание коммерческих объектов": "",
+                    "Жителей h3": "",
+                    "H3 чел/кв.м ": "",
+
                 }
                 data["content"].append(object)
 
@@ -206,7 +198,7 @@ def transform_into_flatter_structure(folder="torgi/result"):
 def install_setting_of_columns(writer):
     workbook = writer.book
     worksheet = writer.sheets['Sheet1']
-    worksheet.autofilter('A1:B100')
+    worksheet.autofilter('A1:T1000')
     currency_format = workbook.add_format({'num_format': '# ### ##0 ₽'})
     format_area = workbook.add_format({'num_format': '# ##0.0 м2'})
     format_hyper = workbook.add_format({'font_color': 'blue', 'underline': True})
@@ -252,7 +244,7 @@ def primary_processing(path_file):
         json_data = json.load(f)
         df = json_normalize(json_data['content'])
         #mat
-        out_file="torgi/output.xlsx" if path_file.find("archive") == -1 else "torgi/output_archive.xlsx"
+        out_file="torgi/output.xlsx" if path_file.find("SUCCEED") == -1 else "torgi/output_archive.xlsx"
         try:
             #что бы можно было оставлять открым файл оутпут
             save_opening_output_file(out_file)
@@ -312,12 +304,13 @@ def main():
     #lotStatus=SUCCEED сбор завершенных данных; status = "APPLICATIONS_SUBMISSION прием заявок
 
     #status = "APPLICATIONS_SUBMISSION"
+    amount_files = None
     status = "SUCCEED"
-    folder = "torgi/result" if status != "SUCCEED" else "torgi/archive" #12,21,16,58,91,77,50, 92
+    folder = "cache/APPLICATIONS_SUBMISSION" if status != "SUCCEED" else "cache/SUCCEED" #12,21,16,58,91,77,50,92
 
-    amount_files = get_data_json(bidd_type="229FZ,1041PP,178FZ", subj_rf="",  lot_status=status, folder=folder)
+    #amount_files = get_data_json(bidd_type="229FZ,1041PP,178FZ", subj_rf="12,21,16,58,91,77,50,92",  lot_status=status, folder=folder)
    # # print(amount_files)
-    path = transform_into_flatter_structure(folder=folder)
+    path = transform_into_flatter_structure(amount_files=amount_files, folder=folder)
     primary_processing(path)
     #visualize_data(path)
 

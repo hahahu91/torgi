@@ -22,7 +22,8 @@ lib64/
 parts/
 sdist/
 var/
-tmp/
+cache/
+konturs/
 *.egg-info/
 .installed.cfg
 *.egg

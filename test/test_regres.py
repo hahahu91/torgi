@@ -116,13 +116,13 @@ params = pd.Series(model.coef_, index=X.columns)
 print(params)
 for p in params.items():
     print(p)
-# from sklearn.utils import resample
-# np.random.seed(1)
-# err = np.std([model.fit(*resample(X, y)).coef_
-# for i in range(1000)], 0)
-# #Оценив эти ошибки, взглянем на результаты еще раз:
-# print(pd.DataFrame({'effect': params.round(0),
-# 'error': err.round(0)}))
+from sklearn.utils import resample
+np.random.seed(1)
+err = np.std([model.fit(*resample(X, y)).coef_
+for i in range(1000)], 0)
+#Оценив эти ошибки, взглянем на результаты еще раз:
+print(pd.DataFrame({'effect': params.round(0),
+'error': err.round(0)}))
 # # plt.scatter(daily["Цена за кв.м"], daily['predicted'], color='green')
 # # plt.plot(X, model.predict(X), color='green', linewidth=2)
 

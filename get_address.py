@@ -2,15 +2,16 @@ import re
 import json
 from address_test import TEST
 
+
 def get_address(str):
     street_val = r"\s*\b(ул|проспек\w+|ст|набережная|жилой район|бул|бульв|б-р|мкр|п\.г\.т|мкр\Wн|кв\Wл|квартал|проезд|бульвар|аллея|пер|наб|шоссе|линия|просп|пр\Wкт|переулок|улиц\w+|пр)\b\.?"
     addr_val = r"\s*\b(г|д|р\.п|дер|пос|г\.о|м\Wр\Wн|МО г\.п|городской|сельский|" \
                r"сельское поселение|село|городское поселение|поселок|городской округ|населенный пункт|" \
-               r"деревня|город|пгт|обл|респ|п|Респ\w+|республика|Республика\W+\w+|край|округ|область|район|р\Wо?н|с|ш|МО|ст\Wца|Федерация)\b\.?"
+               r"деревня|город|пгт|обл|п|Респ\w*|край|округ|область|район|р\Wо?н|с|ш|МО|ст\Wца|Федерация)\b\.?"
     addr_val_dig = r"\s*\b(пом|корпус|корп|вл|зд|литера|кладовая|уч|кв|д|к|дом|помещение|стр|строение)\b\.?"
 
     end_val = r"(,|(?<![дгрс])\.|$|площад\w+|общей|»|\(|;|с земельным|и земельный|Кадастровый)+ *"
-    start_val = r'(:?\bпо\b|:|\.|\bв\b|\d,)'
+    start_val = r'(:?\bпо(\s+адресу:?)\b|:|\.|\bв\b|\d,)'
     start_abs = r'(:?местополож\w+\):|адрес\w*:|адрес\w*\s*-)'
     reg_exp =   r'(?P<address>(:?{start_val}(' \
                 r'\s*\b(Россия|РФ|РМЭ|МО|РТ)\b|' \
@@ -28,9 +29,16 @@ def get_address(str):
     match = address_pattern.search(str)
     if match:
         address = re.sub(r'({end_val}$|^\s*{start_val}|^\s*{start_abs})*'.format(end_val=end_val, start_val=start_val, start_abs=start_abs), '', match["address"]).strip()
-        return address
+        return reduce_addressing_elements(address)
     return ""
 
+def reduce_addressing_elements(address):
+    from List_approved_abbr_addressing_elements import List_approved_abbr_addressing_elements as abbr_addr
+    replacement_dict_regex = re.compile(r"\b(%s)\b" % "|".join(abbr_addr.keys()), flags=re.I)
+    address = replacement_dict_regex.sub(lambda x: x.group().lower(), address)
+    address = replacement_dict_regex.sub(lambda mo: abbr_addr.get(mo.group(1), mo.group(1)), address)
+
+    return re.sub(r",[^,]+,\s*г\b", ", г", address)
 
 def test():
 

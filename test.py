@@ -33,9 +33,8 @@ def try_get_coords_again(file_xlsx_path):
         address = row[7].value
         cadastr = row[9].value
         id = re.sub(r'^.+"([^"]+)"\)$', r'\1',row[3].value) if row[3].value else None
-        #print(row[13].value)
         coord = re.sub(r'^.+"([^"]+)"\)$', r'\1', row[13].value) if row[13].value else None
-        #print(id, address, coord)
+
         if coord == None or coord == 'None, None':
             print(f"get info {index} in xls")
             info_object = get_info_object(id, address, cadastr)
@@ -49,6 +48,7 @@ def try_get_coords_again(file_xlsx_path):
                 #print
                 ws[f'N{index+1}'] = coord
                 ws[f'H{index+1}'] = f'{address}'
+                ws[f'T{index+1}'] = f'{info_object["postal_distance"]}'
 
                 print(address, lat, lon)
         elif not os.path.exists(f'cache/tmp_loc/{id}.json'):
@@ -59,6 +59,7 @@ def try_get_coords_again(file_xlsx_path):
 def save_address_with_geo(id, address, coord, cadnum = None):
     try:
         lat, lon = coord.split(',')
+        lat, lon = float(lat), float(lon)
     except Exception as _ex:
         print(_ex, coord)
     data_json = [{
@@ -89,9 +90,6 @@ def set_population_in_xlsx(file_xlsx_path):
         region = row[1].value
         coord = re.sub(r'^.+"([^"]+)"\)$', r'\1', row[13].value).split(',')
         price_m2 = row[5].value
-        #coord = row[13].value.split(',')
-        #address = row[7].value
-        #cadastr = row[9].value
         id = re.sub(r'^.+"([^"]+)"\)$', r'\1', row[3].value)
         try:
             if coord[0] != "None" and coord[1] != "None":
@@ -109,41 +107,10 @@ def set_population_in_xlsx(file_xlsx_path):
         except Exception as _ex:
             raise
             print(_ex, coord)
-    # currency_format = ws.add_format({'num_format': '# ### ##0 ₽'})
-    # ws.set_column('K:K', 12, currency_format)
-    #ws["K2"].number_format = '_-* # ##0,00 ₽_-;-* # ##0,00 ₽_-;_-* "-"?? ₽_-;_-@_-'
-    # format_hyper = ws.add_format({'font_color': 'blue', 'underline': True})
-    # ws.set_column('Q:Q', 22, format_hyper)
-    #install_setting_of_columns(ws)
+
     save_opening_output_file(file_xlsx_path)
     wb.save(file_xlsx_path)
 
-# def set_population_from_h3_in_xlsx(file_xlsx_path):
-#     wb = load_workbook(file_xlsx_path)
-#     ws = wb['Sheet1']
-#     for index, row in enumerate(ws.rows):
-#         if (index == 0):
-#             continue
-#         # if (index == 2):
-#         #     break
-#         region = row[1].value
-#         coord = re.sub(r'^.+"([^"]+)"\)$', r'\1', row[13].value).split(',')
-#         price_m2 = row[5].value
-#         id = re.sub(r'^.+"([^"]+)"\)$', r'\1', row[3].value)
-#         try:
-#             if coord[0] != "None" and coord[1] != "None":
-#                 print(f"get objects in district {index} from xls")
-#                 population = get_population_from_kontur_population(float(coord[0]), float(coord[1]), region)
-#                 if population:
-#                     ws[f'R{index + 1}'] = f'{population}'
-#                     ws[f'S{index + 1}'] = float(format(price_m2/int(population), ".2f")) if int(population) else ""
-#                     ws[f'S{index + 1}'].number_format = '_-* # ##0.00 ₽_-;-* # ##0.00 ₽_-'
-#                 print(index, "\t", population)
-#         except Exception as _ex:
-#             raise
-#             print(_ex, coord)
-#     save_opening_output_file(file_xlsx_path)
-#     wb.save(file_xlsx_path)
 def get_from_kontur_population(file_xlsx_path):
     wb = load_workbook(file_xlsx_path)
     ws = wb['Sheet1']
@@ -153,25 +120,33 @@ def get_from_kontur_population(file_xlsx_path):
             continue
         try:
             coord = re.sub(r'^.+"([^"]+)"\)$', r'\1', row[13].value).split(',') if row[13].value else None
-            if coord != None and coord[0] != "None" and coord[1] != "None" and not row[17].value:
-                objs[index] = {"lat": coord[0], "lon": coord[1], "price_m2": row[5].value}
+            if coord:
+                lat, lon = float(coord[0]), float(coord[1])
+                print(lat, lon)
+                if lat and lon and not row[17].value:
+                    if not os.path.exists(f'cache/population_in_h3/{lat}_{lon}.json'):
+                        objs[index] = {"lat": lat, "lon": lon, "price_m2": row[5].value}
+                    else:
+                        with open(f'cache/population_in_h3/{lat}_{lon}.json', encoding='utf8') as f:
+                            info_object = json.load(f)
+                            set_in_cell(ws, index=index + 1, population=info_object["population"],
+                                        price_m2=info_object["price_m2"])
 
         except Exception as _ex:
             print(_ex, row[13].value, index)
             raise
 
-    #print(objs)
     get_all_objs_from_kontur_population(objs)
-    #print(objs)
     for index in objs:
-        population = objs[index]["population"]
-        ws[f'R{index + 1}'] = population
-        ws[f'S{index + 1}'] = float(format(objs[index]["price_m2"] / int(population), ".2f")) if int(population) else ""
-        ws[f'S{index + 1}'].number_format = '_-* # ##0.00 ₽_-;-* # ##0.00 ₽_-'
-        #print(index, "\t", population)
+        set_in_cell(ws, index=index+1, population=objs[index]["population"], price_m2=objs[index]["price_m2"])
 
     save_opening_output_file(file_xlsx_path)
     wb.save(file_xlsx_path)
+def set_in_cell(ws, index, population, price_m2):
+    ws[f'R{index}'] = population
+    ws[f'S{index}'] = float(format(price_m2 / int(population), ".2f")) if int(population) else ""
+    ws[f'S{index}'].number_format = '_-* # ##0.00 ₽_-;-* # ##0.00 ₽_-'
+
 def set_population_in_xls_from_cache(file_xlsx_path):
     wb = load_workbook(file_xlsx_path)
     ws = wb['Sheet1']
@@ -221,7 +196,6 @@ def get_population_from_osm(file_xlsx_path):
             region = row[1].value
            # objs_by_regions.update(region)
             if row[13].value == 'None, None' or row[13].value == None or row[13].value == '':
-                print(f"continue line{index}")
                 continue
 
             coord_lat, coord_lon =re.sub(r'^.+"([^"]+)"\)$', r'\1', row[13].value).split(',') if row[13].value else None
@@ -238,7 +212,6 @@ def get_population_from_osm(file_xlsx_path):
             print(_ex, row[13].value, index)
             raise
 
-    print(objs_by_regions)
     for region in objs_by_regions:
         print(objs_by_regions[region])
         count_all_objs_in_region(objs_by_regions[region], region)
@@ -247,8 +220,8 @@ def get_population_from_osm(file_xlsx_path):
 
     return
 
-#try_get_coords_again('torgi/output.xlsx')
+try_get_coords_again('torgi/output.xlsx')
 #set_population_in_xlsx('torgi/output_archive.xlsx')
-get_from_kontur_population('torgi/output.xlsx')
-get_population_from_osm('torgi/output.xlsx')
+#get_from_kontur_population('torgi/output.xlsx')
+#get_population_from_osm('torgi/output.xlsx')
 

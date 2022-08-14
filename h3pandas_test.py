@@ -50,21 +50,25 @@ def get_all_objs_from_kontur_population(objs):
     kontur.set_index("h3", inplace=True)
     #answer = []
     for index in objs:
-        #print(obj)
-        # location = h3.geo_to_h3(float(objs[index]["lat"]), float(objs[index]["lon"]), 8)
-        # print(location)
+
         h3_data = get_nearest_neighbor(float(objs[index]["lat"]), float(objs[index]["lon"]))
         population = 0
         for obj in h3_data:
             population += kontur.loc[(kontur.index == obj)]["population"].get(0) or 0
         objs[index]["population"] = int(population/len(h3_data))
+        if objs[index]["population"]:
+            if not os.path.exists('cache/population_in_h3'):
+                os.makedirs('cache/population_in_h3')
+            with open(f'cache/population_in_h3/{objs[index]["lat"]}_{objs[index]["lon"]}.json', "w", encoding='utf8') as file:
+                json.dump(objs[index], file, ensure_ascii=False, indent=4)
+
         print(index, "/", len(objs), ":\t", int(population / len(h3_data)))
 
 
     return
 
 def distance(x1, y1, x2, y2):
-    return math.sqrt((x1-x2)**2+(y2-y1)**2)
+    return math.sqrt((float(x1)-float(x2))**2+(float(y2)-float(y1))**2)
 
 def get_nearest_neighbor(lat, lon):
     p = h3.geo_to_h3(lat, lon, 8)

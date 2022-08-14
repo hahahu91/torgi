@@ -127,7 +127,7 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
 
                 if total_area < MIN_AREA:
                     continue
-                bad_words = re.compile(r'(:? дол[ия]\b|\bгараж|машино-?место|свинарник|(?<!этажа и )\bподвал|\bподпол|\bчерда\w+|картофелехранилище|долевая)', flags=re.IGNORECASE)
+                bad_words = re.compile(r'(:? дол[ия]\b|долевой|\bгараж|машино-?место|свинарник|(?<!этажа и )\bподвал|\bподпол|\bчерда\w+|картофелехранилище|долевая)', flags=re.IGNORECASE)
                 if bad_words.search(i['lotDescription']) or bad_words.search(i['lotName']):
                     continue
 
@@ -186,6 +186,7 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
                     "Описание коммерческих объектов": "",
                     "Жителей h3": "",
                     "H3 чел/кв.м ": "",
+                    "Расстояние до почты": ""
 
                 }
                 data["content"].append(object)
@@ -243,7 +244,8 @@ def primary_processing(path_file):
     with open(path_file, encoding='utf8') as f:
         json_data = json.load(f)
         df = json_normalize(json_data['content'])
-        #mat
+        df = df.sort_values(by=['Регион']).reset_index(drop=True)
+
         out_file="torgi/output.xlsx" if path_file.find("SUCCEED") == -1 else "torgi/output_archive.xlsx"
         try:
             #что бы можно было оставлять открым файл оутпут
@@ -305,13 +307,13 @@ def main():
 
     #status = "APPLICATIONS_SUBMISSION"
     amount_files = None
-    status = "SUCCEED"
+    status = "APPLICATIONS_SUBMISSION"
     folder = "cache/APPLICATIONS_SUBMISSION" if status != "SUCCEED" else "cache/SUCCEED" #12,21,16,58,91,77,50,92
 
     #amount_files = get_data_json(bidd_type="229FZ,1041PP,178FZ", subj_rf="12,21,16,58,91,77,50,92",  lot_status=status, folder=folder)
    # # print(amount_files)
     path = transform_into_flatter_structure(amount_files=amount_files, folder=folder)
-    primary_processing(path)
+    output_file = primary_processing(path)
     #visualize_data(path)
 
 if __name__ == "__main__":

@@ -84,5 +84,6 @@ regions_abbr = {1:{"abbr":"RU-AD","official name":"Республика Адыг
 89:{"abbr":"RU-YAN","official name":"Ямало-Ненецкий автономный округ"},
 92:{"abbr":"RU-SEV","official name":"Севастополь"},
 93:{"abbr":"RU-KDA","official name":"Краснодарский край"},
-95:{"abbr":"RU-CE","official name":"Чеченская республика","short":"Чечня"}
+95:{"abbr":"RU-CE","official name":"Чеченская республика","short":"Чечня"},
+20:{"abbr":"RU-CE","official name":"Чеченская республика","short":"Чечня"}
 }

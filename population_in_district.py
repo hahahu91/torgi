@@ -8,9 +8,16 @@ import os
 import re
 import json
 import wget
+import math
 #'lat': 56.6216708, 'lon': 47.8798082
-def obj_in_districk(lat, lon, lat_obj, lon_obg):
-    if not lat_obj or not lon_obg:
+def obj_in_districk(x1, y1, x2, y2):
+    if not x2 or not y2:
+        return False
+    return math.sqrt((float(x1)-float(x2))**2+(float(y2)-float(y1))**2) < 0.0041
+
+def obj_in_districk_old(lat, lon, lat_obj, lon_obj):
+
+    if not lat_obj or not lon_obj:
         return False
     if float(lat_obj) >= float(lat)-0.0025 and float(lat_obj) <= float(lat)+0.0025 and float(lon_obg) >= float(lon)-0.005 and float(lon_obg) <= float(lon)+0.005:
         return True
@@ -152,12 +159,11 @@ def count_all_objs_in_region(objs, region):
             return None
         print('End file download with wget module')
 
+    print(f'proccesing region {region}: {file_osm}')
     for index, id in enumerate(objs):
         print(id)
         id.update({'nodes':set(),'entity':{}})
 
-        #print(index, id['lat'])
-    print(f'proccesing region {region}: {file_osm}')
     for feature in osmiter.iter_from_osm(f"konturs/{file_osm}.pbf", file_format="pbf"):
         for id_obj in objs:
             #print(obj)
@@ -187,10 +193,3 @@ def count_all_objs_in_region(objs, region):
             with open(f'cache/objs_in_district/{id_obj["lat"]}_{id_obj["lon"]}.json', "w", encoding='utf8') as file:
                 json.dump(id_obj['entity'], file, ensure_ascii=False, indent=4)
     print(objs)
-    #if entity != {}:
-        #objs_in_district
-
-#print(get_commercial_assessment(56.644718, 47.855835, 12))
-
-
-#count_all_objs_in_region(objs, 16)

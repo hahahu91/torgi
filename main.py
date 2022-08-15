@@ -19,7 +19,6 @@ from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 import os
 
-
 # Suppress only the single warning from urllib3 needed.
 from urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
@@ -157,16 +156,18 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
                     except Exception as _ex:
                         print(_ex)
                         print(i['lotDescription'], address)
+                info_object = {}
                 if address or cadastral:
-                    print(i['id'])
+                    print("get info", i['id'])
                     info_object = get_info_object(i['id'], address, cadastral)
-                lat, lon = None, None
-                if info_object:
-                        lat = info_object["lat"]
-                        lon = info_object["lon"]
-                        address = info_object["address"]
+                # lat, lon = None, None
+                # if info_object:
+                #         address = info_object.get("address")
+                #         postal_distance = info_object.get("postal_distance")
 
-                coord = f'''=HYPERLINK("https://yandex.ru/maps/?&text={lat}, {lon}", "{lat}, {lon}")''' if lat and lon and lat != "None" and lon != "None" else ""
+                coord = f'''=HYPERLINK("https://yandex.ru/maps/?&text={info_object.get("lat")}, {info_object.get("lon")}", "{info_object.get("lat")}, {info_object.get("lon")}")''' \
+                    if info_object.get("lat") and info_object.get("lon") and info_object.get("lat") != "None" and info_object.get("lon") != "None" \
+                    else ""
                 object = {
                     "Регион": i['subjectRFCode'],
                     "Общая площадь": total_area,
@@ -174,7 +175,7 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
                     "Название": i['lotDescription'],
                     "Цена за кв.м": price_m2,
                     "Цена": price,
-                    "Адрес": address,
+                    "Адрес": info_object.get("address") if info_object else address,
                     "Окончания подачи заявок": datetime.strptime(i['biddEndTime'], "%Y-%m-%dT%H:%M:%S.000+00:00").strftime("%d %m %y %H:%M"),
                     "Кадастровый номер": cadastral, #characteristics['Кадастровый номер'],
                     "Cтоимость чел/кв.м": "",
@@ -186,7 +187,7 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
                     "Описание коммерческих объектов": "",
                     "Жителей h3": "",
                     "H3 чел/кв.м ": "",
-                    "Расстояние до почты": ""
+                    "Расстояние до почты": info_object.get("postal_distance") if info_object.get("postal_distance") else "",
 
                 }
                 data["content"].append(object)
@@ -244,7 +245,8 @@ def primary_processing(path_file):
     with open(path_file, encoding='utf8') as f:
         json_data = json.load(f)
         df = json_normalize(json_data['content'])
-        df = df.sort_values(by=['Регион']).reset_index(drop=True)
+        df['Регион'] = df['Регион'].astype(int)
+        df = df.sort_values(by=['Регион', 'Цена за кв.м']).reset_index(drop=True)
 
         out_file="torgi/output.xlsx" if path_file.find("SUCCEED") == -1 else "torgi/output_archive.xlsx"
         try:
@@ -301,15 +303,13 @@ def visualize_data(path_file):
 
 def main():
     #subjRF = (12:'Mariy El', 50:'MoscowOblast',92:'Sevastopol', 77:'Moscow', 21:'Chuvashiya', 58:'Penza', 91:'Krum') subj_rf="12,21,16,58,91,77,50"
-
     # biddType="229FZ":"Должников","1041PP":"обращенного в собственноcть государства","178FZ":"государсвенного и муниципального имущества"
     #lotStatus=SUCCEED сбор завершенных данных; status = "APPLICATIONS_SUBMISSION прием заявок
 
-    #status = "APPLICATIONS_SUBMISSION"
     amount_files = None
-    status = "APPLICATIONS_SUBMISSION"
+    status = "SUCCEED"
     folder = "cache/APPLICATIONS_SUBMISSION" if status != "SUCCEED" else "cache/SUCCEED" #12,21,16,58,91,77,50,92
-
+    subj_rf = "12,21,16,58,91,77,50,92" if status == 'APPLICATIONS_SUBMISSION' else ""
     #amount_files = get_data_json(bidd_type="229FZ,1041PP,178FZ", subj_rf="12,21,16,58,91,77,50,92",  lot_status=status, folder=folder)
    # # print(amount_files)
     path = transform_into_flatter_structure(amount_files=amount_files, folder=folder)

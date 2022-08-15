@@ -88,30 +88,3 @@ def get_nearest_neighbor(lat, lon):
     else:
         return nearest_poly
 
-
-#print(get_nearest_neighbor(44.101948, 42.986156))
-# for l in loc:
-#     #coord = l[0], l[1] # 44.108558, 42.976359
-#     print(l[0], l[1])
-#     print(distance(l[0], l[1], 44.108558, 42.976359))
-#     if distance(l[0], l[1], 44.108558, 42.976359) < 0.00325:
-#         print(l[0], l[1])
-#         print(h3.geo_to_h3(l[0], l[1], 8))
-#print(sosed)
-#location = h3.geo_to_h3(lat, lng, 8)
-    #  if not os.path.exists("../konturs/russia.gpkg"):
-    #         get_russia_gpkg()
-    #     kontur = pd.DataFrame(gpd.read_file("../konturs/russia.gpkg"))
-    # kontur.set_index("h3", inplace=True)
-
-
-# print(h3.hex_area(8)) #оршанка 56.916251, 47.882981
-# print("popul:\t", get_population_from_kontur_population(56.675958, 47.666557, 12))
-
-#get_other_region_gpkg("RU-ME")
-
-
-#mariel_gpd = gpd.GeoDataFrame(mariel)
-#mariel_gpd.plot(column='population', figsize=(8, 8))
-#plt.show()
-#print(russia_gdf.head())

@@ -9,19 +9,13 @@ import re
 import json
 import wget
 import math
+from h3pandas_test import distance
 #'lat': 56.6216708, 'lon': 47.8798082
 def obj_in_districk(x1, y1, x2, y2):
     if not x2 or not y2:
         return False
-    return math.sqrt((float(x1)-float(x2))**2+(float(y2)-float(y1))**2) < 0.0041
+    return distance(x1, y1, x2, y2) < 0.0041
 
-def obj_in_districk_old(lat, lon, lat_obj, lon_obj):
-
-    if not lat_obj or not lon_obj:
-        return False
-    if float(lat_obj) >= float(lat)-0.0025 and float(lat_obj) <= float(lat)+0.0025 and float(lon_obg) >= float(lon)-0.005 and float(lon_obg) <= float(lon)+0.005:
-        return True
-    return False
 
 def get_residents(feature):
     try:
@@ -140,7 +134,15 @@ def get_commercial_assessment(lat, lon, region):
             with open(f'cache/objs_in_district/{lat}_{lon}.json', "w", encoding='utf8') as file:
                 json.dump(entity, file, ensure_ascii=False, indent=4)
         return count_entity(entity)
-
+def download_region_osm(region):
+    url = f"https://needgeo.com/data/current/region/RU/{region}.pbf"
+    print('Beginning file download with wget module')
+    try:
+        wget.download(url, f"konturs/{region}.pbf", bar=bar_thermometer)
+    except Exception as _ex:
+        print(_ex, region, url)
+        return None
+    print('End file download with wget module')
 def count_all_objs_in_region(objs, region):
     from regions_abbr import regions_abbr
 
@@ -150,29 +152,15 @@ def count_all_objs_in_region(objs, region):
         return None
     if not os.path.exists(f"konturs/{file_osm}.pbf"):
         print(f"not file_osm {region} region {file_osm}.pbf") #https://needgeo.com/data/current/region/RU/RU-ME.pbf
-        url = f"https://needgeo.com/data/current/region/RU/{file_osm}.pbf"
-        print('Beginning file download with wget module')
-        try:
-            wget.download(url, f"konturs/{file_osm}.pbf")
-        except Exception as _ex:
-            print(_ex, file_osm, url)
-            return None
-        print('End file download with wget module')
+        download_region_osm(file_osm)
 
     print(f'proccesing region {region}: {file_osm}')
-    for index, id in enumerate(objs):
-        print(id)
-        id.update({'nodes':set(),'entity':{}})
+    print(objs)
 
     for feature in osmiter.iter_from_osm(f"konturs/{file_osm}.pbf", file_format="pbf"):
         for id_obj in objs:
-            #print(obj)
-
             if obj_in_districk(float(id_obj['lat']), float(id_obj['lon']), feature.get('lat'), feature.get('lon')):
-                #print(id, "\t", feature['id'])
                 id_obj["nodes"].add(feature['id'])
-                #nodes.add(feature['id'])
-
     #
             if feature["type"] == "way" and "building" in feature["tag"]:
                 if feature.get("nd"):
@@ -192,4 +180,4 @@ def count_all_objs_in_region(objs, region):
                 os.makedirs('cache/objs_in_district')
             with open(f'cache/objs_in_district/{id_obj["lat"]}_{id_obj["lon"]}.json', "w", encoding='utf8') as file:
                 json.dump(id_obj['entity'], file, ensure_ascii=False, indent=4)
-    print(objs)
+            print(id_obj['entity'])

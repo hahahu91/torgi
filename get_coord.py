@@ -3,7 +3,7 @@ from dadata import Dadata
 import re
 import os
 import json
-from h3pandas_test import distance
+from population_from_h3 import distance
 from get_address import reduce_addressing_elements
 
 def get_info_object(id, address = "", cadastral = ""):
@@ -14,6 +14,7 @@ def get_info_object(id, address = "", cadastral = ""):
             info_object = json.load(f)
 
     if not info_object:
+        print(f"get info {id}")
         info_object = get_location(address, cadastral)
         if info_object:
             if not os.path.exists('cache/tmp_loc'):
@@ -64,12 +65,12 @@ def get_postal_distance(lat, lon):
     with Dadata(API_KEY, SECRET_KEY) as dadata:
     #print(address, API_KEY, SECRET_KEY)
         try:
-            result = dadata.geolocate("postal_unit", lat=lat, lon=lon, radius_meters=4000)
+            result = dadata.geolocate("postal_unit", lat=lat, lon=lon, radius_meters=3500)
             if result:
                 return int(distance(float(lat), float(lon), float(result[0]["data"]["geo_lat"]), float(result[0]["data"]["geo_lon"]))* 1000)*100
             else:
                 #print("not search")
-                return 4000
+                return 5000
         except Exception as _ex:
             print(_ex, result)
             raise

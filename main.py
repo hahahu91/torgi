@@ -1,8 +1,8 @@
-import certifi
-import requests
-from bs4 import BeautifulSoup
-import time
-import random
+# import certifi
+# import requests
+# from bs4 import BeautifulSoup
+# import time
+# import random
 import json
 import pandas as pd
 from pandas import json_normalize
@@ -10,18 +10,18 @@ from datetime import datetime
 import re
 from win32com import client
 from os import path
-from population_in_district import get_commercial_assessment
+from get_data import get_data_from_torgi_gov, get_address_from_full_data
+from population_in_district import get_objs_in_district_from_cache
+from population_from_h3 import get_residents_from_cache_h3
 from get_coord import get_location, get_info_object
 from get_address import get_address
+from test import get_from_kontur_population, get_population_from_osm
 
 import numpy as np
 from sklearn.linear_model import LinearRegression
 import matplotlib.pyplot as plt
 import os
 
-# Suppress only the single warning from urllib3 needed.
-from urllib3.exceptions import InsecureRequestWarning
-requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
 
 MIN_AREA = 10
@@ -30,62 +30,37 @@ BIDD_TYPE = {
     "1041PP":"Государственное",
     "178FZ":"Муниципальное"
 }
+SUBJ_RF = {  12:'Mariy El',
+            16:'Tatarstan',
+            21:'Chuvashiya',
+            50:'Moscow Oblast',
+            58:'Penza',
+            77:'Moscow',
+            91:'Krum',
+            92:'Sevastopol'
+        }#2,21,16,58,91,77,50,92
 MAX_PRICE = 10000000
 MIN_PRICE = 500000
 MIN_PRICE_ROOM_M2 = 1000
 
 # Suppress only the single warning from urllib3 needed.
-requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
+#requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
-def get_data_json(bidd_type, subj_rf="", lot_status="APPLICATIONS_SUBMISSION", folder="torgi/result"):
-    try:
-        if not lot_status:
-            lot_status = "APPLICATIONS_SUBMISSION"
-        #page_n
-        #url = f"https://torgi.gov.ru/new/api/public/lotcards/search?subjRF={subj_rf}&biddType={bidd_type}&lotStatus={lot_status}&catCode=11&withFacets=true{page_n}&size=25&sort=updateDate,desc"
-
-        headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:102.0) Gecko/20100101 Firefox/102.0",
-            "Accept": "application/json, text/plain, */*",
-        }
-        count = 0
-        while True:
-            count += 1
-            page_n = "" if count == 1 else f"&page={result['number'] + 1}"
-            str_subj_rf = f"subjRF={subj_rf}&" if subj_rf else ""
-            url = f"https://torgi.gov.ru/new/api/public/lotcards/search?{str_subj_rf}biddType={bidd_type}&chars=&chars=dec-totalAreaRealty:10~&lotStatus={lot_status}&catCode=11&withFacets=true{page_n}&size=25&sort=updateDate,desc"
-            result = requests.get(url, headers=headers, verify=False).json();
-            if not result:
-                print("not get url")
-                return
-
-            print("get page ", count, "/", result['totalPages'])
-            with open(f"{folder}/result_{count}.json", "w", encoding='utf8') as file:
-                    json.dump(result, file, ensure_ascii=False, indent=4)
-            if (result["last"]):
-                return count
-            else:
-                time.sleep(random.randint(5,20))
-
-    except Exception as _ex:
-        print(_ex)
-
-def extract_cadastral_num(obj):
+def get_cadastral_num(obj):
     cad_pattern = re.compile( #кадастровый (условный) номер
         #r'(,\s+)?(:?кад\. №|кадастро\w+ н\w+|кадастровый №|с кадастровым номером|\(|кадастровый( (или )?условный)? номер объекта):?\s*(?P<cad>([\d:]{14,19}[,;]?\s*)+)',
         r'(,\s+)?(:?(с )?(кад\.|кадастро\w+|кн|к\/н|к\.н\.|cad)( ?\((или )?условный\))? ?(:?№|н\w+|ном\.|н\.)( об\w*\.?| помещ\w+)?|\():?\s*(?P<cad>(\d{2}\s*:\s*\d{2}\s*:\s*\d{4,8}\s*:\s*\d{1,5}[,;]?\s*)+)', flags=re.IGNORECASE)
     match = cad_pattern.search(obj['lotDescription']) or cad_pattern.search(obj['lotName'])
-    cad = None
-    # if not match:
-    #     match = cad_pattern.search(obj['lotName'])
-    if match:
-        cad = match["cad"]
-        obj['lotDescription'] = cad_pattern.sub('', obj['lotDescription'])
+
+    cad = match["cad"] if match else None
+    # if match:
+    #     cad = match["cad"]
+    #     obj['lotDescription'] = cad_pattern.sub('', obj['lotDescription'])
 
     return cad
 
-
 def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICATIONS_SUBMISSION"):
+    print("transform_into_flatter_structure")
     if not amount_files:
         amount_files = 0
         for i in os.listdir(f"{folder}/"):
@@ -113,52 +88,46 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
                 # if i['lotName'] not in i['lotDescription']:
                 #     i['lotDescription'] = f"{i['lotName']}, {i['lotDescription']}"
 
-                #удаляем инфу про площадь
+                #получаем инфу про площадь
                 area_pattern = re.compile(r'(,\s+)?(:?(общ(\w+)\s+)?площад\w+|общ\. ?пл\.)\D{1,20}(?P<area>[\d,.\s]+\d+)\s*(\(([^\d\W]+\s+)+[^\d\W]+\)\s*)?кв(\.|адратных)\s*м(:?\b|етров\b)', flags=re.IGNORECASE)
                 match = area_pattern.search(i['lotDescription']) or area_pattern.search(i['lotName'])
-                # if not match:
-                #     match = area_pattern.search(i['lotName'])
-                if match:
-                    total_area = float(match['area'].replace(' ', '').replace(',', '.'))
-                    i['lotDescription'] = area_pattern.sub('', i['lotDescription'])
-                else:
-                    total_area = characteristics.get('Общая площадь')
-
+                total_area = float(match['area'].replace(' ', '').replace(',', '.')) if match else characteristics.get('Общая площадь')
+                #     #i['lotDescription'] = area_pattern.sub('', i['lotDescription'])
+                # else:
+                #     total_area = characteristics.get('Общая площадь')
                 if total_area < MIN_AREA:
                     continue
+
                 bad_words = re.compile(r'(:? дол[ия]\b|долевой|\bгараж|машино-?место|свинарник|(?<!этажа и )\bподвал|\bподпол|\bчерда\w+|картофелехранилище|долевая)', flags=re.IGNORECASE)
                 if bad_words.search(i['lotDescription']) or bad_words.search(i['lotName']):
                     continue
 
                 price = i.get('priceFin') or i.get('priceMin')
-                if MIN_PRICE > price or price > MAX_PRICE:
+                if  price < MIN_PRICE or price > MAX_PRICE:
                     continue
 
                 price_m2 = price / total_area
-                if MIN_PRICE_ROOM_M2 > price_m2:
+                if price_m2 < MIN_PRICE_ROOM_M2:
                     continue
 
                 bidd_type = BIDD_TYPE.get(i['biddType']['code']) or i['biddType']['code']
 
-                cadastral = extract_cadastral_num(i)
+                cadastral = get_cadastral_num(i)
                 if not cadastral:
                     cadastral = characteristics.get('Кадастровый номер')  or  characteristics.get(
                         'Кадастровый номер объекта недвижимости (здания, сооружения), в пределах которого расположено помещение') or None
                 #удаляем лишнюю инфу про тип аукциона
-                excess_pattern = re.compile(r',?\s*(:?посредством публичного предложения|без объявления цены|\([,\.\s]*\))\.?', flags=re.IGNORECASE)
-                i['lotDescription'] = excess_pattern.sub('', i['lotDescription'])
+                # excess_pattern = re.compile(r',?\s*(:?посредством публичного предложения|без объявления цены|\([,\.\s]*\))\.?', flags=re.IGNORECASE)
+                # i['lotDescription'] = excess_pattern.sub('', i['lotDescription'])
 
-                #удаляем адрес и сохраняем в отдельном
+                #получаем адрес
                 address = get_address(i['lotDescription']) or get_address(i['lotName'])
-                if address:
-                    try:
-                        i['lotDescription'] = re.sub(re.escape(address), '', i['lotDescription'])
-                    except Exception as _ex:
-                        print(_ex)
-                        print(i['lotDescription'], address)
+                if not address:
+                    address = get_address_from_full_data(i['id'])
+
                 info_object = {}
                 if address or cadastral:
-                    print("get info", i['id'])
+                    #print("get info", i['id'])
                     info_object = get_info_object(i['id'], address, cadastral)
                 # lat, lon = None, None
                 # if info_object:
@@ -168,26 +137,30 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
                 coord = f'''=HYPERLINK("https://yandex.ru/maps/?&text={info_object.get("lat")}, {info_object.get("lon")}", "{info_object.get("lat")}, {info_object.get("lon")}")''' \
                     if info_object.get("lat") and info_object.get("lon") and info_object.get("lat") != "None" and info_object.get("lon") != "None" \
                     else ""
+                entity_from_osm = get_objs_in_district_from_cache(info_object.get("lat"), info_object.get("lon"))
+                residence_from_h3 = get_residents_from_cache_h3(info_object.get("lat"), info_object.get("lon"))
                 object = {
                     "Регион": i['subjectRFCode'],
                     "Общая площадь": total_area,
                     "id": f"""=HYPERLINK("https://torgi.gov.ru/new/public/lots/lot/{i['id']}/(lotInfo:info)", "{i['id']}")""",
                     "Название": i['lotDescription'],
-                    "Цена за кв.м": price_m2,
-                    "Цена": price,
-                    "Адрес": info_object.get("address") if info_object else address,
                     "Окончания подачи заявок": datetime.strptime(i['biddEndTime'], "%Y-%m-%dT%H:%M:%S.000+00:00").strftime("%d %m %y %H:%M"),
-                    "Кадастровый номер": cadastral, #characteristics['Кадастровый номер'],
-                    "Cтоимость чел/кв.м": "",
+                    "Адрес": info_object.get("address") if info_object else address,
+                    "Цена": price,
+                    "Цена за кв.м": price_m2,
+                    "H3 чел/кв.м ": float(format(int(price_m2)/int(residence_from_h3.get("population")), ".2f")) if residence_from_h3.get("population") else "",
+                    "Чел/кв.м": float(format(int(price_m2)/int(entity_from_osm.get("residents")), ".2f")) if entity_from_osm.get("residents") else "",
+                    "Ком/кв.м": float(format(int(price_m2)/int(entity_from_osm.get("entity")), ".2f")) if entity_from_osm.get("entity") else "",
+                    "Жителей h3": residence_from_h3.get("population") if residence_from_h3 else "",
+                    "Жителей в округе": entity_from_osm.get("residents") if entity_from_osm else "",
+                    "Коммерческих объектов": entity_from_osm.get("entity") if entity_from_osm else "",
+                    "Расстояние до почты": info_object.get("postal_distance") if info_object.get("postal_distance") else "",
                     "Форма проведения": i['biddForm']['code'],
                     "Имущество": re.sub(r"^(.).+$", r"\1", bidd_type),
                     "Координаты": coord,
-                    "Жителей в округе": "",
-                    "Коммерческих объектов": "",
-                    "Описание коммерческих объектов": "",
-                    "Жителей h3": "",
-                    "H3 чел/кв.м ": "",
-                    "Расстояние до почты": info_object.get("postal_distance") if info_object.get("postal_distance") else "",
+                    "Описание коммерческих объектов": f"""=HYPERLINK("{os.path.abspath("cache/objs_in_district")}/{info_object.get("lat")}_{info_object.get("lon")}.json", "{info_object.get("lat")}_{info_object.get("lon")}.json")""" \
+                        if entity_from_osm.get("entity") else "",
+                    "Кадастровый номер": cadastral,  # characteristics['Кадастровый номер'],
 
                 }
                 data["content"].append(object)
@@ -196,13 +169,14 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
         json.dump(data, file, ensure_ascii=False, indent=4)
     return f"{folder}/result_full.json"
 
-
 def install_setting_of_columns(writer):
     workbook = writer.book
     worksheet = writer.sheets['Sheet1']
     worksheet.autofilter('A1:T1000')
     currency_format = workbook.add_format({'num_format': '# ### ##0 ₽'})
+    currency_format_with_penny = workbook.add_format({'num_format': '# ### ##0.0 ₽'})
     format_area = workbook.add_format({'num_format': '# ##0.0 м2'})
+    format_distance = workbook.add_format({'num_format': '#\ ##0\ \м'})
     format_hyper = workbook.add_format({'font_color': 'blue', 'underline': True})
 
    # (max_row, max_col) = df.shape
@@ -212,24 +186,32 @@ def install_setting_of_columns(writer):
     # area
     worksheet.set_column('C:C', 9, format_area)
 
+    worksheet.set_column('D:D', 23, format_hyper)
+    worksheet.set_column('S:T', 22, format_hyper)
+
     # name
-    worksheet.set_column('D:D', 22, format_hyper)
-    worksheet.set_column('N:N', 22, format_hyper)
-    worksheet.set_column('Q:Q', 22, format_hyper)
-    worksheet.set_column('E:E', 40)
-    worksheet.set_column('H:H', 40)
-    worksheet.set_column('I:I', 12)
-    worksheet.set_column('J:J', 18)
+    worksheet.set_column('E:E', 12)
+
+    worksheet.set_column('G:G', 40)
+    worksheet.set_column('H:H', 12, currency_format)
+    worksheet.set_column('F:F', 12)
+    worksheet.set_column('M:O', 5)
+    worksheet.set_column('U:U', 12)
+    worksheet.set_column('P:P', 7, format_distance)
+    worksheet.set_column('Q:R', 3)
+    #worksheet.set_column('T:T', 18)
     # price
-    worksheet.set_column('F:G', 12, currency_format)
-    worksheet.set_column('K:K', 12, currency_format)
+    #worksheet.set_column('I:K', 9, currency_format)
+    worksheet.set_column('I:I', 9, currency_format)
+    worksheet.set_column('J:K', 7, currency_format_with_penny)
+    worksheet.set_column('L:L', 8, currency_format)
     #
     # red = workbook.add_format({'bg_color': '#FFC7CE',
     #                                'font_color': '#9C0006'})
     green = workbook.add_format({'bg_color': '#C6EFCE',
                                  'font_color': '#006100'})
 
-    worksheet.conditional_format('L1:L1000', {'type': 'text',
+    worksheet.conditional_format('Q1:Q1000', {'type': 'text',
                                                     'criteria': 'containsText',
                                                     'value': "PP",
                                                     'format': green})
@@ -307,13 +289,18 @@ def main():
     #lotStatus=SUCCEED сбор завершенных данных; status = "APPLICATIONS_SUBMISSION прием заявок
 
     amount_files = None
-    status = "SUCCEED"
-    folder = "cache/APPLICATIONS_SUBMISSION" if status != "SUCCEED" else "cache/SUCCEED" #12,21,16,58,91,77,50,92
-    subj_rf = "12,21,16,58,91,77,50,92" if status == 'APPLICATIONS_SUBMISSION' else ""
-    #amount_files = get_data_json(bidd_type="229FZ,1041PP,178FZ", subj_rf="12,21,16,58,91,77,50,92",  lot_status=status, folder=folder)
-   # # print(amount_files)
+    status = "APPLICATIONS_SUBMISSION"
+    folder = "cache/APPLICATIONS_SUBMISSION" if status != "SUCCEED" else "cache/SUCCEED"
+    subj_rf = ','.join(map(str, SUBJ_RF.keys())) if status == 'APPLICATIONS_SUBMISSION' else ""
+    bidd_type = '%s' % ",".join(BIDD_TYPE.keys())
+
+    #amount_files = get_data_from_torgi_gov(bidd_type=bidd_type, subj_rf=subj_rf,  lot_status=status, out_folder=folder)
+
     path = transform_into_flatter_structure(amount_files=amount_files, folder=folder)
     output_file = primary_processing(path)
+   # get_from_kontur_population(output_file)
+    #get_population_from_osm(output_file)
+
     #visualize_data(path)
 
 if __name__ == "__main__":

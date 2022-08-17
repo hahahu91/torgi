@@ -43,6 +43,14 @@ def get_population_from_kontur_population(lat, lng, region):
 
     return kontur.loc[(kontur.index == location)]["population"].get(0)
 
+def get_residents_from_cache_h3(lat, lon):
+    if os.path.exists(f'cache/population_in_h3/{lat}_{lon}.json'):
+        with open(f'cache/population_in_h3/{lat}_{lon}.json', encoding='utf8') as f:
+            info_object = json.load(f)
+            return info_object
+    else:
+        return {}
+
 def get_all_objs_from_kontur_population(objs):
     if not os.path.exists("../konturs/russia.gpkg"):
         get_russia_gpkg()

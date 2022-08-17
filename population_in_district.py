@@ -9,13 +9,12 @@ import re
 import json
 import wget
 import math
-from h3pandas_test import distance
+from population_from_h3 import distance
 #'lat': 56.6216708, 'lon': 47.8798082
 def obj_in_districk(x1, y1, x2, y2):
     if not x2 or not y2:
         return False
     return distance(x1, y1, x2, y2) < 0.0041
-
 
 def get_residents(feature):
     try:
@@ -68,36 +67,36 @@ def count_commercial_assessment(feature_tags, entity):
         amount = residents if not entity.get("residents") else entity.get("residents") + residents
         if amount:
             entity.update({"residents": amount})
-
-def count_objects_in_district(lat, lon, region):
-    from regions_abbr import regions_abbr
-    file_osm = regions_abbr.get(int(region))["abbr"]
-    if not file_osm:
-        print(f"not region {region} abbr")
-        return None
-    if not os.path.exists(f"../konturs/{file_osm}.pbf"):
-        print(f"not file_osm {region} region {file_osm}.pbf")
-        url = f"https://needgeo.com/data/current/region/RU/{file_osm}.pbg"
-        print('Beginning file download with wget module')
-        wget.download(url, f"../konturs/{file_osm}.pbf")
-        print('End file download with wget module')
-    nodes = set()
-    entity = {}
-    print("Openning file osm")
-    for feature in osmiter.iter_from_osm(f"../konturs/{file_osm}.pbf", file_format="pbf"):
-        if obj_in_districk(lat, lon, feature.get("lat"), feature.get("lon")):
-            nodes.add(feature["id"])
-        if feature["type"]  == "way" and "building" in feature["tag"]:
-            if feature.get("nd"):
-                for id in feature["nd"]:
-                    if id in nodes:
-                        count_commercial_assessment(feature["tag"], entity)
-                        break
-        elif obj_in_districk(lat, lon, feature.get("lat"), feature.get("lon")):
-            if feature["tag"] != {}:
-                count_commercial_assessment(feature["tag"], entity)
-
-    return entity
+#
+# def count_objects_in_district(lat, lon, region):
+#     from regions_abbr import regions_abbr
+#     file_osm = regions_abbr.get(int(region))["abbr"]
+#     if not file_osm:
+#         print(f"not region {region} abbr")
+#         return None
+#     if not os.path.exists(f"../konturs/{file_osm}.pbf"):
+#         print(f"not file_osm {region} region {file_osm}.pbf")
+#         url = f"https://needgeo.com/data/current/region/RU/{file_osm}.pbg"
+#         print('Beginning file download with wget module')
+#         wget.download(url, f"../konturs/{file_osm}.pbf")
+#         print('End file download with wget module')
+#     nodes = set()
+#     entity = {}
+#     print("Openning file osm")
+#     for feature in osmiter.iter_from_osm(f"../konturs/{file_osm}.pbf", file_format="pbf"):
+#         if obj_in_districk(lat, lon, feature.get("lat"), feature.get("lon")):
+#             nodes.add(feature["id"])
+#         if feature["type"]  == "way" and "building" in feature["tag"]:
+#             if feature.get("nd"):
+#                 for id in feature["nd"]:
+#                     if id in nodes:
+#                         count_commercial_assessment(feature["tag"], entity)
+#                         break
+#         elif obj_in_districk(lat, lon, feature.get("lat"), feature.get("lon")):
+#             if feature["tag"] != {}:
+#                 count_commercial_assessment(feature["tag"], entity)
+#
+#     return entity
 
 def get_objs_in_district_from_cache(lat, lon):
     if os.path.exists(f'cache/objs_in_district/{lat}_{lon}.json'):
@@ -106,7 +105,7 @@ def get_objs_in_district_from_cache(lat, lon):
 
             return count_entity(entity)
     else:
-        return False
+        return {}
 
 def count_entity(entity):
     entity_count = 0
@@ -134,6 +133,7 @@ def get_commercial_assessment(lat, lon, region):
             with open(f'cache/objs_in_district/{lat}_{lon}.json', "w", encoding='utf8') as file:
                 json.dump(entity, file, ensure_ascii=False, indent=4)
         return count_entity(entity)
+
 def download_region_osm(region):
     url = f"https://needgeo.com/data/current/region/RU/{region}.pbf"
     print('Beginning file download with wget module')
@@ -143,6 +143,7 @@ def download_region_osm(region):
         print(_ex, region, url)
         return None
     print('End file download with wget module')
+
 def count_all_objs_in_region(objs, region):
     from regions_abbr import regions_abbr
 

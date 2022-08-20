@@ -75,4 +75,5 @@ def get_postal_distance(lat, lon):
             print(_ex, result)
             raise
 #print(int(float(get_postal_distance(55.834153, 37.356441))*100000))
-#print(get_location("Московская область, Каширский район, г. Кашира, ул. Сергея Ионова, д. 3"))
+if __name__ == "__main__":
+    print(get_location("Тульская область, г.Тула, Привокзальный район, ул. М.Горького, д. 15а"))

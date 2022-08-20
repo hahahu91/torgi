@@ -1,16 +1,16 @@
 import re
 import json
 from address_test import TEST
-
+from get_data import get_address_from_full_data
 
 def get_address(str):
     street_val = r"\s*\b(ул|проспек\w+|ст|набережная|жилой район|бул|бульв|б-р|мкр|п\.г\.т|мкр\Wн|кв\Wл|квартал|проезд|бульвар|аллея|пер|наб|шоссе|линия|просп|пр\Wкт|переулок|улиц\w+|пр)\b\.?"
     addr_val = r"\s*\b(г|д|р\.п|дер|пос|г\.о|м\Wр\Wн|МО г\.п|городской|сельский|" \
                r"сельское поселение|село|городское поселение|поселок|городской округ|населенный пункт|" \
                r"деревня|город|пгт|обл|п|Респ\w*|край|округ|область|район|р\Wо?н|с|ш|МО|ст\Wца|Федерация)\b\.?"
-    addr_val_dig = r"\s*\b(пом|корпус|корп|вл|зд|литера|кладовая|уч|кв|д|к|дом|помещение|стр|строение)\b\.?"
+    addr_val_dig = r"\s*\b(корпус|корп|вл|зд|литера|кладовая|уч|д|к|дом|стр|строение)\b\.?"
 
-    end_val = r"(,|(?<![дгрс])\.|$|площад\w+|общей|»|\(|;|с земельным|и земельный|Кадастровый)+ *"
+    end_val = r"(,|(?<![дгрс])\.|$|площад\w+|общей|»|\(|;|с земельным|и земельный|Кадастровый|пом\b|помещение|кв\b|квартира|помещ\b)+ *"
     start_val = r'(:?\bпо(\s+адресу:?)\b|:|\.|\bв\b|\d,)'
     start_abs = r'(:?местополож\w+\):|адрес\w*:|адрес\w*\s*-)'
     reg_exp =   r'(?P<address>(:?{start_val}(' \
@@ -40,34 +40,88 @@ def reduce_addressing_elements(address):
 
     return re.sub(r",[^,]+,\s*г\b", ", г", address)
 
+def floor_to_num(str):
+    minus1 = r'(подвал\w*|сарайка|подполь\w*|-1)'
+    zero = r'(цокол\w+)'
+    first = r'(1|перв\w+|i\b|земельны\w+)'
+    second = r'(2|втор\w+|ii\b)'
+    third = r'(3|трет\w+|iii\b)'
+
+    if re.search(minus1, str, flags=re.IGNORECASE):
+        return '-1'
+    elif re.search(zero, str, flags=re.IGNORECASE):
+        return '0'
+    elif re.search(first, str, flags=re.IGNORECASE):
+        return '1'
+    elif re.search(second, str, flags=re.IGNORECASE):
+        return '2'
+    elif re.search(third, str, flags=re.IGNORECASE):
+        return '3'
+    else:
+        return '4'
+
+
+def get_floor(object):
+    floor_val = r'[\s:#№\)]*\b(\d+|подвал\w*|сарайка|цокол\w+|перв\w+|втор\w+|трет\w+|надстроен\w+|подполь\w*|\d+-?\w{,2}|[ixv]+)\b\s*'
+    reg_exp = r'(?P<floor>(:?' \
+        r'этаж\w*{floor}|\bна{floor}этаж\w*|'\
+        r'{floor}этаж\w*\b|\bв цокол\w+|подвал\w*|сарайка|в \w+илом \w+этажном (на \w+)?|'\
+        r'\w+этажное \w+|на поэтажном плане ?-?{floor} этаж\w*|'\
+        r'{floor}-?этажный|эт\.{floor}|номер на поэтажном плане{floor}|' \
+        r'с земельным участком|земельный участок))'\
+        .format(floor=floor_val)
+
+    floor_pattern = re.compile(reg_exp, flags=re.IGNORECASE)
+    floor = ""
+    match = floor_pattern.search(object["lotDescription"]) or floor_pattern.search(object["lotName"])
+    if not match:
+        for char in object['characteristics']:
+            if char["name"] == "Расположение в пределах объекта недвижимости (этажа, части этажа, нескольких этажей)" \
+                    and char.get("characteristicValue"):
+                #print(char.get("characteristicValue"))
+
+                floor = char.get("characteristicValue")
+    else:
+        floor = match["floor"]
+    if floor:
+        floor_pattern = re.compile(r'(\d+|подвал\w*|сарайка|цокол\w+|перв\w+|втор\w+|трет\w+|надстроен\w+|подполь\w*|земельны\w+)', flags=re.IGNORECASE)
+        match = floor_pattern.search(floor)
+        if match:
+            return floor_to_num(match[1])
+    return ""
 def test():
-
-
-
     count = 0
-    for j in range(1, 51):
+    for j in range(1, 52):
 
         with open(f"cache/SUCCEED/result_{j}.json", encoding='utf8') as f:
             json_data = json.load(f)
 
             for i in json_data['content']:
-
-                print("1", i['lotDescription'])
-                address = get_address(i['lotDescription'])
+                address = get_floor(i)
                 if not address:
-                    address = get_address(i['lotName'])
+
+                    # address = get_floor(i['lotName'])
+                    # if not address:
+                    print("1", i['lotDescription'])
                     print("3", i['lotName'])
-                    if not address:
-                        count += 1
-                        print("5 bad", i['lotDescription'])
+                    for char in i['characteristics']:
+                        if char["name"] == "Расположение в пределах объекта недвижимости (этажа, части этажа, нескольких этажей)" and char.get("characteristicValue"):
+                            print(char.get("characteristicValue"))
 
-                print(address)
-                print("\r\n")
-    for t, str in TEST.items():
+                    print("\r\n")
+                   # print(i['characteristics'])
+                    count += 1
+                        #address = get_floor(i['id'])
+                        #print(address)
+                #print(address)
 
-        if get_address(t) != str:
-            print(t)
-            print(f"fail \"{str}\" != \"{get_address(t)}\"")
+    # for t, str in TEST.items():
+    #
+    #     if get_address(t) != str:
+    #         print(t)
+    #         print(f"fail \"{str}\" != \"{get_address(t)}\"")
 
 
     print(count)
+if __name__ == "__main__":
+    test()

@@ -47,8 +47,13 @@ def get_address_from_full_data(id):
             info_object = json.load(f)
             return info_object.get("estateAddress")
     else:
-        info_object = get_lot_full_data(id, out_folder)
-        return info_object.get("estateAddress")
+        try:
+            info_object = get_lot_full_data(id, out_folder)
+            if info_object:
+                return info_object.get("estateAddress")
+        except Exception as _ex:
+            print(_ex, id)
+        return {}
 
 def get_lot_full_data(id, out_folder):
     #"https://torgi.gov.ru/new/api/public/lotcards/21000004710000001724_1"

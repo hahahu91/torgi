@@ -37,7 +37,8 @@ def parse_info(row):
         'postal_distance':row[15].value,
         'cad_num':row[20].value,
         'lat':lat,
-        'lon':lon
+        'lon':lon,
+        'floor': row[21].value,
     }
 
 def try_get_coords_again(file_xlsx_path):
@@ -140,7 +141,7 @@ def set_in_cell_h3people(ws, index, population, price_m2):
     ws[f'M{index}'] = population
     if price_m2:
         ws[f'J{index}'] = float(format(price_m2 / int(population), ".2f")) if int(population) else ""
-        ws[f'J{index}'].number_format = '_-* # ##0.00 ₽_-;-* # ##0.00 ₽_-'
+        ws[f'J{index}'].number_format = '_-* # ##0.00₽_-;-* # ##0.00₽_-'
 
 def set_population_in_xls_from_cache(file_xlsx_path):
     print('set_population_in_xls_from_cache')
@@ -168,9 +169,9 @@ def set_population_in_xls_from_cache(file_xlsx_path):
                     ws[f'T{index+1}'] = f"""=HYPERLINK("{os.path.abspath("cache/objs_in_district")}/{lat}_{lon}.json", "{lat}_{lon}.json")"""
                     if row_info["price_m2"]:
                         ws[f'K{index+1}'] = float(format(row_info["price_m2"] / int(entity["residents"]), ".2f")) if entity["residents"] else ""
-                        ws[f'K{index+1}'].number_format = '_-* # ##0.00 ₽_-;-* # ##0.00 ₽_-'
+                        ws[f'K{index+1}'].number_format = '_-* # ##0.0₽_-;-* # ##0.0₽_-'
                         ws[f'L{index+1}'] = float(format(row_info["price_m2"] / int(entity["entity"]), ".2f")) if entity["entity"] else ""
-                        ws[f'L{index+1}'].number_format = '_-* # ##0.00 ₽_-;-* # ##0.00 ₽_-'
+                        ws[f'L{index+1}'].number_format = '_-* # ##0.0₽_-;-* # ##0.0₽-'
 
         except Exception as _ex:
             print(_ex, row_info, index)

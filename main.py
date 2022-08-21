@@ -151,12 +151,12 @@ def main():
     #subjRF = (12:'Mariy El', 50:'MoscowOblast',92:'Sevastopol', 77:'Moscow', 21:'Chuvashiya', 58:'Penza', 91:'Krum') subj_rf="12,21,16,58,91,77,50"
     # biddType="229FZ":"Должников","1041PP":"обращенного в собственноcть государства","178FZ":"государсвенного и муниципального имущества"
     #lotStatus=SUCCEED сбор завершенных данных; status = "APPLICATIONS_SUBMISSION прием заявок
-
+    subj_rf='1,2,3,5,10,11,12,13,14,16,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,66,68,69,70,71,72,73,74,76,79,86,89'
     amount_files = None
     status = "APPLICATIONS_SUBMISSION"
     folder = "cache/APPLICATIONS_SUBMISSION" if status != "SUCCEED" else "cache/SUCCEED"
     out_file = "torgi/output.xlsx" if status != "SUCCEED" else "torgi/output_archive.xlsx"
-    subj_rf = ','.join(map(str, SUBJ_RF.keys())) if status == 'APPLICATIONS_SUBMISSION' else ""
+    #subj_rf = ','.join(map(str, SUBJ_RF.keys())) if status == 'APPLICATIONS_SUBMISSION' else ""
     bidd_type = '%s' % ",".join(BIDD_TYPE.keys())
 
     #amount_files = get_data_from_torgi_gov(bidd_type=bidd_type, subj_rf=subj_rf,  lot_status=status, out_folder=folder)

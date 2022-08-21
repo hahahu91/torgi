@@ -33,7 +33,7 @@ def regres_with_scaler():
     # residence = daily[["Жителей h3", "Жителей в округе"]]
     data["Жителей"] = data[["Жителей h3", "Жителей в округе"]].max(axis=1)
     data.drop(columns=['Жителей h3', 'Жителей в округе'], axis=1, inplace=True)
-    data.loc[(data['Жителей'] >= 4000 & data['Расстояние до почты'].isnull()), 'Расстояние до почты'] = 100
+    data.loc[((data['Жителей'] >= 2000) & (data['Расстояние до почты'].isnull())), 'Расстояние до почты'] = 100
     data['Расстояние до почты'].replace(np.nan, 5000, inplace=True)
     data['Коммерческих объектов'].replace(np.nan, 0, inplace=True)
     data['Этаж'].replace(np.nan, 0, inplace=True)
@@ -66,6 +66,7 @@ def regres_with_scaler():
     code_myohe(data, "Этаж")
     # print(daily)
     floors = data["Этаж"].unique().astype(str)
+    print(floors)
     regions = data["Регион"].unique().astype(str)
     data.drop("Регион", axis=1, inplace=True)
     data.drop("Этаж", axis=1, inplace=True)
@@ -165,6 +166,6 @@ def regres_with_scaler():
     # plt.xticks(fontsize=14)
     # plt.yticks(fontsize=14)
     # plt.show()
-
-regres_with_scaler()
+if __name__ == "main":
+    regres_with_scaler()
 #regres()

@@ -24,6 +24,8 @@ sdist/
 var/
 cache/
 konturs/
+share/
+etc/
 *.egg-info/
 .installed.cfg
 *.egg

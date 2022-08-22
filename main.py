@@ -5,13 +5,14 @@ import re
 # import matplotlib.pyplot as plt
 import os
 
-from get_data import get_data_from_torgi_gov, get_address_from_full_data
-from population_in_district import get_objs_in_district_from_cache
-from population_from_h3 import get_residents_from_cache_h3
-from get_coord import get_location, get_info_object
-from get_address import get_address, get_floor
+from inc.get_data import get_data_from_torgi_gov, get_address_from_full_data
+from inc.population_in_district import get_objs_in_district_from_cache
+from inc.population_from_h3 import get_residents_from_cache_h3
+from inc.get_coord import get_location, get_info_object
+from inc.get_address import get_address, get_floor
+from inc.export_to_xlsx import export_to_xlsx
+
 from get_population import get_from_kontur_population, get_population_from_osm
-from export_to_xlsx import export_to_xlsx
 
 
 MIN_AREA = 10
@@ -68,9 +69,12 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
                     characteristics[characteristic['name']] = characteristic[
                         'characteristicValue'] if "characteristicValue" in characteristic else None
                 #получаем инфу про площадь
-                area_pattern = re.compile(r'(,\s+)?(:?(общ(\w+)\s+)?площад\w+|общ\. ?пл\.)\D{1,20}(?P<area>[\d,.\s]+\d+)\s*(\(([^\d\W]+\s+)+[^\d\W]+\)\s*)?кв(\.|адратных)\s*м(:?\b|етров\b)', flags=re.IGNORECASE)
-                match = area_pattern.search(i['lotDescription']) or area_pattern.search(i['lotName'])
-                total_area = float(match['area'].replace(' ', '').replace(',', '.')) if match else characteristics.get('Общая площадь')
+                total_area = float(str(characteristics.get('Общая площадь')).replace(' ', '').replace(',', '.')) if characteristics.get('Общая площадь') else None
+                if not total_area:
+                    area_pattern = re.compile(r'(,\s+)?(:?(общ(\w+)\s+)?площад\w+|общ\. ?пл\.)\D{1,20}(?P<area>[\d,.\s]+\d+)\s*(\(([^\d\W]+\s+)+[^\d\W]+\)\s*)?кв(\.|адратных)\s*м(:?\b|етров\b)', flags=re.IGNORECASE)
+                    match = area_pattern.search(i['lotDescription']) or area_pattern.search(i['lotName'])
+                    total_area = float(match['area'].replace(' ', '').replace(',', '.')) if match else 0
+
                 if total_area < MIN_AREA:
                     continue
 
@@ -136,6 +140,8 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
                         if entity_from_osm.get("entity") else "",
                     "Кадастровый номер": cadastral,  # characteristics['Кадастровый номер'],
                     "Этаж": floor,  # characteristics['Кадастровый номер'],
+                    "Предсказываемая": "",
+                    "Разница с реальной": "",
 
                 }
                 data["content"].append(object)
@@ -151,7 +157,7 @@ def main():
     #subjRF = (12:'Mariy El', 50:'MoscowOblast',92:'Sevastopol', 77:'Moscow', 21:'Chuvashiya', 58:'Penza', 91:'Krum') subj_rf="12,21,16,58,91,77,50"
     # biddType="229FZ":"Должников","1041PP":"обращенного в собственноcть государства","178FZ":"государсвенного и муниципального имущества"
     #lotStatus=SUCCEED сбор завершенных данных; status = "APPLICATIONS_SUBMISSION прием заявок
-    subj_rf='1,2,3,5,10,11,12,13,14,16,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,66,68,69,70,71,72,73,74,76,79,86,89'
+    subj_rf='1,2,3,5,10,11,12,13,14,16,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,66,68,69,70,71,72,73,74,76,79,86,89'
     amount_files = None
     status = "APPLICATIONS_SUBMISSION"
     folder = "cache/APPLICATIONS_SUBMISSION" if status != "SUCCEED" else "cache/SUCCEED"
@@ -162,9 +168,8 @@ def main():
     #amount_files = get_data_from_torgi_gov(bidd_type=bidd_type, subj_rf=subj_rf,  lot_status=status, out_folder=folder)
     path = transform_into_flatter_structure(amount_files=amount_files, folder=folder)
     export_to_xlsx(path, out_file)
-    # get_from_kontur_population(out_file)
-    # get_population_from_osm(out_file)
-
+    get_from_kontur_population(out_file)
+    get_population_from_osm(out_file)
 
 if __name__ == "__main__":
     main()

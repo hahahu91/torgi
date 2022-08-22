@@ -3,10 +3,11 @@ import json
 import numpy as np
 import pandas as pd
 import os
-from get_coord import get_location, get_info_object, get_postal_distance
-from population_in_district import count_all_objs_in_region, count_entity, get_objs_in_district_from_cache
-from population_from_h3 import get_population_from_kontur_population, get_all_objs_from_kontur_population
 from win32com import client
+
+from inc.get_coord import get_location, get_info_object, get_postal_distance
+from inc.population_in_district import count_all_objs_in_region, get_objs_in_district_from_cache
+from inc.population_from_h3 import get_all_objs_from_kontur_population
 
 from openpyxl import load_workbook
 from openpyxl.styles import Font

@@ -18,6 +18,19 @@ def get_address_pseudo(str):
     match = address_pattern.search(str)
     return normalize(match["address"])
 
+def get_area(obj):
+    total_area = ''
+    for char in obj['characteristics']:
+        if char["name"] == "Общая площадь" and char.get("characteristicValue"):
+            total_area = float(str(char.get('characteristicValue')).replace(' ', '').replace(',', '.'))
+    if not total_area:
+        area_pattern = re.compile(
+            r'(,\s+)?(:?(общ(\w+)\s+)?площад\w+|общ\. ?пл\.)\D{1,20}(?P<area>[\d,.\s]+\d+)\s*(\(([^\d\W]+\s+)+[^\d\W]+\)\s*)?кв(\.|адратных)\s*м(:?\b|етров\b)',
+            flags=re.IGNORECASE)
+        match = area_pattern.search(obj['lotDescription']) or area_pattern.search(obj['lotName'])
+        total_area = float(match['area'].replace(' ', '').replace(',', '.')) if match else ''
+
+    return total_area
 
 def get_address(str):
     street_val = r"\s*\b(ул|проспек\w+|ст|набережная|жилой район|бул|бульв|б-р|мкр|п\.г\.т|мкр\Wн|кв\Wл|" \
@@ -116,7 +129,7 @@ def get_type_object(object):
                               r'((:?тепло\w+ пункт\w+|УПК|бан\w+|подстанции|Штаб|казарм\w+|столов\w+|кафе|библиотек\w+|деревянн\w+|рабоч\w+ казар\w+|контор\w+ управлен\w+|учебно\W+производственного корпуса|(центрального )?теплового пункта|профилактория|бытов\w+ помещ\w*|детской молочной кухни)\W+)*|'
                               r'(:?Школ\w+|бытов\w+ помещен\w+|торгов\w+(\W+\w+)?|гаражн\w+\W*\w*|сарай|свинарник|производственное \w+|центр социальн\w+ обслуживан\w+ населен\w+|'
                               r'Проходн\w+|Растворо\W*бетонный узел|гараж\b|подвал|котельная|Ветеринарн\w+ пунк\w+|пилорам\w*|вальцев\w* мельниц\w*|овощехранил\w+|'
-                              r'аптек\w+|cклад|бильярдн\w+|магази\w+|бокc\w*|офис\w*|Прачечн\w+|(столярн\w+ )?мастерск\w+|аптек\w+|молочн\w+ кухн\w+|'
+                              r'аптек\w+|cклад\w+|бильярдн\w+|магази\w+|бокc\w*|офис\w*|Прачечн\w+|(столярн\w+ )?мастерск\w+|аптек\w+|молочн\w+ кухн\w+|'
                               r'помещение \w+(\W*\w*)? пункта|сарайка|Казарма))',
         flags=re.IGNORECASE)
     match = type_pattern.search(object["lotDescription"]) or type_pattern.search(object["lotName"])
@@ -138,6 +151,21 @@ def get_quality_repair(object):
         return "Нежилое помещение"
     return match[1]
 
+def get_cadastral_num(obj):
+    cad = ""
+    cad_pattern = re.compile( #кадастровый (условный) номер
+        r'(,\s+)?(:?(с )?(кад\.|кадастро\w+|кн|к\/н|к\.н\.|cad)( ?\((или )?условный\))? ?(:?№|н\w+|ном\.|н\.)( об\w*\.?| помещ\w+)?|\():?\s*(?P<cad>(\d{2}\s*:\s*\d{2}\s*:\s*\d{4,8}\s*:\s*\d{1,5}[,;]?\s*)+)', flags=re.IGNORECASE)
+    match = cad_pattern.search(obj['lotDescription']) or cad_pattern.search(obj['lotName'])
+    if match:
+        cad = match["cad"]
+    else:
+        for char in obj['characteristics']:
+            if char["name"] == "Кадастровый номер" and char.get("characteristicValue"):
+                cad = char.get("characteristicValue")
+            elif char["name"] == "Кадастровый номер объекта недвижимости (здания, сооружения), в пределах которого расположено помещение" and char.get("characteristicValue"):
+                cad = char.get("characteristicValue")
+
+    return cad
 
 def get_floor(object):
     floor_val = r'[\s:#№\)]*\b(\d+|подвал\w*|сарайка|цокол\w+|перв\w+|втор\w+|трет\w+|надстроен\w+|подполь\w*|\d+-?\w{,2}|[ixv]+)\b\s*'

@@ -41,6 +41,7 @@ def install_setting_of_columns(writer):
     format_area = workbook.add_format({'num_format': '# ##0.0м2'})
     format_distance = workbook.add_format({'num_format': '#\ ##0\ \м'})
     format_hyper = workbook.add_format({'font_color': 'blue', 'underline': True})
+
     center = workbook.add_format()
     center.set_center_across()
 
@@ -99,8 +100,15 @@ def install_setting_of_columns(writer):
     worksheet.conditional_format('F1:F1000', {'type': 'time_period',
                                              'criteria': 'next week',
                                              'format': red})
-    worksheet.conditional_format('F1:F1000', {'type': 'time_period',
-                                             'criteria': 'this week',
+    worksheet.conditional_format('N1:N1000', {'type': 'cell',
+                                                    'criteria': 'between',
+                                                    'minimum': 0.1,
+                                                    'maximum': 2999,
+                                             'format': red})
+    worksheet.conditional_format('M1:M1000', {'type': 'cell',
+                                                    'criteria': 'between',
+                                                    'minimum': 0.1,
+                                                    'maximum': 999,
                                              'format': red})
 def save_opening_output_file(file_path):
     if path.exists(file_path):

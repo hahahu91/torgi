@@ -13,6 +13,8 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 import matplotlib.pyplot as plt
 
+import string
+
 np.random.seed(0)
 
 from openpyxl import load_workbook
@@ -25,7 +27,7 @@ def set_predicted_in_xls(file_xlsx_path, df):
         save_opening_output_file(file_xlsx_path)
     except Exception as _ex:
         print(_ex)
-        
+
     wb = load_workbook(file_xlsx_path)
     ws = wb['Sheet1']
     objs = {}
@@ -43,19 +45,18 @@ def set_predicted_in_xls(file_xlsx_path, df):
             ws[f'P{int(row[0]) + 2}'].number_format = '0%'
             ws[f'P{int(row[0]) + 2}'].font = Font(bold=True, color='006100')
             ws[f'P{int(row[0]) + 2}'].fill = PatternFill("solid", fgColor="C6EFCE")
+
         elif row["predicted"]-row["Цена за кв.м"] < 0:
-            ws[f'X{int(row[0]) + 2}'].font  = Font(color="9C0006")
-            ws[f'X{int(row[0]) + 2}'].fill  = PatternFill("solid", fgColor="FFC7CE")
+            ws[f'X{int(row[0])}'].font  = Font(color="9C0006")
+            ws[f'X{int(row[0])}'].fill  = PatternFill("solid", fgColor="FFC7CE")
 
     wb.save(file_xlsx_path)
     return
 
 #удаляем выбросы
 def remove_row_emissions(data, row_name):
-    print("remove emissions ", row_name)
     lower_bound = data[row_name].quantile(q=0.025)
     upper_bound = data[row_name].quantile(q=0.975)
-    #print(data)
     data[(data[row_name] < lower_bound) | (data[row_name] > upper_bound)] = np.nan
     data.dropna(subset=[row_name], inplace=True)
 
@@ -76,8 +77,6 @@ def split_df_into_price_region(df):
 
 # разделяем регионы, которые сильно расходятся в ценовой политике
 def loading_data(paths):
-    # columns = ["Цена за кв.м", "Регион", "Форма проведения", "Жителей в округе",
-    #  "Коммерческих объектов", "Жителей h3", "Имущество", "Расстояние до почты", "Этаж"]
     numeric_features = ["Жителей", "Жителей в нп", "Коммерческих объектов", "Общая площадь",
                         "Отдельный вход", "Культурное наследие", "Ремонт", "Этаж"]
     df = pd.DataFrame()
@@ -95,27 +94,19 @@ def loading_data(paths):
 
     df['Жителей в нп'] = df['Жителей в нп'].astype(int)
     df.dropna(subset=['Жителей','Жителей в нп'], inplace=True)
-    # df = df.dropna()
 
     return df
 
 def get_predicted(out_file, training_data = ['torgi/output_archive.xlsx', 'torgi/output_train.xlsx']):
-    full_df = loading_data(training_data) #, 'torgi/output_train.xlsx']
-    #print(pd.isnull(full_df).any())
-    #print(full_df)
+    full_df = loading_data(training_data)
 
     target = "Цена за кв.м"
     numeric_features = ["Жителей", "Жителей в нп", "Коммерческих объектов", "Общая площадь", "Отдельный вход", "Культурное наследие", "Ремонт"]
     categorical_features = ["Регион", "Форма проведения", "Имущество", "Этаж", "Тип объекта"]
     columns = [target] +numeric_features + categorical_features
 
-    # Сброс ограничений на количество символов в записи
-    # pd.set_option('display.max_colwidth', None)
-    # pd.set_option('display.max_columns', 10)
-
     #смотрим в каких регионах сильный разброс цены за кв.м
     full_df.boxplot(by ='Регион', column =[target], grid = False, figsize=(20,10))
-
 
     df_high, df_middle, df_low = split_df_into_price_region(full_df)
 

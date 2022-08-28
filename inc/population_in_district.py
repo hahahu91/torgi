@@ -9,6 +9,7 @@ import re
 import json
 import wget
 import math
+import datetime
 from inc.population_from_h3 import distance
 #'lat': 56.6216708, 'lon': 47.8798082
 
@@ -46,6 +47,15 @@ def get_residents(feature):
         print(_ex, "in", feature)
     return 0
 
+def delete_if_older_30_days(path):
+    timestamp = os.stat(path).st_ctime  # get timestamp of file
+    createtime = datetime.datetime.fromtimestamp(timestamp)
+    now = datetime.datetime.now()
+    delta = now - createtime
+    if delta.days > 30:
+        os.remove(path)
+
+
 def count_tag(feature_tags, entity, tag):
     amount = entity.get(tag).get("count") + 1 if entity.get(tag) else 1
     list = entity.get(tag).get("detail") if entity.get(tag) else []
@@ -73,8 +83,10 @@ def get_objs_in_district_from_cache(lat, lon):
     if os.path.exists(f'cache/objs_in_district/{lat}_{lon}.json'):
         with open(f'cache/objs_in_district/{lat}_{lon}.json', encoding='utf8') as f:
             entity = json.load(f)
-
-            return count_entity(entity)
+            if entity:
+                return count_entity(entity)
+            else:
+                delete_if_older_30_days(f'cache/objs_in_district/{lat}_{lon}.json')
     else:
         return {}
 
@@ -91,25 +103,12 @@ def count_entity(entity):
         'residents': residents,
         'entity': entity_count,
     }
-def get_commercial_assessment(lat, lon, region):
-    entity = get_objs_in_district_from_cache(lat, lon)
-    if entity:
-        return entity
-    else:
-        print("not file in coords")
-        entity = count_objects_in_district(lat, lon, region)
-        if entity and entity.get("residents") != 0:
-            if not os.path.exists('cache/objs_in_district'):
-                os.makedirs('cache/objs_in_district')
-            with open(f'cache/objs_in_district/{lat}_{lon}.json', "w", encoding='utf8') as file:
-                json.dump(entity, file, ensure_ascii=False, indent=4)
-        return count_entity(entity)
 
 def download_region_osm(region):
     url = f"https://needgeo.com/data/current/region/RU/{region}.pbf"
     print('Beginning file download with wget module')
     try:
-        wget.download(url, f"konturs/{region}.pbf", bar=bar_thermometer)
+        wget.download(url, f"konturs/{region}.pbf")
     except Exception as _ex:
         print(_ex, region, url)
         return None
@@ -147,9 +146,25 @@ def count_all_objs_in_region(objs, region):
     # return entity
     for id_obj in objs:
         del id_obj["nodes"]
-        if id_obj['entity']:
-            if not os.path.exists('cache/objs_in_district'):
-                os.makedirs('cache/objs_in_district')
-            with open(f'cache/objs_in_district/{id_obj["lat"]}_{id_obj["lon"]}.json', "w", encoding='utf8') as file:
-                json.dump(id_obj['entity'], file, ensure_ascii=False, indent=4)
-            print(id_obj['entity'])
+        #if id_obj['entity']:
+        if not os.path.exists('cache/objs_in_district'):
+            os.makedirs('cache/objs_in_district')
+        with open(f'cache/objs_in_district/{id_obj["lat"]}_{id_obj["lon"]}.json', "w", encoding='utf8') as file:
+            json.dump(id_obj['entity'], file, ensure_ascii=False, indent=4)
+        print(id_obj['entity'])
+
+def get_data_population_from_osm_pseudo(lat, lon):
+    data = {}
+    for feature in osmiter.iter_from_osm(file_region_osm):
+        if obj_in_districk(lat, lon, feature.get('lat'), feature.get('lon')):
+            nodes.add(feature['id'])
+        if feature["type"] == "way" and "building" in feature["tag"]:
+            for id in feature["nd"]:
+                if id in nodes:
+                    count_commercial_assessment(feature["tag"], data)
+                    break
+        elif obj_in_districk(lat, lon, feature.get("lat"), feature.get("lon")):
+            if feature["tag"] != {}:
+                count_commercial_assessment(feature["tag"], data)
+    return data
+

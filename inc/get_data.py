@@ -7,7 +7,7 @@ import random
 from urllib3.exceptions import InsecureRequestWarning
 requests.packages.urllib3.disable_warnings(category=InsecureRequestWarning)
 
-def get_data_from_torgi_gov(bidd_type, subj_rf="", lot_status="APPLICATIONS_SUBMISSION", out_folder="cache/APPLICATIONS_SUBMISSION"):
+def get_data_from_torgi_gov(subj_rf="", lot_status="APPLICATIONS_SUBMISSION", out_folder="cache/APPLICATIONS_SUBMISSION"):
     if not os.path.exists(out_folder):
         os.makedirs(out_folder)
     if not lot_status:
@@ -18,12 +18,12 @@ def get_data_from_torgi_gov(bidd_type, subj_rf="", lot_status="APPLICATIONS_SUBM
     }
     try:
         count = 0
-        #"&pubFrom=2022-08-13"
         while True:
             count += 1
             page_n = "" if count == 1 else f"&page={result['number'] + 1}"
             str_subj_rf = f"subjRF={subj_rf}&" if subj_rf else ""
-            url = f"https://torgi.gov.ru/new/api/public/lotcards/search?{str_subj_rf}biddType={bidd_type}&chars=&chars=dec-totalAreaRealty:10~&lotStatus={lot_status}&catCode=11&withFacets=true{page_n}&size=25&sort=updateDate,desc"
+            url = f"https://torgi.gov.ru/new/api/public/lotcards/search?{str_subj_rf}biddType=229FZ,1041PP,178FZ&chars=" \
+                  f"&chars=dec-totalAreaRealty:10~&lotStatus={lot_status}&catCode=11&withFacets=true{page_n}&size=25&sort=updateDate,desc"
             result = requests.get(url, headers=headers, verify=False).json();
             if not result:
                 print("not get url")
@@ -39,6 +39,7 @@ def get_data_from_torgi_gov(bidd_type, subj_rf="", lot_status="APPLICATIONS_SUBM
 
     except Exception as _ex:
         print(_ex)
+
 def get_address_from_full_data(id):
     out_folder = "cache/full_data_torgi"
     if os.path.exists(f'{out_folder}/{id}.json'):
@@ -56,8 +57,6 @@ def get_address_from_full_data(id):
         return {}
 
 def get_lot_full_data(id, out_folder):
-    #"https://torgi.gov.ru/new/api/public/lotcards/21000004710000001724_1"
-
     if not os.path.exists(out_folder):
         os.makedirs(out_folder)
     headers = {
@@ -65,8 +64,6 @@ def get_lot_full_data(id, out_folder):
         "Accept": "application/json, text/plain, */*",
     }
     try:
-       # page_n = "" if count == 1 else f"&page={result['number'] + 1}"
-       # str_subj_rf = f"subjRF={subj_rf}&" if subj_rf else ""
         url = f"https://torgi.gov.ru/new/api/public/lotcards/{id}"
         result = requests.get(url, headers=headers, verify=False).json();
         if not result:

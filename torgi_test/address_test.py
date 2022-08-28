@@ -1,5 +1,9 @@
 import json
-from get_address import get_address, get_floor
+from inc.get_address import get_address, get_floor, get_entrance, get_type_object
+from inc.get_coord import get_info_object
+import os
+import pandas as pd
+import numpy as np
 
 TEST =  {
 	"Помещение нежилое площадью 428,2 кв.м., кад. №12:05:0302016:1309, расположенное по адресу: РМЭ, г. Йошкар-Ола, ул. Баумана, д.100, принадлежащее ООО ТД «Герметик». Помещение с бременем залога в пользу ПАО «Сбербанк» (остаток задолженности на 31.05.2022 г. составляет 1960126,83 руб.)":
@@ -52,5 +56,70 @@ def test():
 
 	print(count)
 
+
+def test_get_info():
+	count = 0
+	for j in range(1, 52):
+		with open(f"../cache/SUCCEED/result_{j}.json", encoding='utf8') as f:
+			json_data = json.load(f)
+
+			for i in json_data['content']:
+				if get_type_object(i) == "Нежилое помещение":
+					print("1", i['lotDescription'])
+					print("2", i['lotName'])
+					# for char in i['characteristics']:
+					# 	if char[
+					# 		"name"] == "Расположение в пределах объекта недвижимости (этажа, части этажа, нескольких этажей)" and char.get(
+					# 			"characteristicValue"):
+					# 		print(char.get("characteristicValue"))
+
+					print("\r\n")
+
+#def get_population_locality(address, ):
+
+def test_get_population():
+	count = 0
+	df = pd.read_excel('../Population.xlsx', usecols=['region','municipality','settlement','type','population'])
+	print(df)
+
+	#return
+	for j in range(1, 52):
+		with open(f"../cache/SUCCEED/result_{j}.json", encoding='utf8') as f:
+			json_data = json.load(f)
+
+
+			for i in json_data['content']:
+				#print(i["id"])
+				#address = get_address(i)
+				if os.path.exists(f'../cache/tmp_loc/{i["id"]}.json'):
+						# info_object
+					with open(f'../cache/tmp_loc/{i["id"]}.json', encoding='utf8') as f:
+						info_object = json.load(f)
+
+					if info_object:
+						address = info_object[0]['value']
+						lat = info_object[0]['data']['geo_lat']
+						lon = info_object[0]['data']['geo_lon']
+						settlement_type = info_object[0]['data'].get('city_type') or info_object[0]['data'].get('settlement_type')
+						settlement = info_object[0]['data'].get('city') or info_object[0]['data'].get('settlement')
+						area = info_object[0]['data'].get('area') if info_object[0]['data'].get('settlement') and info_object[0]['data'].get('area') else ""
+						postal_distance = info_object[0]['data'].get('postal_distance')
+						if settlement_type and settlement:
+							settlement_population = df.loc[(df["settlement"] == settlement) & (df["type"] == settlement_type) & (df["municipality"].str.contains(area))]["population"].sum()
+				#print(f"get info {i['id']}")
+				#info_object = get_location(address, cadastral)
+							print(settlement_type, settlement, address)
+							#return
+				#if get_type_object(i) == "Нежилое помещение":
+				#print("1", i['lotDescription'])
+				#print("2", i['lotName'])
+					# for char in i['characteristics']:
+					# 	if char[
+					# 		"name"] == "Расположение в пределах объекта недвижимости (этажа, части этажа, нескольких этажей)" and char.get(
+					# 			"characteristicValue"):
+					# 		print(char.get("characteristicValue"))
+
+					#print("\r\n")
+
 if __name__ == "__main__":
-    test()
+    test_get_population()

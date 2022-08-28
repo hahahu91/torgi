@@ -51,6 +51,13 @@ def get_all_objs_from_kontur_population(objs):
 
     return
 
+    def get_population_in_h3_pseudo(lat, lon):
+        nearest_neighbor = get_nearest_neighbor(lat, lon)
+        population = 0
+        for obj in nearest_neighbor:
+            population += kontur.loc[(kontur.index == obj)]["population"].get(0) or 0
+        return int(population / len(nearest_neighbor))
+
 def distance(x1, y1, x2, y2):
     return math.sqrt((float(x1)-float(x2))**2+(float(y2)-float(y1))**2)
 

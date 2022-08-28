@@ -33,8 +33,9 @@ def set_predicted_in_xls(file_xlsx_path, df):
 def install_setting_of_columns(writer):
     workbook = writer.book
     worksheet = writer.sheets['Sheet1']
-    worksheet.autofilter('A1:T1000')
+    worksheet.autofilter('A1:AA1000')
     currency_format = workbook.add_format({'num_format': '# ### ##0₽'})
+    population_format = workbook.add_format({'num_format': '# ### ##0'})
     date_forman = workbook.add_format({'num_format': 'dd.mm.yy hh:mm'})
     currency_format_with_penny = workbook.add_format({'num_format': '# ### ##0.0₽'})
     format_area = workbook.add_format({'num_format': '# ##0.0м2'})
@@ -59,17 +60,20 @@ def install_setting_of_columns(writer):
     worksheet.set_column('G:G', 40)
     worksheet.set_column('H:H', 12, currency_format)
     worksheet.set_column('F:F', 12, date_forman)
-    worksheet.set_column('M:O', 5)
+    worksheet.set_column('M:M', 5)
+    worksheet.set_column('N:N', 10, population_format)
+
+    worksheet.set_column('O:O', 5)
     worksheet.set_column('U:U', 12)
     worksheet.set_column('U:U', 17)
     worksheet.set_column('V:V', 5, center)
-    worksheet.set_column('P:P', 7, format_distance)
+    worksheet.set_column('P:P', 6)
     worksheet.set_column('Q:R', 3)
     #worksheet.set_column('T:T', 18)
     # price
     #worksheet.set_column('I:K', 9, currency_format)
     worksheet.set_column('I:I', 9, currency_format)
-    worksheet.set_column('J:K', 8, currency_format_with_penny)
+    worksheet.set_column('K:K', 8, currency_format_with_penny)
     worksheet.set_column('L:L', 8, currency_format)
     worksheet.set_column('W:X', 9, currency_format)
     #
@@ -83,8 +87,9 @@ def install_setting_of_columns(writer):
                                                     'value': "PP",
                                                     'format': green})
     worksheet.conditional_format('I1:I1000', {'type': 'cell',
-                                                    'criteria': '<=',
-                                                    'value': 10000,
+                                                    'criteria': 'between',
+                                                    'minimum': 1,
+                                                    'maximum': 10000,
                                                     'format': green})
     worksheet.conditional_format('J1:K1000', {'type': 'cell',
                                                     'criteria': 'between',
@@ -109,16 +114,17 @@ def export_to_xlsx(path_file, out_file):
     with open(path_file, encoding='utf8') as f:
         json_data = json.load(f)
         df = json_normalize(json_data['content'])
-        df['Регион'] = df['Регион'].astype(int)
-        df = df.sort_values(by=['Регион', 'Цена за кв.м']).reset_index(drop=True)
+        if not df.empty:
+            df['Регион'] = df['Регион'].astype(int)
+            df = df.sort_values(by=['Регион', 'Цена за кв.м']).reset_index(drop=True)
 
-        try:
-            #что бы можно было оставлять открым файл оутпут
-            save_opening_output_file(out_file)
-        except Exception as _ex:
-            print(_ex)
+            try:
+                #что бы можно было оставлять открым файл оутпут
+                save_opening_output_file(out_file)
+            except Exception as _ex:
+                print(_ex)
 
-        with pd.ExcelWriter(out_file,  engine='xlsxwriter', mode="w") as writer:
-            df.to_excel(writer,  encoding='utf-8')
-            install_setting_of_columns(writer)
-            return
+            with pd.ExcelWriter(out_file,  engine='xlsxwriter', mode="w") as writer:
+                df.to_excel(writer,  encoding='utf-8')
+                install_setting_of_columns(writer)
+        return

@@ -14,17 +14,14 @@ def set_predicted_in_xls(file_xlsx_path, df):
     objs = {}
     objs_by_regions = {}
     for i, row in df.iterrows():
-        ws[f'W{int(row[0]) + 2}'].number_format = '_-* # ##0₽_-;-* # ##0₽-'
+        ws[f'W{int(row[0]) + 2}'].number_format = '# ##0₽;-# ##0₽'
         ws[f'W{int(row[0]) + 2}'] = row["predicted"]
 
-        ws[f'X{int(row[0]) + 2}'].number_format = '_-* # ##0₽_-;-* # ##0₽-'
+        ws[f'X{int(row[0]) + 2}'].number_format = '# ##0₽;-# ##0₽'
         ws[f'X{int(row[0]) + 2}'] = row["predicted"] - row["Цена за кв.м"]
-        if row["predicted"] - row["Цена за кв.м"] > 1000:
-            ws[f'X{int(row[0]) + 2}'].font = Font(bold=True, color='006100', )
-            ws[f'X{int(row[0]) + 2}'].fill = PatternFill("solid", fgColor="C6EFCE")
-        elif row["predicted"] - row["Цена за кв.м"] < 0:
-            ws[f'X{int(row[0]) + 2}'].font = Font(color="9C0006")
-            ws[f'X{int(row[0]) + 2}'].fill = PatternFill(fgColor="FFC7CE")
+        if row["predicted"] - row["Цена за кв.м"] > 100:
+            ws[f'P{int(row[0]) + 2}'] = ((row["predicted"] - row["Цена за кв.м"]) * row['Общая площадь'] / row["Цена"])
+            ws[f'P{int(row[0]) + 2}'].number_format = '0%'
 
     save_opening_output_file(file_xlsx_path)
     wb.save(file_xlsx_path)
@@ -33,6 +30,7 @@ def set_predicted_in_xls(file_xlsx_path, df):
 def install_setting_of_columns(writer):
     workbook = writer.book
     worksheet = writer.sheets['Sheet1']
+
     worksheet.autofilter('A1:AA1000')
     currency_format = workbook.add_format({'num_format': '# ### ##0₽'})
     population_format = workbook.add_format({'num_format': '# ### ##0'})
@@ -42,18 +40,18 @@ def install_setting_of_columns(writer):
     format_distance = workbook.add_format({'num_format': '#\ ##0\ \м'})
     format_hyper = workbook.add_format({'font_color': 'blue', 'underline': True})
 
-    center = workbook.add_format()
-    center.set_center_across()
+    border_format = workbook.add_format({'border': 1})
 
-   # (max_row, max_col) = df.shape
-    #max_row = worksheet.get_highest_row()
+    center = workbook.add_format().set_center_across()
+    #center
+
     # Регион
-    worksheet.set_column('B:B', 3)
+    worksheet.set_column('B:B', 3, center)
     # area
     worksheet.set_column('C:C', 9, format_area)
 
     worksheet.set_column('D:D', 23, format_hyper)
-    worksheet.set_column('S:T', 22, format_hyper)
+    worksheet.set_column('S:T', 13, format_hyper)
 
     # name
     worksheet.set_column('E:E', 12)
@@ -66,10 +64,11 @@ def install_setting_of_columns(writer):
 
     worksheet.set_column('O:O', 5)
     worksheet.set_column('U:U', 12)
-    worksheet.set_column('U:U', 17)
-    worksheet.set_column('V:V', 5, center)
+    worksheet.set_column('U:U', 5)
+    worksheet.set_column('V:V', 3, center)
     worksheet.set_column('P:P', 6)
-    worksheet.set_column('Q:R', 3)
+    worksheet.set_column('Q:R', 3, center)
+    worksheet.set_column('Y:AA', 3, center)
     #worksheet.set_column('T:T', 18)
     # price
     #worksheet.set_column('I:K', 9, currency_format)
@@ -81,7 +80,7 @@ def install_setting_of_columns(writer):
     red = workbook.add_format({'bg_color': '#FFC7CE',
                                    'font_color': '#9C0006'})
     green = workbook.add_format({'bg_color': '#C6EFCE',
-                                 'font_color': '#006100'})
+                                 'font_color': '#006100', 'bold':True})
 
     worksheet.conditional_format('Q1:Q1000', {'type': 'text',
                                                     'criteria': 'containsText',
@@ -110,6 +109,23 @@ def install_setting_of_columns(writer):
                                                     'minimum': 0.1,
                                                     'maximum': 999,
                                              'format': red})
+    worksheet.conditional_format('X1:X1000', {'type': 'cell',
+                                                    'criteria': 'between',
+                                                    'minimum': -100000,
+                                                    'maximum': -100,
+                                             'format': red})
+    worksheet.conditional_format('X1:X1000', {'type': 'cell',
+                                                    'criteria': 'between',
+                                                    'minimum': 100,
+                                                    'maximum': 100000,
+                                             'format': green})
+    worksheet.conditional_format('A1:AA1000', {'type': 'no_blanks',
+                                               'format': border_format})
+    worksheet.conditional_format('P1:P1000', {'type': 'cell',
+                                                    'criteria': 'between',
+                                                    'minimum': 1,
+                                                    'maximum': 100000,
+                                             'format': green})
 def save_opening_output_file(file_path):
     if path.exists(file_path):
         excelApp = client.Dispatch("Excel.Application")

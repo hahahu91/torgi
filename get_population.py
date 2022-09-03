@@ -3,15 +3,16 @@ import json
 import numpy as np
 import pandas as pd
 import os
-
 from win32com import client
-
-from inc.get_coord import get_location, get_info_object
-from inc.population_in_district import count_all_objs_in_region, get_objs_in_district_from_cache, delete_if_older_30_days
-from inc.population_from_h3 import get_all_objs_from_kontur_population, get_residents_from_cache_h3
-from inc.parse_data import parse_from_address_settlement
 from openpyxl import load_workbook
 from openpyxl.styles import Font
+
+
+from inc.get_coord import get_location, get_info_object, get_locality_population
+from inc.population_in_district import count_all_objs_in_region, get_objs_in_district_from_cache, delete_if_older_30_days, get_residence
+from inc.population_from_h3 import get_all_objs_from_kontur_population, get_residents_from_cache_h3
+from inc.parse_data import parse_from_address_settlement
+from inc.get_predicted import get_predicted
 
 def save_opening_output_file(file_path):
     if os.path.exists(file_path):
@@ -45,6 +46,9 @@ def parse_info(row):
 def try_get_coords_again(file_xlsx_path):
     wb = load_workbook(file_xlsx_path)
     ws = wb['Sheet1']
+    df_population_in_locality = pd.read_excel('konturs/Population.xlsx',
+                                              usecols=['municipality', 'settlement', 'type', 'population'])  # 'region',
+
     for index, row in enumerate(ws.rows):
         if (index == 0):
             continue
@@ -59,13 +63,22 @@ def try_get_coords_again(file_xlsx_path):
             info_object = get_info_object(row_info["id"], row_info['address'], row_info['cad_num'])
 
             if info_object:
+                settlement_population = ""
+                settlement_type = info_object.get('settlement_type')
+                settlement = info_object.get('settlement')
+                district = info_object.get('area')
+                if settlement_type and settlement:
+                    settlement_population = get_locality_population(df=df_population_in_locality, settlement=settlement,
+                                                                    settlement_type=settlement_type, area=district)
+
                 lat = info_object['lat']
                 lon = info_object['lon']
-                coord = f'''=HYPERLINK("https://yandex.ru/maps/?&text={row_info['lat']}, {lon}", "{lat}, {row_info['lon']}")''' if row_info['lat'] and row_info['lon'] and row_info['lat'] != "None" and row_info['lon'] != "None" else ""
+                coord = f'''=HYPERLINK("https://yandex.ru/maps/?&text={lat}, {lon}", "{lat}, {lon}")''' if lat and lon else ""
 
                 ws[f'S{index+1}'] = coord
+                ws[f'S{index+1}'].font = Font(color='0000FF', underline='single')
                 ws[f'G{index+1}'] = f'{info_object["address"]}'
-                ws[f'P{index+1}'] = f'{info_object["postal_distance"]}'
+                ws[f'N{index+1}'] = settlement_population
 
     save_opening_output_file(file_xlsx_path)
     wb.save(file_xlsx_path)
@@ -97,16 +110,6 @@ def save_address_with_geo(id, lat, lon, address, cadnum = None):
     with open(f'cache/tmp_loc/{id}.json', "w", encoding='utf8') as file:
         json.dump(data_json, file, ensure_ascii=False, indent=4)
 
-def get_residence(lat, lon):
-    entity_from_osm = get_objs_in_district_from_cache(lat, lon)
-    residence_from_h3 = get_residents_from_cache_h3(lat, lon)
-
-    # print(lat, lon, residence_from_h3)
-    residence_h3 = residence_from_h3["population"].get(0) if type(residence_from_h3.get("population")) == "typle" else residence_from_h3["population"] if residence_from_h3.get("population") else 0
-    residence_osm = int(entity_from_osm.get("residents")) if entity_from_osm and entity_from_osm.get("residents") else 0
-
-    residence = max(residence_h3, residence_osm)
-    return residence, entity_from_osm.get("entity") if entity_from_osm else ""
 
 def get_from_kontur_population(file_xlsx_path):
     print('get_from_kontur_population')
@@ -146,10 +149,11 @@ def get_coord_from_hyper(hyper):
     return None, None
 
 def set_in_cell_h3people(ws, index, population, price_m2):
-    ws[f'M{index}'] = population
+    ws[f'M{index}'] = int(population)
     if price_m2:
         ws[f'K{index}'] = float(format(price_m2 / int(population), ".2f")) if int(population) else ""
-        ws[f'K{index}'].number_format = '_-* # ##0.00₽_-;-* # ##0.00₽_-'
+        ws[f'K{index}'].number_format = '# ### ##0.0₽'
+
 
 def set_population_in_xls_from_cache(file_xlsx_path):
     print('set_population_in_xls_from_cache')
@@ -172,19 +176,21 @@ def set_population_in_xls_from_cache(file_xlsx_path):
                 residence, entity = get_residence(lat, lon)
                 #entity = get_objs_in_district_from_cache(lat, lon)
                 if entity != "":
-                    if row_info['residents'] < residence:
-                        ws[f'M{index+1}'] = f'{residence}'
+                    if row_info['residents'] < int(residence):
+                        ws[f'M{index+1}'] = int(residence)
                         if row_info["price_m2"]:
                             ws[f'K{index + 1}'] = float(
-                                format(row_info["price_m2"] / int(entity), ".2f")) if entity else ""
-                            ws[f'K{index + 1}'].number_format = '_-* # ##0.0₽_-;-* # ##0.0₽_-'
+                                format(row_info["price_m2"] / int(residence), ".2f")) if entity else ""
+                            ws[f'K{index + 1}'].number_format = '# ### ##0.0₽'
 
-                    ws[f'O{index+1}'] = f'{entity}'
+
+                    ws[f'O{index+1}'] = int(entity) if entity else ""
                     ws[f'T{index+1}'].font = Font(underline='single', color='0000FF')
                     ws[f'T{index+1}'] = f"""=HYPERLINK("{os.path.abspath("cache/objs_in_district")}/{lat}_{lon}.json", "{lat}_{lon}.json")"""
                     if row_info["price_m2"]:
                         ws[f'L{index+1}'] = float(format(row_info["price_m2"] / int(entity), ".2f")) if entity else ""
-                        ws[f'L{index+1}'].number_format = '_-* # ##0.0₽_-;-* # ##0.0₽-'
+                        ws[f'L{index+1}'].number_format = '# ### ##0₽'
+
                 else:
                     delete_if_older_30_days(f'cache/objs_in_district/{lat}_{lon}.json')
 
@@ -214,7 +220,7 @@ def get_population_from_osm(file_xlsx_path):
                 objs[index] = {"index": index, "lat": row_info["lat"], "lon": row_info["lon"], "price_m2": row_info["price_m2"], 'nodes':set(), 'entity':{}}
                 list_obj = objs_by_regions.get(row_info["region"]) or []
                 list_obj.insert(index,objs[index])
-                objs_by_regions[row_info["region"]] = list_obj #{objs_by_regions[region], {index:objs[index]}}
+                objs_by_regions[row_info["region"]] = list_obj
 
         except Exception as _ex:
             print(_ex, row_info, index)
@@ -227,6 +233,7 @@ def get_population_from_osm(file_xlsx_path):
     set_population_in_xls_from_cache(file_xlsx_path)
 
     return
+
 def set_population_locality(file_xlsx_path):
     wb = load_workbook(file_xlsx_path)
     ws = wb['Sheet1']
@@ -240,21 +247,18 @@ def set_population_locality(file_xlsx_path):
             row_info = parse_info(row)
             if not row_info['people_in_city']:
                 print(parse_from_address_settlement(row_info['address']))
-            # objs_by_regions.update(region)
-            # if not row_info["lat"] or not row_info["lon"]:
-            #     continue
+
         except Exception as _ex:
             print(_ex)
             raise
     return
 
 
-def main():
-    #try_get_coords_again('torgi/output.xlsx')
-    set_population_locality('torgi/output.xlsx')
-    # get_from_kontur_population('torgi/output.xlsx')
-    # get_population_from_osm('torgi/output.xlsx')
-
+def main(out_file = 'torgi/output.xlsx'):
+    try_get_coords_again(out_file)
+    get_from_kontur_population(out_file)
+    get_population_from_osm(out_file)
+    get_predicted(out_file)
 if __name__ == "__main__":
     main()
 

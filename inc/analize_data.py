@@ -7,9 +7,34 @@ import os
 
 from inc.get_data import get_address_from_full_data
 from inc.get_coord import get_location, get_info_object, get_locality_population
-from inc.parse_data import get_address, get_floor, get_entrance, get_type_object, get_area, get_cadastral_num
-from get_population import get_residence
+from inc.parse_data import *
+from inc.population_in_district import get_residence
 from setting import MIN_AREA,MAX_AREA, MAX_PRICE, MIN_PRICE, MIN_PRICE_ROOM_M2
+
+def satisfy_parameters(obj, area, price, floor, type_object):
+    if area < MIN_AREA or area > MAX_AREA:
+        return False
+
+    bad_words = re.compile(
+        r'(:? дол[ия]\b|\bдолей\b|\bдолями\b|\bдолевой|\bдолевая|свинарник|(?<!не\W)\bжилое помещение\b)',
+        flags=re.IGNORECASE)
+    if bad_words.search(obj['lotDescription']) or bad_words.search(obj['lotName']):
+        return False
+
+    if price < MIN_PRICE or price > MAX_PRICE:
+        return False
+
+    price_m2 = price / area
+    if price_m2 < MIN_PRICE_ROOM_M2:
+        return False
+
+    if (floor and int(floor) == -1):
+        return False
+
+    if type_object in ["подвал", "подпол", "чердак", "гараж"]:
+        return False
+
+    return True
 
 def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICATIONS_SUBMISSION"):
     print("transform_into_flatter_structure")
@@ -31,42 +56,17 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
             for i in json_data['content'][:]:
                 count += 1
                 print(f"processing object {count}/{len(json_data['content'])} in file {j}/{amount_files}")
-                # characteristics = {}
-                # for characteristic in i['characteristics']:
-                #     characteristics[characteristic['name']] = characteristic[
-                #         'characteristicValue'] if "characteristicValue" in characteristic else None
-                #получаем инфу про площадь
-                # total_area = float(str(characteristics.get('Общая площадь')).replace(' ', '').replace(',', '.')) if characteristics.get('Общая площадь') else None
-                # if not total_area:
-                #     area_pattern = re.compile(r'(,\s+)?(:?(общ(\w+)\s+)?площад\w+|общ\. ?пл\.)\D{1,20}(?P<area>[\d,.\s]+\d+)\s*(\(([^\d\W]+\s+)+[^\d\W]+\)\s*)?кв(\.|адратных)\s*м(:?\b|етров\b)', flags=re.IGNORECASE)
-                #     match = area_pattern.search(i['lotDescription']) or area_pattern.search(i['lotName'])
-                #     total_area = float(match['area'].replace(' ', '').replace(',', '.')) if match else 0
-                total_area = get_area(i)
 
-                if total_area < MIN_AREA or total_area > MAX_AREA:
-                    continue
-
-                bad_words = re.compile(r'(:? дол[ия]\b|\bдолей\b|\bдолями\b|\bдолевой|\bдолевая|свинарник|(?<!не\W)\bжилое помещение\b)', flags=re.IGNORECASE)
-                if bad_words.search(i['lotDescription']) or bad_words.search(i['lotName']):
-                    continue
-
+                area = get_area(i)
                 price = i.get('priceFin') or i.get('priceMin')
-                if  price < MIN_PRICE or price > MAX_PRICE:
-                    continue
-
-                price_m2 = price / total_area
-                if price_m2 < MIN_PRICE_ROOM_M2:
-                    continue
-
+                price_m2 = price / area
                 floor = get_floor(i)
-                if (floor and int(floor) == -1):
-                    continue
-
                 type_object = get_type_object(i)
-                if type_object in ["подвал","подпол","чердак","гараж"]:
+                if not  satisfy_parameters(obj= i, area=area, price=price, floor=floor, type_object=type_object):
                     continue
 
                 entrance = get_entrance(i)
+                repair = get_quality_repair_object((i))
                 legacy = ""
                 legacy_pattern  = re.compile(
                     r'(:?культурн\w+ наследи\w+)',
@@ -107,24 +107,24 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
                 settlement_population = ""
                 settlement_type = info_object.get('settlement_type')
                 settlement =  info_object.get('settlement')
-                area =  info_object.get('area')
+                district  =  info_object.get('area')
                 if settlement_type and settlement:
-                    settlement_population = get_locality_population(df=df_population_in_locality, settlement=settlement, settlement_type=settlement_type,  area=area)
+                    settlement_population = get_locality_population(df=df_population_in_locality, settlement=settlement, settlement_type=settlement_type,  area=district)
 
                 object = {
                     "Регион": i['subjectRFCode'],
-                    "Общая площадь": total_area,
+                    "Общая площадь": area,
                     "id": f"""=HYPERLINK("https://torgi.gov.ru/new/public/lots/lot/{i['id']}/(lotInfo:info)", "{i['id']}")""",
                     "Название": i['lotDescription'],
                     "Окончания подачи заявок": datetime.strptime(i['biddEndTime'], "%Y-%m-%dT%H:%M:%S.000+00:00").strftime("%d.%m.%y %H:%M"),
                     "Адрес": info_object.get("address") if info_object else address,
                     "Цена": price,
                     "Цена за кв.м": price_m2,
-                    "Тип объекта": type_object,#float(format(int(price_m2)/int(residence_from_h3.get("population")), ".2f")) if residence_from_h3.get("population") else "",
+                    "Тип объекта": type_object,
                     "Чел/кв.м": float(format(int(price_m2)/int(residence), ".2f")) if residence else "",
                     "Ком/кв.м": float(format(int(price_m2)/int(entity), ".2f")) if entity else "",
                     "Жителей": residence,
-                    "Жителей в нп": int(settlement_population) if settlement_population else "", #entity_from_osm.get("residents") if entity_from_osm else "",
+                    "Жителей в нп": int(settlement_population) if settlement_population else "",
                     "Коммерческих объектов": entity or "",
                     "Прирост ст": "",
                     "Форма проведения": i['biddForm']['code'],
@@ -132,13 +132,13 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
                     "Координаты": coord,
                     "Описание коммерческих объектов": f"""=HYPERLINK("{os.path.abspath("cache/objs_in_district")}/{info_object.get("lat")}_{info_object.get("lon")}.json", "{info_object.get("lat")}_{info_object.get("lon")}.json")""" \
                         if entity else "",
-                    "Кадастровый номер": cadastral,  # characteristics['Кадастровый номер'],
-                    "Этаж": floor,  # characteristics['Кадастровый номер'],
+                    "Кадастровый номер": cadastral,
+                    "Этаж": int(floor),
                     "Предсказываемая": "",
                     "Разница с реальной": "",
                     "Отдельный вход": entrance,
                     "Культурное наследие": legacy,
-                    "Ремонт": "",
+                    "Ремонт": repair,
 
                 }
                 data["content"].append(object)

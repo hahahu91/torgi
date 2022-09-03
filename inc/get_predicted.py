@@ -19,39 +19,7 @@ np.random.seed(0)
 
 from openpyxl import load_workbook
 from openpyxl.styles import Font, PatternFill
-from inc.export_to_xlsx import save_opening_output_file
-
-def set_predicted_in_xls(file_xlsx_path, df):
-    print('set_predicted_in_xls')    
-    try:
-        save_opening_output_file(file_xlsx_path)
-    except Exception as _ex:
-        print(_ex)
-
-    wb = load_workbook(file_xlsx_path)
-    ws = wb['Sheet1']
-    objs = {}
-    objs_by_regions = {}
-    for i, row in df.iterrows():
-        ws[f'W{int(row[0]) + 2}'].number_format = '_-* # ##0₽_-;-* # ##0₽-'
-        ws[f'W{int(row[0]) + 2}'] = row["predicted"]
-        
-        ws[f'X{int(row[0]) + 2}'].number_format = '_-* # ##0₽_-;-* # ##0₽-'
-        ws[f'X{int(row[0]) + 2}'] = row["predicted"]-row["Цена за кв.м"]
-        if row["predicted"]-row["Цена за кв.м"] > 100:
-            ws[f'X{int(row[0]) + 2}'].font = Font(bold=True, color='006100')
-            ws[f'X{int(row[0]) + 2}'].fill = PatternFill("solid", fgColor="C6EFCE")
-            ws[f'P{int(row[0]) + 2}'] = ((row["predicted"]-row["Цена за кв.м"])*row['Общая площадь']/row["Цена"])
-            ws[f'P{int(row[0]) + 2}'].number_format = '0%'
-            ws[f'P{int(row[0]) + 2}'].font = Font(bold=True, color='006100')
-            ws[f'P{int(row[0]) + 2}'].fill = PatternFill("solid", fgColor="C6EFCE")
-
-        elif row["predicted"]-row["Цена за кв.м"] < 0:
-            ws[f'X{int(row[0])}'].font  = Font(color="9C0006")
-            ws[f'X{int(row[0])}'].fill  = PatternFill("solid", fgColor="FFC7CE")
-
-    wb.save(file_xlsx_path)
-    return
+from inc.export_to_xlsx import save_opening_output_file, set_predicted_in_xls
 
 #удаляем выбросы
 def remove_row_emissions(data, row_name):

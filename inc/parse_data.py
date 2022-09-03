@@ -39,8 +39,8 @@ def get_address(str):
                r"сельское поселение|село|городское поселение|поселок|городской округ|населенный пункт|" \
                r"деревня|город|пгт|обл|п|Респ\w*|край|округ|область|район|р\Wо?н|с|ш|МО|ст\Wца|Федерация)\b\.?"
     addr_val_dig = r"\s*\b(корпус|корп|вл|зд|литера|кладовая|уч|д|к|дом|стр|строение)\b\.?"
-
-    end_val = r"(,|(?<![дгрс])\.|$|площад\w+|общей|»|\(|;|с земельным|и земельный|Кадастровый|пом\b|помещение|кв\b|квартира|помещ\b)+ *"
+    end_val = r"(,|(?<![дгрс])\.|$|площад\w+|общей|»|\(|;|с земельным|и земельный|Кадастровый|пом\b|помещение|" \
+              r"кв\b|квартира|помещ\b)+ *"
     start_val = r'(:?\bпо(\s+адресу:?)\b|:|\.|\bв\b|\d,)'
     start_abs = r'(:?местополож\w+\):|адрес\w*:|адрес\w*\s*-)'
     reg_exp =   r'(?P<address>(:?{start_val}(' \
@@ -53,12 +53,15 @@ def get_address(str):
                 r'{addr_val_dig}( *№)? *[\dixv]+\s*{addr_val_dig}\s*\w{{1,3}}(\W\w{{1,3}})?\s*{end_val}|' \
                 r'((\w+\s*-\s*)?\w+, )?{street_val}[^,:;]+?(,\s*\d+[\\/ \d\w]{{,3}}\b\s*)?{end_val}' \
                 r')+)' \
-        .format(addr_val=addr_val, addr_val_dig=addr_val_dig, end_val=end_val, street_val=street_val, start_val=start_val, start_abs=start_abs)
+        .format(addr_val=addr_val, addr_val_dig=addr_val_dig, end_val=end_val,
+                street_val=street_val, start_val=start_val, start_abs=start_abs)
     # r'{addr_val}[^,:]+?({end_val}\w+,|' \
-    address_pattern = re.compile(reg_exp, flags=re.IGNORECASE)
+    address_pattern = re.compile(reg_exp,flags=re.IGNORECASE)
     match = address_pattern.search(str)
     if match:
-        address = re.sub(r'({end_val}$|^\s*{start_val}|^\s*{start_abs}|[#№]\s*|(?<=\d)(,\s*\d+)+$|городской округ \w+,\s*(?=г))*'.format(end_val=end_val, start_val=start_val, start_abs=start_abs), '', match["address"]).strip()
+        address = re.sub(
+                 r'({end_val}$|^\s*{start_val}|^\s*{start_abs}|[#№]\s*|(?<=\d)(,\s*\d+)+$|городской округ \w+,\s*(?=г))*'
+                 .format(end_val=end_val, start_val=start_val, start_abs=start_abs), '', match["address"]).strip()
         return reduce_addressing_elements(address)
     return ""
 
@@ -66,7 +69,6 @@ def reduce_addressing_elements(address):
     replacement_dict_regex = re.compile(r"\b(%s)\b" % "|".join(abbr_addr.keys()), flags=re.I)
     address = replacement_dict_regex.sub(lambda x: x.group().lower(), address)
     address = replacement_dict_regex.sub(lambda mo: abbr_addr.get(mo.group(1), mo.group(1)), address)
-
     return re.sub(r",[^,]+,\s*г\b", ", г", address)
 
 def parse_from_address_settlement(address):
@@ -95,17 +97,17 @@ def floor_to_num(str):
     third = r'(3|трет\w+|iii\b)'
 
     if re.search(minus1, str, flags=re.IGNORECASE):
-        return '-1'
+        return -1
     elif re.search(zero, str, flags=re.IGNORECASE):
-        return '0'
+        return 0
     elif re.search(first, str, flags=re.IGNORECASE):
-        return '1'
+        return 1
     elif re.search(second, str, flags=re.IGNORECASE):
-        return '2'
+        return 2
     elif re.search(third, str, flags=re.IGNORECASE):
-        return '3'
+        return 3
     else:
-        return '4'
+        return 4
 
 def get_entrance(object): # отдельный вход (:>!\W+(:?отсусттвует|нет)))
     entrance = 0
@@ -124,32 +126,52 @@ def get_entrance(object): # отдельный вход (:>!\W+(:?отсустт
         return -1
     return entrance
 
-def get_type_object(object):
+def get_type_str(str):
     type_pattern = re.compile(r'(:?(:?Комплек\w+ |Администра\w+ )*(?<!этаж[еa]\W)здани[йе]\W+(?!\d+\W+помещение)'
                               r'((:?тепло\w+ пункт\w+|УПК|бан\w+|подстанции|Штаб|казарм\w+|столов\w+|кафе|библиотек\w+|деревянн\w+|рабоч\w+ казар\w+|контор\w+ управлен\w+|учебно\W+производственного корпуса|(центрального )?теплового пункта|профилактория|бытов\w+ помещ\w*|детской молочной кухни)\W+)*|'
                               r'(:?Школ\w+|бытов\w+ помещен\w+|торгов\w+(\W+\w+)?|гаражн\w+\W*\w*|сарай|свинарник|производственное \w+|центр социальн\w+ обслуживан\w+ населен\w+|'
                               r'Проходн\w+|Растворо\W*бетонный узел|гараж\b|подвал|котельная|Ветеринарн\w+ пунк\w+|пилорам\w*|вальцев\w* мельниц\w*|овощехранил\w+|'
                               r'аптек\w+|cклад\w+|бильярдн\w+|магази\w+|бокc\w*|офис\w*|Прачечн\w+|(столярн\w+ )?мастерск\w+|аптек\w+|молочн\w+ кухн\w+|'
                               r'помещение \w+(\W*\w*)? пункта|сарайка|Казарма))',
-        flags=re.IGNORECASE)
-    match = type_pattern.search(object["lotDescription"]) or type_pattern.search(object["lotName"])
-    if not match:
-        return "Нежилое помещение"
+                              flags=re.IGNORECASE)
+    match = type_pattern.search(str)
+    if match:
+        return match[1]
+    return None
+def get_type_object(object):
+    match = get_type_str(object["lotDescription"]) or get_type_str(object["lotName"])
+    if match:
+        return match
+    return "Нежилое помещение"
 
-    return match[1]
 
-def get_quality_repair(object):
-    quality_repair_pattern = re.compile(r'(:?'
-              r'(:?Комплек\w+ |Администра\w+ )*здани\w+\W+(?!\d+\W+помещение)(:?(:?тепло\w+ пункт\w+|УПК|бан\w+|подстанции|Штаб|казарм\w+|столов\w+|кафе|библиотек\w+|деревянн\w+|рабоч\w+ казар\w+|контор\w+ управлен\w+|учебно\W+производственного корпуса|(центрального )?теплового пункта|профилактория|бытов\w+ помещ\w*|детской молочной кухни)\W+)*|' \
-              r'(:?Школ\w+|бытов\w+ помещен\w+|торгов\w+|гаражн\w+\W*\w*|сарай|свинарник|производственное \w+|центр социальн\w* обслуживан\w* населен\w*|'
-              r'Проходн\w+|Растворо\W*бетонный узел|гараж\b|подвал|Котельн\w+|Ветеринарн\w+ пунк\w+|пилорам\w*|вальцев\w* мельниц\w*|овощехранил\w+|'
-              r'аптек\w+|cклад|бильярдн\w+|дом\w+|магази\w+|бокc\w*|офис\w*|Прачечн\w+|(столярн\w+ )?мастерск\w+|аптек\w+|молочн\w+ кухн\w+|'
-              r'помещение \w+(\W*\w*)* пункта|сарайка|Казарма))',
-        flags=re.IGNORECASE)
-    match = quality_repair.search(object["lotDescription"]) or quality_repair.search(object["lotName"])
-    if not match:
-        return "Нежилое помещение"
-    return match[1]
+def get_quality_repair(str):
+    if re.search(r'(:?сделан \w+ ремонт|состояние хорошее|внутренняя отделка\W+простая)', str, flags=re.IGNORECASE):
+        return 1
+    elif re.search(r'(:?находится в удовлетворительном( техническом)? состоянии|состояние(\W+\w+)?\W+удовлетворительное|требуется косметический ремонт|состояние\W+стандартн\w+)', str, flags=re.IGNORECASE):
+        return 0
+    elif re.search(r'(:?состояние(\W+\w+)?\W+неудовлетворительное|находится в неудовлетворительном( техническом)? состоянии|находится в разрушенном состоянии|Объект незаверш\w+ строительства|Требуется ремонт|((:?крыша|пол|окна|двери|окна)(\W|и)+)+требуют ремонта)', str, flags=re.IGNORECASE):
+        return -1
+    elif re.search(r'(:?в плохом состоянии|в \w*разрушенном состоянии|(:?объект|помещение|здание) признан\w* аварийным|требуется капитальный ремонт)', str, flags=re.IGNORECASE):
+        return -2
+    else:
+        match = re.search(r'износ\w*(\W+сост\wвляет)?\W+(\d+)[,\. ]*\d*%', str, flags=re.IGNORECASE)
+        if match:
+            if int(match[2]) <= 10:
+                return 1
+            elif int(match[2]) <= 30:
+                return 0
+            elif int(match[2]) <= 60:
+                return -1
+            else:
+                return -2
+    return None
+
+def get_quality_repair_object(object):
+    match = get_quality_repair(object["lotDescription"]) or get_quality_repair(object["lotName"])
+    if match != None:
+        return match
+    return 0
 
 def get_cadastral_num(obj):
     cad = ""
@@ -190,9 +212,9 @@ def get_floor(object):
     else:
         floor = match["floor"]
     if floor:
-        floor_pattern = re.compile(r'(\d+|подвал\w*|сарайка|цокол\w+|перв\w+|втор\w+|трет\w+|надстроен\w+|подполь\w*|земельны\w+)', flags=re.IGNORECASE)
+        floor_pattern = re.compile(r'(\d+|подвал\w*|сарайка|цокол\w+|перв\w+|втор\w+|трет\w+|надстроен\w+|подполь\w*|\d+-?\w{,2}|[ixv]+|земельны\w+)', flags=re.IGNORECASE)
         match = floor_pattern.search(floor)
         if match:
             return floor_to_num(match[1])
-    return ""
+    return 0
 

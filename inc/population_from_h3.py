@@ -32,18 +32,18 @@ def get_all_objs_from_kontur_population(objs):
         get_russia_gpkg()
     kontur = pd.DataFrame(gpd.read_file("konturs/russia.gpkg"))
     kontur.set_index("h3", inplace=True)
-    #answer = []
     for index in objs:
 
-        h3_data = get_nearest_neighbor(float(objs[index]["lat"]), float(objs[index]["lon"]))
+        nearest_neighbor = get_nearest_neighbor(float(objs[index]["lat"]), float(objs[index]["lon"]))
         population = 0
-        for obj in h3_data:
+        for obj in nearest_neighbor:
             population += kontur.loc[(kontur.index == obj)]["population"].get(0) or 0
-        objs[index]["population"] = int(population/len(h3_data))
+        objs[index]["population"] = int(population/len(nearest_neighbor))
         if objs[index]["population"]:
             if not os.path.exists('cache/population_in_h3'):
                 os.makedirs('cache/population_in_h3')
-            with open(f'cache/population_in_h3/{objs[index]["lat"]}_{objs[index]["lon"]}.json', "w", encoding='utf8') as file:
+            with open(f'cache/population_in_h3/{objs[index]["lat"]}_{objs[index]["lon"]}.json', "w", encoding='utf8'
+                      ) as file:
                 json.dump(objs[index], file, ensure_ascii=False, indent=4)
 
         print(index, "/", len(objs), ":\t", int(population / len(h3_data)))

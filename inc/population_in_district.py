@@ -10,13 +10,25 @@ import json
 import wget
 import math
 import datetime
-from inc.population_from_h3 import distance
+from inc.population_from_h3 import distance, get_residents_from_cache_h3
 #'lat': 56.6216708, 'lon': 47.8798082
 
 def obj_in_districk(x1, y1, x2, y2):
     if not x2 or not y2:
         return False
     return distance(x1, y1, x2, y2) < 0.0041
+
+def get_residence(lat, lon):
+    entity_from_osm = get_objs_in_district_from_cache(lat, lon)
+    residence_from_h3 = get_residents_from_cache_h3(lat, lon)
+
+    # print(lat, lon, residence_from_h3)
+    residence_h3 = residence_from_h3["population"].get(0) if type(residence_from_h3.get("population")) == "typle" else residence_from_h3["population"] if residence_from_h3.get("population") else 0
+    residence_osm = int(entity_from_osm.get("residents")) if entity_from_osm and entity_from_osm.get("residents") else 0
+
+    residence = max(residence_h3, residence_osm)
+    return residence, entity_from_osm.get("entity") if entity_from_osm else 0
+
 
 def get_residents(feature):
     try:
@@ -122,7 +134,7 @@ def count_all_objs_in_region(objs, region):
         print(f"not region {region} abbr")
         return None
     if not os.path.exists(f"konturs/{file_osm}.pbf"):
-        print(f"not file_osm {region} region {file_osm}.pbf") #https://needgeo.com/data/current/region/RU/RU-ME.pbf
+        print(f"not file_osm {region} region {file_osm}.pbf")
         download_region_osm(file_osm)
 
     print(f'proccesing region {region}: {file_osm}')
@@ -142,11 +154,9 @@ def count_all_objs_in_region(objs, region):
             elif obj_in_districk(float(id_obj['lat']), float(id_obj['lon']), feature.get("lat"), feature.get("lon")):
                 if feature["tag"] != {}:
                     count_commercial_assessment(feature["tag"], id_obj["entity"])
-    #
-    # return entity
+
     for id_obj in objs:
         del id_obj["nodes"]
-        #if id_obj['entity']:
         if not os.path.exists('cache/objs_in_district'):
             os.makedirs('cache/objs_in_district')
         with open(f'cache/objs_in_district/{id_obj["lat"]}_{id_obj["lon"]}.json', "w", encoding='utf8') as file:

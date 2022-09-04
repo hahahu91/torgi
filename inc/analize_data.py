@@ -30,8 +30,7 @@ def satisfy_parameters(obj, area, price, floor, type_object):
 
     if (floor and int(floor) == -1):
         return False
-
-    if type_object in ["подвал", "подпол", "чердак", "гараж"]:
+    if re.search(r'(подвал|подпол|чердак|гараж)', type_object, flags=re.IGNORECASE):
         return False
 
     return True
@@ -60,19 +59,17 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
                 area = get_area(i)
                 price = i.get('priceFin') or i.get('priceMin')
                 price_m2 = price / area
-                floor = get_floor(i)
+                floor = get_floor_object(i)
                 type_object = get_type_object(i)
-                if not  satisfy_parameters(obj= i, area=area, price=price, floor=floor, type_object=type_object):
+                if not satisfy_parameters(obj= i, area=area, price=price, floor=floor, type_object=type_object):
                     continue
 
-                entrance = get_entrance(i)
-                repair = get_quality_repair_object((i))
-                legacy = ""
-                legacy_pattern  = re.compile(
-                    r'(:?культурн\w+ наследи\w+)',
-                    flags=re.IGNORECASE)
-                if legacy_pattern.search(i['lotDescription']) or legacy_pattern.search(i['lotName']):
-                    legacy = 1
+                land_plot = get_land_plot_object(i)
+                entrance = get_entrance_object(i)
+                repair = get_quality_repair_object(i)
+
+                legacy = get_legacy_object(i)
+
 
                 BIDD_TYPE = {
                     "229FZ": "Должников",
@@ -133,12 +130,13 @@ def transform_into_flatter_structure(amount_files = None, folder="cache/APPLICAT
                     "Описание коммерческих объектов": f"""=HYPERLINK("{os.path.abspath("cache/objs_in_district")}/{info_object.get("lat")}_{info_object.get("lon")}.json", "{info_object.get("lat")}_{info_object.get("lon")}.json")""" \
                         if entity else "",
                     "Кадастровый номер": cadastral,
-                    "Этаж": int(floor),
+                    "Этаж": floor,
                     "Предсказываемая": "",
                     "Разница с реальной": "",
                     "Отдельный вход": entrance,
                     "Культурное наследие": legacy,
                     "Ремонт": repair,
+                    "Земельный участок": land_plot,
 
                 }
                 data["content"].append(object)

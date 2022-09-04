@@ -30,6 +30,8 @@ def get_data_from_torgi_gov(subj_rf="", lot_status="APPLICATIONS_SUBMISSION", ou
                 return
 
             print("get page ", count, "/", result['totalPages'])
+            if not os.path.exists(out_folder):
+                os.makedirs(out_folder)
             with open(f"{out_folder}/result_{count}.json", "w", encoding='utf8') as file:
                     json.dump(result, file, ensure_ascii=False, indent=4)
             if (result["last"]):

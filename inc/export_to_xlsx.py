@@ -30,8 +30,8 @@ def set_predicted_in_xls(file_xlsx_path, df):
 def install_setting_of_columns(writer):
     workbook = writer.book
     worksheet = writer.sheets['Sheet1']
-
-    worksheet.autofilter('A1:AA1000')
+    #worksheet.column_dimensions['A'].hidden = True
+    worksheet.autofilter('B1:AA1000')
     currency_format = workbook.add_format({'num_format': '# ### ##0₽'})
     population_format = workbook.add_format({'num_format': '# ### ##0'})
     date_forman = workbook.add_format({'num_format': 'dd.mm.yy hh:mm'})
@@ -43,8 +43,8 @@ def install_setting_of_columns(writer):
     border_format = workbook.add_format({'border': 1})
 
     center = workbook.add_format().set_center_across()
-    #center
-
+    hidden = workbook.add_format().set_hidden()
+    worksheet.set_column('A:A', 3, hidden)
     # Регион
     worksheet.set_column('B:B', 3, center)
     # area
@@ -149,6 +149,6 @@ def export_to_xlsx(path_file, out_file):
                 print(_ex)
 
             with pd.ExcelWriter(out_file,  engine='xlsxwriter', mode="w") as writer:
-                df.to_excel(writer,  encoding='utf-8')
+                df.to_excel(writer,  encoding='utf-8', freeze_panes=(1,1))
                 install_setting_of_columns(writer)
         return

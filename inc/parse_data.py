@@ -89,6 +89,7 @@ def parse_from_address_settlement(address):
         if match:
             return match["city"], "г", ""
     return "", "", ""
+
 def floor_to_num(str):
     minus1 = r'(подвал\w*|сарайка|подполь\w*|-1)'
     zero = r'(цокол\w+|полуподва\w+|подземный этаж)'
@@ -109,41 +110,80 @@ def floor_to_num(str):
     else:
         return 4
 
-def get_entrance(object): # отдельный вход (:>!\W+(:?отсусттвует|нет)))
-    entrance = 0
-    entrance_pattern = re.compile(r'(:?име\w+(\W+(\d+|один|два)\W*\w*)? вход\w*\W+(:?с торца дома|с закрыто\w+ двор\w+|со? сторон\w+)?|' \
-                            r'(:?отдельн\w+(\W+и (:?\d+|один|два) совместн\w+)?\W+вход\w*|вход отдельный)(?!\W+(отс\w+|нет)))',
-                            flags=re.IGNORECASE)
-    #Вход в помещение только с дворовой
-    if entrance_pattern.search(object['lotDescription']) or entrance_pattern.search(object['lotName']):
-       return 1
-    #вход в помещение через помещения
-    not_entrance_r = re.compile(
-        r'(Вход(:?\W+в помещение|\W+осуществляется)*\W*(:?через помещения|через подъезд|через места общего пользования|из( общего)? коридора|через жилое помещение|совместный)|'
-        r'(:?отдельн\w+\W+вход\w*|вход отдельный)\W+(:?отсут\w+|нет))',
-        flags=re.IGNORECASE)
-    if entrance_pattern.search(object['lotDescription']) or entrance_pattern.search(object['lotName']):
+def get_entrance(str):
+    if re.search(
+        r'(:?име\w+(\W+(\d+|один|два)\W*\w*)? вход\w*\W+(:?с торца дома|с закрыто\w+ двор\w+|со? сторон\w+)?|' \
+        r'(:?отдельн\w+(\W+и (:?\d+|один|два) совместн\w+)?\W+вход\w*|вход отдельный)(?!\W+(отс\w+|нет)))', str,
+        flags=re.IGNORECASE):
+        return 1
+    if re.search(r'(Вход(:?\W+в помещени\w+|\W+осуществляется)*\W*(:?через помещения|через подъезд|через места общего пользования|из( общего)? коридора|через жилое помещение|совместный)|'
+        r'(:?отдельн\w+\W+вход\w*|вход отдельный)\W+(:?отсут\w+|нет))', str,
+        flags=re.IGNORECASE):
         return -1
-    return entrance
+    return None
 
-def get_type_str(str):
-    type_pattern = re.compile(r'(:?(:?Комплек\w+ |Администра\w+ )*(?<!этаж[еa]\W)здани[йе]\W+(?!\d+\W+помещение)'
-                              r'((:?тепло\w+ пункт\w+|УПК|бан\w+|подстанции|Штаб|казарм\w+|столов\w+|кафе|библиотек\w+|деревянн\w+|рабоч\w+ казар\w+|контор\w+ управлен\w+|учебно\W+производственного корпуса|(центрального )?теплового пункта|профилактория|бытов\w+ помещ\w*|детской молочной кухни)\W+)*|'
-                              r'(:?Школ\w+|бытов\w+ помещен\w+|торгов\w+(\W+\w+)?|гаражн\w+\W*\w*|сарай|свинарник|производственное \w+|центр социальн\w+ обслуживан\w+ населен\w+|'
-                              r'Проходн\w+|Растворо\W*бетонный узел|гараж\b|подвал|котельная|Ветеринарн\w+ пунк\w+|пилорам\w*|вальцев\w* мельниц\w*|овощехранил\w+|'
-                              r'аптек\w+|cклад\w+|бильярдн\w+|магази\w+|бокc\w*|офис\w*|Прачечн\w+|(столярн\w+ )?мастерск\w+|аптек\w+|молочн\w+ кухн\w+|'
-                              r'помещение \w+(\W*\w*)? пункта|сарайка|Казарма))',
+def get_entrance_object(object): # отдельный вход (:>!\W+(:?отсусттвует|нет)))
+    entrance = get_entrance(object['lotDescription']) or get_entrance(object['lotName'])
+    if entrance:
+       return entrance
+    else:
+        return ''
+
+def get_land_plot(str):
+    if re.search(r'(:?земел\w+\W+уч\w+)', str, flags=re.IGNORECASE):
+        return 1
+    return None
+
+def get_land_plot_object(object):
+    land_plot = get_land_plot(object['lotDescription']) or get_land_plot(object['lotName'])
+    if land_plot:
+        return land_plot
+    else:
+        return ''
+def get_type(str):
+    str = re.sub(r"(встроенные в \w+этажное( жилое)? здани\w+)", "", str)
+    types = r'(:?' \
+            r'Школ\w+|бытов\w+ помещен\w+|торгов\w+(\W+\w+)?|гаражн\w+\W*\w*|сарай|свинарник|производственное \w+|центр социальн\w+ обслуживан\w+ населен\w+|' \
+            r'Проходн\w+|Растворо\W*бетонный узел|гараж\b|подвал|котельная|Ветеринарн\w+ пунк\w+|пилорам\w*|вальцев\w* мельниц\w*|овощехранил\w+|' \
+            r'аптек\w+|cклад\w+|склад|спортивн\w+ зал\w*|бильярдн\w+|магази\w+|бокc\w*|офис\w*|Прачечн\w+|(столярн\w+ )?мастерск\w+|аптек\w+|молочн\w+ кухн\w+|' \
+            r'помещение \w+(\W*\w*)? пункта|сарайка|машино\W*место|водозабор|Казарма|(\w+этажная )?автостоянка( с сервисным обслуживанием)?' \
+            r')'
+    type_pattern = re.compile(r'(:?(:?Комплек\w+ |Администра\w+ )*(?<!этаж[еa]\W)(жилое\W)?здани[йе]\W+(?!\d+\W+помещение)(назначение\W+нежилое\W+\w+\W+наименование\W+)?'
+                              fr'((:?{types}|тепло\w+ пункт\w+|УПК|бан\w+|подстанции|Штаб|казарм\w+|столов\w+|кафе|библиотек\w+|деревянн\w+|рабоч\w+ казар\w+|контор\w+ управлен\w+|учебно\W+производственного корпуса|(центрального )?теплового пункта|профилактория|бытов\w+ помещ\w*|детской молочной кухни)\W+)*|'
+                              fr'{types})',
                               flags=re.IGNORECASE)
     match = type_pattern.search(str)
     if match:
-        return match[1]
+        type = re.sub(fr"^.*?({types}).*?$","\g<1>", match[1])
+        return re.sub(r"^\W*(\w.+\w)\W*$","\g<1>", type)
     return None
+
 def get_type_object(object):
-    match = get_type_str(object["lotDescription"]) or get_type_str(object["lotName"])
+    match = get_type(object["lotDescription"]) or get_type(object["lotName"])
     if match:
         return match
-    return "Нежилое помещение"
+    return ''
 
+def get_legacy(str):
+    return re.search(r'(:?культурн\w+ наследи\w+)', str,
+        flags=re.IGNORECASE)
+
+def get_legacy_object(object):
+    if lget_legacy(i['lotDescription']) or get_legacy(i['lotName']):
+        return 1
+    else:
+        for char in obj['characteristics']:
+            if char["name"] == "Общие сведения об ограничениях и обременениях" and char.get("characteristicValue"):
+                legacy = get_legacy(char.get("characteristicValue"))
+            elif char["name"] == "Вид ограничений и обременений " and char.get("characteristicValue"):
+                legacy = get_legacy(char.get("characteristicValue"))
+            if legacy:
+                return 1
+    return ''
+
+
+#                     'Общие сведения об ограничениях и обременениях
+# является объектом культурного наследия республиканского значения '
 
 def get_quality_repair(str):
     if re.search(r'(:?сделан \w+ ремонт|состояние хорошее|внутренняя отделка\W+простая)', str, flags=re.IGNORECASE):
@@ -171,7 +211,7 @@ def get_quality_repair_object(object):
     match = get_quality_repair(object["lotDescription"]) or get_quality_repair(object["lotName"])
     if match != None:
         return match
-    return 0
+    return ""
 
 def get_cadastral_num(obj):
     cad = ""
@@ -189,32 +229,37 @@ def get_cadastral_num(obj):
 
     return cad
 
-def get_floor(object):
+def get_floor(str): #этажа, на котором расположено помещение: 1
     floor_val = r'[\s:#№\)]*\b(\d+|подвал\w*|сарайка|цокол\w+|перв\w+|втор\w+|трет\w+|надстроен\w+|подполь\w*|\d+-?\w{,2}|[ixv]+)\b\s*'
     reg_exp = r'(?P<floor>(:?' \
-        r'этаж\w*{floor}|этаж распол\w+{floor}|\bна{floor}этаж\w*|'\
-        r'{floor}этаж\w*\b|\bв цокол\w+|подвал\w*|сарайка|в \w+илом \w+этажном (на \w+)?|'\
-        r'\w+этажное \w+|на поэтажном плане ?-?{floor} этаж\w*|'\
-        r'{floor}-?этажный|эт\.{floor}|номер на поэтажном плане{floor}|' \
-        r'с земельным участком|земельный участок))'\
+              r'этаж\w*\W+(на\W+котором|где)\W+располо\w+\W+помещение{floor}|этаж\w*{floor}|этаж распол\w+{floor}|\bна{floor}этаж\w*|' \
+              r'{floor}этаж\w*\b|\bв цокол\w+|подвал\w*|сарайка|в \w+илом \w+этажном (на \w+)?|' \
+              r'\w+этажное \w+|на поэтажном плане ?-?{floor} этаж\w*|' \
+              r'{floor}-?этажный|эт\.{floor}|номер на поэтажном плане{floor}|' \
+              r'с земельным участком|земельный участок))' \
         .format(floor=floor_val)
 
     floor_pattern = re.compile(reg_exp, flags=re.IGNORECASE)
     floor = ""
-    match = floor_pattern.search(object["lotDescription"]) or floor_pattern.search(object["lotName"])
-    if not match:
+    match = floor_pattern.search(str)
+    if match:
+        return match["floor"]
+    return None
+
+def get_floor_object(object):
+    floor = get_floor(object["lotDescription"]) or get_floor(object["lotName"])
+    if not floor:
         for char in object['characteristics']:
             if char["name"] == "Расположение в пределах объекта недвижимости (этажа, части этажа, нескольких этажей)" \
                     and char.get("characteristicValue"):
                 #print(char.get("characteristicValue"))
 
                 floor = char.get("characteristicValue")
-    else:
-        floor = match["floor"]
+
     if floor:
-        floor_pattern = re.compile(r'(\d+|подвал\w*|сарайка|цокол\w+|перв\w+|втор\w+|трет\w+|надстроен\w+|подполь\w*|\d+-?\w{,2}|[ixv]+|земельны\w+)', flags=re.IGNORECASE)
+        floor_pattern = re.compile(r'(\d+|подвал\w*|сарайка|цокол\w+|перв\w+|втор\w+|трет\w+|надстроен\w+|подпол\w*|\d+-?\w{,2}|[ixv]+|земельны\w+)', flags=re.IGNORECASE)
         match = floor_pattern.search(floor)
         if match:
             return floor_to_num(match[1])
-    return 0
+    return ''
 

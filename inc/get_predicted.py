@@ -46,7 +46,7 @@ def split_df_into_price_region(df):
 # разделяем регионы, которые сильно расходятся в ценовой политике
 def loading_data(paths):
     numeric_features = ["Жителей", "Жителей в нп", "Коммерческих объектов", "Общая площадь",
-                        "Отдельный вход", "Культурное наследие", "Ремонт", "Этаж"]
+                        "Отдельный вход", "Культурное наследие", "Ремонт", "Этаж", "Земельный участок"]
     df = pd.DataFrame()
     if type(paths) == list:
         for path in paths:
@@ -55,6 +55,7 @@ def loading_data(paths):
         df = pd.read_excel(paths)
 
     df['Тип объекта'] = df['Тип объекта'].astype("string")
+    df['Тип объекта'].replace(np.nan, "Помещение", inplace=True)
 
     for name in numeric_features:
         df[name].replace('None', 0, inplace=True)
@@ -69,8 +70,8 @@ def get_predicted(out_file, training_data = ['torgi/output_archive.xlsx', 'torgi
     full_df = loading_data(training_data)
 
     target = "Цена за кв.м"
-    numeric_features = ["Жителей", "Жителей в нп", "Коммерческих объектов", "Общая площадь", "Отдельный вход", "Культурное наследие", "Ремонт"]
-    categorical_features = ["Регион", "Форма проведения", "Имущество", "Этаж", "Тип объекта"]
+    numeric_features = ["Жителей", "Жителей в нп", "Коммерческих объектов", "Общая площадь", "Отдельный вход", "Культурное наследие", "Земельный участок"]
+    categorical_features = ["Регион", "Форма проведения", "Имущество", "Этаж", "Тип объекта", "Ремонт"]
     columns = [target] +numeric_features + categorical_features
 
     #смотрим в каких регионах сильный разброс цены за кв.м

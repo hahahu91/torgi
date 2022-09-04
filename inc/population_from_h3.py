@@ -46,7 +46,7 @@ def get_all_objs_from_kontur_population(objs):
                       ) as file:
                 json.dump(objs[index], file, ensure_ascii=False, indent=4)
 
-        print(index, "/", len(objs), ":\t", int(population / len(h3_data)))
+        print(index, "/", len(objs), ":\t", int(population / len(nearest_neighbor)))
 
 
     return

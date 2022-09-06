@@ -1,0 +1,64 @@
+import requests
+
+cookies = {
+    'route': 'bacbee1088f260f29a437092a43725f1',
+    '__utmc': '168694820',
+    '__utmz': '168694820.1662443317.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)',
+    '_ym_uid': '1662443318936557210',
+    '_ym_d': '1662443318',
+    '_ym_isad': '2',
+    'JSESSIONID': 'HVQR0gyDGqwLoAOOF1Ki00FJ6wcECsDILxOnWe19n0YVFcyo_B0_!1657466759!-518798756',
+    '__utma': '168694820.1016347800.1662443317.1662443317.1662451322.2',
+    '__utmt': '1',
+    '__utmb': '168694820.8.9.1662451930600',
+    'wicket-modal-window-positions': 'multiSelectPopup%3A%3A133px%2C134px%2C850px%2C470px%7C',
+}
+
+headers = {
+    'Accept': 'text/xml',
+    'Accept-Language': 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7',
+    'Connection': 'keep-alive',
+    # Requests sorts cookies= alphabetically
+    # 'Cookie': 'route=bacbee1088f260f29a437092a43725f1; __utmc=168694820; __utmz=168694820.1662443317.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _ym_uid=1662443318936557210; _ym_d=1662443318; _ym_isad=2; JSESSIONID=HVQR0gyDGqwLoAOOF1Ki00FJ6wcECsDILxOnWe19n0YVFcyo_B0_!1657466759!-518798756; __utma=168694820.1016347800.1662443317.1662443317.1662451322.2; __utmt=1; __utmb=168694820.8.9.1662451930600; wicket-modal-window-positions=multiSelectPopup%3A%3A133px%2C134px%2C850px%2C470px%7C',
+    'Origin': 'https://torgi.gov.ru',
+    'Referer': 'https://torgi.gov.ru/lotSearchArchive.html',
+    'Sec-Fetch-Dest': 'empty',
+    'Sec-Fetch-Mode': 'cors',
+    'Sec-Fetch-Site': 'same-origin',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36',
+    'Wicket-Ajax': 'true',
+    'Wicket-FocusedElementId': 'id16b',
+    'sec-ch-ua': '"Chromium";v="104", " Not A;Brand";v="99", "Google Chrome";v="104"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-platform': '"Windows"',
+}
+
+data = {
+    'id153_hf_0': '',
+    'extended:bidOrganization:bidOrganizationName': '',
+    'extended:bidOrganization:bidOrganizationLocation': '',
+    'extended:bidOrganization:bidOrganizationInn': '',
+    'extended:bidOrganization:bidOrganizationKinds:multiSelectText': '',
+    'extended:bidOrganization:bidOrganization': '',
+    'extended:bidNumberExtended:bidNumber': '',
+    'extended:bidNumberExtended:bidStatusId': '5',
+    'extended:bidNumberExtended:detailComplaintType': '',
+    'extended:bidNumberExtended:expireDateFrom': '',
+    'extended:bidNumberExtended:expireDateTo': '01.01.2022',
+    'extended:bidNumberExtended:publishDateFrom': '',
+    'extended:bidNumberExtended:publishDateTo': '',
+    'extended:bidNumberExtended:lastChangeDateFrom': '',
+    'extended:bidNumberExtended:lastChangeDateTo': '',
+    'extended:bidNumberExtended:resultDateFrom': '',
+    'extended:bidNumberExtended:resultDateTo': '',
+    'extended:propKind': '',
+    'extended:propertyTypes:multiSelectText': 'Здание; Нежилое помещение; Предприятие; Сооружение; Строение',
+    'extended:bidFormId': '',
+    'extended:country': '',
+    'extended:locationKladr': '',
+    'extended:kladrIdStr': '',
+    'extended:outputLists': '',
+    'search_panel:buttonsPanel:search': '1',
+}
+
+response = requests.post('https://torgi.gov.ru/lotSearchArchive.html?wicket:interface=:3:search_panel:buttonsPanel:search::IActivePageBehaviorListener:0:&wicket:ignoreIfNotActive=true&random=0.4362433836326167', cookies=cookies, headers=headers, data=data)

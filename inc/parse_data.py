@@ -148,7 +148,7 @@ def get_type(str):
             r'аптек\w+|cклад\w+|склад|спортивн\w+ зал\w*|бильярдн\w+|магази\w+|бокc\w*|офис\w*|Прачечн\w+|(столярн\w+ )?мастерск\w+|аптек\w+|молочн\w+ кухн\w+|' \
             r'помещение \w+(\W*\w*)? пункта|сарайка|машино\W*место|водозабор|Казарма|(\w+этажная )?автостоянка( с сервисным обслуживанием)?' \
             r')'
-    type_pattern = re.compile(r'(:?(:?Комплек\w+ |Администра\w+ )*(?<!этаж[еa]\W)(жилое\W)?здани[йе]\W+(?!\d+\W+помещение)(назначение\W+нежилое\W+\w+\W+наименование\W+)?'
+    type_pattern = re.compile(r'(:?(:?Комплек\w+ |Администра\w+ )*(?<!этаж[еa]\W)(\bжилое\W)?здани[йе]\W+(?!\d+\W+помещение)(назначение\W+нежилое\W+\w+\W+наименование\W+)?'
                               fr'((:?{types}|тепло\w+ пункт\w+|УПК|бан\w+|подстанции|Штаб|казарм\w+|столов\w+|кафе|библиотек\w+|деревянн\w+|рабоч\w+ казар\w+|контор\w+ управлен\w+|учебно\W+производственного корпуса|(центрального )?теплового пункта|профилактория|бытов\w+ помещ\w*|детской молочной кухни)\W+)*|'
                               fr'{types})',
                               flags=re.IGNORECASE)
@@ -169,10 +169,11 @@ def get_legacy(str):
         flags=re.IGNORECASE)
 
 def get_legacy_object(object):
-    if lget_legacy(i['lotDescription']) or get_legacy(i['lotName']):
+    if get_legacy(object['lotDescription']) or get_legacy(object['lotName']):
         return 1
     else:
-        for char in obj['characteristics']:
+        for char in object['characteristics']:
+            legacy = None
             if char["name"] == "Общие сведения об ограничениях и обременениях" and char.get("characteristicValue"):
                 legacy = get_legacy(char.get("characteristicValue"))
             elif char["name"] == "Вид ограничений и обременений " and char.get("characteristicValue"):

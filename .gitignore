@@ -23,6 +23,7 @@ parts/
 sdist/
 var/
 cache/
+archive_data/
 konturs/
 share/
 etc/
